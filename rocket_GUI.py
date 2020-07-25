@@ -12,7 +12,7 @@ root.title("Seralyn's Rocket Program")
 date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 # *** Rocket Info Dictionary ***
-dct1 = {
+rocketDictionary = {
         'Saturn V': ["Saturn V",
                      "NASA - National Aeronautics & Space Administration",
                      "Payload Capacity to LEO: 140,000kg (310,000 lbs)",
@@ -38,14 +38,24 @@ dct1 = {
     }
 
 # *** Class for Button Push ***
-#class ButtonPush:
 
-# *** Button Functionality Functions ***
+def pushDataToLabel(data):
+    return data[0] + "\n" + "\n" + data[1] + "\n" + "\n" + data[2] + "\n" + data[3] + "\n" + data[4] + "\n" + data[5]
+
+# *** Button Functionality ***
 def satVPushed():
-    satVLabelCreate = Label(mainWindowCenterFrame, text=dct1['Saturn V'])
-    satVLabelCreate.grid(row=0, column=0)
-    
+    satVLabelCreate = Label(mainWindowCenterFrame, text= pushDataToLabel(rocketDictionary["Saturn V"]), font="-weight bold")
+    satVLabelCreate.grid(row=0, column=0, padx=25)
+    satvphoto = PhotoImage(file="SaturnV.png")
+    satvImgLabel = Label(mainWindowRightFrame, image=satvphoto)
+    satvImgLabel.grid(row=0, column=0, sticky=E)
+
+def soyuzPushed():
+    soyuzLabelCreate = Label(mainWindowCenterFrame, text= pushDataToLabel(rocketDictionary["Soyuz"]))
+    soyuzLabelCreate.grid(row=0, column=0)
+
 # *** Adds Icon to window ***
+#works in windows, but not on Mac...why?
 root.iconbitmap("rocket_icon 512.ico")
 
 # *** Functions Definitionns ***
@@ -92,7 +102,7 @@ editMenu.add_command(label="Preferences...", command=doNothing)
 toolbarFrame = Frame(root, bg="orange", width=1200, height=20)
 mainWindowFrame = Frame(root, width=1200, height=650)
 mainWindowLeftFrame = Frame(mainWindowFrame, width=400, height=650)
-mainWindowCenterFrame = Frame(mainWindowFrame, width=400, height=650, bg="blue")
+mainWindowCenterFrame = Frame(mainWindowFrame, width=400, height=650)
 mainWindowRightFrame = Frame(mainWindowFrame, width=400, height=650, bg="green")
 statusBarFrame = Frame(root, bg="red", width=1200, height=20)
 
@@ -117,7 +127,7 @@ printButton = Button(toolbarFrame, text="Print", command=doNothing)
 rocketListLabel = Label(mainWindowLeftFrame, text= "Rockets:")
 
 satVButton = Button(mainWindowLeftFrame, text="Saturn V", bd=0, command=satVPushed)
-soyuzButton = Button(mainWindowLeftFrame, text="Soyuz", bd=0)
+soyuzButton = Button(mainWindowLeftFrame, text="Soyuz", bd=0, command=soyuzPushed)
 deltaIIIButton = Button(mainWindowLeftFrame, text="Delta III", bd=0)
 ariane62Button = Button(mainWindowLeftFrame, text="Ariane 62", bd=0)
 orbitIIButton = Button(mainWindowLeftFrame, text="ORBIT II", bd=0)
@@ -130,6 +140,17 @@ kaituozhe1Button = Button(mainWindowLeftFrame, text="Kaituozhe-1", bd=0)
 kuaizhouButton = Button(mainWindowLeftFrame, text="Kuaizhou", bd=0)
 longMarch1Button = Button(mainWindowLeftFrame, text="Long March 1", bd=0)
 longMarch1DButton = Button(mainWindowLeftFrame, text="Long March 1D", bd=0)
+falcon9Button = Button(mainWindowLeftFrame, text="Falcon 9", bd=0)
+falconHeavyButton = Button(mainWindowLeftFrame, text="Falcon Heavy", bd=0)
+slsButton = Button(mainWindowLeftFrame, text="S.L.S. (Space Launch System)", bd=0)
+newGlennButton = Button(mainWindowLeftFrame, text="New Glenn", bd=0)
+hIIAButton = Button(mainWindowLeftFrame, text="HII-A", bd=0)
+diamantButton = Button(mainWindowLeftFrame, text="Diamant", bd=0)
+otragButton = Button(mainWindowLeftFrame, text="OTRAG", bd=0)
+lambdaButton = Button(mainWindowLeftFrame, text="Lambda", bd=0)
+l4sButton = Button(mainWindowLeftFrame, text="L-4S", bd=0)
+muButton = Button(mainWindowLeftFrame, text="Mu", bd=0)
+m4sButton = Button(mainWindowLeftFrame, text="M-4S", bd=0)
 
 
 status = Label(statusBarFrame, text=date, bd=1, relief=SUNKEN)
@@ -141,21 +162,31 @@ printButton.grid(row=0, column=1, padx=3, pady=4, sticky=W)
 
 rocketListLabel.grid(row=0, column=0, padx=60, pady=5, sticky=N)
 
-satVButton.grid(row= 1, column=0)
-soyuzButton.grid(row= 2, column=0)
-deltaIIIButton.grid(row= 3, column=0)
-ariane62Button.grid(row= 4, column=0)
-orbitIIButton.grid(row=5, column=0)
-tronadorButton.grid(row=6, column=0)
-ausrockIVButton.grid(row=7, column=0)
-vls1Button.grid(row=8, column=0)
-vlmButton.grid(row=9, column=0)
-fengBao1Button.grid(row=10, column=0)
-kaituozhe1Button.grid(row=11, column=0)
-kuaizhouButton.grid(row=12, column=0)
-longMarch1Button.grid(row=13, column=0)
-longMarch1DButton.grid(row=14, column=0)
-
+satVButton.grid(row= 1, column=0, padx=15)
+soyuzButton.grid(row= 2, column=0, padx=15)
+deltaIIIButton.grid(row= 3, column=0, padx=15)
+ariane62Button.grid(row= 4, column=0, padx=15)
+orbitIIButton.grid(row=5, column=0, padx=15)
+tronadorButton.grid(row=6, column=0, padx=15)
+ausrockIVButton.grid(row=7, column=0, padx=15)
+vls1Button.grid(row=8, column=0, padx=15)
+vlmButton.grid(row=9, column=0, padx=15)
+fengBao1Button.grid(row=10, column=0, padx=15)
+kaituozhe1Button.grid(row=11, column=0, padx=15)
+kuaizhouButton.grid(row=12, column=0, padx=15)
+longMarch1Button.grid(row=13, column=0, padx=15)
+longMarch1DButton.grid(row=14, column=0, padx=15)
+falcon9Button.grid(row=15, column=0, padx=15)
+falconHeavyButton.grid(row=16, column=0, padx=15)
+slsButton.grid(row=17, column=0, padx=15)
+newGlennButton.grid(row=18, column=0, padx=15)
+hIIAButton.grid(row=19, column=0, padx=15)
+diamantButton.grid(row=20, column=0, padx=15)
+otragButton.grid(row=21, column=0, padx=15)
+lambdaButton.grid(row=22, column=0, padx=15)
+l4sButton.grid(row=23, column=0, padx=15)
+muButton.grid(row=24, column=0, padx=15)
+m4sButton.grid(row=25, column=0, padx=15)
 
 status.grid(row=0, columnspan=5)
 '''
