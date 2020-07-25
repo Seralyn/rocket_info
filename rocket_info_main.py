@@ -20,7 +20,7 @@ def rocket_inquiry(rocket_name):
         elif possAns == "D":
             print(dct1[rocket_name][4] + "\n")
         elif possAns == "E":
-            print(dct1[rocket_name][5] + "\n")A
+            print(dct1[rocket_name][5] + "\n")
         elif possAns == "F":
             print(returningMsg)
             inside_function = False
