@@ -1,8 +1,8 @@
 from tkinter import *
 import tkinter.messagebox
-#from PIL import ImageTk,Image
-#import sys
-#import os
+# from PIL import ImageTk,Image
+# import sys
+# import os
 import datetime
 
 root = Tk()
@@ -13,58 +13,78 @@ date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 # *** Rocket Info Dictionary ***
 rocketDictionary = {
-        'Saturn V': ["Saturn V",
-                     "NASA - National Aeronautics & Space Administration",
-                     "Payload Capacity to LEO: 140,000kg (310,000 lbs)",
-                     "Height: 110.6m (363ft)",
-                     "Diameter: 10.1m (33ft)",
-                     "Mass: 2,970,000 kg"],
-        "Soyuz": ["Soyuz",
-                  "Roscosmos",
-                  "Payload Capacity to LEO: 6,450 kilograms (14,220 lbs)",
-                  "Height: 45.6m (150 ft)",
-                  "Diameter: 10.3m (34ft)",
-                  "Mass: 308,000 kg"],
-        "Delta III": ["Delta III",
-                      "ULA - United Launch Alliance",
-                      "Payload Capacity to LEO: 8,290 kg (18,280 lbs)",
-                      "Height: 35m (115ft)", "Diameter: 4m (13ft)", "Mass: 301,450 kg"],
-        "Ariane 62": ["Ariane 62",
-                      "ESA - European Space Agency",
-                      "Payload Capacity to LEO: 10,350 kg (22,817 lbs)",
-                      "Height: 63m (207ft)",
-                      "Diameter: 5.4m (18ft)",
-                      "Mass: 530,000–860,000 kg"]
-    }
+    'Saturn V': ["Saturn V",
+                 "NASA - National Aeronautics & Space Administration",
+                 "Payload Capacity to LEO: 140,000kg (310,000 lbs)",
+                 "Height: 110.6m (363ft)",
+                 "Diameter: 10.1m (33ft)",
+                 "Mass: 2,970,000 kg"],
+    "Soyuz": ["Soyuz",
+              "Roscosmos",
+              "Payload Capacity to LEO: 6,450 kilograms (14,220 lbs)",
+              "Height: 45.6m (150 ft)",
+              "Diameter: 10.3m (34ft)",
+              "Mass: 308,000 kg"],
+    "Delta III": ["Delta III",
+                  "ULA - United Launch Alliance",
+                  "Payload Capacity to LEO: 8,290 kg (18,280 lbs)",
+                  "Height: 35m (115ft)", "Diameter: 4m (13ft)", "Mass: 301,450 kg"],
+    "Ariane 62": ["Ariane 62",
+                  "ESA - European Space Agency",
+                  "Payload Capacity to LEO: 10,350 kg (22,817 lbs)",
+                  "Height: 63m (207ft)",
+                  "Diameter: 5.4m (18ft)",
+                  "Mass: 530,000–860,000 kg"]
+}
+
 
 # *** Class for Button Push ***
 
 def pushDataToLabel(data):
     return data[0] + "\n" + "\n" + data[1] + "\n" + "\n" + data[2] + "\n" + data[3] + "\n" + data[4] + "\n" + data[5]
 
-# *** Button Functionality ***
+
+# *** Adds Icon to window ***
+# works in windows, but not on Mac...why?
+root.iconbitmap("rocket_icon 512.ico")
+
+# labelCreate = Label (mainWindowCenterFrame, text="poop", font="-weight bol")  **to create bold text**
+
+# *** Button Functionality/Functions Definitions ***
 def satVPushed():
-    satVLabelCreate = Label(mainWindowCenterFrame, text= pushDataToLabel(rocketDictionary["Saturn V"]), font="-weight bold")
+    satVLabelCreate = Label(mainWindowCenterFrame, text="")
+
     satVLabelCreate.grid(row=0, column=0, padx=25)
     satvphoto = PhotoImage(file="SaturnV.png")
     satvImgLabel = Label(mainWindowRightFrame, image=satvphoto)
     satvImgLabel.grid(row=0, column=0, sticky=E)
+    satVLabelCreate.configure(text=pushDataToLabel(rocketDictionary["Saturn V"]))
 
 def soyuzPushed():
-    soyuzLabelCreate = Label(mainWindowCenterFrame, text= pushDataToLabel(rocketDictionary["Soyuz"]))
+    soyuzLabelCreate = Label(mainWindowCenterFrame, text="")
     soyuzLabelCreate.grid(row=0, column=0)
+    #img placement here
+    soyuzLabelCreate.configure(text=pushDataToLabel(rocketDictionary["Soyuz"]))
 
-# *** Adds Icon to window ***
-#works in windows, but not on Mac...why?
-root.iconbitmap("rocket_icon 512.ico")
+def deltaIIIPushed():
+    deltaIIILabelCreate = Label(mainWindowCenterFrame, text="")
+    deltaIIILabelCreate.grid(row=0, column=0)
+    #imA  deltaIIILabelCreate.configure(text=pushDataToLabel(rocketDictionary["Delta III"]))
+    deltaIIILabelCreate.configure(text=pushDataToLabel(rocketDictionary["Delta III"]))
 
-# *** Functions Definitionns ***
+def ariane62Pushed():
+    ariane62LabelCreate = Label(mainWindowCenterFrame, text="")
+    ariane62LabelCreate.grid(row=0, column=0)
+    #img placement here
+    ariane62LabelCreate.configure(text=pushDataToLabel(rocketDictionary["Ariane 62"]))
 
 def doNothing():
     print("Nothing happened, of course.")
 
+
 def quit():
     root.quit()
+
 
 # *** Popup Menus ***
 '''
@@ -104,32 +124,32 @@ mainWindowFrame = Frame(root, width=1200, height=650)
 mainWindowLeftFrame = Frame(mainWindowFrame, width=400, height=650)
 mainWindowCenterFrame = Frame(mainWindowFrame, width=400, height=650)
 mainWindowRightFrame = Frame(mainWindowFrame, width=400, height=650, bg="green")
-statusBarFrame = Frame(root, bg="red", width=1200, height=20)
+statusBarFrame = Frame(root, width=1200, height=20)
 
 # layout parameters of the main containers
 root.grid_rowconfigure(1, weight=1)
 root.grid_columnconfigure(0, weight=1)
-
 
 # *** Layout of all Framees/Containers ***
 toolbarFrame.grid(row=0, sticky="ew")
 mainWindowFrame.grid(row=1, sticky="nsew")
 mainWindowLeftFrame.grid(row=0, column=0)
 mainWindowCenterFrame.grid(row=0, column=1)
+mainWindowCenterFrame.grid_propagate(FALSE)
 mainWindowRightFrame.grid(row=0, column=2)
 statusBarFrame.grid(row=2)
-
+statusBarFrame.grid_propagate(FALSE)
 
 # *** Create all buttons/Labels ***
-insertButton = Button(toolbarFrame, text="Insert Image",command=doNothing)
+insertButton = Button(toolbarFrame, text="Insert Image", command=doNothing)
 printButton = Button(toolbarFrame, text="Print", command=doNothing)
 
-rocketListLabel = Label(mainWindowLeftFrame, text= "Rockets:")
+rocketListLabel = Label(mainWindowLeftFrame, text="Rockets:")
 
-satVButton = Button(mainWindowLeftFrame, text="Saturn V", bd=0, command=satVPushed)
+satVButton = Button(mainWindowLeftFrame, relief=FLAT, text="Saturn V", bd=0, command=satVPushed)
 soyuzButton = Button(mainWindowLeftFrame, text="Soyuz", bd=0, command=soyuzPushed)
-deltaIIIButton = Button(mainWindowLeftFrame, text="Delta III", bd=0)
-ariane62Button = Button(mainWindowLeftFrame, text="Ariane 62", bd=0)
+deltaIIIButton = Button(mainWindowLeftFrame, text="Delta III", bd=0, command=deltaIIIPushed)
+ariane62Button = Button(mainWindowLeftFrame, text="Ariane 62", bd=0 , command=ariane62Pushed)
 orbitIIButton = Button(mainWindowLeftFrame, text="ORBIT II", bd=0)
 tronadorButton = Button(mainWindowLeftFrame, text="TRONADOR", bd=0)
 ausrockIVButton = Button(mainWindowLeftFrame, text="AUSROCK IV", bd=0)
@@ -152,9 +172,7 @@ l4sButton = Button(mainWindowLeftFrame, text="L-4S", bd=0)
 muButton = Button(mainWindowLeftFrame, text="Mu", bd=0)
 m4sButton = Button(mainWindowLeftFrame, text="M-4S", bd=0)
 
-
 status = Label(statusBarFrame, text=date, bd=1, relief=SUNKEN)
-
 
 # *** Placement & Layout of all Buttons ***
 insertButton.grid(row=0, column=0, padx=3, pady=4, sticky=W)
@@ -162,10 +180,10 @@ printButton.grid(row=0, column=1, padx=3, pady=4, sticky=W)
 
 rocketListLabel.grid(row=0, column=0, padx=60, pady=5, sticky=N)
 
-satVButton.grid(row= 1, column=0, padx=15)
-soyuzButton.grid(row= 2, column=0, padx=15)
-deltaIIIButton.grid(row= 3, column=0, padx=15)
-ariane62Button.grid(row= 4, column=0, padx=15)
+satVButton.grid(row=1, column=0, padx=15)
+soyuzButton.grid(row=2, column=0, padx=15)
+deltaIIIButton.grid(row=3, column=0, padx=15)
+ariane62Button.grid(row=4, column=0, padx=15)
 orbitIIButton.grid(row=5, column=0, padx=15)
 tronadorButton.grid(row=6, column=0, padx=15)
 ausrockIVButton.grid(row=7, column=0, padx=15)
@@ -188,42 +206,20 @@ l4sButton.grid(row=23, column=0, padx=15)
 muButton.grid(row=24, column=0, padx=15)
 m4sButton.grid(row=25, column=0, padx=15)
 
-status.grid(row=0, columnspan=5)
-'''
-sortRocketsLabel.grid(row=1, column=0)
-
-alphabeticalButton.grid(row=2, column=0)
-agencyButton.grid(row=3, column=0)
-countryButton.grid(row=4, column=0)
-classButton.grid(row=5, column=0)
-operationalButton.grid(row=6, column=0)
-payloadHLButton.grid(row=7, column=0)
-payloadLHButton.grid(row=8, column=0)
-massHLButton.grid(row=9, column=0)
-massLHButton.grid(row=10, column=0)
-diameterHLButton.grid(row=11, column=0)
-massLHButton.grid(row=12, column=0)
-heightHLButton.grid(row=13, column=0)
-heightLHButton.grid(row=14, column=0)
-'''
+status.grid(row=0, columnspan=5, sticky="EW")
+#sticky EW seems to do nothing here. How can I stretch the status bar out to the size of the whole frame?
 
 # *** Add Image ***
-#satvphoto = PhotoImage(file="SaturnV.png")
-#satvlabel = Label(root, image=satvphoto)
-#satvlabel.grid(anchor=E)   #find out why this can't anchor to the right of the sorting options
+# satvphoto = PhotoImage(file="SaturnV.png")
+# satvlabel = Label(root, image=satvphoto)
+# satvlabel.grid(anchor=E)   #find out why this can't anchor to the right of the sorting options
 
-# **To remind usage of .grid() system instead of .grid() system
-#entry_1.grid(row=0, column=1)
-#entry_2.grid(row=1, column=1)
+# **To remind usage of .grid() system instead of .pack() system
+# entry_1.grid(row=0, column=1)
+# entry_2.grid(row=1, column=1)
 
 '''If you want to handle jpg as well as png, import Image and ImageTk from PIL then do:
 image = Image.open("Image Name")
 photo = ImageTk.PhotoImage(image)'''
-
-# *** The Status Bar [bottom] ***
-
-
-
-
 
 root.mainloop()
