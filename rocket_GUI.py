@@ -1,85 +1,148 @@
-from tkinter import *
-import tkinter.messagebox
-# from PIL import ImageTk,Image
 # import sys
 # import os
 import datetime
+from tkinter import *
+import tkinter.messagebox
+
 
 root = Tk()
 root.geometry("1200x700")
-root.title("Seralyn's Rocket Program")
+root.title("Working Title: Seralyn's Rocket Program")
 
 date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 # *** Rocket Info Dictionary ***
 rocketDictionary = {
-    'Saturn V': ["Saturn V",
-                 "NASA - National Aeronautics & Space Administration",
-                 "Payload Capacity to LEO: 140,000kg (310,000 lbs)",
-                 "Height: 110.6m (363ft)",
-                 "Diameter: 10.1m (33ft)",
-                 "Mass: 2,970,000 kg"],
-    "Soyuz": ["Soyuz",
-              "Roscosmos",
-              "Payload Capacity to LEO: 6,450 kilograms (14,220 lbs)",
-              "Height: 45.6m (150 ft)",
-              "Diameter: 10.3m (34ft)",
-              "Mass: 308,000 kg"],
-    "Delta III": ["Delta III",
-                  "ULA - United Launch Alliance",
-                  "Payload Capacity to LEO: 8,290 kg (18,280 lbs)",
-                  "Height: 35m (115ft)", "Diameter: 4m (13ft)", "Mass: 301,450 kg"],
-    "Ariane 62": ["Ariane 62",
-                  "ESA - European Space Agency",
-                  "Payload Capacity to LEO: 10,350 kg (22,817 lbs)",
-                  "Height: 63m (207ft)",
-                  "Diameter: 5.4m (18ft)",
-                  "Mass: 530,000–860,000 kg"]
+    'Saturn V': {
+        "Name": "Saturn V",
+        "Agency": "NASA - National Aeronautics & Space Administration",
+        "Payload Capacity to LEO": "140,000kg (310,000 lbs)",
+        "Height": "110.6m (363ft)",
+        "Diameter": "10.1m (33ft)",
+        "Mass": "2,970,000 kg",
+        "Years in Operation": "1967-1972",
+        "Country": "USA"
+    },
+    'Soyuz': {
+        "Name": "Soyuz",
+        "Agency": "Roscosmos",
+        "Payload Capacity to LEO": "6,450 kilograms (14,220 lbs)",
+        "Height": "45.6m (150 ft)",
+        "Diameter": "10.3m (34ft)",
+        "Mass": "308,000 kg",
+        "Years in Operation": "1967-present",
+        "Country": "Russia"
+    },
+
+    "Delta III": {
+        "Name": "Delta III",
+        "Agency": "ULA - United Launch Alliance",
+        "Payload Capacity to LEO": "8,290 kg (18,280 lbs)",
+        "Height": "35m (115ft)",
+        "Diameter": "4m (13ft)",
+        "Mass": "301,450 kg",
+        "Years in Operation": "1993-current",
+        "Country": "USA"
+    },
+
+    "Ariane 62": {
+        "Name": "Ariane 62",
+        "Agency": "ESA - European Space Agency",
+        "Payload Capacity to LEO": "10,350 kg (22,817 lbs)",
+        "Height": "63m (207ft)",
+        "Diameter": "5.4m (18ft)",
+        "Mass": "530,000–860,000 kg",
+        "Years in Operation": "2007-2019",
+        "Country": "France(EU)"
+    },
+    "ORBIT II": {
+        "Name": "ORBIT II",
+        "Agency": "CNAE - Comisión Nacional de Actividades Espaciales",
+        "Payload Capacity to LEO": "250 kg to Polar",
+        "Height": "28 m (92 ft)",
+        "Diameter": "2.5 m (8 ft 2 in)",
+        "Mass": "67,000 kg (148,000 lb) (including propellant)",
+        "Years in Operation": "2020(slated)~",
+        "Country": "Argentina"
+    }
 }
 
 
 # *** Class for Button Push ***
 
 def pushDataToLabel(data):
-    return data[0] + "\n" + "\n" + data[1] + "\n" + "\n" + data[2] + "\n" + data[3] + "\n" + data[4] + "\n" + data[5]
+    return data["Name"] + "\n" + "\n" + "Country: " + data["Country"] + "\n" + "Agency/Company: " + "\n" + data[
+        "Agency"] \
+           + "\n" + "\n" + "Payload Capacity to LEO: " + data["Payload Capacity to LEO"] + "\n" + "Height: " \
+           + data["Height"] + "\n" + "Diameter: " + data["Diameter"] + "\n" + "Mass: " + data["Mass"] + "\n" \
+           + "Years in Operation: " + data["Years in Operation"]
 
 
 # *** Adds Icon to window ***
 # works in windows, but not on Mac...why?
 root.iconbitmap("rocket_icon 512.ico")
 
-# labelCreate = Label (mainWindowCenterFrame, text="poop", font="-weight bol")  **to create bold text**
+# *** Loose Variables ***
+
+# labelCreate = Label (mainWindowCenterFrame, text="poop", font="-weight bold")  **to create bold text**
 
 # *** Button Functionality/Functions Definitions ***
 def satVPushed():
     satVLabelCreate = Label(mainWindowCenterFrame, text="")
-
     satVLabelCreate.grid(row=0, column=0, padx=25)
-    satvphoto = PhotoImage(file="SaturnV.png")
-    satvImgLabel = Label(mainWindowRightFrame, image=satvphoto)
-    satvImgLabel.grid(row=0, column=0, sticky=E)
     satVLabelCreate.configure(text=pushDataToLabel(rocketDictionary["Saturn V"]))
+    # satvphoto = PhotoImage(file="SaturnV.png")
+    # satvImgLabel = Label(mainWindowRightFrame, image=satvphoto)
+    # satvImgLabel.grid(row=0, column=0, sticky=E)
+
 
 def soyuzPushed():
     soyuzLabelCreate = Label(mainWindowCenterFrame, text="")
     soyuzLabelCreate.grid(row=0, column=0)
-    #img placement here
+    # img placement here
     soyuzLabelCreate.configure(text=pushDataToLabel(rocketDictionary["Soyuz"]))
+
 
 def deltaIIIPushed():
     deltaIIILabelCreate = Label(mainWindowCenterFrame, text="")
     deltaIIILabelCreate.grid(row=0, column=0)
-    #imA  deltaIIILabelCreate.configure(text=pushDataToLabel(rocketDictionary["Delta III"]))
     deltaIIILabelCreate.configure(text=pushDataToLabel(rocketDictionary["Delta III"]))
+
 
 def ariane62Pushed():
     ariane62LabelCreate = Label(mainWindowCenterFrame, text="")
     ariane62LabelCreate.grid(row=0, column=0)
-    #img placement here
+    # img placement here
     ariane62LabelCreate.configure(text=pushDataToLabel(rocketDictionary["Ariane 62"]))
+
+
+def orbitIIPushed():
+    orbitIILabelCreate = Label(mainWindowCenterFrame, text="")
+    orbitIILabelCreate.grid(row=0, column=0)
+    orbitIILabelCreate.configure(text=pushDataToLabel(rocketDictionary["ORBIT II"]))
+
 
 def doNothing():
     print("Nothing happened, of course.")
+
+def helpMenuVersionPushed():
+    tkinter.messagebox.showinfo("Version", "0.1 Alpha")
+
+#def helpAboutPopUp():
+ #   aboutPopUp = Toplevel(height=600, width=800)
+
+def helpMenuAboutPushed():
+    tkinter.messagebox.showinfo("About",
+                                '''
+    Developer: Seralyn Campbell
+                                
+    Email: seralyncampbell@gmail.com
+                                
+    Written in: Python
+                                
+    Open Source Software: 
+    https://github.com/Seralyn/rocket_info
+                                ''')
 
 
 def quit():
@@ -118,6 +181,13 @@ editMenu.add_command(label="Redo", command=doNothing)
 editMenu.add_separator()
 editMenu.add_command(label="Preferences...", command=doNothing)
 
+helpMenu = Menu(menu, tearoff=FALSE)
+menu.add_cascade(label="Help", menu=helpMenu)
+helpMenu.add_command(label="About", command=helpMenuAboutPushed)
+helpMenu.add_command(label="Version", command=helpMenuVersionPushed)
+helpMenu.add_command(label="List of Acronyms", command=doNothing)
+
+
 # *** Create all Frames/Containers ***
 toolbarFrame = Frame(root, bg="orange", width=1200, height=20)
 mainWindowFrame = Frame(root, width=1200, height=650)
@@ -149,8 +219,8 @@ rocketListLabel = Label(mainWindowLeftFrame, text="Rockets:")
 satVButton = Button(mainWindowLeftFrame, relief=FLAT, text="Saturn V", bd=0, command=satVPushed)
 soyuzButton = Button(mainWindowLeftFrame, text="Soyuz", bd=0, command=soyuzPushed)
 deltaIIIButton = Button(mainWindowLeftFrame, text="Delta III", bd=0, command=deltaIIIPushed)
-ariane62Button = Button(mainWindowLeftFrame, text="Ariane 62", bd=0 , command=ariane62Pushed)
-orbitIIButton = Button(mainWindowLeftFrame, text="ORBIT II", bd=0)
+ariane62Button = Button(mainWindowLeftFrame, text="Ariane 62", bd=0, command=ariane62Pushed)
+orbitIIButton = Button(mainWindowLeftFrame, text="ORBIT II", bd=0, command=orbitIIPushed)
 tronadorButton = Button(mainWindowLeftFrame, text="TRONADOR", bd=0)
 ausrockIVButton = Button(mainWindowLeftFrame, text="AUSROCK IV", bd=0)
 vls1Button = Button(mainWindowLeftFrame, text="VLS-1", bd=0)
@@ -207,7 +277,7 @@ muButton.grid(row=24, column=0, padx=15)
 m4sButton.grid(row=25, column=0, padx=15)
 
 status.grid(row=0, columnspan=5, sticky="EW")
-#sticky EW seems to do nothing here. How can I stretch the status bar out to the size of the whole frame?
+# sticky EW seems to do nothing here. How can I stretch the status bar out to the size of the whole frame?
 
 # *** Add Image ***
 # satvphoto = PhotoImage(file="SaturnV.png")
