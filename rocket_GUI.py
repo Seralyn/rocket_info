@@ -6,6 +6,7 @@ import tkinter.messagebox
 
 
 root = Tk()
+root.configure(bg="gray30")
 root.geometry("1200x700")
 root.title("Working Title: Seralyn's Rocket Program")
 
@@ -252,6 +253,21 @@ rocketDictionary = {
         prototype was expected to be launched in 2016.
         '''
         },
+    "Placeholder": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+        '''
+        '''
+        },
 "Placeholder": {
         "Name": "",
         "Agency": "",
@@ -260,8 +276,13 @@ rocketDictionary = {
         "Diameter": "",
         "Mass": "",
         "Years in Operation": "",
-        "Country": ""
-    },
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+        '''
+        '''
+        },
 "Placeholder": {
         "Name": "",
         "Agency": "",
@@ -270,8 +291,13 @@ rocketDictionary = {
         "Diameter": "",
         "Mass": "",
         "Years in Operation": "",
-        "Country": ""
-    },
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+        '''
+        '''
+        },
 "Placeholder": {
         "Name": "",
         "Agency": "",
@@ -280,8 +306,13 @@ rocketDictionary = {
         "Diameter": "",
         "Mass": "",
         "Years in Operation": "",
-        "Country": ""
-    },
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+        '''
+        '''
+        },
 "Placeholder": {
         "Name": "",
         "Agency": "",
@@ -290,8 +321,13 @@ rocketDictionary = {
         "Diameter": "",
         "Mass": "",
         "Years in Operation": "",
-        "Country": ""
-    },
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+        '''
+        '''
+        },
 "Placeholder": {
         "Name": "",
         "Agency": "",
@@ -300,8 +336,13 @@ rocketDictionary = {
         "Diameter": "",
         "Mass": "",
         "Years in Operation": "",
-        "Country": ""
-    },
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+        '''
+        '''
+        },
 "Placeholder": {
         "Name": "",
         "Agency": "",
@@ -310,15 +351,24 @@ rocketDictionary = {
         "Diameter": "",
         "Mass": "",
         "Years in Operation": "",
-        "Country": ""
-    }
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+        '''
+        '''
+        },
+
 
 }
 
 # *** Class for Button Push ***
 
+def pushDataToLabelTitle(data):
+   return data["Name"]   #after fixing this, make sure to create a label placement and to delete data[name] below
+
 def pushDataToLabel(data):
-    return data["Name"] + "\n" + "\n" + "Country: " + data["Country"] + "\n" + "Agency/Company: " + "\n" + data[
+    return  "\n" + "\n" + "Country: " + data["Country"] + "\n" + "Agency/Company: " + "\n" + data[
         "Agency"]  + "\n" + "\n" + "Payload Capacity to LEO: " + data["Payload Capacity to LEO"] + "\n" + "Height: " \
            + data["Height"] + "\n" + "Diameter: " + data["Diameter"] + "\n" + "Mass: " + data["Mass"] + "\n" \
            + "Years in Operation: " + data["Years in Operation"]+ "\n" + "\n" + "Additional Information: " + data["Additional Information"]
@@ -327,48 +377,32 @@ def pushDataToLabel(data):
 
 # *** Button Functionality/Functions Definitions ***
 def satVPushed():
-    #satVLabelCreate = Label(mainWindowCenterFrame, text="")
-    #satVLabelCreate.grid(row=0, column=0, padx=25)
+    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['Saturn V']))
     infoLabel.configure(text=pushDataToLabel(rocketDictionary["Saturn V"]))
     imgLabel.configure(image=satvphoto)
-    # satvphoto = PhotoImage(file="SaturnV.png")
-    # satvImgLabel = Label(mainWindowRightFrame, image=satvphoto)
-    # satvImgLabel.grid(row=0, column=0, sticky=E)
-
 
 def soyuzPushed():
+    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['Soyuz']))
     infoLabel.configure(text=pushDataToLabel(rocketDictionary["Soyuz"]))
     imgLabel.configure(image=soyuzphoto)
-    #soyuzLabelCreate = Label(mainWindowCenterFrame, text="")
-    #soyuzLabelCreate.grid(row=0, column=0)
-    # img placement here
-    #soyuzLabelCreate.configure(text=pushDataToLabel(rocketDictionary["Soyuz"]))
 
 def deltaIIIPushed():
+    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['Delta III']))
     infoLabel.configure(text=pushDataToLabel(rocketDictionary["Delta III"]))
     imgLabel.configure(image=deltaIIIphoto)
-    #deltaIIILabelCreate = Label(mainWindowCenterFrame, text="")
-    #deltaIIILabelCreate.grid(row=0, column=0)
-    #deltaIIILabelCreate.configure(text=pushDataToLabel(rocketDictionary["Delta III"]))
-
 
 def ariane62Pushed():
+    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['Ariane 62']))
     infoLabel.configure(text=pushDataToLabel(rocketDictionary["Ariane 62"]))
     imgLabel.configure(image=ariane62photo)
-    #ariane62LabelCreate = Label(mainWindowCenterFrame, text="")
-    #ariane62LabelCreate.grid(row=0, column=0)
-    # img placement here
-    #ariane62LabelCreate.configure(text=pushDataToLabel(rocketDictionary["Ariane 62"]))
-
 
 def TronadorIIPushed():
+    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['Tronador II']))
     infoLabel.configure(text=pushDataToLabel(rocketDictionary["Tronador II"]))
     imgLabel.configure(image=tronadorIIphoto)
-    #TronadorIILabelCreate = Label(mainWindowCenterFrame, text="")
-    #TronadorIILabelCreate.grid(row=0, column=0)
-    #TronadorIILabelCreate.configure(text=pushDataToLabel(rocketDictionary["Tronador II"]))
 
 def vls1Pushed():
+    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['VLS-1']))
     vls1LabelCreate = Label(mainWindowCenterFrame, text="")
     vls1LabelCreate.grid(row=0, column=0)
     vls1LabelCreate.configure(text=pushDataToLabel(rocketDictionary["VLS-1"]))
@@ -412,10 +446,10 @@ elif pop_up_answer == "no":
 '''
 # ***The Main Menu ***
 
-menu = Menu(root)
-root.config(menu=menu)
+menu = Menu(root, bg="gray63")
+root.config(menu=menu, bg="gray63")
 
-sortMenu = Menu(menu, tearoff=FALSE)
+sortMenu = Menu(menu, bg="gray63", bd=0, tearoff=FALSE)
 menu.add_cascade(label="Sort", menu=sortMenu)
 sortMenu.add_command(label="Alphabetical", command=doNothing)
 sortMenu.add_command(label="Agency/Company", command=doNothing)
@@ -442,12 +476,12 @@ helpMenu.add_command(label="List of Acronyms", command=doNothing)
 
 
 # *** Create all Frames/Containers ***
-toolbarFrame = Frame(root, bg="orange", width=1200, height=20)
-mainWindowFrame = Frame(root, width=1200, height=650)
-mainWindowLeftFrame = Frame(mainWindowFrame, width=400, height=650)
-mainWindowCenterFrame = Frame(mainWindowFrame, width=600, height=650)
-mainWindowRightFrame = Frame(mainWindowFrame, width=400, height=650, bg="green")
-statusBarFrame = Frame(root, width=1200, height=20)
+toolbarFrame = Frame(root, bg="gray30", width=1200, height=20)
+mainWindowFrame = Frame(root, bg="gray63", width=1200, height=650)
+mainWindowLeftFrame = Frame(mainWindowFrame, bg="gray63", width=400, height=650, padx=10)
+mainWindowCenterFrame = Frame(mainWindowFrame, bg="gray63", width=600, height=650)
+mainWindowRightFrame = Frame(mainWindowFrame, bg="gray63", width=400, height=650)
+statusBarFrame = Frame(root, bg="gray76", width=1200, height=20)
 
 # layout parameters of the main containers
 root.grid_rowconfigure(1, weight=1)
@@ -475,36 +509,37 @@ tronadorIIphoto = PhotoImage(file="tronador ii.png")
 insertButton = Button(toolbarFrame, text="Insert Image", command=doNothing)
 printButton = Button(toolbarFrame, text="Print", command=doNothing)
 
-rocketListLabel = Label(mainWindowLeftFrame, text="Rockets:")
+rocketListLabel = Label(mainWindowLeftFrame, bg="gray63", text="Rockets:", font="-weight bold")
 
-satVButton = Button(mainWindowLeftFrame, relief=FLAT, text="Saturn V", bd=0, command=satVPushed)
-soyuzButton = Button(mainWindowLeftFrame, text="Soyuz", bd=0, command=soyuzPushed)
-deltaIIIButton = Button(mainWindowLeftFrame, text="Delta III", bd=0, command=deltaIIIPushed)
-ariane62Button = Button(mainWindowLeftFrame, text="Ariane 62", bd=0, command=ariane62Pushed)
-TronadorIIButton = Button(mainWindowLeftFrame, text="Tronador II", bd=0, command=TronadorIIPushed)
-ausrockIVButton = Button(mainWindowLeftFrame, text="AUSROCK IV", bd=0)
-vls1Button = Button(mainWindowLeftFrame, text="VLS-1", bd=0, command=vls1Pushed)
-vlmButton = Button(mainWindowLeftFrame, text="VLM", bd=0)
-fengBao1Button = Button(mainWindowLeftFrame, text="Feng Bao 1", bd=0)
-kaituozhe1Button = Button(mainWindowLeftFrame, text="Kaituozhe-1", bd=0)
-kuaizhouButton = Button(mainWindowLeftFrame, text="Kuaizhou", bd=0)
-longMarch1Button = Button(mainWindowLeftFrame, text="Long March 1", bd=0)
-longMarch1DButton = Button(mainWindowLeftFrame, text="Long March 1D", bd=0)
-falcon9Button = Button(mainWindowLeftFrame, text="Falcon 9", bd=0)
-falconHeavyButton = Button(mainWindowLeftFrame, text="Falcon Heavy", bd=0)
-slsButton = Button(mainWindowLeftFrame, text="S.L.S. (Space Launch System)", bd=0)
-newGlennButton = Button(mainWindowLeftFrame, text="New Glenn", bd=0)
-hIIAButton = Button(mainWindowLeftFrame, text="HII-A", bd=0)
-diamantButton = Button(mainWindowLeftFrame, text="Diamant", bd=0)
-otragButton = Button(mainWindowLeftFrame, text="OTRAG", bd=0)
-lambdaButton = Button(mainWindowLeftFrame, text="Lambda", bd=0)
-l4sButton = Button(mainWindowLeftFrame, text="L-4S", bd=0)
-muButton = Button(mainWindowLeftFrame, text="Mu", bd=0)
-m4sButton = Button(mainWindowLeftFrame, text="M-4S", bd=0)
+satVButton = Button(mainWindowLeftFrame, pady=4, relief=FLAT, text="Saturn V", bd=0, command=satVPushed)
+soyuzButton = Button(mainWindowLeftFrame, pady=4,  text="Soyuz", bd=0, command=soyuzPushed)
+deltaIIIButton = Button(mainWindowLeftFrame, pady=4,  text="Delta III", bd=0, command=deltaIIIPushed)
+ariane62Button = Button(mainWindowLeftFrame, pady=4,  text="Ariane 62", bd=0, command=ariane62Pushed)
+TronadorIIButton = Button(mainWindowLeftFrame, pady=4,  text="Tronador II", bd=0, command=TronadorIIPushed)
+ausrockIVButton = Button(mainWindowLeftFrame, pady=4,  text="AUSROCK IV", bd=0)
+vls1Button = Button(mainWindowLeftFrame, pady=4,  text="VLS-1", bd=0, command=vls1Pushed)
+vlmButton = Button(mainWindowLeftFrame, pady=4,  text="VLM", bd=0)
+fengBao1Button = Button(mainWindowLeftFrame, pady=4,  text="Feng Bao 1", bd=0)
+kaituozhe1Button = Button(mainWindowLeftFrame, pady=4,  text="Kaituozhe-1", bd=0)
+kuaizhouButton = Button(mainWindowLeftFrame, pady=4,  text="Kuaizhou", bd=0)
+longMarch1Button = Button(mainWindowLeftFrame, pady=4,  text="Long March 1", bd=0)
+longMarch1DButton = Button(mainWindowLeftFrame, pady=4,  text="Long March 1D", bd=0)
+falcon9Button = Button(mainWindowLeftFrame, pady=4,  text="Falcon 9", bd=0)
+falconHeavyButton = Button(mainWindowLeftFrame, pady=4,  text="Falcon Heavy", bd=0)
+slsButton = Button(mainWindowLeftFrame, pady=4,  text="S.L.S. (Space Launch System)", bd=0)
+newGlennButton = Button(mainWindowLeftFrame, pady=4,  text="New Glenn", bd=0)
+hIIAButton = Button(mainWindowLeftFrame, pady=4,  text="HII-A", bd=0)
+diamantButton = Button(mainWindowLeftFrame, pady=4,  text="Diamant", bd=0)
+otragButton = Button(mainWindowLeftFrame, pady=4,  text="OTRAG", bd=0)
+lambdaButton = Button(mainWindowLeftFrame, pady=4,  text="Lambda", bd=0)
+l4sButton = Button(mainWindowLeftFrame, pady=4,  text="L-4S", bd=0)
+muButton = Button(mainWindowLeftFrame, pady=4,  text="Mu", bd=0)
+m4sButton = Button(mainWindowLeftFrame, pady=4,  text="M-4S", bd=0)
 
-infoLabel = Label(mainWindowCenterFrame)
+rocketName = Label(mainWindowCenterFrame, font="-weight bold", bg="gray63")
+infoLabel = Label(mainWindowCenterFrame, bg="gray63")
 
-imgLabel = Label(mainWindowRightFrame)
+imgLabel = Label(mainWindowRightFrame, border=0, padx=20)  #padx does nothing...why?
 
 status = Label(statusBarFrame, text=date, bd=1, relief=SUNKEN)
 
@@ -539,7 +574,8 @@ l4sButton.grid(row=23, column=0, padx=15)
 muButton.grid(row=24, column=0, padx=15)
 m4sButton.grid(row=25, column=0, padx=15)
 
-infoLabel.grid(row=0, column=0, padx=25)
+rocketName.grid(row=0, column=0)
+infoLabel.grid(row=1, column=0, padx=25)
 
 imgLabel.grid(row=0, column=0, sticky=E)
 
