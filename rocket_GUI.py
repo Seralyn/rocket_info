@@ -6,8 +6,8 @@ import tkinter.messagebox
 
 root = Tk()
 root.configure()
-root.geometry("1250x800")
-root.title("Working Title: Seralyn's Rocket Program")
+root.geometry("1350x800")
+root.title("Working Title: SRP")
 
 # *** Adds Icon to window ***
 # works in windows, but not on Mac...why?
@@ -66,7 +66,7 @@ rocketDictionary = {
         "Height": "45.6m (150 ft)",
         "Diameter": "10.3m (34ft)",
         "Mass": "308,000 kg",
-        "Years in Operation": "1967-present",
+        "Years in Operation": "1966-present",
         "Country": "Russia",
         "Operational Status": "Active",
         "Number of Stages": "3",
@@ -113,12 +113,12 @@ rocketDictionary = {
 
     "Delta III": {
         "Name": "Delta III",
-        "Agency": "ULA - United Launch Alliance",
+        "Agency": "Boeing & MHI - Mitsubishi Heavy Industries",
         "Payload Capacity to LEO": "8,290 kg (18,280 lbs)",
         "Height": "35m (115ft)",
         "Diameter": "4m (13ft)",
         "Mass": "301,450 kg",
-        "Years in Operation": "1993-current",
+        "Years in Operation": "1998-2000",
         "Country": "USA",
         "Operational Status": "Retired",
         "Number of Stages": "2",
@@ -157,12 +157,12 @@ rocketDictionary = {
 
     "Ariane 62": {
         "Name": "Ariane 62",
-        "Agency": "ESA - European Space Agency",
+        "Agency": "ArianeGroup",
         "Payload Capacity to LEO": "10,350 kg (22,817 lbs)",
         "Height": "63m (207ft)",
         "Diameter": "5.4m (18ft)",
         "Mass": "530,000–860,000 kg",
-        "Years in Operation": "2007-2019",
+        "Years in Operation": "2021~",
         "Country": "France(EU)",
         "Operational Status": "In Development",
         "Number of Stages": "2",
@@ -178,6 +178,15 @@ rocketDictionary = {
             initial solid-fuel rocket design. The motivation for 
             Ariane 6 development was to replace Ariane 5 at half the cost, 
             and allow double the number of launches each year.
+            
+            Ariane 6 was initially conceived in the early 2010s as a 
+            replacement launch vehicle for Ariane 5, and a number of 
+            concepts and high-level designs were suggested and proposed 
+            during 2012–2015. Funding from several European governments 
+            was secured by early 2016, and contracts were signed to begin 
+            detailed design and the build of test articles. While in 2019, 
+            the maiden orbital flight had been planned for 2020, by May 
+            2020, the planned initial launch date had been delayed until 2021.
             '''
     },
     "Tronador II": {
@@ -250,64 +259,202 @@ rocketDictionary = {
             prototype was expected to be launched in 2016.
             '''
     },
-    "Placeholder": {
-        "Name": "",
-        "Agency": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
+    "VLM": {
+        "Name": "VLM",
+        "Agency": "AEB - Agência Espacial Brasileira",
+        "Payload Capacity to LEO": "150 kg (330 lb)",
+        "Height": "19.6 m (64 ft)",
+        "Diameter": "1.45 m (4 ft 9 in)",
+        "Mass": "28,000 kg (62,000 lb)",
+        "Years in Operation": "N/A",
+        "Country": "Brazil",
+        "Operational Status": "In Development",
+        "Number of Stages": "3",
         "Additional Information":
             '''
+            The VLM (Veículo Lançador de Microssatélites) is a 
+            proposed three-stage satellite launcher being developed 
+            by the Brazilian General Command for Aerospace Technology 
+            in collaboration with Germany. The project originated 
+            in 2008 as a simplified version of the VLS-1 rocket, 
+            using only the core stages.
+
+            A version based on the S-50 rocket engine is being 
+            developed, with the objective of launching satellites 
+            of up to 150 kg into equatorial circular orbits at 
+            300 km altitude.
+            
+            Development on VLM started in 2008 for the purpose of 
+            low-cost and reliable launch of microsatellites. 
+            Initially, a four-stage rocket using solid fuel was 
+            proposed, arranged in the following order:
+
+            Stage 1: S-43 rocket engine
+            Stage 2: S-40TM rocket engine
+            Stage 3: S-44 rocket engine
+            Stage 4: S-33 rocket engine
+
+            It was later decided in 2011 to build a precursor 
+            single-stage rocket bearing a new engine called S-50. 
+            The vehicle is being developed and its engine tested 
+            in collaboration with the German Space Agency (DLR).
+            This precursor test is called VS-50 and is planned for 
+            launch in 2019. The VS-50 vehicle measures 12 m (39 ft) 
+            long, 1.46 m (4 ft 9 in) in diameter, and has a mass of 
+            about 15 tons.
+
+            All launches are planned to take place from the Alcântara 
+            Launch Center, located on Brazil's northern Atlantic coast.
             '''
     },
-    "Placeholder": {
-        "Name": "",
-        "Agency": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
+    "Feng Bao 1": {
+        "Name": "Feng Bao 1",
+        "Agency": "SAST - Shanghai Academy of Spaceflight Technology",
+        "Payload Capacity to LEO": "2,500 kilograms (5,500 lb)",
+        "Height": "33 metres (108 ft)",
+        "Diameter": "3.35 metres (11.0 ft)",
+        "Mass": "191,700 kilograms (422,600 lb)",
+        "Years in Operation": "1972-1981",
+        "Country": "China",
+        "Operational Status": "Retired",
+        "Number of Stages": "2",
         "Additional Information":
             '''
+            The Feng Bao 1 (Chinese: 风暴; lit.: 'Storm'), also known 
+            as FB-1, was a Chinese carrier rocket launched between 1972 
+            and 1981. It was replaced by the nearly identical Long 
+            March 2, which had been developed at the same time for 
+            political reasons related to China's Cultural Revolution.
+
+            The Feng Bao was derived from the DF-5 missile. Eleven 
+            were launched, of which four failed. Launches occurred 
+            from LA-2B at the Jiuquan Satellite Launch Centre.
             '''
     },
-    "Placeholder": {
-        "Name": "",
-        "Agency": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
+    "Kaituozhe-1": {
+        "Name": "Kaituozhe-1",
+        "Agency": "CASC - China Aerospace Science and Technology Corporation",
+        "Payload Capacity to LEO": "100kg (220lbs)",
+        "Height": "13.6m (44 ft)",
+        "Diameter": "1.4m (4.5 ft)",
+        "Mass": "18,143kg (4000 lbs)",
+        "Years in Operation": "2002-2003",
+        "Country": "China",
+        "Operational Status": "Retired",
+        "Number of Stages": "4",
         "Additional Information":
             '''
+            Kaituozhe-1 (KT-1) was small, solid fueled launch vehicle 
+            based on the road mobile DF-21 IRBM with an additional 
+            upper stage (in total 4 stages[1]). It was 13.6 meters 
+            in length and 1.4 meters in diameter, with launch mass 
+            of 20t. It was possible to launch KT-1 both from a 
+            truck-based platform or from airborne platform. It had 
+            a 100 kg to LEO payload capacity. It was possibly the 
+            launch vehicle for a Chinese ASAT system that was tested 
+            against an old Chinese weather satellite in 2007.
+
+            The vehicle has performed two flights, the first in 15 
+            September 2002 and the second 16 September 2003. The 
+            first flight failed to place a 50 kg satellite into 
+            polar orbit due to a second stage malfunction. The 
+            second flight was also a failure, however Chinese 
+            officials declared some success citing the guidance 
+            systems, fairing separation and satellite-launcher 
+            separation as successful. The second launch sent the 
+            payload, PS-2 microsatellite (40 kg) into wrong orbit. 
+            The satellite completed barely one orbit before 
+            re-entering the atmosphere.
+            
+            The Kaituozhe-1 launcher appears to have been cancelled 
+            after two unsuccessful launches. A third (in 2004) and 
+            fourth launch have been rumored, but are not confirmed.
+                        
+            The rocket had three variants: the Kaituozhe-1 (KT-1), 
+            the Kaituozhe-1A (KT-1A, originally designated KT-2, not 
+            to be confused with KT-2 below) and the Kaituozhe-1B 
+            (KT-1B, originally designated KT-2A, not to be confused 
+            with KT-2A below). The rockets that flew were of the KT-1 
+            variant. The KT-1A and KT-1B variant rockets were not built.
             '''
     },
-    "Placeholder": {
-        "Name": "",
-        "Agency": "",
+
+"Kuaizhou": {
+        "Name": "Kuaizhou",
+        "Agency": "ExPace (Subsidiary of CASIC - China Aerospace Science and Industry Corporation)",
         "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
+        "Height": "19.4 m (64 ft)",
+        "Diameter": "1.4 m (4 ft 7 in)",
+        "Mass": "29,029 kg (64,000 lbs)",
+        "Years in Operation": "2013~",
+        "Country": "China",
+        "Operational Status": "Active",
+        "Number of Stages": "4",
         "Additional Information":
             '''
+            Kuaizhou (KZ, Chinese: 快舟; pinyin: kuàizhōu, meaning 
+            "speedy vessel") (also called Feitian Emergency Satellite 
+            Launch System, Feitian-1, FT-1) is a family of Chinese 
+            "quick-reaction" orbital launch vehicles. Flying since 
+            2013, Kuaizhou 1 and 1A consist of three solid-fueled rocket 
+            stages, with a liquid-fueled fourth stage as part of the 
+            satellite system. Kuaizhou 11, which flew an unsuccessful 
+            maiden flight in July 2020, is a larger model able to launch 
+            a 1,500 kilograms (3,300 lb) payload into low Earth orbit. 
+            Heavy-lift models KZ-21 and KZ-31 are in development. The 
+            Kuaizhou series of rockets is manufactured by ExPace, a 
+            subsidiary of China Aerospace Science and Industry Corporation 
+            (CASIC), as their commercial launch vehicles.
+            
+            The rocket series is based on CASIC's ASAT and BMD mid-course 
+            interceptor rockets, in particular the DF-21 IRBM (another 
+            Chinese rocket that was based on DF-21 was the Kaituozhe-1). 
+            Development on the KZ rockets started in 2009. The KZ rockets
+            were to provide an integrated launch vehicle system with the 
+            rapid ability to replace Chinese satellites that might be 
+            damaged or destroyed in an act of aggression in orbit. The 
+            vehicle uses mobile launch platform. The rocket is operated 
+            by the Chinese 2nd Artillery.
+
+            The maiden flight of Kuaizhou 1 rocket, orbiting the Kuaizhou 1 
+            natural disaster monitoring satellite, occurred on 25 September 
+            2013, launched from Jiuquan Satellite Launch Center.
+            
+            Second flight of Kuaizhou 1 rocket, orbiting the Kuaizhou 2 natural 
+            disaster monitoring satellite, was launched at 06:37 UTC on 21 
+            November 2014, again from Jiuquan Satellite Launch Center.
+            
+            The first commercial launch inaugurated the Kuaizhou 1A version 
+            on 9 January 2017, from Jiuquan. It placed three small satellites 
+            into a polar orbit.
+            '''
+    },
+    "Long March 1": {
+        "Name": "Long March 1",
+        "Agency": '''
+        MAI - Moscow Aviation Institute, 
+        CASC - China Aerospace Science and Technology Corporation, 
+        CAST - China Academy of Space Technology''',
+        "Payload Capacity to LEO": "300 kilograms (660 lb)",
+        "Height": "	29.86 metres (98.0 ft)",
+        "Diameter": "2.25 metres (7.4 ft)",
+        "Mass": "81,570 kilograms (179,830 lb)",
+        "Years in Operation": "1970-1971",
+        "Country": "China",
+        "Operational Status": "Retired",
+        "Number of Stages": "3",
+        "Additional Information":
+            '''
+            The Long March 1 (长征一号), also known as the Changzheng-1 
+            (CZ-1), was the first member of China's Long March rocket family.
+            
+            Development started in January 1965 as the Seventh Ministry 
+            of Machinery Industry issued a design task. The two stage 
+            liquid fueled DF-4 was modified by adding a third stage in 
+            order to make it to the desired orbit. Long March 1's second 
+            flight launched China's first satellite Dong Fang Hong 1 to 
+            space on April 24, 1970. The rocket was operational during 
+            1970–1971. Wang Xiji was the chief designer of the rocket.
             '''
     },
     "Placeholder": {
@@ -408,10 +555,33 @@ def TronadorIIPushed():
 
 def vls1Pushed():
     rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['VLS-1']))
-    vls1LabelCreate = Label(mainWindowCenterFrame, text="")
-    vls1LabelCreate.grid(row=0, column=0)
-    vls1LabelCreate.configure(text=pushDataToLabel(rocketDictionary["VLS-1"]))
+    infoLabel.configure(text=pushDataToLabel(rocketDictionary["VLS-1"]))
+    imgLabel.configure(image=vls1photo)
 
+def vlmPushed():
+    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['VLM']))
+    infoLabel.configure(text=pushDataToLabel(rocketDictionary["VLM"]))
+    imgLabel.configure(image=vlmphoto)
+
+def fengbao1Pushed():
+    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['Feng Bao 1']))
+    infoLabel.configure(text=pushDataToLabel(rocketDictionary["Feng Bao 1"]))
+    imgLabel.configure(image=fengbao1photo)
+
+def kaituozhe1Pushed():
+    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['Kaituozhe-1']))
+    infoLabel.configure(text=pushDataToLabel(rocketDictionary["Kaituozhe-1"]))
+    imgLabel.configure(image=kaituozhe1photo)
+
+def kuaizhouPushed():
+    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['Kuaizhou']))
+    infoLabel.configure(text=pushDataToLabel(rocketDictionary["Kuaizhou"]))
+    imgLabel.configure(image=kuaizhouphoto)
+
+def longMarch1Pushed():
+    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['Long March 1']))
+    infoLabel.configure(text=pushDataToLabel(rocketDictionary["Long March 1"]))
+    imgLabel.configure(image=longmarch1photo)
 
 def doNothing():
     print("Nothing happened, of course.")
@@ -492,7 +662,7 @@ mainWindowFrame = Frame(root, bg="gray63", width=1200, height=650)
 mainWindowLeftFrame = Frame(mainWindowFrame, bg="gray63", width=400, height=650, padx=10)
 mainWindowCenterFrame = Frame(mainWindowFrame, bg="gray63", width=600, height=650)
 mainWindowRightFrame = Frame(mainWindowFrame, bg="gray63", width=400, height=650)
-statusBarFrame = Frame(root, bg="gray76", width=1250, height=20)
+statusBarFrame = Frame(root, bg="gray76", width=1350, height=20)
 
 # layout parameters of the main containers
 root.grid_rowconfigure(1, weight=1)
@@ -512,6 +682,12 @@ soyuzphoto = PhotoImage(file="soyuz.png")
 deltaIIIphoto = PhotoImage(file="delta iii.png")
 ariane62photo = PhotoImage(file="ariane 62.png")
 tronadorIIphoto = PhotoImage(file="tronador ii.png")
+vls1photo = PhotoImage(file="vls1.png")
+vlmphoto = PhotoImage(file="vlm.png")
+fengbao1photo = PhotoImage(file="fengbao1.png")
+kaituozhe1photo = PhotoImage(file="kaituozhe1.png")
+kuaizhouphoto = PhotoImage(file="kuaizhou.png")
+longmarch1photo = PhotoImage(file="longmarch1.png")
 
 # *** Create all buttons/Labels ***
 insertButton = Button(toolbarFrame, text="Insert Image", command=doNothing)
@@ -528,13 +704,12 @@ ariane62Button = Button(mainWindowLeftFrame, pady=4, text="Ariane 62", bg="gray6
                         command=ariane62Pushed)
 TronadorIIButton = Button(mainWindowLeftFrame, pady=4, text="Tronador II", bg="gray63", fg="white", bd=0,
                           command=TronadorIIPushed)
-ausrockIVButton = Button(mainWindowLeftFrame, pady=4, text="AUSROCK IV", bg="gray63", fg="white", bd=0)
 vls1Button = Button(mainWindowLeftFrame, pady=4, text="VLS-1", bd=0, bg="gray63", fg="white", command=vls1Pushed)
-vlmButton = Button(mainWindowLeftFrame, pady=4, text="VLM", bg="gray63", fg="white", bd=0)
-fengBao1Button = Button(mainWindowLeftFrame, pady=4, text="Feng Bao 1", bg="gray63", fg="white", bd=0)
-kaituozhe1Button = Button(mainWindowLeftFrame, pady=4, text="Kaituozhe-1", bg="gray63", fg="white", bd=0)
-kuaizhouButton = Button(mainWindowLeftFrame, pady=4, text="Kuaizhou", bg="gray63", fg="white", bd=0)
-longMarch1Button = Button(mainWindowLeftFrame, pady=4, text="Long March 1", bg="gray63", fg="white", bd=0)
+vlmButton = Button(mainWindowLeftFrame, pady=4, text="VLM", bg="gray63", fg="white", bd=0, command=vlmPushed)
+fengBao1Button = Button(mainWindowLeftFrame, pady=4, text="Feng Bao 1", bg="gray63", fg="white", bd=0, command=fengbao1Pushed)
+kaituozhe1Button = Button(mainWindowLeftFrame, pady=4, text="Kaituozhe-1", bg="gray63", fg="white", bd=0, command=kaituozhe1Pushed)
+kuaizhouButton = Button(mainWindowLeftFrame, pady=4, text="Kuaizhou", bg="gray63", fg="white", bd=0, command=kuaizhouPushed)
+longMarch1Button = Button(mainWindowLeftFrame, pady=4, text="Long March 1", bg="gray63", fg="white", bd=0, command=longMarch1Pushed)
 longMarch1DButton = Button(mainWindowLeftFrame, pady=4, text="Long March 1D", bg="gray63", fg="white", bd=0)
 falcon9Button = Button(mainWindowLeftFrame, pady=4, text="Falcon 9", bg="gray63", fg="white", bd=0)
 falconHeavyButton = Button(mainWindowLeftFrame, pady=4, text="Falcon Heavy", bg="gray63", fg="white", bd=0)
@@ -548,15 +723,19 @@ l4sButton = Button(mainWindowLeftFrame, pady=4, text="L-4S", bg="gray63", fg="wh
 muButton = Button(mainWindowLeftFrame, pady=4, text="Mu", bg="gray63", fg="white", bd=0)
 m4sButton = Button(mainWindowLeftFrame, pady=4, text="M-4S", bg="gray63", fg="white", bd=0)
 
+
 rocketName = Label(mainWindowCenterFrame, font="-weight bold", bg="gray63", fg="white")
 rocketName.config(font=("Arial", 20))
 infoLabel = Label(mainWindowCenterFrame, bg="gray63", fg="white")
 infoLabel.config(font=("Arial", 11))
 
-imgLabel = Label(mainWindowRightFrame, border=0, padx=20)  # padx does nothing...why?
+
+imgLabel = Label(mainWindowRightFrame, bg="gray63", border=0, padx=20)  # padx does nothing...why?
+
 
 label = Label(statusBarFrame, text="placeholder")
 label.grid(row=0, column=0)
+
 
 # *** Placement & Layout of all Buttons ***
 insertButton.grid(row=0, column=0, padx=3, pady=4, sticky=W)
@@ -569,7 +748,6 @@ soyuzButton.grid(row=2, column=0, padx=15)
 deltaIIIButton.grid(row=3, column=0, padx=15)
 ariane62Button.grid(row=4, column=0, padx=15)
 TronadorIIButton.grid(row=5, column=0, padx=15)
-ausrockIVButton.grid(row=7, column=0, padx=15)
 vls1Button.grid(row=8, column=0, padx=15)
 vlmButton.grid(row=9, column=0, padx=15)
 fengBao1Button.grid(row=10, column=0, padx=15)
@@ -604,12 +782,11 @@ statusBarFrame.grid_propagate(FALSE)
 # satvlabel = Label(root, image=satvphoto)
 # satvlabel.grid(anchor=E)   #find out why this can't anchor to the right of the sorting options
 
-# **To remind usage of .grid() system instead of .pack() system
-# entry_1.grid(row=0, column=1)
-# entry_2.grid(row=1, column=1)
 
 '''If you want to handle jpg as well as png, import Image and ImageTk from PIL then do:
 image = Image.open("Image Name")
 photo = ImageTk.PhotoImage(image)'''
+
+
 update_time()
 root.mainloop()
