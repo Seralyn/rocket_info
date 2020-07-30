@@ -379,7 +379,7 @@ rocketDictionary = {
             '''
     },
 
-"Kuaizhou": {
+    "Kuaizhou": {
         "Name": "Kuaizhou",
         "Agency": "ExPace (Subsidiary of CASIC - China Aerospace Science and Industry Corporation)",
         "Payload Capacity to LEO": "",
@@ -457,49 +457,211 @@ rocketDictionary = {
             1970–1971. Wang Xiji was the chief designer of the rocket.
             '''
     },
-    "Placeholder": {
-        "Name": "",
-        "Agency": "",
+    "Long March 1D": {
+        "Name": "Long March 1D",
+        "Agency": '''
+        MAI - Moscow Aviation Institute, 
+        CASC - China Aerospace Science and Technology Corporation, 
+        CAST - China Academy of Space Technology
+        ''',
         "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
+        "Height": "28.22 m (92.6 ft)",
+        "Diameter": "2.25 m (7.4 ft)",
+        "Mass": "81,650 kg (180,010 lb)",
+        "Years in Operation": "1995-2002",
+        "Country": "China",
+        "Operational Status": "Retired",
+        "Number of Stages": "3",
         "Additional Information":
             '''
+            Long March 1D was a member of China's Long March rocket 
+            family. During the 1990s CALT developed an improved 
+            version of the DF-4 to test the reentry vehicle warheads 
+            of the DF-31.[6][7][8] They took advantage of this 
+            development and offered it as the Long March 1D for 
+            commercial application. The modifications included:
+
+            An DF-4 improved first stage, which used the new version 
+            of the YF-2B, and switched propellants to UDMH/N2O4 for 
+            improved performance. The replacement of the DF-4 second 
+            stage motor YF-3A. The proposed replacement was the Long 
+            March 4 third stage engine, the YF-40. A new inline 
+            inter-stage would replace the existing tapered connector 
+            between the second and third stages, which allowed for an 
+            additional 70cm diameter to be added to the third stage 
+            skirt. This would allow for the addition of RCS to the 
+            third stage. A new third stage with a new motor, the FG-36 
+            and an optional RCS. A new computer inertial guidance system 
+            which enabled the third stage to be 3-axis stabilised for 
+            added precision. The new design did not have a good reception 
+            and was only used for reentry vehicle tests. It flew three 
+            suborbital missions from Taiyuan LC-1 with two successes and 
+            a failure on the final mission. The first launch was on 
+            June 1, 1995 and the second one was in November 1997. The 
+            final and failed launch was on January 3, 2002.
             '''
     },
-    "Placeholder": {
-        "Name": "",
-        "Agency": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
+    "Falcon 9": {
+        "Name": "Falcon 9",
+        "Agency": "SpaceX",
+        "Payload Capacity to LEO": "22,800 kg (50,300 lb)",
+        "Height": "70 m (230 ft)",
+        "Diameter": "3.7 m (12 ft)",
+        "Mass": "549,054 kg (1,210,457 lbs)",
+        "Years in Operation":
+            '''
+            FT Block 5: 2018~
+            FT: 2015-2018
+            v1.1: 2013-2016
+            v1.0: 2010-2013
+            ''',
+        "Country": "USA",
+        "Operational Status":
+            '''
+            FT Block 5: Active
+            FT Block 4: Retired
+            FT Block 3: Retired
+            v1.1: Retired
+            v1.0: Retired
+            ''',
+        "Number of Stages": "2",
         "Additional Information":
             '''
+            Falcon 9 is a partially reusable two-stage-to-orbit 
+            medium-lift launch vehicle designed and manufactured by 
+            SpaceX in the United States. It is powered by Merlin 
+            engines, also developed by SpaceX, burning cryogenic 
+            liquid oxygen and rocket-grade kerosene (RP-1) as 
+            propellants. Its name is derived from the fictional 
+            Star Wars spacecraft, the Millennium Falcon, and the 
+            nine Merlin engines of the rocket's first stage. The rocket 
+            evolved with versions v1.0 (2010–2013), v1.1 (2013–2016), 
+            v1.2 "Full Thrust" (2015–present), including the Block 5 
+            Full Thrust variant, flying since May 2018. Unlike most 
+            rockets, which are expendable launch systems, since the 
+            introduction of the Full Thrust version, Falcon 9 is 
+            partially reusable, with the first stage capable of 
+            re-entering the atmosphere and landing vertically after 
+            separating from the second stage. This feat was achieved 
+            for the first time on flight 20 with the v1.2 version in 
+            December 2015.
+            
+            Falcon 9 can lift payloads of up to 22,800 kilograms 
+            (50,300 lb) to low Earth orbit, 8,300 kg (18,300 lb) to 
+            geostationary transfer orbit (GTO) when expended, and 
+            5,500 kg (12,100 lb) to GTO when the first stage is 
+            recovered. The heaviest GTO payloads flown have been 
+            Intelsat 35e with 6,761 kg (14,905 lb), and Telstar 19V 
+            with 7,075 kg (15,598 lb). The latter was launched into a 
+            lower-energy GTO orbit achieving an apogee well below the 
+            geostationary altitude, while the former was launched into 
+            an advantageous super-synchronous transfer orbit.
+            
+            In 2008, SpaceX won a Commercial Resupply Services (CRS) 
+            contract in NASA's Commercial Orbital Transportation Services 
+            (COTS) program to deliver cargo to the International Space 
+            Station (ISS) using the Falcon 9 and Dragon capsule. The first 
+            mission under this contract launched on October 8, 2012. Falcon 
+            9 has been human-rated for transporting NASA astronauts to the 
+            ISS as part of the NASA Commercial Crew Development program. 
+            Currently, Falcon 9 has been certified for the National Security 
+            Space Launch[22] program and NASA Launch Services Program as 
+            "Category 3", which can launch the priciest, most important, and 
+            most complex NASA missions.
+            
+            Five rockets of the version 1.0 design were launched from June 2010 
+            to March 2013. Version 1.1 conducted fifteen launches from September 
+            2013 to January 2016. The "Full Thrust" version was in service from 
+            December 2015 into 2018, with several additional upgrades within 
+            this version. The latest variant, Block 5, was introduced in May 
+            2018. It features increased engine thrust, improved landing legs, and 
+            other minor improvements to help recovery and reuse. The Falcon 
+            Heavy derivative, introduced in February 2018, consists of a 
+            strengthened Falcon 9 first stage as its center core, attached to 
+            two standard Falcon 9 first stages used as boosters.
             '''
     },
-    "Placeholder": {
-        "Name": "",
-        "Agency": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
+    "Falcon Heavy": {
+        "Name": "Falcon Heavy",
+        "Agency": "SpaceX",
+        "Payload Capacity to LEO": "3,800 kg (140,700 lb)",
+        "Height": "70 m (230 ft)",
+        "Diameter": "3.66 m (12.0 ft) (each booster)",
+        "Mass": "12.2 m (40 ft)",
+        "Years in Operation": "2018~",
+        "Country": "USA",
+        "Operational Status": "Active",
+        "Number of Stages": "2+",
         "Additional Information":
             '''
+            The Falcon Heavy is a partially reusable heavy-lift launch 
+            vehicle designed and manufactured by SpaceX. It is derived 
+            from the Falcon 9 vehicle and consists of a strengthened 
+            Falcon 9 first stage as the center core with two additional 
+            Falcon 9-like first stages as strap-on boosters. The Falcon 
+            Heavy has the highest payload capacity of any currently 
+            operational launch vehicle, the third-highest capacity of 
+            any rocket ever to reach orbit, trailing the Saturn V and 
+            Energia, and the third-highest capacity of any orbital-class 
+            rocket ever launched successfully (behind the Saturn V and 
+            Energia).
+
+            SpaceX conducted the Falcon Heavy's maiden launch on February 6, 
+            2018, at 3:45 p.m. EST (20:45 UTC). The rocket carried a Tesla
+            Roadster belonging to SpaceX founder Elon Musk, carrying a dummy 
+            dubbed "Starman", as a dummy payload. The second Falcon Heavy 
+            launch occurred on April 11, 2019 and all three booster rockets 
+            successfully returned to earth.[10] The third Falcon Heavy launch 
+            successfully occurred on June 25, 2019. Since then, the Falcon 
+            Heavy has been certified for the National Security Space Launch 
+            program.
+
+            The Falcon Heavy was designed to be able to carry humans into space 
+            beyond low Earth orbit, although as of February 2018, SpaceX has 
+            confirmed that they will not transport people on the Falcon Heavy, 
+            nor pursue the human-rating certification process to transport NASA 
+            astronauts. The Falcon Heavy and Falcon 9 will be replaced by the 
+            Starship launch system.
+            '''
+    },
+
+    "Atlas V": {
+        "Name": "Atlas V",
+        "Agency": "ULA - United Launch Alliance",
+        "Payload Capacity to LEO": "",
+        "Height": "58.3 m (191 ft)",
+        "Diameter": "3.81 m (12.5 ft)",
+        "Mass": "590,000 kg (1,300,000 lb)",
+        "Years in Operation": "2002~",
+        "Country": "USA",
+        "Operational Status": "Active",
+        "Number of Stages": "2",
+        "Additional Information":
+            '''
+            Atlas V is the fifth major version in the Atlas rocket family. 
+            It is an expendable launch system originally designed by 
+            Lockheed Martin, now being operated by United Launch Alliance 
+            (ULA), a joint venture between Lockheed and Boeing.
+
+            Each Atlas V rocket consists of two main stages. The first 
+            stage is powered by a Russian RD-180 engine manufactured by 
+            RD Amross and burning kerosene and liquid oxygen. The Centaur 
+            upper stage is powered by one or two US RL10 engine(s) 
+            manufactured by Aerojet Rocketdyne and burning liquid 
+            hydrogen and liquid oxygen. AJ-60A strap-on solid rocket 
+            boosters (SRBs) are used in some configurations and will 
+            be replaced by GEM-63 SRBs in the near future. The standard 
+            payload fairings are 4 or 5 meters in diameter with various
+            lengths.
+            
+            The Atlas V was developed by Lockheed Martin Commercial Launch 
+            Services (LMCLS) as part of the US Air Force Evolved Expendable 
+            Launch Vehicle (EELV) program and made its inaugural flight on 
+            August 21, 2002. The vehicle operates from Space Launch Complex 
+            41 at Cape Canaveral Air Force Station and Space Launch Complex 
+            3-E at Vandenberg Air Force Base. LMCLS continued to market the 
+            Atlas V to commercial customers worldwide until January 2018, 
+            when ULA assumed control of commercial marketing and sales.
             '''
     },
 
@@ -558,30 +720,57 @@ def vls1Pushed():
     infoLabel.configure(text=pushDataToLabel(rocketDictionary["VLS-1"]))
     imgLabel.configure(image=vls1photo)
 
+
 def vlmPushed():
     rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['VLM']))
     infoLabel.configure(text=pushDataToLabel(rocketDictionary["VLM"]))
     imgLabel.configure(image=vlmphoto)
+
 
 def fengbao1Pushed():
     rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['Feng Bao 1']))
     infoLabel.configure(text=pushDataToLabel(rocketDictionary["Feng Bao 1"]))
     imgLabel.configure(image=fengbao1photo)
 
+
 def kaituozhe1Pushed():
     rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['Kaituozhe-1']))
     infoLabel.configure(text=pushDataToLabel(rocketDictionary["Kaituozhe-1"]))
     imgLabel.configure(image=kaituozhe1photo)
+
 
 def kuaizhouPushed():
     rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['Kuaizhou']))
     infoLabel.configure(text=pushDataToLabel(rocketDictionary["Kuaizhou"]))
     imgLabel.configure(image=kuaizhouphoto)
 
+
 def longMarch1Pushed():
     rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['Long March 1']))
     infoLabel.configure(text=pushDataToLabel(rocketDictionary["Long March 1"]))
     imgLabel.configure(image=longmarch1photo)
+
+
+def longMarch1dPushed():
+    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['Long March 1D']))
+    infoLabel.configure(text=pushDataToLabel(rocketDictionary["Long March 1D"]))
+    imgLabel.configure(image=longmarch1Dphoto)
+
+def falcon9Pushed():
+    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['Falcon 9']))
+    infoLabel.configure(text=pushDataToLabel(rocketDictionary["Falcon 9"]))
+    imgLabel.configure(image=falcon9photo)
+
+def falconheavyPushed():
+    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['Falcon Heavy']))
+    infoLabel.configure(text=pushDataToLabel(rocketDictionary["Falcon Heavy"]))
+    imgLabel.configure(image=falconheavyphoto)
+
+def atlasvPushed():
+    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['Atlas V']))
+    infoLabel.configure(text=pushDataToLabel(rocketDictionary["Atlas V"]))
+    imgLabel.configure(image=atlasVphoto)
+
 
 def doNothing():
     print("Nothing happened, of course.")
@@ -627,7 +816,6 @@ elif pop_up_answer == "no":
     tkinter.messagebox.showinfo("Message", "I see that you would love to learn more about rockets. That's wonderful.")
 '''
 # ***The Main Menu ***
-
 menu = Menu(root)
 root.config(menu=menu)
 
@@ -688,6 +876,10 @@ fengbao1photo = PhotoImage(file="fengbao1.png")
 kaituozhe1photo = PhotoImage(file="kaituozhe1.png")
 kuaizhouphoto = PhotoImage(file="kuaizhou.png")
 longmarch1photo = PhotoImage(file="longmarch1.png")
+longmarch1Dphoto = PhotoImage(file="longmarch1d.png")
+falcon9photo = PhotoImage(file="falcon9.png")
+falconheavyphoto = PhotoImage(file="falconheavy.png")
+atlasVphoto = PhotoImage(file="atlasv.png")
 
 # *** Create all buttons/Labels ***
 insertButton = Button(toolbarFrame, text="Insert Image", command=doNothing)
@@ -706,13 +898,18 @@ TronadorIIButton = Button(mainWindowLeftFrame, pady=4, text="Tronador II", bg="g
                           command=TronadorIIPushed)
 vls1Button = Button(mainWindowLeftFrame, pady=4, text="VLS-1", bd=0, bg="gray63", fg="white", command=vls1Pushed)
 vlmButton = Button(mainWindowLeftFrame, pady=4, text="VLM", bg="gray63", fg="white", bd=0, command=vlmPushed)
-fengBao1Button = Button(mainWindowLeftFrame, pady=4, text="Feng Bao 1", bg="gray63", fg="white", bd=0, command=fengbao1Pushed)
-kaituozhe1Button = Button(mainWindowLeftFrame, pady=4, text="Kaituozhe-1", bg="gray63", fg="white", bd=0, command=kaituozhe1Pushed)
-kuaizhouButton = Button(mainWindowLeftFrame, pady=4, text="Kuaizhou", bg="gray63", fg="white", bd=0, command=kuaizhouPushed)
-longMarch1Button = Button(mainWindowLeftFrame, pady=4, text="Long March 1", bg="gray63", fg="white", bd=0, command=longMarch1Pushed)
-longMarch1DButton = Button(mainWindowLeftFrame, pady=4, text="Long March 1D", bg="gray63", fg="white", bd=0)
-falcon9Button = Button(mainWindowLeftFrame, pady=4, text="Falcon 9", bg="gray63", fg="white", bd=0)
-falconHeavyButton = Button(mainWindowLeftFrame, pady=4, text="Falcon Heavy", bg="gray63", fg="white", bd=0)
+fengBao1Button = Button(mainWindowLeftFrame, pady=4, text="Feng Bao 1", bg="gray63", fg="white", bd=0,
+                        command=fengbao1Pushed)
+kaituozhe1Button = Button(mainWindowLeftFrame, pady=4, text="Kaituozhe-1", bg="gray63", fg="white", bd=0,
+                          command=kaituozhe1Pushed)
+kuaizhouButton = Button(mainWindowLeftFrame, pady=4, text="Kuaizhou", bg="gray63", fg="white", bd=0,
+                        command=kuaizhouPushed)
+longMarch1Button = Button(mainWindowLeftFrame, pady=4, text="Long March 1", bg="gray63", fg="white", bd=0,
+                          command=longMarch1Pushed)
+longMarch1DButton = Button(mainWindowLeftFrame, pady=4, text="Long March 1D", bg="gray63", fg="white", bd=0, command=longMarch1dPushed)
+falcon9Button = Button(mainWindowLeftFrame, pady=4, text="Falcon 9", bg="gray63", fg="white", bd=0, command=falcon9Pushed)
+falconHeavyButton = Button(mainWindowLeftFrame, pady=4, text="Falcon Heavy", bg="gray63", fg="white", bd=0, command=falconheavyPushed)
+atlasVButton = Button(mainWindowLeftFrame, pady=4, text="Atlas V", bg="gray63", fg="white", bd=0, command=atlasvPushed)
 slsButton = Button(mainWindowLeftFrame, pady=4, text="S.L.S. (Space Launch System)", bg="gray63", fg="white", bd=0)
 newGlennButton = Button(mainWindowLeftFrame, pady=4, text="New Glenn", bg="gray63", fg="white", bd=0)
 hIIAButton = Button(mainWindowLeftFrame, pady=4, text="HII-A", bg="gray63", fg="white", bd=0)
@@ -723,19 +920,15 @@ l4sButton = Button(mainWindowLeftFrame, pady=4, text="L-4S", bg="gray63", fg="wh
 muButton = Button(mainWindowLeftFrame, pady=4, text="Mu", bg="gray63", fg="white", bd=0)
 m4sButton = Button(mainWindowLeftFrame, pady=4, text="M-4S", bg="gray63", fg="white", bd=0)
 
-
 rocketName = Label(mainWindowCenterFrame, font="-weight bold", bg="gray63", fg="white")
 rocketName.config(font=("Arial", 20))
 infoLabel = Label(mainWindowCenterFrame, bg="gray63", fg="white")
 infoLabel.config(font=("Arial", 11))
 
-
 imgLabel = Label(mainWindowRightFrame, bg="gray63", border=0, padx=20)  # padx does nothing...why?
-
 
 label = Label(statusBarFrame, text="placeholder")
 label.grid(row=0, column=0)
-
 
 # *** Placement & Layout of all Buttons ***
 insertButton.grid(row=0, column=0, padx=3, pady=4, sticky=W)
@@ -757,15 +950,16 @@ longMarch1Button.grid(row=13, column=0, padx=15)
 longMarch1DButton.grid(row=14, column=0, padx=15)
 falcon9Button.grid(row=15, column=0, padx=15)
 falconHeavyButton.grid(row=16, column=0, padx=15)
-slsButton.grid(row=17, column=0, padx=15)
-newGlennButton.grid(row=18, column=0, padx=15)
-hIIAButton.grid(row=19, column=0, padx=15)
-diamantButton.grid(row=20, column=0, padx=15)
-otragButton.grid(row=21, column=0, padx=15)
-lambdaButton.grid(row=22, column=0, padx=15)
-l4sButton.grid(row=23, column=0, padx=15)
-muButton.grid(row=24, column=0, padx=15)
-m4sButton.grid(row=25, column=0, padx=15)
+atlasVButton.grid(row=17, column=0, padx=15)
+slsButton.grid(row=18, column=0, padx=15)
+newGlennButton.grid(row=19, column=0, padx=15)
+hIIAButton.grid(row=20, column=0, padx=15)
+diamantButton.grid(row=21, column=0, padx=15)
+otragButton.grid(row=22, column=0, padx=15)
+lambdaButton.grid(row=23, column=0, padx=15)
+l4sButton.grid(row=24, column=0, padx=15)
+muButton.grid(row=25, column=0, padx=15)
+m4sButton.grid(row=26, column=0, padx=15)
 
 rocketName.grid(row=0, column=0)
 infoLabel.grid(row=1, column=0, padx=25)
@@ -786,7 +980,6 @@ statusBarFrame.grid_propagate(FALSE)
 '''If you want to handle jpg as well as png, import Image and ImageTk from PIL then do:
 image = Image.open("Image Name")
 photo = ImageTk.PhotoImage(image)'''
-
 
 update_time()
 root.mainloop()
