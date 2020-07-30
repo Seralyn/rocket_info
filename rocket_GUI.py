@@ -628,7 +628,7 @@ rocketDictionary = {
     "Atlas V": {
         "Name": "Atlas V",
         "Agency": "ULA - United Launch Alliance",
-        "Payload Capacity to LEO": "",
+        "Payload Capacity to LEO": "8,250–20,520 kg (18,190–45,240 lb)",
         "Height": "58.3 m (191 ft)",
         "Diameter": "3.81 m (12.5 ft)",
         "Mass": "590,000 kg (1,300,000 lb)",
@@ -662,6 +662,340 @@ rocketDictionary = {
             3-E at Vandenberg Air Force Base. LMCLS continued to market the 
             Atlas V to commercial customers worldwide until January 2018, 
             when ULA assumed control of commercial marketing and sales.
+            '''
+    },
+
+    "SLS": {
+        "Name":
+            '''
+            S.L.S.
+            Space Launch System
+            ''',
+        "Agency": "NASA",
+        "Payload Capacity to LEO":
+            '''
+            Block 1: 95,000 kg (209,000 lb) 
+            Block 2: 130,000 kg (290,000 lb)
+            ''',
+        "Height": "111.25 m (365.0 ft)",
+        "Diameter": "8.4 m (28 ft)",
+        "Mass": "979,452 kg (2,159,322 lb)",
+        "Years in Operation": "Slated 2024~",
+        "Country": "USA",
+        "Operational Status": "In Development",
+        "Number of Stages": "2",
+        "Additional Information":
+            '''
+            The Space Launch System (SLS) is a super heavy-lift expendable 
+            launch vehicle, which has been under development by NASA in the 
+            United States since its announcement in 2011. It is the primary 
+            launch vehicle of NASA's deep space exploration plans, including 
+            the planned crewed lunar flights of the Artemis program and a 
+            possible follow-on human mission to Mars. The SLS program has 
+            replaced the Constellation program's Ares V launch vehicle program
+            of 2005, which never left the development phase. SLS is intended 
+            to replace the retired Space Shuttle as NASA's flagship vehicle. 
+            Following the cancelation of the Constellation program, the NASA 
+            Authorization Act of 2010 envisioned a single launch vehicle usable 
+            for both crew and cargo. In 2013, SLS was projected to possibly be 
+            the most capable super-heavy lift vehicle ever built.
+
+            The initial variant of SLS, Block 1, was required by the US Congress 
+            to lift a payload of 70 tonnes (69 long tons; 77 short tons) to low 
+            Earth orbit (LEO), but it was later planned to exceed that requirement 
+            with a rated payload capacity of 95 tonnes (93 long tons; 105 short 
+            tons). As of 22 December 2019, this variant is planned to launch 
+            Artemis 1, Artemis 2, Artemis 3, and Europa Clipper. The later Block 
+            1B is intended to debut the Exploration Upper Stage and launch the 
+            notional Artemis 4 through Artemis 7. Block 2 is planned to replace 
+            the initial Shuttle-derived boosters with advanced boosters and would 
+            have a LEO capability of more than 130 tonnes (130 long tons; 140 short 
+            tons), again as required by Congress.[ Block 2 is intended to enable 
+            crewed launches to Mars. SLS is to have the world's highest-ever 
+            total thrust at launch, but not the world's highest ever payload 
+            mass. The SLS is planned to launch the Orion spacecraft and use the 
+            ground operations and launch facilities at NASA's Kennedy Space Center 
+            in Florida.
+            '''
+    },
+
+    "New Glenn": {
+        "Name": "New Glenn",
+        "Agency": "Blue Origin",
+        "Payload Capacity to LEO": "45,000 kg (99,000 lb)",
+        "Height": "98 m (322 ft)",
+        "Diameter": "7 m (23 ft)",
+        "Mass": "Unknown",
+        "Years in Operation": "Slated 2021~",
+        "Country": "USA",
+        "Operational Status": "In Development",
+        "Number of Stages": "2",
+        "Additional Information":
+            '''
+            New Glenn, named after John Glenn, is a heavy-lift orbital launch vehicle 
+            in development by Blue Origin. Design work on the vehicle began in 2012. 
+            Illustrations of the vehicle, and the high-level specifications, were 
+            initially publicly unveiled in September 2016. New Glenn is described as 
+            a two-stage rocket with a diameter of 7 meters (23 ft). Its first stage 
+            will be powered by seven BE-4 engines that are also being designed and 
+            manufactured by Blue Origin.
+
+            Like the New Shepard suborbital launch vehicle that preceded it, the 
+            New Glenn's first stage is designed to be reusable. Originally intended 
+            for first launch in 2020, by 2018 Blue Origin expected to launch New 
+            Glenn in 2021, which remains the current target.
+            
+            After initiating the development of an orbital rocket system prior to 
+            2012, and stating in 2013 on their website that the first stage would do 
+            a powered vertical landing and be reusable, Blue Origin publicly announced 
+            their orbital launch vehicle intentions in September 2015. In January 2016, 
+            Blue Origin indicated that the new rocket would be many times larger than 
+            New Shepard even though it would be the smallest of the family of Blue Origin 
+            orbital vehicles. Blue Origin publicly released the high-level design of 
+            the vehicle—and announced the name New Glenn—in September 2016.
+            '''
+    },
+
+    "H-IIA": {
+        "Name": "H-IIA",
+        "Agency": "JAXA",
+        "Manufacturer": "Mitsubishi Heavy Industries",
+        "Lifting Class": "Medium",
+        "Payload Capacity to LEO": "10,000–15,000 kg (22,000–33,000 lb)",
+        "Height": "53 m (174 ft)",
+        "Diameter": "4 m (13 ft)",
+        "Mass": "285,000–445,000 kg (628,000–981,000 lb)",
+        "Years in Operation": "2001~",
+        "Country": "Japan",
+        "Operational Status": "Active",
+        "Number of Stages": "2",
+        "Additional Information":
+            '''
+            H-IIA (H-2A) is an active expendable launch system operated by Mitsubishi 
+            Heavy Industries (MHI) for the Japan Aerospace Exploration Agency. These liquid 
+            fuel rockets have been used to launch satellites into geostationary orbit; lunar 
+            orbiting spacecraft; Akatsuki, which studied the planet Venus; and the Emirates 
+            Mars Mission, which was launched to Mars in July 2020. Launches occur at the 
+            Tanegashima Space Center. The H-IIA first flew in 2001. As of July 2020, H-IIA 
+            rockets were launched 42 times, including 36 consecutive missions without a 
+            failure, dating back to 29 November 2003.
+
+            Production and management of the H-IIA shifted from JAXA to MHI on 1 April 2007. 
+            Flight 13, which launched the lunar orbiter SELENE, was the first H-IIA launched 
+            after this privatization.
+
+            The H-IIA is a derivative of the earlier H-II rocket, substantially redesigned to 
+            improve reliability and minimize costs. There have been four variants, with two 
+            in active service (as of 2020) for various purposes. A derivative design, the H-IIB, 
+            was developed in the 2000s and made its maiden flight in 2009.
+            '''
+    },
+
+    "Diamant": {
+        "Name": "Diamant",
+        "Agency": "CNES -  Centre National d'Études Spatiales",
+        "Manufacturer": "SEREB - Société d'Étude et de Réalisation d'Engins Balistiques",
+        "Lifting Class": "Light",
+        "Payload Capacity to LEO": "160 kg (350 lb)",
+        "Height":
+        '''
+        A: 18.95 m (62.2 ft)
+        B: 23.5 m (77 ft)
+        BP4: 21.6 m (71 ft)
+        ''',
+        "Diameter": "1.34 m (4 ft 5 in)",
+        "Mass": "18,400 kg (40,600 lb)",
+        "Years in Operation":
+        '''
+        A: 1965-1967
+        B: 1970-1973
+        BP4: 1975
+        ''',
+        "Country": "France",
+        "Operational Status": "Retired",
+        "Number of Stages": "3",
+        "Additional Information":
+            '''
+            The Diamant rocket (Diamant is French for "diamond") was the 
+            first exclusively French expendable launch system and at the 
+            same time the first satellite launcher not built by either 
+            the United States or USSR. As such, it has been referred to 
+            as being a key predecessor for all subsequent European launcher 
+            projects.
+
+            During 1962, development of the Diamant commenced as the 
+            inaugural spacecraft project of France's space agency, the Centre 
+            National d'Études Spatiales (CNES). As a project, it was derived 
+            from the military program Pierres précieuses (fr.: gemstones) that 
+            included the five prototypes Agate, Topaze, Emeraude, Rubis and 
+            Saphir (Agate, Topaz, Emerald, Ruby and Sapphire), and drew heavily 
+            upon the knowledge and technologies that had been previously 
+            developed. On 26 November 1965, the Diamant A performed its maiden 
+            flight. Out of a total of 12 aunch attempts to be performed between 
+            1965 and 1975, 9 of these were successful. Most notably, on 26 November 
+            1965, the Diamant was used to successfully launch the first French 
+            satellite, named Astérix.
+
+            Three successive versions of the Diamant rocket were developed, 
+            designated A, B and BP4. All versions had three stages and a 
+            payload of approximately 150 kg for a 200 km orbit. Despite the 
+            success of the Diamant as a launcher, France ultimately chose to 
+            terminate further work on its national launcher program in favor 
+            of participation in the multi-European programme to produce what 
+            would become the Ariane launcher in 1975.
+            '''
+    },
+
+    "": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
             '''
     },
 
@@ -771,6 +1105,25 @@ def atlasvPushed():
     infoLabel.configure(text=pushDataToLabel(rocketDictionary["Atlas V"]))
     imgLabel.configure(image=atlasVphoto)
 
+def slsPushed():
+    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['SLS']))
+    infoLabel.configure(text=pushDataToLabel(rocketDictionary["SLS"]))
+    imgLabel.configure(image=slsphoto)
+
+def newGlennPushed():
+    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['New Glenn']))
+    infoLabel.configure(text=pushDataToLabel(rocketDictionary["New Glenn"]))
+    imgLabel.configure(image=newGlennphoto)
+
+def hIIAPushed():
+    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['H-IIA']))
+    infoLabel.configure(text=pushDataToLabel(rocketDictionary["H-IIA"]))
+    imgLabel.configure(image=hIIAphoto)
+
+def diamantPushed():
+    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['Diamant']))
+    infoLabel.configure(text=pushDataToLabel(rocketDictionary["Diamant"]))
+    imgLabel.configure(image=diamantphoto)
 
 def doNothing():
     print("Nothing happened, of course.")
@@ -880,6 +1233,10 @@ longmarch1Dphoto = PhotoImage(file="longmarch1d.png")
 falcon9photo = PhotoImage(file="falcon9.png")
 falconheavyphoto = PhotoImage(file="falconheavy.png")
 atlasVphoto = PhotoImage(file="atlasv.png")
+slsphoto = PhotoImage(file="sls.png")
+newGlennphoto = PhotoImage(file="newglenn.png")
+hIIAphoto = PhotoImage(file="H-IIA.png")
+diamantphoto = PhotoImage(file="diamant.png")
 
 # *** Create all buttons/Labels ***
 insertButton = Button(toolbarFrame, text="Insert Image", command=doNothing)
@@ -910,10 +1267,10 @@ longMarch1DButton = Button(mainWindowLeftFrame, pady=4, text="Long March 1D", bg
 falcon9Button = Button(mainWindowLeftFrame, pady=4, text="Falcon 9", bg="gray63", fg="white", bd=0, command=falcon9Pushed)
 falconHeavyButton = Button(mainWindowLeftFrame, pady=4, text="Falcon Heavy", bg="gray63", fg="white", bd=0, command=falconheavyPushed)
 atlasVButton = Button(mainWindowLeftFrame, pady=4, text="Atlas V", bg="gray63", fg="white", bd=0, command=atlasvPushed)
-slsButton = Button(mainWindowLeftFrame, pady=4, text="S.L.S. (Space Launch System)", bg="gray63", fg="white", bd=0)
-newGlennButton = Button(mainWindowLeftFrame, pady=4, text="New Glenn", bg="gray63", fg="white", bd=0)
-hIIAButton = Button(mainWindowLeftFrame, pady=4, text="HII-A", bg="gray63", fg="white", bd=0)
-diamantButton = Button(mainWindowLeftFrame, pady=4, text="Diamant", bg="gray63", fg="white", bd=0)
+slsButton = Button(mainWindowLeftFrame, pady=4, text="S.L.S. (Space Launch System)", bg="gray63", fg="white", bd=0, command=slsPushed)
+newGlennButton = Button(mainWindowLeftFrame, pady=4, text="New Glenn", bg="gray63", fg="white", bd=0, command=newGlennPushed)
+hIIAButton = Button(mainWindowLeftFrame, pady=4, text="HII-A", bg="gray63", fg="white", bd=0, command=hIIAPushed)
+diamantButton = Button(mainWindowLeftFrame, pady=4, text="Diamant", bg="gray63", fg="white", bd=0, command=diamantPushed)
 otragButton = Button(mainWindowLeftFrame, pady=4, text="OTRAG", bg="gray63", fg="white", bd=0)
 lambdaButton = Button(mainWindowLeftFrame, pady=4, text="Lambda", bg="gray63", fg="white", bd=0)
 l4sButton = Button(mainWindowLeftFrame, pady=4, text="L-4S", bg="gray63", fg="white", bd=0)
