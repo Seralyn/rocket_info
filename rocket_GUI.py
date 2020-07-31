@@ -846,8 +846,139 @@ rocketDictionary = {
             '''
     },
 
-    "": {
-        "Name": "",
+    "OTRAG": {
+        "Name": "OTRAG",
+        "Agency": "OTRAG",
+        "Payload Capacity to LEO": "10,000 kg (22,046 lbs)",
+        "Height": "~25m (82 ft)",
+        "Diameter": "Unknown",
+        "Mass": "2,278,880 kg (5,024,070 lbs)",
+        "Years in Operation": "1975-1978",
+        "Country": "Germany",
+        "Operational Status": "Retired",
+        "Number of Stages": "4",
+        "Additional Information":
+            '''
+            OTRAG (German: Orbital Transport und Raketen AG, or Orbital Transport 
+            nd Rockets, Inc.), was a German company based in Stuttgart, which in 
+            the late 1970s and early 1980s planned to develop an alternative 
+            propulsion system for rockets. OTRAG was the first commercial developer 
+            and producer of space launch vehicles. The OTRAG Rocket claimed to 
+            present an inexpensive alternative to existing launch systems through 
+            mass-production of Common Rocket Propulsion Units (CRPU).
+            
+            OTRAG was founded in 1975 by the German aerospace engineer Lutz Kayser. 
+            OTRAG's goal was to develop, produce, and operate a low cost satellite 
+            launch vehicle. It was the first private company to attempt to launch a 
+            private spacecraft. The OTRAG rocket was intended to be an inexpensive 
+            alternative to the European rocket Ariane and the NASA Space Shuttle. 
+            Kayser and a private consortium of six hundred European investors 
+            financed the development and production of the OTRAG satellite launch 
+            vehicle. Dr. Kurt H. Debus served as Chairman of the Board of OTRAG after 
+            his retirement as director of NASA's Kennedy Space Center, and Dr. 
+            Wernher von Braun served as scientific adviser to Kayser.
+
+            In the face of doubts by Debus and von Braun, Kayser chose in 1975 to set 
+            up testing and launch facilities in Shaba, Zaire (now Katanga Province in 
+            the Democratic Republic of the Congo). Debus and von Braun were concerned 
+            about the possibility of Zairian acquisition of missile technology from 
+            the facilities. Kayser decided to proceed despite their opposition.
+
+            Otrag's first test was on May 17, 1977, with the second successful launch 
+            on May 20, 1978. The third test failed on June 5, with Zairian President 
+            Mobutu Sese Seko watching the launch.
+
+            Political pressure to halt the company's operations mounted quickly. 
+            France and the Soviet Union were historically opposed to German 
+            long-distance rocket development, and pressured the Zairian government 
+            into closing down the development facility in 1979. Immediately afterwards, 
+            Presidents Giscard d'Estaing of France and Leonid Brezhnev of the Soviet 
+            Union convinced the West German government to cancel the OTRAG project and 
+            close down its German operations. In 1980, OTRAG moved its production and 
+            testing facilities to a desert site in Libya. A series of successful tests 
+            were conducted at this site beginning in 1981.
+
+            OTRAG shut down in 1987. As the company left Libya, Muammar Gaddafi 
+            confiscated all equipment and installations, hoping to later use the 
+            technology, and German investors lost their money.
+            '''
+    },
+
+        "L-4S": {
+        "Name": "L-4S",
+        "Agency": "The University of Tokyo Aerospace Research Institute",
+        "Payload Capacity to LEO": "26 kg (57.32 lbs)",
+        "Height": "16.5m (54.13 ft)",
+        "Diameter": "0.735m (2.41 ft)",
+        "Mass": "8,527 kg ( 18,798 lbs)",
+        "Years in Operation": "1966-1970",
+        "Country": "Japan",
+        "Operational Status": "Retired",
+        "Number of Stages": "5",
+        "Additional Information":
+            '''
+            The L-4S rocket (Lambda -4S rocket ) was developed by the Institute 
+            of Aeronautics and Astronautics of the University of Tokyo (hereinafter 
+            referred to as the University of Tokyo ) together with the Nissan Motor
+            Aerospace Division (hereinafter referred to as the Nissan), manufactured 
+            by Nissan  and operated by the University of Tokyo. Japan 's first solid 
+            fuel rocket for launching artificial satellites . It was launched five
+            times from 1966 to 1970 (the other one was a test machine), and the fifth 
+            successfully launched Japan's first artificial satellite " Osumi " . As a 
+            result, Japan became the fourth country in the world after the Soviet Union, 
+            the United States, and France to launch satellites due to its own 
+            capabilities .
+            '''
+    },
+
+    "M-4S": {
+        "Name": "M-4S",
+        "Agency": "Nissan Aerospace Research Institute, The University of Tokyo",
+        "Payload Capacity to LEO": "180 kilograms (400 lb)",
+        "Height": "23.6 meters (77 ft)",
+        "Diameter": "1.41 meters (4 ft 8 in)",
+        "Mass": "43,600 kg (96,000 lb)",
+        "Years in Operation": "1070-1972",
+        "Country": "Japan",
+        "Operational Status": "Retired",
+        "Number of Stages": "4",
+        "Additional Information":
+            '''
+            The M-4S rocket (MU4S rocket) was developed by the Institute of Aeronautics 
+            and Astronautics of the University of Tokyo (hereinafter referred to as the 
+            University of Tokyo) jointly with the Nissan Motor Aerospace Division 
+            (hereinafter referred to as the Nissan), manufactured by Nissan, and 
+            operated by the University of Tokyo. It is a solid fuel rocket . 4 units 
+            were launched from Uchinoura Space Center and 3 units succeeded. This 
+            section also describes M-1, M-3D, which is a full-scale preliminary test 
+            machine for M-4S.
+            
+            It was developed based on the technology of the L-4S rocket . All stages 
+            consist of solid-fuel rockets that do not have a guidance device, and 
+            carry out satellite orbit injection by the gravity turn method . Due to 
+            the relationship with the launch launcher, the tail can not be installed 
+            in the second stage, and after launch, the flare that opens like an 
+            umbrella at the rear end of the second stage stabilizes the posture. 
+            The tail area of the first stage is also smaller than that of 
+            the L-4S relative to the rocket body. For this reason, the flight 
+            stability is lower than that of the L-4S, but the probability of 
+            satellite orbit injection can be secured by optimizing the orbit design 
+            based on the thrust margin. Basically, each satellite of M-4S was 
+            launched as a "target orbit" with all satellites near 700 km perigee 
+            and 2500-4500 km apogee (apogee changes significantly depending on 
+            satellite weight) (in this orbit) , Satellite orbits are most likely 
+            to be established, even if swept by the wind, exceeding 95%). This is 
+            the reason why the weights of all the satellites that are thrown in 
+            are less than half of the low-orbit launch capability in the catalog.
+
+            The first unit was launched on September 25, 1970 (Showa 45) , but 
+            failed to put the satellite into orbit. Unit 4 from Unit 2 , 1971 
+            in February from 1972 August was launched subjected to.
+            '''
+    },
+
+    "Europa": {
+        "Name": "Europa",
         "Agency": "",
         "Payload Capacity to LEO": "",
         "Height": "",
@@ -856,14 +987,14 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
+        "Number of Stages": "Retired",
         "Additional Information":
             '''
 
             '''
     },
 
-    "": {
+    "Hermes": {
         "Name": "",
         "Agency": "",
         "Payload Capacity to LEO": "",
@@ -873,14 +1004,14 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
+        "Number of Stages": "Canceled",
         "Additional Information":
             '''
 
             '''
     },
 
-    "": {
+    "Vega": {
         "Name": "",
         "Agency": "",
         "Payload Capacity to LEO": "",
@@ -889,75 +1020,7 @@ rocketDictionary = {
         "Mass": "",
         "Years in Operation": "",
         "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Additional Information":
-            '''
-
-            '''
-    },
-
-    "": {
-        "Name": "",
-        "Agency": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Additional Information":
-            '''
-
-            '''
-    },
-
-    "": {
-        "Name": "",
-        "Agency": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Additional Information":
-            '''
-
-            '''
-    },
-
-    "": {
-        "Name": "",
-        "Agency": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Additional Information":
-            '''
-
-            '''
-    },
-
-    "": {
-        "Name": "",
-        "Agency": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
+        "Operational Status": "Active",
         "Number of Stages": "",
         "Additional Information":
             '''
@@ -1125,6 +1188,21 @@ def diamantPushed():
     infoLabel.configure(text=pushDataToLabel(rocketDictionary["Diamant"]))
     imgLabel.configure(image=diamantphoto)
 
+def otragPushed():
+    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['OTRAG']))
+    infoLabel.configure(text=pushDataToLabel(rocketDictionary["OTRAG"]))
+    imgLabel.configure(image=otragphoto)
+
+def m4sPushed():
+    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['M-4S']))
+    infoLabel.configure(text=pushDataToLabel(rocketDictionary["M-4S"]))
+    imgLabel.configure(image=m4sphoto)
+
+def l4sPushed():
+    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['L-4S']))
+    infoLabel.configure(text=pushDataToLabel(rocketDictionary["L-4S"]))
+    imgLabel.configure(image=l4sphoto)
+
 def doNothing():
     print("Nothing happened, of course.")
 
@@ -1171,6 +1249,11 @@ elif pop_up_answer == "no":
 # ***The Main Menu ***
 menu = Menu(root)
 root.config(menu=menu)
+
+showMenu = Menu(menu, bd=0, tearoff=FALSE)
+menu.add_cascade(label="Show", menu=showMenu)
+showMenu.add_command(label="Individual Rockets", command=doNothing)
+showMenu.add_command(label="Rocket Families", command=doNothing)
 
 sortMenu = Menu(menu, bd=0, tearoff=FALSE)
 menu.add_cascade(label="Sort", menu=sortMenu)
@@ -1237,6 +1320,9 @@ slsphoto = PhotoImage(file="sls.png")
 newGlennphoto = PhotoImage(file="newglenn.png")
 hIIAphoto = PhotoImage(file="H-IIA.png")
 diamantphoto = PhotoImage(file="diamant.png")
+otragphoto = PhotoImage(file="otrag.png")
+l4sphoto = PhotoImage(file="L-4S.png")
+m4sphoto = PhotoImage(file="M-4S.png")
 
 # *** Create all buttons/Labels ***
 insertButton = Button(toolbarFrame, text="Insert Image", command=doNothing)
@@ -1271,11 +1357,9 @@ slsButton = Button(mainWindowLeftFrame, pady=4, text="S.L.S. (Space Launch Syste
 newGlennButton = Button(mainWindowLeftFrame, pady=4, text="New Glenn", bg="gray63", fg="white", bd=0, command=newGlennPushed)
 hIIAButton = Button(mainWindowLeftFrame, pady=4, text="HII-A", bg="gray63", fg="white", bd=0, command=hIIAPushed)
 diamantButton = Button(mainWindowLeftFrame, pady=4, text="Diamant", bg="gray63", fg="white", bd=0, command=diamantPushed)
-otragButton = Button(mainWindowLeftFrame, pady=4, text="OTRAG", bg="gray63", fg="white", bd=0)
-lambdaButton = Button(mainWindowLeftFrame, pady=4, text="Lambda", bg="gray63", fg="white", bd=0)
-l4sButton = Button(mainWindowLeftFrame, pady=4, text="L-4S", bg="gray63", fg="white", bd=0)
-muButton = Button(mainWindowLeftFrame, pady=4, text="Mu", bg="gray63", fg="white", bd=0)
-m4sButton = Button(mainWindowLeftFrame, pady=4, text="M-4S", bg="gray63", fg="white", bd=0)
+otragButton = Button(mainWindowLeftFrame, pady=4, text="OTRAG", bg="gray63", fg="white", bd=0, command=otragPushed)
+l4sButton = Button(mainWindowLeftFrame, pady=4, text="L-4S", bg="gray63", fg="white", bd=0, command=l4sPushed)
+m4sButton = Button(mainWindowLeftFrame, pady=4, text="M-4S", bg="gray63", fg="white", bd=0, command=m4sPushed)
 
 rocketName = Label(mainWindowCenterFrame, font="-weight bold", bg="gray63", fg="white")
 rocketName.config(font=("Arial", 20))
@@ -1313,9 +1397,7 @@ newGlennButton.grid(row=19, column=0, padx=15)
 hIIAButton.grid(row=20, column=0, padx=15)
 diamantButton.grid(row=21, column=0, padx=15)
 otragButton.grid(row=22, column=0, padx=15)
-lambdaButton.grid(row=23, column=0, padx=15)
 l4sButton.grid(row=24, column=0, padx=15)
-muButton.grid(row=25, column=0, padx=15)
 m4sButton.grid(row=26, column=0, padx=15)
 
 rocketName.grid(row=0, column=0)
