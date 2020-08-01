@@ -77,7 +77,7 @@ def quit():
 
 
 # *** Create all Frames/Containers ***
-toolbarFrame = Frame(root, bg="gray40", width=1200, height=20)
+toolbarFrame = Frame(root, bg="plum4", width=1200, height=20)
 mainWindowFrame = Frame(root, bg="gray63", width=1200, height=650)
 mainWindowLeftFrame = Frame(mainWindowFrame, bg="gray63", width=400, height=650, padx=10)
 mainWindowCenterFrame = Frame(mainWindowFrame, bg="gray63", width=500, height=650)
@@ -104,7 +104,7 @@ mainWindowCenterFrame.grid_propagate(FALSE)
 mainWindowRightFrame.grid(row=0, column=2)
 
 #*** Create Listbox ***
-lb = Listbox(mainWindowLeftFrame, name='lb', height=40)
+lb = Listbox(mainWindowLeftFrame, name='lb', height=40,  background="gray50", fg="white", selectbackground="MediumPurple2", highlightcolor="MediumPurple2")
 
 # *** Create & Place Scrollbars ***
 rocket_scrollbar = Scrollbar(mainWindowLeftFrame, orient=VERTICAL)
@@ -145,6 +145,51 @@ lb.insert(18, "Diamant")
 lb.insert(19, "OTRAG")
 lb.insert(20, "L-4S")
 lb.insert(21, "M-4S")
+lb.insert(22, "Europa")
+lb.insert(23, "Hermes")
+lb.insert(24, "Vega")
+lb.insert(25, "Ariane M")
+lb.insert(26, "Miura 5")
+lb.insert(27, "Satellite Launch Vehicle")
+lb.insert(28, "Augmented Satellite Launch Vehicle")
+lb.insert(29, "PSLV-CA")
+lb.insert(30, "PSLV-XL")
+lb.insert(20, "PSLV-DL")
+lb.insert(31, "PSLV-QL")
+lb.insert(32, "PSLV-3S")
+lb.insert(33, "GSLV Mk I (a)")
+lb.insert(34, "GSLV Mk I (b)")
+lb.insert(20, "GSLV Mk II)")
+lb.insert(35, "Geosynchronous Satellite Launch Vehicle Mark III")
+lb.insert(36, "Small Satellite Launch Vehicle")
+lb.insert(37, "Reusable Launch Vehicle")
+lb.insert(38, "Unified Modular Launch Vehicle")
+lb.insert(39, "Long March 2A")
+lb.insert(40, "Long March 2C")
+lb.insert(41, "Long March 2D")
+lb.insert(42, "Long March 2E")
+lb.insert(43, "Long March 2F")
+lb.insert(44, "Long March 3")
+lb.insert(45, "Long March 3A")
+lb.insert(46, "Long March 3B")
+lb.insert(47, "Long March 3B/E")
+lb.insert(48, "Long March 3C")
+lb.insert(49, "Long March 4A")
+lb.insert(50, "Long March 4B")
+lb.insert(51, "Long March 4C")
+lb.insert(52, "Long March 5")
+lb.insert(53, "Long March 5B")
+lb.insert(54, "Long March 6")
+lb.insert(55, "Long March 7")
+lb.insert(56, "Long March 8")
+lb.insert(57, "Long March 9")
+lb.insert(58, "Long March 11")
+lb.insert(59, "Jeilong-1")
+lb.insert(60, "Hyperbola-1")
+lb.insert(60, "")
+
+
+
 
 
 # *** Place List Box ***

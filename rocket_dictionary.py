@@ -944,7 +944,7 @@ rocketDictionary = {
         "Height": "23.6 meters (77 ft)",
         "Diameter": "1.41 meters (4 ft 8 in)",
         "Mass": "43,600 kg (96,000 lb)",
-        "Years in Operation": "1070-1972",
+        "Years in Operation": "1970-1972",
         "Country": "Japan",
         "Operational Status": "Retired",
         "Number of Stages": "4",
@@ -1035,6 +1035,295 @@ rocketDictionary = {
             '''
     },
 
+    "Ariane M": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "Miura 5": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "Satellite Launch Vehicle": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "Augmented Satellite Launch Vehicle": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "PSLV-CA": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "PSLV-XL": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "PSLV-DL": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "PSLV-QL": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "PSLV-3S": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "GSLV Mk I (a)": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "GSLV Mk I (b)": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "GSLV Mk II)": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "Geosynchronous Satellite Launch Vehicle Mark III": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "Small Satellite Launch Vehicle": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "Reusable Launch Vehicle": {
+        "Name": "Reusable Launch Vehicle (TSTO)",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "Unified Modular Launch Vehicle": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
     "": {
         "Name": "",
         "Agency": "",
@@ -1068,5 +1357,125 @@ rocketDictionary = {
 
             '''
     },
+
+    "": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
+    "": {
+        "Name": "",
+        "Agency": "",
+        "Payload Capacity to LEO": "",
+        "Height": "",
+        "Diameter": "",
+        "Mass": "",
+        "Years in Operation": "",
+        "Country": "",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Additional Information":
+            '''
+
+            '''
+    },
+
 
 }
