@@ -1,51 +1,8 @@
 from tkinter import *
 
 root = Tk()
-root.title("Listbox Testing")
-root.geometry("1200x800")
-
-#Listbox
-rocket_listbox = Listbox(root)
-#rocket_listbox.config(underline=FALSE)
-rocket_listbox.pack(side=LEFT, padx=20, pady=15)
-
-infoLabel = Label(root, text="Placeholder")
-infoLabel.pack(side=LEFT)
-
-rocketName = Label(root, font="-weight bold", bg="gray63", fg="white")
-rocketName.config(font=("Arial", 20))
-rocketName.pack(side=TOP)
-
-
-def select(data):
-    infoLabel.config(text=rocket_listbox.get(pushDataToLabel(data)))
-
-def satVPushed():
-    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['Saturn V']))
-    infoLabel.configure(text=pushDataToLabel(rocketDictionary["Saturn V"]))
-
-def soyuzPushed():
-    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary['Soyuz']))
-    infoLabel.configure(text=pushDataToLabel(rocketDictionary["Soyuz"]))
-
-def pushDataToLabelTitle(data):
-    return data["Name"]
-
-
-def pushDataToLabel(data):
-    return "\n" + "\n" + "Country: " + data["Country"] + "\n" + "Agency/Company: " + "\n" + data[
-        "Agency"] + "\n" + "\n" + "Payload Capacity to LEO: " + data["Payload Capacity to LEO"] + "\n" + "Height: " \
-           + data["Height"] + "\n" + "Diameter: " + data["Diameter"] + "\n" + "Mass: " + data["Mass"] + "\n" \
-           + "Years in Operation: " + data["Years in Operation"] + "\n" + "\n" + "Additional Information: " + data[
-               "Additional Information"]
-
-#add item to LB
-rocket_listbox.insert(0, "Saturn V")
-rocket_listbox.insert(1, "Soyuz")
-rocket_listbox.insert(2, "Delta III")
-rocket_listbox.insert(3, "Ariane 5")
-rocket_listbox.insert(4, "Tronador II")
-rocket_listbox.insert(5, "VLS-1")
+frame = Frame()
+root.geometry("600x600")
 
 rocketDictionary = {
     'Saturn V': {
@@ -293,5 +250,47 @@ rocketDictionary = {
             '''
     }
 }
+
+
+def onselect(evt):
+    w = evt.widget
+    index = int(w.curselection()[0])
+    entry_text = w.get(index)
+    rocketName.configure(text=pushDataToLabelTitle(rocketDictionary[entry_text]))
+    infoLabel.configure(text=pushDataToLabel(rocketDictionary[entry_text]))
+    print(entry_text)
+
+def pushDataToLabelTitle(data):
+    return data["Name"]
+
+
+def pushDataToLabel(data):
+    return "\n" + "\n" + "Country: " + data["Country"] + "\n" + "Agency/Company: " + "\n" + data[
+        "Agency"] + "\n" + "\n" + "Payload Capacity to LEO: " + data["Payload Capacity to LEO"] + "\n" + "Height: " \
+           + data["Height"] + "\n" + "Diameter: " + data["Diameter"] + "\n" + "Mass: " + data["Mass"] + "\n" \
+           + "Years in Operation: " + data["Years in Operation"] + "\n" + "\n" + "Additional Information: " + data[
+               "Additional Information"]
+
+lb = Listbox(frame, name='lb')
+rocket_info_frame = Frame(root, width=500, height=700)
+rocket_info_frame.grid_propagate(FALSE)
+rocket_info_frame.grid(row=0, column=1)
+rocketName = Label(rocket_info_frame, text="")
+rocketName.grid(row=0, column=0)
+infoLabel = Label(rocket_info_frame, text="")
+infoLabel.grid(row=1, column=0)
+
+
+lb.bind('<<ListboxSelect>>', onselect)
+
+frame.grid(row=0, column=0)
+lb.grid(row=0, column=0)
+
+
+lb.insert(0, "Saturn V")
+lb.insert(1, "Soyuz")
+lb.insert(2, "Delta III")
+lb.insert(3, "Ariane 62")
+lb.insert(4, "Tronador II")
 
 root.mainloop()

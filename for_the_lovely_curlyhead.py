@@ -11,10 +11,12 @@ def onselect(evt):
     # from the widget we get cursor selection
     # I doubt it will ever need anything but [0], unless you're allowing to select multiple items at once.
     index = int(w.curselection()[0])
+    print("index:" + str(index))
     # from the widget we acquired in the previous line
     # we get the value (or text) of the listbox item
     # and printing it out to the terminal to confirm that the selection happened. Voila!
-    print(w.get(index))
+    entry_text = w.get(index)
+    print(entry_text)
     # once you have the selection, you can perform checks like
     # if w.get(index) == "Saturn V":
     #     show saturn V photo!

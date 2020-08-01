@@ -1068,7 +1068,7 @@ rocketDictionary = {
 # *** Class for Button Push ***
 
 def pushDataToLabelTitle(data):
-    return data["Name"]  # after fixing this, make sure to create a label placement and to delete data[name] below
+    return data["Name"]  
 
 
 def pushDataToLabel(data):
