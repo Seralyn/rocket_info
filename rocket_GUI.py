@@ -15,7 +15,7 @@ root.title("Working Title: SRP")
 root.iconbitmap("rocket_icon 512.ico")
 
 
-# *** Class for Button Push ***
+# *** Dictionary Info Pull Functions ***
 
 def pushDataToLabelTitle(data):
     return data["Name"]  
@@ -28,8 +28,6 @@ def pushDataToLabel(data):
            + "Years in Operation: " + data["Years in Operation"] + "\n" + "\n" + "Additional Information: " + data[
                "Additional Information"]
 
-
-# labelCreate = Label (mainWindowCenterFrame, text="poop", font="-weight bold")  **to create bold text**
 
 # *** Button Functionality/Functions Definitions ***
 def onselect(evt):
@@ -78,19 +76,24 @@ def quit():
     root.quit()
 
 
-
-
 # *** Create all Frames/Containers ***
 toolbarFrame = Frame(root, bg="gray40", width=1200, height=20)
 mainWindowFrame = Frame(root, bg="gray63", width=1200, height=650)
 mainWindowLeftFrame = Frame(mainWindowFrame, bg="gray63", width=400, height=650, padx=10)
-mainWindowCenterFrame = Frame(mainWindowFrame, bg="gray63", width=600, height=650)
+mainWindowCenterFrame = Frame(mainWindowFrame, bg="gray63", width=500, height=650)
 mainWindowRightFrame = Frame(mainWindowFrame, bg="gray63", width=400, height=650)
 statusBarFrame = Frame(root, bg="gray76", width=1350, height=20)
 
 # layout parameters of the main containers
 root.grid_rowconfigure(1, weight=1)
 root.grid_columnconfigure(0, weight=1)
+
+mainWindowCenterFrame.grid_rowconfigure(1, weight=1)
+mainWindowCenterFrame.grid_columnconfigure(0, weight=1)
+
+mainWindowRightFrame.grid_rowconfigure(1, weight=1)
+mainWindowRightFrame.grid_columnconfigure(0, weight=1)
+
 
 # *** Layout of all Frames/Containers ***
 toolbarFrame.grid(row=0, sticky="ew")
@@ -100,11 +103,24 @@ mainWindowCenterFrame.grid(row=0, column=1)
 mainWindowCenterFrame.grid_propagate(FALSE)
 mainWindowRightFrame.grid(row=0, column=2)
 
-# *** Image definitions ***
-
-
 #*** Create Listbox ***
 lb = Listbox(mainWindowLeftFrame, name='lb', height=40)
+
+# *** Create & Place Scrollbars ***
+rocket_scrollbar = Scrollbar(mainWindowLeftFrame, orient=VERTICAL)
+lb.configure(yscrollcommand=rocket_scrollbar.set)
+rocket_scrollbar.configure(command=lb.yview)
+lb.grid(row=1, column=0, sticky=N+E+S+W)
+lb.columnconfigure(0, weight=1)
+rocket_scrollbar.grid(row=1, column=1, rowspan=40, sticky=N+S)
+
+info_scrollbar = Scrollbar(mainWindowCenterFrame, orient=VERTICAL)
+lb.configure(yscrollcommand=info_scrollbar.set)
+info_scrollbar.configure(command=lb.yview)
+lb.grid(row=1, column=0, sticky=N+E+S+W)
+lb.columnconfigure(0, weight=1)
+info_scrollbar.grid(row=1, column=1, rowspan=40, sticky=N+S)
+
 
 # *** Populate List Box ***
 lb.insert(0, "Saturn V")
@@ -133,7 +149,6 @@ lb.insert(21, "M-4S")
 
 # *** Place List Box ***
 lb.bind('<<ListboxSelect>>', onselect)
-lb.grid(row=1, column=0)
 
 
 # *** Create all buttons/Labels ***
@@ -147,7 +162,7 @@ rocketName.config(font=("Arial", 20))
 infoLabel = Label(mainWindowCenterFrame, bg="gray63", fg="white")
 infoLabel.config(font=("Arial", 11))
 
-imgLabel = Label(mainWindowRightFrame, bg="gray63", border=0, padx=20)  # padx does nothing...why?
+imgLabel = Label(mainWindowRightFrame, bg="gray63", border=0)
 
 label = Label(statusBarFrame, text="placeholder")
 label.grid(row=0, column=0)
@@ -161,7 +176,7 @@ rocketListLabel.grid(row=0, column=0, padx=60, pady=5, sticky=N)
 rocketName.grid(row=0, column=0)
 infoLabel.grid(row=1, column=0, padx=25)
 
-imgLabel.grid(row=0, column=0, sticky=E)
+imgLabel.grid(row=0, column=0, padx=120)
 
 statusBarFrame.grid(row=2)
 statusBarFrame.grid_propagate(FALSE)

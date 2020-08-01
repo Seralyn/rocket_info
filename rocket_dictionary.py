@@ -915,7 +915,7 @@ rocketDictionary = {
         "Payload Capacity to LEO": "26 kg (57.32 lbs)",
         "Height": "16.5m (54.13 ft)",
         "Diameter": "0.735m (2.41 ft)",
-        "Mass": "8,527 kg ( 18,798 lbs)",
+        "Mass": "8,527 kg (18,798 lbs)",
         "Years in Operation": "1966-1970",
         "Country": "Japan",
         "Operational Status": "Retired",
