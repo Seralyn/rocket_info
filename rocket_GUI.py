@@ -7,7 +7,7 @@ from rocket_dictionary import rocketDictionary
 
 root = Tk()
 root.configure()
-root.geometry("1450x800")
+root.geometry("1650x800")
 root.title("Working Title: SRP")
 
 # *** Adds Icon to window ***
@@ -66,6 +66,11 @@ def helpMenuAboutPushed():
                                 ''')
 
 
+def on_configure(event):
+    # update scrollregion after starting 'mainloop'
+    # when all widgets are in canvas
+    info_canvas.configure(scrollregion=info_canvas.bbox('all'))
+
 def update_time():
     currentTime = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     label['text'] = currentTime
@@ -76,17 +81,24 @@ def quit():
     root.quit()
 
 
-# *** Create all Frames/Containers ***
-toolbarFrame = Frame(root, bg="plum4", width=1200, height=20)
+# *** Create all Frames/Containers/Canvas ***
+toolbarFrame = Frame(root, bg="dark slate blue", width=1200, height=20)
 mainWindowFrame = Frame(root, bg="gray63", width=1200, height=650)
 mainWindowLeftFrame = Frame(mainWindowFrame, bg="gray63", width=400, height=650, padx=10)
-mainWindowCenterFrame = Frame(mainWindowFrame, bg="gray63", width=650, height=650)
+mainWindowCenterFrame = Frame(mainWindowFrame, bg="gray63", width=700, height=650)
 mainWindowRightFrame = Frame(mainWindowFrame, bg="gray63", width=400, height=650)
-statusBarFrame = Frame(root, bg="gray76", width=1350, height=20)
+statusBarFrame = Frame(root, bg="gray76", width=1650, height=20)
+info_canvas = Canvas(mainWindowCenterFrame, bg="gray63", bd=0, highlightthickness=0, relief='ridge')
 
-# layout parameters of the main containers
+# *** Place Canvas ***
+info_canvas.grid(row=0, column=0, sticky=NSEW)
+
+# Layout parameters of the main containers
 root.grid_rowconfigure(1, weight=1)
 root.grid_columnconfigure(0, weight=1)
+
+mainWindowLeftFrame.grid_rowconfigure(1, weight=1)
+mainWindowLeftFrame.grid_columnconfigure(0, weight=1)
 
 mainWindowCenterFrame.grid_rowconfigure(1, weight=1)
 mainWindowCenterFrame.grid_columnconfigure(0, weight=1)
@@ -104,22 +116,21 @@ mainWindowCenterFrame.grid_propagate(FALSE)
 mainWindowRightFrame.grid(row=0, column=2)
 
 #*** Create Listbox ***
-lb = Listbox(mainWindowLeftFrame, name='lb', height=40,  background="gray50", fg="white", selectbackground="MediumPurple2", highlightcolor="MediumPurple2")
+lb = Listbox(mainWindowLeftFrame, name='lb', height=40, background="gray50", fg="white", selectbackground="MediumPurple2", highlightcolor="MediumPurple2")
 
 # *** Create & Place Scrollbars ***
 rocket_scrollbar = Scrollbar(mainWindowLeftFrame, orient=VERTICAL)
 lb.configure(yscrollcommand=rocket_scrollbar.set)
-rocket_scrollbar.configure(command=lb.yview)
-lb.grid(row=1, column=0, sticky=N+E+S+W)
-lb.columnconfigure(0, weight=1)
-rocket_scrollbar.grid(row=2, column=1, rowspan=40, sticky=N+S)
-
-info_scrollbar = Scrollbar(mainWindowCenterFrame, orient=VERTICAL)
-lb.configure(yscrollcommand=info_scrollbar.set)
-info_scrollbar.configure(command=lb.yview)
 lb.grid(row=2, column=0, sticky=N+E+S+W)
 lb.columnconfigure(0, weight=1)
-info_scrollbar.grid(row=1, column=1, rowspan=40, sticky=N+S)
+rocket_scrollbar.configure(command=lb.yview)
+rocket_scrollbar.grid(row=2, column=1, rowspan=40, sticky=N+S+W)
+
+info_scrollbar = Scrollbar(info_canvas, orient=VERTICAL)
+info_scrollbar.configure(command=info_canvas.yview)
+info_scrollbar.grid(row=0, column=1, rowspan=60, sticky=N+S)  #previously row=1, looked a bit different.
+info_canvas.configure(yscrollcommand = rocket_scrollbar.set)
+info_canvas.columnconfigure(0, weight=1)
 
 
 # *** Populate List Box ***
@@ -364,12 +375,14 @@ lb.insert(END, "Vanguard")
 lb.insert(END, "Vector-R")
 lb.insert(END, "Vulcan")
 
-# *** Place List Box ***
+# *** Bind List Box ***
 lb.bind('<<ListboxSelect>>', onselect)
 
+# *** Bind Canvas ***
+info_canvas.bind('<Configure>', on_configure)
 
 # *** Create all buttons/Labels ***
-insertButton = Button(toolbarFrame, text="Insert Image", command=doNothing)
+compareButton = Button(toolbarFrame, text="Compare", command=doNothing)
 printButton = Button(toolbarFrame, text="Print", command=doNothing)
 
 rocketListLabel = Label(mainWindowLeftFrame, bg="gray63", text="Rockets:", font="-weight bold")
@@ -377,9 +390,9 @@ search_label = Label(mainWindowLeftFrame, fg="white", bg="gray63", text="Search:
 search_entry = Entry(mainWindowLeftFrame)
 
 
-rocketName = Label(mainWindowCenterFrame, font="-weight bold", bg="gray63", fg="white")
+rocketName = Label(info_canvas, font="-weight bold", bg="gray63", fg="white", pady=0)
 rocketName.config(font=("Arial", 20))
-infoLabel = Label(mainWindowCenterFrame, bg="gray63", fg="white")
+infoLabel = Label(info_canvas, bg="gray63", fg="white")
 infoLabel.config(font=("Arial", 11))
 
 imgLabel = Label(mainWindowRightFrame, bg="gray63", border=0)
@@ -388,12 +401,12 @@ label = Label(statusBarFrame, text="placeholder")
 label.grid(row=0, column=0)
 
 # *** Placement & Layout of all Buttons ***
-insertButton.grid(row=0, column=0, padx=3, pady=4, sticky=W)
+compareButton.grid(row=0, column=0, padx=3, pady=4, sticky=W)
 printButton.grid(row=0, column=1, padx=3, pady=4, sticky=W)
 
 rocketListLabel.grid(row=0, column=0, padx=60, pady=5, sticky=N)
 search_label.grid(row=1, column=0, padx=3, sticky=W)
-search_entry.grid(row=1, column=1, pady=5, sticky=W)
+search_entry.grid(row=1, column=0, padx=50, pady=5, sticky=W)
 
 rocketName.grid(row=0, column=0)
 infoLabel.grid(row=1, column=0, padx=25)
@@ -401,7 +414,7 @@ infoLabel.grid(row=1, column=0, padx=25)
 imgLabel.grid(row=0, column=0, padx=120)
 
 statusBarFrame.grid(row=2)
-statusBarFrame.grid_propagate(FALSE)
+#statusBarFrame.grid_propagate(FALSE)  #when commented out, results in the timebar stretching the entire length of the frame
 
 # *** Popup Menus ***
 '''
