@@ -7,7 +7,7 @@ from rocket_dictionary import rocketDictionary
 
 root = Tk()
 root.configure()
-root.geometry("1350x800")
+root.geometry("1450x800")
 root.title("Working Title: SRP")
 
 # *** Adds Icon to window ***
@@ -80,7 +80,7 @@ def quit():
 toolbarFrame = Frame(root, bg="plum4", width=1200, height=20)
 mainWindowFrame = Frame(root, bg="gray63", width=1200, height=650)
 mainWindowLeftFrame = Frame(mainWindowFrame, bg="gray63", width=400, height=650, padx=10)
-mainWindowCenterFrame = Frame(mainWindowFrame, bg="gray63", width=500, height=650)
+mainWindowCenterFrame = Frame(mainWindowFrame, bg="gray63", width=650, height=650)
 mainWindowRightFrame = Frame(mainWindowFrame, bg="gray63", width=400, height=650)
 statusBarFrame = Frame(root, bg="gray76", width=1350, height=20)
 
@@ -112,12 +112,12 @@ lb.configure(yscrollcommand=rocket_scrollbar.set)
 rocket_scrollbar.configure(command=lb.yview)
 lb.grid(row=1, column=0, sticky=N+E+S+W)
 lb.columnconfigure(0, weight=1)
-rocket_scrollbar.grid(row=1, column=1, rowspan=40, sticky=N+S)
+rocket_scrollbar.grid(row=2, column=1, rowspan=40, sticky=N+S)
 
 info_scrollbar = Scrollbar(mainWindowCenterFrame, orient=VERTICAL)
 lb.configure(yscrollcommand=info_scrollbar.set)
 info_scrollbar.configure(command=lb.yview)
-lb.grid(row=1, column=0, sticky=N+E+S+W)
+lb.grid(row=2, column=0, sticky=N+E+S+W)
 lb.columnconfigure(0, weight=1)
 info_scrollbar.grid(row=1, column=1, rowspan=40, sticky=N+S)
 
@@ -373,6 +373,9 @@ insertButton = Button(toolbarFrame, text="Insert Image", command=doNothing)
 printButton = Button(toolbarFrame, text="Print", command=doNothing)
 
 rocketListLabel = Label(mainWindowLeftFrame, bg="gray63", text="Rockets:", font="-weight bold")
+search_label = Label(mainWindowLeftFrame, fg="white", bg="gray63", text="Search: ")
+search_entry = Entry(mainWindowLeftFrame)
+
 
 rocketName = Label(mainWindowCenterFrame, font="-weight bold", bg="gray63", fg="white")
 rocketName.config(font=("Arial", 20))
@@ -389,6 +392,8 @@ insertButton.grid(row=0, column=0, padx=3, pady=4, sticky=W)
 printButton.grid(row=0, column=1, padx=3, pady=4, sticky=W)
 
 rocketListLabel.grid(row=0, column=0, padx=60, pady=5, sticky=N)
+search_label.grid(row=1, column=0, padx=3, sticky=W)
+search_entry.grid(row=1, column=1, pady=5, sticky=W)
 
 rocketName.grid(row=0, column=0)
 infoLabel.grid(row=1, column=0, padx=25)

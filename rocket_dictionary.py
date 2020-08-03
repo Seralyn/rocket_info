@@ -1427,20 +1427,491 @@ rocketDictionary = {
             '''
     },
 
-    "": {
-        "Name": "",
-        "Agency": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
+    "Ariane 1": {
+        "Name": "Ariane 1",
+        "Agency": "ESA",
+        "Manufacturer": "Aérospatiale",
+        "Payload Capacity to LEO": "1,400 kilograms (3,100 lb)",
+        "Height": "50 m (160 ft)",
+        "Diameter": "3.8 m (12 ft)",
+        "Mass": "207,200 kg (456,800 lb)",
+        "Years in Operation": "1979-1986",
+        "Country": "EU",
+        "Operational Status": "Retired",
+        "Number of Stages": "4",
+        "Image": "Ariane 1.png",
         "Additional Information":
             '''
+            Ariane 1 was the first rocket in the Ariane family of expendable launch 
+            systems. It was developed and operated by the European Space Agency 
+            (ESA), which had been formed in 1973, the same year that development 
+            of the launch had commenced.
 
+            Ariane 1 was the first launcher to be developed with the primary 
+            purpose of sending commercial satellites into geosynchronous orbit. 
+            Crucially, it was designed with the ability of sending a pair of 
+            satellites into orbit on a single launcher, thus reducing costs. As 
+            the size of satellites grew, Ariane 1 quickly gave way to the more 
+            powerful Ariane 2 and Ariane 3 launchers, which were heavily based 
+            upon the original rocket. The Ariane 4 was the last rocket to 
+            heavily draw upon the Ariane 1, as the successive Ariane 5 having 
+            been developed using a far greater level of all-new elements.
+            
+            In 1973, eleven European countries decided to pursue joint 
+            collaboration in the field of space exploration and formed a new 
+            pan-national organisation to undertake this mission, the European 
+            Space Agency (ESA). For some time prior to the ESA's formation, 
+            France had been lobbying for the development of a new European 
+            expendable launch system to serve as a replacement for the Europa 
+            rocket; one proposed successor in the form of a refined Europa, 
+            referred to as the Europa IIIB, was studied but was found to be 
+            too ambitious and costly. As a result, the Europa IIIB proposal
+            was scaled back and soon reemerged as the L3S. Multinational effort 
+            became a quick focus point for the L3S proposal; early on, emphasis
+            was placed upon cooperation on the initiative between Germany and 
+            France, while increasing contribution from other countries also 
+            came into the picture over time.
+
+            In January 1973, Willy Brandt, the Chancellor of Germany, formally 
+            agreed to the L3S project following a series of personal approaches 
+            by Georges Pompidou, the President of France. On 21 September 1973, 
+            the legal agreement for the L3S, was signed. Under this agreement, 
+            the Europa III was formally cancelled, while the L3S would be 
+            developed as a multinational project. From the onset, the launcher 
+            was to be developed for the purpose of sending commercial satellites 
+            into geosynchronous orbit, unlike many other competing launchers, 
+            which had been typically developed for other purposes and subsequently 
+            adapted, such as ballistic missiles. Development of L3S was seen as a 
+            crucial test for the ESA, the fortunes of the former being viewed as 
+            being highly indicative for the future of the latter. According to 
+            author Brian Harvey, L3S was "one of the major European engineering 
+            projects in the last quarter of the century".
+            
+            France was the largest stakeholder in the L3S programme; French 
+            aerospace manufacturer Aérospatiale served as the prime contractor 
+            and held responsibility for performing the integration of all 
+            sections of the vehicle, while French engine manufacturer Société 
+            Européenne de Propulsion (SEP) provided both the first and second 
+            stage engines (the third stage engines were produced by Air Liquide 
+            and German aerospace manufacturer MBB). Other major companies 
+            involved included the French electronics firm Matra, Swedish 
+            manufacturer Volvo, and German aircraft producer Dornier Flugzeugwerke. 
+            The United Kingdom, which held a stake of 2.47 per cent in the project, 
+            provided the guidance system, developed by Ferranti, and the central 
+            digital computer, from Marconi; British Aerospace had later involvement 
+            and workshare as well. Early on, it was felt that the L3S designation 
+            lacked public appeal; out of several alternative names, including 
+            Phoenix, Lyra, Ganymede and Vega, French minister of industrial and 
+            scientific development Jean Charbonnel chose the name Ariane for the 
+            new launcher.
+            '''
+    },
+
+    "Ariane 2": {
+        "Name": "Ariane 2",
+        "Agency": "ESA",
+        "Payload Capacity to LEO": "(GEO) 2,175 kg (4,795 lb)",
+        "Height": "49.13 m (161.2 ft)",
+        "Diameter": "3.8 m (12 ft)",
+        "Mass": "215,000 kg (474,000 lb)",
+        "Years in Operation": "1986-1989",
+        "Country": "EU",
+        "Operational Status": "Retired",
+        "Number of Stages": "3",
+        "Image": "Ariane 2.png",
+        "Additional Information":
+            '''
+            Ariane 2 was an expendable space launch vehicle, operated by the 
+            European Space Agency (ESA) between 1986 and 1989 as part of 
+            Ariane family of rockets. The principal manufacturer for the 
+            Ariane 2 was Aérospatiale, while the lead agency for its 
+            development was the Centre National d'Etudes Spatiales (CNES), 
+            the French government's space agency.
+
+            Development of the Ariane 2 was authorised in July 1979, months 
+            prior to the Ariane 1's first flight. Drawing heavily upon both 
+            the design and infrastructure of the Ariane 1, the new launcher 
+            was concurrently developed alongside the Ariane 3, with which it 
+            shared much of its design. It represented an advancement of the 
+            Ariane 1 rather than a replacement, but was capable of lifting
+            even heavier payloads into Geostationary transfer orbit (GTO). 
+            Developed largely within a two year window, the Ariane 2 
+            performed its maiden flight on 31 May 1986, actually flying 
+            after its Ariane 3 sibling. During its brief service life, the 
+            final launch of the Ariane 2 having been conducted on 2 April 
+            1989, the Ariane family had become increasingly commercially 
+            competitive, becoming the market leading heavy launch vehicle 
+            in the world by the late 1980s.
+            
+            In 1973, eleven nations decided to pursue joint collaboration in 
+            the field of space exploration and formed a new pan-national 
+            organisation to undertake this mission, the European Space Agency. 
+            Six years later, in December 1979, the arrival of a capable 
+            European expendable launch system was marked when the first Ariane 
+            1 launcher was successfully launched from the Guiana Space Centre 
+            at Kourou, French Guiana. The Ariane 1 soon became considered 
+            to be a capable and competitive launcher in comparison to rival 
+            platforms offered by the Soviet Union and the United States of 
+            America. However, even prior to the launcher having entering 
+            service, there was a strong desire to quickly produce improved 
+            derivatives that would be able to handle even greater payloads 
+            than Ariane 1 could. These desires would result in the creation 
+            of both the Ariane 2 and Ariane 3.
+
+            While the initiative was first proposed in 1978, prior to the 
+            Ariane 1's first flight, approval to commence the first phase 
+            of development was not received until July 1979. The bulk 
+            of development work on the new launcher occurred between 1980 
+            and 1982. The Ariane 2 was designed to satisfy the future 
+            demand for the delivery of two tonne payloads into a 
+            Geosynchronous transfer orbit (GTO). According to aerospace 
+            historian Brian Harvey, in spite of the numbering sequence 
+            adopted, the Ariane 3 was the direct successor to the Ariane 1, 
+            rather than the Ariane 2, as could be logically assumed. The 
+            principal agency behind the development of the Ariane 2 was 
+            the Centre National d'Etudes Spatiales (CNES), while the lead 
+            company for its production was the French aerospace 
+            manufacturer Aérospatiale.
+            
+            In order to keep costs down, CNES directed that only tested 
+            technologies could be implemented in the launcher's 
+            improvements; in fact, no budget was provided for new test 
+            series to be performed. Furthermore, it was restricted to 
+            using the existing launch pad and handling facilities 
+            established for the Ariane 1, and that there was to be no 
+            allowance for retooling of the Ariane production line. 
+            However, one new piece of infrastructure that was permitted 
+            was the establishment of tracking equipment in the Ivory 
+            Coast; the existing infrastructure based in Brazil used by 
+            the Ariane 1 was less suitable due to the increased 
+            performance of the Ariane 2, which flew a different ascent 
+            profile than its predecessor. Performance boosts were 
+            achieved via several different ways, such as the elongated 
+            third stage fuel tanks to carry 30 percent more fuel, 
+            elevated combustion pressure in multiple stages, a new 
+            intertank structure that supported the addition of solid-fuel 
+            boosters, and the adoption of a new fuel mixture.
+            
+            The finalised Ariane 2 is largely identical to its sibling, 
+            the Ariane 3, the only major difference being the lack of 
+            additional solid rocket boosters, which gave the Ariane 3 a 
+            higher payload capacity at a greater unit cost. The payload 
+            capacity of the Ariane 2 was 2,175 kilograms (4,795 lb) to a 
+            geosynchronous transfer orbit (GTO), exceeding that of the
+            preceding Ariane 1.
+            '''
+    },
+
+    "Ariane 3": {
+        "Name": "Ariane 3",
+        "Agency": "ESA",
+        "Payload Capacity to LEO": "(GTO) 2,700 kg (6,000 lb)",
+        "Height": "49.13 m (161.2 ft)",
+        "Diameter": "3.8 m (12 ft)",
+        "Mass": "234,000 kg (516,000 lb)",
+        "Years in Operation": "1984-1989",
+        "Country": "EU",
+        "Operational Status": "Retired",
+        "Number of Stages": "3",
+        "Image": "Ariane 3.png",
+        "Additional Information":
+            '''
+            Ariane 3 was a European expendable carrier rocket, which was 
+            used for eleven launches between 1984 and 1989. It was a 
+            member of the Ariane family of rockets. The principal 
+            manufacturer for the Ariane 3 was Aérospatiale, while the lead 
+            agency for its development was the Centre National d'Etudes 
+            Spatiales (CNES).
+
+            Development of the Ariane 3 was authorised in July 1979, months 
+            prior to the Ariane 1's first flight. Drawing heavily upon both 
+            the design and infrastructure of the Ariane 1, the new launcher 
+            was concurrently developed alongside the Ariane 2, with which 
+            it shared much of its design. It represented an advancement of
+            the Ariane 1 rather than a replacement, but was capable of 
+            lifting even heavier payloads into Geostationary transfer orbit 
+            (GTO) as well as launching two satellites via one launch. 
+            Developed largely within a two year window, the Ariane 3 
+            performed its maiden flight on 4 August 1984, actually flying 
+            in advance of its Ariane 2 sibling. During its brief service 
+            life, having performed its final launch on 12 July 1989, the 
+            Ariane family had become increasingly commercially competitive, 
+            becoming the market leading heavy launch vehicle in the world 
+            by the late 1980s.
+            
+            In 1973, eleven nations decided to pursue joint collaboration in 
+            the field of space exploration and formed a new pan-national 
+            organisation to undertake this mission, the European Space Agency 
+            (ESA). Six years later, in December 1979, the arrival of a capable 
+            European expendable launch system was marked when the first Ariane 
+            1 launcher was successfully launched from the Guiana Space Centre 
+            at Kourou, French Guiana. The Ariane 1 soon became considered to
+            be a capable and competitive launcher in comparison to rival platforms 
+            offered by the Soviet Union and the United States of America. However, 
+            even prior to the launcher having entering service, there was a strong 
+            desire to quickly produce improved derivatives that would be able to 
+            handle even greater payloads than Ariane 1 could. These desires would 
+            result in the creation of both the Ariane 2 and Ariane 3.
+
+            While the initiative was first proposed in 1978, prior to the Ariane 1's 
+            first flight, approval to commence the first phase of development was 
+            not received until July 1979. The bulk of development work on the new 
+            launcher occurred between 1980 and 1982. The Ariane 3 was designed to 
+            satisfy the future demand for the delivery of two tonne payloads into a 
+            Geosynchronous transfer orbit (GTO). According to aerospace historian 
+            Brian Harvey, in spite of the numbering sequence adopted, the Ariane 3 was 
+            the direct successor to the Ariane 1, rather than the Ariane 2,as could be 
+            logically assumed. The principal agency behind the development of the Ariane 
+            3 was the Centre National d'Etudes Spatiales (CNES), while the lead company 
+            for its production was the French aerospace manufacturer Aérospatiale.
+            
+            In order to keep costs down, CNES directed that only tested technologies 
+            could be implemented in the launcher's improvements; in fact, no budget was 
+            provided for new test series to be performed. Furthermore, it was restricted 
+            to using the existing launch pad and handling facilities established for the 
+            Ariane 1, and that there was to be no allowance for retooling of the Ariane 
+            production line. However, one new piece of infrastructure that was permitted 
+            was the establishment of tracking equipment in the Ivory Coast; the existing 
+            infrastructure based in Brazil used by the Ariane 1 was less suitable due to 
+            the increased performance of the Ariane 3, which flew a different ascent 
+            profile that reached 250km, rather than 200km before coasting into orbit. 
+            Performance boosts were achieved via several different ways, such as the 
+            elongated third stage fuel tanks to carry 30 percent more fuel, elevated 
+            combustion pressure in multiple stages, a new intertank structure that 
+            supported the addition of solid-fuel boosters, and the adoption of a new 
+            fuel mixture.
+            
+            The finalised Ariane 3 followed the same basic design as the earlier Ariane 
+            1, but incorporated numerous modifications that had been made for the 
+            Ariane 2. Unlike the Ariane 2, two solid-fuelled PAP strap-on booster rockets 
+            were used to augment the first stage at liftoff. The core of the Ariane 3 was 
+            essentially identical to that of the Ariane 2. The first stage was powered by 
+            four Viking 2B bipropellant engines, burning UH 25 (25% straight hydrazine, 
+            75% UDMH) in a dinitrogen tetroxide oxidiser. The second stage was powered by 
+            a Viking 4B, which used the same fuel-oxidiser combination. The third stage 
+            used a cryogenically fuelled HM7B engine, burning liquid hydrogen in liquid 
+            oxygen. On some flights, a Mage 2 kick motor was flown as a fourth stage. One 
+            atypical modification for the era was the revised satellite deployment system, 
+            which could facilitate the launch of two smaller satellites as well as one 
+            larger one.
+            
+            The Ariane 3's design heavily influenced that of its successor, the Ariane 4; 
+            while the design team considered various approaches for achieving such a 
+            launcher, one of the studied concepts had involved the addition of a fifth 
+            engine to an enlarged first stage of the Ariane 3. However, this was determined 
+            to have involved a very high level of redesign work; an alternative approach was 
+            instead adopted, in which the first stage was elongated to hold 210 tonnes of 
+            propellant instead of the 145 tonnes present on the Ariane 3. While the second 
+            and third stages of the Ariane 4 remained identical to the Ariane 3, a range of 
+            strap-on boosters were developed to be applied to the type, designed to gradually 
+            increase the rocket's payload capacity. Overall, the Ariane 4 was 15 per cent 
+            smaller than the Ariane 3. It was effectively an improved and developed 
+            derivative of the earlier Ariane 3, primarily differing through the application 
+            of various solid-fuelled and liquid-fuelled boosters, the latter being the only 
+            all-new design feature of the Ariane 4.
+            '''
+    },
+
+    "Ariane 4": {
+        "Name": "Ariane 4",
+        "Agency": "ESA",
+        "Payload Capacity to LEO": "5000–7600 kg",
+        "Height": "58.72 m",
+        "Diameter": "3.8 m",
+        "Mass": "240,000–470,000 kg",
+        "Years in Operation": "1988-2003",
+        "Country": "EU",
+        "Operational Status": "Retired",
+        "Number of Stages": "2",
+        "Image": "Ariane 4.png",
+        "Additional Information":
+            '''
+            The Ariane 4 was an expendable space launch system, developed by the Centre 
+            national d'études spatiales (CNES), the French space agency, for the European 
+            Space Agency (ESA). It was manufactured by ArianeGroup and marketed by 
+            Arianespace. Since its first flight on 15 June 1988 until the final flight 
+            on 15 February 2003, it attained 113 successful launches out of 116 total launches.
+
+            In 1982, the Ariane 4 program was approved by ESA. Drawing heavily upon the 
+            preceding Ariane 3, it was designed to provide a launcher capable of delivering 
+            heavier payloads and at a lower cost per kilogram than the earlier members of 
+            the Ariane family. The Ariane 4 was principally an evolution of the existing 
+            technologies used, as opposed to being revolutionary in its design ethos; this 
+            approach quickly gained the backing of most ESA members, who funded and 
+            participated in its development and operation. Capable of being equipped with a 
+            wide variety of strap-on boosters, the Ariane 4 gained a reputation for being an 
+            extremely versatile launcher.
+            
+            Once in service, the launcher soon became recognized for being ideal for 
+            launching communications and Earth observation satellites, as well as those used 
+            for scientific research. During its working life, the Ariane 4 managed to capture 
+            50% of the market in launching commercial satellites, soundly demonstrating 
+            Europe's ability to compete in the commercial launch sector. In February 2003, 
+            the final Ariane 4 was launched; Arianespace had decided to retire the type in 
+            favour of the newer and larger Ariane 5, which effectively replaced it in service.
+            
+            In 1973, eleven nations decided to pursue joint collaboration in the field of space 
+            exploration and formed a new pan-national organisation to undertake this mission, 
+            the European Space Agency (ESA). Six years later, in December 1979, the arrival 
+            of a capable European expendable launch system was marked when the first Ariane 1 
+            launcher was successfully launched from the Centre Spatial Guyanais at Kourou, 
+            French Guiana. The Ariane 1 soon became considered to be a capable and competitive 
+            launcher in comparison to rival platforms offered by the Soviet Union and the United 
+            States of America, and it was quickly followed by improved derivatives in the form of 
+            the Ariane 2 and Ariane 3. By early 1986, the Ariane 1, along with the Ariane 2 and 
+            Ariane 3, had become the dominant launcher on the world market.
+
+            In January 1982, the ESA issued its authorisation for the development and construction 
+            of the Ariane 4; the development programme had the stated objective of increasing the 
+            usable payload by 90%. The Ariane 4 would be a considerably larger and more 
+            flexible launcher that the earlier members of its family, being intended to compete 
+            with the upper end of launchers worldwide. In comparison, while the Ariane 1 had a 
+            typical weight of 207 tonnes and could launch payloads of up to 1.7 tonnes into orbit; 
+            the larger Ariane 4 had a typical weight of 470 tonnes and could orbit payloads of up 
+            to 4.2 tonnes. Work on the Ariane 4 was substantially eased via drawing heavily on both 
+            the technology and experiences gained from producing and operating the earlier members 
+            of the Ariane rocket. The total development cost for the Ariane 4 was valued at 476 
+            million European Currency Units (ECU) in 1986.
+            
+            Posed with the requirement to produce a rocket with substantially greater thrust, the 
+            design team considered various approaches to achieve this. One concept studied had 
+            involved the addition of a fifth engine to an enlarged first stage of the Ariane 3, 
+            but was found to involve a very high level of redesign work to achieve this; instead, 
+            the first stage was elongated to hold 210 tonnes of propellant instead of the 145 
+            tonnes present on the Ariane 3. While the second and third stages remained identical to 
+            the Ariane 3, a range of strap-on boosters were developed to be applied to the type, 
+            designed to gradually increase the rocket's payload capacity. Overall, the Ariane 4 was 
+            15% smaller than the Ariane 3.
+            
+            In effect, the Ariane 4 was an improved and developed derivative of the earlier Ariane 3, 
+            primarily differing through the application of various solid-fuelled and liquid-fuelled 
+            boosters, the latter being the only all-new design feature of the Ariane 4; at this 
+            point, the practice of using liquid boosters was uncommon, having only previously been 
+            used in the Chinese space program. Another innovation of the Ariane 4 was the dual-launch 
+            SPELDA (Structure Porteuse Externe de Lancement Double Ariane) fairing. This had the 
+            function of allowing a pair of satellites, one placed on top of the other; several different 
+            SPELDA nose fairings could be installed, including normal and extended models. The SPELDA 
+            was considerably lighter than its predecessor; the guidance system also used much more 
+            accurate ring laser gyroscopes. According to aviation author Brian Harvey, the advances 
+            present in the design of the Ariane 4 represented a conservative and evolutionary, rather 
+            than revolutionary, philosophy.
+            '''
+    },
+
+    "Ariane 5": {
+        "Name": "Ariane 5",
+        "Agency": "ESA",
+        "Payload Capacity to LEO": "16,000 kg (35,000 lb)",
+        "Height": "46–52 m (151–171 ft)",
+        "Diameter": "5.4 m (18 ft)",
+        "Mass": "777,000 kg (1,713,000 lb)",
+        "Years in Operation":
+            '''
+            G: 1996-2003
+            G+: 2004-2004
+            GS: 2005-2009
+            ECA: 2002~
+            ES: 2008-2018
+            ''',
+        "Country": "EU",
+        "Operational Status":
+            '''
+            G: Retired
+            G+: Retired
+            GS: Retired
+            ECA: Active
+            ES: Retired
+            ''',
+        "Number of Stages": "2",
+        "Image": "Ariane 5.png",
+        "Additional Information":
+            '''
+            Ariane 5 is a heavy-lift space launch vehicle developed and operated 
+            by Arianespace for the European Space Agency (ESA). It is launched 
+            from the Guiana Space Centre in French Guiana. It has been used to 
+            deliver payloads into geostationary transfer orbit (GTO) or low Earth 
+            orbit (LEO). A direct successor system, Ariane 6, is in development 
+            as of July 2020.
+
+            The system was originally designed as an expendable launch system by 
+            the Centre national d'études spatiales (CNES), the French government's 
+            space agency, in close cooperation with Germany and other European 
+            partners. Despite not being a direct derivative of its predecessor 
+            rocket program, it is classified as part of the Ariane rocket family. 
+            Airbus Defence and Space is the prime contractor for the vehicles, 
+            leading a multi-country consortium of other European contractors. ESA 
+            originally designed Ariane 5 to launch the Hermes spaceplane, and thus 
+            it is rated for human space launches.
+            
+            Since its first launch, Ariane 5 has been refined in successive 
+            versions: "G", "G+", "GS", "ECA", and most recently, "ES". The system 
+            has a commonly used dual-launch capability, where up to two large 
+            geostationary belt communication satellites can be mounted using a 
+            SYLDA (Système de Lancement Double Ariane, "Ariane Double-Launch System") 
+            carrier system. Up to three, somewhat smaller, main satellites are possible 
+            depending on size using SPELTRA (Structure Porteuse Externe Lancement 
+            Triple Ariane, "Ariane Triple-Launch External Carrier Structure"). Up to 
+            eight secondary payloads, usually small experiment packages or minisatellites, 
+            can be carried with an ASAP (Ariane Structure for Auxiliary Payloads) platform.
+            
+            As of August 2020, Arianespace had signed contracts for Ariane 5 ECA launches 
+            up through 2023, approximately two years following the planned introduction 
+            of Ariane 6 in early 2021.
+            
+            -Variants-
+            G: The original version is dubbed Ariane 5 G (Generic) and had a launch mass 
+            of 737 tonnes. Its payload capability to geostationary transfer orbit (GTO) 
+            was 6,900 kilograms (15,200 lb) for a single satellite or 6,100 kilograms 
+            (13,400 lb) for dual launches. It flew 17 times with one failure and two 
+            partial failures.
+            
+            G+: The Ariane 5 G+ had an improved EPS second stage, with a GTO capacity 
+            of 7,100 kilograms (15,700 lb) for a single payload or 6,300 kilograms 
+            (13,900 lb) for two. It flew three times in 2004, with no failures.
+            
+            GS: At the time of the failure of the first Ariane 5 ECA flight in 2002, 
+            all Ariane 5 launchers in production were ECA versions. Some of the ECA 
+            cores were modified to use the original Vulcain engine and tank volumes 
+            while the failure was investigated; these vehicles were designated 
+            Ariane 5 GS. The GS used the improved EAP boosters of the ECA variant 
+            and the improved EPS of the G+ variant, but the increased mass of the 
+            modified ECA core compared to the G and G+ core resulted in slightly 
+            reduced payload capacity. Ariane 5 GS could carry a single payload of 
+            6,600 kilograms (14,600 lb) or a dual payload of 5,800 kilograms 
+            (12,800 lb) to GTO. The Ariane 5 GS flew 6 times from 2005 to 2009
+             with no failures.
+            
+            ECA: The Ariane 5 ECA (Evolution Cryotechnique type A), first 
+            successfully flown in 2005, uses an improved Vulcain 2 first-stage 
+            engine with a longer, more efficient nozzle with a more efficient 
+            flow cycle and denser propellant ratio. The new ratio required length 
+            modifications to the first-stage tanks. The EPS second stage was 
+            replaced by the ESC-A (Etage Supérieur Cryogénique-A), which has a 
+            dry weight of 2,100 kilograms (4,600 lb) and is powered by an HM-7B
+            engine burning 14,000 kilograms (31,000 lb) of cryogenic propellant. 
+            The ESC-A uses the liquid oxygen tank and lower structure from the 
+            Ariane 4's H10 third stage, mated to a new liquid hydrogen tank. 
+            Additionally, the EAP booster casings were lightened with new welds 
+            and carry more propellant. The Ariane 5 ECA has a GTO launch capacity 
+            of 9,100 kilograms (20,100 lb) for dual payloads or 9,600 kilograms 
+            (21,200 lb) for a single payload.
+            
+            ES: The Ariane 5 ES (Evolution Storable) has an estimated LEO launch 
+            capacity of 21,000 kilograms (46,000 lb). It includes all the 
+            performance improvements of Ariane 5 ECA core and boosters but 
+            replaces the ESC-A second stage with the restartable EPS used on Ariane 5 
+            GS variants. It was used to launch the Automated Transfer Vehicle (ATV) 
+            into a 260 km circular low Earth orbit inclined at 51.6° and has been 
+            used 3 times to launch 4 Galileo navigation satellites at a time directly 
+            into their operational orbit. The Ariane 5 ES flew 8 times from 2008 to 
+            2018 with no failures.
+            
+            ME: The Ariane 5 ME (Mid-life Evolution) was under development until 
+            the end of 2014. The last ESA ministerial council of December 2014 has 
+            cut further funding for Ariane 5 ME in favour of developing Ariane 6. 
+            Last activities for Ariane 5 ME were completed at the end of 2015. 
+            Activities on development of the VINCI upper stage were transferred 
+            to Ariane 6.
             '''
     },
 
@@ -1455,74 +1926,7 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
-        "Additional Information":
-            '''
-
-            '''
-    },
-
-    "": {
-        "Name": "",
-        "Agency": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Additional Information":
-            '''
-
-            '''
-    },
-
-    "": {
-        "Name": "",
-        "Agency": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Additional Information":
-            '''
-
-            '''
-    },
-
-    "": {
-        "Name": "",
-        "Agency": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Additional Information":
-            '''
-
-            '''
-    },
-
-    "": {
-        "Name": "",
-        "Agency": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
+        "Image": ".png",
         "Additional Information":
             '''
 
