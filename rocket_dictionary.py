@@ -987,51 +987,171 @@ rocketDictionary = {
     "Europa": {
         "Name": "Europa",
         "Agency": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "Retired",
+        "Payload Capacity to LEO":
+            '''
+            Europa I: 200 kg (440 lbs)
+            Europa II: 360 kg (793 lbs)
+            ''',
+        "Height": "33 m(108 ft)",
+        "Diameter": "3.05 m (10 ft)",
+        "Mass": "104,670 kg",
+        "Years in Operation":
+            '''
+            Blue Streak: 1964-1966
+            Coralie: 1967
+            Europa I: 1968-1970
+            Europa II: 1971
+            ''',
+        "Country": "EU",
+        "Operational Status": "Retired",
+        "Number of Stages": "3-4",
+        "Image": "europa.png",
         "Additional Information":
             '''
+            The Europa rocket was an early expendable launch system of the European 
+            Launcher Development Organisation (ELDO), which was the precursor to the 
+            European Space Agency (ESA). It was developed with the aim to delivering 
+            space access technology, and more specifically to facilitate the 
+            deployment of European-wide telecommunication and meteorological satellites 
+            into orbit.
 
+            The Blue Streak missile predated the Europa programme, having originally 
+            been developed by Britain primarily for military purposes, however it was 
+            cancelled in 1960. Efforts to repurpose the Blue Streak, such as the studied 
+            Black Prince expendable launch system, eventually cumulated in the 
+            multinational Europa programme.
+
+            Workshare on the programme was shared between the various members of the ELDO 
+            based upon their financial contributions. The Europa launcher itself 
+            primarily consisted of the Blue Streak, Coralie, and Astris rocket stages.
+
+            The programme proceeded to perform multiple test launches, however these 
+            frequently resulted in partial failures. In addition, Britain decided to 
+            pull out of the ELDO organisation, and thus Europa, to instead focus on 
+            the rival British Black Arrow launcher instead. This led to the replacement 
+            of the Blue Streak by the French-built Diamant section. However, confidence 
+            in the programme had diminished due to the poor reliability figures, and this 
+            led to its termination. While Europa was ultimately cancelled, the ambition 
+            for such a launcher was still present and supported by the majority of ELDO 
+            members and, following its reformation into the ESA in 1974, the agency 
+            proceeded to develop the Ariane family of launchers, would which prove to be 
+            a commercial success with hundreds of launches performed.
             '''
     },
 
     "Hermes": {
-        "Name": "",
-        "Agency": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "Canceled",
+        "Name": "Hermes",
+        "Agency": "CNES - 	Centre National d'Études Spatiales",
+        "Payload Capacity to LEO": "3,000 kg (6,600 lb)",
+        "Height": "19 m(62 ft)",
+        "Diameter": "Uknown",
+        "Mass": "21,000 kg (46,000 lb)",
+        "Years in Operation": "N/A",
+        "Country": "France",
+        "Operational Status": "Canceled",
+        "Number of Stages": "1",
+        "Image": "hermes.png",
         "Additional Information":
             '''
+            Hermes was a proposed spaceplane designed by the French Centre National d'Études 
+            Spatiales (CNES) in 1975, and later by the European Space Agency (ESA). It was 
+            superficially similar to the American Boeing X-20 Dyna-Soar and the larger Space 
+            Shuttle.
 
+            In January 1985, CNES proposed to proceed with Hermes development under the 
+            auspices of the ESA. Hermes was to have been part of a crewed spaceflight 
+            program. It would have been launched using an Ariane 5 launch vehicle. In November 
+            1987, the project was approved; it was to commence an initial pre-development phase 
+            from 1988 to 1990, after which the authorisation to proceed to full-rate development 
+            was to depend on the outcome of this phase. However, the project was subject to 
+            numerous delays and funding issues around this period.
+            
+            In 1992, Hermes was cancelled. This was in part due to unachievable cost and 
+            performance goals, as well as the formation of a partnership with the Russian 
+            Aviation and Space Agency (RKA), which reduced the demand for an independent crewed 
+            spaceplane. As a result, no Hermes shuttles were ever built. During the 2010s, it was 
+            proposed to relaunch the Hermes vehicle to serve as a partially reusable air-launched 
+            spaceplane launch system, known as SOAR.
             '''
     },
 
     "Vega": {
-        "Name": "",
-        "Agency": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
+        "Name": "Vega",
+        "Agency": "ESA",
+        "Payload Capacity to LEO": "1430-1960 kg (3152-4321 lbs)",
+        "Height": "30 metres (98 ft)",
+        "Diameter": "3 metres (9.8 ft)",
+        "Mass": "137,000 kilograms (302,000 lb)",
+        "Years in Operation": "2012~",
+        "Country": "Italy - EU",
         "Operational Status": "Active",
-        "Number of Stages": "",
+        "Number of Stages": "4",
+        "Image": "vega.png",
         "Additional Information":
             '''
+            Vega (Italian: Vettore Europeo di Generazione Avanzata, meaning "Advanced generation 
+            European carrier rocket"), is an expendable launch system in use by Arianespace 
+            jointly developed by the Italian Space Agency (ASI) and the European Space Agency 
+            (ESA). Development began in 1998 and the first launch took place from the Centre 
+            Spatial Guyanais on 13 February 2012.
 
+            It is designed to launch small payloads — 300 to 2500 kg satellites for scientific 
+            and Earth observation missions to polar and low Earth orbits. The reference Vega 
+            mission is a polar orbit bringing a spacecraft of 1500 kg to an altitude of 700 km.
+            
+            The rocket, named after Vega, the brightest star in the constellation Lyra, is a 
+            single-body launcher (no strap-on boosters) with three solid rocket stages: the P80 
+            first stage, the Zefiro 23 second stage, and the Zefiro 9 third stage. The upper 
+            module is a liquid rocket called AVUM. The improved version of the P80 stage, the 
+            P120C, will be used as the side boosters of the Ariane 6. Italy is the leading 
+            contributor to the Vega program (65%), followed by France (13%). Other participants 
+            include Spain, Belgium, the Netherlands, Switzerland and Sweden.
+            
+            During the mid-1990s, French firms Aérospatiale and SEP, along with Italian firm 
+            Bombrini-Parodi-Delfino (BPD), commenced discussions on the development of a proposed 
+            Ariane Complementary Launcher (ACL). Around the same time, Italy began to champion the 
+            concept of a new solid-propellant satellite launcher. This proposed launcher, dubbed 
+            Vega, was promoted as functioning to expand the range of European launch capabilities; 
+            Vega would be capable of launching a 1000 kg payload capability into a 700 km polar 
+            orbit. From the onset, the first of three stages would be based on the solid booster 
+            of the existing Ariane 5 expendable launch system while the second and third stages 
+            would make use of the in-development Zefiro rocket motor.
+
+            However, it was recognised to be a costly project and thus difficult for Italy alone 
+            to finance; accordingly, international partners were sought early on in order to 
+            proceed with development. In April 1998, it was publicly stated that the Vega 
+            programme was dependent upon the securing of roughly ECU70 million of industrial 
+            investment, as well as the availability of around ECU350 million of funding that 
+            had been requested from interested member states of the European Space Agency (ESA), 
+            led by France and Italy.[15] During June 1998, it was announced that ministers from 
+            European Space Agency (ESA) member states had agreed to proceed with the first phase 
+            of the development programme for Vega; the participating members were France, Belgium, 
+            the Netherlands, Spain and Italy - the latter had assumed 55% of the burden for 
+            financing the programme.
+            
+            By September 1998, it was projected that, if fully funded, Vega would perform its first 
+            launch during 2002. However, by early 1998, France was publicly showing displeasure in 
+            the programme, leading to disputes in its funding. A new, higher-performance version of 
+            the Vega was proposed, but this failed to sufficiently satisfy France. In September 1999, 
+            France decided to withdraw from the Vega programme entirely, leading to fears for the 
+            future of the launcher. In November 1999, European Space Agency (ESA) formally dropped 
+            Vega as an endorsed programme, a decision which was largely attributed to France's 
+            withdrawal; Italy declared that it would proceed regardless, and threatened to re-direct 
+            its allocated contributions for the further development of the Ariane 5 to meet the 
+            shortfall.
+            
+            Around 2000, an alternative use for the Vega was explored as a medium-class booster rocket 
+            to be used in conjunction with an improved, up-rated model of the Ariane 5 heavy launcher. 
+            In October 2000, it was announced that France and Italy had settled their year-long 
+            dispute over the Vega programme; France and Italy agreed to provide 35% and 52%, respectively, 
+            of the financing towards the all-composite P80 booster for the Ariane 5 — work which would be 
+            included in the Vega programme. In March 2001, FiatAvio and the Italian Space Agency formed 
+            a new company, European Launch Vehicle (ELV), to assume responsibility for the majority of 
+            development work on the Vega programme. By 2003, there was concerns that European Space 
+            Agency (ESA)'s recent adoption of the Russian Soyuz launcher would directly compete with the 
+            in-development Vega; demands for such launchers had declined with a downturn in the mobile 
+            telecommunications satellite market and doubts over the European Galileo satellite 
+            navigation system.
             '''
     },
 
