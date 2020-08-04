@@ -6,7 +6,7 @@ import tkinter.messagebox
 from rocket_dictionary import rocketDictionary
 
 root = Tk()
-root.configure()
+root.configure(bg="gray50")
 root.geometry("1650x800")
 root.title("Working Title: SRP")
 
@@ -41,7 +41,7 @@ def onselect(evt):
     imgLabel.image = img
 
 
-def doNothing():
+def doNothing():   #for now
     print("Nothing happened, of course.")
 
 
@@ -69,7 +69,7 @@ def helpMenuAboutPushed():
 def on_configure(event):
     # update scrollregion after starting 'mainloop'
     # when all widgets are in canvas
-    info_canvas.configure(scrollregion=info_canvas.bbox('all'))
+    info_canvas.configure(scrollregion=info_canvas.bbox('all'))  #doesn't seem to do anything...
 
 def update_time():
     currentTime = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -82,16 +82,17 @@ def quit():
 
 
 # *** Create all Frames/Containers/Canvas ***
-toolbarFrame = Frame(root, bg="dark slate blue", width=1200, height=20)
+toolbarFrame = Frame(root, bg="gray40", width=1200, height=20)
 mainWindowFrame = Frame(root, bg="gray63", width=1200, height=650)
 mainWindowLeftFrame = Frame(mainWindowFrame, bg="gray63", width=400, height=650, padx=10)
 mainWindowCenterFrame = Frame(mainWindowFrame, bg="gray63", width=700, height=650)
 mainWindowRightFrame = Frame(mainWindowFrame, bg="gray63", width=400, height=650)
-statusBarFrame = Frame(root, bg="gray76", width=1650, height=20)
+statusBarFrame = Frame(root, bg="gray50", width=1650, height=20)
 info_canvas = Canvas(mainWindowCenterFrame, bg="gray63", bd=0, highlightthickness=0, relief='ridge')
 
 # *** Place Canvas ***
 info_canvas.grid(row=0, column=0, sticky=NSEW)
+info_canvas.create_window((0,0), window=mainWindowCenterFrame, anchor='nw')
 
 # Layout parameters of the main containers
 root.grid_rowconfigure(1, weight=1)
@@ -397,7 +398,7 @@ infoLabel.config(font=("Arial", 11))
 
 imgLabel = Label(mainWindowRightFrame, bg="gray63", border=0)
 
-label = Label(statusBarFrame, text="placeholder")
+label = Label(statusBarFrame, bg="gray50", fg="white")
 label.grid(row=0, column=0)
 
 # *** Placement & Layout of all Buttons ***
@@ -414,7 +415,7 @@ infoLabel.grid(row=1, column=0, padx=25)
 imgLabel.grid(row=0, column=0, padx=120)
 
 statusBarFrame.grid(row=2)
-#statusBarFrame.grid_propagate(FALSE)  #when commented out, results in the timebar stretching the entire length of the frame
+#statusBarFrame.grid_propagate(FALSE)  #when commented out, results in the timebar placed in center of frame as opposed to leftmost side
 
 # *** Popup Menus ***
 '''
