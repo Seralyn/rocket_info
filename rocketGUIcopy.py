@@ -18,7 +18,7 @@ root.iconbitmap("rocket_icon 512.ico")
 # *** Dictionary Info Pull Functions ***
 
 def pushDataToLabelTitle(data):
-    return data["Name"]  
+    return data["Name"]
 
 
 def pushDataToLabel(data):
@@ -175,7 +175,7 @@ lb.insert(END, "Hapith V")
 lb.insert(END, "HTTP-3a")
 lb.insert(END, "Haas")
 lb.insert(END, "Angara")
-lb.insert(END, "CORONA (SSTO)")
+lb.insert(END, "CORONA")
 lb.insert(END, "Kosmos-1")
 lb.insert(END, "Kosmos-2I")
 lb.insert(END, "Kosmos-3")
@@ -388,8 +388,10 @@ printButton = Button(toolbarFrame, text="Print", command=doNothing)
 
 rocketListLabel = Label(mainWindowLeftFrame, bg="gray63", text="Rockets:", font="-weight bold")
 search_label = Label(mainWindowLeftFrame, fg="white", bg="gray63", text="Search: ")
-search_entry = Entry(mainWindowLeftFrame)
 
+entryVar = StringVar()
+search_entry = Entry(mainWindowLeftFrame, textvariable=entryVar)
+entryVar.trace("w", self.show_choices)
 
 rocketName = Label(frame_inside_canvas, font="-weight bold", bg="gray63", fg="white", pady=0)
 rocketName.config(font=("Arial", 28))
