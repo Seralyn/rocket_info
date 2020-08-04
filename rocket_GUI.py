@@ -66,7 +66,7 @@ def helpMenuAboutPushed():
                                 ''')
 
 
-def on_configure(event):
+def on_configure(event):  #commenting out "event" changes nothing
     # update scrollregion after starting 'mainloop'
     # when all widgets are in canvas
     info_canvas.configure(scrollregion=info_canvas.bbox('all'))  #doesn't seem to do anything...
@@ -92,7 +92,7 @@ info_canvas = Canvas(mainWindowCenterFrame, bg="gray63", bd=0, highlightthicknes
 
 # *** Place Canvas ***
 info_canvas.grid(row=0, column=0, sticky=NSEW)
-info_canvas.create_window((0,0), window=mainWindowCenterFrame, anchor='nw')
+info_canvas.create_window((0,0), window=mainWindowCenterFrame, anchor='nw')  #commenting this out changes nothing
 
 # Layout parameters of the main containers
 root.grid_rowconfigure(1, weight=1)
@@ -127,10 +127,10 @@ lb.columnconfigure(0, weight=1)
 rocket_scrollbar.configure(command=lb.yview)
 rocket_scrollbar.grid(row=2, column=1, rowspan=40, sticky=N+S+W)
 
-info_scrollbar = Scrollbar(info_canvas, orient=VERTICAL)
-info_scrollbar.configure(command=info_canvas.yview)
+info_scrollbar = Scrollbar(mainWindowCenterFrame, command=info_canvas.yview, orient=VERTICAL)
+#info_scrollbar.configure(command=info_canvas.yview)  #added command to creation of scrollbar instead of configuring it after creation
 info_scrollbar.grid(row=0, column=1, rowspan=60, sticky=N+S)  #previously row=1, looked a bit different.
-info_canvas.configure(yscrollcommand = rocket_scrollbar.set)
+info_canvas.configure(yscrollcommand = info_scrollbar.set)
 info_canvas.columnconfigure(0, weight=1)
 
 
@@ -380,7 +380,7 @@ lb.insert(END, "Vulcan")
 lb.bind('<<ListboxSelect>>', onselect)
 
 # *** Bind Canvas ***
-info_canvas.bind('<Configure>', on_configure)
+info_canvas.bind('<Configure>', on_configure) #commenting this out changes nothing...do I need it?
 
 # *** Create all buttons/Labels ***
 compareButton = Button(toolbarFrame, text="Compare", command=doNothing)
