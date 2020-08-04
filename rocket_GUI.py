@@ -7,7 +7,7 @@ from rocket_dictionary import rocketDictionary
 
 root = Tk()
 root.configure(bg="gray50")
-root.geometry("1650x800")
+root.geometry("1650x900")
 root.title("Working Title: SRP")
 
 # *** Adds Icon to window ***
@@ -66,9 +66,7 @@ def helpMenuAboutPushed():
                                 ''')
 
 
-def on_configure(event):  #commenting out "event" changes nothing
-    # update scrollregion after starting 'mainloop'
-    # when all widgets are in canvas
+def on_configure(evt):  #commenting out "event" changes nothing
     info_canvas.configure(scrollregion=info_canvas.bbox('all'))  #doesn't seem to do anything...
 
 def update_time():
@@ -89,10 +87,11 @@ mainWindowCenterFrame = Frame(mainWindowFrame, bg="gray63", width=700, height=65
 mainWindowRightFrame = Frame(mainWindowFrame, bg="gray63", width=400, height=650)
 statusBarFrame = Frame(root, bg="gray50", width=1650, height=20)
 info_canvas = Canvas(mainWindowCenterFrame, bg="gray63", bd=0, highlightthickness=0, relief='ridge')
+frame_inside_canvas = Frame(info_canvas, width=700, height=750, bg="gray63")
 
 # *** Place Canvas ***
 info_canvas.grid(row=0, column=0, sticky=NSEW)
-info_canvas.create_window((0,0), window=mainWindowCenterFrame, anchor='nw')  #commenting this out changes nothing
+info_canvas.create_window((0,0), window=frame_inside_canvas, anchor='center')  #commenting this out changes nothing
 
 # Layout parameters of the main containers
 root.grid_rowconfigure(1, weight=1)
@@ -115,6 +114,7 @@ mainWindowLeftFrame.grid(row=0, column=0)
 mainWindowCenterFrame.grid(row=0, column=1)
 mainWindowCenterFrame.grid_propagate(FALSE)
 mainWindowRightFrame.grid(row=0, column=2)
+frame_inside_canvas.grid_propagate(FALSE)
 
 #*** Create Listbox ***
 lb = Listbox(mainWindowLeftFrame, name='lb', height=40, background="gray50", fg="white", selectbackground="MediumPurple2", highlightcolor="MediumPurple2")
@@ -380,7 +380,7 @@ lb.insert(END, "Vulcan")
 lb.bind('<<ListboxSelect>>', onselect)
 
 # *** Bind Canvas ***
-info_canvas.bind('<Configure>', on_configure) #commenting this out changes nothing...do I need it?
+frame_inside_canvas.bind('<Configure>', on_configure) #commenting this out changes nothing...do I need it?
 
 # *** Create all buttons/Labels ***
 compareButton = Button(toolbarFrame, text="Compare", command=doNothing)
@@ -391,9 +391,9 @@ search_label = Label(mainWindowLeftFrame, fg="white", bg="gray63", text="Search:
 search_entry = Entry(mainWindowLeftFrame)
 
 
-rocketName = Label(info_canvas, font="-weight bold", bg="gray63", fg="white", pady=0)
+rocketName = Label(frame_inside_canvas, font="-weight bold", bg="gray63", fg="white", pady=0)
 rocketName.config(font=("Arial", 20))
-infoLabel = Label(info_canvas, bg="gray63", fg="white")
+infoLabel = Label(frame_inside_canvas, bg="gray63", fg="white")
 infoLabel.config(font=("Arial", 11))
 
 imgLabel = Label(mainWindowRightFrame, bg="gray63", border=0)
