@@ -39,7 +39,7 @@ def onselect(evt):
     w = evt.widget
     index = int(w.curselection()[0])
     entry_text = w.get(index)
-    entryVar.set(data)
+    entryVar.set(entry_text)
     rocketName.configure(text=pushDataToLabelTitle(rocketDictionary[entry_text]))
     infoLabel.configure(text=pushDataToLabel(rocketDictionary[entry_text]))
     img = PhotoImage(file=rocketDictionary[entry_text]["Image"])
