@@ -11,6 +11,10 @@ rocketDictionary = {
         "Country": "USA",
         "Operational Status": "Retired",
         "Number of Stages": "2-3",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "SaturnV.png",
         "Additional Information":
             '''
@@ -56,6 +60,10 @@ rocketDictionary = {
         "Country": "Russia",
         "Operational Status": "Active",
         "Number of Stages": "3",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "soyuz.png",
         "Additional Information":
             '''
@@ -109,6 +117,10 @@ rocketDictionary = {
         "Country": "USA",
         "Operational Status": "Retired",
         "Number of Stages": "2",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "delta iii.png",
         "Additional Information":
             '''
@@ -154,6 +166,10 @@ rocketDictionary = {
         "Country": "France(EU)",
         "Operational Status": "In Development",
         "Number of Stages": "2",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "ariane 62.png",
         "Additional Information":
             '''
@@ -189,6 +205,10 @@ rocketDictionary = {
         "Country": "Argentina",
         "Operational Status": "Under Development",
         "Number of Stages": "3",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "tronador ii.png",
         "Additional Information":
             '''
@@ -218,6 +238,10 @@ rocketDictionary = {
         "Country": "Brazil",
         "Operational Status": "Canceled",
         "Number of Stages": "3",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "vls1.png",
         "Additional Information":
             '''
@@ -261,6 +285,10 @@ rocketDictionary = {
         "Country": "Brazil",
         "Operational Status": "In Development",
         "Number of Stages": "3",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "vlm.png",
         "Additional Information":
             '''
@@ -310,6 +338,10 @@ rocketDictionary = {
         "Country": "China",
         "Operational Status": "Retired",
         "Number of Stages": "2",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "fengbao1.png",
         "Additional Information":
             '''
@@ -335,6 +367,10 @@ rocketDictionary = {
         "Country": "China",
         "Operational Status": "Retired",
         "Number of Stages": "4",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "kaituozhe1.png",
         "Additional Information":
             '''
@@ -384,6 +420,10 @@ rocketDictionary = {
         "Country": "China",
         "Operational Status": "Active",
         "Number of Stages": "4",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "kuaizhou.png",
         "Additional Information":
             '''
@@ -438,6 +478,10 @@ rocketDictionary = {
         "Country": "China",
         "Operational Status": "Retired",
         "Number of Stages": "3",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "longmarch1.png",
         "Additional Information":
             '''
@@ -468,6 +512,10 @@ rocketDictionary = {
         "Country": "China",
         "Operational Status": "Retired",
         "Number of Stages": "3",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "longmarch1d.png",
         "Additional Information":
             '''
@@ -522,6 +570,10 @@ rocketDictionary = {
             v1.0: Retired
             ''',
         "Number of Stages": "2",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "falcon9.png",
         "Additional Information":
             '''
@@ -590,6 +642,10 @@ rocketDictionary = {
         "Country": "USA",
         "Operational Status": "Active",
         "Number of Stages": "2+",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "falconheavy.png",
         "Additional Information":
             '''
@@ -635,6 +691,10 @@ rocketDictionary = {
         "Country": "USA",
         "Operational Status": "Active",
         "Number of Stages": "2",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "atlasv.png",
         "Additional Information":
             '''
@@ -684,6 +744,10 @@ rocketDictionary = {
         "Country": "USA",
         "Operational Status": "In Development",
         "Number of Stages": "2",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "sls.png",
         "Additional Information":
             '''
@@ -731,6 +795,10 @@ rocketDictionary = {
         "Country": "USA",
         "Operational Status": "In Development",
         "Number of Stages": "2",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "newglenn.png",
         "Additional Information":
             '''
@@ -771,6 +839,10 @@ rocketDictionary = {
         "Country": "Japan",
         "Operational Status": "Active",
         "Number of Stages": "2",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "H-IIA.png",
         "Additional Information":
             '''
@@ -817,6 +889,10 @@ rocketDictionary = {
         "Country": "France",
         "Operational Status": "Retired",
         "Number of Stages": "3",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "diamant.png",
         "Additional Information":
             '''
@@ -861,6 +937,10 @@ rocketDictionary = {
         "Country": "Germany",
         "Operational Status": "Retired",
         "Number of Stages": "4",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "otrag.png",
         "Additional Information":
             '''
@@ -920,6 +1000,10 @@ rocketDictionary = {
         "Country": "Japan",
         "Operational Status": "Retired",
         "Number of Stages": "5",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "L-4S.png",
         "Additional Information":
             '''
@@ -948,6 +1032,10 @@ rocketDictionary = {
         "Country": "Japan",
         "Operational Status": "Retired",
         "Number of Stages": "4",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "M-4S.png",
         "Additional Information":
             '''
@@ -1005,6 +1093,10 @@ rocketDictionary = {
         "Country": "EU",
         "Operational Status": "Retired",
         "Number of Stages": "3-4",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "europa.png",
         "Additional Information":
             '''
@@ -1050,6 +1142,10 @@ rocketDictionary = {
         "Country": "France",
         "Operational Status": "Canceled",
         "Number of Stages": "1",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "hermes.png",
         "Additional Information":
             '''
@@ -1086,6 +1182,10 @@ rocketDictionary = {
         "Country": "Italy - EU",
         "Operational Status": "Active",
         "Number of Stages": "4",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "vega.png",
         "Additional Information":
             '''
@@ -1166,6 +1266,10 @@ rocketDictionary = {
         "Country": "France - EU",
         "Operational Status": "Designed but never created",
         "Number of Stages": "N/A",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -1183,8 +1287,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
 
@@ -1201,8 +1307,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
 
@@ -1219,8 +1327,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
 
@@ -1237,8 +1347,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
 
@@ -1255,8 +1367,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
 
@@ -1273,8 +1387,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
 
@@ -1291,8 +1407,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
 
@@ -1309,8 +1427,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
 
@@ -1327,8 +1447,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
 
@@ -1345,8 +1467,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
 
@@ -1363,8 +1487,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
 
@@ -1381,8 +1507,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
 
@@ -1399,8 +1527,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
 
@@ -1417,8 +1547,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
 
@@ -1435,8 +1567,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
 
@@ -1455,6 +1589,10 @@ rocketDictionary = {
         "Country": "EU",
         "Operational Status": "Retired",
         "Number of Stages": "4",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "Ariane 1.png",
         "Additional Information":
             '''
@@ -1534,6 +1672,10 @@ rocketDictionary = {
         "Country": "EU",
         "Operational Status": "Retired",
         "Number of Stages": "3",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "Ariane 2.png",
         "Additional Information":
             '''
@@ -1629,6 +1771,10 @@ rocketDictionary = {
         "Country": "EU",
         "Operational Status": "Retired",
         "Number of Stages": "3",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "Ariane 3.png",
         "Additional Information":
             '''
@@ -1739,6 +1885,10 @@ rocketDictionary = {
         "Country": "EU",
         "Operational Status": "Retired",
         "Number of Stages": "2",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "Ariane 4.png",
         "Additional Information":
             '''
@@ -1839,6 +1989,10 @@ rocketDictionary = {
             ES: Retired
             ''',
         "Number of Stages": "2",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "Ariane 5.png",
         "Additional Information":
             '''
@@ -1943,6 +2097,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": ".png",
         "Additional Information":
             '''
@@ -1962,8 +2120,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
         
@@ -1983,8 +2143,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2004,8 +2166,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2025,8 +2189,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2046,8 +2212,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2067,8 +2235,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2088,8 +2258,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2109,8 +2281,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2130,8 +2304,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2151,8 +2327,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2172,8 +2350,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2193,8 +2373,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2214,8 +2396,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2235,8 +2419,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2256,8 +2442,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "New Zealand",
         "Operational Status": "Active",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2277,8 +2465,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2298,8 +2488,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2319,8 +2511,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2340,8 +2534,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2361,8 +2557,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2382,8 +2580,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2403,32 +2603,109 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
-    
+            
             '''
 
     },
 
     "Angara": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Name": "Angara",
+        "Agency": "N/A",
+        "Manufacturer": "Khrunichev, KBKhA/CADB",
+        "Payload Capacity to LEO": "3,800 kilograms (8,400 lb)-24,500 kilograms (54,000 lb",
+        "Height": "42.7 m (140 ft) - 64 m (210 ft)",
+        "Diameter":
+        '''
+        Angara 1.2 2.9 m (9 ft 6 in)
+        Angara A5 8.86 m (29.1 ft)
+        ''',
+        "Mass": "171,500 kilograms (378,100 lb)-790,000 kilograms (1,740,000 lb)",
+        "Years in Operation": "2014~",
+        "Country": "Russia",
+        "Operational Status": "Active",
+        "Number of Stages": "2-3",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
+        "Image": "Angara.png",
         "Additional Information":
             '''
-    
+            Variants:
+            Angara 1.2 - The smallest Angara under development is the Angara 1.2, which consists 
+            of one URM-1 core and a modified Block I second stage. It has a lift-off mass of 171 
+            tons and can deliver 3.8 tons of payload to a 200 km x 60° orbit.
+            
+            Angara A5 - The second Angara developed was the Angara A5 heavy lift launch vehicle, 
+            which consists of one URM-1 core and four URM-1 boosters, a 3.6m URM-2 second stage, 
+            and an upper stage, either the Briz-M or the KVTK. Weighing 773 tonnes at lift-off, 
+            Angara A5 has a payload capacity of 24.5 tonnes to a 200 km x 60° orbit. Angara A5 
+            is able to deliver 5.4 tons to GTO with Briz-M, or 7.5 tons to the same orbit with 
+            KVTK.
+
+            In the Angara A5, the four URM-1s used as boosters operate at full thrust for 
+            approximately 214 seconds, then separate. The URM-1 forming the vehicle's core is 
+            operated at full thrust for lift off, then throttled down to 30% to conserve 
+            propellant. The core is throttled back up after the boosters have separated and 
+            continues burning for another 110 seconds.
+
+            The first Angara A5 test flight was on 23 December 2014.
+            
+            ----------------------------------------------------------------------------------
+            
+            The Angara rocket family is a family of space-launch vehicles being developed by the 
+            Moscow-based Khrunichev State Research and Production Space Center. The rockets are 
+            to put between 3,800 and 24,500 kg into low Earth orbit and are intended, along with 
+            Soyuz-2 variants, to replace several existing launch vehicles.
+            
+            After the dissolution of the Soviet Union, many formerly Soviet launch vehicles were 
+            built in or required components from companies now located in Ukraine, such as Yuzhnoye 
+            Design Bureau, which produced Zenit-2, and Yuzhmash, which produced Dnepr and Tsyklon. 
+            Additionally, the Soviet Union's main spaceport, Baikonur Cosmodrome, was located in 
+            Kazakhstan, and Russia encountered difficulties negotiating for its use. This led 
+            to the decision in 1992 to develop a new entirely Russian launch vehicle, named Angara, 
+            to replace the rockets now built outside of the country, and ensure Russian access to 
+            space without Baikonur. It was decided that this vehicle should ideally use the 
+            partially completed Zenit-2 launch pad at the Russian Plesetsk spaceport, and be able 
+            to launch military satellites into geosynchronous orbit, which Proton could not due to 
+            lack of a launch pad at Plesetsk Cosmodrome. Several companies submitted bids for the 
+            new rocket, and in 1994 Khrunichev, the developer of Proton, was selected as the 
+            winner. The commercial success of Proton over the next two decades would be an 
+            advantage to Khrunichev, as the Angara project immediately ran into funding 
+            difficulties from the cash-strapped Russian government.
+
+            Khrunichev's initial design called for the use of a modified RD-170 for first stage 
+            propulsion and a liquid hydrogen powered second stage. By 1997, the hydrogen-powered 
+            second stage had been abandoned in favor of kerosene, and the RD-170 was replaced 
+            with a modular design which would be powered by the new RD-191, a one-chamber engine 
+            derived from the four-chamber RD-170. In late 1997 Khrunichev was given approval 
+            from the Russian government to proceed with their new design, which would both be 
+            able to replace the ICBM-based Dnepr, Tsyklon, and Rokot with its smaller variants, 
+            as well as be able to launch satellites into geostationary orbit from Plesetsk with 
+            the Proton-class Angara A5. This new modular rocket would require construction 
+            of a new launch pad.
+            
+            By 2004, the design of Angara had taken shape and the project proceeded with development 
+            of the launchers. In 2008, NPO Energomash, the builder of the RD-191, reported that the 
+            engine had completed development and burn tests and was ready for manufacturing and 
+            delivery, and in January 2009 the first completed Angara first stage was delivered to 
+            Khrunichev. The next year Vladimir Nesterov, Director-General of Khrunichev, announced 
+            that the first flight test of Angara would be scheduled for 2013, and in 2013 the first 
+            prototype Angara rocket arrived in Plesetsk.
+            
+            In 2014, 22 years after Angara's original conception, the first launch took place on 
+            July 9, a suborbital test flight from the northern Plesetsk Cosmodrome. An Angara A5 was 
+            launched into geosynchronous orbit in December 2014.
+            
+            In June, 2020, it was reported that the first Angara Launching Pad was completed and 
+            would be transported to Vostochny Cosmodrome.
             '''
 
     },
@@ -2445,8 +2722,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2466,8 +2745,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2487,8 +2768,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2508,8 +2791,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2529,8 +2814,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2550,8 +2837,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2571,8 +2860,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2592,8 +2883,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2613,8 +2906,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2634,8 +2929,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2655,8 +2952,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2676,8 +2975,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2697,8 +2998,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2718,8 +3021,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2739,8 +3044,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2760,8 +3067,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2781,8 +3090,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2802,8 +3113,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2823,8 +3136,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2844,8 +3159,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2866,8 +3183,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2887,8 +3206,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2908,8 +3229,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2929,8 +3252,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2950,8 +3275,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2971,8 +3298,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -2992,8 +3321,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -3013,8 +3344,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -3034,8 +3367,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -3055,8 +3390,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -3076,8 +3413,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -3097,8 +3436,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -3118,8 +3459,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -3139,8 +3482,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -3160,8 +3505,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -3181,8 +3528,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -3202,8 +3551,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -3223,8 +3574,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -3244,8 +3597,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -3265,8 +3620,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -3286,8 +3643,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -3307,8 +3666,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -3328,8 +3689,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -3349,8 +3712,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -3370,8 +3735,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -3391,8 +3758,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -3413,6 +3782,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3434,6 +3807,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3455,6 +3832,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3476,6 +3857,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3497,6 +3882,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3518,6 +3907,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3539,6 +3932,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3560,6 +3957,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3581,6 +3982,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3602,6 +4007,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3623,6 +4032,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3644,6 +4057,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3665,6 +4082,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3686,6 +4107,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3707,6 +4132,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3728,6 +4157,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3749,6 +4182,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3770,6 +4207,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3791,6 +4232,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3812,6 +4257,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3833,6 +4282,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3854,6 +4307,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3875,6 +4332,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3896,6 +4357,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3917,6 +4382,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3938,6 +4407,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3959,6 +4432,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3980,6 +4457,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4001,6 +4482,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4022,6 +4507,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4043,6 +4532,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4064,6 +4557,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4085,6 +4582,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4106,6 +4607,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4127,6 +4632,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4148,6 +4657,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4169,6 +4682,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4179,21 +4696,61 @@ rocketDictionary = {
 
     "Al Abid": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Name": "Al Abid",
+        "Agency": "MIMI - Ministry of Industry and Military Industrialization | SRC - Space Research Center",
+        "Manufacturer": "MIMI | SRC",
+        "Payload Capacity to LEO": "100-300 kg",
+        "Height": "25 m (82 ft)",
+        "Diameter": "0.88 m(First stage) 1.25 m(Second stage)",
+        "Mass": "48,000 kg (105,821 lbs)",
+        "Years in Operation": "1989",
+        "Country": "Iraq",
+        "Operational Status": "Abandoned",
+        "Number of Stages": "3",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
+        "Image": "Al Abid.png",
         "Additional Information":
             '''
-    
+            The Al-Abid(Arabic: العابد‎) LV was an Iraqi three-stage "Satellite launch system", a 
+            civilian project that was commenced in 1988. The Iraqis intended to launch an 
+            Al-Ta'ir satellite with the help of such a launch vehicle. The Iraqis therefore 
+            pursued a LV with stages based on Scud missiles and the S-75 Dvina. However only the 
+            first stage could be tested on December 1989 and according to General Ra'ad the next 
+            stages could not be developed. General Ra'ad says that not even the drawings of the 
+            second and third stage vehicles are available and that no final report could be 
+            produced. UN inspectors and U.S intelligence did not offer many details regarding the 
+            Al-Abid launch vehicle as they were not interested in it.
+            
+            In 1988 Iraq declared a program to design as well as manufacture a LV capable of putting 
+            a satellite into orbit. The project was entirely civilian and was to be carried 
+            under the supervision of MIMI and had scientists from the Space Research Centre(SRC) and 
+            Project 144. A special team consisting of foreign scientists was also made which 
+            UNMOVIC could not identify. In general the Al-Abid project drew a large amount of 
+            foreign expertise particularly from a Brazilian scientist Major General Hugo de Oliveira 
+            Piva. A 50 kg satellite had already been built by Iraqi scientists. The task was to prepare 
+            a Launch vehicle capable of putting a 100-300 kg payload in 200-500 km LEO which was to be 
+            developed from indigenous systems, namely Scud missiles. The SRC had planned for a schedule 
+            to have the first launch by 12 December 1990. When it comes to the first stage various 
+            designs and configurations of the Scud missiles were studied including cluster configurations 
+            involving four, five or six Scud missiles or modified Scud missiles were studied and similar 
+            opinions regarding higher stages were also discussed. By early 1989 Iraqi scientists 
+            had concluded on a design of five modified Scud missiles for first stage, a separated 
+            modified Scud as second stage and a double base propellant for third stage, in February 
+            1989 the other team of two foreign specialist proposed a different design with a 
+            single Scud missile as core stage of first stage with 4-8 strap-on rockets which could 
+            be Scuds or S-75 Dvinas, the second stage would be either liquid propelled or solid 
+            propelled and would include an AKM, the space research centre would reject this design. 
+            Initially focus was concentrated on the first-stage however work on second and third 
+            stages had already commenced, initially the second stage was a 880 mm Scud missile of 
+            extended burn-time however by beginning on 1989 diameter increased to 1250 mm. Initially 
+            the missile had a large payload but General Ra'ad who oversaw Iraq's missile program had 
+            the width of the third stage increased to 1.25 m to avoid this hammerhead shape. The 
+            Iraqis would then also declare to develop a first-stage rocket engine with four Scud 
+            combustion chambers and a single turbopump which would fit a 1250 mm rocket and could 
+            operate DETA/UDMH as fuel however work on this would be cancelled after the Gulf War.
             '''
 
     },
@@ -4211,6 +4768,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4219,65 +4780,202 @@ rocketDictionary = {
 
     },
 
-    "Alpha": {
+    "Firefly Alpha": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Name": "Firefly α",
+        "Agency": "Firefly Aerospace",
+        "Manufacturer": "Firefly Aerospace",
+        "Payload Capacity to LEO": "1000 kg (2204 lbs)",
+        "Height": "29 m (95 ft)",
+        "Diameter": "1.82 m (6 ft 0 in)",
+        "Mass": "54,000 kg (119,000 lb)",
+        "Years in Operation": "2020~",
+        "Country": "USA",
+        "Operational Status": "In Development",
+        "Number of Stages": "2",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
+        "Image": "Firefly Alpha.png",
         "Additional Information":
             '''
-    
+            Firefly Alpha (Firefly α) is a two-stage orbital expendable launch vehicle developed 
+            by the American aerospace company Firefly Aerospace to cover the commercial small 
+            satellite launch market. Alpha is intended to provide launch options for both full 
+            vehicle and ride share customers.
+            
+            Alpha was initially designed with a first stage powered by an FRE-2 engine, which 
+            consisted of twelve nozzles arranged in an aerospike configuration. The engine used 
+            methane, as opposed to RP-1. The second stage was to be propelled by the FRE-1 engine, 
+            which used a conventional bell nozzle. It was intended to launch 400 kg to low Earth 
+            orbit.
+
+            After Firefly's corporate reorganization, Alpha was redesigned. The vehicle now uses 
+            two stages, both 1.8 m in diameter, filled with RP-1/LOX propellant. The main body of 
+            the rocket is constructed using a lightweight carbon composite material.
+            
+            Alpha's first stage is powered by four Reaver 1 LOX / RP-1 engines, delivering 736.1 kN 
+            (165,500 lbf) of thrust. The second stage is powered by one Lightning 1 LOX / RP-1 engine, 
+            delivering 70.1 kN (15,800 lbf) of thrust. Lightning 1 was test-run for nearly 5 minutes 
+            on March 15, 2018 during a long duration test fire. The engine was fired at Firefly's 
+            Test Stand 1 in Briggs, Texas.
+            
+            The Alpha airframe uses all carbon-fiber composite material in its construction. Use of 
+            denser materials like titanium and aluminum results in a heavier airframe which requires 
+            more fuel to launch, making the carbon-fiber body more fuel efficient.
+            
+            In March 2018, Firefly said that the development of Alpha was expected to cost approximately 
+            $100 million. The company is also developing a future rocket, Firefly Beta, which initially 
+            consisted of three Alpha cores strapped together. However, in October 2019, Firefly announced 
+            in partnership with Aerojet Rocketdyne, that it will now be a single core rocket powered by 
+            Rocketdyne's AR1 engine.
+            
+            
+            Alpha is designed to launch a 1,000 kg payload to a 200 km low Earth orbit, or a 600 kg payload 
+            to a 500 km Sun-synchronous orbit, suitable for CubeSats and other small payloads. Primary 
+            payloads can be integrated by themselves or with a secondary payload, with capacity for up to 
+            6 CubeSats. This allows Firefly's customers to have a dedicated small-satellite launcher, 
+            reducing the issues of ride-sharing payloads and secondary payloads. These smaller satellites 
+            can have an orbit that is not determined by a larger payload and can launch on their own 
+            schedule instead of waiting on the readiness of all other payloads.
+            
+            In 2015 NASA's Launch Services Program awarded Firefly Aerospace a $5.5 million Venture Class 
+            Launch Services contract to develop Alpha to enable easier access to the small satellite market.
+            
+            Firefly Aerospace plans to use a Horizontal Integration Facility (HIF) to integrate payloads.
+            
+            Alpha is also intended to be a direct American competitor in the small satellite market to 
+            India's PSLV, as they believe its ride-share capability in the market threatens US domestic 
+            launchers.
             '''
 
     },
 
     "Antares": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Name": '''
+        Antares 
+        (Taurus II)''',
+        "Agency": "NASA",
+        "Manufacturer": "Main: Northrop Grumman(originally Orbital Sciences Corporation), Sub: Yuzhnoye",
+        "Payload Capacity to LEO": "8,000 kg (18,000 lb)",
+        "Height":
+        '''
+        110/120: 40.5 m (133 ft)[4][5]
+        130: 41.9 m (137 ft)
+        230/230+: 42.5 m (139 ft)
+        ''',
+        "Diameter": "3.9 m (13 ft)",
+        "Mass":
+        '''
+        110/120/130: 282,000–296,000 kg (622,000–653,000 lb)
+        230/230+: 298,000 kg (657,000 lb)
+        ''',
+        "Years in Operation":
+        '''
+        110: 2013
+        120: 2014
+        130: 2014
+        230: 2016-2019
+        230+: 2019~
+        ''',
+        "Country": "USA",
+        "Operational Status":
+        '''
+        110: retired
+        120: retired
+        130: retired
+        230: retired
+        230+: operational
+        ''',
+        "Number of Stages": "2-3",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
+        "Image": "Antares.png",
         "Additional Information":
             '''
-    
+            Antares (/ænˈtɑːriːz/), known during early development as Taurus II, is an expendable 
+            launch system developed by Orbital Sciences Corporation (now part of Northrop Grumman)
+            and the Yuzhnoye Design Bureau to launch the Cygnus spacecraft to the International 
+            Station as part of NASA's COTS and CRS programs. Able to launch payloads heavier 
+            than 8,000 kg (18,000 lb) into low-Earth orbit, Antares is currently the largest 
+            rocket operated by Northrop Grumman. Antares launches from the Mid-Atlantic Regional 
+            Spaceport and made its inaugural flight on April 21, 2013.
+
+            NASA awarded Orbital a Commercial Orbital Transportation Services (COTS) Space Act 
+            Agreement (SAA) in 2008 to demonstrate delivery of cargo to the International Space 
+            Station. For these COTS missions Orbital intends to use Antares to launch its Cygnus 
+            spacecraft. In addition, Antares will compete for small-to-medium missions. Originally 
+            designated the Taurus II, Orbital Sciences renamed the vehicle Antares, after the star 
+            of the same name, on December 12, 2011.
+            
+            The first four Antares launch attempts were successful. During the fifth launch on 
+            October 28, 2014, the rocket failed catastrophically, and the vehicle and payload were 
+            destroyed. The failure was traced to a fault in the first stage engines. After 
+            completion of a redesign program, the rocket had a successful return to flight on 
+            October 17, 2016.
+            
+            The NASA COTS award was for US$171 million and Orbital Sciences expected to invest an 
+            additional $150 million, split between $130 million for the booster and $20 million 
+            for the spacecraft. A Commercial Resupply Service contract of $1.9 billion for 8 flights 
+            was awarded in 2008. As of April 2012, development costs were estimated at $472 
+            million.
+
+            On June 10, 2008, it was announced that the Mid-Atlantic Regional Spaceport, formerly 
+            part of the Wallops Flight Facility, in Virginia, would be the primary launch site for 
+            the rocket. Launch pad 0A (LP-0A), previously used for the failed Conestoga rocket, 
+            would be modified to handle Antares. Wallops allows launches which reach the 
+            International Space Station's orbit as effectively as those from Cape Canaveral, Florida, 
+            while being less crowded. The first Antares flight launched a Cygnus mass simulator.
+            
+            On December 10, 2009, Alliant Techsystems Inc. (ATK) test-fired their Castor 30 motor 
+            for use on the second stage of the Antares rocket. In March 2010, Orbital Sciences 
+            and Aerojet completed test firings of the NK-33 engines. On February 22, 2013, a hot 
+            fire test was successfully performed, the entire first stage being erected on the pad 
+            and held down while the engines fired for 29 seconds.
             '''
 
     },
 
     "Ares I": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
+        "Name": "Ares I",
+        "Agency": "NASA",
+        "Manufacturer": '''
+        Alliant Techsysystems (Stage I)
+        Boeing (Stage II)
+        ''',
+        "Payload Capacity to LEO": "25,400 kg (56,000 lb)",
+        "Height": "	94 meters (308 ft)",
+        "Diameter": "5.5 meters (18 ft)",
         "Mass": "",
         "Years in Operation": "",
         "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
+        "Operational Status": "Canceled",
+        "Number of Stages": "2",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
-    
+            Ares I was the crew launch vehicle that was being developed by NASA as part of the 
+            Constellation program. The name "Ares" refers to the Greek deity Ares, who is 
+            identified with the Roman god Mars. Ares I was originally known as the "Crew 
+            Launch Vehicle" (CLV).
+
+            NASA planned to use Ares I to launch Orion, the spacecraft intended for NASA human 
+            spaceflight missions after the Space Shuttle was retired in 2011. Ares I was to 
+            complement the larger, uncrewed Ares V, which was the cargo launch vehicle for 
+            Constellation. NASA selected the Ares designs for their anticipated overall safety, 
+            reliability and cost-effectiveness. However, the Constellation program, including 
+            Ares I was cancelled by U.S. president Barack Obama in October 2010 with the passage 
+            of his 2010 NASA authorization bill. In September 2011, NASA detailed the Space 
+            Launch System as its new vehicle for human exploration beyond Earth's orbit.
             '''
 
     },
@@ -4295,6 +4993,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4316,6 +5018,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4337,6 +5043,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4358,6 +5068,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4379,6 +5093,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4400,6 +5118,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4421,6 +5143,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4442,6 +5168,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4463,6 +5193,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4484,6 +5218,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4505,6 +5243,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4526,6 +5268,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4547,6 +5293,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4568,6 +5318,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4589,6 +5343,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4610,6 +5368,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4631,6 +5393,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4652,6 +5418,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4673,6 +5443,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4694,6 +5468,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4715,6 +5493,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4736,6 +5518,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4757,6 +5543,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4778,6 +5568,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4799,6 +5593,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4820,6 +5618,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4841,6 +5643,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4862,6 +5668,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4883,6 +5693,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4904,6 +5718,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4925,6 +5743,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4946,6 +5768,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4967,6 +5793,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4988,6 +5818,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5009,6 +5843,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5030,6 +5868,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5051,6 +5893,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5072,6 +5918,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5093,6 +5943,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5114,6 +5968,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5135,6 +5993,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5156,6 +6018,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5177,6 +6043,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5198,6 +6068,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5219,6 +6093,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5240,6 +6118,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5261,6 +6143,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5282,6 +6168,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5303,6 +6193,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5324,6 +6218,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5345,6 +6243,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5366,6 +6268,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5387,6 +6293,10 @@ rocketDictionary = {
         "Country": "",
         "Operational Status": "",
         "Number of Stages": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5407,8 +6317,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -5428,8 +6340,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -5449,8 +6363,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -5470,8 +6386,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -5491,8 +6409,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -5512,8 +6432,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -5533,8 +6455,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -5554,8 +6478,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -5575,8 +6501,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -5596,8 +6524,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -5617,8 +6547,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -5638,8 +6570,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -5659,8 +6593,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -5680,11 +6616,95 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
+            '''
+
+    },
+
+    "Liberty": {
+
+        "Name": "Liberty",
+        "Agency": "NASA",
+        "Manufacturer": "Alliant Techsystems, Astrium",
+        "Payload Capacity to LEO": "20,000 kg (44,500 lbs)",
+        "Height": "90 m (300 ft)",
+        "Diameter": "5.4 m (18 ft)",
+        "Mass": "Unknown",
+        "Years in Operation": "N/A",
+        "Country": "USA & EU",
+        "Operational Status": "Canceled",
+        "Number of Stages": "2",
+        "Burn Time": "650 seconds",
+        "Thrust": "1,340 kN",
+        "ISP": "431 seconds (vacuum)",
+        "Cost Per Launch": "180m USD",
+        "Image": "Liberty.png",
+        "Additional Information":
+            '''
+            Liberty was a 2011 launch vehicle concept proposed by Alliant Techsystems (ATK) and 
+            Astrium for phase 2 of the NASA Commercial Crew Development (CCDev) program intended 
+            to stimulate development of privately operated crew vehicles to low Earth orbit.
+
+            Similar to the defunct Ares I project, which consisted of a five segment Space 
+            Shuttle Solid Rocket Booster (SRB) and a new cryogenic second stage, Liberty would 
+            combine a five-segment SRB with the core stage of the European Ariane 5 as a second 
+            stage. It was intended to be launched from Kennedy Space Center.
+            
+            Liberty was proposed as a vehicle to service the International Space Station for 
+            crew and cargo, but its capacities could potentially have allowed for government and 
+            commercial satellite launches, including to Geostationary transfer orbit.
+            
+            The launcher was proposed to be 300 feet (91 m) in height, with an advertised price 
+            of $180 million per launch. Liberty had a projected payload of 44,500 lb (20,000 kg) 
+            to Low Earth orbit.
+            
+            The ATK/Astrium Liberty proposal was not initially selected by NASA in the 2011 contract 
+            awards to assist development of a commercial space transportation system to replace the 
+            Space Shuttle; however, the team continued development in the hope of gaining funding 
+            from NASA in future years.[7] On September 13, 2011, NASA and ATK held a joint news 
+            conference to announce they had signed an unfunded Space Act Agreement (SAA) to 
+            collaborate on the development of the Liberty Transportation System as part of the 
+            agency's Commercial Crew Development Round 2 activities.[8] NASA suggested this agreement 
+            could "accelerate the availability of U.S. commercial crew transportation capabilities."
+
+            In January 2012 NASA's Commercial Crew office announced ATK had successfully held a Launch 
+            System Initial Systems Design (ISD) Review of the Liberty Transportation System, the third 
+            of five milestones to be completed under the SAA. The current SAA continued through at 
+            least March 2012.
+            
+            Liberty was not among the vehicles selected for funding announced on August 3, 2012 under 
+            the Commercial Crew Integrated Capacity program.[11] ATK's stated goal prior to the CCiCAP 
+            award announcement was to begin test launches in 2015, with a crewed flight in 2016. In 
+            early August 2012, shortly before NASA announced the selectees for CCDev award, ATK Liberty 
+            manager Kent Rominger stated that the program would continue even without CCiCAP funding. 
+            However, following the NASA decision not to select Liberty as a design for further 
+            government funding, ATK president and CEO Mark DeYoung stated that the company was 
+            "'moving on' after the failure to win a NASA contract reassessing their plans and the 
+            decision would not cause any financial hardship."
+            
+            In May 2012 ATK announced that Liberty would indeed be a complete commercial crew 
+            transportation system, including the spacecraft, abort system, launch vehicle, and ground 
+            and mission operations. The spacecraft was to be narrowly derived from concepts generated 
+            during the Orion program, and make use of the Orion Service Module. ATK projected that 
+            the first launch could have taken place as early as 2013, with astronauts launching by 
+            2015.
+
+            The spacecraft would be made of ATK's composite space shell developed as an alternative 
+            to the Orion's aluminum lithium structure. It would carry up to 7 crew members to and 
+            from the ISS or other space stations and was designed with commercial customers in mind. 
+            Some designs had an integrated unpressurized storage bay in between the crew module and 
+            service module that allowed the spacecraft to carry 5000 pounds of cargo in a pressurized 
+            container. This cargo would be berthed to the station by the Canadarm 2. It could also 
+            carry up to four unpressurized science pallets to be attached to the station by crew 
+            members on EVA or the Canadarm 2. The vehicle would rely on an ATK Max Launch Abort System 
+            designed for the Orion spacecraft. The spacecraft would be able to launch both crew and 
+            cargo like the Shuttle although it would not be able to return said cargo.
             '''
 
     },
@@ -5701,8 +6721,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -5722,8 +6744,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -5743,8 +6767,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -5764,8 +6790,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -5785,8 +6813,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -5806,8 +6836,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -5827,8 +6859,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -5848,8 +6882,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -5869,8 +6905,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -5890,8 +6928,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
@@ -5911,8 +6951,10 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
-        "Number of Stages": "",
-        "Image": "",
+        "Burn Time": "",
+        "Thrust": "",
+        "ISP": "",
+        "Cost Per Launch": "",
         "Additional Information":
             '''
     
