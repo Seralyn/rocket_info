@@ -159,9 +159,9 @@ search_entry = Entry(mainWindowLeftFrame)
 
 
 rocketName = Label(frame_inside_canvas, font="-weight bold", bg="gray63", fg="white", pady=0)
-rocketName.config(font=("Arial", 28))
+rocketName.config(font=("Arial", 24))
 infoLabel = Label(frame_inside_canvas, bg="gray63", fg="white")
-infoLabel.config(font=("Arial", 16))
+infoLabel.config(font=("Arial", 13 ))
 
 imgLabel = Label(mainWindowRightFrame, bg="gray63", border=0)
 

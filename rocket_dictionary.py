@@ -2623,9 +2623,8 @@ rocketDictionary = {
         "Height": "42.7 m (140 ft) - 64 m (210 ft)",
         "Diameter":
         '''
-        Angara 1.2 2.9 m (9 ft 6 in)
-        Angara A5 8.86 m (29.1 ft)
-        ''',
+        Angara 1.2: 2.9 m (9 ft 6 in)
+        Angara A5: 8.86 m (29.1 ft)''',
         "Mass": "171,500 kilograms (378,100 lb)-790,000 kilograms (1,740,000 lb)",
         "Years in Operation": "2014~",
         "Country": "Russia",
@@ -4951,16 +4950,17 @@ rocketDictionary = {
         "Payload Capacity to LEO": "25,400 kg (56,000 lb)",
         "Height": "	94 meters (308 ft)",
         "Diameter": "5.5 meters (18 ft)",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
+        "Mass": "Unknown",
+        "Years in Operation": "2009",
+        "Country": "USA",
         "Operational Status": "Canceled",
         "Number of Stages": "2",
-        "Burn Time": "",
-        "Thrust": "",
-        "ISP": "",
+        "Burn Time": "S1: 150 sec, S2: 800 sec",
+        "Thrust": "S1: 15,000 kN, S2: 1,308 kN",
+        "ISP": "S1: 453 sec, S2: 465 sec",
+        "Fuel Type": "LH2/LOX",
         "Cost Per Launch": "",
-        "Image": "",
+        "Image": "Ares I.png",
         "Additional Information":
             '''
             Ares I was the crew launch vehicle that was being developed by NASA as part of the 
@@ -4980,52 +4980,85 @@ rocketDictionary = {
 
     },
 
-    "Ares IV": {
-
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "Thrust": "",
-        "ISP": "",
-        "Cost Per Launch": "",
-        "Image": "",
-        "Additional Information":
-            '''
-    
-            '''
-
-    },
-
     "Ares V": {
 
-        "Name": "",
-        "Agency": "",
+        "Name": "Ares V",
+        "Agency": "NASA",
         "Manufacturer": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "Thrust": "",
-        "ISP": "",
-        "Cost Per Launch": "",
-        "Image": "",
+        "Payload Capacity to LEO": "188,000 kg (414,000 lb)",
+        "Height": "116 m (381 ft) or 109 m (358 ft)",
+        "Diameter": "10 m (33 ft) or 8.4 m (28 ft)",
+        "Mass": "Unknown",
+        "Years in Operation": "N/A",
+        "Country": "USA",
+        "Operational Status": "Canceled",
+        "Number of Stages": "2",
+        "Burn Time": "Unknown",
+        "Thrust": "8,250-10,250 kN",
+        "Fuel Type": "LH2/LOX",
+        "ISP": "Unknown",
+        "Cost Per Launch": "Unknown",
+        "Image": "Ares V.png",
         "Additional Information":
             '''
-    
+            The Ares V (formerly known as the Cargo Launch Vehicle or CaLV) was the planned cargo 
+            launch component of the cancelled NASA Constellation program, which was to have replaced 
+            the Space Shuttle after its retirement in 2011. Ares V was also planned to carry supplies 
+            for a human presence on Mars. Ares V and the smaller Ares I were named after Ares, the 
+            Greek god of war.
+
+            The Ares V was to launch the Earth Departure Stage and Altair lunar lander for NASA's return
+             to the Moon, which was planned for 2019.[4] It would also have served as the principal 
+             launcher for missions beyond the Earth-Moon system, including the program's ultimate goal, 
+             a crewed mission to Mars. The uncrewed Ares V would complement the smaller, and human-rated 
+             Ares I rocket for the launching of the 4–6 person Orion spacecraft. Both rockets, deemed 
+             safer than the then-current Space Shuttle, would have employed technologies developed for 
+             the Apollo program, the Shuttle program, and the Delta IV EELV program. However, the 
+             Constellation program, including Ares V and Ares I was canceled in October 2010 by the NASA 
+             Authorization Act of 2010. In September 2011, NASA detailed the Space Launch System as its 
+             new vehicle for human exploration beyond Earth's orbit, while commercial space companies 
+             would provide low earth orbit access for both cargo and astronauts.
+             
+             In the 1996 book The Case for Mars, author Robert Zubrin discussed a possible future heavy 
+             launch vehicle named Ares. In the book, the rocket would have consisted of the Space Shuttle 
+             external tank powered by four Space Shuttle Main Engines (SSMEs) and a second stage powered 
+             by an RL-10 engine. One notable difference in the Zubrin et al. design is that the SSMEs were 
+             on a small side-mounted flyback craft. This design was meant to allow the Ares to fly using 
+             existing Space Shuttle infrastructure.
+             
+             Ares V was to be the cargo launch component of the Constellation program. Unlike the Saturn V 
+             and Space Shuttle, where the crew and cargo were launched together on the same rocket, Project 
+             Constellation planned to use two separate launch vehicles, the Ares I and the Ares V, for crew 
+             and cargo respectively. This configuration would have allowed the two launch vehicles to be 
+             optimized for their respective missions. Constellation therefore combined the Lunar Orbit 
+             Rendezvous used by Apollo with the Earth Orbit Rendezvous mode proposed by Dr. Wernher von 
+             Braun (along with the "Direct Ascent" proposal) during the early planning stage of Apollo.
+             
+             Development of the rocket and its Earth departure stage was led by NASA's Marshall Space Flight 
+             Center. NASA Ames Research Center was responsible for the Ares V integrated health management 
+             system supports in developing its payload shroud. Glenn Research Center led the development of 
+             the lunar lander ascent stage as well as Ares V power system, thrust vector control system and 
+             payload shroud. Langley Research Center had a lead role on Ares V aerodynamics.
+
+            In 2007, NASA announced that Alliant Techsystems will be the contractor for the SRBs of both 
+            Ares I and Ares V.
+            
+            Although the Ares V was a medium to long term project, NASA planned to deploy its lift capability 
+            in a range of projects,[10] along the lines of the former Apollo Applications Program.
+
+            One proposal was to build an 8- to 16-meter Advanced Technology Large-Aperture Space Telescope to 
+            be placed in the Sun/Earth L2 point. It would be a significant increase in dimension and 
+            performance over the Hubble Space Telescope and the Ares V vehicle was expected to carry this 
+            to its destination in a single launch.[citation needed] Future Ares V missions could also have 
+            served as a cost-effective, mass transport of construction materials for future spacecraft and 
+            missions, delivering raw materials for example to a Moon dock.
+            
+            In May 2010, NASA planned flight demonstrations of Ares V hardware along with Ares I hardware 
+            after the scheduled upcoming Ares I-X Prime test of the Ares I five-segment SRB first stage. 
+            Several flights were listed as "Heavy Lift" test flights for testing the first stage of the 
+            Ares V simultaneously with the Ares I upper stage attached on top of the Ares V first stage. 
+            This would save both time and money in avoiding the gap between testing Ares I and Ares V 
+            hardware with limited funding.
             '''
 
     },
