@@ -3,6 +3,7 @@ rocketDictionary = {
     'Saturn V': {
         "Name": "Saturn V",
         "Agency": "NASA - National Aeronautics & Space Administration",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "140,000kg (310,000 lbs)",
         "Height": "110.6m (363ft)",
         "Diameter": "10.1m (33ft)",
@@ -52,6 +53,7 @@ rocketDictionary = {
     'Soyuz': {
         "Name": "Soyuz",
         "Agency": "Roscosmos",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "6,450 kilograms (14,220 lbs)",
         "Height": "45.6m (150 ft)",
         "Diameter": "10.3m (34ft)",
@@ -109,6 +111,7 @@ rocketDictionary = {
     "Delta III": {
         "Name": "Delta III",
         "Agency": "Boeing & MHI - Mitsubishi Heavy Industries",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "8,290 kg (18,280 lbs)",
         "Height": "35m (115ft)",
         "Diameter": "4m (13ft)",
@@ -158,6 +161,7 @@ rocketDictionary = {
     "Ariane 62": {
         "Name": "Ariane 62",
         "Agency": "ArianeGroup",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "10,350 kg (22,817 lbs)",
         "Height": "63m (207ft)",
         "Diameter": "5.4m (18ft)",
@@ -197,6 +201,7 @@ rocketDictionary = {
     "Tronador II": {
         "Name": "Tronador II",
         "Agency": "CNAE - Comisión Nacional de Actividades Espaciales",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "250 kg to Polar",
         "Height": "28 m (92 ft)",
         "Diameter": "2.5 m (8 ft 2 in)",
@@ -230,6 +235,7 @@ rocketDictionary = {
     "VLS-1": {
         "Name": "VLS-1",
         "Agency": "AEB - Agência Espacial Brasileira",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "380 kg (830 lb)",
         "Height": "19.5 m (63.9 ft)",
         "Diameter": "1.01 m (3.31 ft)",
@@ -277,6 +283,7 @@ rocketDictionary = {
     "VLM": {
         "Name": "VLM",
         "Agency": "AEB - Agência Espacial Brasileira",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "150 kg (330 lb)",
         "Height": "19.6 m (64 ft)",
         "Diameter": "1.45 m (4 ft 9 in)",
@@ -330,6 +337,7 @@ rocketDictionary = {
     "Feng Bao 1": {
         "Name": "Feng Bao 1",
         "Agency": "SAST - Shanghai Academy of Spaceflight Technology",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "2,500 kilograms (5,500 lb)",
         "Height": "33 metres (108 ft)",
         "Diameter": "3.35 metres (11.0 ft)",
@@ -359,6 +367,7 @@ rocketDictionary = {
     "Kaituozhe-1": {
         "Name": "Kaituozhe-1",
         "Agency": "CASC - China Aerospace Science and Technology Corporation",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "100kg (220lbs)",
         "Height": "13.6m (44 ft)",
         "Diameter": "1.4m (4.5 ft)",
@@ -412,6 +421,7 @@ rocketDictionary = {
     "Kuaizhou": {
         "Name": "Kuaizhou",
         "Agency": "ExPace (Subsidiary of CASIC - China Aerospace Science and Industry Corporation)",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "",
         "Height": "19.4 m (64 ft)",
         "Diameter": "1.4 m (4 ft 7 in)",
@@ -549,6 +559,7 @@ rocketDictionary = {
     "Falcon 9": {
         "Name": "Falcon 9",
         "Agency": "SpaceX",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "22,800 kg (50,300 lb)",
         "Height": "70 m (230 ft)",
         "Diameter": "3.7 m (12 ft)",
@@ -634,6 +645,7 @@ rocketDictionary = {
     "Falcon Heavy": {
         "Name": "Falcon Heavy",
         "Agency": "SpaceX",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "3,800 kg (140,700 lb)",
         "Height": "70 m (230 ft)",
         "Diameter": "3.66 m (12.0 ft) (each booster)",
@@ -683,6 +695,7 @@ rocketDictionary = {
     "Atlas V": {
         "Name": "Atlas V",
         "Agency": "ULA - United Launch Alliance",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "8,250–20,520 kg (18,190–45,240 lb)",
         "Height": "58.3 m (191 ft)",
         "Diameter": "3.81 m (12.5 ft)",
@@ -732,6 +745,7 @@ rocketDictionary = {
             Space Launch System
             ''',
         "Agency": "NASA",
+        "Manufacturer": "",
         "Payload Capacity to LEO":
             '''
             Block 1: 95,000 kg (209,000 lb) 
@@ -787,6 +801,7 @@ rocketDictionary = {
     "New Glenn": {
         "Name": "New Glenn",
         "Agency": "Blue Origin",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "45,000 kg (99,000 lb)",
         "Height": "98 m (322 ft)",
         "Diameter": "7 m (23 ft)",
@@ -929,6 +944,7 @@ rocketDictionary = {
     "OTRAG": {
         "Name": "OTRAG",
         "Agency": "OTRAG",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "10,000 kg (22,046 lbs)",
         "Height": "~25m (82 ft)",
         "Diameter": "Unknown",
@@ -992,6 +1008,7 @@ rocketDictionary = {
     "L-4S": {
         "Name": "L-4S",
         "Agency": "The University of Tokyo Aerospace Research Institute",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "26 kg (57.32 lbs)",
         "Height": "16.5m (54.13 ft)",
         "Diameter": "0.735m (2.41 ft)",
@@ -1024,6 +1041,7 @@ rocketDictionary = {
     "M-4S": {
         "Name": "M-4S",
         "Agency": "Nissan Aerospace Research Institute, The University of Tokyo",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "180 kilograms (400 lb)",
         "Height": "23.6 meters (77 ft)",
         "Diameter": "1.41 meters (4 ft 8 in)",
@@ -1075,6 +1093,7 @@ rocketDictionary = {
     "Europa": {
         "Name": "Europa",
         "Agency": "",
+        "Manufacturer": "",
         "Payload Capacity to LEO":
             '''
             Europa I: 200 kg (440 lbs)
@@ -1134,6 +1153,7 @@ rocketDictionary = {
     "Hermes": {
         "Name": "Hermes",
         "Agency": "CNES - 	Centre National d'Études Spatiales",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "3,000 kg (6,600 lb)",
         "Height": "19 m(62 ft)",
         "Diameter": "Uknown",
@@ -1174,6 +1194,7 @@ rocketDictionary = {
     "Vega": {
         "Name": "Vega",
         "Agency": "ESA",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "1430-1960 kg (3152-4321 lbs)",
         "Height": "30 metres (98 ft)",
         "Diameter": "3 metres (9.8 ft)",
@@ -1258,6 +1279,7 @@ rocketDictionary = {
     "Ariane M": {
         "Name": "Ariane M -CONCEPT",
         "Agency": "ESA",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "N/A",
         "Height": "N/A",
         "Diameter": "N/A",
@@ -1280,26 +1302,38 @@ rocketDictionary = {
     "Miura 5": {
         "Name": "",
         "Agency": "",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "",
-        "Height": "",
+        "Height": "25 m (82 ft)",
         "Diameter": "",
         "Mass": "",
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
+        "Number of Stages": "2-3",
         "Burn Time": "",
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Image": "",
         "Additional Information":
             '''
-
+            Miura 5 (previously called Arion 2) is a two-stage orbital recoverable launch 
+            vehicle of the Spanish company PLD Space. Miura 5 is 25 m long, capable of 
+            inserting 300 kg of payload into a 500 km sun-synchronous orbit (SSO), 
+            featuring an optional kick stage that can circularize the orbits of satellites. 
+            All stages are planned to be liquid-propelled and its technology is inherited 
+            from Miura 1. The first stage is reusable by the combined use of its engines 
+            and parachutes for retrieval.
+            
+            
             '''
     },
 
     "Satellite Launch Vehicle": {
         "Name": "",
         "Agency": "",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "",
         "Height": "",
         "Diameter": "",
@@ -1311,6 +1345,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Image": "",
         "Additional Information":
             '''
 
@@ -1320,6 +1355,7 @@ rocketDictionary = {
     "Augmented Satellite Launch Vehicle": {
         "Name": "",
         "Agency": "",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "",
         "Height": "",
         "Diameter": "",
@@ -1331,6 +1367,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Image": "",
         "Additional Information":
             '''
 
@@ -1340,6 +1377,7 @@ rocketDictionary = {
     "PSLV-CA": {
         "Name": "",
         "Agency": "",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "",
         "Height": "",
         "Diameter": "",
@@ -1351,6 +1389,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Image": "",
         "Additional Information":
             '''
 
@@ -1360,6 +1399,7 @@ rocketDictionary = {
     "PSLV-XL": {
         "Name": "",
         "Agency": "",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "",
         "Height": "",
         "Diameter": "",
@@ -1371,6 +1411,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Image": "",
         "Additional Information":
             '''
 
@@ -1380,6 +1421,7 @@ rocketDictionary = {
     "PSLV-DL": {
         "Name": "",
         "Agency": "",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "",
         "Height": "",
         "Diameter": "",
@@ -1391,6 +1433,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Image": "",
         "Additional Information":
             '''
 
@@ -1400,6 +1443,7 @@ rocketDictionary = {
     "PSLV-QL": {
         "Name": "",
         "Agency": "",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "",
         "Height": "",
         "Diameter": "",
@@ -1411,6 +1455,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Image": "",
         "Additional Information":
             '''
 
@@ -1420,6 +1465,7 @@ rocketDictionary = {
     "PSLV-3S": {
         "Name": "",
         "Agency": "",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "",
         "Height": "",
         "Diameter": "",
@@ -1431,6 +1477,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Image": "",
         "Additional Information":
             '''
 
@@ -1440,6 +1487,7 @@ rocketDictionary = {
     "GSLV Mk I (a)": {
         "Name": "",
         "Agency": "",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "",
         "Height": "",
         "Diameter": "",
@@ -1451,6 +1499,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Image": "",
         "Additional Information":
             '''
 
@@ -1460,6 +1509,7 @@ rocketDictionary = {
     "GSLV Mk I (b)": {
         "Name": "",
         "Agency": "",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "",
         "Height": "",
         "Diameter": "",
@@ -1471,6 +1521,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Image": "",
         "Additional Information":
             '''
 
@@ -1480,6 +1531,7 @@ rocketDictionary = {
     "GSLV Mk II)": {
         "Name": "",
         "Agency": "",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "",
         "Height": "",
         "Diameter": "",
@@ -1491,6 +1543,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Image": "",
         "Additional Information":
             '''
 
@@ -1500,6 +1553,7 @@ rocketDictionary = {
     "Geosynchronous Satellite Launch Vehicle Mark III": {
         "Name": "",
         "Agency": "",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "",
         "Height": "",
         "Diameter": "",
@@ -1511,6 +1565,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Image": "",
         "Additional Information":
             '''
 
@@ -1520,6 +1575,7 @@ rocketDictionary = {
     "Small Satellite Launch Vehicle": {
         "Name": "",
         "Agency": "",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "",
         "Height": "",
         "Diameter": "",
@@ -1531,6 +1587,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Image": "",
         "Additional Information":
             '''
 
@@ -1540,6 +1597,7 @@ rocketDictionary = {
     "Reusable Launch Vehicle": {
         "Name": "Reusable Launch Vehicle (TSTO)",
         "Agency": "",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "",
         "Height": "",
         "Diameter": "",
@@ -1551,6 +1609,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Image": "",
         "Additional Information":
             '''
 
@@ -1560,6 +1619,7 @@ rocketDictionary = {
     "Unified Modular Launch Vehicle": {
         "Name": "",
         "Agency": "",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "",
         "Height": "",
         "Diameter": "",
@@ -1571,6 +1631,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Image": "",
         "Additional Information":
             '''
 
@@ -1664,6 +1725,7 @@ rocketDictionary = {
     "Ariane 2": {
         "Name": "Ariane 2",
         "Agency": "ESA",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "(GEO) 2,175 kg (4,795 lb)",
         "Height": "49.13 m (161.2 ft)",
         "Diameter": "3.8 m (12 ft)",
@@ -1763,6 +1825,7 @@ rocketDictionary = {
     "Ariane 3": {
         "Name": "Ariane 3",
         "Agency": "ESA",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "(GTO) 2,700 kg (6,000 lb)",
         "Height": "49.13 m (161.2 ft)",
         "Diameter": "3.8 m (12 ft)",
@@ -1877,6 +1940,7 @@ rocketDictionary = {
     "Ariane 4": {
         "Name": "Ariane 4",
         "Agency": "ESA",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "5000–7600 kg",
         "Height": "58.72 m",
         "Diameter": "3.8 m",
@@ -1967,6 +2031,7 @@ rocketDictionary = {
     "Ariane 5": {
         "Name": "Ariane 5",
         "Agency": "ESA",
+        "Manufacturer": "",
         "Payload Capacity to LEO": "16,000 kg (35,000 lb)",
         "Height": "46–52 m (151–171 ft)",
         "Diameter": "5.4 m (18 ft)",
