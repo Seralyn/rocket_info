@@ -114,7 +114,7 @@ mainWindowLeftFrame.grid(row=0, column=0)
 mainWindowCenterFrame.grid(row=0, column=1)
 mainWindowCenterFrame.grid_propagate(FALSE)
 mainWindowRightFrame.grid(row=0, column=2)
-frame_inside_canvas.grid_propagate(FALSE)
+#frame_inside_canvas.grid_propagate(FALSE)
 
 # *** Populate List Box ***
 

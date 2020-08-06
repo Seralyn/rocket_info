@@ -1337,12 +1337,12 @@ rocketDictionary = {
         "Country": "Spain",
         "Operational Status": "In Development",
         "Number of Stages": "2-3",
-        "Burn Time": "",
-        "Thrust": "",
-        "ISP": "",
-        "Cost Per Launch": "",
-        "Fuel Type": "",
-        "Image": "",
+        "Burn Time": "Unknown",
+        "Thrust": "S1: 408 kN, S2: 65 kN",
+        "ISP": "Unknown",
+        "Cost Per Launch": "Unknown",
+        "Fuel Type": "RP-1/LOX",
+        "Image": "Miura 5.png",
         "Additional Information":
             '''
             Miura 5 (previously called Arion 2) is a two-stage orbital recoverable launch 
@@ -1358,163 +1358,182 @@ rocketDictionary = {
     },
 
     "Satellite Launch Vehicle": {
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Burn Time": "",
-        "Thrust": "",
-        "ISP": "",
+        "Name": "SLV - Satellive Launch Vehicle",
+        "Agency": "ISRO - Indian Space Research Organisation",
+        "Manufacturer": "ISRO",
+        "Payload Capacity to LEO": "40 kg (88 lb)",
+        "Height": "	22 m (72 ft)",
+        "Diameter": "1 m (3.3 ft)",
+        "Mass": "17,000 kg (37,000 lb)",
+        "Years in Operation": "1979-1983",
+        "Country": "India",
+        "Operational Status": "Retired",
+        "Number of Stages": "4",
+        "Burn Time": "S1: 49 sec, S2: 40 sec, S3: 45 sec, S4: 33 sec",
+        "Thrust": "S1: 450 kN, S2: 196 kN, S3: 61 kN, S4: 23 kN",
+        "ISP": "S1: 253 sec, S2: 267 sec, S3: 277 sec, S4: 283 sec",
         "Cost Per Launch": "",
-        "Fuel Type": "",
-        "Image": "",
+        "Fuel Type": "PBAN (Polybutadine Acrylo Nitrate) & HEF (High Energy Propellant)",
+        "Image": "SatLaunchVehicle.png",
         "Additional Information":
             '''
+            The Satellite Launch Vehicle or SLV is a Small-lift launch vehicle, was a project 
+            started in the early 1970s by the Indian Space Research Organisation to develop 
+            the technology needed to launch satellites. SLV was intended to reach a height 
+            of 400 kilometres (250 mi) and carry a payload of 40 kg (88 lb). The first 
+            experimental flight of SLV-3, in August 1979, was a failure. The first successful 
+            launch took place on 18 July, 1980.
 
+            It was a four-stage rocket with all solid-propellant motors.
+            
+            The first launch of the SLV took place in Sriharikota on 10 August 1979. The 
+            fourth and final launch of the SLV took place on 17 April 1983.
+            
+            It has taken approximately seven years to realise the vehicle from start. The 
+            solid motor case for first and second stage are fabricated from 15 CDV6 steel 
+            sheets and third and fourth stages from fibre reinforced plastic.
+            
+            All four SLV launches occurred from the SLV Launch Pad at the Sriharikota High 
+            Altitude Range. The first two launches were experimental (E) and the next 2 
+            were designated as developmental (D) as this was the first launch vehicle 
+            being developed by India not intended for a long service life.
             '''
     },
 
-    "Augmented Satellite Launch Vehicle": {
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Burn Time": "",
-        "Thrust": "",
-        "ISP": "",
-        "Cost Per Launch": "",
-        "Fuel Type": "",
-        "Image": "",
+    "ASLV": {
+        "Name": "ASLV - Augmented Satellite Launch Vehicle",
+        "Agency": "ISRO - Indian Space Research Organisation",
+        "Manufacturer": "ISRO",
+        "Payload Capacity to LEO": "150 kg (330 lb)",
+        "Height": "23.5 m (77 ft)",
+        "Diameter": "1 m (3 ft 3 in)",
+        "Mass": "41,000 kg (90,000 lb)",
+        "Years in Operation": "1987-1994",
+        "Country": "India",
+        "Operational Status": "Retired",
+        "Number of Stages": "5",
+        "Burn Time": "S1: 49 sec, S2: 45 sec, S3: 36 sec, S4: 45 sec, S5: 33 sec",
+        "Thrust": "909.9 kN",
+        "ISP": "S1: 253 sec, S2: 259 sec, S3: 276 sec, S4: 277 sec, S5: 281 sec",
+        "Cost Per Launch": "Unknown",
+        "Fuel Type": "Exact type unknown, but all solid fuel",
+        "Image": "ASLV.png",
         "Additional Information":
             '''
+            The Augmented Satellite Launch Vehicle or Advanced Satellite Launch Vehicle, also 
+            known as ASLV, was a Small-lift launch vehicle five-stage solid-fuel rocket 
+            developed by the Indian Space Research Organisation (ISRO) to place 150 kg 
+            satellites into LEO. This project was started by India during the early 1980s to 
+            develop technologies needed for a payload to be placed into a geostationary orbit. 
+            Its design was based on Satellite Launch Vehicle. ISRO did not have sufficient 
+            funds for both the Polar Satellite Launch Vehicle programme and the ASLV programme 
+            at the same time and the ASLV programme was terminated after the initial 
+            developmental flights. The payloads of ASLV were Stretched Rohini Satellites.
+            
+            The ASLV was a five-stage vehicle. Two strap-on boosters acted as a first stage, 
+            with the core stage igniting after booster burn out. The payload capacity of the 
+            ASLV was approximately 150 kg (330 lb) to an orbit of 400 km (250 mi) with a 
+            47-degree inclination.
 
+            At liftoff, the ASLV generated 909.9 kN (204,500 lbf) of thrust. It was a 
+            41,000-kilogram (90,000 lb) rocket, measuring 23.5 metres (77 ft) in length with 
+            a core diameter of one metre (3 ft 3 in).[4] The height to diameter ratio of ASLV 
+            was very large which resulted in the vehicle being unstable in flight. This was 
+            compounded by the fact that many of the critical events during a launch like the 
+            core ignition and the booster separation happened at the Tropopause where the 
+            dynamic loads on the launcher was at the maximum.
+            
+            The ASLV made four launches, of which one was successful, two failed to achieve 
+            orbit, and a third achieved a lower than planned orbit which decayed quickly. 
+            The type made its maiden flight on 24 March 1987, and its final flight on 4 May 1994.
             '''
     },
 
-    "PSLV-CA": {
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
+    "PSLV": {
+        "Name": "Polar Satellite Launch Vehicle",
+        "Agency": "ISRO - Indian Space Research Organisation",
+        "Manufacturer": "ISRO",
+        "Payload Capacity to LEO": "3,800 kg (8,400 lb)",
+        "Height": "44 m (144 ft)",
+        "Diameter": "2.8 m (9 ft 2 in)",
+        "Mass": '''
+        PSLV-G: 295,000 kg (650,000 lb)
+        PSLV-CA: 230,000 kg (510,000 lb)
+        PSLV-XL: 320,000 kg (710,000 lb)
+        ''',
+        "Years in Operation": '''
+        PSLV-G: 1993-2016
+        PSLV-CA: 2007~
+        PSLV-XL: 2008~
+        PSLV-DL: 2019~
+        PSLV-QL: 2019~
+        ''',
+        "Country": "India",
+        "Operational Status": "Active",
+        "Number of Stages": "4",
         "Burn Time": "",
         "Thrust": "",
         "ISP": "",
-        "Cost Per Launch": "",
-        "Fuel Type": "",
-        "Image": "",
+        "Cost Per Launch": "18-28 mil USD",
+        "Fuel Type": '''
+        Boosters/S1: HTPB - Hydroxyl-terminated polybutadiene
+        S2: N2O4/UDMH - Dinitrogen Tetroxide/Unsymmetrical dimethylhydrazine
+        S3: HTPB - Hydroxyl-terminated polybutadiene
+        S4: MMH/MON - Monomethylhydrazine/Mixed Oxides of Nitrogen
+        ''',
+        "Image": "PSLV.png",
         "Additional Information":
             '''
-
-            '''
-    },
-
-    "PSLV-XL": {
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Burn Time": "",
-        "Thrust": "",
-        "ISP": "",
-        "Cost Per Launch": "",
-        "Fuel Type": "",
-        "Image": "",
-        "Additional Information":
-            '''
-
-            '''
-    },
-
-    "PSLV-DL": {
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Burn Time": "",
-        "Thrust": "",
-        "ISP": "",
-        "Cost Per Launch": "",
-        "Fuel Type": "",
-        "Image": "",
-        "Additional Information":
-            '''
-
-            '''
-    },
-
-    "PSLV-QL": {
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Burn Time": "",
-        "Thrust": "",
-        "ISP": "",
-        "Cost Per Launch": "",
-        "Fuel Type": "",
-        "Image": "",
-        "Additional Information":
-            '''
-
-            '''
-    },
-
-    "PSLV-3S": {
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Burn Time": "",
-        "Thrust": "",
-        "ISP": "",
-        "Cost Per Launch": "",
-        "Fuel Type": "",
-        "Image": "",
-        "Additional Information":
-            '''
-
+                                -Variants-
+            ISRO has envisaged a number of variants of PSLV to cater to different mission 
+            requirements. There are currently two operational versions of the PSLV — the 
+            core-alone (PSLV-CA) without strap-on motors, and the (PSLV-XL) version, with 
+            six extended length (XL) strap-on motors carrying 12 tonnes of HTPB based 
+            propellant each. These configurations provide wide variations in payload 
+            capabilities up to 3,800 kg (8,400 lb) in LEO and 1,800 kg (4,000 lb) in 
+            sun-synchronous orbit.
+            
+            PSLV-G (retired)
+            The standard or "Generic" version of the PSLV, PSLV-G had four stages using 
+            solid and liquid propulsion systems alternately and six strap-on motors 
+            (PSOM or S9) with 9 tonne propellant loading. It had capability to launch 
+            1,678 kg (3,699 lb) to 622 km (386 mi) into sun-synchronous orbit. PSLV-C35
+            was the last operational launch of PSLV-G before its discontinuation.
+            
+            PSLV-CA
+            The PSLV-CA, CA meaning "Core Alone", model premiered on 23 April 2007. The 
+            CA model does not include the six strap-on boosters used by the PSLV 
+            standard variant but two SITVC tanks with Roll Control Thruster modules are 
+            still attached to the side of the first stage with addition of two cylindrical 
+            aerodynamic stabilizers. The fourth stage of the CA variant has 400 kg (880 lb) 
+            less propellant when compared to its standard version. It currently has 
+            capability to launch 1,100 kg (2,400 lb) to 622 km (386 mi) Sun synchronous 
+            orbit.
+            
+            PSLV-XL
+            PSLV-XL is the upgraded version of Polar Satellite Launch Vehicle in its 
+            standard configuration boosted by more powerful, stretched strap-on boosters
+            with 12 tonne propellant load. Weighing 320 t (710,000 lb) at lift-off, the 
+            vehicle uses larger strap-on motors (PSOM-XL or S12) to achieve higher payload 
+            capability. On 29 December 2005, ISRO successfully tested the improved version 
+            of strap-on booster for the PSLV. The first use of PSLV-XL was the launch of 
+            Chandrayaan-1 by PSLV C11. The payload capability for this variant is 1,800 kg 
+            (4,000 lb) to SSO.
+            
+            PSLV-DL
+            PSLV-DL variant has only two strap-on boosters with 12 tonne propellant load on 
+            them. PSLV-C44 on 24 January 2019 was the first flight to use PSLV-DL variant of 
+            Polar Satellite Launch Vehicle.
+            
+            PSLV-QL
+            PSLV-QL variant has four ground-lit strap-on boosters, each with 12 tonnes of 
+            propellant. PSLV-C45 on 1 April 2019 was the first flight of PSLV-QL.
+            
+            
+            PSLV C45 lift off (Concept)
+            PSLV-3S was conceived as a three-staged version of PSLV with its six strap-on 
+            boosters and second liquid stage removed. The total lift-off mass of PSLV-3S was 
+            expected to be 175 tonnes with capacity to place 500 kg in 550 km low Earth orbit.
             '''
     },
 
@@ -1529,6 +1548,7 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
+        "Number of Stages": "",
         "Burn Time": "",
         "Thrust": "",
         "ISP": "",
@@ -1552,6 +1572,7 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
+        "Number of Stages": "",
         "Burn Time": "",
         "Thrust": "",
         "ISP": "",
@@ -1575,6 +1596,7 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
+        "Number of Stages": "",
         "Burn Time": "",
         "Thrust": "",
         "ISP": "",
@@ -1598,6 +1620,7 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
+        "Number of Stages": "",
         "Burn Time": "",
         "Thrust": "",
         "ISP": "",
@@ -1621,6 +1644,7 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
+        "Number of Stages": "",
         "Burn Time": "",
         "Thrust": "",
         "ISP": "",
@@ -1644,6 +1668,7 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
+        "Number of Stages": "",
         "Burn Time": "",
         "Thrust": "",
         "ISP": "",
@@ -1667,6 +1692,7 @@ rocketDictionary = {
         "Years in Operation": "",
         "Country": "",
         "Operational Status": "",
+        "Number of Stages": "",
         "Burn Time": "",
         "Thrust": "",
         "ISP": "",
@@ -3793,31 +3819,6 @@ rocketDictionary = {
     },
 
     "Capricornio": {
-
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Burn Time": "",
-        "Thrust": "",
-        "ISP": "",
-        "Cost Per Launch": "",
-        "Fuel Type": "",
-        "Image": "",
-        "Additional Information":
-            '''
-    
-            '''
-
-    },
-
-    "PLD Space Miura 5": {
 
         "Name": "",
         "Agency": "",
