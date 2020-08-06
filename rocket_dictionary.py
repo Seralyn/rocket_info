@@ -16,6 +16,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "SaturnV.png",
         "Additional Information":
             '''
@@ -66,6 +67,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "soyuz.png",
         "Additional Information":
             '''
@@ -124,6 +126,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "delta iii.png",
         "Additional Information":
             '''
@@ -174,6 +177,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "ariane 62.png",
         "Additional Information":
             '''
@@ -214,6 +218,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "tronador ii.png",
         "Additional Information":
             '''
@@ -248,6 +253,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "vls1.png",
         "Additional Information":
             '''
@@ -296,6 +302,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "vlm.png",
         "Additional Information":
             '''
@@ -350,6 +357,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "fengbao1.png",
         "Additional Information":
             '''
@@ -380,6 +388,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "kaituozhe1.png",
         "Additional Information":
             '''
@@ -434,6 +443,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "kuaizhou.png",
         "Additional Information":
             '''
@@ -492,6 +502,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "longmarch1.png",
         "Additional Information":
             '''
@@ -526,6 +537,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "longmarch1d.png",
         "Additional Information":
             '''
@@ -585,6 +597,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "falcon9.png",
         "Additional Information":
             '''
@@ -658,6 +671,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "falconheavy.png",
         "Additional Information":
             '''
@@ -708,6 +722,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "atlasv.png",
         "Additional Information":
             '''
@@ -762,6 +777,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "sls.png",
         "Additional Information":
             '''
@@ -814,6 +830,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "newglenn.png",
         "Additional Information":
             '''
@@ -858,6 +875,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "H-IIA.png",
         "Additional Information":
             '''
@@ -908,6 +926,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "diamant.png",
         "Additional Information":
             '''
@@ -957,6 +976,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "otrag.png",
         "Additional Information":
             '''
@@ -1021,6 +1041,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "L-4S.png",
         "Additional Information":
             '''
@@ -1054,6 +1075,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "M-4S.png",
         "Additional Information":
             '''
@@ -1116,6 +1138,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "europa.png",
         "Additional Information":
             '''
@@ -1166,6 +1189,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "hermes.png",
         "Additional Information":
             '''
@@ -1207,6 +1231,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "vega.png",
         "Additional Information":
             '''
@@ -1292,6 +1317,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -1300,21 +1326,22 @@ rocketDictionary = {
     },
 
     "Miura 5": {
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",
-        "Payload Capacity to LEO": "",
+        "Name": "Miura 5",
+        "Agency": "N/A",
+        "Manufacturer": "PLD Space",
+        "Payload Capacity to LEO": "(SSO) 300–500 kg (660–1,100 lb)",
         "Height": "25 m (82 ft)",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
+        "Diameter": "1.8 m (5 ft 11 in)",
+        "Mass": "32,000 kg (71,000 lb)",
+        "Years in Operation": "2022~",
+        "Country": "Spain",
+        "Operational Status": "In Development",
         "Number of Stages": "2-3",
         "Burn Time": "",
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -1345,6 +1372,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -1367,6 +1395,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -1389,6 +1418,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -1411,6 +1441,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -1433,6 +1464,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -1455,6 +1487,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -1477,6 +1510,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -1499,6 +1533,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -1521,6 +1556,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -1543,6 +1579,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -1565,6 +1602,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -1587,6 +1625,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -1609,6 +1648,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -1631,6 +1671,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -1654,6 +1695,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "Ariane 1.png",
         "Additional Information":
             '''
@@ -1738,6 +1780,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "Ariane 2.png",
         "Additional Information":
             '''
@@ -1838,6 +1881,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "Ariane 3.png",
         "Additional Information":
             '''
@@ -1953,6 +1997,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "Ariane 4.png",
         "Additional Information":
             '''
@@ -2058,6 +2103,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "Ariane 5.png",
         "Additional Information":
             '''
@@ -2166,6 +2212,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": ".png",
         "Additional Information":
             '''
@@ -2189,6 +2236,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
         
@@ -2212,6 +2261,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2235,6 +2286,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2258,6 +2311,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2281,6 +2336,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2304,6 +2361,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2327,6 +2386,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2350,6 +2411,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2373,6 +2436,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2396,6 +2461,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2419,6 +2486,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2442,6 +2511,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2465,6 +2536,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2488,6 +2561,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2511,6 +2586,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2534,6 +2611,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2557,6 +2636,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2580,6 +2661,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2603,6 +2686,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2626,6 +2711,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2649,6 +2736,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2672,6 +2761,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
             
@@ -2699,6 +2790,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "Angara.png",
         "Additional Information":
             '''
@@ -2790,6 +2882,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2813,6 +2907,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2836,6 +2932,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2859,6 +2957,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2882,6 +2982,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2905,6 +3007,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2928,6 +3032,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2951,6 +3057,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2974,6 +3082,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -2997,6 +3107,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3020,6 +3132,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3043,6 +3157,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3066,6 +3182,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3089,6 +3207,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3112,6 +3232,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3135,6 +3257,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3158,6 +3282,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3181,6 +3307,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3204,6 +3332,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3227,6 +3357,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3251,6 +3383,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3274,6 +3408,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3297,6 +3433,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3320,6 +3458,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3343,6 +3483,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3366,6 +3508,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3389,6 +3533,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3412,6 +3558,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3435,6 +3583,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3458,6 +3608,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3481,6 +3633,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3504,6 +3658,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3527,6 +3683,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3550,6 +3708,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3573,6 +3733,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3596,6 +3758,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3619,6 +3783,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3642,6 +3808,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3665,6 +3833,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3688,6 +3858,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3711,6 +3883,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3734,6 +3908,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3757,6 +3933,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3780,6 +3958,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3803,6 +3983,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3826,6 +4008,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -3850,6 +4034,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3875,6 +4060,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3900,6 +4086,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3925,6 +4112,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3950,6 +4138,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3975,6 +4164,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4000,6 +4190,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4025,6 +4216,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4050,6 +4242,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4075,6 +4268,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4100,6 +4294,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4125,6 +4320,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4150,6 +4346,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4175,6 +4372,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4200,6 +4398,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4225,6 +4424,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4250,6 +4450,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4275,6 +4476,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4300,6 +4502,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4325,6 +4528,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4350,6 +4554,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4375,6 +4580,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4400,6 +4606,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4425,6 +4632,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4450,6 +4658,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4475,6 +4684,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4500,6 +4710,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4525,6 +4736,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4550,6 +4762,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4575,6 +4788,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4600,6 +4814,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4625,6 +4840,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4650,6 +4866,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4675,6 +4892,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4700,6 +4918,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4725,6 +4944,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4750,6 +4970,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4775,6 +4996,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "Al Abid.png",
         "Additional Information":
             '''
@@ -4836,6 +5058,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -4861,6 +5084,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "Firefly Alpha.png",
         "Additional Information":
             '''
@@ -4958,6 +5182,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "Antares.png",
         "Additional Information":
             '''
@@ -5025,6 +5250,7 @@ rocketDictionary = {
         "ISP": "S1: 453 sec, S2: 465 sec",
         "Fuel Type": "LH2/LOX",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "Ares I.png",
         "Additional Information":
             '''
@@ -5145,6 +5371,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5170,6 +5397,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5195,6 +5423,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5220,6 +5449,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5245,6 +5475,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5270,6 +5501,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5295,6 +5527,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5320,6 +5553,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5345,6 +5579,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5370,6 +5605,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5395,6 +5631,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5420,6 +5657,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5445,6 +5683,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5470,6 +5709,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5495,6 +5735,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5520,6 +5761,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5545,6 +5787,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5570,6 +5813,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5595,6 +5839,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5620,6 +5865,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5645,6 +5891,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5670,6 +5917,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5695,6 +5943,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5720,6 +5969,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5745,6 +5995,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5770,6 +6021,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5795,6 +6047,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5820,6 +6073,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5845,6 +6099,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5870,6 +6125,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5895,6 +6151,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5920,6 +6177,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5945,6 +6203,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5970,6 +6229,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -5995,6 +6255,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -6020,6 +6281,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -6045,6 +6307,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -6070,6 +6333,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -6095,6 +6359,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -6120,6 +6385,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -6145,6 +6411,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -6170,6 +6437,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -6195,6 +6463,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -6220,6 +6489,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -6245,6 +6515,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -6270,6 +6541,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -6295,6 +6567,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -6320,6 +6593,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -6345,6 +6619,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -6370,6 +6645,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -6395,6 +6671,7 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
         "Image": "",
         "Additional Information":
             '''
@@ -6419,6 +6696,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -6442,6 +6721,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -6465,6 +6746,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -6488,6 +6771,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -6511,6 +6796,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -6534,6 +6821,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -6557,6 +6846,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -6580,6 +6871,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -6603,6 +6896,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -6626,6 +6921,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -6649,6 +6946,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -6672,6 +6971,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -6695,6 +6996,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -6718,6 +7021,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -6823,6 +7128,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -6846,6 +7153,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -6869,6 +7178,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -6892,6 +7203,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -6915,6 +7228,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -6938,6 +7253,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -6961,6 +7278,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -6984,6 +7303,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -7007,6 +7328,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -7030,6 +7353,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
@@ -7053,6 +7378,8 @@ rocketDictionary = {
         "Thrust": "",
         "ISP": "",
         "Cost Per Launch": "",
+        "Fuel Type": "",
+        "Image": "",
         "Additional Information":
             '''
     
