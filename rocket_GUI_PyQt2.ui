@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1488</width>
+    <height>896</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="toolTip">
+   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SRP 0.2&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QListWidget" name="listWidget">
+      <item>
+       <property name="text">
+        <string>Saturn I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Saturn IB</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Saturn V</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Falcon 9</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Falcon Heavy</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Delta I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Delta II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Delta III</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Delta IV</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Delta IV Heavy</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Thor</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Thor-Able</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Thor-Ablestar</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Thorad-Able</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Atlas I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Atlas II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Atlas III</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Atlas IV</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Atlas V</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Diamant</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>OTRAG</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Black Arrow</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Black Prince</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Al Abid</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SLV</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>PSLV</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ASLV</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Athena I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Athena II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>CHEETAH-1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>CORONA</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Capricornio</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Titan III Commercial</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Conestoga</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Ares I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Ares V</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SLS</string>
+       </property>
+       <property name="toolTip">
+        <string extracomment="Space Launch System"/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Long March 1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Long March 1D</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VLS-1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Feng Bao 1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Kaituozhe-1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Kuaizhou</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>New Glenn</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>H-IIA</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>L-4S</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>M-4S</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Europa</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Miura 5</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>GSLV Mk I(a)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>GSLV Mk I(b)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>GSLV Mk II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>GSLV Mk III</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Small Satellite Launch Vehicle</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VLM</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Reusable Launch Vehicle</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Unified dModular Launch Vehicle</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>M-3C</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>M-3H</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>M-3S</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>M-3SII</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>M-V</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>N-I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>N-II</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>H-I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>H-IIB</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>H-III</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>J-I</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>GX</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Epsilon</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Europa</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ZERO</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Electron</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Paektusan-1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Unha-2</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Unha-3</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>TSLV</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Hapith V</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>HTTP-3a</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Haas</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Angara</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Kosmos-1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Kosmos-2i</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Kosmos-3</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Kosmos-3M</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Buran</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>N1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>R-7</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Luna</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Molniya-M</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Molniya-L</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Polyot</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Soyuz-L</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Soyuz-M</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Soyuz-U</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Soyuz-U2</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Soyuz-FG</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Soyuz-2</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Sputnik</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Voskhod</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Vostok</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Shtil'</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Volna</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rus-M</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Start-1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Universal Rocket</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rokot</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Strela</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Proton-UR500</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Proton-K</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Proton-M</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Energia</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>RSA-3</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>KSLV-1(Naro)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>KSLV-2(Nuri)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>KSLV-3</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>UFS</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Zenit</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SS-520</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Search&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:600;&quot;&gt;Rockets&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPlainTextEdit" name="plainTextEdit"/>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QTextBrowser" name="textBrowser">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>611</width>
+         <height>681</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:600;&quot;&gt;Information&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGraphicsView" name="graphicsView"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:600;&quot;&gt;Image&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1488</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuShow">
+    <property name="title">
+     <string>Show</string>
+    </property>
+    <addaction name="actionIndividual_Rockets"/>
+    <addaction name="actionRocket_Families"/>
+   </widget>
+   <widget class="QMenu" name="menuSort">
+    <property name="title">
+     <string>Sort</string>
+    </property>
+    <widget class="QMenu" name="menuMass">
+     <property name="title">
+      <string>Mass</string>
+     </property>
+     <addaction name="actionLow_to_High"/>
+     <addaction name="actionHigh_to_Low_4"/>
+    </widget>
+    <widget class="QMenu" name="menuDiameter">
+     <property name="title">
+      <string>Diameter</string>
+     </property>
+     <addaction name="actionLow_to_High_2"/>
+     <addaction name="actionHigh_to_Low_5"/>
+    </widget>
+    <widget class="QMenu" name="menuHeight">
+     <property name="title">
+      <string>Height</string>
+     </property>
+     <addaction name="actionLow_to_High_3"/>
+     <addaction name="actionHigh_to_Low"/>
+    </widget>
+    <widget class="QMenu" name="menuCost_Per_Launch">
+     <property name="title">
+      <string>Cost Per Launch</string>
+     </property>
+     <addaction name="actionLow_to_High_4"/>
+     <addaction name="actionHigh_to_Low_2"/>
+    </widget>
+    <widget class="QMenu" name="menuThrust">
+     <property name="title">
+      <string>Thrust</string>
+     </property>
+     <addaction name="actionLow_to_High_5"/>
+     <addaction name="actionHigh_to_Low_3"/>
+    </widget>
+    <widget class="QMenu" name="menuPayload_to_LEO">
+     <property name="title">
+      <string>Payload to LEO</string>
+     </property>
+     <addaction name="actionLow_to_High_6"/>
+     <addaction name="actionHigh_to_Low_6"/>
+    </widget>
+    <widget class="QMenu" name="menuAlphabetical">
+     <property name="title">
+      <string>Alphabetical</string>
+     </property>
+     <addaction name="actionAscending"/>
+     <addaction name="actionDescending"/>
+    </widget>
+    <widget class="QMenu" name="menuISP">
+     <property name="title">
+      <string>ISP</string>
+     </property>
+     <addaction name="actionLow_to_High_7"/>
+     <addaction name="actionHigh_to_Low_7"/>
+    </widget>
+    <addaction name="menuAlphabetical"/>
+    <addaction name="menuPayload_to_LEO"/>
+    <addaction name="menuMass"/>
+    <addaction name="menuDiameter"/>
+    <addaction name="menuHeight"/>
+    <addaction name="menuCost_Per_Launch"/>
+    <addaction name="menuThrust"/>
+    <addaction name="menuISP"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionCopy"/>
+    <addaction name="actionPaste"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout"/>
+    <addaction name="actionVersion"/>
+    <addaction name="actionAcronyms"/>
+   </widget>
+   <addaction name="menuShow"/>
+   <addaction name="menuSort"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionIndividual_Rockets">
+   <property name="text">
+    <string>Individual Rockets</string>
+   </property>
+   <property name="statusTip">
+    <string>Show all rockets</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="text">
+    <string>Copy</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="actionPaste">
+   <property name="text">
+    <string>Paste</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+V</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionVersion">
+   <property name="text">
+    <string>Version</string>
+   </property>
+  </action>
+  <action name="actionAcronyms">
+   <property name="text">
+    <string>Acronyms</string>
+   </property>
+  </action>
+  <action name="actionLow_to_High">
+   <property name="text">
+    <string>Low to High</string>
+   </property>
+  </action>
+  <action name="actionLow_to_High_2">
+   <property name="text">
+    <string>Low to High</string>
+   </property>
+  </action>
+  <action name="actionLow_to_High_3">
+   <property name="text">
+    <string>Low to High</string>
+   </property>
+  </action>
+  <action name="actionHigh_to_Low">
+   <property name="text">
+    <string>High to Low</string>
+   </property>
+  </action>
+  <action name="actionLow_to_High_4">
+   <property name="text">
+    <string>Low to High</string>
+   </property>
+  </action>
+  <action name="actionHigh_to_Low_2">
+   <property name="text">
+    <string>High to Low</string>
+   </property>
+  </action>
+  <action name="actionLow_to_High_5">
+   <property name="text">
+    <string>Low to High</string>
+   </property>
+  </action>
+  <action name="actionHigh_to_Low_3">
+   <property name="text">
+    <string>High to Low</string>
+   </property>
+  </action>
+  <action name="actionLow_to_High_6">
+   <property name="text">
+    <string>Low to High</string>
+   </property>
+  </action>
+  <action name="actionAscending">
+   <property name="text">
+    <string>Ascending</string>
+   </property>
+  </action>
+  <action name="actionDescending">
+   <property name="text">
+    <string>Descending</string>
+   </property>
+  </action>
+  <action name="actionHigh_to_Low_4">
+   <property name="text">
+    <string>High to Low</string>
+   </property>
+  </action>
+  <action name="actionHigh_to_Low_5">
+   <property name="text">
+    <string>High to Low</string>
+   </property>
+  </action>
+  <action name="actionHigh_to_Low_6">
+   <property name="text">
+    <string>High to Low</string>
+   </property>
+  </action>
+  <action name="actionLow_to_High_7">
+   <property name="text">
+    <string>Low to High</string>
+   </property>
+  </action>
+  <action name="actionHigh_to_Low_7">
+   <property name="text">
+    <string>High to Low</string>
+   </property>
+  </action>
+  <action name="actionRocket_Families">
+   <property name="text">
+    <string>Rocket Families</string>
+   </property>
+   <property name="statusTip">
+    <string>Show rocket families</string>
+   </property>
+  </action>
+  <action name="actionticke">
+   <property name="text">
+    <string>ticke</string>
+   </property>
+  </action>
+  <action name="actiontouch">
+   <property name="text">
+    <string>touch</string>
+   </property>
+  </action>
+  <action name="actionstrongly">
+   <property name="text">
+    <string>strongly</string>
+   </property>
+  </action>
+  <action name="actionmildly">
+   <property name="text">
+    <string>mildly</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

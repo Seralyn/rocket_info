@@ -1585,7 +1585,7 @@ rocketDictionary = {
             '''
     },
 
-    "GSLV Mk II)": {
+    "GSLV Mk II": {
         "Name": "",
         "Agency": "",
         "Manufacturer": "",

@@ -36,7 +36,7 @@ def onselect(evt):
     entry_text = w.get(index)
     rocketName.configure(text=pushDataToLabelTitle(rocketDictionary[entry_text]))
     infoLabel.configure(text=pushDataToLabel(rocketDictionary[entry_text]))
-    img = PhotoImage(file=rocketDictionary[entry_text]["Image"])
+    img = PhotoImage(file="images/" + rocketDictionary[entry_text]["Image"])
     imgLabel.configure(image=img)
     imgLabel.image = img
 
@@ -46,7 +46,7 @@ def doNothing():   #for now
 
 
 def helpMenuVersionPushed():
-    tkinter.messagebox.showinfo("Version", "0.1 Alpha")
+    tkinter.messagebox.showinfo("Version", "0.2 Alpha")
 
 
 # def helpAboutPopUp():
