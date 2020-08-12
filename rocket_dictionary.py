@@ -51,7 +51,7 @@ rocketDictionary = {
             spanning December 1968 through December 1972.
             '''
     },
-    'Soyuz': {
+    'Soyuz-2': {
         "Name": "Soyuz",
         "Agency": "Roscosmos",
         "Manufacturer": "",
@@ -1537,99 +1537,292 @@ rocketDictionary = {
             '''
     },
 
-    "GSLV Mk I (a)": {
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "Thrust": "",
-        "ISP": "",
+    "GSLV": {
+        "Name": "Geosynchronous Satellite Launch Vehicle",
+        "Agency": "ISRO - Indian Space Research Organisation",
+        "Manufacturer": "ISRO - Indian Space Research Organisation",
+        "Payload Capacity to LEO": "5,000 kg (11,000 lb)",
+        "Height": "49.13 m (161.2 ft)",
+        "Diameter": "2.8 m (9 ft 2 in)",
+        "Mass": "414,750 kg (914,370 lb)",
+        "Years in Operation": '''
+        Mk.I: 2001-2010
+        Mk.II: 2010~
+        ''',
+        "Country": "India",
+        "Operational Status": '''
+        Mk.I: Retired
+        Mk.II: Active
+        ''',
+        "Number of Stages": "3",
+        "Burn Time": '''
+        Boosters: 154 sec, S1: 100 sec, S2: 149 seconds, S3: 846 sec
+        ''',
+        "Thrust": '''
+        Boosters: 760 kN, S1: 4,846.9 kN, S2: 846.8 kN, S3: 75 kN
+        ''',,
+        "ISP": '''
+        Boosters: 262 sec, S1: 237 sec, S2: 295 sec, S3: 454 sec
+        ''',,
         "Cost Per Launch": "",
-        "Fuel Type": "",
-        "Image": "",
+        "Fuel Type": '''
+        Boosters: N2O4/UDMH, S1: HTPB (solid), S2: N2O4/UDMH, S3: LH2/LOX
+        ''',,
+        "Image": "GSLV.png",
         "Additional Information":
             '''
+            Geosynchronous Satellite Launch Vehicle (GSLV) is an expendable launch system 
+            operated by the Indian Space Research Organisation (ISRO). GSLV was used in 
+            thirteen launches from 2001 to 2018, with more launches planned. Even though
+            GSLV Mk III shares the name, it is an entirely different launcher.
 
+            The Geosynchronous Satellite Launch Vehicle (GSLV) project was initiated in 
+            1990 with the objective of acquiring an Indian launch capability for 
+            geosynchronous satellites.
+
+            GSLV uses major components that are already proven in the Polar Satellite 
+            Launch Vehicle (PSLV) launchers in the form of the S125/S139 solid rocket 
+            booster and the liquid-fueled Vikas engine. Due to the thrust required for 
+            injecting the satellite in a GTO orbit the third stage was to be powered by a 
+            LOX/LH2 Cryogenic engine which at that time India did not possess or had the 
+            technology know-how to build one.
+
+            The first development flight of the GSLV (Mk.I configuration) was launched on 
+            18 April 2001 was a failure as the payload failed to reach the intended orbit 
+            parameters. The launcher was declared operational after the second development 
+            flight successfully launched the GSAT-2 satellite. During the initial years 
+            from the initial launch to 2014 the launcher had a checkered history with 
+            only 2 successful launches out of 7.
+
+            Cryogenic Engine Controversy
+            The third stage was to be procured from Russian company Glavcosmos, including 
+            transfer of technology and design details of the engine based on an agreement 
+            signed in 1991. Russia backed out of the deal after US objected to the deal 
+            as in violation of the Missile Technology Control Regime (MTCR) May 1992. As a 
+            result, ISRO initiated the Cryogenic Upper Stage Project in April 1994 and 
+            began developing its own cryogenic engine. A new agreement was signed with 
+            Russia for 7 KVD-1 cryogenic stages and 1 ground mock-up stage with no technology 
+            transfer, instead of 5 cryogenic stages along with the technology and design as 
+            per the earlier agreement. These engines were used for the initial flights 
+            and were named GSLV Mk.1.
             '''
     },
 
-    "GSLV Mk I (b)": {
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
+    "DIRECT": {
+        "Name": "DIRECT (Jupiter)",
+        "Agency": "NASA",
+        "Manufacturer": "NASA",
+        "Payload Capacity to LEO": "120,000 kg [proposed]",
+        "Height": "Unknown",
+        "Diameter": "8.41 m (27.6 ft) [proposed]",
+        "Mass": "Unknown",
+        "Years in Operation": "N/A",
+        "Country": "USA",
+        "Operational Status": "Canceled",
         "Number of Stages": "",
-        "Burn Time": "",
-        "Thrust": "",
-        "ISP": "",
-        "Cost Per Launch": "",
-        "Fuel Type": "",
-        "Image": "",
+        "Burn Time": "Unknown",
+        "Thrust": "Unknown",
+        "ISP": "Unknown",
+        "Cost Per Launch": "Unknown",
+        "Fuel Type": "LH/LOX",
+        "Image": "direct-jupiter.png",
         "Additional Information":
             '''
+            DIRECT was a late-2000s proposed alternative super heavy lift launch vehicle 
+            architecture supporting NASA's Vision for Space Exploration that would replace 
+            the space agency's planned Ares I and Ares V rockets with a family of Shuttle-
+            Derived Launch Vehicles named "Jupiter".
 
+            DIRECT was advocated by a group of space enthusiasts who asserted that they 
+            represented a broader team of dozens of NASA and space industry engineers who 
+            actively worked on the proposal on an anonymous, voluntary basis in their spare 
+            time. In September 2008, the DIRECT Team was said to consist of 69 members, 62 
+            of whom were NASA engineers, NASA-contractor engineers, and managers from the 
+            Constellation Program. The small number of non-NASA members of the team 
+            publicly represented the group.
+
+            The project name "DIRECT" referred to a philosophy of maximizing the re-use of 
+            hardware and facilities already in place for the Space Shuttle program (STS), 
+            hence a "direct" transition. The DIRECT Team asserted that using this approach 
+            to develop and operate a family of high-commonality rockets would reduce costs
+            and the gap between retirement of the Space Shuttle and the first launch of 
+            Orion, shorten schedules, and simplify technical requirements for future US 
+            human space efforts.
+
+            Three major versions of the DIRECT proposal were released with the last, 
+            Version 3.0, unveiled in May 2009. On 17 June 2009, the group presented its 
+            proposal at a public hearing of the Review of U.S. Human Space Flight Plans 
+            Committee, a panel reviewing US space efforts, in Washington D.C.
+
+            With the October 11th signing of the NASA Authorization Act of 2010 (S. 3729) 
+            by President Obama mandating work on the Space Launch System Heavy Lift Launch 
+            Vehicle, the DIRECT Team declared their effort a success and disbanded. Some 
+            members subsequently announced the formation of a new space technology 
+            company: C-Star Aerospace, LLC.
+
+            ------------------------------------------------------------------------------
+
+            Jupiter Launch Vehicle Family
+
+            DIRECT advocated developing a single, high-commonality family of rockets named 
+            Jupiter, adapted closely from existing Space Shuttle systems. Each Jupiter 
+            launch vehicle would use a "common core stage" consisting of a tank structure 
+            based closely on the existing Space Shuttle External Tank with a pair of 
+            standard four-segment Solid Rocket Boosters (SRBs) mounted at the sides as on 
+            the Space Shuttle. Up to four Space Shuttle Main Engines (SSMEs) from the Space 
+            Shuttle Orbiter would be attached to the bottom of the External Tank. The engines 
+            would be deorbited along with the expended tank to burn up in the Earth's 
+            atmosphere.
+
+            Crews would be carried atop the launch vehicle in NASA's planned Orion Crew 
+            Exploration Vehicle, itself topped by the planned Launch Abort System. Cargo, 
+            whether carried behind the Orion spacecraft or alone on a cargo-only launch 
+            would be enclosed by a payload fairing.
+
+            Many configurations of Jupiter were seen as possible, but the DIRECT version 
+            3.0 proposal, released in May 2009, recommended two: the Jupiter-130 and 
+            Jupiter-246, with claimed lift capacities exceeding 70 and 110 tonnes, 
+            respectively, to low Earth orbit.
+
+            ------------------------------------------------------------------------------
+
+            Proposed Missions
+
+            Low Earth Orbit and Uncrewed Scientific Missions
+
+            Orion spacecraft taking a Space Shuttle Payload Delivery Module (SSPDM) to the 
+            ISS, carrying an airlock, the Alpha Magnetic Spectrometer and other cargo on a 
+            single Jupiter-130. DIRECT asserted that the extra payload capability of the 
+            Jupiter-130 would allow for a range of additional cargo payloads to be flown 
+            with each Orion crew, a capability which is not possible with the Ares I. The 
+            team suggested a number of extra missions which would be enabled by Jupiter in 
+            their proposal, including:
+
+            -New ISS resupply missions with the three ESA/ASI-built Multi-Purpose Logistics
+            Modules
+            -Performing more Hubble Space Telescope Servicing Missions with Orion crews
+            -Launching massive new space telescopes over 8 meters in diameter (more than 
+            3 times the diameter of Hubble)
+            -Perform a Mars Sample Return mission on a single Jupiter launcher, to land 
+            on Mars and return a sample of its soil back to Earth for study as early 
+            as 2013
+            -Launching a human crew to fly around the moon as early as 2013
+
+            The DIRECT team asserted that these additional new missions could have been 
+            planned and funded due to development cost savings with the Jupiter rocket 
+            family compared to the current NASA baseline. They suggested that the proposed 
+            new missions and payloads could provide useful employment for many people who 
+            were working in the Space Shuttle program.
+
+            -----------------------------------------------------------------------------
+
+            Origins and History
+
+            DIRECT's Jupiter vehicle would have been an "in-line" Space Shuttle-derived 
+            launch vehicle. This broad category of Space Shuttle adaptations, postulated 
+            since before the first Shuttle launch, removes the winged Space Shuttle Orbiter, 
+            moves the liquid main engines to the bottom of the cryogenic tankage (typically 
+            proposed to be adapted from the Shuttle external tank), and relocates the payload 
+            to above the tankage.
+
+            The first official study of the concept was conducted in 1986 by NASA's Marshall 
+            Space Flight Center in the aftermath of the Space Shuttle Challenger disaster. It 
+            was promoted as one of the alternatives for launching uncrewed cargo and would 
+            have potentially allowed a restarted lunar program as well. There were, however, 
+            no funds available to NASA for building any new vehicles while the Space Shuttle 
+            program continued. The idea was shelved and NASA concentrated on fixing and 
+            operating the Space Shuttle instead.
+
+            DIRECT's approach had a resemblance to that of the 1991 National Launch System 
+            effort. Proposed jointly by NASA and the Department of Defense as an alternative 
+            to the Titan IV, the design was based on the same solid rocket boosters and 
+            modified external tank, but instead of the reusable Space Shuttle main engine, 
+            specified four of the proposed disposable, less expensive Space Transportation 
+            Main Engines. The United States Congress did not appropriate funding for the 
+            development. A great deal of reference material exists in the public domain 
+            regarding NLS.
+
+            NASA's Exploration Systems Architecture Study (ESAS) of 2005 included a similar 
+            design to the DIRECT proposal using three Space Shuttle Main Engines (SSME). 
+            Known as LV-24 in crew launch form, and LV-25 in cargo configuration, the idea 
+            was dismissed because it did not have sufficient performance for the proposed 
+            lunar program - however the concept was not considered using an Earth departure 
+            stage (EDS).
+
+            DIRECT's re-exploration of the SDLV idea began in 2006 in frustration with the 
+            high cost and delays of Ares I and worries that any similar issues with the giant 
+            Ares V might put the whole Constellation Program in jeopardy. An additional goal 
+            was to maintain US ability to launch crews to space with as short a gap as 
+            possible after the planned retirement of Shuttle.
             '''
     },
 
-    "GSLV Mk II": {
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "Thrust": "",
-        "ISP": "",
+    "GSLV Mk III": {
+        "Name": "Geosynchronous Satellite Launch Vehicle Mark III",
+        "Agency": "ISRO - Indian Space Research Organisation",
+        "Manufacturer": "ISRO - Indian Space Research Organisation",
+        "Payload Capacity to LEO": "10,000 kg (22,000 lb)",
+        "Height": "43.4 m (142 ft)",
+        "Diameter": "4 m (13 ft)",
+        "Mass": "640,000 kg (1,410,000 lb)",
+        "Years in Operation": "2014~",
+        "Country": "India",
+        "Operational Status": "Active",
+        "Number of Stages": "3",
+        "Burn Time": '''
+        S1(Boosters): 128 sec
+        S2: 203 sec
+        S3: 643 sec
+        ''',
+        "Thrust": '''
+        S1(Boosters): 5,150 kN
+        S2: 1,598 kN
+        S3: 200 kN
+        ''',
+        "ISP": '''
+        S1(Boosters): 274.5 sec
+        S2: 293 sec
+        S3: 443 sec
+        ''',
         "Cost Per Launch": "",
-        "Fuel Type": "",
-        "Image": "",
+        "Fuel Type": '''
+        S1(Boosters): HTPB
+        S2: UDMH / N2O4
+        S3: LH2/LOX
+        ''',
+        "Image": "GSLVMkIII.png",
         "Additional Information":
             '''
+            The Geosynchronous Satellite Launch Vehicle Mark III (GSLV Mk III), also referred 
+            to as the Launch Vehicle Mark 3 (LVM3), is a three-stage medium-lift launch 
+            vehicle developed by the Indian Space Research Organisation (ISRO). Primarily 
+            designed to launch communication satellites into geostationary orbit,[16] it is 
+            also identified as launch vehicle for crewed missions under the Indian Human 
+            Spaceflight Programme and dedicated science missions like Chandrayaan-2. The GSLV 
+            Mk III has a higher payload capacity than the similarly named GSLV Mk II.
 
-            '''
-    },
+            After several delays and a sub-orbital test flight on 18 December 2014, ISRO 
+            successfully conducted the first orbital test launch of GSLV Mk III on 5 June 2017 
+            from the Satish Dhawan Space Centre, Andhra Pradesh.
 
-    "Geosynchronous Satellite Launch Vehicle Mark III": {
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "Thrust": "",
-        "ISP": "",
-        "Cost Per Launch": "",
-        "Fuel Type": "",
-        "Image": "",
-        "Additional Information":
-            '''
+            In June 2018, the Union Cabinet approved ₹43.38 billion (US$610 million) to build 
+            10 GSLV Mk III rockets over a five-year period.
 
+            GSLV Mk III launched CARE, India's space capsule recovery experiment module, 
+            Chandrayaan-2, India's second lunar mission and will be used to carry Gaganyaan, 
+            the first crewed mission under Indian Human Spaceflight Programme.
+
+            ISRO initially planned two launcher families, the Polar Satellite Launch Vehicle 
+            for low Earth orbit and polar launches and the larger Geosynchronous Satellite 
+            Launch Vehicle for payloads to geostationary transfer orbit (GTO). The vehicle 
+            was reconceptualized as a more powerful launcher as the ISRO mandate changed. 
+            This increase in size allowed the launch of heavier communication and multipurpose 
+            satellites, future interplanetary exploration and will be human rated to launch 
+            crewed missions. Development of the GSLV Mk III began in the early 2000s, with the 
+            first launch planned for 2009–2010. The unsuccessful launch of GSLV D3, due to a 
+            failure in the cryogenic upper stage, delayed the GSLV Mk III development program. 
+            The GSLV Mk III, while sharing a name with the GSLV, it features different systems 
+            and components.
             '''
     },
 
@@ -3317,7 +3510,7 @@ rocketDictionary = {
 
     },
 
-    "Soyuz-2": {
+    "Soyuz": {
 
         "Name": "",
         "Agency": "",
