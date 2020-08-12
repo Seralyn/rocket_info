@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1488</width>
+    <width>1699</width>
     <height>896</height>
    </rect>
   </property>
@@ -17,40 +17,17 @@
    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SRP 0.2&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>90</x>
-      <y>60</y>
-      <width>101</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:600;&quot;&gt;Rockets&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>43</x>
+      <x>38</x>
       <y>111</y>
-      <width>50</width>
+      <width>60</width>
       <height>20</height>
      </rect>
     </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Search&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
-   <widget class="QPlainTextEdit" name="plainTextEdit">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>110</y>
-      <width>151</width>
-      <height>21</height>
-     </rect>
     </property>
    </widget>
    <widget class="QListWidget" name="listWidget">
@@ -661,13 +638,23 @@
      </property>
     </item>
    </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>110</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
    <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>110</y>
-      <width>611</width>
-      <height>681</height>
+      <x>20</x>
+      <y>90</y>
+      <width>1541</width>
+      <height>741</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -679,69 +666,78 @@
     <widget class="QTextBrowser" name="textBrowser">
      <property name="geometry">
       <rect>
-       <x>0</x>
-       <y>0</y>
+       <x>300</x>
+       <y>20</y>
        <width>611</width>
        <height>681</height>
       </rect>
      </property>
     </widget>
+    <widget class="QGraphicsView" name="graphicsView">
+     <property name="geometry">
+      <rect>
+       <x>1010</x>
+       <y>20</y>
+       <width>501</width>
+       <height>681</height>
+      </rect>
+     </property>
+    </widget>
    </widget>
-   <widget class="QGraphicsView" name="graphicsView">
+   <widget class="QLabel" name="label_12">
     <property name="geometry">
      <rect>
-      <x>910</x>
-      <y>110</y>
-      <width>541</width>
-      <height>681</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_3">
-    <property name="geometry">
-     <rect>
-      <x>504</x>
-      <y>60</y>
-      <width>130</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:600;&quot;&gt;Information&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>1150</x>
-      <y>60</y>
-      <width>70</width>
-      <height>31</height>
+      <x>1240</x>
+      <y>50</y>
+      <width>104</width>
+      <height>39</height>
      </rect>
     </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:600;&quot;&gt;Image&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QWidget" name="verticalLayoutWidget">
+   <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>60</y>
-      <width>231</width>
-      <height>751</height>
+      <x>510</x>
+      <y>50</y>
+      <width>194</width>
+      <height>39</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout"/>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:600;&quot;&gt;Information&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
    </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>40</y>
+      <width>127</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:600;&quot;&gt;Rockets&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <zorder>frame</zorder>
+   <zorder>label_2</zorder>
+   <zorder>listWidget</zorder>
+   <zorder>lineEdit</zorder>
+   <zorder>label_12</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_11</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1488</width>
-     <height>22</height>
+     <width>1699</width>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuShow">
@@ -841,6 +837,17 @@
    <addaction name="menuHelp"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>true</bool>
+   </attribute>
+  </widget>
   <action name="actionIndividual_Rockets">
    <property name="text">
     <string>Individual Rockets</string>
