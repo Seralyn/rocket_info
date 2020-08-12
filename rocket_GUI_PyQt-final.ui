@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1593</width>
+    <height>881</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="toolTip">
+   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SRP 0.2&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(52, 52, 52);
+color: rgb(255, 255, 255);
+background-color: qlineargradient(spread:pad, x1:0.522, y1:1, x2:0.528, y2:0, stop:0 rgba(34, 34, 34, 255), stop:1 rgba(54, 54, 54, 255));
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="0" rowspan="4" colspan="2">
+     <widget class="QFrame" name="columnViewFrame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QFrame" name="rocketClusterFrame">
+         <property name="maximumSize">
+          <size>
+           <width>280</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <property name="leftMargin">
+           <number>20</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="rocketHeaderLabel">
+            <property name="maximumSize">
+             <size>
+              <width>260</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="toolTip">
+             <string>Rockets!!!!</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(54, 54, 54);</string>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; color:#ffffff;&quot;&gt;Rockets&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="searchBarFrame">
+            <property name="maximumSize">
+             <size>
+              <width>260</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(52, 52, 52);</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <item>
+              <widget class="QLabel" name="searchHeaderLabel">
+               <property name="maximumSize">
+                <size>
+                 <width>80</width>
+                 <height>60</height>
+                </size>
+               </property>
+               <property name="toolTip">
+                <string>Enter text in the bar to the right to search for a specific rocket</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(52, 52, 52);</string>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;Search&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="searchBox">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>10</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>200</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="statusTip">
+                <string>Enter text to search for rocket by name</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(70, 70, 70);
+color: rgb(255, 255, 255);
+selection-color: rgb(0, 0, 0);
+selection-background-color: rgb(66, 229, 243);</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QListWidget" name="listWidget">
+            <property name="maximumSize">
+             <size>
+              <width>260</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="mouseTracking">
+             <bool>true</bool>
+            </property>
+            <property name="toolTip">
+             <string>List of rockets</string>
+            </property>
+            <property name="statusTip">
+             <string>Rocket List</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(255, 255, 255);
+selection-color: rgb(0, 0, 0);
+selection-background-color: rgb(6, 236, 248);
+background-color: rgb(52, 52, 52);</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="infoPaneFrame">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <property name="leftMargin">
+           <number>30</number>
+          </property>
+          <property name="rightMargin">
+           <number>30</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="informationHeaderLabel">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="toolTip">
+             <string>Information</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(54, 54, 54);</string>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; color:#ffffff;&quot;&gt;Information&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextBrowser" name="textBrowser">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="mouseTracking">
+             <bool>true</bool>
+            </property>
+            <property name="toolTip">
+             <string>Various information about selected rocket</string>
+            </property>
+            <property name="statusTip">
+             <string>Information on selected rocket</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">selection-background-color: rgb(33, 237, 255);
+color: rgb(255, 255, 255);
+border-color: rgb(255, 255, 255);
+selection-color: rgb(0, 0, 0);
+background-color: rgb(52, 52, 52);</string>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <property name="lineWrapColumnOrWidth">
+             <number>0</number>
+            </property>
+            <property name="html">
+             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:9.75pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="openExternalLinks">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QLabel" name="imageHeaderLabel">
+            <property name="maximumSize">
+             <size>
+              <width>580</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="toolTip">
+             <string>Image</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(54, 54, 54);</string>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; color:#ffffff;&quot;&gt;Image&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGraphicsView" name="graphicsView">
+            <property name="maximumSize">
+             <size>
+              <width>580</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="toolTip">
+             <string>Image of selected rocket</string>
+            </property>
+            <property name="statusTip">
+             <string>Image of selected rocket</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(52, 52, 52);</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1593</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuShow">
+    <property name="title">
+     <string>Show</string>
+    </property>
+    <addaction name="actionIndividual_Rockets"/>
+    <addaction name="actionRocket_Families"/>
+   </widget>
+   <widget class="QMenu" name="menuSort">
+    <property name="title">
+     <string>Sort</string>
+    </property>
+    <widget class="QMenu" name="menuMass">
+     <property name="statusTip">
+      <string>Sort Rockets by their mass on the launchpad</string>
+     </property>
+     <property name="title">
+      <string>Mass</string>
+     </property>
+     <addaction name="actionLow_to_High"/>
+     <addaction name="actionHigh_to_Low_4"/>
+    </widget>
+    <widget class="QMenu" name="menuDiameter">
+     <property name="statusTip">
+      <string>Sort rockets by their diameter</string>
+     </property>
+     <property name="title">
+      <string>Diameter</string>
+     </property>
+     <addaction name="actionLow_to_High_2"/>
+     <addaction name="actionHigh_to_Low_5"/>
+    </widget>
+    <widget class="QMenu" name="menuHeight">
+     <property name="statusTip">
+      <string>Sort rockets by their height</string>
+     </property>
+     <property name="title">
+      <string>Height</string>
+     </property>
+     <addaction name="actionLow_to_High_3"/>
+     <addaction name="actionHigh_to_Low"/>
+    </widget>
+    <widget class="QMenu" name="menuCost_Per_Launch">
+     <property name="statusTip">
+      <string>Sort rockets by how much it costs to launch them in USD</string>
+     </property>
+     <property name="title">
+      <string>Cost Per Launch</string>
+     </property>
+     <addaction name="actionLow_to_High_4"/>
+     <addaction name="actionHigh_to_Low_2"/>
+    </widget>
+    <widget class="QMenu" name="menuThrust">
+     <property name="statusTip">
+      <string>Sort rockets by how much thrust they output</string>
+     </property>
+     <property name="title">
+      <string>Thrust</string>
+     </property>
+     <addaction name="actionLow_to_High_5"/>
+     <addaction name="actionHigh_to_Low_3"/>
+    </widget>
+    <widget class="QMenu" name="menuPayload_to_LEO">
+     <property name="statusTip">
+      <string>Sort rockets by payload capacity to Low Earth Orbit</string>
+     </property>
+     <property name="title">
+      <string>Payload to LEO</string>
+     </property>
+     <addaction name="actionLow_to_High_6"/>
+     <addaction name="actionHigh_to_Low_6"/>
+    </widget>
+    <widget class="QMenu" name="menuAlphabetical">
+     <property name="statusTip">
+      <string>Sort rockets alphabetically</string>
+     </property>
+     <property name="title">
+      <string>Alphabetical</string>
+     </property>
+     <addaction name="actionAscending"/>
+     <addaction name="actionDescending"/>
+    </widget>
+    <widget class="QMenu" name="menuISP">
+     <property name="statusTip">
+      <string>Sort rockets by their Specific Impulse</string>
+     </property>
+     <property name="title">
+      <string>ISP</string>
+     </property>
+     <addaction name="actionLow_to_High_7"/>
+     <addaction name="actionHigh_to_Low_7"/>
+    </widget>
+    <addaction name="menuAlphabetical"/>
+    <addaction name="menuPayload_to_LEO"/>
+    <addaction name="menuMass"/>
+    <addaction name="menuDiameter"/>
+    <addaction name="menuHeight"/>
+    <addaction name="menuCost_Per_Launch"/>
+    <addaction name="menuThrust"/>
+    <addaction name="menuISP"/>
+    <addaction name="actionCountry"/>
+    <addaction name="actionAgency"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionCopy"/>
+    <addaction name="actionPaste"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout"/>
+    <addaction name="actionVersion"/>
+    <addaction name="actionAcronyms"/>
+   </widget>
+   <addaction name="menuShow"/>
+   <addaction name="menuSort"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(60, 60, 60);</string>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="floatable">
+    <bool>false</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionCompare"/>
+   <addaction name="actionPrint"/>
+  </widget>
+  <action name="actionIndividual_Rockets">
+   <property name="text">
+    <string>Individual Rockets</string>
+   </property>
+   <property name="statusTip">
+    <string>Show all rockets</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="text">
+    <string>Copy</string>
+   </property>
+   <property name="statusTip">
+    <string>Copy</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="actionPaste">
+   <property name="text">
+    <string>Paste</string>
+   </property>
+   <property name="statusTip">
+    <string>Paste</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+V</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+   <property name="statusTip">
+    <string>View information about this program</string>
+   </property>
+  </action>
+  <action name="actionVersion">
+   <property name="text">
+    <string>Version</string>
+   </property>
+   <property name="statusTip">
+    <string>Display version information</string>
+   </property>
+  </action>
+  <action name="actionAcronyms">
+   <property name="text">
+    <string>Acronyms</string>
+   </property>
+   <property name="statusTip">
+    <string>A list of acronyms used in this program and what they stand for</string>
+   </property>
+  </action>
+  <action name="actionLow_to_High">
+   <property name="text">
+    <string>Low to High</string>
+   </property>
+   <property name="statusTip">
+    <string>Sort rockets by their mass on the launchpad from lightest to heaviest</string>
+   </property>
+  </action>
+  <action name="actionLow_to_High_2">
+   <property name="text">
+    <string>Low to High</string>
+   </property>
+   <property name="statusTip">
+    <string>Sort rockets by their diameter from narrowest to widest</string>
+   </property>
+  </action>
+  <action name="actionLow_to_High_3">
+   <property name="text">
+    <string>Low to High</string>
+   </property>
+   <property name="statusTip">
+    <string>Sort rockets by their height from shortest to tallest</string>
+   </property>
+  </action>
+  <action name="actionHigh_to_Low">
+   <property name="text">
+    <string>High to Low</string>
+   </property>
+   <property name="statusTip">
+    <string>Sort rockets by their height from tallest to shortest</string>
+   </property>
+  </action>
+  <action name="actionLow_to_High_4">
+   <property name="text">
+    <string>Low to High</string>
+   </property>
+   <property name="statusTip">
+    <string>Sort rockets by their cost to launch from least expensive to most expensive</string>
+   </property>
+  </action>
+  <action name="actionHigh_to_Low_2">
+   <property name="text">
+    <string>High to Low</string>
+   </property>
+   <property name="statusTip">
+    <string>Sort rockets by their cost to launch from most expensive to least expensive</string>
+   </property>
+  </action>
+  <action name="actionLow_to_High_5">
+   <property name="text">
+    <string>Low to High</string>
+   </property>
+   <property name="statusTip">
+    <string>Sort rockets by their thrust in kilonewtons from least to most</string>
+   </property>
+  </action>
+  <action name="actionHigh_to_Low_3">
+   <property name="text">
+    <string>High to Low</string>
+   </property>
+   <property name="statusTip">
+    <string>Sort rockets by their thrust in kilonewtons from highest to lowest</string>
+   </property>
+  </action>
+  <action name="actionLow_to_High_6">
+   <property name="text">
+    <string>Low to High</string>
+   </property>
+   <property name="statusTip">
+    <string>Sort rockets by their lifting capacity to Low Earth Orbit from lowest to highest</string>
+   </property>
+  </action>
+  <action name="actionAscending">
+   <property name="text">
+    <string>Ascending</string>
+   </property>
+   <property name="statusTip">
+    <string>Sort rockets in ascending order (A to Z)</string>
+   </property>
+  </action>
+  <action name="actionDescending">
+   <property name="text">
+    <string>Descending</string>
+   </property>
+   <property name="statusTip">
+    <string>Sort rockets in descending order(Z to A)</string>
+   </property>
+  </action>
+  <action name="actionHigh_to_Low_4">
+   <property name="text">
+    <string>High to Low</string>
+   </property>
+   <property name="statusTip">
+    <string>Sort rockets by their mass on the launchpad from heaviest to lightest</string>
+   </property>
+  </action>
+  <action name="actionHigh_to_Low_5">
+   <property name="text">
+    <string>High to Low</string>
+   </property>
+   <property name="statusTip">
+    <string>Sort rockets by their diameter from widest to narrowest</string>
+   </property>
+  </action>
+  <action name="actionHigh_to_Low_6">
+   <property name="text">
+    <string>High to Low</string>
+   </property>
+   <property name="statusTip">
+    <string>Sort rockets by their lifting capacity to Low Earth Orbit from highest to lowest</string>
+   </property>
+  </action>
+  <action name="actionLow_to_High_7">
+   <property name="text">
+    <string>Low to High</string>
+   </property>
+   <property name="statusTip">
+    <string>Sort rockets by their specific impulse from least to most</string>
+   </property>
+  </action>
+  <action name="actionHigh_to_Low_7">
+   <property name="text">
+    <string>High to Low</string>
+   </property>
+   <property name="statusTip">
+    <string>Sort rockets by their specific impulse from most to least</string>
+   </property>
+  </action>
+  <action name="actionRocket_Families">
+   <property name="text">
+    <string>Rocket Families</string>
+   </property>
+   <property name="statusTip">
+    <string>Show rocket families</string>
+   </property>
+  </action>
+  <action name="actionticke">
+   <property name="text">
+    <string>ticke</string>
+   </property>
+  </action>
+  <action name="actiontouch">
+   <property name="text">
+    <string>touch</string>
+   </property>
+  </action>
+  <action name="actionstrongly">
+   <property name="text">
+    <string>strongly</string>
+   </property>
+  </action>
+  <action name="actionmildly">
+   <property name="text">
+    <string>mildly</string>
+   </property>
+  </action>
+  <action name="actionCompare">
+   <property name="text">
+    <string>Compare</string>
+   </property>
+   <property name="toolTip">
+    <string>Compare two rockets</string>
+   </property>
+   <property name="statusTip">
+    <string>Compare two rockets</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+C</string>
+   </property>
+  </action>
+  <action name="actionPrint">
+   <property name="text">
+    <string>Print</string>
+   </property>
+   <property name="toolTip">
+    <string>Generates a layout for printing</string>
+   </property>
+   <property name="statusTip">
+    <string>Generates a layout for printing</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
+   </property>
+  </action>
+  <action name="actionCountry">
+   <property name="text">
+    <string>Country</string>
+   </property>
+   <property name="statusTip">
+    <string>Sort rockets by the countries that produced them, alphabetically</string>
+   </property>
+  </action>
+  <action name="actionAgency">
+   <property name="text">
+    <string>Agency</string>
+   </property>
+   <property name="statusTip">
+    <string>Sort rockets by the agencies that utilize them, alphabetically</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
