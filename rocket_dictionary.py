@@ -1560,14 +1560,14 @@ rocketDictionary = {
         ''',
         "Thrust": '''
         Boosters: 760 kN, S1: 4,846.9 kN, S2: 846.8 kN, S3: 75 kN
-        ''',,
+        ''',
         "ISP": '''
         Boosters: 262 sec, S1: 237 sec, S2: 295 sec, S3: 454 sec
-        ''',,
+        ''',
         "Cost Per Launch": "",
         "Fuel Type": '''
         Boosters: N2O4/UDMH, S1: HTPB (solid), S2: N2O4/UDMH, S3: LH2/LOX
-        ''',,
+        ''',
         "Image": "GSLV.png",
         "Additional Information":
             '''

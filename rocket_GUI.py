@@ -12,7 +12,7 @@ root.title("Working Title: SRP")
 
 # *** Adds Icon to window ***
 # works in windows, but not on Mac...why?
-root.iconbitmap("rocket_icon 512.ico")
+root.iconbitmap("images/rocket_icon 512.ico")
 
 
 # *** Dictionary Info Pull Functions ***
