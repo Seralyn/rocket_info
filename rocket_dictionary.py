@@ -20,37 +20,37 @@ rocketDictionary = {
         "Image": "SaturnV.png",
         "Additional Information":
             '''
-            Saturn V was an American super heavy-lift launch vehicle 
-            certified for human-rating used by NASA between 1967 and 
-            1973. It consisted of three stages, each fueled by liquid 
-            propellants. It was developed to support the Apollo program 
-            for human exploration of the Moon and was later used to 
-            launch Skylab, the first American space station.
+Saturn V was an American super heavy-lift launch vehicle 
+certified for human-rating used by NASA between 1967 and 
+1973. It consisted of three stages, each fueled by liquid 
+propellants. It was developed to support the Apollo program 
+for human exploration of the Moon and was later used to 
+launch Skylab, the first American space station.
 
-            The Saturn V was launched 13 times from Kennedy Space Center 
-            with no loss of crew or payload. As of 2020, the Saturn V 
-            remains the tallest, heaviest, and most powerful (highest 
-            total impulse) rocket ever brought to operational status, 
-            and holds records for the heaviest payload launched and 
-            largest payload capacity to low Earth orbit (LEO) of 
-            310,000 lb (140,000 kg), which included the third stage 
-            and unburned propellant needed to send the Apollo command 
-            and service module and Lunar Module to the Moon.
+The Saturn V was launched 13 times from Kennedy Space Center 
+with no loss of crew or payload. As of 2020, the Saturn V 
+remains the tallest, heaviest, and most powerful (highest 
+total impulse) rocket ever brought to operational status, 
+and holds records for the heaviest payload launched and 
+largest payload capacity to low Earth orbit (LEO) of 
+310,000 lb (140,000 kg), which included the third stage 
+and unburned propellant needed to send the Apollo command 
+and service module and Lunar Module to the Moon.
 
-            As the largest production model of the Saturn family of 
-            rockets, the Saturn V was designed under the direction of 
-            Wernher von Braun at the Marshall Space Flight Center in 
-            Huntsville, Alabama, with Boeing, North American Aviation, 
-            Douglas Aircraft Company, and IBM as the lead contractors.
+As the largest production model of the Saturn family of 
+rockets, the Saturn V was designed under the direction of 
+Wernher von Braun at the Marshall Space Flight Center in 
+Huntsville, Alabama, with Boeing, North American Aviation, 
+Douglas Aircraft Company, and IBM as the lead contractors.
 
-            To date, the Saturn V remains the only launch vehicle to carry 
-            humans beyond low Earth orbit. A total of 15 flight-capable 
-            vehicles were built, but only 13 were flown. An additional 
-            three vehicles were built for ground testing purposes. A total 
-            of 24 astronauts were launched to the Moon in the four years 
-            spanning December 1968 through December 1972.
+To date, the Saturn V remains the only launch vehicle to carry 
+humans beyond low Earth orbit. A total of 15 flight-capable 
+vehicles were built, but only 13 were flown. An additional 
+three vehicles were built for ground testing purposes. A total 
+of 24 astronauts were launched to the Moon in the four years 
+spanning December 1968 through December 1972.
             '''
-    },
+},
     'Soyuz-2': {
         "Name": "Soyuz",
         "Agency": "Roscosmos",
@@ -71,42 +71,42 @@ rocketDictionary = {
         "Image": "soyuz.png",
         "Additional Information":
             '''
-            Soyuz is a series of spacecraft designed for the Soviet space 
-            program by the Korolev Design Bureau (now RKK Energia) in the
-            1960s that remains in service today, having made more than 140 
-            flights. The Soyuz succeeded the Voskhod spacecraft and was 
-            originally built as part of the Soviet crewed lunar programs. 
-            The Soyuz spacecraft is launched on a Soyuz rocket, the most 
-            reliable launch vehicle in the world to date. The Soyuz 
-            rocket design is based on the Vostok launcher, which in turn was 
-            based on the 8K74 or R-7A Semyorka, a Soviet intercontinental 
-            ballistic missile. All Soyuz spacecraft are launched from the 
-            Baikonur Cosmodrome in Kazakhstan. After the retirement of the 
-            Space Shuttle in 2011, the Soyuz served as the only means for 
-            Americans to make crewed space flights until the first flight 
-            of VSS Unity in 2018, and the only means for Americans to reach 
-            the International Space Station until the first flight of Dragon 
-            2 Crew variant on May 30, 2020. The Soyuz is heavily used in 
-            the ISS program.
+Soyuz is a series of spacecraft designed for the Soviet space 
+program by the Korolev Design Bureau (now RKK Energia) in the
+1960s that remains in service today, having made more than 140 
+flights. The Soyuz succeeded the Voskhod spacecraft and was 
+originally built as part of the Soviet crewed lunar programs. 
+The Soyuz spacecraft is launched on a Soyuz rocket, the most 
+reliable launch vehicle in the world to date. The Soyuz 
+rocket design is based on the Vostok launcher, which in turn was 
+based on the 8K74 or R-7A Semyorka, a Soviet intercontinental 
+ballistic missile. All Soyuz spacecraft are launched from the 
+Baikonur Cosmodrome in Kazakhstan. After the retirement of the 
+Space Shuttle in 2011, the Soyuz served as the only means for 
+Americans to make crewed space flights until the first flight 
+of VSS Unity in 2018, and the only means for Americans to reach 
+the International Space Station until the first flight of Dragon 
+2 Crew variant on May 30, 2020. The Soyuz is heavily used in 
+the ISS program.
 
-            The first Soyuz flight was uncrewed and started on November 28, 
-            1966. The first Soyuz mission with a crew, Soyuz 1, launched on 
-            23 April 1967 but ended with a crash due to a parachute failure, 
-            killing cosmonaut Vladimir Komarov. The following flight was 
-            uncrewed. Soyuz 3, launched on October 26, 1968, became the 
-            program's first successful crewed mission. The only other flight 
-            to suffer a fatal accident, Soyuz 11, killed its crew of three 
-            when the cabin depressurized prematurely just before reentry. 
-            These were the only humans to date to have died above the Kármán 
-            line. Despite these early incidents, Soyuz is widely considered 
-            the world's safest, most cost-effective human spaceflight vehicle, 
-            established by its unparalleled length of operational history. 
-            Soyuz spacecraft were used to carry cosmonauts to and from Salyut 
-            and later Mir Soviet space stations, and are now used for transport 
-            to and from the International Space Station (ISS). At least one Soyuz 
-            spacecraft is docked to ISS at all times for use as an escape craft 
-            in the event of an emergency. The spacecraft is intended to be 
-            replaced by the six-person Orel spacecraft.
+The first Soyuz flight was uncrewed and started on November 28, 
+1966. The first Soyuz mission with a crew, Soyuz 1, launched on 
+23 April 1967 but ended with a crash due to a parachute failure, 
+killing cosmonaut Vladimir Komarov. The following flight was 
+uncrewed. Soyuz 3, launched on October 26, 1968, became the 
+program's first successful crewed mission. The only other flight 
+to suffer a fatal accident, Soyuz 11, killed its crew of three 
+when the cabin depressurized prematurely just before reentry. 
+These were the only humans to date to have died above the Kármán 
+line. Despite these early incidents, Soyuz is widely considered 
+the world's safest, most cost-effective human spaceflight vehicle, 
+established by its unparalleled length of operational history. 
+Soyuz spacecraft were used to carry cosmonauts to and from Salyut 
+and later Mir Soviet space stations, and are now used for transport 
+to and from the International Space Station (ISS). At least one Soyuz 
+spacecraft is docked to ISS at all times for use as an escape craft 
+in the event of an emergency. The spacecraft is intended to be 
+replaced by the six-person Orel spacecraft.
             '''
     },
 
@@ -131,7 +131,7 @@ rocketDictionary = {
         "Additional Information":
             '''
             The Delta III rocket was an expendable launch vehicle made by 
-            Boeing. The first Delta III launch was on August 26, 1998. Of 
+Boeing. The first Delta III launch was on August 26, 1998. Of 
             its three flights, the first two were failures, and the third, 
             though declared successful, reached the low end of its targeted 
             orbit range and carried only a dummy (inert) payload. The Delta 
@@ -182,7 +182,7 @@ rocketDictionary = {
         "Additional Information":
             '''
             Ariane 6 is a launch vehicle developed and manufactured by 
-            ArianeGroup under the authority of the European Space Agency 
+ArianeGroup under the authority of the European Space Agency 
             (ESA), with a first test flight scheduled for 2020 or, now 
             more likely, 2021. When development is completed, it will 
             become the newest member in the Ariane launch vehicle family. 
@@ -487,9 +487,10 @@ rocketDictionary = {
     "Long March 1": {
         "Name": "Long March 1",
         "Agency": '''
-        MAI - Moscow Aviation Institute, 
-        CASC - China Aerospace Science and Technology Corporation, 
-        CAST - China Academy of Space Technology''',
+MAI - Moscow Aviation Institute, 
+CASC - China Aerospace Science and Technology Corporation, 
+CAST - China Academy of Space Technology''',
+        "Manufacturer": "",
         "Payload Capacity to LEO": "300 kilograms (660 lb)",
         "Height": "	29.86 metres (98.0 ft)",
         "Diameter": "2.25 metres (7.4 ft)",
@@ -509,13 +510,13 @@ rocketDictionary = {
             The Long March 1 (长征一号), also known as the Changzheng-1 
             (CZ-1), was the first member of China's Long March rocket family.
 
-            Development started in January 1965 as the Seventh Ministry 
+            Development started in January 1965 after the Seventh Ministry 
             of Machinery Industry issued a design task. The two stage 
             liquid fueled DF-4 was modified by adding a third stage in 
             order to make it to the desired orbit. Long March 1's second 
-            flight launched China's first satellite Dong Fang Hong 1 to 
-            space on April 24, 1970. The rocket was operational during 
-            1970–1971. Wang Xiji was the chief designer of the rocket.
+            flight launched China's first satellite, Dong Fang Hong 1, to 
+            space on April 24, 1970. The rocket was operational between 
+            1970-1971. Wang Xiji was the chief designer of the rocket.
             '''
     },
     "Long March 1D": {
@@ -2302,20 +2303,20 @@ rocketDictionary = {
         "Mass": "777,000 kg (1,713,000 lb)",
         "Years in Operation":
             '''
-            G: 1996-2003
-            G+: 2004-2004
-            GS: 2005-2009
-            ECA: 2002~
-            ES: 2008-2018
+G: 1996-2003
+G+: 2004-2004
+GS: 2005-2009
+ECA: 2002~
+ES: 2008-2018
             ''',
         "Country": "EU",
         "Operational Status":
             '''
-            G: Retired
-            G+: Retired
-            GS: Retired
-            ECA: Active
-            ES: Retired
+G: Retired
+G+: Retired
+GS: Retired
+ECA: Active
+ES: Retired
             ''',
         "Number of Stages": "2",
         "Burn Time": "",
@@ -2326,92 +2327,92 @@ rocketDictionary = {
         "Image": "Ariane 5.png",
         "Additional Information":
             '''
-            Ariane 5 is a heavy-lift space launch vehicle developed and operated 
-            by Arianespace for the European Space Agency (ESA). It is launched 
-            from the Guiana Space Centre in French Guiana. It has been used to 
-            deliver payloads into geostationary transfer orbit (GTO) or low Earth 
-            orbit (LEO). A direct successor system, Ariane 6, is in development 
-            as of July 2020.
+Ariane 5 is a heavy-lift space launch vehicle developed and operated 
+by Arianespace for the European Space Agency (ESA). It is launched 
+from the Guiana Space Centre in French Guiana. It has been used to 
+deliver payloads into geostationary transfer orbit (GTO) or low Earth 
+orbit (LEO). A direct successor system, Ariane 6, is in development 
+as of July 2020.
 
-            The system was originally designed as an expendable launch system by 
-            the Centre national d'études spatiales (CNES), the French government's 
-            space agency, in close cooperation with Germany and other European 
-            partners. Despite not being a direct derivative of its predecessor 
-            rocket program, it is classified as part of the Ariane rocket family. 
-            Airbus Defence and Space is the prime contractor for the vehicles, 
-            leading a multi-country consortium of other European contractors. ESA 
-            originally designed Ariane 5 to launch the Hermes spaceplane, and thus 
-            it is rated for human space launches.
-            
-            Since its first launch, Ariane 5 has been refined in successive 
-            versions: "G", "G+", "GS", "ECA", and most recently, "ES". The system 
-            has a commonly used dual-launch capability, where up to two large 
-            geostationary belt communication satellites can be mounted using a 
-            SYLDA (Système de Lancement Double Ariane, "Ariane Double-Launch System") 
-            carrier system. Up to three, somewhat smaller, main satellites are possible 
-            depending on size using SPELTRA (Structure Porteuse Externe Lancement 
-            Triple Ariane, "Ariane Triple-Launch External Carrier Structure"). Up to 
-            eight secondary payloads, usually small experiment packages or minisatellites, 
-            can be carried with an ASAP (Ariane Structure for Auxiliary Payloads) platform.
-            
-            As of August 2020, Arianespace had signed contracts for Ariane 5 ECA launches 
-            up through 2023, approximately two years following the planned introduction 
-            of Ariane 6 in early 2021.
-            
-            -Variants-
-            G: The original version is dubbed Ariane 5 G (Generic) and had a launch mass 
-            of 737 tonnes. Its payload capability to geostationary transfer orbit (GTO) 
-            was 6,900 kilograms (15,200 lb) for a single satellite or 6,100 kilograms 
-            (13,400 lb) for dual launches. It flew 17 times with one failure and two 
-            partial failures.
-            
-            G+: The Ariane 5 G+ had an improved EPS second stage, with a GTO capacity 
-            of 7,100 kilograms (15,700 lb) for a single payload or 6,300 kilograms 
-            (13,900 lb) for two. It flew three times in 2004, with no failures.
-            
-            GS: At the time of the failure of the first Ariane 5 ECA flight in 2002, 
-            all Ariane 5 launchers in production were ECA versions. Some of the ECA 
-            cores were modified to use the original Vulcain engine and tank volumes 
-            while the failure was investigated; these vehicles were designated 
-            Ariane 5 GS. The GS used the improved EAP boosters of the ECA variant 
-            and the improved EPS of the G+ variant, but the increased mass of the 
-            modified ECA core compared to the G and G+ core resulted in slightly 
-            reduced payload capacity. Ariane 5 GS could carry a single payload of 
-            6,600 kilograms (14,600 lb) or a dual payload of 5,800 kilograms 
-            (12,800 lb) to GTO. The Ariane 5 GS flew 6 times from 2005 to 2009
-             with no failures.
-            
-            ECA: The Ariane 5 ECA (Evolution Cryotechnique type A), first 
-            successfully flown in 2005, uses an improved Vulcain 2 first-stage 
-            engine with a longer, more efficient nozzle with a more efficient 
-            flow cycle and denser propellant ratio. The new ratio required length 
-            modifications to the first-stage tanks. The EPS second stage was 
-            replaced by the ESC-A (Etage Supérieur Cryogénique-A), which has a 
-            dry weight of 2,100 kilograms (4,600 lb) and is powered by an HM-7B
-            engine burning 14,000 kilograms (31,000 lb) of cryogenic propellant. 
-            The ESC-A uses the liquid oxygen tank and lower structure from the 
-            Ariane 4's H10 third stage, mated to a new liquid hydrogen tank. 
-            Additionally, the EAP booster casings were lightened with new welds 
-            and carry more propellant. The Ariane 5 ECA has a GTO launch capacity 
-            of 9,100 kilograms (20,100 lb) for dual payloads or 9,600 kilograms 
-            (21,200 lb) for a single payload.
-            
-            ES: The Ariane 5 ES (Evolution Storable) has an estimated LEO launch 
-            capacity of 21,000 kilograms (46,000 lb). It includes all the 
-            performance improvements of Ariane 5 ECA core and boosters but 
-            replaces the ESC-A second stage with the restartable EPS used on Ariane 5 
-            GS variants. It was used to launch the Automated Transfer Vehicle (ATV) 
-            into a 260 km circular low Earth orbit inclined at 51.6° and has been 
-            used 3 times to launch 4 Galileo navigation satellites at a time directly 
-            into their operational orbit. The Ariane 5 ES flew 8 times from 2008 to 
-            2018 with no failures.
-            
-            ME: The Ariane 5 ME (Mid-life Evolution) was under development until 
-            the end of 2014. The last ESA ministerial council of December 2014 has 
-            cut further funding for Ariane 5 ME in favour of developing Ariane 6. 
-            Last activities for Ariane 5 ME were completed at the end of 2015. 
-            Activities on development of the VINCI upper stage were transferred 
-            to Ariane 6.
+The system was originally designed as an expendable launch system by 
+the Centre national d'études spatiales (CNES), the French government's 
+space agency, in close cooperation with Germany and other European 
+partners. Despite not being a direct derivative of its predecessor 
+rocket program, it is classified as part of the Ariane rocket family. 
+Airbus Defence and Space is the prime contractor for the vehicles, 
+leading a multi-country consortium of other European contractors. ESA 
+originally designed Ariane 5 to launch the Hermes spaceplane, and thus 
+it is rated for human space launches.
+
+Since its first launch, Ariane 5 has been refined in successive 
+versions: "G", "G+", "GS", "ECA", and most recently, "ES". The system 
+has a commonly used dual-launch capability, where up to two large 
+geostationary belt communication satellites can be mounted using a 
+SYLDA (Système de Lancement Double Ariane, "Ariane Double-Launch System") 
+carrier system. Up to three, somewhat smaller, main satellites are possible 
+depending on size using SPELTRA (Structure Porteuse Externe Lancement 
+Triple Ariane, "Ariane Triple-Launch External Carrier Structure"). Up to 
+eight secondary payloads, usually small experiment packages or minisatellites, 
+can be carried with an ASAP (Ariane Structure for Auxiliary Payloads) platform.
+
+As of August 2020, Arianespace had signed contracts for Ariane 5 ECA launches 
+up through 2023, approximately two years following the planned introduction 
+of Ariane 6 in early 2021.
+
+-Variants-
+G: The original version is dubbed Ariane 5 G (Generic) and had a launch mass 
+of 737 tonnes. Its payload capability to geostationary transfer orbit (GTO) 
+was 6,900 kilograms (15,200 lb) for a single satellite or 6,100 kilograms 
+(13,400 lb) for dual launches. It flew 17 times with one failure and two 
+partial failures.
+
+G+: The Ariane 5 G+ had an improved EPS second stage, with a GTO capacity 
+of 7,100 kilograms (15,700 lb) for a single payload or 6,300 kilograms 
+(13,900 lb) for two. It flew three times in 2004, with no failures.
+
+GS: At the time of the failure of the first Ariane 5 ECA flight in 2002, 
+all Ariane 5 launchers in production were ECA versions. Some of the ECA 
+cores were modified to use the original Vulcain engine and tank volumes 
+while the failure was investigated; these vehicles were designated 
+Ariane 5 GS. The GS used the improved EAP boosters of the ECA variant 
+and the improved EPS of the G+ variant, but the increased mass of the 
+modified ECA core compared to the G and G+ core resulted in slightly 
+reduced payload capacity. Ariane 5 GS could carry a single payload of 
+6,600 kilograms (14,600 lb) or a dual payload of 5,800 kilograms 
+(12,800 lb) to GTO. The Ariane 5 GS flew 6 times from 2005 to 2009
+    with no failures.
+
+ECA: The Ariane 5 ECA (Evolution Cryotechnique type A), first 
+successfully flown in 2005, uses an improved Vulcain 2 first-stage 
+engine with a longer, more efficient nozzle with a more efficient 
+flow cycle and denser propellant ratio. The new ratio required length 
+modifications to the first-stage tanks. The EPS second stage was 
+replaced by the ESC-A (Etage Supérieur Cryogénique-A), which has a 
+dry weight of 2,100 kilograms (4,600 lb) and is powered by an HM-7B
+engine burning 14,000 kilograms (31,000 lb) of cryogenic propellant. 
+The ESC-A uses the liquid oxygen tank and lower structure from the 
+Ariane 4's H10 third stage, mated to a new liquid hydrogen tank. 
+Additionally, the EAP booster casings were lightened with new welds 
+and carry more propellant. The Ariane 5 ECA has a GTO launch capacity 
+of 9,100 kilograms (20,100 lb) for dual payloads or 9,600 kilograms 
+(21,200 lb) for a single payload.
+
+ES: The Ariane 5 ES (Evolution Storable) has an estimated LEO launch 
+capacity of 21,000 kilograms (46,000 lb). It includes all the 
+performance improvements of Ariane 5 ECA core and boosters but 
+replaces the ESC-A second stage with the restartable EPS used on Ariane 5 
+GS variants. It was used to launch the Automated Transfer Vehicle (ATV) 
+into a 260 km circular low Earth orbit inclined at 51.6° and has been 
+used 3 times to launch 4 Galileo navigation satellites at a time directly 
+into their operational orbit. The Ariane 5 ES flew 8 times from 2008 to 
+2018 with no failures.
+
+ME: The Ariane 5 ME (Mid-life Evolution) was under development until 
+the end of 2014. The last ESA ministerial council of December 2014 has 
+cut further funding for Ariane 5 ME in favour of developing Ariane 6. 
+Last activities for Ariane 5 ME were completed at the end of 2015. 
+Activities on development of the VINCI upper stage were transferred 
+to Ariane 6.
             '''
     },
 
