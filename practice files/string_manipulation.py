@@ -1,3 +1,5 @@
+#https://www.w3resource.com/python-exercises/string/#EDITOR
+
 # =============================================================================================
 
 a = "Your mother was a hamster and your father smelled of elderberries!"

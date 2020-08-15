@@ -12,6 +12,7 @@ from rocket_dictionary import rocketDictionary
 
 alphabetical_rocket_choices = sorted(rocketDictionary.keys())
 
+
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setStyleSheet("QToolTip {background-color: black; color: white; border: black solid 1px}")
@@ -416,7 +417,6 @@ class Ui_MainWindow(object):
         self.actionCountry.setStatusTip(_translate("MainWindow", "Sort rockets by the countries that produced them, alphabetically"))
         self.actionAgency.setText(_translate("MainWindow", "Agency"))
         self.actionAgency.setStatusTip(_translate("MainWindow", "Sort rockets by the agencies that utilize them, alphabetically"))
-        
         
 
 
