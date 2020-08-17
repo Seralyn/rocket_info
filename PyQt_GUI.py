@@ -140,6 +140,9 @@ class Ui_MainWindow(object):
         self.horizontalLayout.addWidget(self.frame)
         self.gridLayout.addWidget(self.columnViewFrame, 2, 0, 4, 2)
         MainWindow.setCentralWidget(self.centralwidget)
+        
+        
+  # ***** Menu Bar Item Creation and Naming ******      
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 1593, 21))
         self.menubar.setObjectName("menubar")
@@ -235,11 +238,17 @@ class Ui_MainWindow(object):
         self.actionstrongly.setObjectName("actionstrongly")
         self.actionmildly = QtWidgets.QAction(MainWindow)
         self.actionmildly.setObjectName("actionmildly")
+        
+        
+        
+ # ****** Tool Bar Item Creation and Naming ******        
         self.actionCompare = QtWidgets.QAction(MainWindow)  #add QIcon("printer.png") into this part after insantiating it
         self.actionCompare.setObjectName("actionCompare")   # to set window icon = self.setWindowIcon(QtGui.QIcon("rocket_icon_512.ico"))
         self.actionPrint = QtWidgets.QAction(MainWindow)  
         self.actionPrint.setObjectName("actionPrint")
         
+        
+ # ***** Menu Bar Action Linking *****        
         self.actionCountry = QtWidgets.QAction(MainWindow)
         self.actionCountry.setObjectName("actionCountry")
         self.actionAgency = QtWidgets.QAction(MainWindow)
@@ -424,7 +433,7 @@ class Ui_MainWindow(object):
     def selectionChanged(self):
         _translate = QtCore.QCoreApplication.translate
         rocketName = self.listWidget.currentItem().text()
-        rocketImage = "C:/Users/Atraxa/DevOps/rocket_info/images/" + rocketDictionary[rocketName]['Image']
+        rocketImage = "C:/Users/seral/DevOps/rocket_info/images/" + rocketDictionary[rocketName]['Image']
         self.graphicsView.setStyleSheet(f"background-color: rgb(52, 52, 52); background-image: url({rocketImage}); background-repeat: no-repeat;")
         agency = rocketDictionary[rocketName]['Manufacturer'].replace('\n', '<br />').replace('\n\n', '<br /><br />')
         height = rocketDictionary[rocketName]['Height'].replace('\n', '<br />')

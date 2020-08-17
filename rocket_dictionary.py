@@ -12,11 +12,19 @@ rocketDictionary = {
         "Country": "USA",
         "Operational Status": "Retired",
         "Number of Stages": "2-3",
-        "Burn Time": "",
-        "Thrust": "",
-        "ISP": "",
-        "Cost Per Launch": "",
-        "Fuel Type": "",
+        "Burn Time": '''
+        S1: , S2: , S3:
+        ''',
+        "Thrust": '''
+        S1: 35,100 kN, S2: 5,141 kN, S3: 1,033 kN
+        ''',
+        "ISP": '''
+        S1: 263 sec, S2: 421 sec, S3: 421 sec
+        ''',
+        "Cost Per Launch": "$1.23 billion (adjusted for inflation)",
+        "Fuel Type": '''
+        S1: RP-1/LOX, S2:LH2 / LOX, S3: LH2 / LOX
+        ''',
         "Image": "SaturnV.png",
         "Additional Information":
             '''
@@ -49,6 +57,14 @@ vehicles were built, but only 13 were flown. An additional
 three vehicles were built for ground testing purposes. A total 
 of 24 astronauts were launched to the Moon in the four years 
 spanning December 1968 through December 1972.
+
+In September 1945, the US government brought the German rocket technologist Wernher von Braun and about seven hundred German rocket engineers and technicians to the United States for Operation Paperclip, a program authorized by President Truman.
+
+Von Braun was assigned to the Army's rocket design division due to his prior direct involvement in the creation of the V-2 rocket. Between 1945 and 1958, his work was restricted to conveying the ideas and methods behind the V-2 to American engineers. Despite von Braun's many articles on the future of space rocketry, the US government continued funding Air Force and Navy rocket programs to test their Vanguard missiles despite numerous costly failures.
+
+The US Army and government began taking serious steps towards sending Americans into space in 1957, when the Soviets launched Sputnik 1 atop an R-7 ICBM, which is capable of carrying a thermonuclear warhead to the US. They turned to von Braun's team, who had created and experimented with the Jupiter series of rockets. 
+
+The Juno I rocket launched the first American satellite in January 1958, and was part of the last-ditch plan for NACA (the predecessor of NASA) to participate in the Space Race. Von Braun considered the Jupiter series to be a prototype and referred to it as "an infant Saturn".
             '''
 },
     'Soyuz-2': {
@@ -131,7 +147,7 @@ replaced by the six-person Orel spacecraft.
         "Additional Information":
             '''
             The Delta III rocket was an expendable launch vehicle made by 
-Boeing. The first Delta III launch was on August 26, 1998. Of 
+            Boeing. The first Delta III launch was on August 26, 1998. Of 
             its three flights, the first two were failures, and the third, 
             though declared successful, reached the low end of its targeted 
             orbit range and carried only a dummy (inert) payload. The Delta 
@@ -182,7 +198,7 @@ Boeing. The first Delta III launch was on August 26, 1998. Of
         "Additional Information":
             '''
             Ariane 6 is a launch vehicle developed and manufactured by 
-ArianeGroup under the authority of the European Space Agency 
+            ArianeGroup under the authority of the European Space Agency 
             (ESA), with a first test flight scheduled for 2020 or, now 
             more likely, 2021. When development is completed, it will 
             become the newest member in the Ariane launch vehicle family. 
@@ -1829,74 +1845,117 @@ CAST - China Academy of Space Technology
     },
 
     "Small Satellite Launch Vehicle": {
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "Thrust": "",
-        "ISP": "",
-        "Cost Per Launch": "",
-        "Fuel Type": "",
-        "Image": "",
+        "Name": "SSLV - Small Satellite Launch Vehicle",
+        "Agency": "ISRO - Indian Space Research Organisation",
+        "Manufacturer": "ISRO - Indian Space Research Organisation",
+        "Payload Capacity to LEO": "500 kg (1,100 lb)",
+        "Height": "34 m (111.5 ft)",
+        "Diameter": "2 m (6.5 ft)",
+        "Mass": "108,862 k (239,999 lbs)",
+        "Years in Operation": "2020~ (Planned)",
+        "Country": "India",
+        "Operational Status": "In Development",
+        "Number of Stages": "4",
+        "Burn Time": "S1: Unknown, S2: Unknown, S3: Unknown, S4: Unknown",
+        "Thrust": "S1: Unknown, S2: Unknown, S3: Unknown, S4: Unknown",
+        "ISP": "S1: Unknown, S2: Unknown, S3: Unknown, S4: Unknown",
+        "Cost Per Launch": "Unknown",
+        "Fuel Type": "S1: Solid, S2: Solid, S3: Solid, S4: Liquid",
+        "Image": "SSLV.png",
         "Additional Information":
             '''
+The Small Satellite Launch Vehicle (or SSLV) is a small-lift launch vehicle being developed by the Indian Space Research Organisation (ISRO) with payload capacity to deliver 500 kg to Low Earth orbit (500 km) or 300 kg to Sun synchronous orbit (500 km) for launching small satellites, with the capability to support multiple orbital drop-offs. On 21 December 2018, the Vikram Sarabhai Space Centre (VSSC) at Thumba completed the design for the vehicle.
 
+The maiden flight is expected in 2020, and all flights will launch from a dedicated launch pad in Sriharikota called Small Satellite Launch Complex (SSLC). A new spaceport, under development, near Kulasekarapattinam in Tamil Nadu (as of December 2019) will handle SSLV launches when complete.
+
+After entering the operational phase, the vehicle's production and launch operations will be done by a consortium of Indian firms along with New Space India Limited.
+
+The SSLV was developed with the aim of launching small satellites commercially at drastically reduced price and higher launch rate as compared to PSLV. The manufacturing cost of the SSLV is expected to be ₹30 crore (US$4.2 million) to ₹35 crore (US$4.9 million). 
+
+The projected high launch rate relies on largely autonomous launch operation and on overall simple logistics. To compare, a PSLV launch involves 600 officials while SSLV launch operations would be managed by a small team of about six people. The launch readiness period of the SSLV is expected to be less than a week instead of months. The launch vehicle can be assembled both vertically like the existing PSLV and GSLVs and horizontally like the decommissioned SLV and ASLV.
+
+The first three stages of the vehicle use solid propellant, with a fourth stage being a velocity-trimming module.
             '''
     },
 
-    "Reusable Launch Vehicle": {
+    "RLV-TD": {
         "Name": "Reusable Launch Vehicle (TSTO)",
-        "Agency": "",
-        "Manufacturer": "",
+        "Agency": "ISRO - Indian Space Research Organisation",
+        "Manufacturer": "ISRO - Indian Space Research Organisation",
         "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "Thrust": "",
-        "ISP": "",
-        "Cost Per Launch": "",
-        "Fuel Type": "",
-        "Image": "",
+        "Height": "~16 m (52 ft) | Orbiter: 6.5 m (21 ft)",
+        "Diameter": "1 m (3 ft 3 in)",
+        "Mass": "12000 kg (26455 lbs)",
+        "Years in Operation": "N/A (One test flight in 2016)",
+        "Country": "India",
+        "Operational Status": "In Development",
+        "Number of Stages": "2",
+        "Burn Time": "Unknown",
+        "Thrust": "Unknown",
+        "ISP": "Unknown",
+        "Cost Per Launch": "Unknown",
+        "Fuel Type": "Unknown",
+        "Image": "RLV-TD.png",
         "Additional Information":
             '''
+RLV-TD is India's first uncrewed flying testbed developed for the Indian Space Research Organisation (ISRO)'s Reusable Launch Vehicle Technology Demonstration Programme. It is a scaled down prototype of an eventual two-stage-to-orbit (TSTO) reusable launch vehicle.
 
+The RLV-TD successfully completed its first atmospheric test flight on 23 May 2016, which lasted for 770 seconds and reached a maximum altitude of 65 kilometres (40 mi). It was designed to evaluate various technologies, and development of the final version is expected to take 10 to 15 years. The fully developed RLV is expected to take off vertically like a rocket, deploy a satellite in orbit, return to Earth, and land on a runway.
+
+RLV-TD was developed by ISRO under the RLV Technology Demonstration Programme. The Technology Demonstration Programme consists of development of hypersonic rocket with air-breathing engines and the reusable launch vehicle.
+
+In January 2012, the design of ISRO's reusable launch vehicle was approved by the "National Review Committee" and clearance was granted to build the vehicle. The vehicle was named "Reusable Launch Vehicle-Technology Demonstrator" (RLV-TD). ISRO aims to bring down the cost of payload delivery to low Earth orbit by 80% from existing $20,000/kg to $4,000/kg.
+
+The RLV-TD was developed with an objective to test various aspects such as hypersonic flight, autoland, powered cruise flight, hypersonic flight using the air-breathing engine propulsion and "Hypersonic Experiment". A series of four RLV-TD test flights are planned by ISRO: HEX (Hypersonic Flight Experiment), LEX (Landing Experiment), REX (Return Flight Experiment), and SPEX (Scramjet Propulsion Experiment).
+
+A team of 750 engineers at Vikram Sarabhai Space Centre, National Aeronautical Laboratory, and Indian Institute of Science worked on the design and development of RLV-TD and the associated rocket. RLV-TD underwent 120 hours of wind tunnel, 5,000 hours of computational fluid dynamics and 1,100 runs of flight simulation tests. RLV-TD has mass of 1.75 tonnes, wingspan of 3.6 meters and overall length of 6.5 meters (excluding the rocket). The vehicle had 600 heat-resistant tiles on its undercarriage and it features delta wings and angled tail fins. Total cost of the project was ₹95 crore (equivalent to ₹110 crore or US$15.4 million in 2019). Future planned developments include testing an air-breathing propulsion system, which aims to capitalise on the oxygen in the atmosphere instead of liquefied oxygen while in flight.
             '''
     },
 
-    "Unified Modular Launch Vehicle": {
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "Thrust": "",
-        "ISP": "",
-        "Cost Per Launch": "",
-        "Fuel Type": "",
-        "Image": "",
+    "ULV": {
+        "Name": "ULV - Unified Modular Launch Vehicle",
+        "Agency": "ISRO - Indian Space Research Organisation",
+        "Manufacturer": "ISRO - Indian Space Research Organisation",
+        "Payload Capacity to LEO": '''
+2 × S-60: 10,000 kg (22,000 lb)
+2 × S-139: 12,000 kg (26,000 lb)
+2 × S-200: 15,000 kg (33,000 lb)
+HLV(Variant):20,000 kg (44,000 lb)
+SHLV(Variant):41,300 kg (91,100 lb)
+        ''',
+        "Height": "Unknown",
+        "Diameter": "Unknown",
+        "Mass": "270,000 to 700,000 kg (600,000 to 1,540,000 lbs)",
+        "Years in Operation": "2022~ (Planned)",
+        "Country": "India",
+        "Operational Status": "In Development",
+        "Number of Stages": "2",
+        "Burn Time": "S1: Unknown, S2: Unknown",
+        "Thrust": "S1: Unknown, S2: Unknown",
+        "ISP": "S1: Unknown, S2: Unknown",
+        "Cost Per Launch": "Unknown",
+        "Fuel Type": "S1: RP-1/LOX, S2: LH2/LOX",
+        "Image": "ULV.png",
         "Additional Information":
             '''
+The Unified Launch Vehicle (ULV) is a development project by the Indian Space Research Organisation (ISRO) whose core objective is to design a modular architecture that could eventually replace the PSLV, GSLV Mk I/II and GSLV Mk III with a single family of launchers. The design may include a heavy-lift variant dubbed HLV, consisting of the SC-160 stage and two solid rocket boosters, as well as a super heavy-lift variant called SHLV with a cluster stage of five SCE-200 engines . As SCE-200 will only fly after the successful completion of the Gaganyaan program, the launcher will not fly before 2022.
 
+As of May 2013, based on ISRO data, the design comprised a common core and upper stage, with four different booster sizes. All four versions of the boosters are solid motors, with at least three versions reusing current motors from the PSLV, GSLV Mk I/II and LVM3. The core, known as the SC160 (Semi-Cryogenic stage with 160 tonnes of propellant, in the ISRO nomenclature), would have 160,000 kg (350,000 lb) of Kerosene / LOX propellant and be powered by a single SCE-200 rocket engine. The upper stage, known as the C30 (Cryogenic stage with 30 tonnes of propellant) would have 30,000 kg (66,000 lb) of LH2 / LOX propellant and be powered by a single CE-20 engine.
+
+The four booster options are:
+
+6 × S-13, slightly larger than the S-12 on PSLV, to burn longer;
+2 × S-60, which appears to be a new solid motor development;
+2 × S-139, which is the first stage of PSLV and GSLV Mk I/II;
+2 × S-200, like on the LVM3.
+
+Heavy Lift Launch Vehicle(HLV-Variant):
+
+A potential heavy-lift variant (HLV) of the unified launcher capable of placing up to 10 ton class of spacecrafts into Geosynchronous Transfer Orbit would include:[1][12][10]
+
+A larger dual S-250 solid strap-on boosters as compared to the S-200 boosters used in LVM3;
+A L-400 semi-cryogenic core stage, with 400 tonnes of propellant, using a cluster of five SCE-200 engine's;
+A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
             '''
     },
 
