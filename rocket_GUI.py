@@ -80,6 +80,7 @@ sys.exit(app.exec_())
 
       #Printer Icon: https://p.yusukekamiyamane.com/
       #compare Icon: Freepik from "https://www.flaticon.com/" 
+      #Flag Icons: Freepik from www.flaticon.com
 #                                 ''')
 
 

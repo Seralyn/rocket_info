@@ -9,9 +9,26 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from rocket_dictionary import rocketDictionary
+from collections import OrderedDict
 
-alphabetical_rocket_choices = sorted(rocketDictionary.keys())
-
+ascending_alphabetical_rocket_choices = sorted(rocketDictionary.keys())
+descending_alphabetical_rocket_choices = sorted(rocketDictionary.keys(), reverse=True)
+ascending_country_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Country']))
+descending_country_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Country'], reverse=True)) #reverse
+ascending_height_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Height']))
+descending_height_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Height'], reverse=True)) #reverse
+ascending_mass_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Mass']))
+descending_mass_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Mass'], reverse=True)) #reverse
+ascending_diameter_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Diameter']))
+descending_diameter_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Diameter'], reverse=True)) #reverse
+ascending_payload_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Payload Capacity to LEO']))
+descending_payload_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Payload Capacity to LEO'], reverse=True)) #reverse
+ascending_cost_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Cost Per Launch']))
+descending_cost_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Cost Per Launch'], reverse=True)) #reverse
+ascending_thrust_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Thrust']))
+descending_thrust_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Thrust'], reverse=True)) #reverse
+ascending_isp_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['ISP']))
+descending_isp_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['ISP'], reverse=True)) #reverse
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -81,7 +98,7 @@ class Ui_MainWindow(object):
 "background-color: rgb(52, 52, 52);")
         self.listWidget.setObjectName("listWidget")
         
-        for rocket in alphabetical_rocket_choices:
+        for rocket in descending_country_rocket_choices:
             #item = QtWidgets.QListWidgetItem()
             self.listWidget.addItem(rocket)
 
@@ -312,7 +329,7 @@ class Ui_MainWindow(object):
         self.listWidget.setSortingEnabled(False)
         j = 0
 
-        for rocket in alphabetical_rocket_choices:
+        for rocket in descending_country_rocket_choices:
             item = self.listWidget.item(j)
             item.setText(_translate("MainWindow", rocket))
             j = j + 1
@@ -337,6 +354,9 @@ class Ui_MainWindow(object):
         self.imageHeaderLabel.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:24pt; font-weight:600; color:#ffffff;\">Image</span></p></body></html>"))
         self.graphicsView.setToolTip(_translate("MainWindow", "<html><head/><body><p style=\"color : black\">Image of selected rocket</p></body></html>"))
         self.graphicsView.setStatusTip(_translate("MainWindow", "Image of selected rocket"))
+       
+       
+   # ***** Placing and naming Menu Bar Items ******    
         self.menuShow.setTitle(_translate("MainWindow", "Show"))
         self.menuSort.setTitle(_translate("MainWindow", "Sort"))
         self.menuMass.setStatusTip(_translate("MainWindow", "Sort Rockets by their mass on the launchpad"))
@@ -408,10 +428,17 @@ class Ui_MainWindow(object):
         self.actionHigh_to_Low_7.setStatusTip(_translate("MainWindow", "Sort rockets by their specific impulse from most to least"))
         self.actionRocket_Families.setText(_translate("MainWindow", "Rocket Families"))
         self.actionRocket_Families.setStatusTip(_translate("MainWindow", "Show rocket families"))
+        self.actionCountry.setText(_translate("MainWindow", "Country"))
+        self.actionCountry.setStatusTip(_translate("MainWindow", "Sort rockets by the countries that produced them, alphabetically"))
+        self.actionAgency.setText(_translate("MainWindow", "Agency"))
+        self.actionAgency.setStatusTip(_translate("MainWindow", "Sort rockets by the agencies that utilize them, alphabetically"))
         self.actionticke.setText(_translate("MainWindow", "ticke"))
         self.actiontouch.setText(_translate("MainWindow", "touch"))
         self.actionstrongly.setText(_translate("MainWindow", "strongly"))
         self.actionmildly.setText(_translate("MainWindow", "mildly"))
+
+
+     # ***** Placing, Naming, Setting Tool and Status tips for Toolbar Items ******   
         self.actionCompare.setText(_translate("MainWindow", "Compare"))
         self.actionCompare.setToolTip(_translate("MainWindow", "<html><head/><body><p style=\"color : black\">Compare two rockets</p></body></html>"))
         self.actionCompare.setStatusTip(_translate("MainWindow", "Compare two rockets"))
@@ -422,10 +449,7 @@ class Ui_MainWindow(object):
         self.actionPrint.setStatusTip(_translate("MainWindow", "Generates a layout for printing"))
         self.actionPrint.setShortcut(_translate("MainWindow", "Ctrl+P"))
         self.actionPrint.setIcon(QtGui.QIcon("printer.png"))
-        self.actionCountry.setText(_translate("MainWindow", "Country"))
-        self.actionCountry.setStatusTip(_translate("MainWindow", "Sort rockets by the countries that produced them, alphabetically"))
-        self.actionAgency.setText(_translate("MainWindow", "Agency"))
-        self.actionAgency.setStatusTip(_translate("MainWindow", "Sort rockets by the agencies that utilize them, alphabetically"))
+
         
 
 
@@ -435,7 +459,7 @@ class Ui_MainWindow(object):
         rocketName = self.listWidget.currentItem().text()
         rocketImage = "C:/Users/seral/DevOps/rocket_info/images/" + rocketDictionary[rocketName]['Image']
         self.graphicsView.setStyleSheet(f"background-color: rgb(52, 52, 52); background-image: url({rocketImage}); background-repeat: no-repeat;")
-        agency = rocketDictionary[rocketName]['Manufacturer'].replace('\n', '<br />').replace('\n\n', '<br /><br />')
+        manufacturer = rocketDictionary[rocketName]['Manufacturer'].replace('\n', '<br />').replace('\n\n', '<br /><br />')
         height = rocketDictionary[rocketName]['Height'].replace('\n', '<br />')
         diameter = rocketDictionary[rocketName]['Diameter'].replace('\n', '<br />')
         mass = rocketDictionary[rocketName]['Mass'].replace('\n', '<br />')
@@ -453,7 +477,7 @@ class Ui_MainWindow(object):
 "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:9.75pt; font-weight:400; font-style:normal;\">\n"
 f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:18pt; font-weight:600; color:#ffffff;\">{rocketName}</span></p>\n"
 f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Arial, sans-serif\'; font-size:12pt; color:#ffffff; background-color:transparent;\"><b>Agency:</b> {rocketDictionary[rocketName]['Agency']}</span></p>\n"
-f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Arial, sans-serif\'; font-size:12pt; color:#ffffff; background-color:transparent;\"><b>Manufacturer:</b> {rocketDictionary[rocketName]['Manufacturer']}</span></p>\n"
+f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Arial, sans-serif\'; font-size:12pt; color:#ffffff; background-color:transparent;\"><b>Manufacturer:</b> {manufacturer}</span></p>\n"
 f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Arial, sans-serif\'; font-size:12pt; color:#ffffff; background-color:transparent;\"><b>Payload Capacity to LEO:</b> {rocketDictionary[rocketName]['Payload Capacity to LEO']}</span></p>\n"
 f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Arial, sans-serif\'; font-size:12pt; color:#ffffff; background-color:transparent;\"><b>Height:</b> {height}</span></p>\n"
 f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Arial, sans-serif\'; font-size:12pt; color:#ffffff; background-color:transparent;\"><b>Diameter:</b> {diameter}</span></p>\n"
@@ -478,3 +502,5 @@ if __name__ == "__main__":
     ui.setupUi(MainWindow)
     MainWindow.show()
     sys.exit(app.exec_())
+
+

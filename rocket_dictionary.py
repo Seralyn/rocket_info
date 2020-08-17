@@ -726,8 +726,8 @@ CAST - China Academy of Space Technology
 
     "Atlas V": {
         "Name": "Atlas V",
-        "Agency": "ULA - United Launch Alliance",
-        "Manufacturer": "",
+        "Agency": "NASA & Private Companies",
+        "Manufacturer": "ULA - United Launch Alliance",
         "Payload Capacity to LEO": "8,250–20,520 kg (18,190–45,240 lb)",
         "Height": "58.3 m (191 ft)",
         "Diameter": "3.81 m (12.5 ft)",
@@ -5480,7 +5480,7 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Payload Capacity to LEO": "8,000 kg (18,000 lb)",
         "Height":
         '''
-        110/120: 40.5 m (133 ft)[4][5]
+        110/120: 40.5 m (133 ft)
         130: 41.9 m (137 ft)
         230/230+: 42.5 m (139 ft)
         ''',
@@ -5568,7 +5568,7 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         Boeing (Stage II)
         ''',
         "Payload Capacity to LEO": "25,400 kg (56,000 lb)",
-        "Height": "	94 meters (308 ft)",
+        "Height": "94 meters (308 ft)",
         "Diameter": "5.5 meters (18 ft)",
         "Mass": "Unknown",
         "Years in Operation": "2009",
