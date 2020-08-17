@@ -1851,7 +1851,7 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "500 kg (1,100 lb)",
         "Height": "34 m (111.5 ft)",
         "Diameter": "2 m (6.5 ft)",
-        "Mass": "108,862 k (239,999 lbs)",
+        "Mass": "108,862 kg (239,999 lbs)",
         "Years in Operation": "2020~ (Planned)",
         "Country": "India",
         "Operational Status": "In Development",
@@ -2477,26 +2477,34 @@ to Ariane 6.
     },
 
     "M-3C": {
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",
-        "Payload Capacity to LEO": "",
-        "Height": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
-        "Country": "",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "Thrust": "",
-        "ISP": "",
-        "Cost Per Launch": "",
-        "Fuel Type": "",
-        "Image": ".png",
+        "Name": "Mu-3C",
+        "Agency": "JAXA - Japan Aerospace Exploration Agency",
+        "Manufacturer": "Nissan Aerospace Research Institute",
+        "Payload Capacity to LEO": "195 kg (430 lbs)",
+        "Height": "20.2 m (66 ft)",
+        "Diameter": "1.41 m (4 ft 8 in)",
+        "Mass": "41,600 kg (92,000 lb)",
+        "Years in Operation": "1974-1979",
+        "Country": "Japan",
+        "Operational Status": "Retired",
+        "Number of Stages": "3",
+        "Burn Time": "Unknown",
+        "Thrust": "Unknown",
+        "ISP": "Unknown",
+        "Cost Per Launch": "Unknown",
+        "Fuel Type": "Unknown",
+        "Image": "M-3C.png",
         "Additional Information":
             '''
+M-3C rocket (Mu 3 SC Rocket), the University of Tokyo Aerospace Research Institute (after the Ministry of Education Institute of Space and Astronautical Science , currently the Japan Aerospace Exploration Agency Institute of Space and Astronautical Science, below, The University of Tokyo) is Nissan Motor Co., Ltd. Aerospace Division (A three-stage solid fuel rocket for launching a scientific satellite developed jointly with Nissan, manufactured by Nissan, and operated by the University of Tokyo.)
 
+Development was carried out using the L-4SC rocket (five launch vehicles) with the L-4S added with a guidance control device. The first stage and the third stage are non-guided, and only the second stage is guided by the liquid jet TVC and side jets.
+
+Initially, it was planned to be developed as a 4-stage M-4SC, but it has been changed to a 3-stage type to simplify the guidance system. In the days of unguided M-4S rockets , perigee 700 km, apogee 2500 km to 4500 km (apogee varies greatly depending on the satellite weight) in order to realize reliable satellite orbital launch even if it is blown by wind. I had no choice but to launch a satellite as a "target orbit." For this reason, only the desired satellites could be manufactured according to the orbit set by the rocket, and only satellites that were significantly smaller than the actual low-orbit launch capability could be put into orbit. However, the M-3C can freely select the orbit considering the purpose and size of the satellite, and the size of the satellite that can be inserted into the orbit is larger than that of the M-4S. In addition, the launch capability itself has been slightly improved over the M-4S due to advances in rocket fuel technology.
+
+The M-3C and M-3H rockets have many similarities in structure, and they are considered together as the second generation of the Mu rocket . Since the M-3C needed to launch a substitute for the satellite that failed to launch, it remained even after the M-3H appeared, and as a result, the M-3H ended earlier in operation.
+
+It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and M-3SII rocket are guidance-controlled rockets, but the flight maneuver is similar to the L-4S rocket and M-4S rocket. This is the gravity turn method . The guidance control device mounted on these rockets merely corrects the deviation between the ideal flight path and the actual path set in advance by the launcher for the control in the vertical plane. After the combustion of the first stage and the second stage that flew according to the ideal path defined by the launcher was completed, the attitude was controlled by the side jet of the second stage and the spin was added by the spin motor to the third stage Flies inertially in a parabola, and starts combustion near its apex (Thrust error up to the second stage is corrected by controlling the launch direction and combustion start time of the third stage). It is from the MV rocket that the ISAS satellite launch rocket began to actively change the flight path in the vertical in-plane direction
             '''
     },
 
