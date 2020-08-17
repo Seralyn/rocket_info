@@ -8,6 +8,9 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtGui import QPixmap
+from PyQt5.QtWidgets import QSplashScreen, QLabel
+from PyQt5.QtCore import QTimer, Qt
 from rocket_dictionary import rocketDictionary
 from collections import OrderedDict
 
@@ -451,7 +454,17 @@ class Ui_MainWindow(object):
         self.actionPrint.setIcon(QtGui.QIcon("printer.png"))
 
         
+#     def flashSplash(self):
+#         self.splash = QSplashScreen(QPixmap('splash.jpg'))
 
+#         # By default, SplashScreen will be in the center of the screen.
+#         # You can move it to a specific location if you want:
+#         # self.splash.move(10,10)
+
+#         self.splash.show()
+
+#         # Close SplashScreen after 2 seconds (2000 ms)
+#         QTimer.singleShot(2500, self.splash.close)
 
 # ***** Define what happens when a rocket is selected from listWidget ******
     def selectionChanged(self):
@@ -461,6 +474,7 @@ class Ui_MainWindow(object):
         self.graphicsView.setStyleSheet(f"background-color: rgb(52, 52, 52); background-image: url({rocketImage}); background-repeat: no-repeat;")
         manufacturer = rocketDictionary[rocketName]['Manufacturer'].replace('\n', '<br />').replace('\n\n', '<br /><br />')
         height = rocketDictionary[rocketName]['Height'].replace('\n', '<br />')
+        #height_string = rocketDictionary[rocketName]['HeightString'].replace('\n', '<br />')    #add this and also add {height_string} in html line below, but also make height above this a str(rocketDic....)
         diameter = rocketDictionary[rocketName]['Diameter'].replace('\n', '<br />')
         mass = rocketDictionary[rocketName]['Mass'].replace('\n', '<br />')
         operationalStatus = rocketDictionary[rocketName]['Operational Status'].replace('\n', '<br />').replace('\n\n', '<br /><br />').replace('        ', '')
@@ -497,6 +511,16 @@ f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
+    
+    splash_label = QLabel()
+    pixmap = QPixmap('splash.png')
+    splash_label.setPixmap(pixmap)
+    splash_label.setWindowFlags(Qt.SplashScreen | Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint)
+    splash_label.move(750,200)
+    splash_label.setMask(pixmap.mask())
+    splash_label.show()
+    QTimer.singleShot(2500, splash_label.close)
+
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
     ui.setupUi(MainWindow)
