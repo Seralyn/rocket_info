@@ -513,7 +513,7 @@ if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     
     splash_label = QLabel()
-    pixmap = QPixmap('splash.png')
+    pixmap = QPixmap('splash2.png')
     splash_label.setPixmap(pixmap)
     splash_label.setWindowFlags(Qt.SplashScreen | Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint)
     splash_label.move(750,200)
