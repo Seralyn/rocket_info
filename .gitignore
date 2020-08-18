@@ -1,3 +1,4 @@
 .idea
 __pycache__
-
+.idea/rocket_info.iml
+.idea/msic.xml

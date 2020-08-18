@@ -101,7 +101,7 @@ class Ui_MainWindow(object):
 "background-color: rgb(52, 52, 52);")
         self.listWidget.setObjectName("listWidget")
         
-        for rocket in descending_country_rocket_choices:
+        for rocket in ascending_alphabetical_rocket_choices:
             #item = QtWidgets.QListWidgetItem()
             self.listWidget.addItem(rocket)
 
@@ -332,7 +332,7 @@ class Ui_MainWindow(object):
         self.listWidget.setSortingEnabled(False)
         j = 0
 
-        for rocket in descending_country_rocket_choices:
+        for rocket in ascending_alphabetical_rocket_choices:
             item = self.listWidget.item(j)
             item.setText(_translate("MainWindow", rocket))
             j = j + 1
@@ -519,7 +519,7 @@ if __name__ == "__main__":
     splash_label.move(750,200)
     splash_label.setMask(pixmap.mask())
     splash_label.show()
-    QTimer.singleShot(2500, splash_label.close)
+    QTimer.singleShot(1600, splash_label.close)
 
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
