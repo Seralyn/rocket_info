@@ -364,9 +364,10 @@ The proposed Tronador III would have the same diameter as Tronador II, but would
     "VLS-1": {
         "Name": "VLS-1",
         "Agency": "AEB - Agência Espacial Brasileira",
-        "Manufacturer": "",        
-        "Class": "",
+        "Manufacturer": "AEB - Agência Espacial Brasileira",        
+        "Class": "Light",
         "Payload Capacity to LEO": "380 kg (830 lb)",
+        "payload_int": "",
         "Height": "19.5 m (63.9 ft)",
         "Height_int": "",
         "Diameter": "1.01 m (3.31 ft)"
@@ -426,6 +427,7 @@ The proposed Tronador III would have the same diameter as Tronador II, but would
         "Manufacturer": "",        
         "Class": "",
         "Payload Capacity to LEO": "150 kg (330 lb)",
+        "payload_int": "",
         "Height": "19.6 m (64 ft)",
         "Height_int": "",
         "Diameter": "1.45 m (4 ft 9 in)""diameter_int": "",        
@@ -490,6 +492,7 @@ The proposed Tronador III would have the same diameter as Tronador II, but would
         "Manufacturer": "",        
         "Class": "",
         "Payload Capacity to LEO": "2,500 kilograms (5,500 lb)",
+        "payload_int": "",
         "Height": "33 metres (108 ft)",
         "Height_int": "",
         "Diameter": "3.35 metres (11.0 ft)"
@@ -531,6 +534,7 @@ The proposed Tronador III would have the same diameter as Tronador II, but would
         "Manufacturer": "",        
         "Class": "",
         "Payload Capacity to LEO": "100kg (220lbs)",
+        "payload_int": "",
         "Height": "13.6m (44 ft)",
         "Height_int": "",
         "Diameter": "1.4m (4.5 ft)"
@@ -596,6 +600,7 @@ The proposed Tronador III would have the same diameter as Tronador II, but would
         "Manufacturer": "",        
         "Class": "",
         "Payload Capacity to LEO": "",
+        "payload_int": "",
         "Height": "19.4 m (64 ft)",
         "Height_int": "",
         "Diameter": "1.4 m (4 ft 7 in)"
@@ -666,6 +671,7 @@ CAST - China Academy of Space Technology''',
         "Manufacturer": "",        
         "Class": "",
         "Payload Capacity to LEO": "300 kilograms (660 lb)",
+        "payload_int": "",
         "Height": "	29.86 metres (98.0 ft)",
         "Height_int": "",
         "Diameter": "2.25 metres (7.4 ft)"
@@ -712,6 +718,7 @@ CAST - China Academy of Space Technology
         "Manufacturer": "",        
         "Class": "",
         "Payload Capacity to LEO": "",
+        "payload_int": "",
         "Height": "28.22 m (92.6 ft)",
         "Height_int": "",
         "Diameter": "2.25 m (7.4 ft)"
@@ -769,6 +776,7 @@ CAST - China Academy of Space Technology
         "Manufacturer": "",        
         "Class": "",
         "Payload Capacity to LEO": "22,800 kg (50,300 lb)",
+        "payload_int": "",
         "Height": "70 m (230 ft)",
         "Height_int": "",
         "Diameter": "3.7 m (12 ft)"
@@ -866,6 +874,7 @@ CAST - China Academy of Space Technology
         "Manufacturer": "",        
         "Class": "",
         "Payload Capacity to LEO": "3,800 kg (140,700 lb)",
+        "payload_int": "",
         "Height": "70 m (230 ft)",
         "Height_int": "",
         "Diameter": "3.66 m (12.0 ft) (each booster)"
@@ -927,6 +936,7 @@ CAST - China Academy of Space Technology
         "Manufacturer": "ULA - United Launch Alliance",        
         "Class": "",
         "Payload Capacity to LEO": "8,250–20,520 kg (18,190–45,240 lb)",
+        "payload_int": "",
         "Height": "58.3 m (191 ft)",
         "Height_int": "",
         "Diameter": "3.81 m (12.5 ft)"
@@ -992,6 +1002,7 @@ CAST - China Academy of Space Technology
             Block 1: 95,000 kg (209,000 lb) 
             Block 2: 130,000 kg (290,000 lb)
             ''',
+        "payload_int": "",
         "Height": "111.25 m (365.0 ft)",
         "Height_int": "",
         "Diameter": "8.4 m (28 ft)"
@@ -1055,6 +1066,7 @@ CAST - China Academy of Space Technology
         "Manufacturer": "",        
         "Class": "",
         "Payload Capacity to LEO": "45,000 kg (99,000 lb)",
+        "payload_int": "",
         "Height": "98 m (322 ft)",
         "Height_int": "",
         "Diameter": "7 m (23 ft)"
@@ -1110,6 +1122,7 @@ CAST - China Academy of Space Technology
         "Lifting Class": "Medium",        
         "Class": "",
         "Payload Capacity to LEO": "10,000–15,000 kg (22,000–33,000 lb)",
+        "payload_int": "",
         "Height": "53 m (174 ft)",
         "Height_int": "",
         "Diameter": "4 m (13 ft)"
@@ -1161,6 +1174,7 @@ CAST - China Academy of Space Technology
         "Lifting Class": "Light",        
         "Class": "",
         "Payload Capacity to LEO": "160 kg (350 lb)",
+        "payload_int": "",
         "Height":
             '''
             A: 18.95 m (62.2 ft)
@@ -1230,6 +1244,7 @@ CAST - China Academy of Space Technology
         "Manufacturer": "",        
         "Class": "",
         "Payload Capacity to LEO": "10,000 kg (22,046 lbs)",
+        "payload_int": "",
         "Height": "~25m (82 ft)",
         "Height_int": "",
         "Diameter": "Unknown"
@@ -1305,6 +1320,7 @@ CAST - China Academy of Space Technology
         "Manufacturer": "",        
         "Class": "",
         "Payload Capacity to LEO": "26 kg (57.32 lbs)",
+        "payload_int": "",
         "Height": "16.5m (54.13 ft)",
         "Height_int": "",
         "Diameter": "0.735m (2.41 ft)"
@@ -1349,6 +1365,7 @@ CAST - China Academy of Space Technology
         "Manufacturer": "",        
         "Class": "",
         "Payload Capacity to LEO": "180 kilograms (400 lb)",
+        "payload_int": "",
         "Height": "23.6 meters (77 ft)",
         "Height_int": "",
         "Diameter": "1.41 meters (4 ft 8 in)"
@@ -1416,6 +1433,7 @@ CAST - China Academy of Space Technology
             Europa I: 200 kg (440 lbs)
             Europa II: 360 kg (793 lbs)
             ''',
+        "payload_int": "",
         "Height": "33 m(108 ft)",
         "Height_int": "",
         "Diameter": "3.05 m (10 ft)"
@@ -1483,6 +1501,7 @@ CAST - China Academy of Space Technology
         "Manufacturer": "",        
         "Class": "",
         "Payload Capacity to LEO": "3,000 kg (6,600 lb)",
+        "payload_int": "",
         "Height": "19 m(62 ft)",
         "Height_int": "",
         "Diameter": "Uknown"
@@ -1535,6 +1554,7 @@ CAST - China Academy of Space Technology
         "Manufacturer": "",        
         "Class": "",
         "Payload Capacity to LEO": "1430-1960 kg (3152-4321 lbs)",
+        "payload_int": "",
         "Height": "30 metres (98 ft)",
         "Height_int": "",
         "Diameter": "3 metres (9.8 ft)"
@@ -1631,6 +1651,7 @@ CAST - China Academy of Space Technology
         "Manufacturer": "",        
         "Class": "",
         "Payload Capacity to LEO": "N/A",
+        "payload_int": "",
         "Height": "N/A",
         "Height_int": "",
         "Diameter": "N/A"
@@ -1665,6 +1686,7 @@ CAST - China Academy of Space Technology
         "Manufacturer": "PLD Space",        
         "Class": "",
         "Payload Capacity to LEO": "(SSO) 300–500 kg (660–1,100 lb)",
+        "payload_int": "",
         "Height": "25 m (82 ft)",
         "Height_int": "",
         "Diameter": "1.8 m (5 ft 11 in)"
@@ -1707,6 +1729,7 @@ CAST - China Academy of Space Technology
         "Manufacturer": "ISRO",        
         "Class": "",
         "Payload Capacity to LEO": "40 kg (88 lb)",
+        "payload_int": "",
         "Height": "	22 m (72 ft)",
         "Height_int": "",
         "Diameter": "1 m (3.3 ft)"
@@ -1760,6 +1783,7 @@ CAST - China Academy of Space Technology
         "Manufacturer": "ISRO",        
         "Class": "",
         "Payload Capacity to LEO": "150 kg (330 lb)",
+        "payload_int": "",
         "Height": "23.5 m (77 ft)",
         "Height_int": "",
         "Diameter": "1 m (3 ft 3 in)"
@@ -1819,6 +1843,7 @@ CAST - China Academy of Space Technology
         "Manufacturer": "ISRO",        
         "Class": "",
         "Payload Capacity to LEO": "3,800 kg (8,400 lb)",
+        "payload_int": "",
         "Height": "44 m (144 ft)",
         "Height_int": "",
         "Diameter": "2.8 m (9 ft 2 in)"
@@ -1917,6 +1942,7 @@ CAST - China Academy of Space Technology
         "Manufacturer": "ISRO - Indian Space Research Organisation",        
         "Class": "",
         "Payload Capacity to LEO": "5,000 kg (11,000 lb)",
+        "payload_int": "",
         "Height": "49.13 m (161.2 ft)",
         "Height_int": "",
         "Diameter": "2.8 m (9 ft 2 in)"
@@ -1998,6 +2024,7 @@ CAST - China Academy of Space Technology
         "Manufacturer": "NASA",        
         "Class": "",
         "Payload Capacity to LEO": "120,000 kg [proposed]",
+        "payload_int": "",
         "Height": "Unknown",
         "Height_int": "",
         "Diameter": "8.41 m (27.6 ft) [proposed]"
@@ -2157,6 +2184,7 @@ CAST - China Academy of Space Technology
         "Manufacturer": "ISRO - Indian Space Research Organisation",        
         "Class": "",
         "Payload Capacity to LEO": "10,000 kg (22,000 lb)",
+        "payload_int": "",
         "Height": "43.4 m (142 ft)",
         "Height_int": "",
         "Diameter": "4 m (13 ft)"
@@ -2236,6 +2264,7 @@ CAST - China Academy of Space Technology
         "Manufacturer": "ISRO - Indian Space Research Organisation",        
         "Class": "",
         "Payload Capacity to LEO": "500 kg (1,100 lb)",
+        "payload_int": "",
         "Height": "34 m (111.5 ft)",
         "Height_int": "",
         "Diameter": "2 m (6.5 ft)"
@@ -2280,6 +2309,7 @@ The first three stages of the vehicle use solid propellant, with a fourth stage 
         "Manufacturer": "ISRO - Indian Space Research Organisation",        
         "Class": "",
         "Payload Capacity to LEO": "",
+        "payload_int": "",
         "Height": "~16 m (52 ft) | Orbiter: 6.5 m (21 ft)",
         "Height_int": "",
         "Diameter": "1 m (3 ft 3 in)"
@@ -2330,6 +2360,7 @@ A team of 750 engineers at Vikram Sarabhai Space Centre, National Aeronautical L
 HLV(Variant):20,000 kg (44,000 lb)
 SHLV(Variant):41,300 kg (91,100 lb)
         ''',
+        "payload_int": "",
         "Height": "Unknown",
         "Height_int": "",
         "Diameter": "Unknown"
@@ -2381,6 +2412,7 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
         "Manufacturer": "Aérospatiale",        
         "Class": "",
         "Payload Capacity to LEO": "1,400 kilograms (3,100 lb)",
+        "payload_int": "",
         "Height": "50 m (160 ft)",
         "Height_int": "",
         "Diameter": "3.8 m (12 ft)"
@@ -2476,6 +2508,7 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
         "Manufacturer": "",        
         "Class": "",
         "Payload Capacity to LEO": "(GEO) 2,175 kg (4,795 lb)",
+        "payload_int": "",
         "Height": "49.13 m (161.2 ft)",
         "Height_int": "",
         "Diameter": "3.8 m (12 ft)"
@@ -2587,6 +2620,7 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
         "Manufacturer": "",        
         "Class": "",
         "Payload Capacity to LEO": "(GTO) 2,700 kg (6,000 lb)",
+        "payload_int": "",
         "Height": "49.13 m (161.2 ft)",
         "Height_int": "",
         "Diameter": "3.8 m (12 ft)"
@@ -2713,6 +2747,7 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
         "Manufacturer": "",        
         "Class": "",
         "Payload Capacity to LEO": "5000–7600 kg",
+        "payload_int": "",
         "Height": "58.72 m",
         "Height_int": "",
         "Diameter": "3.8 m"
@@ -2815,6 +2850,7 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
         "Manufacturer": "",        
         "Class": "",
         "Payload Capacity to LEO": "16,000 kg (35,000 lb)",
+        "payload_int": "",
         "Height": "46–52 m (151–171 ft)",
         "Height_int": "",
         "Diameter": "5.4 m (18 ft)"
@@ -2948,6 +2984,7 @@ to Ariane 6.
         "Manufacturer": "Nissan Aerospace Research Institute",        
         "Class": "",
         "Payload Capacity to LEO": "195 kg (430 lbs)",
+        "payload_int": "",
         "Height": "20.2 m (66 ft)",
         "Height_int": "",
         "Diameter": "1.41 m (4 ft 8 in)"
@@ -3509,6 +3546,7 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Manufacturer": "",        
         "Class": "",
         "Payload Capacity to LEO": "",
+        "payload_int": "",
         "Height": "",
         "Height_int": "",
         "Diameter": ""
@@ -3804,6 +3842,7 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Manufacturer": "Khrunichev, KBKhA/CADB",        
         "Class": "",
         "Payload Capacity to LEO": "3,800 kilograms (8,400 lb)-24,500 kilograms (54,000 lb",
+        "payload_int": "",
         "Height": "42.7 m (140 ft) - 64 m (210 ft)",
         "Height_int": "",
         "Diameter":
@@ -3910,6 +3949,7 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Manufacturer": "",        
         "Class": "",
         "Payload Capacity to LEO": "",
+        "payload_int": "",
         "Height": "",
         "Height_int": "",
         "Diameter": ""
@@ -6944,6 +6984,7 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Manufacturer": "MIMI | SRC",        
         "Class": "",
         "Payload Capacity to LEO": "100-300 kg",
+        "payload_int": "",
         "Height": "25 m (82 ft)",
         "Height_int": "",
         "Diameter": "0.88 m(First stage) 1.25 m(Second stage)"
@@ -7053,6 +7094,7 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Manufacturer": "Firefly Aerospace",        
         "Class": "",
         "Payload Capacity to LEO": "1000 kg (2204 lbs)",
+        "payload_int": "",
         "Height": "29 m (95 ft)",
         "Height_int": "",
         "Diameter": "1.82 m (6 ft 0 in)"
@@ -7138,6 +7180,7 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Manufacturer": "Main: Northrop Grumman(originally Orbital Sciences Corporation), Sub: Yuzhnoye",        
         "Class": "Medium",
         "Payload Capacity to LEO": "8,000 kg (18,000 lb)",
+        "payload_int": "",
         "Height":
         '''
         110/120: 40.5 m (133 ft)
@@ -7237,6 +7280,7 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         ''',        
         "Class": "",
         "Payload Capacity to LEO": "25,400 kg (56,000 lb)",
+        "payload_int": "",
         "Height": "94 meters (308 ft)",
         "Height_int": "",
         "Diameter": "5.5 meters (18 ft)"
@@ -7285,6 +7329,7 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Manufacturer": "",        
         "Class": "",
         "Payload Capacity to LEO": "188,000 kg (414,000 lb)",
+        "payload_int": "",
         "Height": "116 m (381 ft) or 109 m (358 ft)",
         "Height_int": "",
         "Diameter": "10 m (33 ft) or 8.4 m (28 ft)"
@@ -8969,6 +9014,7 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Manufacturer": "McDonnell Douglas Corporation",        
         "Class": "",
         "Payload Capacity to LEO": "",
+        "payload_int": "",
         "Height": " 2.44 m (8.00 ft)",
         "Height_int": "",
         "Diameter": "32.00 m (104.00 ft)"
@@ -9790,6 +9836,7 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "Manufacturer": "Alliant Techsystems, Astrium",        
         "Class": "",
         "Payload Capacity to LEO": "20,000 kg (44,500 lbs)",
+        "payload_int": "",
         "Height": "90 m (300 ft)",
         "Height_int": "",
         "Diameter": "5.4 m (18 ft)"
