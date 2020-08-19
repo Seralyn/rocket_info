@@ -8,7 +8,7 @@ rocketDictionary = {
         "Payload Capacity to LEO": "140,000kg (310,000 lbs)",
         "payload_int": 140000,
         "Height": "110.6 m (363ft)", 
-        "Height_int": 110.6,
+        "height_int": 110.6,
         "Diameter": "10.1m (33ft)",
         "diameter_int": 10.1,
         "Mass": "2,970,000 kg",
@@ -48,7 +48,7 @@ remains the tallest, heaviest, and most powerful (highest
 total impulse) rocket ever brought to operational status, 
 and holds records for the heaviest payload launched and 
 largest payload capacity to low Earth orbit (LEO) of 
-310,000 lb (140,000 kg), which included the third stage 
+310,000 lbs (140,000 kg), which included the third stage 
 and unburned propellant needed to send the Apollo command 
 and service module and Lunar Module to the Moon.
 
@@ -98,7 +98,7 @@ be a prototype and referred to it as "an infant Saturn".
         "Payload Capacity to LEO": "8,200 kg (18,100 lbs)",
         "payload_int": 8200,
         "Height": "46.3 metres (152 ft)",
-        "Height_int": 46.3,
+        "height_int": 46.3,
         "Diameter": "2.95 m (9 ft 8 in)",
         "diameter_int": 2.95,
         "Mass": "312,000 kg (688,000 lbs)",
@@ -139,7 +139,7 @@ at the Plesetsk Cosmodrome, launch facilities shared with earlier R-7 derived ro
 including the Soyuz-U and Molniya. Commercial Soyuz-2 flights are contracted by Starsem 
 and have launched from Site 31 at Baikonur Cosmodrome and ELS (Ensemble de Lancement Soyouz), 
 which has been built at the Centre Spatial Guyanais on the northern coast of South America. 
-The Soyuz-2 version ST-B can deliver 3,250 kilograms (7,170 lb) to geostationary transfer 
+The Soyuz-2 version ST-B can deliver 3,250 kilograms (7,170 lbs) to geostationary transfer 
 orbit (GTO) from this equatorial site. In 2016, the new Vostochny Cosmodrome started operating 
 Soyuz-2 flights as well, from its first launch pad called Site 1S.
 
@@ -195,7 +195,7 @@ low Earth orbit.
         "Payload Capacity to LEO": "8,290 kg (18,280 lbs)",
         "payload_int": 8290,
         "Height": "35m (115ft)",
-        "Height_int": 35,
+        "height_int": 35,
         "Diameter": "4m (13ft)",
         "diameter_int": 4,
         "Mass": "301,450 kg",
@@ -260,7 +260,7 @@ low Earth orbit.
         ''',
         "payload_int": 21650,
         "Height": "63m (207ft)",
-        "Height_int": 63,
+        "height_int": 63,
         "Diameter": "5.4m (18ft)",
         "diameter_int": 5.4,        
         "Mass": "530,000–860,000 kg",
@@ -305,9 +305,9 @@ low Earth orbit.
 
             Two variants of Ariane 6 are being developed:
 
-Ariane 62, with two P120 solid boosters, will weigh around 530 tonnes (1,170,000 lb) at liftoff and is intended mainly for government and scientific missions. It can launch up to 5,000 kg (11,000 lb) into GTO:33 and 10,350 kg (22,820 lb) into LEO.:45
+Ariane 62, with two P120 solid boosters, will weigh around 530 tonnes (1,170,000 lbs) at liftoff and is intended mainly for government and scientific missions. It can launch up to 5,000 kg (11,000 lbs) into GTO:33 and 10,350 kg (22,820 lbs) into LEO.:45
 
-Ariane 64, with four P120 boosters, has a liftoff weight of around 860 tonnes (1,900,000 lb) and is intended for commercial dual-satellite launches of up to 11,500 kilograms (25,400 lb) into GTO:33 and 21,500 kg (47,400 lb) into LEO.:46 Like Ariane 5, it will be able to launch two geosynchronous satellites together.
+Ariane 64, with four P120 boosters, has a liftoff weight of around 860 tonnes (1,900,000 lbs) and is intended for commercial dual-satellite launches of up to 11,500 kilograms (25,400 lbs) into GTO:33 and 21,500 kg (47,400 lbs) into LEO.:46 Like Ariane 5, it will be able to launch two geosynchronous satellites together.
 
 Ariane 6 comprises three major structural and propellant-carrying components.
             '''
@@ -320,10 +320,10 @@ Ariane 6 comprises three major structural and propellant-carrying components.
         "Payload Capacity to LEO": "250 kg to Polar",
         "payload_int": 250,
         "Height": "28 m (92 ft)",
-        "Height_int": 28,
+        "height_int": 28,
         "Diameter": "2.5 m (8 ft 2 in)",
         "diameter_int": 2.5,
-        "Mass": "67,000 kg (148,000 lb) (including propellant)",
+        "Mass": "67,000 kg (148,000 lbs) (including propellant)",
         "mass_int": 67000,
         "Years in Operation": "2020(slated)~",
         "firstyear_int": 2020,
@@ -366,13 +366,13 @@ The proposed Tronador III would have the same diameter as Tronador II, but would
         "Agency": "AEB - Agência Espacial Brasileira",
         "Manufacturer": "AEB - Agência Espacial Brasileira",        
         "Class": "Light",
-        "Payload Capacity to LEO": "380 kg (830 lb)",
+        "Payload Capacity to LEO": "380 kg (830 lbs)",
         "payload_int": 380,
         "Height": "19.5 m (63.9 ft)",
-        "Height_int": 19.5,
+        "height_int": 19.5,
         "Diameter": "1.01 m (3.31 ft)",
         "diameter_int": 1.01,        
-        "Mass": "50,700 kg (111,700 lb)",
+        "Mass": "50,700 kg (111,700 lbs)",
         "mass_int": 50700,        
         "Years in Operation": "N/A",
         "firstyear_int": None,        
@@ -426,13 +426,13 @@ The proposed Tronador III would have the same diameter as Tronador II, but would
         "Agency": "AEB - Agência Espacial Brasileira",
         "Manufacturer": "",        
         "Class": "Light",
-        "Payload Capacity to LEO": "150 kg (330 lb)",
+        "Payload Capacity to LEO": "150 kg (330 lbs)",
         "payload_int": 150,
         "Height": "19.6 m (64 ft)",
-        "Height_int": 19.6,
+        "height_int": 19.6,
         "Diameter": "1.45 m (4 ft 9 in)",
         "diameter_int": 1.45,
-        "Mass": "28,000 kg (62,000 lb)",
+        "Mass": "28,000 kg (62,000 lbs)",
         "mass_int": 28000,        
         "Years in Operation": "N/A",
         "firstyear_int": "",        
@@ -492,13 +492,13 @@ The proposed Tronador III would have the same diameter as Tronador II, but would
         "Agency": "SAST - Shanghai Academy of Spaceflight Technology",
         "Manufacturer": "",        
         "Class": "Light",
-        "Payload Capacity to LEO": "2,500 kilograms (5,500 lb)",
+        "Payload Capacity to LEO": "2,500 kilograms (5,500 lbs)",
         "payload_int": 2500,
         "Height": "33 metres (108 ft)",
-        "Height_int": 33,
+        "height_int": 33,
         "Diameter": "3.35 metres (11.0 ft)",
         "diameter_int": 3.35,        
-        "Mass": "191,700 kilograms (422,600 lb)",
+        "Mass": "191,700 kilograms (422,600 lbs)",
         "mass_int": 191700,
         "Years in Operation": "1972-1981",
         "firstyear_int": 1972,        
@@ -537,7 +537,7 @@ The proposed Tronador III would have the same diameter as Tronador II, but would
         "Payload Capacity to LEO": "100kg (220lbs)",
         "payload_int": 100,
         "Height": "13.6m (44 ft)",
-        "Height_int": 13.6,
+        "height_int": 13.6,
         "Diameter": "1.4m (4.5 ft)",
         "diameter_int": 1.4,        
         "Mass": "18,143kg (4000 lbs)",
@@ -616,7 +616,7 @@ The Kaituozhe-2A (KT-2A) features a possibly DF-31 based stage 1, augmented by t
         "Payload Capacity to LEO": "",
         "payload_int": "",
         "Height": "19.4 m (64 ft)",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "1.4 m (4 ft 7 in)",
         "diameter_int": "",        
         "Mass": "29,029 kg (64,000 lbs)",
@@ -647,7 +647,7 @@ The Kaituozhe-2A (KT-2A) features a possibly DF-31 based stage 1, augmented by t
             stages, with a liquid-fueled fourth stage as part of the 
             satellite system. Kuaizhou 11, which flew an unsuccessful 
             maiden flight in July 2020, is a larger model able to launch 
-            a 1,500 kilograms (3,300 lb) payload into low Earth orbit. 
+            a 1,500 kilograms (3,300 lbs) payload into low Earth orbit. 
             Heavy-lift models KZ-21 and KZ-31 are in development. The 
             Kuaizhou series of rockets is manufactured by ExPace, a 
             subsidiary of China Aerospace Science and Industry Corporation 
@@ -684,13 +684,13 @@ CASC - China Aerospace Science and Technology Corporation,
 CAST - China Academy of Space Technology''',
         "Manufacturer": "",        
         "Class": "",
-        "Payload Capacity to LEO": "300 kilograms (660 lb)",
+        "Payload Capacity to LEO": "300 kilograms (660 lbs)",
         "payload_int": "",
         "Height": "	29.86 metres (98.0 ft)",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "2.25 metres (7.4 ft)",
         "diameter_int": "",        
-        "Mass": "81,570 kilograms (179,830 lb)",
+        "Mass": "81,570 kilograms (179,830 lbs)",
         "mass_int": "",        
         "Years in Operation": "1970-1971",
         "firstyear_int": "",        
@@ -734,10 +734,10 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "",
         "payload_int": "",
         "Height": "28.22 m (92.6 ft)",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "2.25 m (7.4 ft)",
         "diameter_int": "",        
-        "Mass": "81,650 kg (180,010 lb)",
+        "Mass": "81,650 kg (180,010 lbs)",
         "mass_int": "",        
         "Years in Operation": "1995-2002",
         "firstyear_int": "",        
@@ -789,10 +789,10 @@ CAST - China Academy of Space Technology
         "Agency": "SpaceX",
         "Manufacturer": "",        
         "Class": "",
-        "Payload Capacity to LEO": "22,800 kg (50,300 lb)",
+        "Payload Capacity to LEO": "22,800 kg (50,300 lbs)",
         "payload_int": "",
         "Height": "70 m (230 ft)",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "3.7 m (12 ft)",
         "diameter_int": "",        
         "Mass": "549,054 kg (1,210,457 lbs)",
@@ -848,12 +848,12 @@ CAST - China Academy of Space Technology
             December 2015.
 
             Falcon 9 can lift payloads of up to 22,800 kilograms 
-            (50,300 lb) to low Earth orbit, 8,300 kg (18,300 lb) to 
+            (50,300 lbs) to low Earth orbit, 8,300 kg (18,300 lbs) to 
             geostationary transfer orbit (GTO) when expended, and 
-            5,500 kg (12,100 lb) to GTO when the first stage is 
+            5,500 kg (12,100 lbs) to GTO when the first stage is 
             recovered. The heaviest GTO payloads flown have been 
-            Intelsat 35e with 6,761 kg (14,905 lb), and Telstar 19V 
-            with 7,075 kg (15,598 lb). The latter was launched into a 
+            Intelsat 35e with 6,761 kg (14,905 lbs), and Telstar 19V 
+            with 7,075 kg (15,598 lbs). The latter was launched into a 
             lower-energy GTO orbit achieving an apogee well below the 
             geostationary altitude, while the former was launched into 
             an advantageous super-synchronous transfer orbit.
@@ -887,13 +887,13 @@ CAST - China Academy of Space Technology
         "Agency": "SpaceX",
         "Manufacturer": "SpaceX",        
         "Class": "Very Heavy",
-        "Payload Capacity to LEO": "63,800 kg (140,700 lb)",
+        "Payload Capacity to LEO": "63,800 kg (140,700 lbs)",
         "payload_int": 63800,
         "Height": "70 m (230 ft)",
-        "Height_int": 70,
+        "height_int": 70,
         "Diameter": "3.66 m (12.0 ft) (each booster)",
         "diameter_int": 3.66,        
-        "Mass": "1,420,788 kg (3,132,301 lb)[",
+        "Mass": "1,420,788 kg (3,132,301 lbs)[",
         "mass_int": 1420788,        
         "Years in Operation": "2018~",
         "firstyear_int": 2018,        
@@ -949,13 +949,13 @@ CAST - China Academy of Space Technology
         "Agency": "NASA & Private Companies",
         "Manufacturer": "ULA - United Launch Alliance",        
         "Class": "Heavy",
-        "Payload Capacity to LEO": "8,250–20,520 kg (18,190–45,240 lb)",
+        "Payload Capacity to LEO": "8,250–20,520 kg (18,190–45,240 lbs)",
         "payload_int": 20520,
         "Height": "58.3 m (191 ft)",
-        "Height_int": 58.3,
+        "height_int": 58.3,
         "Diameter": "3.81 m (12.5 ft)",
         "diameter_int": 3.81,        
-        "Mass": "590,000 kg (1,300,000 lb)",
+        "Mass": "590,000 kg (1,300,000 lbs)",
         "mass_int": 590000,        
         "Years in Operation": "2002~",
         "firstyear_int": 2002,        
@@ -1013,15 +1013,15 @@ CAST - China Academy of Space Technology
         "Class": "Very Heavy",
         "Payload Capacity to LEO":
             '''
-            Block 1: 95,000 kg (209,000 lb) 
-            Block 2: 130,000 kg (290,000 lb)
+            Block 1: 95,000 kg (209,000 lbs) 
+            Block 2: 130,000 kg (290,000 lbs)
             ''',
         "payload_int": 130000,
         "Height": "111.25 m (365.0 ft)",
-        "Height_int": 111.25,
+        "height_int": 111.25,
         "Diameter": "8.4 m (28 ft)",
         "diameter_int": 8.3,        
-        "Mass": "979,452 kg (2,159,322 lb)",
+        "Mass": "979,452 kg (2,159,322 lbs)",
         "mass_int": 979452,        
         "Years in Operation": "Slated 2024~",
         "firstyear_int": 2024,        
@@ -1079,10 +1079,10 @@ CAST - China Academy of Space Technology
         "Agency": "Blue Origin",
         "Manufacturer": "",        
         "Class": "Very Heavy",
-        "Payload Capacity to LEO": "45,000 kg (99,000 lb)",
+        "Payload Capacity to LEO": "45,000 kg (99,000 lbs)",
         "payload_int": 45000,
         "Height": "98 m (322 ft)",
-        "Height_int": 98,
+        "height_int": 98,
         "Diameter": "7 m (23 ft)",
         "diameter_int": 7,        
         "Mass": "Unknown",
@@ -1134,13 +1134,13 @@ CAST - China Academy of Space Technology
         "Agency": "JAXA",
         "Manufacturer": "Mitsubishi Heavy Industries",     
         "Class": "Heavy",
-        "Payload Capacity to LEO": "10,000–15,000 kg (22,000–33,000 lb)",
+        "Payload Capacity to LEO": "10,000–15,000 kg (22,000–33,000 lbs)",
         "payload_int": 15000,
         "Height": "53 m (174 ft)",
-        "Height_int": 53,
+        "height_int": 53,
         "Diameter": "4 m (13 ft)",
         "diameter_int": 4,        
-        "Mass": "285,000–445,000 kg (628,000–981,000 lb)",
+        "Mass": "285,000–445,000 kg (628,000–981,000 lbs)",
         "mass_int": 445000,        
         "Years in Operation": "2001~",
         "firstyear_int": 2001,        
@@ -1185,7 +1185,7 @@ CAST - China Academy of Space Technology
         "Agency": "CNES -  Centre National d'Études Spatiales",
         "Manufacturer": "SEREB - Société d'Étude et de Réalisation d'Engins Balistiques",        
         "Class": "Light",
-        "Payload Capacity to LEO": "160 kg (350 lb)",
+        "Payload Capacity to LEO": "160 kg (350 lbs)",
         "payload_int": 160,
         "Height":
             '''
@@ -1195,7 +1195,7 @@ CAST - China Academy of Space Technology
             ''',
         "Diameter": "1.34 m (4 ft 5 in)",
         "diameter_int": 1.34,        
-        "Mass": "18,400 kg (40,600 lb)",
+        "Mass": "18,400 kg (40,600 lbs)",
         "mass_int": 18400,        
         "Years in Operation":
             '''
@@ -1258,7 +1258,7 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "10,000 kg (22,046 lbs)",
         "payload_int": 10000,
         "Height": "~25m (82 ft)",
-        "Height_int": 25,
+        "height_int": 25,
         "Diameter": "Unknown",
         "diameter_int": "",        
         "Mass": "2,278,880 kg (5,024,070 lbs)",
@@ -1334,7 +1334,7 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "26 kg (57.32 lbs)",
         "payload_int": 26,
         "Height": "16.5m (54.13 ft)",
-        "Height_int": 16.5,
+        "height_int": 16.5,
         "Diameter": "0.735m (2.41 ft)",
         "diameter_int": 0.735,        
         "Mass": "8,527 kg (18,798 lbs)",
@@ -1376,13 +1376,13 @@ CAST - China Academy of Space Technology
         "Agency": "Nissan Aerospace Research Institute, The University of Tokyo",
         "Manufacturer": "",        
         "Class": "Light",
-        "Payload Capacity to LEO": "180 kilograms (400 lb)",
+        "Payload Capacity to LEO": "180 kilograms (400 lbs)",
         "payload_int": 180,
         "Height": "23.6 meters (77 ft)",
-        "Height_int": 23.6,
+        "height_int": 23.6,
         "Diameter": "1.41 meters (4 ft 8 in)",
         "diameter_int": 1.41,        
-        "Mass": "43,600 kg (96,000 lb)",
+        "Mass": "43,600 kg (96,000 lbs)",
         "mass_int": 43600,        
         "Years in Operation": "1970-1972",
         "firstyear_int": 1970,        
@@ -1447,7 +1447,7 @@ CAST - China Academy of Space Technology
             ''',
         "payload_int": 360,
         "Height": "33 m (108 ft)",
-        "Height_int": 33,
+        "height_int": 33,
         "Diameter": "3.05 m (10 ft)",
         "diameter_int": 3.05,        
         "Mass": "104,670 kg",
@@ -1512,13 +1512,13 @@ CAST - China Academy of Space Technology
         "Agency": "CNES - Centre National d'Études Spatiales",
         "Manufacturer": "",        
         "Class": "Medium",
-        "Payload Capacity to LEO": "3,000 kg (6,600 lb)",
+        "Payload Capacity to LEO": "3,000 kg (6,600 lbs)",
         "payload_int": 3000,
         "Height": "19 m (62 ft)",
-        "Height_int": 19,
+        "height_int": 19,
         "Diameter": "Uknown",
         "diameter_int": "",        
-        "Mass": "21,000 kg (46,000 lb)",
+        "Mass": "21,000 kg (46,000 lbs)",
         "mass_int": 21000,        
         "Years in Operation": "N/A",
         "firstyear_int": "",        
@@ -1568,10 +1568,10 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "1430-1960 kg (3152-4321 lbs)",
         "payload_int": 1960,
         "Height": "30 metres (98 ft)",
-        "Height_int": 30,
+        "height_int": 30,
         "Diameter": "3 metres (9.8 ft)",
         "diameter_int": 3,        
-        "Mass": "137,000 kilograms (302,000 lb)",
+        "Mass": "137,000 kilograms (302,000 lbs)",
         "mass_int": 137000,        
         "Years in Operation": "2012~",
         "firstyear_int": 2012,        
@@ -1665,7 +1665,7 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "N/A",
         "payload_int": "",
         "Height": "N/A",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "N/A",
         "diameter_int": "",        
         "Mass": "N/A",
@@ -1697,13 +1697,13 @@ CAST - China Academy of Space Technology
         "Agency": "N/A",
         "Manufacturer": "PLD Space",        
         "Class": "Light",
-        "Payload Capacity to LEO": "(SSO) 300–500 kg (660–1,100 lb)",
+        "Payload Capacity to LEO": "(SSO) 300–500 kg (660–1,100 lbs)",
         "payload_int": 500,
         "Height": "25 m (82 ft)",
-        "Height_int": 25,
+        "height_int": 25,
         "Diameter": "1.8 m (5 ft 11 in)",
         "diameter_int": 1.8,        
-        "Mass": "32,000 kg (71,000 lb)",
+        "Mass": "32,000 kg (71,000 lbs)",
         "mass_int": 32000,        
         "Years in Operation": "2022~",
         "firstyear_int": 2022,        
@@ -1740,13 +1740,13 @@ CAST - China Academy of Space Technology
         "Agency": "ISRO - Indian Space Research Organisation",
         "Manufacturer": "ISRO",        
         "Class": "Light",
-        "Payload Capacity to LEO": "40 kg (88 lb)",
+        "Payload Capacity to LEO": "40 kg (88 lbs)",
         "payload_int": 40,
         "Height": "	22 m (72 ft)",
-        "Height_int": 22,
+        "height_int": 22,
         "Diameter": "1 m (3.3 ft)",
         "diameter_int": 1,        
-        "Mass": "17,000 kg (37,000 lb)",
+        "Mass": "17,000 kg (37,000 lbs)",
         "mass_int": 17000,        
         "Years in Operation": "1979-1983",
         "firstyear_int": 1979,        
@@ -1769,7 +1769,7 @@ CAST - China Academy of Space Technology
             The Satellite Launch Vehicle or SLV is a Small-lift launch vehicle, was a project 
             started in the early 1970s by the Indian Space Research Organisation to develop 
             the technology needed to launch satellites. SLV was intended to reach a height 
-            of 400 kilometres (250 mi) and carry a payload of 40 kg (88 lb). The first 
+            of 400 kilometres (250 mi) and carry a payload of 40 kg (88 lbs). The first 
             experimental flight of SLV-3, in August 1979, was a failure. The first successful 
             launch took place on 18 July, 1980.
 
@@ -1794,13 +1794,13 @@ CAST - China Academy of Space Technology
         "Agency": "ISRO - Indian Space Research Organisation",
         "Manufacturer": "ISRO",        
         "Class": "Light",
-        "Payload Capacity to LEO": "150 kg (330 lb)",
+        "Payload Capacity to LEO": "150 kg (330 lbs)",
         "payload_int": 150,
         "Height": "23.5 m (77 ft)",
-        "Height_int": 23.5,
+        "height_int": 23.5,
         "Diameter": "1 m (3 ft 3 in)",
         "diameter_int": 1,        
-        "Mass": "41,000 kg (90,000 lb)",
+        "Mass": "41,000 kg (90,000 lbs)",
         "mass_int": 41000,        
         "Years in Operation": "1987-1994",
         "firstyear_int": 1987,        
@@ -1832,11 +1832,11 @@ CAST - China Academy of Space Technology
             
             The ASLV was a five-stage vehicle. Two strap-on boosters acted as a first stage, 
             with the core stage igniting after booster burn out. The payload capacity of the 
-            ASLV was approximately 150 kg (330 lb) to an orbit of 400 km (250 mi) with a 
+            ASLV was approximately 150 kg (330 lbs) to an orbit of 400 km (250 mi) with a 
             47-degree inclination.
 
-            At liftoff, the ASLV generated 909.9 kN (204,500 lbf) of thrust. It was a 
-            41,000-kilogram (90,000 lb) rocket, measuring 23.5 metres (77 ft) in length with 
+            At liftoff, the ASLV generated 909.9 kN (204,500 lbsf) of thrust. It was a 
+            41,000-kilogram (90,000 lbs) rocket, measuring 23.5 metres (77 ft) in length with 
             a core diameter of one metre (3 ft 3 in).[4] The height to diameter ratio of ASLV 
             was very large which resulted in the vehicle being unstable in flight. This was 
             compounded by the fact that many of the critical events during a launch like the 
@@ -1854,16 +1854,16 @@ CAST - China Academy of Space Technology
         "Agency": "ISRO - Indian Space Research Organisation",
         "Manufacturer": "ISRO",        
         "Class": "",
-        "Payload Capacity to LEO": "3,800 kg (8,400 lb)",
+        "Payload Capacity to LEO": "3,800 kg (8,400 lbs)",
         "payload_int": "",
         "Height": "44 m (144 ft)",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "2.8 m (9 ft 2 in)",
         "diameter_int": "",        
         "Mass": '''
-        PSLV-G: 295,000 kg (650,000 lb)
-        PSLV-CA: 230,000 kg (510,000 lb)
-        PSLV-XL: 320,000 kg (710,000 lb)
+        PSLV-G: 295,000 kg (650,000 lbs)
+        PSLV-CA: 230,000 kg (510,000 lbs)
+        PSLV-XL: 320,000 kg (710,000 lbs)
         ''',
         "mass_int": "",        
         "Years in Operation": '''
@@ -1901,14 +1901,14 @@ CAST - China Academy of Space Technology
             core-alone (PSLV-CA) without strap-on motors, and the (PSLV-XL) version, with 
             six extended length (XL) strap-on motors carrying 12 tonnes of HTPB based 
             propellant each. These configurations provide wide variations in payload 
-            capabilities up to 3,800 kg (8,400 lb) in LEO and 1,800 kg (4,000 lb) in 
+            capabilities up to 3,800 kg (8,400 lbs) in LEO and 1,800 kg (4,000 lbs) in 
             sun-synchronous orbit.
             
             PSLV-G (retired)
             The standard or "Generic" version of the PSLV, PSLV-G had four stages using 
             solid and liquid propulsion systems alternately and six strap-on motors 
             (PSOM or S9) with 9 tonne propellant loading. It had capability to launch 
-            1,678 kg (3,699 lb) to 622 km (386 mi) into sun-synchronous orbit. PSLV-C35
+            1,678 kg (3,699 lbs) to 622 km (386 mi) into sun-synchronous orbit. PSLV-C35
             was the last operational launch of PSLV-G before its discontinuation.
             
             PSLV-CA
@@ -1916,20 +1916,20 @@ CAST - China Academy of Space Technology
             CA model does not include the six strap-on boosters used by the PSLV 
             standard variant but two SITVC tanks with Roll Control Thruster modules are 
             still attached to the side of the first stage with addition of two cylindrical 
-            aerodynamic stabilizers. The fourth stage of the CA variant has 400 kg (880 lb) 
+            aerodynamic stabilizers. The fourth stage of the CA variant has 400 kg (880 lbs) 
             less propellant when compared to its standard version. It currently has 
-            capability to launch 1,100 kg (2,400 lb) to 622 km (386 mi) Sun synchronous 
+            capability to launch 1,100 kg (2,400 lbs) to 622 km (386 mi) Sun synchronous 
             orbit.
             
             PSLV-XL
             PSLV-XL is the upgraded version of Polar Satellite Launch Vehicle in its 
             standard configuration boosted by more powerful, stretched strap-on boosters
-            with 12 tonne propellant load. Weighing 320 t (710,000 lb) at lift-off, the 
+            with 12 tonne propellant load. Weighing 320 t (710,000 lbs) at lift-off, the 
             vehicle uses larger strap-on motors (PSOM-XL or S12) to achieve higher payload 
             capability. On 29 December 2005, ISRO successfully tested the improved version 
             of strap-on booster for the PSLV. The first use of PSLV-XL was the launch of 
             Chandrayaan-1 by PSLV C11. The payload capability for this variant is 1,800 kg 
-            (4,000 lb) to SSO.
+            (4,000 lbs) to SSO.
             
             PSLV-DL
             PSLV-DL variant has only two strap-on boosters with 12 tonne propellant load on 
@@ -1953,13 +1953,13 @@ CAST - China Academy of Space Technology
         "Agency": "ISRO - Indian Space Research Organisation",
         "Manufacturer": "ISRO - Indian Space Research Organisation",        
         "Class": "",
-        "Payload Capacity to LEO": "5,000 kg (11,000 lb)",
+        "Payload Capacity to LEO": "5,000 kg (11,000 lbs)",
         "payload_int": "",
         "Height": "49.13 m (161.2 ft)",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "2.8 m (9 ft 2 in)",
         "diameter_int": "",        
-        "Mass": "414,750 kg (914,370 lb)",
+        "Mass": "414,750 kg (914,370 lbs)",
         "mass_int": "",        
         "Years in Operation": '''
         Mk.I: 2001-2010
@@ -2038,7 +2038,7 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "120,000 kg [proposed]",
         "payload_int": "",
         "Height": "Unknown",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "8.41 m (27.6 ft) [proposed]",
         "diameter_int": "",        
         "Mass": "Unknown",
@@ -2195,13 +2195,13 @@ CAST - China Academy of Space Technology
         "Agency": "ISRO - Indian Space Research Organisation",
         "Manufacturer": "ISRO - Indian Space Research Organisation",        
         "Class": "",
-        "Payload Capacity to LEO": "10,000 kg (22,000 lb)",
+        "Payload Capacity to LEO": "10,000 kg (22,000 lbs)",
         "payload_int": "",
         "Height": "43.4 m (142 ft)",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "4 m (13 ft)",
         "diameter_int": "",        
-        "Mass": "640,000 kg (1,410,000 lb)",
+        "Mass": "640,000 kg (1,410,000 lbs)",
         "mass_int": "",        
         "Years in Operation": "2014~",
         "firstyear_int": "",        
@@ -2275,10 +2275,10 @@ CAST - China Academy of Space Technology
         "Agency": "ISRO - Indian Space Research Organisation",
         "Manufacturer": "ISRO - Indian Space Research Organisation",        
         "Class": "",
-        "Payload Capacity to LEO": "500 kg (1,100 lb)",
+        "Payload Capacity to LEO": "500 kg (1,100 lbs)",
         "payload_int": "",
         "Height": "34 m (111.5 ft)",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "2 m (6.5 ft)",
         "diameter_int": "",        
         "Mass": "108,862 kg (239,999 lbs)",
@@ -2323,7 +2323,7 @@ The first three stages of the vehicle use solid propellant, with a fourth stage 
         "Payload Capacity to LEO": "",
         "payload_int": "",
         "Height": "~16 m (52 ft) | Orbiter: 6.5 m (21 ft)",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "1 m (3 ft 3 in)",
         "diameter_int": "",        
         "Mass": "12000 kg (26455 lbs)",
@@ -2366,15 +2366,15 @@ A team of 750 engineers at Vikram Sarabhai Space Centre, National Aeronautical L
         "Manufacturer": "ISRO - Indian Space Research Organisation",        
         "Class": "",
         "Payload Capacity to LEO": '''
-2 × S-60: 10,000 kg (22,000 lb)
-2 × S-139: 12,000 kg (26,000 lb)
-2 × S-200: 15,000 kg (33,000 lb)
-HLV(Variant):20,000 kg (44,000 lb)
-SHLV(Variant):41,300 kg (91,100 lb)
+2 × S-60: 10,000 kg (22,000 lbs)
+2 × S-139: 12,000 kg (26,000 lbs)
+2 × S-200: 15,000 kg (33,000 lbs)
+HLV(Variant):20,000 kg (44,000 lbs)
+SHLV(Variant):41,300 kg (91,100 lbs)
         ''',
         "payload_int": "",
         "Height": "Unknown",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "Unknown",
         "diameter_int": "",        
         "Mass": "270,000 to 700,000 kg (600,000 to 1,540,000 lbs)",
@@ -2399,7 +2399,7 @@ SHLV(Variant):41,300 kg (91,100 lb)
             '''
 The Unified Launch Vehicle (ULV) is a development project by the Indian Space Research Organisation (ISRO) whose core objective is to design a modular architecture that could eventually replace the PSLV, GSLV Mk I/II and GSLV Mk III with a single family of launchers. The design may include a heavy-lift variant dubbed HLV, consisting of the SC-160 stage and two solid rocket boosters, as well as a super heavy-lift variant called SHLV with a cluster stage of five SCE-200 engines . As SCE-200 will only fly after the successful completion of the Gaganyaan program, the launcher will not fly before 2022.
 
-As of May 2013, based on ISRO data, the design comprised a common core and upper stage, with four different booster sizes. All four versions of the boosters are solid motors, with at least three versions reusing current motors from the PSLV, GSLV Mk I/II and LVM3. The core, known as the SC160 (Semi-Cryogenic stage with 160 tonnes of propellant, in the ISRO nomenclature), would have 160,000 kg (350,000 lb) of Kerosene / LOX propellant and be powered by a single SCE-200 rocket engine. The upper stage, known as the C30 (Cryogenic stage with 30 tonnes of propellant) would have 30,000 kg (66,000 lb) of LH2 / LOX propellant and be powered by a single CE-20 engine.
+As of May 2013, based on ISRO data, the design comprised a common core and upper stage, with four different booster sizes. All four versions of the boosters are solid motors, with at least three versions reusing current motors from the PSLV, GSLV Mk I/II and LVM3. The core, known as the SC160 (Semi-Cryogenic stage with 160 tonnes of propellant, in the ISRO nomenclature), would have 160,000 kg (350,000 lbs) of Kerosene / LOX propellant and be powered by a single SCE-200 rocket engine. The upper stage, known as the C30 (Cryogenic stage with 30 tonnes of propellant) would have 30,000 kg (66,000 lbs) of LH2 / LOX propellant and be powered by a single CE-20 engine.
 
 The four booster options are:
 
@@ -2423,13 +2423,13 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
         "Agency": "ESA",
         "Manufacturer": "Aérospatiale",        
         "Class": "",
-        "Payload Capacity to LEO": "1,400 kilograms (3,100 lb)",
+        "Payload Capacity to LEO": "1,400 kilograms (3,100 lbs)",
         "payload_int": "",
         "Height": "50 m (160 ft)",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "3.8 m (12 ft)",
         "diameter_int": "",        
-        "Mass": "207,200 kg (456,800 lb)",
+        "Mass": "207,200 kg (456,800 lbs)",
         "mass_int": "",        
         "Years in Operation": "1979-1986",
         "firstyear_int": "",        
@@ -2519,13 +2519,13 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
         "Agency": "ESA",
         "Manufacturer": "",        
         "Class": "",
-        "Payload Capacity to LEO": "(GEO) 2,175 kg (4,795 lb)",
+        "Payload Capacity to LEO": "(GEO) 2,175 kg (4,795 lbs)",
         "payload_int": "",
         "Height": "49.13 m (161.2 ft)",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "3.8 m (12 ft)",
         "diameter_int": "",        
-        "Mass": "215,000 kg (474,000 lb)",
+        "Mass": "215,000 kg (474,000 lbs)",
         "mass_int": "",        
         "Years in Operation": "1986-1989",
         "firstyear_int": "",        
@@ -2620,7 +2620,7 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
             the Ariane 3, the only major difference being the lack of 
             additional solid rocket boosters, which gave the Ariane 3 a 
             higher payload capacity at a greater unit cost. The payload 
-            capacity of the Ariane 2 was 2,175 kilograms (4,795 lb) to a 
+            capacity of the Ariane 2 was 2,175 kilograms (4,795 lbs) to a 
             geosynchronous transfer orbit (GTO), exceeding that of the
             preceding Ariane 1.
             '''
@@ -2631,13 +2631,13 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
         "Agency": "ESA",
         "Manufacturer": "",        
         "Class": "",
-        "Payload Capacity to LEO": "(GTO) 2,700 kg (6,000 lb)",
+        "Payload Capacity to LEO": "(GTO) 2,700 kg (6,000 lbs)",
         "payload_int": "",
         "Height": "49.13 m (161.2 ft)",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "3.8 m (12 ft)",
         "diameter_int": "",        
-        "Mass": "234,000 kg (516,000 lb)",
+        "Mass": "234,000 kg (516,000 lbs)",
         "mass_int": "",        
         "Years in Operation": "1984-1989",
         "firstyear_int": "",        
@@ -2761,7 +2761,7 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
         "Payload Capacity to LEO": "5000–7600 kg",
         "payload_int": "",
         "Height": "58.72 m",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "3.8 m",
         "diameter_int": "",        
         "Mass": "240,000–470,000 kg",
@@ -2861,13 +2861,13 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
         "Agency": "ESA",
         "Manufacturer": "",        
         "Class": "",
-        "Payload Capacity to LEO": "16,000 kg (35,000 lb)",
+        "Payload Capacity to LEO": "16,000 kg (35,000 lbs)",
         "payload_int": "",
         "Height": "46–52 m (151–171 ft)",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "5.4 m (18 ft)",
         "diameter_int": "",        
-        "Mass": "777,000 kg (1,713,000 lb)",
+        "Mass": "777,000 kg (1,713,000 lbs)",
         "mass_int": "",        
         "Years in Operation":
             '''
@@ -2936,13 +2936,13 @@ of Ariane 6 in early 2021.
 -Variants-
 G: The original version is dubbed Ariane 5 G (Generic) and had a launch mass 
 of 737 tonnes. Its payload capability to geostationary transfer orbit (GTO) 
-was 6,900 kilograms (15,200 lb) for a single satellite or 6,100 kilograms 
-(13,400 lb) for dual launches. It flew 17 times with one failure and two 
+was 6,900 kilograms (15,200 lbs) for a single satellite or 6,100 kilograms 
+(13,400 lbs) for dual launches. It flew 17 times with one failure and two 
 partial failures.
 
 G+: The Ariane 5 G+ had an improved EPS second stage, with a GTO capacity 
-of 7,100 kilograms (15,700 lb) for a single payload or 6,300 kilograms 
-(13,900 lb) for two. It flew three times in 2004, with no failures.
+of 7,100 kilograms (15,700 lbs) for a single payload or 6,300 kilograms 
+(13,900 lbs) for two. It flew three times in 2004, with no failures.
 
 GS: At the time of the failure of the first Ariane 5 ECA flight in 2002, 
 all Ariane 5 launchers in production were ECA versions. Some of the ECA 
@@ -2952,8 +2952,8 @@ Ariane 5 GS. The GS used the improved EAP boosters of the ECA variant
 and the improved EPS of the G+ variant, but the increased mass of the 
 modified ECA core compared to the G and G+ core resulted in slightly 
 reduced payload capacity. Ariane 5 GS could carry a single payload of 
-6,600 kilograms (14,600 lb) or a dual payload of 5,800 kilograms 
-(12,800 lb) to GTO. The Ariane 5 GS flew 6 times from 2005 to 2009
+6,600 kilograms (14,600 lbs) or a dual payload of 5,800 kilograms 
+(12,800 lbs) to GTO. The Ariane 5 GS flew 6 times from 2005 to 2009
     with no failures.
 
 ECA: The Ariane 5 ECA (Evolution Cryotechnique type A), first 
@@ -2962,17 +2962,17 @@ engine with a longer, more efficient nozzle with a more efficient
 flow cycle and denser propellant ratio. The new ratio required length 
 modifications to the first-stage tanks. The EPS second stage was 
 replaced by the ESC-A (Etage Supérieur Cryogénique-A), which has a 
-dry weight of 2,100 kilograms (4,600 lb) and is powered by an HM-7B
-engine burning 14,000 kilograms (31,000 lb) of cryogenic propellant. 
+dry weight of 2,100 kilograms (4,600 lbs) and is powered by an HM-7B
+engine burning 14,000 kilograms (31,000 lbs) of cryogenic propellant. 
 The ESC-A uses the liquid oxygen tank and lower structure from the 
 Ariane 4's H10 third stage, mated to a new liquid hydrogen tank. 
 Additionally, the EAP booster casings were lightened with new welds 
 and carry more propellant. The Ariane 5 ECA has a GTO launch capacity 
-of 9,100 kilograms (20,100 lb) for dual payloads or 9,600 kilograms 
-(21,200 lb) for a single payload.
+of 9,100 kilograms (20,100 lbs) for dual payloads or 9,600 kilograms 
+(21,200 lbs) for a single payload.
 
 ES: The Ariane 5 ES (Evolution Storable) has an estimated LEO launch 
-capacity of 21,000 kilograms (46,000 lb). It includes all the 
+capacity of 21,000 kilograms (46,000 lbs). It includes all the 
 performance improvements of Ariane 5 ECA core and boosters but 
 replaces the ESC-A second stage with the restartable EPS used on Ariane 5 
 GS variants. It was used to launch the Automated Transfer Vehicle (ATV) 
@@ -2998,10 +2998,10 @@ to Ariane 6.
         "Payload Capacity to LEO": "195 kg (430 lbs)",
         "payload_int": "",
         "Height": "20.2 m (66 ft)",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "1.41 m (4 ft 8 in)",
         "diameter_int": "",        
-        "Mass": "41,600 kg (92,000 lb)",
+        "Mass": "41,600 kg (92,000 lbs)",
         "mass_int": "",        
         "Years in Operation": "1974-1979",
         "firstyear_int": "",        
@@ -3560,7 +3560,7 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Payload Capacity to LEO": "",
         "payload_int": "",
         "Height": "",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "",
         "diameter_int": "",        
         "Mass": "",
@@ -3853,16 +3853,16 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Agency": "N/A",
         "Manufacturer": "Khrunichev, KBKhA/CADB",        
         "Class": "",
-        "Payload Capacity to LEO": "3,800 kilograms (8,400 lb)-24,500 kilograms (54,000 lb",
+        "Payload Capacity to LEO": "3,800 kilograms (8,400 lbs)-24,500 kilograms (54,000 lbs)",
         "payload_int": "",
         "Height": "42.7 m (140 ft) - 64 m (210 ft)",
-        "Height_int": "",
+        "height_int": "",
         "Diameter":
         '''
         Angara 1.2: 2.9 m (9 ft 6 in)
         Angara A5: 8.86 m (29.1 ft)''',
         "diameter_int": "",        
-        "Mass": "171,500 kilograms (378,100 lb)-790,000 kilograms (1,740,000 lb)",
+        "Mass": "171,500 kilograms (378,100 lbs)-790,000 kilograms (1,740,000 lbs)",
         "mass_int": "",        
         "Years in Operation": "2014~",
         "firstyear_int": "",        
@@ -3963,7 +3963,7 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Payload Capacity to LEO": "",
         "payload_int": "",
         "Height": "",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "",
         "diameter_int": "",        
         "Mass": "",
@@ -5546,7 +5546,7 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
 
     },
 
-    "Zenit 3SLB": {
+    "Zenit 3Slbs": {
 
         "Name": "",
         "Agency": "",
@@ -6998,7 +6998,7 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Payload Capacity to LEO": "100-300 kg",
         "payload_int": "",
         "Height": "25 m (82 ft)",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "0.88 m(First stage) 1.25 m(Second stage)",
         "diameter_int": "",        
         "Mass": "48,000 kg (105,821 lbs)",
@@ -7108,10 +7108,10 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Payload Capacity to LEO": "1000 kg (2204 lbs)",
         "payload_int": "",
         "Height": "29 m (95 ft)",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "1.82 m (6 ft 0 in)",
         "diameter_int": "",        
-        "Mass": "54,000 kg (119,000 lb)",
+        "Mass": "54,000 kg (119,000 lbs)",
         "mass_int": "",        
         "Years in Operation": "2020~",
         "firstyear_int": "",        
@@ -7147,8 +7147,8 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
             the rocket is constructed using a lightweight carbon composite material.
             
             Alpha's first stage is powered by four Reaver 1 LOX / RP-1 engines, delivering 736.1 kN 
-            (165,500 lbf) of thrust. The second stage is powered by one Lightning 1 LOX / RP-1 engine, 
-            delivering 70.1 kN (15,800 lbf) of thrust. Lightning 1 was test-run for nearly 5 minutes 
+            (165,500 lbsf) of thrust. The second stage is powered by one Lightning 1 LOX / RP-1 engine, 
+            delivering 70.1 kN (15,800 lbsf) of thrust. Lightning 1 was test-run for nearly 5 minutes 
             on March 15, 2018 during a long duration test fire. The engine was fired at Firefly's 
             Test Stand 1 in Briggs, Texas.
             
@@ -7191,7 +7191,7 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Agency": "NASA",
         "Manufacturer": "Main: Northrop Grumman(originally Orbital Sciences Corporation), Sub: Yuzhnoye",        
         "Class": "Medium",
-        "Payload Capacity to LEO": "8,000 kg (18,000 lb)",
+        "Payload Capacity to LEO": "8,000 kg (18,000 lbs)",
         "payload_int": "",
         "Height":
         '''
@@ -7203,8 +7203,8 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "diameter_int": "",        
         "Mass":
         '''
-        110/120/130: 282,000–296,000 kg (622,000–653,000 lb)
-        230/230+: 298,000 kg (657,000 lb)
+        110/120/130: 282,000–296,000 kg (622,000–653,000 lbs)
+        230/230+: 298,000 kg (657,000 lbs)
         ''',
         "mass_int": "",        
         "Years in Operation":
@@ -7243,7 +7243,7 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
             launch system developed by Orbital Sciences Corporation (now part of Northrop Grumman)
             and the Yuzhnoye Design Bureau to launch the Cygnus spacecraft to the International 
             Station as part of NASA's COTS and CRS programs. Able to launch payloads heavier 
-            than 8,000 kg (18,000 lb) into low-Earth orbit, Antares is currently the largest 
+            than 8,000 kg (18,000 lbs) into low-Earth orbit, Antares is currently the largest 
             rocket operated by Northrop Grumman. Antares launches from the Mid-Atlantic Regional 
             Spaceport and made its inaugural flight on April 21, 2013.
 
@@ -7291,10 +7291,10 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         Boeing (Stage II)
         ''',        
         "Class": "",
-        "Payload Capacity to LEO": "25,400 kg (56,000 lb)",
+        "Payload Capacity to LEO": "25,400 kg (56,000 lbs)",
         "payload_int": "",
         "Height": "94 meters (308 ft)",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "5.5 meters (18 ft)",
         "diameter_int": "",        
         "Mass": "Unknown",
@@ -7340,10 +7340,10 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Agency": "NASA",
         "Manufacturer": "",        
         "Class": "",
-        "Payload Capacity to LEO": "188,000 kg (414,000 lb)",
+        "Payload Capacity to LEO": "188,000 kg (414,000 lbs)",
         "payload_int": "",
         "Height": "116 m (381 ft) or 109 m (358 ft)",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "10 m (33 ft) or 8.4 m (28 ft)",
         "diameter_int": "",        
         "Mass": "Unknown",
@@ -9028,10 +9028,10 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Payload Capacity to LEO": "",
         "payload_int": "",
         "Height": " 2.44 m (8.00 ft)",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "32.00 m (104.00 ft)",
         "diameter_int": "",        
-        "Mass": "63,966 kg (141,020 lb)",
+        "Mass": "63,966 kg (141,020 lbs)",
         "mass_int": "",        
         "Years in Operation": "1960-1962",
         "firstyear_int": "",        
@@ -9850,7 +9850,7 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "Payload Capacity to LEO": "20,000 kg (44,500 lbs)",
         "payload_int": "",
         "Height": "90 m (300 ft)",
-        "Height_int": "",
+        "height_int": "",
         "Diameter": "5.4 m (18 ft)",
         "diameter_int": "",        
         "Mass": "Unknown",
@@ -9887,7 +9887,7 @@ The Thor-Delta launched a number of significant payloads, including the first co
             commercial satellite launches, including to Geostationary transfer orbit.
             
             The launcher was proposed to be 300 feet (91 m) in height, with an advertised price 
-            of $180 million per launch. Liberty had a projected payload of 44,500 lb (20,000 kg) 
+            of $180 million per launch. Liberty had a projected payload of 44,500 lbs (20,000 kg) 
             to Low Earth orbit.
             
             The ATK/Astrium Liberty proposal was not initially selected by NASA in the 2011 contract 
