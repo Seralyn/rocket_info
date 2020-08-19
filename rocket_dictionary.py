@@ -12,7 +12,7 @@ rocketDictionary = {
         "Diameter": "10.1m (33ft)",
         "diameter_int": 10.1,
         "Mass": "2,970,000 kg",
-        "mass_int": 2970000,
+        "mass_int": 2970000        
         "Years in Operation": "1967-1973",
         "firstyear_int": 1967,
         "Country": "USA",
@@ -22,13 +22,9 @@ rocketDictionary = {
         S1: 168 sec, S2: 360 sec, S3: 421 sec
         ''',
         "total_burntime_int": 949,
-        "Thrust": '''
-        S1: 35,100 kN, S2: 5,141 kN, S3: 1,033 kN
-        ''',
+        "Thrust": "S1: 35,100 kN, S2: 5,141 kN, S3: 1,033 kN",
         "initial_thrust_int": 35100,
-        "ISP": '''
-        S1: 263 sec, S2: 421 sec, S3: 421 sec
-        ''',
+        "ISP": "S1: 263 sec, S2: 421 sec, S3: 421 sec",
         "asl_isp_int": 263,
         "vac_isp_int": 421,
         "Cost Per Launch": "$1.23 billion (adjusted for inflation)",
@@ -373,9 +369,12 @@ The proposed Tronador III would have the same diameter as Tronador II, but would
         "Payload Capacity to LEO": "380 kg (830 lb)",
         "Height": "19.5 m (63.9 ft)",
         "Height_int": "",
-        "Diameter": "1.01 m (3.31 ft)",
-        "Mass": "50,700 kg (111,700 lb)",
-        "Years in Operation": "N/A",
+        "Diameter": "1.01 m (3.31 ft)"
+        "diameter_int": "",        
+        "Mass": "50,700 kg (111,700 lb)"
+        "mass_int": "",        
+        "Years in Operation": "N/A"
+        "firstyear_int": "",        
         "Country": "Brazil",
         "Operational Status": "Canceled",
         "Number of Stages": "3",
@@ -429,9 +428,11 @@ The proposed Tronador III would have the same diameter as Tronador II, but would
         "Payload Capacity to LEO": "150 kg (330 lb)",
         "Height": "19.6 m (64 ft)",
         "Height_int": "",
-        "Diameter": "1.45 m (4 ft 9 in)",
-        "Mass": "28,000 kg (62,000 lb)",
-        "Years in Operation": "N/A",
+        "Diameter": "1.45 m (4 ft 9 in)""diameter_int": "",        
+        "Mass": "28,000 kg (62,000 lb)"
+        "mass_int": "",        
+        "Years in Operation": "N/A"
+        "firstyear_int": "",        
         "Country": "Brazil",
         "Operational Status": "In Development",
         "Number of Stages": "3",
@@ -491,9 +492,12 @@ The proposed Tronador III would have the same diameter as Tronador II, but would
         "Payload Capacity to LEO": "2,500 kilograms (5,500 lb)",
         "Height": "33 metres (108 ft)",
         "Height_int": "",
-        "Diameter": "3.35 metres (11.0 ft)",
-        "Mass": "191,700 kilograms (422,600 lb)",
-        "Years in Operation": "1972-1981",
+        "Diameter": "3.35 metres (11.0 ft)"
+        "diameter_int": "",        
+        "Mass": "191,700 kilograms (422,600 lb)"
+        "mass_int": "",        
+        "Years in Operation": "1972-1981"
+        "firstyear_int": "",        
         "Country": "China",
         "Operational Status": "Retired",
         "Number of Stages": "2",
@@ -529,9 +533,12 @@ The proposed Tronador III would have the same diameter as Tronador II, but would
         "Payload Capacity to LEO": "100kg (220lbs)",
         "Height": "13.6m (44 ft)",
         "Height_int": "",
-        "Diameter": "1.4m (4.5 ft)",
-        "Mass": "18,143kg (4000 lbs)",
-        "Years in Operation": "2002-2003",
+        "Diameter": "1.4m (4.5 ft)"
+        "diameter_int": "",        
+        "Mass": "18,143kg (4000 lbs)"
+        "mass_int": "",        
+        "Years in Operation": "2002-2003"
+        "firstyear_int": "",        
         "Country": "China",
         "Operational Status": "Retired",
         "Number of Stages": "4",
@@ -591,9 +598,12 @@ The proposed Tronador III would have the same diameter as Tronador II, but would
         "Payload Capacity to LEO": "",
         "Height": "19.4 m (64 ft)",
         "Height_int": "",
-        "Diameter": "1.4 m (4 ft 7 in)",
-        "Mass": "29,029 kg (64,000 lbs)",
-        "Years in Operation": "2013~",
+        "Diameter": "1.4 m (4 ft 7 in)"
+        "diameter_int": "",        
+        "Mass": "29,029 kg (64,000 lbs)"
+        "mass_int": "",        
+        "Years in Operation": "2013~"
+        "firstyear_int": "",        
         "Country": "China",
         "Operational Status": "Active",
         "Number of Stages": "4",
@@ -658,9 +668,12 @@ CAST - China Academy of Space Technology''',
         "Payload Capacity to LEO": "300 kilograms (660 lb)",
         "Height": "	29.86 metres (98.0 ft)",
         "Height_int": "",
-        "Diameter": "2.25 metres (7.4 ft)",
-        "Mass": "81,570 kilograms (179,830 lb)",
-        "Years in Operation": "1970-1971",
+        "Diameter": "2.25 metres (7.4 ft)"
+        "diameter_int": "",        
+        "Mass": "81,570 kilograms (179,830 lb)"
+        "mass_int": "",        
+        "Years in Operation": "1970-1971"
+        "firstyear_int": "",        
         "Country": "China",
         "Operational Status": "Retired",
         "Number of Stages": "3",
@@ -701,9 +714,12 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "",
         "Height": "28.22 m (92.6 ft)",
         "Height_int": "",
-        "Diameter": "2.25 m (7.4 ft)",
-        "Mass": "81,650 kg (180,010 lb)",
-        "Years in Operation": "1995-2002",
+        "Diameter": "2.25 m (7.4 ft)"
+        "diameter_int": "",        
+        "Mass": "81,650 kg (180,010 lb)"
+        "mass_int": "",        
+        "Years in Operation": "1995-2002"
+        "firstyear_int": "",        
         "Country": "China",
         "Operational Status": "Retired",
         "Number of Stages": "3",
@@ -755,15 +771,18 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "22,800 kg (50,300 lb)",
         "Height": "70 m (230 ft)",
         "Height_int": "",
-        "Diameter": "3.7 m (12 ft)",
-        "Mass": "549,054 kg (1,210,457 lbs)",
+        "Diameter": "3.7 m (12 ft)"
+        "diameter_int": "",        
+        "Mass": "549,054 kg (1,210,457 lbs)"
+        "mass_int": "",        
         "Years in Operation":
             '''
             FT Block 5: 2018~
             FT: 2015-2018
             v1.1: 2013-2016
             v1.0: 2010-2013
-            ''',
+            '''
+        "firstyear_int": "",        
         "Country": "USA",
         "Operational Status":
             '''
@@ -849,9 +868,12 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "3,800 kg (140,700 lb)",
         "Height": "70 m (230 ft)",
         "Height_int": "",
-        "Diameter": "3.66 m (12.0 ft) (each booster)",
-        "Mass": "12.2 m (40 ft)",
-        "Years in Operation": "2018~",
+        "Diameter": "3.66 m (12.0 ft) (each booster)"
+        "diameter_int": "",        
+        "Mass": "12.2 m (40 ft)"
+        "mass_int": "",        
+        "Years in Operation": "2018~"
+        "firstyear_int": "",        
         "Country": "USA",
         "Operational Status": "Active",
         "Number of Stages": "2+",
@@ -907,9 +929,12 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "8,250–20,520 kg (18,190–45,240 lb)",
         "Height": "58.3 m (191 ft)",
         "Height_int": "",
-        "Diameter": "3.81 m (12.5 ft)",
-        "Mass": "590,000 kg (1,300,000 lb)",
-        "Years in Operation": "2002~",
+        "Diameter": "3.81 m (12.5 ft)"
+        "diameter_int": "",        
+        "Mass": "590,000 kg (1,300,000 lb)"
+        "mass_int": "",        
+        "Years in Operation": "2002~"
+        "firstyear_int": "",        
         "Country": "USA",
         "Operational Status": "Active",
         "Number of Stages": "2",
@@ -969,9 +994,12 @@ CAST - China Academy of Space Technology
             ''',
         "Height": "111.25 m (365.0 ft)",
         "Height_int": "",
-        "Diameter": "8.4 m (28 ft)",
-        "Mass": "979,452 kg (2,159,322 lb)",
-        "Years in Operation": "Slated 2024~",
+        "Diameter": "8.4 m (28 ft)"
+        "diameter_int": "",        
+        "Mass": "979,452 kg (2,159,322 lb)"
+        "mass_int": "",        
+        "Years in Operation": "Slated 2024~"
+        "firstyear_int": "",        
         "Country": "USA",
         "Operational Status": "In Development",
         "Number of Stages": "2",
@@ -1029,9 +1057,12 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "45,000 kg (99,000 lb)",
         "Height": "98 m (322 ft)",
         "Height_int": "",
-        "Diameter": "7 m (23 ft)",
-        "Mass": "Unknown",
-        "Years in Operation": "Slated 2021~",
+        "Diameter": "7 m (23 ft)"
+        "diameter_int": "",        
+        "Mass": "Unknown"
+        "mass_int": "",        
+        "Years in Operation": "Slated 2021~"
+        "firstyear_int": "",        
         "Country": "USA",
         "Operational Status": "In Development",
         "Number of Stages": "2",
@@ -1081,9 +1112,12 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "10,000–15,000 kg (22,000–33,000 lb)",
         "Height": "53 m (174 ft)",
         "Height_int": "",
-        "Diameter": "4 m (13 ft)",
-        "Mass": "285,000–445,000 kg (628,000–981,000 lb)",
-        "Years in Operation": "2001~",
+        "Diameter": "4 m (13 ft)"
+        "diameter_int": "",        
+        "Mass": "285,000–445,000 kg (628,000–981,000 lb)"
+        "mass_int": "",        
+        "Years in Operation": "2001~"
+        "firstyear_int": "",        
         "Country": "Japan",
         "Operational Status": "Active",
         "Number of Stages": "2",
@@ -1133,14 +1167,17 @@ CAST - China Academy of Space Technology
             B: 23.5 m (77 ft)
             BP4: 21.6 m (71 ft)
             ''',
-        "Diameter": "1.34 m (4 ft 5 in)",
-        "Mass": "18,400 kg (40,600 lb)",
+        "Diameter": "1.34 m (4 ft 5 in)"
+        "diameter_int": "",        
+        "Mass": "18,400 kg (40,600 lb)"
+        "mass_int": "",        
         "Years in Operation":
             '''
             A: 1965-1967
             B: 1970-1973
             BP4: 1975
-            ''',
+            '''
+        "firstyear_int": "",        
         "Country": "France",
         "Operational Status": "Retired",
         "Number of Stages": "3",
@@ -1195,9 +1232,12 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "10,000 kg (22,046 lbs)",
         "Height": "~25m (82 ft)",
         "Height_int": "",
-        "Diameter": "Unknown",
-        "Mass": "2,278,880 kg (5,024,070 lbs)",
-        "Years in Operation": "1975-1978",
+        "Diameter": "Unknown"
+        "diameter_int": "",        
+        "Mass": "2,278,880 kg (5,024,070 lbs)"
+        "mass_int": "",        
+        "Years in Operation": "1975-1978"
+        "firstyear_int": "",        
         "Country": "Germany",
         "Operational Status": "Retired",
         "Number of Stages": "4",
@@ -1267,9 +1307,12 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "26 kg (57.32 lbs)",
         "Height": "16.5m (54.13 ft)",
         "Height_int": "",
-        "Diameter": "0.735m (2.41 ft)",
-        "Mass": "8,527 kg (18,798 lbs)",
-        "Years in Operation": "1966-1970",
+        "Diameter": "0.735m (2.41 ft)"
+        "diameter_int": "",        
+        "Mass": "8,527 kg (18,798 lbs)"
+        "mass_int": "",        
+        "Years in Operation": "1966-1970"
+        "firstyear_int": "",        
         "Country": "Japan",
         "Operational Status": "Retired",
         "Number of Stages": "5",
@@ -1308,9 +1351,12 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "180 kilograms (400 lb)",
         "Height": "23.6 meters (77 ft)",
         "Height_int": "",
-        "Diameter": "1.41 meters (4 ft 8 in)",
-        "Mass": "43,600 kg (96,000 lb)",
-        "Years in Operation": "1970-1972",
+        "Diameter": "1.41 meters (4 ft 8 in)"
+        "diameter_int": "",        
+        "Mass": "43,600 kg (96,000 lb)"
+        "mass_int": "",        
+        "Years in Operation": "1970-1972"
+        "firstyear_int": "",        
         "Country": "Japan",
         "Operational Status": "Retired",
         "Number of Stages": "4",
@@ -1372,15 +1418,18 @@ CAST - China Academy of Space Technology
             ''',
         "Height": "33 m(108 ft)",
         "Height_int": "",
-        "Diameter": "3.05 m (10 ft)",
-        "Mass": "104,670 kg",
+        "Diameter": "3.05 m (10 ft)"
+        "diameter_int": "",        
+        "Mass": "104,670 kg"
+        "mass_int": "",        
         "Years in Operation":
             '''
             Blue Streak: 1964-1966
             Coralie: 1967
             Europa I: 1968-1970
             Europa II: 1971
-            ''',
+            '''
+        "firstyear_int": "",        
         "Country": "EU",
         "Operational Status": "Retired",
         "Number of Stages": "3-4",
@@ -1436,9 +1485,12 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "3,000 kg (6,600 lb)",
         "Height": "19 m(62 ft)",
         "Height_int": "",
-        "Diameter": "Uknown",
-        "Mass": "21,000 kg (46,000 lb)",
-        "Years in Operation": "N/A",
+        "Diameter": "Uknown"
+        "diameter_int": "",        
+        "Mass": "21,000 kg (46,000 lb)"
+        "mass_int": "",        
+        "Years in Operation": "N/A"
+        "firstyear_int": "",        
         "Country": "France",
         "Operational Status": "Canceled",
         "Number of Stages": "1",
@@ -1485,9 +1537,12 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "1430-1960 kg (3152-4321 lbs)",
         "Height": "30 metres (98 ft)",
         "Height_int": "",
-        "Diameter": "3 metres (9.8 ft)",
-        "Mass": "137,000 kilograms (302,000 lb)",
-        "Years in Operation": "2012~",
+        "Diameter": "3 metres (9.8 ft)"
+        "diameter_int": "",        
+        "Mass": "137,000 kilograms (302,000 lb)"
+        "mass_int": "",        
+        "Years in Operation": "2012~"
+        "firstyear_int": "",        
         "Country": "Italy - EU",
         "Operational Status": "Active",
         "Number of Stages": "4",
@@ -1578,9 +1633,12 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "N/A",
         "Height": "N/A",
         "Height_int": "",
-        "Diameter": "N/A",
-        "Mass": "N/A",
-        "Years in Operation": "N/A",
+        "Diameter": "N/A"
+        "diameter_int": "",        
+        "Mass": "N/A"
+        "mass_int": "",        
+        "Years in Operation": "N/A"
+        "firstyear_int": "",        
         "Country": "France - EU",
         "Operational Status": "Designed but never created",
         "Number of Stages": "N/A",
@@ -1609,16 +1667,24 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "(SSO) 300–500 kg (660–1,100 lb)",
         "Height": "25 m (82 ft)",
         "Height_int": "",
-        "Diameter": "1.8 m (5 ft 11 in)",
-        "Mass": "32,000 kg (71,000 lb)",
-        "Years in Operation": "2022~",
+        "Diameter": "1.8 m (5 ft 11 in)"
+        "diameter_int": "",        
+        "Mass": "32,000 kg (71,000 lb)"
+        "mass_int": "",        
+        "Years in Operation": "2022~"
+        "firstyear_int": "",        
         "Country": "Spain",
         "Operational Status": "In Development",
         "Number of Stages": "2-3",
-        "Burn Time": "Unknown",
-        "Thrust": "S1: 408 kN, S2: 65 kN",
-        "ISP": "Unknown",
-        "Cost Per Launch": "Unknown",
+        "Burn Time": "Unknown"
+        "total_burntime_int": "",        
+        "Thrust": "S1: 408 kN, S2: 65 kN"
+        "initial_thrust_int": "",        
+        "ISP": "Unknown"        
+        "asl_isp_int": "", 
+        "vac_isp_int": "",        
+        "Cost Per Launch": "Unknown"         
+        "cost_int": "",        
         "Fuel Type": "RP-1/LOX",
         "Image": "Miura 5.png",
         "Additional Information":
@@ -1643,16 +1709,24 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "40 kg (88 lb)",
         "Height": "	22 m (72 ft)",
         "Height_int": "",
-        "Diameter": "1 m (3.3 ft)",
-        "Mass": "17,000 kg (37,000 lb)",
-        "Years in Operation": "1979-1983",
+        "Diameter": "1 m (3.3 ft)"
+        "diameter_int": "",        
+        "Mass": "17,000 kg (37,000 lb)"
+        "mass_int": "",        
+        "Years in Operation": "1979-1983"
+        "firstyear_int": "",        
         "Country": "India",
         "Operational Status": "Retired",
         "Number of Stages": "4",
-        "Burn Time": "S1: 49 sec, S2: 40 sec, S3: 45 sec, S4: 33 sec",
-        "Thrust": "S1: 450 kN, S2: 196 kN, S3: 61 kN, S4: 23 kN",
-        "ISP": "S1: 253 sec, S2: 267 sec, S3: 277 sec, S4: 283 sec",
-        "Cost Per Launch": "",
+        "Burn Time": "S1: 49 sec, S2: 40 sec, S3: 45 sec, S4: 33 sec"
+        "total_burntime_int": "",        
+        "Thrust": "S1: 450 kN, S2: 196 kN, S3: 61 kN, S4: 23 kN"
+        "initial_thrust_int": "",        
+        "ISP": "S1: 253 sec, S2: 267 sec, S3: 277 sec, S4: 283 sec"        
+        "asl_isp_int": "", 
+        "vac_isp_int": "",        
+        "Cost Per Launch": ""         
+        "cost_int": "",        
         "Fuel Type": "PBAN (Polybutadine Acrylo Nitrate) & HEF (High Energy Propellant)",
         "Image": "SatLaunchVehicle.png",
         "Additional Information":
@@ -1688,16 +1762,24 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "150 kg (330 lb)",
         "Height": "23.5 m (77 ft)",
         "Height_int": "",
-        "Diameter": "1 m (3 ft 3 in)",
-        "Mass": "41,000 kg (90,000 lb)",
-        "Years in Operation": "1987-1994",
+        "Diameter": "1 m (3 ft 3 in)"
+        "diameter_int": "",        
+        "Mass": "41,000 kg (90,000 lb)"
+        "mass_int": "",        
+        "Years in Operation": "1987-1994"
+        "firstyear_int": "",        
         "Country": "India",
         "Operational Status": "Retired",
         "Number of Stages": "5",
-        "Burn Time": "S1: 49 sec, S2: 45 sec, S3: 36 sec, S4: 45 sec, S5: 33 sec",
-        "Thrust": "909.9 kN",
-        "ISP": "S1: 253 sec, S2: 259 sec, S3: 276 sec, S4: 277 sec, S5: 281 sec",
-        "Cost Per Launch": "Unknown",
+        "Burn Time": "S1: 49 sec, S2: 45 sec, S3: 36 sec, S4: 45 sec, S5: 33 sec"
+        "total_burntime_int": "",        
+        "Thrust": "909.9 kN"
+        "initial_thrust_int": "",        
+        "ISP": "S1: 253 sec, S2: 259 sec, S3: 276 sec, S4: 277 sec, S5: 281 sec"        
+        "asl_isp_int": "", 
+        "vac_isp_int": "",        
+        "Cost Per Launch": "Unknown"         
+        "cost_int": "",        
         "Fuel Type": "Exact type unknown, but all solid fuel",
         "Image": "ASLV.png",
         "Additional Information":
@@ -1739,26 +1821,34 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "3,800 kg (8,400 lb)",
         "Height": "44 m (144 ft)",
         "Height_int": "",
-        "Diameter": "2.8 m (9 ft 2 in)",
+        "Diameter": "2.8 m (9 ft 2 in)"
+        "diameter_int": "",        
         "Mass": '''
         PSLV-G: 295,000 kg (650,000 lb)
         PSLV-CA: 230,000 kg (510,000 lb)
         PSLV-XL: 320,000 kg (710,000 lb)
-        ''',
+        '''
+        "mass_int": "",        
         "Years in Operation": '''
         PSLV-G: 1993-2016
         PSLV-CA: 2007~
         PSLV-XL: 2008~
         PSLV-DL: 2019~
         PSLV-QL: 2019~
-        ''',
+        '''
+        "firstyear_int": "",        
         "Country": "India",
         "Operational Status": "Active",
         "Number of Stages": "4",
-        "Burn Time": "",
-        "Thrust": "",
-        "ISP": "",
-        "Cost Per Launch": "18-28 mil USD",
+        "Burn Time": ""
+        "total_burntime_int": "",        
+        "Thrust": ""
+        "initial_thrust_int": "",        
+        "ISP": ""        
+        "asl_isp_int": "", 
+        "vac_isp_int": "",        
+        "Cost Per Launch": "18-28 mil USD"         
+        "cost_int": "",        
         "Fuel Type": '''
         Boosters/S1: HTPB - Hydroxyl-terminated polybutadiene
         S2: N2O4/UDMH - Dinitrogen Tetroxide/Unsymmetrical dimethylhydrazine
@@ -1829,12 +1919,15 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "5,000 kg (11,000 lb)",
         "Height": "49.13 m (161.2 ft)",
         "Height_int": "",
-        "Diameter": "2.8 m (9 ft 2 in)",
-        "Mass": "414,750 kg (914,370 lb)",
+        "Diameter": "2.8 m (9 ft 2 in)"
+        "diameter_int": "",        
+        "Mass": "414,750 kg (914,370 lb)"
+        "mass_int": "",        
         "Years in Operation": '''
         Mk.I: 2001-2010
         Mk.II: 2010~
-        ''',
+        '''
+        "firstyear_int": "",        
         "Country": "India",
         "Operational Status": '''
         Mk.I: Retired
@@ -1843,14 +1936,19 @@ CAST - China Academy of Space Technology
         "Number of Stages": "3",
         "Burn Time": '''
         Boosters: 154 sec, S1: 100 sec, S2: 149 seconds, S3: 846 sec
-        ''',
+        '''
+        "total_burntime_int": "",        
         "Thrust": '''
         Boosters: 760 kN, S1: 4,846.9 kN, S2: 846.8 kN, S3: 75 kN
-        ''',
+        '''
+        "initial_thrust_int": "",        
         "ISP": '''
         Boosters: 262 sec, S1: 237 sec, S2: 295 sec, S3: 454 sec
-        ''',
-        "Cost Per Launch": "",
+        '''        
+        "asl_isp_int": "", 
+        "vac_isp_int": "",        
+        "Cost Per Launch": ""         
+        "cost_int": "",        
         "Fuel Type": '''
         Boosters: N2O4/UDMH, S1: HTPB (solid), S2: N2O4/UDMH, S3: LH2/LOX
         ''',
@@ -1902,16 +2000,24 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "120,000 kg [proposed]",
         "Height": "Unknown",
         "Height_int": "",
-        "Diameter": "8.41 m (27.6 ft) [proposed]",
-        "Mass": "Unknown",
-        "Years in Operation": "N/A",
+        "Diameter": "8.41 m (27.6 ft) [proposed]"
+        "diameter_int": "",        
+        "Mass": "Unknown"
+        "mass_int": "",        
+        "Years in Operation": "N/A"
+        "firstyear_int": "",        
         "Country": "USA",
         "Operational Status": "Canceled",
         "Number of Stages": "",
-        "Burn Time": "Unknown",
-        "Thrust": "Unknown",
-        "ISP": "Unknown",
-        "Cost Per Launch": "Unknown",
+        "Burn Time": "Unknown"
+        "total_burntime_int": "",        
+        "Thrust": "Unknown"
+        "initial_thrust_int": "",        
+        "ISP": "Unknown"        
+        "asl_isp_int": "", 
+        "vac_isp_int": "",        
+        "Cost Per Launch": "Unknown"         
+        "cost_int": "",        
         "Fuel Type": "LH/LOX",
         "Image": "direct-jupiter.png",
         "Additional Information":
@@ -2053,9 +2159,12 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "10,000 kg (22,000 lb)",
         "Height": "43.4 m (142 ft)",
         "Height_int": "",
-        "Diameter": "4 m (13 ft)",
-        "Mass": "640,000 kg (1,410,000 lb)",
-        "Years in Operation": "2014~",
+        "Diameter": "4 m (13 ft)"
+        "diameter_int": "",        
+        "Mass": "640,000 kg (1,410,000 lb)"
+        "mass_int": "",        
+        "Years in Operation": "2014~"
+        "firstyear_int": "",        
         "Country": "India",
         "Operational Status": "Active",
         "Number of Stages": "3",
@@ -2063,18 +2172,23 @@ CAST - China Academy of Space Technology
         S1(Boosters): 128 sec
         S2: 203 sec
         S3: 643 sec
-        ''',
+        '''
+        "total_burntime_int": "",        
         "Thrust": '''
         S1(Boosters): 5,150 kN
         S2: 1,598 kN
         S3: 200 kN
-        ''',
+        '''
+        "initial_thrust_int": "",        
         "ISP": '''
         S1(Boosters): 274.5 sec
         S2: 293 sec
         S3: 443 sec
-        ''',
-        "Cost Per Launch": "",
+        '''        
+        "asl_isp_int": "", 
+        "vac_isp_int": "",        
+        "Cost Per Launch": ""         
+        "cost_int": "",        
         "Fuel Type": '''
         S1(Boosters): HTPB
         S2: UDMH / N2O4
@@ -2124,16 +2238,24 @@ CAST - China Academy of Space Technology
         "Payload Capacity to LEO": "500 kg (1,100 lb)",
         "Height": "34 m (111.5 ft)",
         "Height_int": "",
-        "Diameter": "2 m (6.5 ft)",
-        "Mass": "108,862 kg (239,999 lbs)",
-        "Years in Operation": "2020~ (Planned)",
+        "Diameter": "2 m (6.5 ft)"
+        "diameter_int": "",        
+        "Mass": "108,862 kg (239,999 lbs)"
+        "mass_int": "",        
+        "Years in Operation": "2020~ (Planned)"
+        "firstyear_int": "",        
         "Country": "India",
         "Operational Status": "In Development",
         "Number of Stages": "4",
-        "Burn Time": "S1: Unknown, S2: Unknown, S3: Unknown, S4: Unknown",
-        "Thrust": "S1: Unknown, S2: Unknown, S3: Unknown, S4: Unknown",
-        "ISP": "S1: Unknown, S2: Unknown, S3: Unknown, S4: Unknown",
-        "Cost Per Launch": "Unknown",
+        "Burn Time": "S1: Unknown, S2: Unknown, S3: Unknown, S4: Unknown"
+        "total_burntime_int": "",        
+        "Thrust": "S1: Unknown, S2: Unknown, S3: Unknown, S4: Unknown"
+        "initial_thrust_int": "",        
+        "ISP": "S1: Unknown, S2: Unknown, S3: Unknown, S4: Unknown"        
+        "asl_isp_int": "", 
+        "vac_isp_int": "",        
+        "Cost Per Launch": "Unknown"         
+        "cost_int": "",        
         "Fuel Type": "S1: Solid, S2: Solid, S3: Solid, S4: Liquid",
         "Image": "SSLV.png",
         "Additional Information":
@@ -2160,16 +2282,24 @@ The first three stages of the vehicle use solid propellant, with a fourth stage 
         "Payload Capacity to LEO": "",
         "Height": "~16 m (52 ft) | Orbiter: 6.5 m (21 ft)",
         "Height_int": "",
-        "Diameter": "1 m (3 ft 3 in)",
-        "Mass": "12000 kg (26455 lbs)",
-        "Years in Operation": "N/A (One test flight in 2016)",
+        "Diameter": "1 m (3 ft 3 in)"
+        "diameter_int": "",        
+        "Mass": "12000 kg (26455 lbs)"
+        "mass_int": "",        
+        "Years in Operation": "N/A (One test flight in 2016)"
+        "firstyear_int": "",        
         "Country": "India",
         "Operational Status": "In Development",
         "Number of Stages": "2",
-        "Burn Time": "Unknown",
-        "Thrust": "Unknown",
-        "ISP": "Unknown",
-        "Cost Per Launch": "Unknown",
+        "Burn Time": "Unknown"
+        "total_burntime_int": "",        
+        "Thrust": "Unknown"
+        "initial_thrust_int": "",        
+        "ISP": "Unknown"        
+        "asl_isp_int": "", 
+        "vac_isp_int": "",        
+        "Cost Per Launch": "Unknown"         
+        "cost_int": "",        
         "Fuel Type": "Unknown",
         "Image": "RLV-TD.png",
         "Additional Information":
@@ -2202,16 +2332,24 @@ SHLV(Variant):41,300 kg (91,100 lb)
         ''',
         "Height": "Unknown",
         "Height_int": "",
-        "Diameter": "Unknown",
-        "Mass": "270,000 to 700,000 kg (600,000 to 1,540,000 lbs)",
-        "Years in Operation": "2022~ (Planned)",
+        "Diameter": "Unknown"
+        "diameter_int": "",        
+        "Mass": "270,000 to 700,000 kg (600,000 to 1,540,000 lbs)"
+        "mass_int": "",        
+        "Years in Operation": "2022~ (Planned)"
+        "firstyear_int": "",        
         "Country": "India",
         "Operational Status": "In Development",
         "Number of Stages": "2",
-        "Burn Time": "S1: Unknown, S2: Unknown",
-        "Thrust": "S1: Unknown, S2: Unknown",
-        "ISP": "S1: Unknown, S2: Unknown",
-        "Cost Per Launch": "Unknown",
+        "Burn Time": "S1: Unknown, S2: Unknown"
+        "total_burntime_int": "",        
+        "Thrust": "S1: Unknown, S2: Unknown"
+        "initial_thrust_int": "",        
+        "ISP": "S1: Unknown, S2: Unknown"        
+        "asl_isp_int": "", 
+        "vac_isp_int": "",        
+        "Cost Per Launch": "Unknown"         
+        "cost_int": "",        
         "Fuel Type": "S1: RP-1/LOX, S2: LH2/LOX",
         "Image": "ULV.png",
         "Additional Information":
@@ -2245,9 +2383,12 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
         "Payload Capacity to LEO": "1,400 kilograms (3,100 lb)",
         "Height": "50 m (160 ft)",
         "Height_int": "",
-        "Diameter": "3.8 m (12 ft)",
-        "Mass": "207,200 kg (456,800 lb)",
-        "Years in Operation": "1979-1986",
+        "Diameter": "3.8 m (12 ft)"
+        "diameter_int": "",        
+        "Mass": "207,200 kg (456,800 lb)"
+        "mass_int": "",        
+        "Years in Operation": "1979-1986"
+        "firstyear_int": "",        
         "Country": "EU",
         "Operational Status": "Retired",
         "Number of Stages": "4",
@@ -2259,7 +2400,7 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
         "asl_isp_int": "",
         "vac_isp_int": "",
         "Cost Per Launch": "",
-        "cost_int": "",
+        "cost_int": ""                
         "Fuel Type": "",
         "Image": "Ariane 1.png",
         "Additional Information":
@@ -2337,9 +2478,12 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
         "Payload Capacity to LEO": "(GEO) 2,175 kg (4,795 lb)",
         "Height": "49.13 m (161.2 ft)",
         "Height_int": "",
-        "Diameter": "3.8 m (12 ft)",
-        "Mass": "215,000 kg (474,000 lb)",
-        "Years in Operation": "1986-1989",
+        "Diameter": "3.8 m (12 ft)"
+        "diameter_int": "",        
+        "Mass": "215,000 kg (474,000 lb)"
+        "mass_int": "",        
+        "Years in Operation": "1986-1989"
+        "firstyear_int": "",        
         "Country": "EU",
         "Operational Status": "Retired",
         "Number of Stages": "3",
@@ -2445,9 +2589,12 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
         "Payload Capacity to LEO": "(GTO) 2,700 kg (6,000 lb)",
         "Height": "49.13 m (161.2 ft)",
         "Height_int": "",
-        "Diameter": "3.8 m (12 ft)",
-        "Mass": "234,000 kg (516,000 lb)",
-        "Years in Operation": "1984-1989",
+        "Diameter": "3.8 m (12 ft)"
+        "diameter_int": "",        
+        "Mass": "234,000 kg (516,000 lb)"
+        "mass_int": "",        
+        "Years in Operation": "1984-1989"
+        "firstyear_int": "",        
         "Country": "EU",
         "Operational Status": "Retired",
         "Number of Stages": "3",
@@ -2568,9 +2715,12 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
         "Payload Capacity to LEO": "5000–7600 kg",
         "Height": "58.72 m",
         "Height_int": "",
-        "Diameter": "3.8 m",
-        "Mass": "240,000–470,000 kg",
-        "Years in Operation": "1988-2003",
+        "Diameter": "3.8 m"
+        "diameter_int": "",        
+        "Mass": "240,000–470,000 kg"
+        "mass_int": "",        
+        "Years in Operation": "1988-2003"
+        "firstyear_int": "",        
         "Country": "EU",
         "Operational Status": "Retired",
         "Number of Stages": "2",
@@ -2667,8 +2817,10 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
         "Payload Capacity to LEO": "16,000 kg (35,000 lb)",
         "Height": "46–52 m (151–171 ft)",
         "Height_int": "",
-        "Diameter": "5.4 m (18 ft)",
-        "Mass": "777,000 kg (1,713,000 lb)",
+        "Diameter": "5.4 m (18 ft)"
+        "diameter_int": "",        
+        "Mass": "777,000 kg (1,713,000 lb)"
+        "mass_int": "",        
         "Years in Operation":
             '''
 G: 1996-2003
@@ -2676,7 +2828,8 @@ G+: 2004-2004
 GS: 2005-2009
 ECA: 2002~
 ES: 2008-2018
-            ''',
+            '''
+        "firstyear_int": "",        
         "Country": "EU",
         "Operational Status":
             '''
@@ -2797,16 +2950,24 @@ to Ariane 6.
         "Payload Capacity to LEO": "195 kg (430 lbs)",
         "Height": "20.2 m (66 ft)",
         "Height_int": "",
-        "Diameter": "1.41 m (4 ft 8 in)",
-        "Mass": "41,600 kg (92,000 lb)",
-        "Years in Operation": "1974-1979",
+        "Diameter": "1.41 m (4 ft 8 in)"
+        "diameter_int": "",        
+        "Mass": "41,600 kg (92,000 lb)"
+        "mass_int": "",        
+        "Years in Operation": "1974-1979"
+        "firstyear_int": "",        
         "Country": "Japan",
         "Operational Status": "Retired",
         "Number of Stages": "3",
-        "Burn Time": "Unknown",
-        "Thrust": "Unknown",
-        "ISP": "Unknown",
-        "Cost Per Launch": "Unknown",
+        "Burn Time": "Unknown"
+        "total_burntime_int": "",        
+        "Thrust": "Unknown"
+        "initial_thrust_int": "",        
+        "ISP": "Unknown"        
+        "asl_isp_int": "", 
+        "vac_isp_int": "",        
+        "Cost Per Launch": "Unknown"         
+        "cost_int": "",        
         "Fuel Type": "Unknown",
         "Image": "M-3C.png",
         "Additional Information":
@@ -2834,7 +2995,7 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Height": "",
         "height_int": "",
         "Diameter": "",
-        "diameter_int": "",
+        "diameter_int": ""       
         "Mass": "",
         "mass_int": "",
         "Years in Operation": "",
@@ -3350,9 +3511,12 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Payload Capacity to LEO": "",
         "Height": "",
         "Height_int": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
+        "Diameter": ""
+        "diameter_int": "",        
+        "Mass": ""
+        "mass_int": "",        
+        "Years in Operation": ""
+        "firstyear_int": "",        
         "Country": "New Zealand",
         "Operational Status": "Active",
         "Number of Stages": "",
@@ -3645,9 +3809,12 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Diameter":
         '''
         Angara 1.2: 2.9 m (9 ft 6 in)
-        Angara A5: 8.86 m (29.1 ft)''',
-        "Mass": "171,500 kilograms (378,100 lb)-790,000 kilograms (1,740,000 lb)",
-        "Years in Operation": "2014~",
+        Angara A5: 8.86 m (29.1 ft)'''
+        "diameter_int": "",        
+        "Mass": "171,500 kilograms (378,100 lb)-790,000 kilograms (1,740,000 lb)"
+        "mass_int": "",        
+        "Years in Operation": "2014~"
+        "firstyear_int": "",        
         "Country": "Russia",
         "Operational Status": "Active",
         "Number of Stages": "2-3",
@@ -3745,9 +3912,12 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Payload Capacity to LEO": "",
         "Height": "",
         "Height_int": "",
-        "Diameter": "",
-        "Mass": "",
-        "Years in Operation": "",
+        "Diameter": ""
+        "diameter_int": "",        
+        "Mass": ""
+        "mass_int": "",        
+        "Years in Operation": ""
+        "firstyear_int": "",        
         "Country": "Russia",
         "Operational Status": "",
         "Number of Stages": "",
@@ -6776,9 +6946,12 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Payload Capacity to LEO": "100-300 kg",
         "Height": "25 m (82 ft)",
         "Height_int": "",
-        "Diameter": "0.88 m(First stage) 1.25 m(Second stage)",
-        "Mass": "48,000 kg (105,821 lbs)",
-        "Years in Operation": "1989",
+        "Diameter": "0.88 m(First stage) 1.25 m(Second stage)"
+        "diameter_int": "",        
+        "Mass": "48,000 kg (105,821 lbs)"
+        "mass_int": "",        
+        "Years in Operation": "1989"
+        "firstyear_int": "",        
         "Country": "Iraq",
         "Operational Status": "Abandoned",
         "Number of Stages": "3",
@@ -6882,9 +7055,12 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Payload Capacity to LEO": "1000 kg (2204 lbs)",
         "Height": "29 m (95 ft)",
         "Height_int": "",
-        "Diameter": "1.82 m (6 ft 0 in)",
-        "Mass": "54,000 kg (119,000 lb)",
-        "Years in Operation": "2020~",
+        "Diameter": "1.82 m (6 ft 0 in)"
+        "diameter_int": "",        
+        "Mass": "54,000 kg (119,000 lb)"
+        "mass_int": "",        
+        "Years in Operation": "2020~"
+        "firstyear_int": "",        
         "Country": "USA",
         "Operational Status": "In Development",
         "Number of Stages": "2",
@@ -6968,12 +7144,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         130: 41.9 m (137 ft)
         230/230+: 42.5 m (139 ft)
         ''',
-        "Diameter": "3.9 m (13 ft)",
+        "Diameter": "3.9 m (13 ft)"
+        "diameter_int": "",        
         "Mass":
         '''
         110/120/130: 282,000–296,000 kg (622,000–653,000 lb)
         230/230+: 298,000 kg (657,000 lb)
-        ''',
+        '''
+        "mass_int": "",        
         "Years in Operation":
         '''
         110: 2013
@@ -6981,7 +7159,8 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         130: 2014
         230: 2016-2019
         230+: 2019~
-        ''',
+        '''
+        "firstyear_int": "",        
         "Country": "USA",
         "Operational Status":
         '''
@@ -7060,15 +7239,22 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Payload Capacity to LEO": "25,400 kg (56,000 lb)",
         "Height": "94 meters (308 ft)",
         "Height_int": "",
-        "Diameter": "5.5 meters (18 ft)",
-        "Mass": "Unknown",
-        "Years in Operation": "2009",
+        "Diameter": "5.5 meters (18 ft)"
+        "diameter_int": "",        
+        "Mass": "Unknown"
+        "mass_int": "",        
+        "Years in Operation": "2009"
+        "firstyear_int": "",        
         "Country": "USA",
         "Operational Status": "Canceled",
         "Number of Stages": "2",
-        "Burn Time": "S1: 150 sec, S2: 800 sec",
-        "Thrust": "S1: 15,000 kN, S2: 1,308 kN",
-        "ISP": "S1: 453 sec, S2: 465 sec",
+        "Burn Time": "S1: 150 sec, S2: 800 sec"
+        "total_burntime_int": "",        
+        "Thrust": "S1: 15,000 kN, S2: 1,308 kN"
+        "initial_thrust_int": "",        
+        "ISP": "S1: 453 sec, S2: 465 sec"        
+        "asl_isp_int": "", 
+        "vac_isp_int": "",        
         "Cost Per Launch": "",
         "cost_int": "",
         "Fuel Type": "LH2/LOX",
@@ -7101,17 +7287,25 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Payload Capacity to LEO": "188,000 kg (414,000 lb)",
         "Height": "116 m (381 ft) or 109 m (358 ft)",
         "Height_int": "",
-        "Diameter": "10 m (33 ft) or 8.4 m (28 ft)",
-        "Mass": "Unknown",
-        "Years in Operation": "N/A",
+        "Diameter": "10 m (33 ft) or 8.4 m (28 ft)"
+        "diameter_int": "",        
+        "Mass": "Unknown"
+        "mass_int": "",        
+        "Years in Operation": "N/A"
+        "firstyear_int": "",        
         "Country": "USA",
         "Operational Status": "Canceled",
         "Number of Stages": "2",
-        "Burn Time": "Unknown",
+        "Burn Time": "Unknown"
+        "total_burntime_int": "",        
         "Thrust": "8,250-10,250 kN",
-        "Fuel Type": "LH2/LOX",
-        "ISP": "Unknown",
+        "initial_thrust_int": "",        
+        "ISP": "Unknown"        
+        "asl_isp_int": "", 
+        "vac_isp_int": "",        
         "Cost Per Launch": "Unknown",
+        "cost_int": "",
+                "Fuel Type": "LH2/LOX",
         "Image": "Ares V.png",
         "Additional Information":
             '''
@@ -8777,16 +8971,24 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Payload Capacity to LEO": "",
         "Height": " 2.44 m (8.00 ft)",
         "Height_int": "",
-        "Diameter": "32.00 m (104.00 ft)",
-        "Mass": "63,966 kg (141,020 lb)",
-        "Years in Operation": "1960-1962",
+        "Diameter": "32.00 m (104.00 ft)"
+        "diameter_int": "",        
+        "Mass": "63,966 kg (141,020 lb)"
+        "mass_int": "",        
+        "Years in Operation": "1960-1962"
+        "firstyear_int": "",        
         "Country": "USA",
         "Operational Status": "Retired",
         "Number of Stages": "",
-        "Burn Time": "Unknown",
-        "Thrust": "Unknown",
-        "ISP": "Unknown",
-        "Cost Per Launch": "Unknown",
+        "Burn Time": "Unknown"
+        "total_burntime_int": "",        
+        "Thrust": "Unknown"
+        "initial_thrust_int": "",        
+        "ISP": "Unknown"        
+        "asl_isp_int": "", 
+        "vac_isp_int": "",        
+        "Cost Per Launch": "Unknown"         
+        "cost_int": "",        
         "Fuel Type": " Nitric Acid/UDMH",
         "Image": "thordelta.png",
         "Additional Information":
@@ -9590,16 +9792,24 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "Payload Capacity to LEO": "20,000 kg (44,500 lbs)",
         "Height": "90 m (300 ft)",
         "Height_int": "",
-        "Diameter": "5.4 m (18 ft)",
-        "Mass": "Unknown",
-        "Years in Operation": "N/A",
+        "Diameter": "5.4 m (18 ft)"
+        "diameter_int": "",        
+        "Mass": "Unknown"
+        "mass_int": "",        
+        "Years in Operation": "N/A"
+        "firstyear_int": "",        
         "Country": "USA & EU",
         "Operational Status": "Canceled",
         "Number of Stages": "2",
-        "Burn Time": "650 seconds",
-        "Thrust": "1,340 kN",
-        "ISP": "431 seconds (vacuum)",
-        "Cost Per Launch": "180m USD",
+        "Burn Time": "650 seconds"
+        "total_burntime_int": "",        
+        "Thrust": "1,340 kN"
+        "initial_thrust_int": "",        
+        "ISP": "431 seconds (vacuum)"        
+        "asl_isp_int": "", 
+        "vac_isp_int": "",        
+        "Cost Per Launch": "180m USD"         
+        "cost_int": "",        
         "Fuel Type": "",
         "Image": "Liberty.png",
         "Additional Information":
