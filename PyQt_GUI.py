@@ -1,18 +1,13 @@
 # -*- coding: utf-8 -*-
-
-# Form implementation generated from reading ui file 'rocket_GUI_PyQt-final.ui'
-#
-# Created by: PyQt5 UI code generator 5.13.2
-#
-# WARNING! All changes made in this file will be lost!
-
-
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtGui import QPixmap
-from PyQt5.QtWidgets import QSplashScreen, QLabel
+from PyQt5.QtWidgets import (QSplashScreen, QLabel, QCompleter, QGraphicsScene, 
+QGraphicsView, QLineEdit, QLabel, QPushButton, QScrollArea, QVBoxLayout, QWidget,
+QSpacerItem, QMainWindow, QSizePolicy, QHBoxLayout, QVBoxLayout)
 from PyQt5.QtCore import QTimer, Qt
 from rocket_dictionary import rocketDictionary
 from collections import OrderedDict
+import sys
 
 ascending_alphabetical_rocket_choices = sorted(rocketDictionary.keys())
 descending_alphabetical_rocket_choices = sorted(rocketDictionary.keys(), reverse=True)
@@ -84,6 +79,8 @@ class Ui_MainWindow(object):
         self.searchHeaderLabel.setObjectName("searchHeaderLabel")
         self.horizontalLayout_2.addWidget(self.searchHeaderLabel)
         self.searchBox = QtWidgets.QLineEdit(self.searchBarFrame)
+        self.searchBox.setPlaceholderText(" Enter Name of Rocket...")
+        self.searchBox.textChanged.connect(self.update_display)
         self.searchBox.setMinimumSize(QtCore.QSize(0, 10))
         self.searchBox.setMaximumSize(QtCore.QSize(200, 16777215))
         self.searchBox.setStyleSheet("background-color: rgb(70, 70, 70);\n"
@@ -91,6 +88,9 @@ class Ui_MainWindow(object):
 "selection-color: rgb(0, 0, 0);\n"
 "selection-background-color: rgb(66, 229, 243);")
         self.searchBox.setObjectName("searchBox")
+        self.completer = QCompleter(rocketDictionary.keys())
+        self.completer.setCaseSensitivity(Qt.CaseInsensitive)
+        self.searchBox.setCompleter(self.completer)
         self.horizontalLayout_2.addWidget(self.searchBox)
         self.verticalLayout.addWidget(self.searchBarFrame)
         self.listWidget = QtWidgets.QListWidget(self.rocketClusterFrame)
@@ -332,12 +332,12 @@ class Ui_MainWindow(object):
         self.listWidget.setStatusTip(_translate("MainWindow", "Rocket List"))
         __sortingEnabled = self.listWidget.isSortingEnabled()
         self.listWidget.setSortingEnabled(False)
-        j = 0
+        #j = 0
 
-        for rocket in ascending_alphabetical_rocket_choices:
-            item = self.listWidget.item(j)
-            item.setText(_translate("MainWindow", rocket))
-            j = j + 1
+        # for rocket in ascending_alphabetical_rocket_choices:
+        #     item = self.listWidget.item(j)
+        #     item.setText(_translate("MainWindow", rocket))
+        #     j = j + 1
 
         # item = self.listWidget.item(0)
         # item.setText(_translate("MainWindow", "poop"))
@@ -456,23 +456,20 @@ class Ui_MainWindow(object):
         self.actionPrint.setIcon(QtGui.QIcon("printer.png"))
 
         
-#     def flashSplash(self):
-#         self.splash = QSplashScreen(QPixmap('splash.jpg'))
 
-#         # By default, SplashScreen will be in the center of the screen.
-#         # You can move it to a specific location if you want:
-#         # self.splash.move(10,10)
+    def update_display(self, text):
+        for i in range(len(self.listWidget)):
+            if text.lower() not in self.listWidget.item(i).text().lower():
+                self.listWidget.item(i).setHidden(True)
+            else: 
+                self.listWidget.item(i).setHidden(False)
 
-#         self.splash.show()
-
-#         # Close SplashScreen after 2 seconds (2000 ms)
-#         QTimer.singleShot(2500, self.splash.close)
 
 # ***** Define what happens when a rocket is selected from listWidget ******
     def selectionChanged(self):
         _translate = QtCore.QCoreApplication.translate
         rocketName = self.listWidget.currentItem().text()
-        rocketImage = "/Users/seralyncampbell/DevOps/rocket_info/images/" + rocketDictionary[rocketName]['Image']
+        rocketImage = "images/" + rocketDictionary[rocketName]['Image']
         self.graphicsView.setStyleSheet(f"background-color: rgb(52, 52, 52); background-image: url({rocketImage}); background-repeat: no-repeat;")
         manufacturer = rocketDictionary[rocketName]['Manufacturer'].replace('\n', '<br />').replace('\n\n', '<br /><br />')
         height = rocketDictionary[rocketName]['Height'].replace('\n', '<br />')
