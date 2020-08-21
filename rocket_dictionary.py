@@ -18,20 +18,22 @@ rocketDictionary = {
         "Country": "USA",
         "Operational Status": "Retired",
         "Number of Stages": "2-3",
-        "Burn Time": '''
-        S1: 168 sec, S2: 360 sec, S3: 421 sec
-        ''',
+        "Burn Time": "S1: 168 sec, S2: 360 sec, S3: 421 sec",
         "total_burntime_int": 949,
         "Thrust": "S1: 35,100 kN, S2: 5,141 kN, S3: 1,033 kN",
         "initial_thrust_int": 35100,
         "ISP": "S1: 263 sec, S2: 421 sec, S3: 421 sec",
         "asl_isp_int": 263,
         "vac_isp_int": 421,
-        "Cost Per Launch": "$1.23 billion (adjusted for inflation)",
+        "Cost Per Launch": "$1.23 billion",
         "cost_int": 1230000000,
-        "Fuel Type": '''
-        S1: RP-1/LOX, S2:LH2 / LOX, S3: LH2 / LOX
-        ''',
+        "Fuel Type": "S1: RP-1/LOX, S2:LH2 / LOX, S3: LH2 / LOX",
+        "Total Launches": "13",
+        "total_launches_int": 13,
+        "Successful Launches": "12",
+        "successful_launches_int": 12,
+        "Launch Failures": "1(partial) - Apollo 6",
+        "failed_launches_int": 1,
         "Image": "SaturnV.png",
         "Additional Information":
 '''
@@ -118,6 +120,12 @@ be a prototype and referred to it as "an infant Saturn".
         "Cost Per Launch": "US$80 million (Arianespace) US$35-48.5 million (Roscosmos)",
         "cost_int": 50000000,
         "Fuel Type": "Boosters: RP-1/LOX, S1: RP-1/LOX, S2: RP-1/LOX, S3(Optional): N2O4 / UDMH",
+        "Total Launches": "105 (2.1a: 46, 2.1b: 53, 2.1v: 6)",
+        "total_launches_int": 105,
+        "Successful Launches": "98 (2.1a: 43, 2.1b: 50, 2.1v: 5)",
+        "successful_launches_int": 98,
+        "Launch Failures": "7 (2.1a: 3, 2.1b: 3, 2.1v: 1)",
+        "failed_launches_int": 7,
         "Image": "soyuz.png",
         "Additional Information":
             '''
@@ -155,7 +163,8 @@ Soyuz-U launcher. The latter is a "light" version without side boosters.
 
 When launched from the Kourou site, Soyuz-2 is always mated with the ST-type fairing; this version 
 is called Soyuz-ST or Soyuz-STK, where additional "K" indicates special measures taken for preparing 
-and launching the rocket in hot and humid conditions.[citation needed]
+and launching the rocket in hot and humid conditions.
+
 
 Soyuz-2.1a
 The 2.1a version includes conversion from analog to digital flight control system and uprated 
@@ -215,6 +224,12 @@ low Earth orbit.
         "Cost Per Launch": "90 million USD",
         "cost_int": 90000000,
         "Fuel Type": "Boosters: HTPB mix, S1: RP-1/LOX, S2: LH2/LOX, S3: HTPB",
+        "Total Launches": "3",
+        "total_launches_int": 3,
+        "Successful Launches": "0",
+        "successful_launches_int": 0,
+        "Launch Failures": "3",
+        "failed_launches_int": 3,
         "Image": "delta iii.png",
         "Additional Information":
             '''
@@ -246,6 +261,13 @@ low Earth orbit.
             separation of the ground-lit boosters. To maintain steering authority, 
             three of the boosters had vectoring nozzles. GEM-46 boosters would 
             later find use on the Delta II, leading to the Delta II Heavy.
+
+--Launches--
+Delta Flight 259: The inaugural launch on August 26, 1998 from Cape Canaveral Air Force Station ended in failure, when software adapted from the Delta II caused a guidance failure during first-stage flight. The failure and subsequent vehicle motion depleted the hydraulic fluid used for steering. Upon loss of control, the vehicle was destroyed. The Galaxy 10 satellite (Hughes HS601 HP type) was destroyed.
+
+Delta Flight 269: The second launch on May 4, 1999, carrying the Orion 3 satellite (Hughes HS601 model), also ended in failure. The second stage engine experienced a pressure anomaly and rupture, and shut down while its second burn was underway, leaving the payload in a useless orbit.
+
+Delta Flight 280: The third and final flight on August 23, 2000 launched a 4,348 kg (9,586 lb) satellite simulator into a 180.76 × 20,694 km orbit. While the apogee was 2,710 km lower than the targeted 185 × 23,404 km, and somewhat a partial failure, it was within the allowable 3,000 km margin of error and demonstrated the propellant depletion shutdown capability of the DCSS, modified versions of which would become the second stage of the Delta IV.
             '''
     },
 
@@ -280,6 +302,12 @@ low Earth orbit.
         "Cost Per Launch": "Unknown but slated to be far less than Ariane 5",
         "cost_int": None,
         "Fuel Type": "Boosters: Aluminium-HTPB , S1: LH2/LOX, S2: LH2/LOX",
+        "Total Launches": "N/A",
+        "total_launches_int": None,
+        "Successful Launches": "N/A",
+        "successful_launches_int": None,
+        "Launch Failures": "N/A",
+        "failed_launches_int": None,
         "Image": "ariane 62.png",
         "Additional Information":
             '''
@@ -303,7 +331,7 @@ low Earth orbit.
             the maiden orbital flight had been planned for 2020, by May 
             2020, the planned initial launch date had been delayed until 2021.
 
-            Two variants of Ariane 6 are being developed:
+Two variants of Ariane 6 are being developed:
 
 Ariane 62, with two P120 solid boosters, will weigh around 530 tonnes (1,170,000 lbs) at liftoff and is intended mainly for government and scientific missions. It can launch up to 5,000 kg (11,000 lbs) into GTO:33 and 10,350 kg (22,820 lbs) into LEO.:45
 
@@ -340,6 +368,12 @@ Ariane 6 comprises three major structural and propellant-carrying components.
         "Cost Per Launch": "Unknown",
         "cost_int": None,
         "Fuel Type": "S1: RP-1/LOX, S2: MMH/N2O4",
+        "Total Launches": "N/A",
+        "total_launches_int": None,
+        "Successful Launches": "N/A",
+        "successful_launches_int": None,
+        "Launch Failures": "N/A",
+        "failed_launches_int": None,
         "Image": "tronador ii.png",
         "Additional Information":
             '''
@@ -389,6 +423,12 @@ The proposed Tronador III would have the same diameter as Tronador II, but would
         "Cost Per Launch": "N/A",
         "cost_int": None,
         "Fuel Type": "N/A",
+        "Total Launches": "2",
+        "total_launches_int": 2,
+        "Successful Launches": "0",
+        "successful_launches_int": 0,
+        "Launch Failures": "2",
+        "failed_launches_int": 2,
         "Image": "vls1.png",
         "Additional Information":
             '''
@@ -439,16 +479,22 @@ The proposed Tronador III would have the same diameter as Tronador II, but would
         "Country": "Brazil",
         "Operational Status": "In Development",
         "Number of Stages": "3",
-        "Burn Time": "Unknown",
-        "total_burntime_int": None,
-        "Thrust": "Unknown",
-        "initial_thrust_int": None,
-        "ISP": "Unknown",
-        "asl_isp_int": None,
-        "vac_isp_int": None,
+        "Burn Time": "S1: 60 sec, S2: 60 sec, S3: 68 sec",
+        "total_burntime_int": 188,
+        "Thrust": "S1: 400 kN, S2: 400 kN, S3: 33.24 kN",
+        "initial_thrust_int": 400,
+        "ISP": "S1: 277 sec, S2: 277 sec, S3: 282 sec",
+        "asl_isp_int": 277,
+        "vac_isp_int": 282,
         "Cost Per Launch": "Unknown",
-        "cost_int": None,
-        "Fuel Type": "Unknown",
+        "cost_int": None,   
+        "Fuel Type": "S1: solid, S2: solid, S3: solid",
+        "Total Launches": "N/A",
+        "total_launches_int": None,
+        "Successful Launches": "N/A",
+        "successful_launches_int": None,
+        "Launch Failures": "N/A",
+        "failed_launches_int": None,
         "Image": "vlm.png",
         "Additional Information":
             '''
@@ -515,6 +561,12 @@ The proposed Tronador III would have the same diameter as Tronador II, but would
         "Cost Per Launch": "$14,448,000",
         "cost_int": 14448000,
         "Fuel Type": "S1: N2O4/UDMH, S2: N2O4/UDMH",
+        "Total Launches": "11",
+        "total_launches_int": 11,
+        "Successful Launches": "7",
+        "successful_launches_int": 7,
+        "Launch Failures": "4",
+        "failed_launches_int": 4,
         "Image": "fengbao1.png",
         "Additional Information":
             '''
@@ -557,6 +609,12 @@ The proposed Tronador III would have the same diameter as Tronador II, but would
         "Cost Per Launch": "Unknown",
         "cost_int": None,
         "Fuel Type": "Unknown",
+        "Total Launches": "2 confirmed, 4 rumored",
+        "total_launches_int": 2,
+        "Successful Launches": "0",
+        "successful_launches_int": 0,
+        "Launch Failures": "2",
+        "failed_launches_int": 2,
         "Image": "kaituozhe1.png",
         "Additional Information":
             '''
@@ -636,6 +694,12 @@ The Kaituozhe-2A (KT-2A) features a possibly DF-31 based stage 1, augmented by t
         "Cost Per Launch": "Unknown",
         "cost_int": None,
         "Fuel Type": "Unknown",
+        "Total Launches": "12",
+        "total_launches_int": 12,
+        "Successful Launches": "11",
+        "successful_launches_int": 11,
+        "Launch Failures": "1",
+        "failed_launches_int": 1,
         "Image": "kuaizhou.png",
         "Additional Information":
             '''
@@ -704,9 +768,15 @@ CAST - China Academy of Space Technology''',
         "ISP": "S1: 267.4 sec, S2: 286.9 sec, S3: 254 sec",
         "asl_isp_int": 279,
         "vac_isp_int": 254,
-        "Cost Per Launch": "",
-        "cost_int": "",
+        "Cost Per Launch": "Unknown",
+        "cost_int": None,
         "Fuel Type": "S1: UDMH/AK27S, S2: UDMH/AK27S, S3: Polysulfide",
+        "Total Launches": "2",
+        "total_launches_int": 2,
+        "Successful Launches": "2",
+        "successful_launches_int": 2,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
         "Image": "longmarch1.png",
         "Additional Information":
             '''
@@ -754,6 +824,12 @@ CAST - China Academy of Space Technology
         "Cost Per Launch": "$20,979,838",
         "cost_int": 20979838,
         "Fuel Type": "S1: UDMH/N2O4, S2: UDMH/N2O4, S3: HTPB",
+        "Total Launches": "3",
+        "total_launches_int": 3,
+        "Successful Launches": "2",
+        "successful_launches_int": 2,
+        "Launch Failures": "1",
+        "failed_launches_int": 1,
         "Image": "longmarch1d.png",
         "Additional Information":
             '''
@@ -827,6 +903,12 @@ Also known as "Chang Zheng 1-D/CZ-1"
         "Cost Per Launch": "Expendable: 62M, Reused: 50M",
         "cost_int": 50,
         "Fuel Type": "S1: RP-1/LOX, S2: RP-1/LOX",
+        "Total Launches": "91 FT: 71, v1.1: 15, v1.0: 5",
+        "total_launches_int": 91,
+        "Successful Launches": "89 FT: 71, v1.1: 14, v1.0: 4",
+        "successful_launches_int": 89,
+        "Launch Failures": "1 (v1.1: CRS-7), Partial Failure: 1 (v1.0: CRS-1)",
+        "failed_launches_int": 2,
         "Image": "falcon9.png",
         "Additional Information":
             '''
@@ -912,6 +994,12 @@ Also known as "Chang Zheng 1-D/CZ-1"
         "Cost Per Launch": "Expendable: 150M, Reusable: 90M",
         "cost_int": 90000000,
         "Fuel Type": "Boosters: RP-1/LOX, S1: RP-1/LOX, S2: RP-1/LOX",
+        "Total Launches": "3",
+        "total_launches_int": 3,
+        "Successful Launches": "3",
+        "successful_launches_int": 3,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
         "Image": "falconheavy.png",
         "Additional Information":
             '''
@@ -964,16 +1052,22 @@ Also known as "Chang Zheng 1-D/CZ-1"
         "Country": "USA",
         "Operational Status": "Active",
         "Number of Stages": "2",
-        "Burn Time": "",
+        "Burn Time": "Boosters: 94 sec, S1: 253 sec, S2: 842 sec",
         "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
+        "Thrust": "Boosters: 1,688.4 kN, S1: 3,827 kN, S2: 99.2 kN",
+        "initial_thrust_int": 5515.4,
+        "ISP": "Boosters: 279.3 sec, S1: 311.3 sec, S2: 450.5 sec",
+        "asl_isp_int": 295,
+        "vac_isp_int": 450.5,
+        "Cost Per Launch": "$118,751,161",
+        "cost_int": 118751161,
+        "Fuel Type": "Boosters: HTPB, S1: RP-1/LOX, S2: LH2/LOX",
+        "Total Launches": "83 (401: 38, 411: 6, 421: 7, 431: 3) (501: 6, 521: 2, 531: 3, 541: 6, 551: 11) (N22: 1)",
+        "total_launches_int": 83,
+        "Successful Launches": "82 (401: 37, 411: 6, 421: 7, 431: 3) (501: 6, 521: 2, 531: 3, 541: 6, 551: 11) (N22: 1)",
+        "successful_launches_int": 82,
+        "Launch Failures": "Partial- 1 (401 – low orbit, customer declared success)",
+        "failed_launches_int": 1,
         "Image": "atlasv.png",
         "Additional Information":
             '''
@@ -1030,16 +1124,22 @@ Also known as "Chang Zheng 1-D/CZ-1"
         "Country": "USA",
         "Operational Status": "In Development",
         "Number of Stages": "2",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
+        "Burn Time": "Boosters: 126 sec, S1: 480 sec, S2: 1125 sec, S2(Exploration US): Unknown",
+        "total_burntime_int": 1731,
+        "Thrust": "Boosters: 32,000 kN (16,000 each), S1: 7,440 kN, S2: 110.1 kN, S2(Exploration US): 440 kN",
+        "initial_thrust_int": 39440,
+        "ISP": "Boosters: 269 sec, S1: 363 sec, S2: 462 sec, S2(Exploration US): Unknown",
+        "asl_isp_int": 316,
+        "vac_isp_int": 462,
+        "Cost Per Launch": "> $2,000,000,000",
+        "cost_int": 2000000000,
+        "Fuel Type": "Boosters: PBAN, APCP, S1: LH2/LOX, S2: LH2/LOX, S2(Exploration US): LH2/LOX",
+        "Total Launches": "N/A",
+        "total_launches_int": None,
+        "Successful Launches": "N/A",
+        "successful_launches_int": None,
+        "Launch Failures": "N/A",
+        "failed_launches_int": None,
         "Image": "sls.png",
         "Additional Information":
             '''
@@ -1073,13 +1173,70 @@ Also known as "Chang Zheng 1-D/CZ-1"
             mass. The SLS is planned to launch the Orion spacecraft and use the 
             ground operations and launch facilities at NASA's Kennedy Space Center 
             in Florida.
+
+--Vehicle description--
+The SLS is a Space Shuttle-derived launch vehicle, with the first stage of the rocket being powered by one central core stage and two outboard boosters. The upper stage is being developed from the Block 1 variant to a Block 2 variant, the Exploration Upper Stage.
+
+-Core stage-
+The Space Launch System's core stage contains the Main Propulsion System (MPS) of the rocket. It is 65 metres (212 ft) long by 8.4 metres (27.6 ft) in diameter and fuels the four RS-25 rocket engines at its base. The core stage is structurally and visually similar to the Space Shuttle external tank, containing the liquid hydrogen fuel and liquid oxygen oxidizer. Initial flights are planned to use modified RS-25D engines left over from the Space Shuttle program. However, Space Shuttle main engines are reusable, so later flights are planned to switch to a different version of the engine not designed for reuse, as it will be cheaper.
+
+The core stage is fabricated at NASA's Michoud Assembly Facility and is common across all currently planned evolutions of the SLS to avoid the need for redesigns to meet varying requirements.
+
+-Boosters-
+SLS Booster test at Orbital ATK/Northrop Grumman's desert facility northwest of Ogden, Utah, March 2015
+Block 1 and 1B boosters
+Blocks 1 and 1B of the SLS are planned to use two five-segment Solid Rocket Boosters (SRBs). These new SRBs are derived from the four-segment Space Shuttle Solid Rocket Boosters, with the addition of a center booster segment, new avionics, and lighter insulation. The five-segment SRBs provide approximately 25% more total impulse than the Shuttle SRB, but will no longer be recovered after use.
+
+-Booster Obsolescence and Life Extension program-
+The stock of SLS boosters is limited by the number of casings left over from the Shuttle program, since they modify flown boosters to add an additional segment. There are enough to last through eight flights of the SLS, but a replacement will be required for further flights. On 2 March 2019, the Booster Obsolescence and Life Extension (BOLE) program was announced. This program will use new solid rocket boosters built by Northrop Grumman Innovation Systems for further SLS flights. These boosters would be derived from the composite-casing SRBs in development for the OmegA launch vehicle, and are projected to increase Block 1B's payload to TLI by 3–4 tonnes, which is still 1 ton below the payload capacity of Block 2.
+
+-Upper Stage-
+ICPS - Block 1
+The Interim Cryogenic Propulsion Stage (ICPS) is planned to fly on Artemis 1. It is a stretched and human rated Delta IV 5 metres (16 ft) Delta Cryogenic Second Stage (DCSS) powered by a single RL10B-2. Block 1 is intended to be capable of lifting 95 tonnes to LEO in this configuration if the ICPS is considered part of the payload. Artemis 1 is to be launched into an initial 1,800 by −93 kilometres (1,118 by −58 mi) suborbital trajectory to ensure safe disposal of the core stage. ICPS will then perform an orbital insertion burn at apogee and a subsequent translunar injection burn to send Orion towards the moon. The ICPS for Artemis 1 was delivered by ULA to NASA about July 2017, and was housed at Kennedy Space Centre as of November 2018. As of February 2020, ICPS (not EUS) is planned for Artemis 1, 2, and 3. ICPS will now be human-rated for the crewed Artemis-2 flight.
+
+EUS - Block 1B and 2
+The Exploration Upper Stage (EUS) is planned to fly on Artemis 4. Similar to the S-IVB, the EUS will complete the SLS ascent phase and then re-ignite to send its payload to destinations beyond low-Earth orbit. It is expected to be used by Block 1B and Block 2, share the core stage diameter of 8.4 meters, and be powered by four RL10 engines.
+
+--Program History--
+During the joint Senate-NASA presentation in September 2011, it was stated that the SLS program had a projected development cost of US$18 billion through 2017, with US$10 billion for the SLS rocket, US$6 billion for the Orion spacecraft and US$2 billion for upgrades to the launch pad and other facilities at Kennedy Space Center. These costs and schedule were considered optimistic in an independent 2011 cost assessment report by Booz Allen Hamilton for NASA.
+
+An internal 2011 NASA document estimated the cost of the program through 2025 to total at least $41 billion for four 95-tonne launches (1 uncrewed, 3 crewed), with the 130-tonne version ready no earlier than 2030.
+
+The Human Exploration Framework Team (HEFT) estimated unit costs for Block 0 at US$1.6 billion and Block 1 at US$1.86 billion in 2010. However, since these estimates were made the Block 0 SLS vehicle was dropped in late 2011, and the design was not completed.
+
+In September 2012, an SLS deputy project manager stated that US$500 million per launch is a reasonable target cost[clarification needed] for SLS.
+
+In 2013, the Space Review estimated the cost per launch at US$5 billion, depending on the rate of launches. NASA announced in 2013 that the European Space Agency will build the Orion service module.
+
+In 2011, NASA announced an "Advanced Booster Competition", to be decided in 2015, which would select whose boosters would be used for Block 2 of the SLS.
+
+Several companies proposed boosters for this competition:
+
+Aerojet, in partnership with Teledyne Brown, offered a booster powered by three new AJ1E6 LOX/RP-1 oxidizer-rich staged combustion engines, each producing 4,900 kN (1,100,000 lbf) thrust using a single turbopump to supply dual combustion chambers. On 14 February 2013, Aerojet was awarded a $23.3 million, 30-month contract to build a 2,400 kN (550,000 lbf) main injector and thrust chamber.
+Alliant Techsystems (ATK) proposed an advanced SRB nicknamed "Dark Knight", which would switch to a lighter composite case, use a more energetic propellant, and reduce the number of segments from five to four.
+Pratt & Whitney Rocketdyne and Dynetics proposed a liquid-fueled booster named Pyrios.
+In 2013, the manager of NASA's SLS advanced development office indicated that all three approaches were viable.
+
+However, this competition was planned for a development plan in which Block 1A would be followed by Block 2A, with upgraded boosters. NASA canceled Block 1A and the planned competition in April 2014. Due to this cancellation, it was reported in February 2015 that SLS is expected to fly with the original five-segment SRB until at least the late 2020s. This decision was vindicated as a later study found that the advanced booster would have resulted in unsuitably high acceleration. The overly powerful booster would need modifications to Launch Pad 39B, its flame trench, and Mobile Launcher, which are being evaluated.
+
+In August 2014, as the SLS program passed its Key Decision Point C review and entered full development, costs from February 2014 until its planned launch in September 2018 were estimated at US$7.021 billion. Ground systems modifications and construction would require an additional US$1.8 billion over the same time period.
+
+In October 2018, NASA's inspector general reported that the Boeing core stage contract had made up 40% of the US$11.9 billion spent on SLS as of August 2018. By 2021, core stages were expected to have cost a total of US$8.9 billion, which is twice the initial planned amount.
+
+In December 2018, NASA estimated that yearly budgets for SLS will range from US$2.1 to US$2.3 billion between 2019 and 2023.
+
+In March 2019, the Trump Administration released its Fiscal Year 2020 Budget Request for NASA. This budget did not include any money for the Block 1B and Block 2 variants of SLS. It was therefore uncertain whether these future variants of SLS will be developed, but congressional action restored this funding in the passed budget. Several launches previously planned for the SLS Block 1B are now expected to fly on commercial launcher vehicles such as Falcon Heavy, New Glenn, OmegA, and Vulcan. However, the request for a budget increase of US$1.6 billion towards SLS, Orion, and crewed landers along with the launch manifest seem to indicate support of the development of Block 1B, debuting Artemis 3. The Block 1B will be used mainly for co-manifested crew transfers and logistical needs rather than constructing the Gateway. An uncrewed Block 1B is planned to launch the Lunar Surface Asset in 2028, the first lunar outpost of the Artemis program. Block 2 development will most likely start in the late 2020s, after NASA is regularly visiting the lunar surface and shifts focus towards Mars.
+
+In May 2019, NASA's Office of Audits reported that the SLS Block 1's marginal cost per launch is to be at least US$876 million. By comparison, a Saturn V launch cost roughly $1.23 billion in 2016 dollars. A letter from the White House to the Senate Appropriations Committee revealed that the SLS's cost per launch is estimated at "over US$2 billion" after development. NASA did not deny this cost and an agency spokesperson stated it "is working to bring down the cost of a single SLS launch in a given year as the agency continues negotiations with Boeing on the long-term production contract and efforts to finalize contracts and costs for other elements of the rocket".
+
+Blue Origin submitted a proposal to replace the Exploration Upper Stage with an alternative to be designed and fabricated by the company, but it was rejected by NASA in November 2019 on multiple grounds. These included lower performance compared to the existing EUS design, unsuitability of the proposal to current ground infrastructure, and unacceptable acceleration in regards to Orion components.
             '''
     },
 
     "New Glenn": {
         "Name": "New Glenn",
-        "Agency": "Blue Origin",
-        "Manufacturer": "",        
+        "Agency": "Private",
+        "Manufacturer": "Blue Origin",        
         "Class": "Very Heavy",
         "Payload Capacity to LEO": "45,000 kg (99,000 lbs)",
         "payload_int": 45000,
@@ -1088,22 +1245,28 @@ Also known as "Chang Zheng 1-D/CZ-1"
         "Diameter": "7 m (23 ft)",
         "diameter_int": 7,        
         "Mass": "Unknown",
-        "mass_int": "",        
+        "mass_int": None,        
         "Years in Operation": "Slated 2021~",
         "firstyear_int": 2021,        
         "Country": "USA",
         "Operational Status": "In Development",
         "Number of Stages": "2",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
+        "Burn Time": "S1: Unknown, S2: Unknown",
+        "total_burntime_int": None,
+        "Thrust": "S1: 17100 kN, S2: 1400 kN",
+        "initial_thrust_int": 17100,
+        "ISP": "S1: Unknown, S2: Unknown",
+        "asl_isp_int": None,
+        "vac_isp_int": None,
+        "Cost Per Launch": "Unknown",
+        "cost_int": None,
+        "Fuel Type": "S1: CH4/LOX, S2: LH2/LOX",
+        "Total Launches": "0",
+        "total_launches_int": None,
+        "Successful Launches": "0",
+        "successful_launches_int": None,
+        "Launch Failures": "0",
+        "failed_launches_int": None,
         "Image": "newglenn.png",
         "Additional Information":
             '''
@@ -1149,16 +1312,22 @@ Also known as "Chang Zheng 1-D/CZ-1"
         "Country": "Japan",
         "Operational Status": "Active",
         "Number of Stages": "2",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
+        "Burn Time": "Boosters: 120 sec, S1: 390 sec, S2: 534 sec",
+        "total_burntime_int": 1044,
+        "Thrust": "Boosters: 9,040 kN, S1: 1,098 kN, S2: 137 kN",
+        "initial_thrust_int": 10138,
+        "ISP": "Boosters: 280 sec, S1: 440 sec, S2: 447 sec",
+        "asl_isp_int": 360,
+        "vac_isp_int": 447,
+        "Cost Per Launch": "90M",
+        "cost_int": 90000000,
+        "Fuel Type": "Boosters: HTPB, S1: LH2/LOX, S2: LH2/LOX",
+        "Total Launches": "42 202: 28 204: 4 2022: 3 2024: 7",
+        "total_launches_int": 42,
+        "Successful Launches": "41 202: 28 204: 4 2022: 3 2024: 6",
+        "successful_launches_int": 41,
+        "Launch Failures": "1 (2024)",
+        "failed_launches_int": 1,
         "Image": "H-IIA.png",
         "Additional Information":
             '''
@@ -1195,6 +1364,7 @@ Also known as "Chang Zheng 1-D/CZ-1"
             B: 23.5 m (77 ft)
             BP4: 21.6 m (71 ft)
             ''',
+        "height_int": 23.5,
         "Diameter": "1.34 m (4 ft 5 in)",
         "diameter_int": 1.34,        
         "Mass": "18,400 kg (40,600 lbs)",
@@ -1209,16 +1379,22 @@ Also known as "Chang Zheng 1-D/CZ-1"
         "Country": "France",
         "Operational Status": "Retired",
         "Number of Stages": "3",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
+        "Burn Time": "S1: 110 sec, S2: 55 sec, S3: 39 sec",
+        "total_burntime_int": 204,
+        "Thrust": "S1: 396.52 kN, S2: 176 kN , S3: 29.4 kN",
+        "initial_thrust_int": 396.52,
+        "ISP": "S1: 221 sec, S2: 273 sec, S3: 211 sec",
+        "asl_isp_int": 221,
+        "vac_isp_int": 211,
+        "Cost Per Launch": "$13,725,610",
+        "cost_int": 13725610,
+        "Fuel Type": "S1: N2O4/UDMH, S2: solid, S3: solid",
+        "Total Launches": "12 (A :4, B: 5, BP4: 3)",
+        "total_launches_int": 12,
+        "Successful Launches": "9 (A: 3, B: 3, BP4: 3)",
+        "successful_launches_int": 9,
+        "Launch Failures": "3 (A: 1, B: 2)",
+        "failed_launches_int": 3,
         "Image": "diamant.png",
         "Additional Information":
             '''
@@ -1254,32 +1430,38 @@ Also known as "Chang Zheng 1-D/CZ-1"
 
     "OTRAG": {
         "Name": "OTRAG",
-        "Agency": "OTRAG",
-        "Manufacturer": "",        
+        "Agency": "Private",
+        "Manufacturer": "OTRAG",        
         "Class": "Heavy",
         "Payload Capacity to LEO": "10,000 kg (22,046 lbs)",
         "payload_int": 10000,
-        "Height": "~25m (82 ft)",
-        "height_int": 25,
-        "Diameter": "Unknown",
-        "diameter_int": "",        
+        "Height": "1 Common Rocket Propulsion Unit: 16 m",
+        "height_int": 16,
+        "Diameter": "27cm per CRPU",
+        "diameter_int": 0.27,        
         "Mass": "2,278,880 kg (5,024,070 lbs)",
         "mass_int": 2278880,        
-        "Years in Operation": "1975-1978",
-        "firstyear_int": 1975,        
+        "Years in Operation": "1977-1978",
+        "firstyear_int": 1977,        
         "Country": "Germany",
         "Operational Status": "Retired",
         "Number of Stages": "4",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
+        "Burn Time": "Common Rocket Propulsion Unit: 140 sec",
+        "total_burntime_int": 140,
+        "Thrust": "26.96 kN per Common Rocket Propulsion Unit",
+        "initial_thrust_int": 26.96,
+        "ISP": "Common Rocket Propulsion Unit: 297 sec",
+        "asl_isp_int": 297,
+        "vac_isp_int": None,
+        "Cost Per Launch": "Depends wildly upon how many CPRU were needed for the mission in question.",
+        "cost_int": None,
+        "Fuel Type": "Common Rocket Propulsion Unit: N2O4",
+        "Total Launches": "18",
+        "total_launches_int": 18,
+        "Successful Launches": "Unknown",
+        "successful_launches_int": None,
+        "Launch Failures": "Unknown",
+        "failed_launches_int": None,
         "Image": "otrag.png",
         "Additional Information":
             '''
@@ -1325,13 +1507,40 @@ Also known as "Chang Zheng 1-D/CZ-1"
             OTRAG shut down in 1987. As the company left Libya, Muammar Gaddafi 
             confiscated all equipment and installations, hoping to later use the 
             technology, and German investors lost their money.
+
+Design:
+
+Various OTRAG rockets could be built up from the company's CRPUs (Common Rocket Propulsion Unit). A sounding rocket would bundle four or more CRPUs in parallel, topped with the payload. An orbital launcher would use dozens to hundreds of CRPUs, depending on payload mass. The launcher would then stage by dropping outer CRPUs, leaving the interior ones to continue with payload.
+
+A CRPU was essentially a steel tube, 27 cm in diameter and 16 meters long, joined from a few shorter tubes. The CRPU was divided into three sections by aluminium bulkheads, with additional stiffening rings between bulkheads. Forward, the majority of the tube contained a mixture of nitric acid and nitrogen tetroxide oxidisers. Next was a section of kerosene fuel. This was commercial-grade kerosene, not the more expensive RP-1. Last was the engine section. A fuel line carried nitric acid around the kerosene, into the engine.
+
+The design of the CRPU was extremely simple. The tubing was strong enough that the propellants were fed to the engine by pressure alone.
+ This eliminated the need for turbopumps. The engine was ablatively cooled, eliminating the need for fine fuel passages and heat-resistant kerosene. The engine did not gimbal; instead, the vehicle was steered by throttling one side's CRPUs versus the opposite side. Thus, the engine was simply built into the tube walls, with the only mechanisms being the throttling valves. No separate pressurising system was included; the tanks were simply left with an ullage space, which was then filled with gas to a few hundred psi. Because of the narrow tubing, the bulkheads between sections could be simple plates, instead of domes like virtually all other rocket stages. There was no ignition system; instead, a slug of furfuryl alcohol was injected before the kerosene. The furfuryl alcohol ignited spontaneously upon contact with the nitric acid.
+
+The use of ablative cooling, high-pressure steel construction, and large "empty" spaces meant that a CRPU was heavy, with relatively low performance. The diameter of the tubing also put a hard limit on the engine diameter, preventing use of an efficient, high-expansion nozzle for the upper stages. However, ganging CRPUs into three stages was sufficient to reach orbit. Meanwhile, the low cost of each CRPU, after the economies of scale gained by producing hundreds or possibly thousands of them per year, would have still left the vehicle cheaper than its contemporaries.
+
+The company's baseline launcher design claimed to lift one metric ton to orbit. It would have consisted of a third stage core of four CRPUs, surrounded by a second stage of twelve CRPUs, in turn surrounded by the first stage's 48 CRPUs.
+ Larger vehicles and capacities would be achieved with greater numbers of CRPUs, possibly including several hundred per flight for a heavy launcher.
+
+The company forecast that CRPUs would eventually be so cheap, recovering and refurbishing a launcher would be no better than simply building more units.
+The use of storable propellants and few moving parts meant that launch-site operations would also be very simple. These advantages were expected to overcome the disadvantages of small specific impulse and payload fraction.
+
+Flight History:
+
+The engines were tested extensively on ground rigs, on both German and African test sites. Experiments were run with varying fuel and oxidiser formulations, as the general design was quite robust.
+
+Small, 4-unit vehicles were built and tested in Shaba North, Zaire and Seba Oasis, Libya, where heights of 20 to 50 kilometres were reached. The rockets used there were 6 and 12 meters long. The basic CRPU concept was shown to be workable, though some rockets experienced guidance or component failures. The last launch of an OTRAG rocket took place on September 19, 1983 in Esrange. Following this launch, the OTRAG rocket was to be used in high altitude research.
+
+Political pressure then shut down the project, as discussed in the OTRAG article.
+
+After the company had left Libya in 1987, some remaining equipment was confiscated by the government. However, enough parts and knowledge were missing to prevent Libya from continuing the project.
             '''
     },
 
     "L-4S": {
         "Name": "L-4S",
-        "Agency": "The University of Tokyo Aerospace Research Institute",
-        "Manufacturer": "",        
+        "Agency": "Institute of Aeronautics and Astronautics, University of Tokyo",
+        "Manufacturer": "The University of Tokyo Aerospace Research Institute",        
         "Class": "Light",
         "Payload Capacity to LEO": "26 kg (57.32 lbs)",
         "payload_int": 26,
@@ -1346,16 +1555,22 @@ Also known as "Chang Zheng 1-D/CZ-1"
         "Country": "Japan",
         "Operational Status": "Retired",
         "Number of Stages": "5",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
+        "Burn Time": "Unknown",
+        "total_burntime_int": None,
+        "Thrust": "Unknown",
+        "initial_thrust_int": None,
+        "ISP": "Unknown",
+        "asl_isp_int": None,
+        "vac_isp_int": None,
+        "Cost Per Launch": "Unknown",
+        "cost_int": None,
+        "Fuel Type": "Unknown",
+        "Total Launches": "5",
+        "total_launches_int": 5,
+        "Successful Launches": "1",
+        "successful_launches_int": 1,
+        "Launch Failures": "4",
+        "failed_launches_int": 4,
         "Image": "L-4S.png",
         "Additional Information":
             '''
@@ -1401,6 +1616,12 @@ Also known as "Chang Zheng 1-D/CZ-1"
         "Cost Per Launch": "",
         "cost_int": "",
         "Fuel Type": "",
+        "Total Launches": "4",
+        "total_launches_int": 4,
+        "Successful Launches": "3",
+        "successful_launches_int": 3,
+        "Launch Failures": "1",
+        "failed_launches_int": 1,
         "Image": "M-4S.png",
         "Additional Information":
             '''
@@ -1475,6 +1696,12 @@ Also known as "Chang Zheng 1-D/CZ-1"
         "Cost Per Launch": "",
         "cost_int": "",
         "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "europa.png",
         "Additional Information":
             '''
@@ -1537,6 +1764,12 @@ Also known as "Chang Zheng 1-D/CZ-1"
         "Cost Per Launch": "",
         "cost_int": "",
         "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "hermes.png",
         "Additional Information":
             '''
@@ -1590,6 +1823,12 @@ Also known as "Chang Zheng 1-D/CZ-1"
         "Cost Per Launch": "",
         "cost_int": "",
         "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "vega.png",
         "Additional Information":
             '''
@@ -1687,6 +1926,12 @@ Also known as "Chang Zheng 1-D/CZ-1"
         "Cost Per Launch": "",
         "cost_int": "",
         "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
         "Additional Information":
             '''
@@ -1722,6 +1967,12 @@ Also known as "Chang Zheng 1-D/CZ-1"
         "Cost Per Launch": "Unknown",         
         "cost_int": "",        
         "Fuel Type": "RP-1/LOX",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "Miura 5.png",
         "Additional Information":
             '''
@@ -1765,6 +2016,12 @@ Also known as "Chang Zheng 1-D/CZ-1"
         "Cost Per Launch": "Unknown",         
         "cost_int": None,        
         "Fuel Type": "PBAN (Polybutadine Acrylo Nitrate) & HEF (High Energy Propellant)",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "SatLaunchVehicle.png",
         "Additional Information":
             '''
@@ -1819,6 +2076,12 @@ Also known as "Chang Zheng 1-D/CZ-1"
         "Cost Per Launch": "Unknown",         
         "cost_int": None,        
         "Fuel Type": "Exact type unknown, but all solid fuel",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "ASLV.png",
         "Additional Information":
             '''
@@ -1894,6 +2157,12 @@ Also known as "Chang Zheng 1-D/CZ-1"
         S3: HTPB - Hydroxyl-terminated polybutadiene
         S4: MMH/MON - Monomethylhydrazine/Mixed Oxides of Nitrogen
         ''',
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "PSLV.png",
         "Additional Information":
             '''
@@ -1992,6 +2261,12 @@ Also known as "Chang Zheng 1-D/CZ-1"
         "Fuel Type": '''
         Boosters: N2O4/UDMH, S1: HTPB (solid), S2: N2O4/UDMH, S3: LH2/LOX
         ''',
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "GSLV.png",
         "Additional Information":
             '''
@@ -2060,6 +2335,12 @@ Also known as "Chang Zheng 1-D/CZ-1"
         "Cost Per Launch": "Unknown",         
         "cost_int": "",        
         "Fuel Type": "LH/LOX",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "direct-jupiter.png",
         "Additional Information":
             '''
@@ -2196,17 +2477,17 @@ Also known as "Chang Zheng 1-D/CZ-1"
         "Name": "Geosynchronous Satellite Launch Vehicle Mark III",
         "Agency": "ISRO - Indian Space Research Organisation",
         "Manufacturer": "ISRO - Indian Space Research Organisation",        
-        "Class": "",
+        "Class": "Heavy",
         "Payload Capacity to LEO": "10,000 kg (22,000 lbs)",
-        "payload_int": "",
+        "payload_int": 10000,
         "Height": "43.4 m (142 ft)",
-        "height_int": "",
+        "height_int": 43.4,
         "Diameter": "4 m (13 ft)",
-        "diameter_int": "",        
+        "diameter_int": 4,        
         "Mass": "640,000 kg (1,410,000 lbs)",
-        "mass_int": "",        
+        "mass_int": 640000,        
         "Years in Operation": "2014~",
-        "firstyear_int": "",        
+        "firstyear_int": 2014,        
         "Country": "India",
         "Operational Status": "Active",
         "Number of Stages": "3",
@@ -2215,20 +2496,20 @@ Also known as "Chang Zheng 1-D/CZ-1"
         S2: 203 sec
         S3: 643 sec
         ''',
-        "total_burntime_int": "",        
+        "total_burntime_int": 974,        
         "Thrust": '''
         S1(Boosters): 5,150 kN
         S2: 1,598 kN
         S3: 200 kN
         ''',
-        "initial_thrust_int": "",        
+        "initial_thrust_int": 5150,        
         "ISP": '''
         S1(Boosters): 274.5 sec
         S2: 293 sec
         S3: 443 sec
         ''',        
-        "asl_isp_int": "", 
-        "vac_isp_int": "",        
+        "asl_isp_int": 274.5, 
+        "vac_isp_int": 443,        
         "Cost Per Launch": "",         
         "cost_int": "",        
         "Fuel Type": '''
@@ -2236,6 +2517,12 @@ Also known as "Chang Zheng 1-D/CZ-1"
         S2: UDMH / N2O4
         S3: LH2/LOX
         ''',
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "GSLVMkIII.png",
         "Additional Information":
             '''
@@ -2276,30 +2563,36 @@ Also known as "Chang Zheng 1-D/CZ-1"
         "Name": "SSLV - Small Satellite Launch Vehicle",
         "Agency": "ISRO - Indian Space Research Organisation",
         "Manufacturer": "ISRO - Indian Space Research Organisation",        
-        "Class": "",
+        "Class": "Light",
         "Payload Capacity to LEO": "500 kg (1,100 lbs)",
-        "payload_int": "",
+        "payload_int": 500,
         "Height": "34 m (111.5 ft)",
-        "height_int": "",
+        "height_int": 34,
         "Diameter": "2 m (6.5 ft)",
-        "diameter_int": "",        
+        "diameter_int": 2,        
         "Mass": "108,862 kg (239,999 lbs)",
-        "mass_int": "",        
+        "mass_int": 108862,        
         "Years in Operation": "2020~ (Planned)",
-        "firstyear_int": "",        
+        "firstyear_int": 2020,        
         "Country": "India",
         "Operational Status": "In Development",
         "Number of Stages": "4",
         "Burn Time": "S1: Unknown, S2: Unknown, S3: Unknown, S4: Unknown",
-        "total_burntime_int": "",        
+        "total_burntime_int": None,        
         "Thrust": "S1: Unknown, S2: Unknown, S3: Unknown, S4: Unknown",
-        "initial_thrust_int": "",        
+        "initial_thrust_int": None,        
         "ISP": "S1: Unknown, S2: Unknown, S3: Unknown, S4: Unknown",        
-        "asl_isp_int": "", 
-        "vac_isp_int": "",        
+        "asl_isp_int": None, 
+        "vac_isp_int": None,        
         "Cost Per Launch": "Unknown",         
-        "cost_int": "",        
+        "cost_int": None,        
         "Fuel Type": "S1: Solid, S2: Solid, S3: Solid, S4: Liquid",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "SSLV.png",
         "Additional Information":
             '''
@@ -2345,6 +2638,12 @@ The first three stages of the vehicle use solid propellant, with a fourth stage 
         "Cost Per Launch": "Unknown",         
         "cost_int": "",        
         "Fuel Type": "Unknown",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "RLV-TD.png",
         "Additional Information":
             '''
@@ -2396,6 +2695,12 @@ SHLV(Variant):41,300 kg (91,100 lbs)
         "Cost Per Launch": "Unknown",         
         "cost_int": "",        
         "Fuel Type": "S1: RP-1/LOX, S2: LH2/LOX",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "ULV.png",
         "Additional Information":
             '''
@@ -2448,6 +2753,12 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
         "Cost Per Launch": "",
         "cost_int": "",                
         "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "Ariane 1.png",
         "Additional Information":
             '''
@@ -2544,6 +2855,18 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
         "Cost Per Launch": "",
         "cost_int": "",
         "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "Ariane 2.png",
         "Additional Information":
             '''
@@ -2656,6 +2979,12 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
         "Cost Per Launch": "",
         "cost_int": "",
         "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "Ariane 3.png",
         "Additional Information":
             '''
@@ -2783,6 +3112,12 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
         "Cost Per Launch": "",
         "cost_int": "",
         "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "Ariane 4.png",
         "Additional Information":
             '''
@@ -2900,6 +3235,12 @@ ES: Retired
         "Cost Per Launch": "",
         "cost_int": "",
         "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "Ariane 5.png",
         "Additional Information":
             '''
@@ -3020,6 +3361,12 @@ to Ariane 6.
         "Cost Per Launch": "Unknown",         
         "cost_int": "",        
         "Fuel Type": "Unknown",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "M-3C.png",
         "Additional Information":
             '''
@@ -3064,6 +3411,12 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Cost Per Launch": "",
         "cost_int": "",
         "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3101,6 +3454,12 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Cost Per Launch": "",
         "cost_int": "",
         "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3138,6 +3497,12 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Cost Per Launch": "",
         "cost_int": "",
         "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3175,6 +3540,12 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Cost Per Launch": "",
         "cost_int": "",
         "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3212,6 +3583,12 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Cost Per Launch": "",
         "cost_int": "",
         "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3248,7 +3625,12 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3285,7 +3667,12 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3322,7 +3709,12 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
         "Additional Information":
             '''
@@ -3359,9 +3751,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -3396,9 +3793,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -3433,9 +3835,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -3470,9 +3877,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -3507,9 +3919,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -3544,9 +3961,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -3581,9 +4003,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -3618,9 +4045,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -3655,9 +4087,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -3692,9 +4129,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -3729,9 +4171,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -3766,9 +4213,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -3803,9 +4255,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -3840,9 +4297,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
             
             '''
@@ -3881,6 +4343,12 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Cost Per Launch": "",
         "cost_int": "",
         "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "Angara.png",
         "Additional Information":
             '''
@@ -3984,9 +4452,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4021,9 +4494,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4058,9 +4536,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4095,9 +4578,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4132,9 +4620,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4169,9 +4662,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4206,9 +4704,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4243,9 +4746,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4280,9 +4788,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4317,9 +4830,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4354,9 +4872,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4391,9 +4914,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4428,9 +4956,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4465,9 +4998,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4502,9 +5040,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4539,9 +5082,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4576,9 +5124,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4613,9 +5166,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4650,9 +5208,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4687,9 +5250,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4725,9 +5293,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4762,9 +5335,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4799,9 +5377,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4836,9 +5419,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4873,9 +5461,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4910,9 +5503,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4947,9 +5545,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -4984,9 +5587,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5021,9 +5629,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5058,9 +5671,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5095,9 +5713,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5132,9 +5755,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5169,9 +5797,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5206,9 +5839,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5243,9 +5881,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5280,9 +5923,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5317,9 +5965,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5354,9 +6007,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5391,9 +6049,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5428,9 +6091,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5465,9 +6133,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5502,9 +6175,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5539,9 +6217,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5576,9 +6259,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5613,9 +6301,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5624,37 +6317,60 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
 
     "Dnepr": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Dnepr",
+        "Agency": "ISC Kosmotras",
+        "Manufacturer": 
+        '''
+Yuzhnoye (design)
+Yuzhmash (manufacturing)
+Khartron (control system)
+        ''',        
+        "Class": "Medium",
+        "Payload Capacity to LEO": "4,500 kilograms (9,900 lbs)",
+        "payload_int": 4500,
+        "Height": "34.3 metres (113 ft)",
+        "height_int": 34.3,
+        "Diameter": "3 metres (9.8 ft)",
+        "diameter_int": 3,
+        "Mass": "211,000 kilograms (465,000 lbs)",
+        "mass_int": 211000,
+        "Years in Operation": "1999-2015",
+        "firstyear_int": 1999,
         "Country": "Ukraine",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "3",
+        "Burn Time": "S1: 130 sec, S2: 190 sec, S3: 1000 sec",
+        "total_burntime_int": 1310,
+        "Thrust": "S1: 4,520 kN, S2: 755 kN, S3: 20.2 kN",
+        "initial_thrust_int": 4520,
+        "ISP": "S1: 318 sec, S2: 340 sec, S3: 309 sec",
+        "asl_isp_int": 318,
+        "vac_isp_int": 309,
+        "Cost Per Launch": "$24,275,568",
+        "cost_int": 24275568,
+        "Fuel Type": "S1: N2O4/UDMH, S2: N2O4/UDMH, S3: N2O4/UDMH",
+        "Total Launches": "22",
+        "total_launches_int": 22,
+        "Successful Launches": "21",
+        "successful_launches_int": 21,
+        "Launch Failures": "1",
+        "failed_launches_int": 1,
+        "Image": "Dnepr.png",
         "Additional Information":
             '''
-    
+The Dnepr rocket (Ukrainian: Дніпро, romanized: Dnipró; Russian: Днепр, romanized: Dnepr) was a space launch vehicle named after the Dnieper River. It was a converted ICBM used for launching artificial satellites into orbit, operated by launch service provider ISC Kosmotras. The first launch, on April 21, 1999, successfully placed UoSAT-12, a 350 kg demonstration mini-satellite, into a 650 km circular Low Earth orbit.
+
+--History--
+The Dnepr was based on the R-36MUTTH Intercontinental ballistic missile (ICBM) – called the SS-18 Satan by NATO – designed in the 1970s by the Yuzhnoe Design Bureau in Dnipro, Ukraine, which was then a part of the USSR.
+
+The Dnepr control system was developed and produced by the JSC "Khartron", Kharkiv. The Dnepr was a three-stage rocket using storable hypergolic liquid propellants. The launch vehicles used for satellite launches have been withdrawn from ballistic missile service with the Russian Strategic Rocket Forces and stored for commercial use. A group of a total of 150 ICBMs were allowed under certain geopolitical disarmament protocols to be converted for use, and can be launched through 2020. The Dnepr was launched from the Russian-controlled Baikonur cosmodrome in Kazakhstan and the Dombarovsky launch base, near Yasny, in the Orenburg region of Russia.
+
+In February 2015, following a year of strained relations as a result of a Russian military intervention into Ukraine, Russia announced that it would sever its "joint program with Ukraine to launch Dnepr rockets and [was] no longer interested in buying Ukrainian Zenit boosters, deepening problems for [Ukraine's] space program and its struggling Yuzhmash factory." However ISC Kosmotras reported that they would continue to fulfill its obligations for three Dnepr launches in 2015, of which only one took place.
+
+By the end of 2016, no further launch had materialized and the remaining customers had switched to alternative launch providers.
+
+--Performance--
+The Dnepr launch vehicle had only a small number of modifications compared to the R-36M ICBM in service. The main difference was the payload adapter located in the space head module and modified flight-control unit. This baseline version could lift 3,600 kg into a 300 km low earth orbit at an inclination of 50.6°, or 2,300 kg to a 300 km sun-synchronous orbit at an inclination of 98.0°. On a typical mission the Dnepr deployed a larger main payload and a secondary payload of Miniaturized satellites and CubeSats.
             '''
 
     },
@@ -5687,9 +6403,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5724,9 +6445,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5761,9 +6487,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5798,9 +6529,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5835,9 +6571,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5872,9 +6613,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5909,9 +6655,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5946,9 +6697,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -5983,9 +6739,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6020,9 +6781,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6057,9 +6823,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6094,9 +6865,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6131,9 +6907,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6168,9 +6949,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6205,9 +6991,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6242,9 +7033,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6279,9 +7075,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6316,9 +7117,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6353,9 +7159,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6390,9 +7201,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6427,9 +7243,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6464,9 +7285,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6501,9 +7327,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6538,9 +7369,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6575,9 +7411,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6612,9 +7453,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6649,9 +7495,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6686,9 +7537,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6723,9 +7579,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6760,9 +7621,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6797,9 +7663,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6834,9 +7705,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6871,9 +7747,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6908,9 +7789,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6945,9 +7831,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6982,9 +7873,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -6996,30 +7892,36 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Name": "Al Abid",
         "Agency": "MIMI - Ministry of Industry and Military Industrialization | SRC - Space Research Center",
         "Manufacturer": "MIMI | SRC",        
-        "Class": "",
+        "Class": "Light",
         "Payload Capacity to LEO": "100-300 kg",
-        "payload_int": "",
+        "payload_int": 300,
         "Height": "25 m (82 ft)",
-        "height_int": "",
+        "height_int": 25,
         "Diameter": "0.88 m(First stage) 1.25 m(Second stage)",
-        "diameter_int": "",        
+        "diameter_int": 0.88,        
         "Mass": "48,000 kg (105,821 lbs)",
-        "mass_int": "",        
+        "mass_int": 48000,        
         "Years in Operation": "1989",
-        "firstyear_int": "",        
+        "firstyear_int": 1989,        
         "Country": "Iraq",
         "Operational Status": "Abandoned",
         "Number of Stages": "3",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
+        "Burn Time": "S1: 90 sec, S2: 65 sec",
+        "total_burntime_int": 155,
+        "Thrust": "S1: 660.7 kN, S2: 146.3 kN",
+        "initial_thrust_int": 660.7,
+        "ISP": "S1: 233 sec, S2: 258 sec",
+        "asl_isp_int": 233,
+        "vac_isp_int": 258,
+        "Cost Per Launch": "Unknown",
+        "cost_int": None,
+        "Fuel Type": "S1: RP-1/LOX (unconfirmed), S2: DETA/UDMH",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "Al Abid.png",
         "Additional Information":
             '''
@@ -7064,39 +7966,66 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
 
     },
 
-    "Shavit": {
+    "Shavit 2": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Shavit 2",
+        "Agency": "Israel Aerospace Industries",
+        "Manufacturer": "Israel Aerospace Industries",        
+        "Class": "Light",
+        "Payload Capacity to LEO": "800 kg (1763.7 lbs)",
+        "payload_int": 800,
+        "Height": "26.4 m (86.6 ft)",
+        "height_int": 26.4,
+        "Diameter": "1.35 m (4.34 ft)",
+        "diameter_int": 1.35,
+        "Mass": "30,500–70,000 kg (67,241-154,323.5 lbs)",
+        "mass_int": 70000,
+        "Years in Operation": "1988~",
+        "firstyear_int": 1988,
         "Country": "Israel",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
+        "Operational Status": "Active",
+        "Number of Stages": "4",
+        "Burn Time": "S1: 82 sec, S2: 55 sec, S3: 94 sec, S4: 800 sec",
+        "total_burntime_int": 1031,
+        "Thrust": "S1: 1650.2 kN, S2: 774 kN, S3: 58 kN, S4: 0.402 kN",
+        "initial_thrust_int": 1650.2,
+        "ISP": "S1: 280 sec, S2: 268 sec, S3: 298 sec, S4: 200 sec",
+        "asl_isp_int": 280,
+        "vac_isp_int": 249,
+        "Cost Per Launch": "$24,346,862",
+        "cost_int": 24346862,
+        "Fuel Type": "S1: HTPB polymer, S2: HTPB, S3: Unknown solid type, S4: N2O4/UDMH",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
         "Additional Information":
             '''
-    
+Shavit 2 (Hebrew: "comet" – שביט) is a small lift launch vehicle produced by Israel from 1982 onwards, to launch satellites into low Earth orbit. It was first launched on 19 September 1988 (carrying an Ofek-1 satellite payload), making Israel the eighth nation to have an orbital launch capability after the USSR, United States, France, Japan, People's Republic of China, United Kingdom, and India.
+
+The Shavit 2 project is believed to have been an offshoot development, resulting from Israel's Jericho nuclear armed intercontinental ballistic missile (ICBM) program.
+
+Shavit rockets are launched from Palmachim Airbase by the Israel Space Agency into highly retrograde orbits over the Mediterranean Sea to prevent debris coming down in populated areas and also to avoid flying over nations hostile to Israel to the east; this results in a lower payload-to-orbit than east-directed launches would allow. The launcher consists of three stages powered by solid-fuel rocket motors, with an optional liquid-fuel fourth stage, and is manufactured by Israel Aircraft Industries (IAI).
+
+The Republic of South Africa produced and tested a licensed version in cooperation with Israel called the RSA-3 in an ultimately unsuccessful bid to produce a domestic satellite launch vehicle and ballistic missile; the South African program was closed in 1994.
+
+An earlier unrelated project called Shavit 2 was the first Israeli sounding rocket, launched on 5 July 1961 for meteorological research. Shavit Three, with an altitude reported as 100 miles (160 km), was launched on 11 August 1961.
+
+--Development--
+The development of Shavit 2 began in 1982.[8] Shavit was a three-stage, solid-propellant launcher designed to carry payloads up to 250 kg into low Earth orbit. It was speculated for some time and later confirmed that the first two stages of the Shavit were that of the Jericho II missile.
+
+Shavit was first launched in 1988 and because of its geographic location and hostile relations with surrounding countries, Israel had to launch it to the west, over the Mediterranean Sea, in order to avoid flying over those hostile territories to its east. The practice has continued ever since.[
+
+--Vehicle description--
+The first of the Shavit vehicles were a small, 3-stage, solid-propellant booster based on the 2-stage Jericho-II ballistic missile and developed under the general management of Israel Aircraft Industries and in particular its MBT System and Space Technology subsidiary. Israel Military Industries Systems produces the first-stage and second-stage motors, while Rafael is responsible for the third-stage motor.
+
+A planned commercial Shavit upgrade was called Next. This name is no longer used, and this proposed upgrade configuration is now called Shavit-2. Both first and second stages of the Shavit-2 use the stretched motor design of the Shavit-1 first stage.
+
+--Launch history--
+The Shavit has been launched 11 times, placing the payload into orbit 9 times. On the 4th and 6th flights, the vehicle failed before reaching space. Most non-Israeli satellites are launched eastward to gain a boost from the Earth's rotational speed. However, the Shavit is launched westward (retrograde orbit) over the Mediterranean Sea to avoid flying and dropping spent rocket stages over populated areas in Israel and neighboring Arab countries. The Shavit is also said to be made available for commercial launches in the near future.
             '''
 
     },
@@ -7106,30 +8035,36 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Name": "Firefly α",
         "Agency": "Firefly Aerospace",
         "Manufacturer": "Firefly Aerospace",        
-        "Class": "",
+        "Class": "Light",
         "Payload Capacity to LEO": "1000 kg (2204 lbs)",
-        "payload_int": "",
+        "payload_int": 1000,
         "Height": "29 m (95 ft)",
-        "height_int": "",
+        "height_int": 29,
         "Diameter": "1.82 m (6 ft 0 in)",
-        "diameter_int": "",        
+        "diameter_int": 1.82,        
         "Mass": "54,000 kg (119,000 lbs)",
-        "mass_int": "",        
+        "mass_int": 54000,        
         "Years in Operation": "2020~",
-        "firstyear_int": "",        
+        "firstyear_int": 2020,        
         "Country": "USA",
         "Operational Status": "In Development",
         "Number of Stages": "2",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
+        "Burn Time": "S1: Unknown, S2: Unknown",
+        "total_burntime_int": None,
+        "Thrust": "S1: 736.1 kN, S2: 70.1 kN",
+        "initial_thrust_int": 736.1,
+        "ISP": "S1: 295.6 sec, S2: 322 sec",
+        "asl_isp_int": 295,
+        "vac_isp_int": 322,
+        "Cost Per Launch": "15M",
+        "cost_int": 15000000,
+        "Fuel Type": "S1: RP-1/LOX, S2: RP-1/LOX",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "Firefly Alpha.png",
         "Additional Information":
             '''
@@ -7194,21 +8129,22 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Manufacturer": "Main: Northrop Grumman(originally Orbital Sciences Corporation), Sub: Yuzhnoye",        
         "Class": "Medium",
         "Payload Capacity to LEO": "8,000 kg (18,000 lbs)",
-        "payload_int": "",
+        "payload_int": 8000,
         "Height":
         '''
         110/120: 40.5 m (133 ft)
         130: 41.9 m (137 ft)
         230/230+: 42.5 m (139 ft)
         ''',
+        "height_int": 42.5,
         "Diameter": "3.9 m (13 ft)",
-        "diameter_int": "",        
+        "diameter_int": 3.9,        
         "Mass":
         '''
         110/120/130: 282,000–296,000 kg (622,000–653,000 lbs)
         230/230+: 298,000 kg (657,000 lbs)
         ''',
-        "mass_int": "",        
+        "mass_int": 298000,        
         "Years in Operation":
         '''
         110: 2013
@@ -7217,7 +8153,7 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         230: 2016-2019
         230+: 2019~
         ''',
-        "firstyear_int": "",        
+        "firstyear_int": 2013,        
         "Country": "USA",
         "Operational Status":
         '''
@@ -7228,16 +8164,22 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         230+: operational
         ''',
         "Number of Stages": "2-3",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
+        "Burn Time": "S1: 215 sec, S2: 156 sec",
+        "total_burntime_int": 371,
+        "Thrust": "S1: 3,844 kN, S2: 474 kN",
+        "initial_thrust_int": 3844,
+        "ISP": "S1: 311.9 sec, S2: Unknown",
+        "asl_isp_int": 311.9,
+        "vac_isp_int": None,
+        "Cost Per Launch": "85M",
+        "cost_int": 85000000,
+        "Fuel Type": "S1: RP-1/LOX, S2: TP-H8299/aluminium",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "Antares.png",
         "Additional Information":
             '''
@@ -7292,30 +8234,36 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         Alliant Techsysystems (Stage I)
         Boeing (Stage II)
         ''',        
-        "Class": "",
+        "Class": "Very Heavy",
         "Payload Capacity to LEO": "25,400 kg (56,000 lbs)",
-        "payload_int": "",
+        "payload_int": 25400,
         "Height": "94 meters (308 ft)",
-        "height_int": "",
+        "height_int": 94,
         "Diameter": "5.5 meters (18 ft)",
-        "diameter_int": "",        
+        "diameter_int": 5.5,        
         "Mass": "Unknown",
-        "mass_int": "",        
+        "mass_int": None,        
         "Years in Operation": "2009",
-        "firstyear_int": "",        
+        "firstyear_int": 2009,        
         "Country": "USA",
         "Operational Status": "Canceled",
         "Number of Stages": "2",
         "Burn Time": "S1: 150 sec, S2: 800 sec",
-        "total_burntime_int": "",        
+        "total_burntime_int": 950,        
         "Thrust": "S1: 15,000 kN, S2: 1,308 kN",
-        "initial_thrust_int": "",        
+        "initial_thrust_int": 15000,        
         "ISP": "S1: 453 sec, S2: 465 sec",        
-        "asl_isp_int": "", 
-        "vac_isp_int": "",        
-        "Cost Per Launch": "",
-        "cost_int": "",
+        "asl_isp_int": 453, 
+        "vac_isp_int": 465,        
+        "Cost Per Launch": "Unknown",
+        "cost_int": None,
         "Fuel Type": "LH2/LOX",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "Ares I.png",
         "Additional Information":
             '''
@@ -7341,30 +8289,36 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Name": "Ares V",
         "Agency": "NASA",
         "Manufacturer": "",        
-        "Class": "",
+        "Class": "Very Heavy",
         "Payload Capacity to LEO": "188,000 kg (414,000 lbs)",
-        "payload_int": "",
+        "payload_int": 188000,
         "Height": "116 m (381 ft) or 109 m (358 ft)",
-        "height_int": "",
+        "height_int": 116,
         "Diameter": "10 m (33 ft) or 8.4 m (28 ft)",
-        "diameter_int": "",        
+        "diameter_int": 10,        
         "Mass": "Unknown",
-        "mass_int": "",        
+        "mass_int": None,        
         "Years in Operation": "N/A",
-        "firstyear_int": "",        
+        "firstyear_int": None,        
         "Country": "USA",
         "Operational Status": "Canceled",
         "Number of Stages": "2",
         "Burn Time": "Unknown",
-        "total_burntime_int": "",        
+        "total_burntime_int": None,        
         "Thrust": "8,250-10,250 kN",
-        "initial_thrust_int": "",        
+        "initial_thrust_int": 10250,        
         "ISP": "Unknown",        
-        "asl_isp_int": "", 
-        "vac_isp_int": "",        
+        "asl_isp_int": None, 
+        "vac_isp_int": None,        
         "Cost Per Launch": "Unknown",
-        "cost_int": "",
+        "cost_int": None,
                 "Fuel Type": "LH2/LOX",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "Ares V.png",
         "Additional Information":
             '''
@@ -7416,7 +8370,8 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
             One proposal was to build an 8- to 16-meter Advanced Technology Large-Aperture Space Telescope to 
             be placed in the Sun/Earth L2 point. It would be a significant increase in dimension and 
             performance over the Hubble Space Telescope and the Ares V vehicle was expected to carry this 
-            to its destination in a single launch.[citation needed] Future Ares V missions could also have 
+            to its destination in a single launch.
+ Future Ares V missions could also have 
             served as a cost-effective, mass transport of construction materials for future spacecraft and 
             missions, delivering raw materials for example to a Moon dock.
             
@@ -7458,9 +8413,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -7495,9 +8455,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -7532,9 +8497,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -7569,9 +8539,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -7606,9 +8581,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -7643,9 +8623,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -7680,9 +8665,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -7717,9 +8707,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -7754,9 +8749,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -7791,9 +8791,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -7828,9 +8833,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -7865,9 +8875,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -7902,9 +8917,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -7939,9 +8959,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -7976,9 +9001,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8013,9 +9043,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8050,9 +9085,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8087,9 +9127,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8124,9 +9169,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8161,9 +9211,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8198,9 +9253,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8235,9 +9295,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8272,9 +9337,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8309,9 +9379,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8346,9 +9421,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8383,9 +9463,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8420,9 +9505,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8457,9 +9547,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8494,9 +9589,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8531,9 +9631,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8568,9 +9673,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8605,9 +9715,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8616,9 +9731,9 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
 
     "Falcon 1": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
+        "Name": "Falcon 1",
+        "Agency": "SpaceX",
+        "Manufacturer": "SpaceX",        
         "Class": "",
         "Payload Capacity to LEO": "",
         "payload_int": "",
@@ -8642,9 +9757,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8653,9 +9773,9 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
 
     "Falcon 1e": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
+        "Name": "Falcon 1e",
+        "Agency": "SpaceX",
+        "Manufacturer": "SpaceX",        
         "Class": "",
         "Payload Capacity to LEO": "",
         "payload_int": "",
@@ -8679,9 +9799,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8690,9 +9815,9 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
 
     "Falcon 5": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
+        "Name": "Falcon 5",
+        "Agency": "SpaceX",
+        "Manufacturer": "SpaceX",        
         "Class": "",
         "Payload Capacity to LEO": "",
         "payload_int": "",
@@ -8716,9 +9841,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8727,10 +9857,10 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
 
     "Starship": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
+        "Name": "Starship",
+        "Agency": "SpaceX",
+        "Manufacturer": "SpaceX",        
+        "Class": "Very Heavy",
         "Payload Capacity to LEO": "",
         "payload_int": "",
         "Height": "",
@@ -8753,9 +9883,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8790,9 +9925,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8827,9 +9967,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8864,9 +10009,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8901,9 +10051,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8938,9 +10093,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -8975,9 +10135,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -9012,9 +10177,14 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -9030,13 +10200,13 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Payload Capacity to LEO": "",
         "payload_int": "",
         "Height": " 2.44 m (8.00 ft)",
-        "height_int": "",
+        "height_int": 2.44,
         "Diameter": "32.00 m (104.00 ft)",
-        "diameter_int": "",        
+        "diameter_int": 32,        
         "Mass": "63,966 kg (141,020 lbs)",
-        "mass_int": "",        
+        "mass_int": 63966,        
         "Years in Operation": "1960-1962",
-        "firstyear_int": "",        
+        "firstyear_int": 1960,        
         "Country": "USA",
         "Operational Status": "Retired",
         "Number of Stages": "",
@@ -9050,6 +10220,12 @@ It is often misunderstood that the M-3C rocket, M-3H rocket , M-3S rocket , and 
         "Cost Per Launch": "Unknown",         
         "cost_int": "",        
         "Fuel Type": " Nitric Acid/UDMH",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "thordelta.png",
         "Additional Information":
             '''
@@ -9094,9 +10270,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -9131,9 +10312,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -9168,9 +10354,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -9205,9 +10396,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -9242,9 +10438,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -9279,9 +10480,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -9316,9 +10522,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -9353,9 +10564,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -9390,9 +10606,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -9427,9 +10648,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -9464,9 +10690,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -9501,9 +10732,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -9538,9 +10774,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -9575,9 +10816,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -9612,9 +10858,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -9649,9 +10900,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -9686,9 +10942,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -9723,9 +10984,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -9760,9 +11026,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -9797,9 +11068,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -9834,9 +11110,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -9848,30 +11129,36 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "Name": "Liberty",
         "Agency": "NASA",
         "Manufacturer": "Alliant Techsystems, Astrium",        
-        "Class": "",
+        "Class": "Heavy",
         "Payload Capacity to LEO": "20,000 kg (44,500 lbs)",
-        "payload_int": "",
+        "payload_int": 20000,
         "Height": "90 m (300 ft)",
-        "height_int": "",
+        "height_int": 90,
         "Diameter": "5.4 m (18 ft)",
-        "diameter_int": "",        
+        "diameter_int": 5.4,        
         "Mass": "Unknown",
-        "mass_int": "",        
+        "mass_int": None,        
         "Years in Operation": "N/A",
-        "firstyear_int": "",        
+        "firstyear_int": None,        
         "Country": "USA & EU",
         "Operational Status": "Canceled",
         "Number of Stages": "2",
         "Burn Time": "650 seconds",
-        "total_burntime_int": "",        
+        "total_burntime_int": 650,        
         "Thrust": "1,340 kN",
-        "initial_thrust_int": "",        
+        "initial_thrust_int": 1340,        
         "ISP": "431 seconds (vacuum)",        
-        "asl_isp_int": "", 
-        "vac_isp_int": "",        
+        "asl_isp_int": None, 
+        "vac_isp_int": 431,        
         "Cost Per Launch": "180m USD",         
-        "cost_int": "",        
-        "Fuel Type": "",
+        "cost_int": 180000000,        
+        "Fuel Type": "Unknown",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "Liberty.png",
         "Additional Information":
             '''
@@ -9895,10 +11182,10 @@ The Thor-Delta launched a number of significant payloads, including the first co
             The ATK/Astrium Liberty proposal was not initially selected by NASA in the 2011 contract 
             awards to assist development of a commercial space transportation system to replace the 
             Space Shuttle; however, the team continued development in the hope of gaining funding 
-            from NASA in future years.[7] On September 13, 2011, NASA and ATK held a joint news 
+            from NASA in future years. On September 13, 2011, NASA and ATK held a joint news 
             conference to announce they had signed an unfunded Space Act Agreement (SAA) to 
             collaborate on the development of the Liberty Transportation System as part of the 
-            agency's Commercial Crew Development Round 2 activities.[8] NASA suggested this agreement 
+            agency's Commercial Crew Development Round 2 activities. NASA suggested this agreement 
             could "accelerate the availability of U.S. commercial crew transportation capabilities."
 
             In January 2012 NASA's Commercial Crew office announced ATK had successfully held a Launch 
@@ -9965,9 +11252,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -10002,9 +11294,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -10039,9 +11336,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -10076,9 +11378,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -10113,9 +11420,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -10150,9 +11462,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -10187,9 +11504,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -10224,9 +11546,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -10261,9 +11588,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -10298,9 +11630,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''
@@ -10335,9 +11672,14 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
         "Image": "",
-        "Additional Information":
+       "Additional Information":
             '''
     
             '''

@@ -421,6 +421,7 @@ class Ui_MainWindow(object):
         self.actionAscending.setStatusTip(_translate("MainWindow", "Sort rockets in ascending order (A to Z)"))
         self.actionDescending.setText(_translate("MainWindow", "Descending"))
         self.actionDescending.setStatusTip(_translate("MainWindow", "Sort rockets in descending order(Z to A)"))
+        #self.actionDescending.triggered.connect(self.actionDescending)
         self.actionHigh_to_Low_4.setText(_translate("MainWindow", "High to Low"))
         self.actionHigh_to_Low_4.setStatusTip(_translate("MainWindow", "Sort rockets by their mass on the launchpad from heaviest to lightest"))
         self.actionHigh_to_Low_5.setText(_translate("MainWindow", "High to Low"))
@@ -464,6 +465,21 @@ class Ui_MainWindow(object):
             else: 
                 self.listWidget.item(i).setHidden(False)
 
+    # def actionVersion(self):
+
+
+
+    # def actionAscending(self):
+    #     for rocket in ascending_alphabetical_rocket_choices:
+    #         #item = QtWidgets.QListWidgetItem()
+    #         self.listWidget.addItem(rocket)
+
+    def actionDescending(self):
+        for rocket in descending_alphabetical_rocket_choices:
+            #item = QtWidgets.QListWidgetItem()
+            self.listWidget.addItem(rocket)
+        
+
 
 # ***** Define what happens when a rocket is selected from listWidget ******
     def selectionChanged(self):
@@ -479,7 +495,7 @@ class Ui_MainWindow(object):
         operationalStatus = rocketDictionary[rocketName]['Operational Status'].replace('\n', '<br />').replace('\n\n', '<br /><br />').replace('        ', '')
         burnTime = rocketDictionary[rocketName]['Burn Time'].replace('\n', '<br />')
         thrust = rocketDictionary[rocketName]['Thrust'].replace('\n', '<br />')
-        isp = rocketDictionary[rocketName]['Years in Operation'].replace('\n', '<br />')
+        isp = rocketDictionary[rocketName]['ISP'].replace('\n', '<br />')
         fuelType = rocketDictionary[rocketName]['Fuel Type'].replace('\n', '<br />').replace('H2','H<sub>2</sub>').replace('N2','N<sub>2</sub>').replace('O4','O<sub>4</sub>')
         costPerLaunch = rocketDictionary[rocketName]['Cost Per Launch'].replace('\n', '<br />')
         yearsInOperation = rocketDictionary[rocketName]['Years in Operation'].replace('\n', '<br />').replace('        ', '')
