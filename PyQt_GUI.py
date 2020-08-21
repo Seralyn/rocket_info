@@ -3,7 +3,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtWidgets import (QSplashScreen, QLabel, QCompleter, QGraphicsScene, 
 QGraphicsView, QLineEdit, QLabel, QPushButton, QScrollArea, QVBoxLayout, QWidget,
-QSpacerItem, QMainWindow, QSizePolicy, QHBoxLayout, QVBoxLayout)
+QSpacerItem, QMainWindow, QSizePolicy, QHBoxLayout, QVBoxLayout, QDialog, QDialogButtonBox)
 from PyQt5.QtCore import QTimer, Qt
 from rocket_dictionary import rocketDictionary
 from collections import OrderedDict
@@ -29,6 +29,26 @@ descending_alphabetical_rocket_choices = sorted(rocketDictionary.keys(), reverse
 # descending_asl_isp_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['asl_isp_int'], reverse=True)) #reverse
 # ascending_vac_isp_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['vac_isp_int']))
 # descending_vac_isp_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['vac_isp_int'], reverse=True)) #reverse
+
+
+class CustomDialog(QDialog):
+    def __init__(self, *args, **kwargs):
+        super(CustomDialog, self).__init__(*args, **kwargs)
+        
+        self.setWindowTitle("Placeholder")
+        
+        QBtn = QDialogButtonBox.Ok           #| QDialogButtonBox.Cancel
+        
+        self.buttonBox = QDialogButtonBox(QBtn)
+        self.buttonBox.accepted.connect(self.accept)
+        # self.buttonBox.rejected.connect(self.reject)
+        self.label = QLabel("Placeholder text")
+
+        self.layout = QVBoxLayout()
+        self.layout.addWidget(self.buttonBox)
+        self.layout.addWidget(self.label)
+        self.setLayout(self.layout)
+
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -80,7 +100,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout_2.addWidget(self.searchHeaderLabel)
         self.searchBox = QtWidgets.QLineEdit(self.searchBarFrame)
         self.searchBox.setPlaceholderText(" Enter Name of Rocket...")
-        self.searchBox.textChanged.connect(self.update_display)
+        self.searchBox.textChanged.connect(self.filter_rocket_list)
         self.searchBox.setMinimumSize(QtCore.QSize(0, 10))
         self.searchBox.setMaximumSize(QtCore.QSize(200, 16777215))
         self.searchBox.setStyleSheet("background-color: rgb(70, 70, 70);\n"
@@ -331,19 +351,7 @@ class Ui_MainWindow(object):
         self.listWidget.setToolTip(_translate("MainWindow", "<html><head/><body><p style=\"color : black\">List of rockets</p></body></html>"))
         self.listWidget.setStatusTip(_translate("MainWindow", "Rocket List"))
         __sortingEnabled = self.listWidget.isSortingEnabled()
-        self.listWidget.setSortingEnabled(False)
-        #j = 0
-
-        # for rocket in ascending_alphabetical_rocket_choices:
-        #     item = self.listWidget.item(j)
-        #     item.setText(_translate("MainWindow", rocket))
-        #     j = j + 1
-
-        # item = self.listWidget.item(0)
-        # item.setText(_translate("MainWindow", "poop"))
-        # item = self.listWidget.item(1)
-        # item.setText(_translate("MainWindow", "poop1"))
-        
+        self.listWidget.setSortingEnabled(False)        
         self.listWidget.setSortingEnabled(__sortingEnabled)
         self.searchBox.setToolTip(_translate("searchBarFrame", "<html><head/><body><p style=\"color : black\">Enter search term here</p></body></html>"))
         self.informationHeaderLabel.setToolTip(_translate("MainWindow", "<html><head/><body><p style=\"color : black\">Information</p></body></html>"))
@@ -421,7 +429,6 @@ class Ui_MainWindow(object):
         self.actionAscending.setStatusTip(_translate("MainWindow", "Sort rockets in ascending order (A to Z)"))
         self.actionDescending.setText(_translate("MainWindow", "Descending"))
         self.actionDescending.setStatusTip(_translate("MainWindow", "Sort rockets in descending order(Z to A)"))
-        #self.actionDescending.triggered.connect(self.actionDescending)
         self.actionHigh_to_Low_4.setText(_translate("MainWindow", "High to Low"))
         self.actionHigh_to_Low_4.setStatusTip(_translate("MainWindow", "Sort rockets by their mass on the launchpad from heaviest to lightest"))
         self.actionHigh_to_Low_5.setText(_translate("MainWindow", "High to Low"))
@@ -443,6 +450,12 @@ class Ui_MainWindow(object):
         self.actionstrongly.setText(_translate("MainWindow", "strongly"))
         self.actionmildly.setText(_translate("MainWindow", "mildly"))
 
+     # ******* Menu Bar Connections ******
+        self.actionDescending.triggered.connect(self.actionDescendingClicked)
+        self.actionAscending.triggered.connect(self.actionAscendingClicked)
+        self.actionVersion.triggered.connect(self.showVersionClicked)
+
+
 
      # ***** Placing, Naming, Setting Tool and Status tips for Toolbar Items ******   
         self.actionCompare.setText(_translate("MainWindow", "Compare"))
@@ -456,31 +469,43 @@ class Ui_MainWindow(object):
         self.actionPrint.setShortcut(_translate("MainWindow", "Ctrl+P"))
         self.actionPrint.setIcon(QtGui.QIcon("printer.png"))
 
-        
+    
+    # ****** Rocket ListWidget Sorting Methods **********
 
-    def update_display(self, text):
+    def filter_rocket_list(self, text):
         for i in range(len(self.listWidget)):
             if text.lower() not in self.listWidget.item(i).text().lower():
                 self.listWidget.item(i).setHidden(True)
             else: 
                 self.listWidget.item(i).setHidden(False)
 
-    # def actionVersion(self):
-
-
-
-    # def actionAscending(self):
-    #     for rocket in ascending_alphabetical_rocket_choices:
-    #         #item = QtWidgets.QListWidgetItem()
-    #         self.listWidget.addItem(rocket)
-
-    def actionDescending(self):
-        for rocket in descending_alphabetical_rocket_choices:
-            #item = QtWidgets.QListWidgetItem()
+    def actionAscendingClicked(self):
+        for i in range(len(self.listWidget)):        #this does not work, even though it works below...why?
+            self.listWidget.clear()
+        for rocket in ascending_alphabetical_rocket_choices:   #this works
             self.listWidget.addItem(rocket)
         
 
+    def actionDescendingClicked(self):
+        for i in range(len(self.listWidget)):
+            self.listWidget.clear() 
+        for rocket in descending_alphabetical_rocket_choices:
+            self.listWidget.addItem(rocket)
+       
+# **********  Menu Button Click Methods **************
 
+    def showVersionClicked(self):
+        versionDlg = CustomDialog()  #removing self from CustomDiaglog(self) made this work.
+        versionDlg.setWindowTitle("Version Info")
+        versionDlg.label.setText(
+            '''Version: 0.4 Alpha''')
+        versionDlg.exec_()
+    
+        
+
+
+
+        
 # ***** Define what happens when a rocket is selected from listWidget ******
     def selectionChanged(self):
         _translate = QtCore.QCoreApplication.translate
