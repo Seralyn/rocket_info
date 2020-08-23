@@ -8,11 +8,15 @@ from PyQt5.QtCore import QTimer, Qt
 from rocket_dictionary import rocketDictionary
 from collections import OrderedDict
 import sys
+import ctypes  #this plus the two lines below (beginning with "myappid" and "ctypes.windll" respectively allows windwows to recognize the app's icon, as opposed to just giving the window it self the proper icon
+
+myappid = 'mycompany.myproduct.subproduct.version' # arbitrary string
+ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
 
 ascending_alphabetical_rocket_choices = sorted(rocketDictionary.keys())
 descending_alphabetical_rocket_choices = sorted(rocketDictionary.keys(), reverse=True)
-# ascending_country_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Country']))
-# descending_country_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Country'], reverse=True)) #reverse
+ascending_country_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Country']))
+descending_country_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Country'], reverse=True)) #reverse
 # ascending_height_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['height_int']))
 # descending_height_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['height_int'], reverse=True)) #reverse
 # ascending_mass_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['mass_int']))
@@ -126,7 +130,11 @@ class Ui_MainWindow(object):
         for rocket in ascending_alphabetical_rocket_choices:
             #item = QtWidgets.QListWidgetItem()
             self.listWidget.addItem(rocket)
-
+            
+        for i in range(len(self.listWidget)):    
+            flagIcon = QtGui.QIcon(rocketDictionary[self.listWidget.item(i).text()]["flag_icon"])
+            self.listWidget.item(i).setIcon(flagIcon)
+             
         self.listWidget.itemSelectionChanged.connect(self.selectionChanged)
         
         # item = QtWidgets.QListWidgetItem()
@@ -454,7 +462,14 @@ class Ui_MainWindow(object):
         self.actionDescending.triggered.connect(self.actionDescendingClicked)
         self.actionAscending.triggered.connect(self.actionAscendingClicked)
         self.actionVersion.triggered.connect(self.showVersionClicked)
+        self.actionAbout.triggered.connect(self.showAboutClicked)
+        self.actionLicensing.triggered.connect(self.showLicensingClicked)
+        self.actionAcronyms.triggered.connect(self.showAcroynmClicked)
+        
+        self.actionCountry.triggered.connect(self.actionCountryAscendingClicked)
+        #self.actionAcronyms.triggered.connect(self.actionCountryDescendingClicked)
 
+        self.actionPrint.triggered.connect(self.printButtonClicked)
 
 
      # ***** Placing, Naming, Setting Tool and Status tips for Toolbar Items ******   
@@ -469,30 +484,68 @@ class Ui_MainWindow(object):
         self.actionPrint.setShortcut(_translate("MainWindow", "Ctrl+P"))
         self.actionPrint.setIcon(QtGui.QIcon("printer.png"))
 
-    
-    # ****** Rocket ListWidget Sorting Methods **********
+    # ********** Toolbar Button Click Methods **********
 
+    def printButtonClicked(self):
+        selectedItem = self.listWidget.currentItem()
+        if selectedItem == None:
+            selectedItem = self.listWidget.item(0).text()
+        else:
+             selectedItem = selectedItem.text()
+        
+        printWindow.setWindowTitle(f"Print information for:   {selectedItem}")
+        printWindow.setGeometry(200, 200, 500, 700)
+
+        printLayout = QVBoxLayout()
+        printRocketNameLabel = QLabel()
+        printRocketNameLabel.setLayout(printLayout)
+        printCentralwidget = QtWidgets.QWidget(printWindow)
+        printCentralwidget.setObjectName("printCentralwidget")
+        printRocketNameLabel.show()
+        
+
+        printWindow.show()
+
+
+    # ****** Sorting Menu - Rocket ListWidget Sorting Methods **********
+    def addFlags(self):    
+        for i in range(len(self.listWidget)):
+            flagIcon = QtGui.QIcon(rocketDictionary[self.listWidget.item(i).text()]["flag_icon"])
+            self.listWidget.item(i).setIcon(flagIcon)
+
+  # ********** filter list by user input  **********
     def filter_rocket_list(self, text):
         for i in range(len(self.listWidget)):
             if text.lower() not in self.listWidget.item(i).text().lower():
                 self.listWidget.item(i).setHidden(True)
             else: 
                 self.listWidget.item(i).setHidden(False)
+            
 
     def actionAscendingClicked(self):
-        for i in range(len(self.listWidget)):        #this does not work, even though it works below...why?
-            self.listWidget.clear()
-        for rocket in ascending_alphabetical_rocket_choices:   #this works
+        self.listWidget.clear()
+        for rocket in ascending_alphabetical_rocket_choices:   
             self.listWidget.addItem(rocket)
-        
+        self.addFlags()
 
     def actionDescendingClicked(self):
-        for i in range(len(self.listWidget)):
-            self.listWidget.clear() 
+        self.listWidget.clear() 
         for rocket in descending_alphabetical_rocket_choices:
             self.listWidget.addItem(rocket)
+        self.addFlags()
+
+    def actionCountryAscendingClicked(self):
+        self.listWidget.clear()
+        for rocket in ascending_country_rocket_choices:
+            self.listWidget.addItem(rocket)
+        self.addFlags()
+    # def actionCountryDescendingClicked(self):
+    #     for i in range(len(self.listWidget)):
+    #         self.listWidget.clear()
+    #         for rocket in descending_country_rocket_choices:
+    #             self.listWidget.addItem(rocket)
        
-# **********  Menu Button Click Methods **************
+# **********  Menu-->[Help] Button Click Methods **************
 
     def showVersionClicked(self):
         versionDlg = CustomDialog()  #removing self from CustomDiaglog(self) made this work.
@@ -500,7 +553,52 @@ class Ui_MainWindow(object):
         versionDlg.label.setText(
             '''Version: 0.4 Alpha''')
         versionDlg.exec_()
+
+    def showAcroynmClicked(self):
+        acronymDlg = CustomDialog()  #removing self from CustomDiaglog(self) made this work.
+        acronymDlg.setWindowTitle("Acronyms")
+        acronymDlg.label.setText(
+            '''
+NASA: National Aeronautics and Space Administration
+ESA: European Space Agency
+CNES: Centre national d'études spatiales
+JAXA: Japan Aerospace and Exploration Agency
+SRB: Solid Rocket Booster
+HTPB: Hydroxyl-Terminated Polybutadiene
+LOX: Liquid Oxygen
+LH2: Liquid Hydrogen
+
+            ''')
+        acronymDlg.exec_()
+
+    def showLicensingClicked(self):
+        licensingDlg = CustomDialog()  #removing self from CustomDiaglog(self) made this work.
+        licensingDlg.setWindowTitle("Licensing")
+        licensingDlg.label.setText(
+            '''
+License: MIT (https://opensource.org/licenses/MIT)
+
+Printer Icon: (https://p.yusukekamiyamane.com/)
+Compare Icon: (Freepik from "https://www.flaticon.com/")
+Flag Icons: (Freepik from www.flaticon.com)
+''')
+        licensingDlg.exec_()
+
     
+    def showAboutClicked(self):
+        aboutDlg = CustomDialog()  #removing self from CustomDiaglog(self) made this work.
+        aboutDlg.setWindowTitle("About")
+        aboutDlg.label.setText(
+            '''
+Developer: Seralyn Campbell
+
+Email: seralyn.dev@gmail.com
+
+Written in: Python 3.8.5
+
+Open Source Software: 
+https://github.com/Seralyn/rocket_info''')
+        aboutDlg.exec_()
         
 
 
@@ -517,14 +615,16 @@ class Ui_MainWindow(object):
         #height_string = rocketDictionary[rocketName]['HeightString'].replace('\n', '<br />')    #add this and also add {height_string} in html line below, but also make height above this a str(rocketDic....)
         diameter = rocketDictionary[rocketName]['Diameter'].replace('\n', '<br />')
         mass = rocketDictionary[rocketName]['Mass'].replace('\n', '<br />')
-        operationalStatus = rocketDictionary[rocketName]['Operational Status'].replace('\n', '<br />').replace('\n\n', '<br /><br />').replace('        ', '')
+        operationalStatus = rocketDictionary[rocketName]['Operational Status']
         burnTime = rocketDictionary[rocketName]['Burn Time'].replace('\n', '<br />')
         thrust = rocketDictionary[rocketName]['Thrust'].replace('\n', '<br />')
         isp = rocketDictionary[rocketName]['ISP'].replace('\n', '<br />')
-        fuelType = rocketDictionary[rocketName]['Fuel Type'].replace('\n', '<br />').replace('H2','H<sub>2</sub>').replace('N2','N<sub>2</sub>').replace('O4','O<sub>4</sub>')
+        fuelType = rocketDictionary[rocketName]['Fuel Type']
         costPerLaunch = rocketDictionary[rocketName]['Cost Per Launch'].replace('\n', '<br />')
         yearsInOperation = rocketDictionary[rocketName]['Years in Operation'].replace('\n', '<br />').replace('        ', '')
         additionalInformation = rocketDictionary[rocketName]['Additional Information'].replace('\n\n', '<br /><br />').replace('            ', '')
+        
+        
         self.textBrowser.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
@@ -548,9 +648,13 @@ f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:
 f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Arial, sans-serif\'; font-size:12pt; color:#ffffff; background-color:transparent;\"><b>-------------------------------------------------------------------------------------------------</b></span></p>\n"
 f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Arial, sans-serif\'; font-size:12pt; color:#ffffff; background-color:transparent;\"><b>Additional Information:</b><br><br> {additionalInformation}</span></p></body></html>"))
 
+
+
+
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
+    app.setWindowIcon(QtGui.QIcon("rocket_icon_512.ico"))
     
     splash_label = QLabel()
     pixmap = QPixmap('splash2.png')
@@ -561,9 +665,13 @@ if __name__ == "__main__":
     splash_label.show()
     QTimer.singleShot(1600, splash_label.close)
 
+   #initialize print window...maybe?
+    printWindow = QtWidgets.QMainWindow()
     MainWindow = QtWidgets.QMainWindow()
+    
     ui = Ui_MainWindow()
     ui.setupUi(MainWindow)
+    
     MainWindow.show()
     sys.exit(app.exec_())
 
