@@ -2002,12 +2002,12 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
         "Cost Per Launch": "Unknown",         
         "cost_int": None,        
         "Fuel Type": "PBAN (Polybutadine Acrylo Nitrate) & HEF (High Energy Propellant)",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
+        "Total Launches": "4",
+        "total_launches_int": 4,
+        "Successful Launches": "2",
+        "successful_launches_int": 2,
+        "Launch Failures": "1",
+        "failed_launches_int": 1,
         "Image": "SatLaunchVehicle.png",
         "Additional Information":
             '''
@@ -2063,12 +2063,12 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
         "Cost Per Launch": "Unknown",         
         "cost_int": None,        
         "Fuel Type": "Exact type unknown, but all solid fuel",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
+        "Total Launches": "4",
+        "total_launches_int": 4,
+        "Successful Launches": "1",
+        "successful_launches_int": 1,
+        "Launch Failures": "2",
+        "failed_launches_int": 2,
         "Image": "ASLV.png",
         "Additional Information":
             '''
@@ -2105,19 +2105,19 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
         "Name": "Polar Satellite Launch Vehicle",
         "Agency": "ISRO - Indian Space Research Organisation",
         "Manufacturer": "ISRO",        
-        "Class": "",
+        "Class": "Medium",
         "Payload Capacity to LEO": "3,800 kg (8,400 lbs)",
-        "payload_int": "",
+        "payload_int": 3800,
         "Height": "44 m (144 ft)",
-        "height_int": "",
+        "height_int": 44,
         "Diameter": "2.8 m (9 ft 2 in)",
-        "diameter_int": "",        
+        "diameter_int": 2.8,        
         "Mass": '''
         PSLV-G: 295,000 kg (650,000 lbs)
         PSLV-CA: 230,000 kg (510,000 lbs)
         PSLV-XL: 320,000 kg (710,000 lbs)
         ''',
-        "mass_int": "",        
+        "mass_int": 320000,        
         "Years in Operation": '''
         PSLV-G: 1993-2016
         PSLV-CA: 2007~
@@ -2125,32 +2125,32 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
         PSLV-DL: 2019~
         PSLV-QL: 2019~
         ''',
-        "firstyear_int": "",        
+        "firstyear_int": 1993,        
         "Country": "India",
         "flag_icon": "flags/india.png",
         "Operational Status": "Active",
         "Number of Stages": "4",
-        "Burn Time": "",
-        "total_burntime_int": "",        
-        "Thrust": "",
-        "initial_thrust_int": "",        
-        "ISP": "",        
-        "asl_isp_int": "", 
-        "vac_isp_int": "",        
-        "Cost Per Launch": "18-28 mil USD",         
-        "cost_int": "",        
+        "Burn Time": "Boosters: 70 sec, S1: 110 sec, S2: 133 sec, S3: 83 sec, S4: 425 sec",
+        "total_burntime_int": 821,        
+        "Thrust": "Boosters: 4,221 kN, S1: 4,846.9 kN, S2: 803.7 kN, S3: 240 kN, S4: 14.66 kN",
+        "initial_thrust_int": 9067.9,        
+        "ISP": "Boosters: 262 sec, S1: 237 sec, S2: 293 sec, S3: 295 sec, S4: 308 sec",        
+        "asl_isp_int": 249.5, 
+        "vac_isp_int": 308,        
+        "Cost Per Launch": "$18M-28M",         
+        "cost_int": 28000000,        
         "Fuel Type": '''
         Boosters/S1: HTPB - Hydroxyl-terminated polybutadiene
         S2: N2O4/UDMH - Dinitrogen Tetroxide/Unsymmetrical dimethylhydrazine
         S3: HTPB - Hydroxyl-terminated polybutadiene
         S4: MMH/MON - Monomethylhydrazine/Mixed Oxides of Nitrogen
         ''',
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
+        "Total Launches": "50",
+        "total_launches_int": 50,
+        "Successful Launches": "47",
+        "successful_launches_int": 47,
+        "Launch Failures": "3 (1 partial, 2 total)",
+        "failed_launches_int": 3,
         "Image": "PSLV.png",
         "Additional Information":
             '''
@@ -2211,20 +2211,20 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
         "Name": "Geosynchronous Satellite Launch Vehicle",
         "Agency": "ISRO - Indian Space Research Organisation",
         "Manufacturer": "ISRO - Indian Space Research Organisation",        
-        "Class": "",
+        "Class": "Medium",
         "Payload Capacity to LEO": "5,000 kg (11,000 lbs)",
-        "payload_int": "",
+        "payload_int": 5000,
         "Height": "49.13 m (161.2 ft)",
-        "height_int": "",
+        "height_int": 49.13,
         "Diameter": "2.8 m (9 ft 2 in)",
-        "diameter_int": "",        
+        "diameter_int": 2.8,        
         "Mass": "414,750 kg (914,370 lbs)",
-        "mass_int": "",        
+        "mass_int": 414750,        
         "Years in Operation": '''
         Mk.I: 2001-2010
         Mk.II: 2010~
         ''',
-        "firstyear_int": "",        
+        "firstyear_int": 2001,        
         "Country": "India",
         "flag_icon": "flags/india.png",
         "Operational Status": '''
@@ -2235,27 +2235,27 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
         "Burn Time": '''
         Boosters: 154 sec, S1: 100 sec, S2: 149 seconds, S3: 846 sec
         ''',
-        "total_burntime_int": "",        
+        "total_burntime_int":1249,        
         "Thrust": '''
         Boosters: 760 kN, S1: 4,846.9 kN, S2: 846.8 kN, S3: 75 kN
         ''',
-        "initial_thrust_int": "",        
+        "initial_thrust_int": 5606,        
         "ISP": '''
         Boosters: 262 sec, S1: 237 sec, S2: 295 sec, S3: 454 sec
         ''',        
-        "asl_isp_int": "", 
-        "vac_isp_int": "",        
-        "Cost Per Launch": "",         
-        "cost_int": "",        
+        "asl_isp_int": 249.5, 
+        "vac_isp_int": 454,        
+        "Cost Per Launch": "47M",         
+        "cost_int": 47000000,        
         "Fuel Type": '''
         Boosters: N2O4/UDMH, S1: HTPB (solid), S2: N2O4/UDMH, S3: LH2/LOX
         ''',
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
+        "Total Launches": "13 (6 Mk.I, 7 Mk.II)",
+        "total_launches_int": 13,
+        "Successful Launches": "8 (2 Mk.I, 6 Mk.II)",
+        "successful_launches_int": 8,
+        "Launch Failures": "3 (2 Mk.I, 1 Mk.II) & Partial Failures: 2 (Mk.I)",
+        "failed_launches_int": 5,
         "Image": "GSLV.png",
         "Additional Information":
             '''
@@ -2300,37 +2300,37 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
         "Name": "DIRECT (Jupiter)",
         "Agency": "NASA",
         "Manufacturer": "NASA",        
-        "Class": "",
+        "Class": "Very Heavy",
         "Payload Capacity to LEO": "120,000 kg [proposed]",
-        "payload_int": "",
+        "payload_int": 120000,
         "Height": "Unknown",
-        "height_int": "",
+        "height_int": None,
         "Diameter": "8.41 m (27.6 ft) [proposed]",
-        "diameter_int": "",        
+        "diameter_int": 8.41,        
         "Mass": "Unknown",
-        "mass_int": "",        
+        "mass_int": None,        
         "Years in Operation": "N/A",
-        "firstyear_int": "",        
+        "firstyear_int": None,        
         "Country": "USA",
         "flag_icon": "flags/usa.png",
         "Operational Status": "Canceled",
-        "Number of Stages": "",
+        "Number of Stages": "3",
         "Burn Time": "Unknown",
-        "total_burntime_int": "",        
+        "total_burntime_int": None,        
         "Thrust": "Unknown",
-        "initial_thrust_int": "",        
+        "initial_thrust_int": None,        
         "ISP": "Unknown",        
-        "asl_isp_int": "", 
-        "vac_isp_int": "",        
+        "asl_isp_int": None, 
+        "vac_isp_int": None,        
         "Cost Per Launch": "Unknown",         
-        "cost_int": "",        
-        "Fuel Type": "LH/LOX",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
+        "cost_int": None,        
+        "Fuel Type": "LH2/LOX",
+        "Total Launches": "N/A",
+        "total_launches_int": None,
+        "Successful Launches": "N/A",
+        "successful_launches_int": None,
+        "Launch Failures": "N/A",
+        "failed_launches_int": None,
         "Image": "direct-jupiter.png",
         "Additional Information":
             '''
@@ -2501,19 +2501,19 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
         ''',        
         "asl_isp_int": 274.5, 
         "vac_isp_int": 443,        
-        "Cost Per Launch": "",         
-        "cost_int": "",        
+        "Cost Per Launch": "51M",         
+        "cost_int": 51000000,        
         "Fuel Type": '''
         S1(Boosters): HTPB
         S2: UDMH / N2O4
         S3: LH2/LOX
         ''',
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
+        "Total Launches": "4",
+        "total_launches_int": 4,
+        "Successful Launches": "4",
+        "successful_launches_int": 4,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
         "Image": "GSLVMkIII.png",
         "Additional Information":
             '''
@@ -2579,12 +2579,12 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
         "Cost Per Launch": "Unknown",         
         "cost_int": None,        
         "Fuel Type": "S1: Solid, S2: Solid, S3: Solid, S4: Liquid",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
+        "Total Launches": "0",
+        "total_launches_int": 0,
+        "Successful Launches": "0",
+        "successful_launches_int": 0,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
         "Image": "SSLV.png",
         "Additional Information":
             '''
@@ -2607,36 +2607,36 @@ The first three stages of the vehicle use solid propellant, with a fourth stage 
         "Agency": "ISRO - Indian Space Research Organisation",
         "Manufacturer": "ISRO - Indian Space Research Organisation",        
         "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
+        "Payload Capacity to LEO": "Unknown",
+        "payload_int": None,
         "Height": "~16 m (52 ft) | Orbiter: 6.5 m (21 ft)",
-        "height_int": "",
+        "height_int": 16,
         "Diameter": "1 m (3 ft 3 in)",
-        "diameter_int": "",        
+        "diameter_int": 1,        
         "Mass": "12000 kg (26455 lbs)",
-        "mass_int": "",        
+        "mass_int": 12000,        
         "Years in Operation": "N/A (One test flight in 2016)",
-        "firstyear_int": "",        
+        "firstyear_int": 2016,        
         "Country": "India",
         "flag_icon": "flags/india.png",
         "Operational Status": "In Development",
         "Number of Stages": "2",
-        "Burn Time": "Unknown",
-        "total_burntime_int": "",        
+        "Burn Time": "770 sec",
+        "total_burntime_int": 770,        
         "Thrust": "Unknown",
-        "initial_thrust_int": "",        
+        "initial_thrust_int": None,        
         "ISP": "Unknown",        
-        "asl_isp_int": "", 
-        "vac_isp_int": "",        
+        "asl_isp_int": None, 
+        "vac_isp_int": None,        
         "Cost Per Launch": "Unknown",         
-        "cost_int": "",        
+        "cost_int": None,        
         "Fuel Type": "Unknown",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
+        "Total Launches": "1",
+        "total_launches_int": 1,
+        "Successful Launches": "1",
+        "successful_launches_int": 1,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
         "Image": "RLV-TD.png",
         "Additional Information":
             '''
@@ -2651,6 +2651,21 @@ In January 2012, the design of ISRO's reusable launch vehicle was approved by th
 The RLV-TD was developed with an objective to test various aspects such as hypersonic flight, autoland, powered cruise flight, hypersonic flight using the air-breathing engine propulsion and "Hypersonic Experiment". A series of four RLV-TD test flights are planned by ISRO: HEX (Hypersonic Flight Experiment), LEX (Landing Experiment), REX (Return Flight Experiment), and SPEX (Scramjet Propulsion Experiment).
 
 A team of 750 engineers at Vikram Sarabhai Space Centre, National Aeronautical Laboratory, and Indian Institute of Science worked on the design and development of RLV-TD and the associated rocket. RLV-TD underwent 120 hours of wind tunnel, 5,000 hours of computational fluid dynamics and 1,100 runs of flight simulation tests. RLV-TD has mass of 1.75 tonnes, wingspan of 3.6 meters and overall length of 6.5 meters (excluding the rocket). The vehicle had 600 heat-resistant tiles on its undercarriage and it features delta wings and angled tail fins. Total cost of the project was ₹95 crore (equivalent to ₹110 crore or US$15.4 million in 2019). Future planned developments include testing an air-breathing propulsion system, which aims to capitalise on the oxygen in the atmosphere instead of liquefied oxygen while in flight.
+
+
+Hypersonic Flight Experiment
+RLV-TD HEX-01
+The Hypersonic Flight Experiment (HEX), first of the five test flights was conducted on 23 May 2016. The Sub-orbital test flight was launched at 07:00 IST (01:30 GMT) from Satish Dhawan Space Centre in Sriharikota (80 kilometres (50 mi) north of Chennai). The test flight lasted for 770 seconds, reached maximum altitude of 65 kilometres (40 mi) and covered a distance of 450 kilometres (280 mi) Sriharikota, steered itself to an on-target splashdown to land (ditch) at a designated spot in the Bay of Bengal. Not designed to float, the vehicle disintegrated on impact with water and was not recovered.
+
+RLV-TD was mounted on top of and launched aboard a single stage solid fuel booster (HS9 booster) that was derived from strap-on boosters flown on India's Polar Satellite Launch Vehicle. By the time, the booster consumed its solid propellant in 91 seconds, the RLV-TD separated from its boost stage and peaked to a sub-orbital altitude of about 65 kilometres (40 mi). The heat shield, guidance, navigation and control algorithms were tested at hypersonic speed by accurately steering the vehicle during the descent stage. For the descent back, the test vehicle was programmed to pitch its nose up, exposing silica tiles on its underside and reinforced carbon–carbon nose cap to the airflow into the thick lower layers of the atmosphere. The RLV-TD endured high temperatures of descent through the atmosphere due to its thermal protection system.
+
+All stages of the test flight were tracked by ground station at the launch site and a shipborne terminal. All the mission objectives were met and technologies like autonomous navigation, guidance and control, reusable thermal protection system and descent mission management were successfully validated.
+
+
+Future developments
+The second experiment in RLV-TD series (LEX) would be an air-drop test where the prototype will be equipped with landing gear to perform an autonomous landing on a runway. The RLV-TD is being designed and built at the Vikram Sarabhai Space Centre. Its navigational equipment was supplied by the ISRO Inertial Systems Unit in Thiruvananthapuram and ISRO's Satellite Applications Centre in Ahmedabad. The RLV-TD's landing gear was supplied by Hindustan Aeronautics Limited. ISRO plans to carry out the landing experiment (LEX) on a military runway at Challakere in Chitradurga district. The flight article will be carried to an altitude of 3 km by a helicopter and released to land autonomously at the airstrip. LEX is scheduled for mid 2020.
+
+In other experiments, ISRO intends to carry out an orbital re-entry experiment (REX) and a Scramjet Propulsion Experiment (SPEX) using a reusable carrier vehicle. ISRO Chief K. Sivan stated that the agency had many experiments planned for the RLV-TD, but would only focus on them from 2019, as it was occupied with other missions.
             '''
     },
 
