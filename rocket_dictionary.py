@@ -388,7 +388,7 @@ Ariane 6 comprises three major structural and propellant-carrying components.
             system called ISCUL (Inyector Satelital de Cargas Utiles 
             Ligeras, Light Useful Payloads Satellite Launcher).
 
-            The Tronador I is an unguided liquid-fueled rocket[3] used 
+            The Tronador I is an unguided liquid-fueled rocket used 
             for sub-orbital spaceflight test flights. Its development 
             led to the larger VEx test rocket, testing technologies 
             needed for the Tronador II, which has a guidance system 
