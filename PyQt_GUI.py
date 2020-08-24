@@ -615,7 +615,7 @@ https://github.com/Seralyn/rocket_info''')
         _translate = QtCore.QCoreApplication.translate
         rocketName = self.listWidget.currentItem().text()
         rocketImage = "images/" + rocketDictionary[rocketName]['Image']
-        self.graphicsView.setStyleSheet(f"background-color: rgb(52, 52, 52); background-image: url({rocketImage}); background-repeat: no-repeat;")
+        self.graphicsView.setStyleSheet(f"background-color: rgb(52, 52, 52); background-image: url({rocketImage}); background-repeat: no-repeat; position: absolute; top: 50%; left: 50%")
         manufacturer = rocketDictionary[rocketName]['Manufacturer'].replace('\n', '<br />').replace('\n\n', '<br /><br />')
         height = rocketDictionary[rocketName]['Height'].replace('\n', '<br />')
         #height_string = rocketDictionary[rocketName]['HeightString'].replace('\n', '<br />')    #add this and also add {height_string} in html line below, but also make height above this a str(rocketDic....)
