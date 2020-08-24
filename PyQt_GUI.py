@@ -10,8 +10,8 @@ from collections import OrderedDict
 import sys
 import ctypes  #this plus the two lines below (beginning with "myappid" and "ctypes.windll" respectively allows windwows to recognize the app's icon, as opposed to just giving the window it self the proper icon
 
-# myappid = 'mycompany.myproduct.subproduct.version' # arbitrary string
-# ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
+myappid = 'mycompany.myproduct.subproduct.version' # arbitrary string
+ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
 
 ascending_alphabetical_rocket_choices = sorted(rocketDictionary.keys())
 descending_alphabetical_rocket_choices = sorted(rocketDictionary.keys(), reverse=True)
@@ -149,14 +149,14 @@ class Ui_MainWindow(object):
         self.infoPaneFrame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.infoPaneFrame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.infoPaneFrame.setObjectName("infoPaneFrame")
-        self.verticalLayout_2 = QtWidgets.QVBoxLayout(self.infoPaneFrame)
-        self.verticalLayout_2.setContentsMargins(30, -1, 30, -1)
-        self.verticalLayout_2.setObjectName("verticalLayout_2")
+        self.infoLayout = QtWidgets.QVBoxLayout(self.infoPaneFrame)
+        self.infoLayout.setContentsMargins(30, -1, 30, -1)
+        self.infoLayout.setObjectName("infoLayout")
         self.informationHeaderLabel = QtWidgets.QLabel(self.infoPaneFrame)
         self.informationHeaderLabel.setMaximumSize(QtCore.QSize(16777215, 50))
         self.informationHeaderLabel.setStyleSheet("background-color: rgb(54, 54, 54);")
         self.informationHeaderLabel.setObjectName("informationHeaderLabel")
-        self.verticalLayout_2.addWidget(self.informationHeaderLabel)
+        self.infoLayout.addWidget(self.informationHeaderLabel)
         self.textBrowser = QtWidgets.QTextBrowser(self.infoPaneFrame)
         self.textBrowser.setMaximumSize(QtCore.QSize(16777215, 16777215))
         self.textBrowser.setMouseTracking(True)
@@ -169,24 +169,42 @@ class Ui_MainWindow(object):
         self.textBrowser.setLineWrapColumnOrWidth(0)
         self.textBrowser.setOpenExternalLinks(True)
         self.textBrowser.setObjectName("textBrowser")
-        self.verticalLayout_2.addWidget(self.textBrowser)
+        self.infoLayout.addWidget(self.textBrowser)
         self.horizontalLayout.addWidget(self.infoPaneFrame)
         self.frame = QtWidgets.QFrame(self.columnViewFrame)
         self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame.setObjectName("frame")
-        self.verticalLayout_3 = QtWidgets.QVBoxLayout(self.frame)
-        self.verticalLayout_3.setObjectName("verticalLayout_3")
+
+# ********** set up image frame/create containers for image and place them ************
+        self.imageLayout = QtWidgets.QVBoxLayout(self.frame)
+        self.imageLayout.setObjectName("imageLayout")
         self.imageHeaderLabel = QtWidgets.QLabel(self.frame)
         self.imageHeaderLabel.setMaximumSize(QtCore.QSize(580, 50))
         self.imageHeaderLabel.setStyleSheet("background-color: rgb(54, 54, 54);")
         self.imageHeaderLabel.setObjectName("imageHeaderLabel")
-        self.verticalLayout_3.addWidget(self.imageHeaderLabel)
-        self.graphicsView = QtWidgets.QGraphicsView(self.frame)
-        self.graphicsView.setMaximumSize(QtCore.QSize(580, 16777215))
-        self.graphicsView.setStyleSheet("background-color: rgb(52, 52, 52), background-image: url("")")
-        self.graphicsView.setObjectName("graphicsView")
-        self.verticalLayout_3.addWidget(self.graphicsView)
+        self.imageLayout.addWidget(self.imageHeaderLabel)
+    
+        self.imageLabel = QtWidgets.QLabel(self.frame)
+        self.imageLabel.setAlignment(Qt.AlignCenter)
+        pixmap = QPixmap()
+        self.imageLabel.setPixmap(pixmap)
+        self.imageLabel.setMaximumSize(QtCore.QSize(580, 16777215))
+        self.imageLabel.setMinimumWidth(480)
+        self.imageLabel.show()
+        
+        self.imageLayout.addWidget(self.imageLabel)
+        self.imageLabel.setStyleSheet("background-color: rgb(52, 52, 52)")
+        self.imageLabel.setObjectName("imageLabel") 
+        
+        
+        #self.graphicsView = QtWidgets.QGraphicsView(self.frame)
+        #self.graphicsView.setMaximumSize(QtCore.QSize(580, 16777215))
+        #self.graphicsView.setStyleSheet("background-color: rgb(52, 52, 52), background-image: url("")")
+        #self.graphicsView.setObjectName("graphicsView")
+        #self.imageLayout.addWidget(self.graphicsView)
+        
+        
         self.horizontalLayout.addWidget(self.frame)
         self.gridLayout.addWidget(self.columnViewFrame, 2, 0, 4, 2)
         MainWindow.setCentralWidget(self.centralwidget)
@@ -373,8 +391,8 @@ class Ui_MainWindow(object):
 "<p style=\"-qt-paragraph-type:empty; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>"))
         self.imageHeaderLabel.setToolTip(_translate("MainWindow", "<html><head/><body><p style=\"color : black\">Image</p></body></html>"))
         self.imageHeaderLabel.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:24pt; font-weight:600; color:#ffffff;\">Image</span></p></body></html>"))
-        self.graphicsView.setToolTip(_translate("MainWindow", "<html><head/><body><p style=\"color : black\">Image of selected rocket</p></body></html>"))
-        self.graphicsView.setStatusTip(_translate("MainWindow", "Image of selected rocket"))
+        self.imageLabel.setToolTip(_translate("MainWindow", "<html><head/><body><p style=\"color : black\">Image of selected rocket</p></body></html>"))
+        self.imageLabel.setStatusTip(_translate("MainWindow", "Image of selected rocket"))
        
        
    # ***** Placing and naming Menu Bar Items ******    
@@ -615,7 +633,10 @@ https://github.com/Seralyn/rocket_info''')
         _translate = QtCore.QCoreApplication.translate
         rocketName = self.listWidget.currentItem().text()
         rocketImage = "images/" + rocketDictionary[rocketName]['Image']
-        self.graphicsView.setStyleSheet(f"background-color: rgb(52, 52, 52); background-image: url({rocketImage}); background-repeat: no-repeat; position: absolute; top: 50%; left: 50%")
+        
+        pixmap2 = QPixmap(rocketImage)
+        self.imageLabel.setPixmap(pixmap2)
+        #self.graphicsView.setStyleSheet(f"background-color: rgb(52, 52, 52); background-image: url({rocketImage}); background-repeat: no-repeat; position: absolute; top: 50%; left: 50%")
         manufacturer = rocketDictionary[rocketName]['Manufacturer'].replace('\n', '<br />').replace('\n\n', '<br /><br />')
         height = rocketDictionary[rocketName]['Height'].replace('\n', '<br />')
         #height_string = rocketDictionary[rocketName]['HeightString'].replace('\n', '<br />')    #add this and also add {height_string} in html line below, but also make height above this a str(rocketDic....)
@@ -663,11 +684,11 @@ if __name__ == "__main__":
     app.setWindowIcon(QtGui.QIcon("rocket_icon_512.ico"))
     
     splash_label = QLabel()
-    pixmap = QPixmap('splash2.png')
-    splash_label.setPixmap(pixmap)
+    splashPixmap = QPixmap('splash2.png')
+    splash_label.setPixmap(splashPixmap)
     splash_label.setWindowFlags(Qt.SplashScreen | Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint)
     splash_label.move(750,200)
-    splash_label.setMask(pixmap.mask())
+    splash_label.setMask(splashPixmap.mask())
     splash_label.show()
     QTimer.singleShot(1600, splash_label.close)
 
