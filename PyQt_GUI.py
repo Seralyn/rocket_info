@@ -564,8 +564,10 @@ ESA: European Space Agency
 CNES: Centre national d'études spatiales
 JAXA: Japan Aerospace and Exploration Agency
 ASI: Italian Space Agency
+
 SRB: Solid Rocket Booster
 HTPB: Hydroxyl-Terminated Polybutadiene
+CTPB: Carboxy-Terminated Polybutadiene
 LOX: Liquid Oxygen
 LH2: Liquid Hydrogen
 
