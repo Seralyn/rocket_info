@@ -569,7 +569,7 @@ class Ui_MainWindow(object):
         versionDlg = CustomDialog()  #removing self from CustomDiaglog(self) made this work.
         versionDlg.setWindowTitle("Version Info")
         versionDlg.label.setText(
-            '''Version: 0.4 Alpha''')
+            '''Version: 0.4.5 Alpha''')
         versionDlg.exec_()
 
     def showAcroynmClicked(self):
@@ -582,12 +582,14 @@ ESA: European Space Agency
 CNES: Centre national d'études spatiales
 JAXA: Japan Aerospace and Exploration Agency
 ASI: Italian Space Agency
+USAF - United States Air Force
 ELDO: European Launcher Development Organisation
 
 SRB: Solid Rocket Booster
 ISP: Specific Impulse
 HTPB: Hydroxyl-Terminated Polybutadiene
 CTPB: Carboxy-Terminated Polybutadiene
+PBAN: Polybutadiene Acrylonitrile
 LOX: Liquid Oxygen
 LH2: Liquid Hydrogen
 
@@ -614,7 +616,7 @@ Flag Icons: (Freepik from www.flaticon.com)
         aboutDlg.label.setText(
             '''
 Developer: Seralyn Campbell
-Advisor: Gabrielė Žarskutė
+with a huge thanks to Gabrielė Žarskutė for advising
 
 Email: seralyn.dev@gmail.com
 
@@ -624,7 +626,6 @@ Open Source Software:
 https://github.com/Seralyn/rocket_info''')
         aboutDlg.exec_()
         
-
 
 
         

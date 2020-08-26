@@ -990,7 +990,7 @@ Also known as "Chang Zheng 1-D/CZ-1"
         "height_int": 70,
         "Diameter": "3.66 m (12.0 ft) (each booster)",
         "diameter_int": 3.66,        
-        "Mass": "1,420,788 kg (3,132,301 lbs)[",
+        "Mass": "1,420,788 kg (3,132,301 lbs)",
         "mass_int": 1420788,        
         "Years in Operation": "2018~",
         "firstyear_int": 2018,        
@@ -2972,7 +2972,7 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
         "Years in Operation": "1984-1989",
         "firstyear_int": 1984,        
         "Country": "EU",
-        "flag_icon": "flags/eu.png",
+        "flag_icon": "flags/france.png",
         "Operational Status": "Retired",
         "Number of Stages": "3",
         "Burn Time": "Boosters: 27 sec, S1: 138 sec, S2: 128.9 sec, S3: 729 sec",
@@ -3106,7 +3106,7 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
         "Years in Operation": "1988-2003",
         "firstyear_int": 1988,        
         "Country": "EU",
-        "flag_icon": "flags/eu.png",
+        "flag_icon": "flags/france.png",
         "Operational Status": "Retired",
         "Number of Stages": "2",
         "Burn Time": "Boosters: 142 sec, S1: 205 sec, S2: 132 sec, S3: 759 sec",
@@ -3223,7 +3223,7 @@ ES: 2008-2018
             ''',
         "firstyear_int": 1996,        
         "Country": "EU",
-        "flag_icon": "flags/eu.png",
+        "flag_icon": "flags/france.png",
         "Operational Status":
             '''
 G: Retired
@@ -8137,12 +8137,12 @@ The Dnepr launch vehicle had only a small number of modifications compared to th
         "Cost Per Launch": "Unknown",
         "cost_int": None,
         "Fuel Type": "S1: RP-1/LOX (unconfirmed), S2: DETA/UDMH",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
+        "Total Launches": "1",
+        "total_launches_int": 1,
+        "Successful Launches": "1",
+        "successful_launches_int": 1,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
         "Image": "Al Abid.png",
         "Additional Information":
             '''
@@ -8217,13 +8217,13 @@ The Dnepr launch vehicle had only a small number of modifications compared to th
         "Cost Per Launch": "$24,346,862",
         "cost_int": 24346862,
         "Fuel Type": "S1: HTPB polymer, S2: HTPB, S3: Unknown solid type, S4: N2O4/UDMH",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Total Launches": "11",
+        "total_launches_int": 11,
+        "Successful Launches": "9",
+        "successful_launches_int": 9,
+        "Launch Failures": "2",
+        "failed_launches_int": 2,
+        "Image": "shavit-2.png",
         "Additional Information":
             '''
 Shavit 2 (Hebrew: "comet" – שביט) is a small lift launch vehicle produced by Israel from 1982 onwards, to launch satellites into low Earth orbit. It was first launched on 19 September 1988 (carrying an Ofek-1 satellite payload), making Israel the eighth nation to have an orbital launch capability after the USSR, United States, France, Japan, People's Republic of China, United Kingdom, and India.
@@ -11802,264 +11802,402 @@ The Thor-Delta launched a number of significant payloads, including the first co
 
     "Titan 34D": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Titan 34D",
+        "Agency": "US Military",
+        "Manufacturer": "Martin Marietta",        
+        "Class": "Heavy",
+        "Payload Capacity to LEO": "14,515 kg (32,000 lbs)",
+        "payload_int": 14615,
+        "Height": "50 m (164 ft)",
+        "height_int": 50,
+        "Diameter": "3.05 m (10 ft)",
+        "diameter_int": 3.05,
+        "Mass": "428,922 kg (945,611 lbs)",
+        "mass_int": 428922,
+        "Years in Operation": "1982-1989",
+        "firstyear_int": 1982,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "2",
+        "Burn Time": "Boosters: 114 sec, S1: 161 sec, S2: 230 sec",
+        "total_burntime_int": 780,
+        "Thrust": "Boosters: 6,227 kN (each), S1: 2,413 kN, S2: 460.3 kN",
+        "initial_thrust_int": 14867,
+        "ISP": "Boosters: 265 sec, S1: 302 sec, S2: 316 sec",
+        "asl_isp_int": 288.5,
+        "vac_isp_int": 316,
+        "Cost Per Launch": "$297,168,371",
+        "cost_int": 297168371,
+        "Fuel Type": "Boosters: , S1: , S2: ",
+        "Total Launches": "15",
+        "total_launches_int": 15,
+        "Successful Launches": "12",
+        "successful_launches_int": 12,
+        "Launch Failures": "3",
+        "failed_launches_int": 3,
+        "Image": "Titan34D.png",
        "Additional Information":
             '''
-    
+Derived from the Titan III, the Titan 34D featured Stage 1 and Stage 2 stretched with more powerful UA1206 solid motors. A variety of upper stages were available, including the Inertial Upper Stage, the Transfer Orbit Stage, and the Transtage.[1] The Titan 34D made its maiden flight in the year of 1982 on the 30th of October with two DSCS defense communications satellites for the United States Department of Defense (DOD).
+
+All of the launches were conducted from either LC-40 at Cape Canaveral Air Force Station or SLC-4E at Vandenberg Air Force Base. Overall, fifteen launches were carried out, of which three failed.
+
+1985 failure, Titan 34D-7
+The first failure was a launch of a KH-11 photoreconnaissance satellite in the year of 1985 on the 28th of August. The core stage suffered a propulsion system malfunction and was destroyed by Range Safety. The flight proceeded normally until the core engine start at T+108 seconds. At T+112 seconds, an abnormal start transient occurred and Engine 2 began experiencing thrust decay. At T+212 seconds, Engine 1 shut down, causing loss of attitude control. The onboard computer shut off Engine 2 at T+256 seconds and began a premature separation and ignition of Stage 2. With the Titan now tumbling and headed back towards land, the destruct command was issued at T+272 seconds and the KH-11 crashed into the Pacific Ocean. During Stage 1's powered flight, the oxidizer tank began leaking N
+2O
+4 which was thought to have resulted in loss of lubrication to the Engine 1 turbopump and breakdown of the pinion gear. The attempts by the Navy to salvage booster debris from the ocean floor were largely unsuccessful. Investigators also complained that tracking camera coverage during the core stage burn was inadequate.
+
+Titan 34D-7 was the first failed launch of a solid motor-equipped Titan vehicle from Vandenberg (there had been several failures from Cape Canaveral over the years) and was particularly vexing because of inadequate launch data. The Titan III's flawless West Coast launch record meant that the Air Force felt confident enough to remove several telemetry measurements from the boosters in the interest of reduced weight and complexity. There had evidently been leaks from both the fuel and oxidizer tanks, as well as suspicion hinged on clamps that held the propellant feed lines in place. However, the clamps had not failed on any previous launches so it was not clear why they would suddenly fail now. Some members on the investigative board even proposed that the SRBs had suffered an exhaust gas leak which caused damage to the core stage. As evidence, they noted that a piece of cork insulation had broken off one SRB shortly after launch. The official cause of the failure was "Leakage of oxidizer resulting in loss of turbopump lubrication and breakdown of the pinion gear." However, most of the members of the investigative team were unsatisfied with this verdict.
+
+As a result of 34D-7, the Air Force took measures to ensure that a repeat failure would not occur. These included reinstalling some of the deleted telemetry probes on the Titan as well as improved camera coverage; the next launch would even have the aircraft flying overhead to provide additional photography.
+
+1986 failure, Titan 34D-9
+Titan 34D-9 was prepared for launch in the year 1986 on the 18th of April. Instead of the advanced KH-11 satellite carried on 34D-7, this booster would have the older model KH-9, in what would be the final launch of that satellite and the final launch of a film capsule photoreconnaissance satellite by the United States. One hundred and twenty people were gathered in the blockhouse on a clear, cloudless Friday morning, a rare situation for the normally foggy California coast. Liftoff took place at 10:45 AM Pacific Time. It only took a few seconds for disaster to strike as the Titan catastrophically exploded just above SLC-4E, showering the launch complex as well as the adjacent SLC-4W (used for Titan IIIB launches) with debris and toxic propellant.
+
+Investigation quickly provided an anatomy of the failure. The right solid rocket motor ruptured starting at T+6 seconds and the resulting torque on the launch vehicle caused the left SRM to break away. This triggered its automatic destruct system, blowing the Stage 1 to pieces and rupturing the Stage 2's N
+2O
+4 tank. The upper stages were ejected and launched through the air until a manual destruct command was sent by the range safety officer at T+20 seconds. The KH-9 was also blown up by its internal self-destruct mechanism, which was designed to destroy the classified satellite in the event of a launch malfunction. Debris rained onto SLC-4E, badly damaging the launch complex in the process and starting numerous small fires -- some of which burned for up to two days. Extracting launch personnel from the blockhouse proved difficult due to the area around the pad being filled with toxic fumes and burning debris. The right SRB had come down largely intact onto a concrete structure near the pad, which had nobody inside it at the time of launch (the casing rupture had damaged the Inadvertent Separation Destruct System [ISDS] lanyards and prevented proper destruction of the SRM).
+
+The disaster drew comparisons to the Challenger shuttle accident three months earlier, which was also the victim of a solid rocket motor malfunction. However, the Titan incident was found to have a rather different cause as it had not suffered an O-ring burn-through, but instead the culprit was a small air pocket between the SRM propellant and its metal motor casing. This allowed hot exhaust gases to burn through the casing and eventually rupture the SRM. The loss of two photoreconnaissance satellites in a row also badly hampered American efforts to acquire intelligence on Soviet activities.
+
+The Air Force, prior to finding out the true cause of 34D-9's failure, was so puzzled at the loss of two Titan IIIs in a row that it believed for a time that saboteurs had been at work on Vandenberg Air Force Base, and it had base personnel comb the nearby hills for bullet casings.
+
+Due to the classified payload, extensive efforts were made to clean up all remains of the KH-9, whose film reels were ripped apart into hundreds of small pieces and scattered around the pad area. The satellite debris was taken away for burial in an undisclosed location in the State of Nevada.
+
+Investigation found that the manufacturer of the UA1206 motors, Chemical Systems Division of United Technologies, had virtually forgotten proper quality control measures. Due to the Shuttle program, demand for expendable launch vehicles (ELVs) was greatly reduced during the 1980s and manufacturers had been cutting costs, dropping technical personnel, and preparing to phase out ELVs. However, the Challenger disaster created a renewed emphasis on ELVs and would see a considerable expansion of the upcoming Titan IV program, which was originally intended for just ten launches.
+
+The exact reason for the air pocket in the #2 SRM was never satisfactorily determined. While all of the rocket segments were at least five years old (since all flight article Titan 34Ds had been manufactured and delivered by 1982 and the production line long since shut down), there had been no similar problems on other SRMs of the same age. Thanks to Titan 34D-9 (and because an SRB malfunction was a possible cause of 34D-7's failure), more stringent measures were put in place which included X-raying SRM segments on Titans to ensure proper operating condition before launch.
+
+SLC-4E was out of commission until October 1987, after which it was the site of the remaining two Titan 34D launches without incident.
             '''
 
     },
 
     "Commercial Titan III": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Commercial Titan III",
+        "Agency": "NASA/Private",
+        "Manufacturer": "Martin Marietta",        
+        "Class": "Heavy",
+        "Payload Capacity to LEO": "14,742 kg (32,500 lbs)",
+        "payload_int": 14742,
+        "Height": "44-47.2 m(144 ft 7 in-155 ft 2 in)",
+        "height_int": 46.5,
+        "Diameter": "3.05 m",
+        "diameter_int": 3.05,
+        "Mass": "Unknown",
+        "mass_int": None,
+        "Years in Operation": "1990-1992",
+        "firstyear_int": 1990,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "2",
+        "Burn Time": "Boosters: 114 sec, S1: 161 sec, S2: 223 sec",
+        "total_burntime_int": 498,
+        "Thrust": "Boosters: 6,227 kN (each), S1: 2,413 kN, S2: 467 kN",
+        "initial_thrust_int": 14867,
+        "ISP": "Boosters: 265 sec, S1: 302 sec, S2: 316 sec",
+        "asl_isp_int": 283.5,
+        "vac_isp_int": 316,
+        "Cost Per Launch": "$252,267,972",
+        "cost_int": 252267972,
+        "Fuel Type": "Boosters: PBAN, S1: N204/Aerozine 50, S2: N204/Aerozine 50",
+        "Total Launches": "4",
+        "total_launches_int": 4,
+        "Successful Launches": "3",
+        "successful_launches_int": 3,
+        "Launch Failures": "1- partial",
+        "failed_launches_int": 1,
+        "Image": "Commercial_Titan_3.png",
        "Additional Information":
             '''
-    
+The Commercial Titan III, also known as CT-3 or CT-III, was an American expendable launch system, developed by Martin Marietta during the late 1980s and flown four times during the early 1990s. It was derived from the Titan 34D, and was originally proposed as a medium-lift expendable launch system for the US Air Force, who selected the Delta II instead. Development was continued as a commercial launch system, and the first rocket flew in 1990. Due to higher costs than contemporary rockets such as the Ariane 4, orders were not forthcoming, and the CT-3 was retired in 1992.[citation needed]
+
+The Commercial Titan III differed from the Titan 34D in that it had a stretched second stage, and a larger payload fairing to accommodate dual satellite payloads.
+
+All four launches occurred from LC-40 at Cape Canaveral Air Force Station. The first carried two communications satellites, Skynet 4A and JCSAT-2, and was launched at 00:07 UTC on 1 January 1990, which was 19:07 local time on 31 December 1989, making it the only orbital launch to have occurred in different years between the launch site and UTC.[citation needed] The launch received the International Designator 1990-001, using the UTC date.
+
+The second launch occurred on 14 March, and carried the Intelsat 603 satellite. The rocket's second stage failed to separate, and the payload could only be released from the rocket by means of jettisoning its kick motor. It was later visited by Space Shuttle Endeavour, on mission STS-49. Astronauts attached a new kick motor, which raised the satellite into a geosynchronous transfer orbit, as had originally been planned.
+
+The third launch, on 23 June, carried Intelsat 604, and was successful. There was no Commercial Titan III launch in 1991, due to maintenance work at Launch Complex 40.[citation needed]
+
+The final flight of the Commercial Titan III occurred on 25 September 1992, and placed NASA's Mars Observer spacecraft into heliocentric orbit, by means of a Transfer Orbit Stage.
+
+
             '''
 
     },
 
     "Titan IV": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Titan IV",
+        "Agency": "USAF - United States Air Force",
+        "Manufacturer": "Lockheed Martin",        
+        "Class": "Heavy",
+        "Payload Capacity to LEO": "21,680 kg (47,790 lb)",
+        "payload_int": 21680,
+        "Height": "50-62 m (164-207 ft)",
+        "height_int": 62,
+        "Diameter": "3.05 m (10 ft)",
+        "diameter_int": 3.05,
+        "Mass": "943,050 kg (2,079,060 lbs)",
+        "mass_int": 943050,
+        "Years in Operation": '''
+IV-A: 1989-1998
+IV-B: 1997-2005
+''',
+        "firstyear_int": 1989,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "3-5",
+        "Burn Time": "Boosters(IV-B): 140 sec, S1: 164 sec, S2: 223 sec, S3: 625 sec",
+        "total_burntime_int": 1292,
+        "Thrust": "Boosters: 15,120 kN, S1: 2,440 kN, S2: 467 kN, S3: 147 kN",
+        "initial_thrust_int": 17560,
+        "ISP": "Boosters: 286 sec, S1: 302 sec, S2: 316 sec, S3: 444 sec",
+        "asl_isp_int": 294,
+        "vac_isp_int": 444,
+        "Cost Per Launch": "$432M",
+        "cost_int": 432000000,
+        "Fuel Type": "Boosters: PBAN, S1: N2O4/Aerozine 50, S2: N2O4/Aerozine 50, S3: LH2/LOX",
+        "Total Launches": "39 (IVA: 22, IVB: 17)",
+        "total_launches_int": 39,
+        "Successful Launches": "35 (IVA: 20, IVB: 15)",
+        "successful_launches_int": 35,
+        "Launch Failures": "4 (IVA: 2, IVB: 2)",
+        "failed_launches_int": 4,
+        "Image": "Titan4B.png",
        "Additional Information":
             '''
-    
+Titan IV was a family of heavy-lift space launch vehicles developed by Martin Marietta and operated by the United States Air Force from 1989 to 2005.[ Launches were conducted from Cape Canaveral Air Force Station, Florida and Vandenberg Air Force Base, California.
+
+The Titan IV was the last of the Titan family of rockets, originally developed by the Glenn L. Martin Company in 1958. It was retired in 2005 due to their high cost of operation and concerns over its toxic propellant fuels, and replaced with the Atlas V and Delta IV launch vehicles under the EELV program. The final launch (B-30) from Cape Canaveral occurred on 29 April 2005, and the final launch from Vandenberg AFB occurred on 19 October 2005. Lockheed Martin Space Systems built the Titan IVs near Denver, Colorado, under contract to the US government.
+
+Two Titan IV vehicles are currently on display at the National Museum of the United States Air Force in Dayton, Ohio and the Evergreen Aviation and Space Museum in McMinnville, Oregon.
+
+The Titan IV was developed to provide assured capability to launch Space Shuttle–class payloads for the Air Force. The Titan IV could be launched with no upper stage, the Inertial Upper Stage (IUS), or the Centaur upper stage.
+
+The Titan IV was made up of two large solid-fuel rocket boosters and a two-stage liquid-fueled core. The two storable liquid fuel core stages used Aerozine 50 fuel and nitrogen tetroxide oxidizer. These propellants are hypergolic (ignite on contact) and are liquids at room temperature, so no tank insulation is needed. This allowed the launcher to be stored in a ready state for extended periods, but both propellants are extremely toxic.
+
+The Titan IV could be launched from either coast: SLC-40 or 41 at Cape Canaveral Air Force Station near Cocoa Beach, Florida and at SLC-4E, at Vandenberg Air Force Base launch sites 55 miles northwest of Santa Barbara California. Launches to polar orbits occurred from Vandenberg, with most other launches taking place at Cape Canaveral.
+
+Titan IV-A
+Titan IV-A flew with steel-cased solid rocket motors (SRMs) produced by Chemical Systems Division.
+
+Titan IV-B
+Years later, the Titan IV-B evolved from the Titan III family and was similar to the Titan 34D. While the launcher family had an extremely good reliability record in its first two decades, this changed in the 1980s with the loss of a Titan 34D in 1985 followed by the disastrous explosion of another in 1986 due to a SRM failure.
+
+The Titan IV-B vehicle was intended to use the new composite-casing SRMs manufactured by Alliant Technologies. However, after numerous development problems the first few Titan IV-B launches flew with the old-style SRMs.
+
+The Titan rocket family was established in October 1955 when the Air Force awarded the Glenn L. Martin Company (later Martin-Marietta, now part of Lockheed Martin) a contract to build an intercontinental ballistic missile (SM-68). The resulting Titan I was the nation's first two-stage ICBM and complemented the Atlas ICBM as the second underground, vertically stored, silo-based ICBM. Both stages of the Titan I used liquid oxygen and RP-1 as propellants.
+
+A subsequent version of the Titan family, the Titan II, was a two-stage evolution of the Titan I, but was much more powerful and used different propellants. Designated as LGM-25C, the Titan II was the largest missile developed for the USAF at that time. The Titan II had newly developed engines which used Aerozine 50 and nitrogen tetroxide as fuel and oxidizer in a self-igniting, hypergolic propellant combination, allowing the Titan II to be stored underground ready to launch. Titan II was the first Titan vehicle to be used as a space launcher.
+
+Development of the space launch only Titan III began in 1964, resulting in the Titan IIIA, eventually followed by the Titan IV-A and IV-B.
+
+Titan IV development
+By the mid-1980s the United States government worried that the Space Shuttle, designed to launch all American payloads and replace all unmanned rockets, would not be reliable enough for military and classified missions. In 1984 Under Secretary of the Air Force and Director of the National Reconnaissance Office (NRO) Pete Aldridge decided to purchase Complementary Expendable Launch Vehicles (CELV) for ten NRO payloads; the name came from the government's expectation that the rockets would "complement" the shuttle. Later renamed Titan IV, the rocket would only carry three military payloads[10] paired with Centaur stages and fly exclusively from LC-41 at Cape Canaveral. However, the Challenger accident in 1986 caused a renewed dependence on expendable launch systems, with the Titan IV program significantly expanded. At the time of its introduction, the Titan IV was the largest and most capable expendable launch vehicle used by the USAF.
+
+The post-Challenger program added Titan IV versions with the Inertial Upper Stage (IUS) or no upper stages, increased the number of flights, and converted LC-40 at the Cape for Titan IV launches. As of 1991, almost forty total Titan IV launches were scheduled and a new, improved SRM (solid rocket motor) casing using lightweight composite materials was introduced.
+
+Program cost
+In 1990, the Titan IV Selected Acquisition Report estimated the total cost for the acquisition of 65 Titan IV vehicles over a period of 16 years to US$18.3 billion (inflation-adjusted US$ 35.8 billion in 2020).
+
+Cassini–Huygens launch
+In October 1997, a Titan IV-B rocket launched Cassini–Huygens, a pair of probes sent to Saturn. It was the only use of a Titan IV for a non-Department of Defense launch. Huygens landed on Titan on January 14, 2005. Cassini remained in orbit around Saturn. The Cassini Mission ended on September 15, 2017 when the spacecraft was manoeuvered into Saturn's atmosphere to burn up.
+
+Retirement
+While an improvement over the shuttle, the Titan IV was expensive and unreliable. By the 1990s, there were also growing safety concerns over its toxic propellants. The Evolved Expendable Launch Vehicle (EELV) program resulted in the development of the Atlas V, Delta IV, and Delta IV Heavy launch vehicles, which replaced Titan IV and a number of other legacy launch systems. The new EELVs eliminated the use of hypergolic propellants, reduced costs, and are much more versatile than the legacy vehicles.
+
+Surviving examples
+In 2014, the National Museum of the United States Air Force in Dayton, Ohio, began a project to restore a Titan IV-B rocket. This effort was successful, with the display opening June 8, 2016. The only other surviving Titan IV components are on outdoor display at the Evergreen Aviation and Space Museum in McMinnville, Oregon, including the core stages and parts of the solid rocket motor assembly.
             '''
 
     },
 
     "Vanguard": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Vanguard",
+        "Agency": "U.S. Government",
+        "Manufacturer": "Glenn L. Martin Company",        
+        "Class": "Light",
+        "Payload Capacity to LEO": "11.3 kg (25 lb)",
+        "payload_int": 11.3,
+        "Height": "21.9 m (72 ft)",
+        "height_int": 21.9,
+        "Diameter": "1.14 m (3 ft 9 in)",
+        "diameter_int": 1.14,
+        "Mass": "10,050 kg (22,160 lbs)",
+        "mass_int": 10050,
+        "Years in Operation": "1957-1959",
+        "firstyear_int": 1957,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "3",
+        "Burn Time": "S1: 144 sec, S2: 120 sec, S3: 30 sec",
+        "total_burntime_int": 294,
+        "Thrust": "S1: 125 kN, S2: 32.6 kN, S3: 10.4 kN",
+        "initial_thrust_int": 125,
+        "ISP": "S1: 248 sec, S2: 261 sec, S3: 230 sec",
+        "asl_isp_int": 248,
+        "vac_isp_int": 230,
+        "Cost Per Launch": "$13,629,290",
+        "cost_int": 13629290,
+        "Fuel Type": "S1: RP-1/LOX, S2: UDMH/Nitric Acid (WIFNA), S3: Unknown",
+        "Total Launches": "11",
+        "total_launches_int": 11,
+        "Successful Launches": "3",
+        "successful_launches_int": 3,
+        "Launch Failures": "8",
+        "failed_launches_int": 8,
+        "Image": "Vanguard.png",
        "Additional Information":
             '''
-    
+The Vanguard rocket was intended to be the first launch vehicle the United States would use to place a satellite into orbit. Instead, the Sputnik crisis caused by the surprise launch of Sputnik 1 led the U.S., after the failure of Vanguard TV-3, to quickly orbit the Explorer 1 satellite using a Juno I rocket, making Vanguard 1 the second successful U.S. orbital launch.
+
+Vanguard rockets were used by Project Vanguard from 1957 to 1959. Of the eleven Vanguard rockets which the project attempted to launch, three successfully placed satellites into orbit. Vanguard rockets were an important part of the Space Race between the United States and the Soviet Union.
+
+In 1955, the United States announced plans to put a scientific satellite in orbit for the International Geophysical Year (IGY) in 1957–1958. The goal was to track the satellite as it performed experiments. At that time, there were three candidates for the launch vehicle: The Air Force's SM-65 Atlas, a derivative of the Army Ballistic Missile Agency's SSM-A-14 Redstone, and a Navy proposal for a three-stage rocket based on the RTV-N-12a Viking sounding rocket.
+
+The RAND Corporation, Air Force and CIA had long pursued the idea of a reconnaissance satellite. Such a program was under way, Weapon System 117L, which was top secret compartmented. One problem with reconnaissance was the question of legality: Was there "freedom of space" or did a nation's airspace end when space is entered? The National Security Council backed the IGY satellite because it would make good cover for WS117L and set a precedent of freedom of space peaceful civilian satellite. At the same time the NSC stressed that the IGY satellite must not interfere with military programs. The Army's Redstone-based proposal would likely be the first one ready for a satellite launch. Its connection with German-born scientist Wernher von Braun, however, was a public-relations risk. In any case, the Atlas and Redstone ballistic missiles were top-priority military projects, which were not to be hindered by pursuing a secondary space launch mission. Milton Rosen's Vanguard was a project at the Naval Research Laboratory (NRL), which was regarded more as a scientific than a military organization. Rosen and Richard Porter (IGY satellite chief and head of the American Rocket Society) both lobbied for the Vanguard and against using the Atlas or von Braun's rockets. They emphasized the non-military goals of the satellite program. Besides the public-relations aspect, a non-military satellite was considered important, because a discussion of whether overflights of foreign countries by satellites were legal or illegal was to be avoided.
+
+In August or September 1955, the DOD Committee on Special Capabilities chose the NRL proposal, named Vanguard, for the IGY project. The Martin company, which had also built the Viking, became prime contractor for the launch vehicle. The Vanguard rocket was designed as a three-stage vehicle. The first stage was a General Electric X-405 liquid-fueled engine (designated XLR50-GE-2 by the Navy), derived from the engine of the RTV-N-12a Viking. The second stage was the Aerojet General AJ10-37 (XLR52-AJ-2) liquid-fueled engine, a variant of the engine in the RTV-N-10 Aerobee. Finally, the third stage was a solid-propellant rocket motor. All three-stage Vanguard flights except the last one used a motor built by the Grand Central Rocket Company. Vanguard had no fins, and the first and second stages were steered by gimbaled engines. The second stage housed the vehicle's telemetry system, the inertial guidance system and the autopilot. The third stage was spin-stabilized, with the spin imparted by a turntable on the second stage before separation.
+
+The Vanguard's second stage served for decades as the Able and Delta second stage for satellite launch vehicles. The AJ10 engine which made up those stages was adapted into the AJ10-137, which was used as the Apollo Service Module engine. The AJ10-190, adapted from the Apollo spacecraft was used on the Space Shuttle for orbital maneuvers. The AJ10-160 is to be repurposed for use on NASA's upcoming Orion spacecraft.
+
+The first two flights of the Vanguard program, designated Vanguard TV-0 and Vanguard TV-1, were actually the last two remaining RTV-N-12a Viking rockets modified. Vanguard TV-0, launched on 8 December 1956, primarily tested new telemetry systems, while Vanguard TV-1 on 1 May 1957, was a two-stage vehicle testing separation and ignition of the solid-fueled upper stage of Vanguard. Vanguard TV-2, launched on 23 October 1957, after several abortive attempts, was the first real Vanguard rocket. The second and third stages were inert, but the flight successfully tested first/second-stage separation and spin-up of the third stage. However, by that time, the Soviet Union had already placed the Sputnik 1 satellite into orbit, and so project Vanguard was more or less forced to launch its own satellite as soon as possible. Therefore, a very small experimental satellite (derisively called the "grapefruit" by Nikita Khrushchev, and weighing only 1.5 kilograms (3.3 lb)) was added to Vanguard TV-3, which was to be the first test of an all-up Vanguard rocket. Although the NRL and Glenn L. Martin Company tried to emphasize that the Vanguard TV-3 mission was a pure test flight (and one with several "firsts"), everyone else saw it as the first satellite launch of the Western world, billed as "America's answer to Sputnik". Wernher von Braun angrily said about the Sputnik launch: "We knew they were going to do it. Vanguard will never make it. We have the hardware on the shelf. We can put up a satellite in 60 days".
+
+On 6 December 1957, the US Navy launched Vanguard TV-3 rocket, carrying a 1.5 kilograms (3.3 lb) satellite, from Cape Canaveral. It only reached an altitude of 1.2 metres (3 ft 11 in) before it fell and exploded. The satellite was exploded from the top of the rocket, landed in bushes near the pad, and began transmitting signals, leading New York Journal-American columnist Dorothy Kilgallen to remark "Why doesn't somebody go out there, find it, and shoot it?" The American press called it Kaputnik.
+
+
+Investigation into the accident concluded that inadequate fuel tank pressure had allowed hot exhaust gases to back up into the injector head and destroy it, causing complete loss of engine thrust. After the failure of Vanguard TV-3, the backup vehicle, Vanguard TV-3BU (BU=BackUp), was prepared for another attempt. Pad crews hastened to repair the damage done to LC-18A by Vanguard TV-3's explosion, and in the third week of January 1958, the job was completed. Vanguard TV-3BU was erected on the pad, but continuous delays frustrated the launch attempt. Heavy rains shorted some electrical cables on the ground and necessitated their replacement. The second stage had also been sitting on the pad with a full load of nitric acid for several weeks, which eventually corroded the fuel tank and valves. It had to be removed and replaced by a different stage. Finally, the launch got under way on the night of 5 February 1958. The Vanguard lifted smoothly into the sky and performed well until 57 seconds into launch, when the booster pitched over almost 40°. The skinny second stage broke in half from aerodynamic stress four seconds later, causing the Vanguard to tumble end-over-end before range safety officer sent the destruct command. Cause of the failure was attributed to a spurious guidance signal that caused the first stage to perform unintended pitch maneuvers. The guidance system was modified to have greater redundancy, and efforts were made to improve quality control. On 17 March 1958, Vanguard TV-4 finally succeeded in orbiting the Vanguard 1 satellite. By that time, however, the Army's Juno (Jupiter-C) had already launched the United States' first satellite, Explorer 1. The Vanguard TV-4 rocket had put the satellite Vanguard 1, to a relatively high orbit of (3,966 by 653 kilometres (2,464 mi × 406 mi)). Vanguard 1 and its third stage remain in orbit as the oldest man-made artifacts in space. The following four flights, TV-5 and SLV (Satellite Launch Vehicle) Vanguard SLV-1, Vanguard SLV-2 and Vanguard SLV-3 all failed, but on 17 February 1959, Vanguard SLV-4 launched Vanguard 2, weighing 10.8 kilograms (24 lb), into orbit. The SLVs were the "production" Vanguard rockets. Vanguard SLV-5 and Vanguard SLV-6 also failed, but the final flight on 18 September 1959, successfully orbited the 24 kilograms (53 lb) Vanguard 3 satellite. That last mission was designated Vanguard TV-4BU, because it used a remaining test vehicle, which had been upgraded with a new third stage, the Allegany Ballistics Laboratory X-248A2 Altair. This more powerful motor enabled the launch of the heavier payload. The combination of the AJ10 liquid engine and X-248 solid motor was also used, under the name Able, as an upper stage combination for Thor and Atlas space launch vehicles.
             '''
 
     },
 
     "Vector-R": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Vector-R",
+        "Agency": "Private Launches",
+        "Manufacturer": "Vector Launch",        
+        "Class": "Light",
+        "Payload Capacity to LEO": "60 kg (132.2 lbs)",
+        "payload_int": 60,
+        "Height": "12m (39.3 ft)",
+        "height_int": 12,
+        "Diameter": "1.2 m (3.9 ft)",
+        "diameter_int": 1.2,
+        "Mass": "5,000 kg ( lbs)",
+        "mass_int": 5000,
+        "Years in Operation": "2017",
+        "firstyear_int": 2017,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "2-3",
+        "Burn Time": "S1: 143 sec, S2: 433 sec",
+        "total_burntime_int": 576,
+        "Thrust": "S1: 81 kN, S2: 4.4 kN",
+        "initial_thrust_int": 81,
+        "ISP": "S1: Unknown, S2: Unknown",
+        "asl_isp_int": None,
+        "vac_isp_int": None,
+        "Cost Per Launch": "$2-3,000,000",
+        "cost_int": 3000000,
+        "Fuel Type": "S1: Propylene/LOX, S2: Propylene/LOX",
+        "Total Launches": "1",
+        "total_launches_int": 1,
+        "Successful Launches": "1",
+        "successful_launches_int": 1,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
+        "Image": "vector-r.png",
        "Additional Information":
             '''
-    
+Vector-R (Vector Rapid) was a two-stage orbital expendable launch vehicle under development by the American aerospace company Vector Launch to cover the commercial small satellite launch segment (CubeSats). Vector Launch went bankrupt in December 2019 and the development of Vector-R was stopped. The rocket did not perform any orbital flights. Two prototypes were launched to very low altitudes in 2017.
+
+The rocket completed a maiden test flight at low altitude in May 2017. Vector Launch was planning the maiden orbital launch from the Pacific Spaceport Complex in Alaska in 2019, but paused operation in August 2019 due to an uncertain financing situation. Vector Launch declared bankruptcy in December 2019, cancelling all development activity of the Vector-R.
+
+An upgraded version of the Vector-R, called the Vector-H (Heavy), was in development as well.
+
+Vector-R was planned to use two stages with a 1.2-meter (3.9 ft) diameter first stage and 0.635-meter (2.08 ft) diameter second stage, both filled with propylene/LOX propellant. The main body of the rocket was to be constructed using a lightweight carbon composite material.
+
+The launch vehicle's first stage was to be powered by three LP-1 LOX/propylene engines, delivering 81,000 newtons of force. The second stage was to be powered by one LP-2 LOX/propylene engine, delivering 4,400 newtons of force. The engines used a 3D-printed engine injector, designed with help from NASA's Science, Technology and Mission Directorate (STMD) Flight Opportunities program. This allows the injector to be produced as a single piece of hardware, instead of as individual components.[citation needed]
+
+Vector was aiming the rocket at a launch cadence of 100 vehicles per year.
+
+Block 0.1
+The first two sub-orbital flight tests used the Vector-R Block 0.1 prototype model, which was a full size aluminium air-frame of the Vector-R but with only one first stage engine.
+
+Vector-RE1
+The Vector-RE1, a planned variant, was planned to use the same body as the standard Vector-R but include an electric powered third stage.
+
+Intended usage
+Vector-R was designed to launch a 60 kg (130 lb) payload to a 1,000 km (620 mi) Sun-synchronous orbit, suitable for CubeSats and other small satellites. The cost per launch was planned to be less than US$3 million, a price point that the company hoped would have allowed it to attract one hundred launches per year. Customers could have chosen to encapsulate their spacecraft in payload fairings provided by the company, which could be attached to the rocket shortly before launch, in several different configurations, such as fitting CubeSats dispensers or multiple satellites in a single fairing.
+
+Vector used on-site payload integration for the early launches. However it was expected to be able to integrate payloads at their Arizona and California payload facilities and ship them to their launch sites.
+
+
             '''
 
     },
 
-    "Vulcan": {
+    "Vulcan Centaur": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Vulcan Centaur",
+        "Agency": "NASA, USAF, NSSL",
+        "Manufacturer": "ULA - United Launch Alliance",        
+        "Class": "Very Heavy",
+        "Payload Capacity to LEO": "27,200 kg (60,000 lbs)",
+        "payload_int": 27200,
+        "Height": "61.6 m (202 ft)",
+        "height_int": 61.6,
+        "Diameter": "5.4 m (18 ft)",
+        "diameter_int": 5.4,
+        "Mass": "546,700 kg (1,205,300 lbs)",
+        "mass_int": 546700,
+        "Years in Operation": "2021~ (planned)",
+        "firstyear_int": 2021,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "In Development",
+        "Number of Stages": "2",
+        "Burn Time": "Boosters: Unknown, S1: Unknown, S2: Unknown",
+        "total_burntime_int": None,
+        "Thrust": "Boosters: 2,201.7 kN (each, up to 6), S1: 4,900 kN, S2: 212 kN",
+        "initial_thrust_int": 9303.4,
+        "ISP": "Boosters: Unknown, S1: Unknown, S2: 448.5 sec",
+        "asl_isp_int": None,
+        "vac_isp_int": 448.5,
+        "Cost Per Launch": "82M-200M",
+        "cost_int": 82000000,
+        "Fuel Type": "Boosters: HTPB, S1: CH4/LOX, S2: LH2/LOX",
+        "Total Launches": "N/A",
+        "total_launches_int": None,
+        "Successful Launches": "N/A",
+        "successful_launches_int": None,
+        "Launch Failures": "N/A",
+        "failed_launches_int": None,
+        "Image": "vulcancentaur.png",
        "Additional Information":
             '''
-    
+Vulcan Centaur is a two-stage-to-orbit heavy-lift launch vehicle under development 2014–2020 by United Launch Alliance (ULA), principally funded through National Security Space Launch (NSSL) competition and launch program, to meet the demands of the United States Air Force and US national security satellite launches.
+
+The maiden flight is planned to take place in July 2021, launching Astrobotic's Peregrine lunar lander.
+
+Vulcan is ULA's first launch vehicle design, adapting and evolving various technologies previously developed for the Atlas V and Delta IV rockets of the USAF's EELV program. The first stage propellant tanks share the diameter of the Delta IV Common Booster Core, but will contain liquid methane and liquid oxygen propellants instead of the Delta IV's liquid hydrogen and liquid oxygen.
+
+Vulcan's upper stage is the Centaur V, an upgraded variant of the Common Centaur/Centaur III currently used on the Atlas V. A lengthened version of the Centaur V will be used on the Vulcan Centaur Heavy. Current plans call for the Centaur V to be eventually upgraded with Integrated Vehicle Fluids technology to become the Advanced Cryogenic Evolved Stage (ACES). Vulcan is intended to undergo the human-rating certification process to allow the launch of crew, such as the Boeing CST-100 Starliner or a future crewed version of the Sierra Nevada Dream Chaser spaceplane.
+
+The Vulcan booster will have a 5.4 m (18 ft) outer diameter to support the methane fuel burned by the Blue Origin BE-4 engines. The BE-4 was selected to power Vulcan's first stage in September 2018 after a competition with the Aerojet Rocketdyne AR1.
+
+Zero to sixGEM-63XL solid rocket boosters (SRB)s can be attached to the first stage in pairs, providing additional thrust during the first part of the flight and allowing the six-SRB Vulcan Centaur Heavy to launch a higher mass payload than the most capable Atlas V 551 or Delta IV Heavy.
+
+Vulcan will have a 5.4 m (18 ft) diameter fairing available in two lengths. The longer fairing will be 21 m (69 ft) long, with a volume of 317 m3 (11,200 cu ft).
             '''
 
     }
