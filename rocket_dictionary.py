@@ -11582,176 +11582,225 @@ The Thor-Delta launched a number of significant payloads, including the first co
 
     "Titan": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "HGM-25A Titan I",
+        "Agency": "USAF",
+        "Manufacturer": "Martin Company",        
+        "Class": "Medium",
+        "Payload Capacity to LEO": "N/A",
+        "payload_int": None,
+        "Height": "31 m (102 ft)",
+        "height_int": 31,
+        "Diameter": "3.05 m (10 ft)",
+        "diameter_int": 3.05,
+        "Mass": "105,140 kg (231,790 lbs)",
+        "mass_int": 105140,
+        "Years in Operation": "1959-1965",
+        "firstyear_int": 1959,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "2",
+        "Burn Time": "S1: , S2: ",
         "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Thrust": "S1: 1,900 kN, S2: 356 kN",
+        "initial_thrust_int": 1900,
+        "ISP": "S1: 290 sec, S2: 308 sec",
+        "asl_isp_int": 290,
+        "vac_isp_int": 308,
+        "Cost Per Launch": "$12,869.254",
+        "cost_int": 12869254,
+        "Fuel Type": "S1: RP-1/LOX, S2: RP-1/LOX",
+        "Total Launches": "70",
+        "total_launches_int": 70,
+        "Successful Launches": "53",
+        "successful_launches_int": 53,
+        "Launch Failures": "17",
+        "failed_launches_int": 17,
+        "Image": "TitanI.png",
        "Additional Information":
             '''
-    
+The Martin Marietta SM-68A/HGM-25A Titan I was the United States' first multistage intercontinental ballistic missile (ICBM), in use from 1959 until 1962. Though the SM-68A was operational for only three years, it spawned numerous follow-on models that were a part of the US arsenal and space launch capability. The Titan I was unique among the Titan models in that it used liquid oxygen and RP-1 as propellants. All subsequent versions used storable propellants instead.
+
+Originally designed as a backup in case the Air Force's SM-65 Atlas missile development ran into problems, the Titan was ultimately beaten into service by Atlas. Deployment went ahead anyway to more rapidly increase the number of missiles on alert and because the Titan's missile silo basing was more survivable than Atlas.
+
+The LGM-25C Titan II would serve in the US nuclear deterrent until 1987 and had increased capacity and range in addition to the different propellants.
+
+By January 1955, the size of nuclear weapons had been shrinking dramatically, allowing the possibility of building a bomb that could be carried by a missile of reasonable size. The Titan I program began on the recommendation of the Scientific Advisory Committee. The committee presented to the United States Air Force (USAF) their findings of the technical feasibility to develop weapons (bombs) and their delivery systems (intercontinental range ballistic missiles) that were completely invulnerable to "surprise" attack.
+
+The reduction in the mass of nuclear warheads allowed full coverage of the entire Sino-Soviet land mass, and the missile control capabilities were also upgraded. The Titan I would be fully independent in controlled flight from launch to the ballistic release of the warhead, which would descend to its target by the combination of gravity and air resistance alone. In May 1955 the Air Material Command invited contractors to submit proposals and bids for the two stage Titan I ICBM, formally beginning the program. In September 1955, The Martin Company was declared the contractor for the Titan missile. In early October the Air Force's Western Development Division was ordered to start work. The Titan was developed in parallel with the Atlas (SM-65/HGM-16) ICBM, serving as a backup with potentially greater capabilities and an incentive for the Atlas contractor to work harder. Martin was selected as the contractor due to its proposed organization and method of igniting a liquid fueled engine at high altitude.
+
+The Titan I was initially designated as a bomber aircraft (B-68), but was later designated SM-68 Titan and finally HGM-25A in 1962.
+
+The previous strategic missile programs of the Air Force had been administered using the "single prime contractor concept" (later called the weapon system concept). This had resulted in three badly botched programs; the programs of the Snark, Navaho and RASCAL missiles had slipped an average of 5 years and had cost overruns of 300 per cent or more. In response, the Teapot Committee was tasked with evaluating requirements for ballistic missiles and methods of accelerating their development. As a result of the ensuing recommendations, the USAF established the Western Development Division and Brigadier General Bernard Schriever was detailed to command it. Schriever devised an entirely new organization for program management. The Air Force was to act as "prime contractor," the Ramo-Woolridge Corporation was contracted to provide systems engineering and technical direction of all ballistic missiles. The airframe contractor also would assemble the sub-systems provided by other Air Force contractors. At the time, this new organization was very controversial.
+
+The Titan I represented an evolution of technology when compared to the Atlas missile program, but shared many of the Atlas' problems. The liquid oxygen oxidizer could not be stored for long periods of time, increasing the response time as the missile had to be raised out of its silo and loaded with oxidizer before a launch could occur. The main improvements of the Titan I over the first Atlas's deployed were vertical storage in a fully underground silo and an improved fully internal inertial guidance system. Later Atlas E/F models were equipped with what would have been the Titan I's guidance system The Titan I would be deployed with the Bell Labs radio-inertial guidance system.
             '''
 
     },
 
     "Titan II GLV": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Titan II Gemini Launch Vehicle",
+        "Agency": "NASA",
+        "Manufacturer": "Martin Marietta",        
+        "Class": "Medium",
+        "Payload Capacity to LEO": "3,583 kg (7,900 lbs)",
+        "payload_int": 3583,
+        "Height": "33 m (109 ft)",
+        "height_int": 33,
+        "Diameter": "3 m (10 ft)",
+        "diameter_int": 3,
+        "Mass": "154,221 kg (340,000 lbs)",
+        "mass_int": 154221,
+        "Years in Operation": "1964-1966",
+        "firstyear_int": 1964,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "2",
+        "Burn Time": "S1: 156 sec, S2: 180 sec",
+        "total_burntime_int": 336,
+        "Thrust": "S1: 1,900 kN, S2: 440 kN",
+        "initial_thrust_int": 1900,
+        "ISP": "S1: 258 sec, S2: 316 sec",
+        "asl_isp_int": 258,
+        "vac_isp_int": 316,
+        "Cost Per Launch": "$7,669,485",
+        "cost_int": 7669485,
+        "Fuel Type": "S1: N2O4/Aerozine 50, S2: N2O4/Aerozine 50",
+        "Total Launches": "12",
+        "total_launches_int": 12,
+        "Successful Launches": "12",
+        "successful_launches_int": 12,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
+        "Image": "TitanIIGLV.png",
        "Additional Information":
             '''
-    
+The Titan II GLV (Gemini Launch Vehicle) or Gemini-Titan II was an American expendable launch system derived from the Titan II missile, which was used to launch twelve Gemini missions for NASA between 1964 and 1966. Two uncrewed launches followed by ten crewed ones were conducted from Launch Complex 19 at the Cape Canaveral Air Force Station, starting with Gemini 1 on April 8, 1964.
+
+The Titan II was a two-stage liquid-fuel rocket, using a hypergolic propellant combination of Aerozine 50 fuel and nitrogen tetroxide oxidizer. The first stage was powered by an LR87 engine (with two combustion chambers and nozzles, fed by a single set of turbomachinery), and the second stage was propelled by an LR-91 engine.
             '''
 
     },
 
     "Titan 23G": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Titan 23G",
+        "Agency": "USAF/Private",
+        "Manufacturer": "Martin Marietta",        
+        "Class": "Medium",
+        "Payload Capacity to LEO": "3,600 kg (7,900 lbs)",
+        "payload_int":3600,
+        "Height": "31.4 m (103 ft)",
+        "height_int": 31.4,
+        "Diameter": "3.05 m (10 ft)",
+        "diameter_int": 3.05,
+        "Mass": "117,020 kg (257,980 lbs)",
+        "mass_int": 117020,
+        "Years in Operation": "1988-2003",
+        "firstyear_int": 1988,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "2-3",
+        "Burn Time": "S1: 156 sec, S2: 180 sec, S3: 67 sec",
+        "total_burntime_int": 403,
+        "Thrust": "S1: 1,900 kN, S2: 445 kN, S3: 38.03 kN",
+        "initial_thrust_int": 1900,
+        "ISP": "S1: 258 sec, S2: 316 sec, S3: 290 sec",
+        "asl_isp_int": 258,
+        "vac_isp_int": 290,
+        "Cost Per Launch": "$86,454,415",
+        "cost_int": 86454415,
+        "Fuel Type": "S1: N2O4/Aerozine 50, S2: N2O4/Aerozine 50, S3: Solid",
+        "Total Launches": "13",
+        "total_launches_int": 13,
+        "Successful Launches": "12",
+        "successful_launches_int": 12,
+        "Launch Failures": "1",
+        "failed_launches_int": 1,
+        "Image": "Titan23G.png",
        "Additional Information":
             '''
-    
+The Titan 23G, Titan II(23)G, Titan 2(23)G or Titan II SLV was an American expendable launch system derived from the LGM-25C Titan II intercontinental ballistic missile. Retired Titan II missiles were converted by Martin Marietta, into which the Glenn L. Martin Company, which built the original Titan II, had merged. It was used to carry payloads for the United States Air Force, NASA and NOAA. Thirteen were launched from Space Launch Complex 4W at the Vandenberg Air Force Base between 1988 and 2003.
+
+Titan 23G rockets consisted of two stages burning liquid propellant. The first stage was powered by one Aerojet LR87 engine with two combustion chambers and nozzles, and the second stage was propelled by an LR91. On some flights, the spacecraft included a kick motor, usually the Star-37XFP-ISS; however, the Star-37S was also used.
+
+A contract to refurbish fourteen Titan II missiles to the Titan 23G configuration was awarded to Martin Marietta in January 1986. The first launch occurred on 5 September 1988, carrying a classified payload for the US National Reconnaissance Office. Thirteen were launched, with the fourteenth going to the Evergreen Aviation Museum. The final flight occurred on 17 October 2003, carrying a DMSP satellite.
+
+During refurbishment, the forward structure of the second stage was modified with the addition of a payload attachment fitting to attach the payload to the rocket, and installing a payload fairing to protect it during launch. The engines were refurbished, and the rockets' guidance and control systems were upgraded by Delco Electronics.
+
+The former Titan IIIB pad at Vandenberg, SLC-4W, was modified to accommodate the Titan 23G, and was used for all thirteen launches.
             '''
 
     },
 
     "Titan IIIB": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Titan IIIB",
+        "Agency": "USAF/Private",
+        "Manufacturer": "Martin Marietta",        
+        "Class": "Medium",
+        "Payload Capacity to LEO": "3000 kg (6,600 lbs)",
+        "payload_int": 3000,
+        "Height": "45 m (148 ft)",
+        "height_int": 45,
+        "Diameter": "3.05 m (10 ft)",
+        "diameter_int": 3.05,
+        "Mass": "156,540 kg (345,110 lbs)",
+        "mass_int": 156540,
+        "Years in Operation": "1966-1987",
+        "firstyear_int": 1966,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "3",
+        "Burn Time": "S1: 147 sec, S2: 205 sec, S3: 240 sec",
+        "total_burntime_int": 592,
+        "Thrust": "S1: 1,913 kN, S2: 445 kN, S3: 71.7 kN",
+        "initial_thrust_int": 1913,
+        "ISP": "S1: Unknown, S2: Unknown, S3: Unknown",
+        "asl_isp_int": None,
+        "vac_isp_int": None,
+        "Cost Per Launch": "$58,758,045",
+        "cost_int": 58758045,
+        "Fuel Type": "S1: N2O4/Aerozine 50, S2: N2O4/Aerozine 50, S3: IRFNA/UDMH",
+        "Total Launches": "68",
+        "total_launches_int": 68,
+        "Successful Launches": "62",
+        "successful_launches_int": 62,
+        "Launch Failures": "6 (4 total, 2 partial)",
+        "failed_launches_int": 6,
+        "Image": "TitanIIIB.png",
        "Additional Information":
             '''
-    
+Titan IIIB was the collective name for a number of derivatives of the Titan II ICBM and Titan III launch vehicle, modified by the addition of an Agena upper stage. It consisted of four separate rockets. The Titan 23B was a basic Titan II with an Agena upper stage, and the Titan 24B was the same concept, but using the slightly enlarged Titan IIIM rocket as the base. The Titan 33B was a Titan 23B with the Agena (which had a smaller diameter than the Titan) enclosed in an enlarged fairing, in order to allow larger payloads to be launched. The final member of the Titan IIIB family was the Titan 34B which was a Titan 24B with the larger fairing used on the Titan 33B.
+
+The Titan 23B space launch vehicle was a three-stage liquid fueled booster, designed to provide a small-to-medium weight class capability. It was able to lift approximately 3,000 kg (6,600 lb) into a polar low-Earth circular orbit. The first stage consisted of a ground ignited Aerojet LR-87 liquid propellant rocket, while the second stage consisted of an LR91 liquid propellant rocket. The third stage was an Agena D XLR81-BA-9 liquid propellant rocket.
+
+Various models of this Titan/Agena D rocket were called, "Titan 23B", "Titan 24B", "Titan 33B" and "Titan 34B".
+
+Background
+The Titan rocket family was established in October 1955, when the Air Force awarded The Martin Company a contract to build an intercontinental ballistic missile (ICBM). It became known as the Titan I, the nation's first two-stage ICBM and first underground silo-based ICBM. More than 140 Titan II ICBMs, once the vanguard of America's strategic deterrent force, were built. Titan IIs also were flown in NASA's Gemini manned space program in the mid-1960s. The Titan 23B is a derivative of the Titan II vehicle with an Agena D upper stage added.
+
+The Titan IIIB family emerged when the new KH-8 (Gambit Mark 3) photo reconnaissance satellite was being developed as the successor to the KH-7 Gambit Mark 1/2 which began flying in 1963. It was decided to switch to the Titan family over the Atlas used for KH-7 because it had substantially more lift capability and also its conventional two-stage design and hypergolic propellants made for a simpler and more reliable launch vehicle than the quirky Atlas. The KH-8 was double the size of its predecessor but still well below the Titan's lift capability.
+
+While the KH-8 was the original raison d'être for the Titan IIIB's existence, as well as its primary payload, the booster was also used for Jumpseat SIGINT satellites and military comsats. It also lived up to its promise of greater reliability than the Thor and Atlas, with only a few failures over its run.
+
+Primary function: Launch vehicle used to lift medium class satellites into space.
+
+Titan 23B
+Titan 23B used the basic Titan 3A core with an Agena D upper stage. The Titan 23B was launched from SLC-4W at Vandenberg AFB, Calif. Its main payload was the GAMBIT (KH-8 reconnaissance) satellites, although the final two 23B vehicles carried Jumpseat SIGNIT satellites and had some minor upper stage modifications for them. 33 flights were made from 1966 to 1971, with one failure.
+
+Titan 24B
+The Titan 24B differed from the Titan 23B in that the Titan IIIM core with extended propellant tanks was used in place of the original Titan II core. The payload remained attached to the Agena stage. 23 flights took place from 1971–84, with two failures.
+
+Titan 33B
+The Titan 33B was a Titan 23B with the entire Agena and payload completely enclosed in a shroud. It flew only three times (1971–73) with one failure and was used to launch Jumpseat satellites.
+
+Titan 34B
+The Titan 34B was a Titan 24B, modified by the addition of the larger fairing used on the Titan 33B. 23 were launched in 1971-87 with two failures. All launches consisted of KH-8 satellites.
             '''
 
     },

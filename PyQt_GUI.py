@@ -10,8 +10,8 @@ from collections import OrderedDict
 import sys
 import ctypes  #this plus the two lines below (beginning with "myappid" and "ctypes.windll" respectively allows windwows to recognize the app's icon, as opposed to just giving the window it self the proper icon
 
-myappid = 'mycompany.myproduct.subproduct.version' # arbitrary string
-ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
+# myappid = 'mycompany.myproduct.subproduct.version' # arbitrary string
+# ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
 
 ascending_alphabetical_rocket_choices = sorted(rocketDictionary.keys())
 descending_alphabetical_rocket_choices = sorted(rocketDictionary.keys(), reverse=True)
@@ -592,6 +592,8 @@ CTPB: Carboxy-Terminated Polybutadiene
 PBAN: Polybutadiene Acrylonitrile
 LOX: Liquid Oxygen
 LH2: Liquid Hydrogen
+(I)RFNA: Red Fuming Nitric Acid
+UDMH: Unsymmetrical Dimethylhydrazine
 
             ''')
         acronymDlg.exec_()
