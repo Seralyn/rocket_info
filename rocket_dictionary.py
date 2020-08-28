@@ -11437,44 +11437,88 @@ The Thor-Delta launched a number of significant payloads, including the first co
 
     "LauncherOne": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "LauncherOne",
+        "Agency": "Private",
+        "Manufacturer": "Virgin Orbit",        
+        "Class": "Light",
+        "Payload Capacity to LEO": "300 kg",
+        "payload_int": 300,
+        "Height": "21.3 m (70 ft)",
+        "height_int": 21.3,
+        "Diameter": "Unknown",
+        "diameter_int": None,
+        "Mass": "27,215.5 kg (60,000 lbs)",
+        "mass_int": 27215.5,
+        "Years in Operation": "2020~",
+        "firstyear_int": 2020,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
+        "Operational Status": "Active",
+        "Number of Stages": "2-3",
+        "Burn Time": "S1: 180 sec, S2: 360 sec",
         "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Thrust": "S1: 326 kN (Vac), S2: 26.5 kN",
+        "initial_thrust_int": None,
+        "ISP": "S1: Unknown, S2: Unknown",
+        "asl_isp_int": None,
+        "vac_isp_int": None,
+        "Cost Per Launch": "$12,000,000",
+        "cost_int": 12000000,
+        "Fuel Type": "S1: RP-1/LOX, S2: RP-1/LOX",
+        "Total Launches": "1",
+        "total_launches_int": 1,
+        "Successful Launches": "0",
+        "successful_launches_int": 0,
+        "Launch Failures": "1",
+        "failed_launches_int": 1,
+        "Image": "LauncherOne.png",
        "Additional Information":
             '''
-    
+LauncherOne is a two stage orbital launch vehicle under development by Virgin Orbit since 2007. It is an air launch to orbit rocket, designed to launch "smallsat" payloads of 300 kilograms (660 lb) into Sun-synchronous orbit, following air launch from a carrier aircraft at high altitude. The first attempted orbital test flight was completed on 25 May 2020, but failed to reach space due to an anomaly that occurred shortly after the vehicle's release from a Boeing 747-400, named Cosmic Girl, over the Pacific Ocean.
+
+The original LauncherOne concept, 2007-2015, for a smaller launch vehicle (200 kilograms (440 lb) to low-Earth orbit) was shelved in 2015 and replaced by a larger rocket design capable of putting a 300 kilograms (660 lb) minisat payload in a 500 kilometres (310 mi) Sun-synchronous orbit, suitable for CubeSats and small payloads, with an expected cost less than US$12 million.
+
+Virgin Galactic began working on the LauncherOne concept in 2007, and the technical specifications were first described in some detail in late 2009. The LauncherOne configuration was proposed to be an expendable, two-stage, liquid-fueled rocket air-launched from a White Knight Two carrier aircraft. This would make it a similar configuration to that used by Orbital Sciences' Pegasus, or a smaller version of the StratoLaunch air-launched rocket system.
+
+In October 2012, Virgin announced that LauncherOne would be designed so that it could place 200 kilograms (440 lb) in Sun-synchronous orbit. Virgin planned at the time to market the 200 kilograms (440 lb) payload delivery to Sun-synchronous orbit for under US$10,000,000 per mission, while the maximum payload for LEO missions would be somewhat larger at 500 kilograms (1,100 lb).
+
+By 2012, several commercial customers had signed early contracts for launches signaling demand-side support for new small commercial-oriented launch vehicles. These included GeoOptics, Skybox Imaging, Spaceflight Services, and Planetary Resources. Both Surrey Satellite Technology and Sierra Nevada Space Systems were at the time reported to be developing satellite buses "optimized to the design of LauncherOne".
+
+In 2015, Virgin Galactic established a 150,000 square feet (14,000 m2; 1.4 ha) research, development, and manufacturing center for LauncherOne at the Long Beach Airport.
+
+The company reported in March 2015, that they were on schedule to begin test flights of LauncherOne with its NewtonThree engine by the end of 2016, but they did not achieve that objective.
+
+On 25 June 2015, the company signed a contract with OneWeb Ltd. for 39 satellite launches for its satellite constellation with an option for an additional 100 launches, but in 2018 OneWeb canceled all but four, prompting a lawsuit from Virgin Orbit. OneWeb filed for bankruptcy protection in 2020.
+
+News reports in September 2015 indicated that the heavier payload of 200 kg was to be achieved by longer fuel tanks and use of the recently qualified NewtonThree engine, but this also meant that the Virgin-developed carrier aircraft White Knight Two would no longer be able to lift the rocket to launch altitude, so in December 2015, Virgin announced a change to the carrier plane for LauncherOne to carry the heavier payload. The carrier aircraft subsequently was changed to a used Boeing 747-400, 
+Cosmic Girl, previously operated by Virgin Galactic's sister company, Virgin Atlantic, and purchased outright by Virgin Group from Boeing upon the expiration of that airframe's lease. The 747 will allow a larger LauncherOne to carry the heavier payloads. The modification work on the company's 747 was expected to be completed in 2016, to be followed by orbital test launches of the rocket in 2017. It was further announced in December 2015 that the revised LauncherOne would utilize the larger NewtonThree rocket engine on the booster stage, with the NewtonFour powering the second stage.
+
+On 2 March 2017, Virgin Galactic announced that its 200-member LauncherOne team was being spun off into a new company called Virgin Orbit. Also, a subsidiary company of Virgin Orbit called Vox Space was created to carry out business which require strict security requirements. As of 2017, the company expected to fly approximately twice a month by 2020.
+
+In September 2017, the first test flights of LauncherOne were delayed to 2018. By June 2018, the VirginOrbit captive carry flight testing campaign for LauncherOne, including a planned drop test of an unfueled rocket, was licensed to begin in July 2018, and could run for up to six months.
+
+In the event, no LauncherOne test flights occurred in 2018 and were delayed further, to December 2019, with only the carrier aircraft beginning to fly in 2018. The first three test flights of Cosmic Girl, including the pylon but not the rocket, happened on 23, 25 and 27 August 2018. A high-speed taxi test, with a rocket mounted beneath the aircraft, took place in early November 2018. The aircraft flew its first test flight with both pylon and rocket attached on 18 November 2018.
+
+The maiden flight of LauncherOne took place on 25 May 2020. The flight failed a few seconds after the ignition of the rocket, and the rocket did not reach space.
+
+Design
+LauncherOne is a two-stage air-launched vehicle using two Virgin-designed and built Newton RP-1 / LOX liquid rocket engines. The rocket has a diameter of 1.6 metres (5 ft 3 in) for the first stage and 1.3 metres (4 ft 3 in) for the second stage and payload fairing. The first stage uses one NewtonThree engine, while the upper stage uses one NewtonFour engine.
+
+In October 2019, the company announced plans to develop a three-stage variant that would be capable of launching 100 kg to the Moon, 70 kg to Venus, or 50 kg to Mars.
+
+Engines
+Originally, in 2012, the second stage was to be powered by NewtonOne, a 16 kilonewtons (3,500 lbf) thrust engine. It was originally intended that the first stage will be powered by a scaled-up design of the same basic technology as NewtonOne, called NewtonTwo, with 211 kilonewtons (47,500 lbf) of thrust. Both engines had been designed by early 2014, and first articles had been built. NewtonOne was tested up to a full-duration burn of five minutes. NewtonTwo made several short-duration firings by early 2014. Ultimately, however, neither NewtonOne nor NewtonTwo would be used on LauncherOne.
+
+As of 2015, NewtonThree was to be a 260–335 kilonewtons (58,000–75,000 lbf)-thrust engine, and began hot-fire testing by March 2015. In June 2015, reports suggested that a NewtonThree would power the first stage of LauncherOne.
+
+By December 2015, Virgin had settled on a design where the first stage would utilize the larger NewtonThree engine on the booster stage, while the NewtonFour engine would power the second stage, and this was confirmed in June 2018 as Virgin Orbit readied for the start of the flight test campaign in the second half of 2018. NewtonThree generate 326.8 kilonewtons (73,500 lbf) of thrust while NewtonFour deliver 26.5 kN (6,000 lbf) to the second stage.
+
+A 25 May 2020 launch failure was attributed to a failure of a high-pressure LOx fuel line in the NewtonThree engine. The broken fuel line caused LOx to stop flowing into the engine leading to the flight being terminated. Issue with the fuel line was addressed though strengthening broken components.
+
+Intended usage
+LauncherOne is designed to launch a 300 kilograms (660 lb) payload to a 500 kilometres (310 mi) SSO, suitable for CubeSats and small payloads. Virgin Orbit has also announced the ability of LauncherOne to send payloads into heliocentric orbit for flybys of Mars, Venus or asteroids.
+
+Virgin Orbit integrate payloads at their headquarters in Long Beach, California.
             '''
 
     },
@@ -11600,8 +11644,8 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "flag_icon": "flags/usa.png",
         "Operational Status": "Retired",
         "Number of Stages": "2",
-        "Burn Time": "S1: , S2: ",
-        "total_burntime_int": "",
+        "Burn Time": "S1: 140 sec, S2: 155 sec",
+        "total_burntime_int": 295,
         "Thrust": "S1: 1,900 kN, S2: 356 kN",
         "initial_thrust_int": 1900,
         "ISP": "S1: 290 sec, S2: 308 sec",
