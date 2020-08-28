@@ -1,37 +1,45 @@
+from PyQt5.QtWidgets import (QWidget, QSlider, QLineEdit, QLabel, QPushButton, QScrollArea,QApplication,
+                             QHBoxLayout, QVBoxLayout, QMainWindow)
+from PyQt5.QtCore import Qt, QSize
+from PyQt5 import QtWidgets, uic
 import sys
 
-from PyQt5 import QtGui, QtWidgets, QtPrintSupport
 
+class MainWindow(QMainWindow):
 
-class App(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
-        # Create some widgets
-        self.setGeometry(500, 500, 300, 300)
-        self.button = QtWidgets.QPushButton(
-            'Print QTextEdit widget (the one below)', self)
-        self.button.setGeometry(20, 20, 260, 30)
-        self.editor = QtWidgets.QTextEdit(
-            'Wow such text why not change me?', self)
-        self.editor.setGeometry(20, 60, 260, 200)
-        self.button.clicked.connect(self.print_widget)
+        self.initUI()
 
-    def print_widget(self):
-        # Create printer
-        printer = QtPrintSupport.QPrinter()
-        # Create painter
-        painter = QtGui.QPainter()
-        # Start painter
-        painter.begin(printer)
-        # Grab a widget you want to print
-        screen = self.editor.grab()
-        # Draw grabbed pixmap
-        painter.drawPixmap(10, 10, screen)
-        # End painting
-        painter.end()
+    def initUI(self):
+        self.scroll = QScrollArea()             # Scroll Area which contains the widgets, set as the centralWidget
+        self.widget = QWidget()                 # Widget that contains the collection of Vertical Box
+        self.vbox = QVBoxLayout()               # The Vertical Box that contains the Horizontal Boxes of  labels and buttons
+
+        for i in range(1,50):
+            object = QLabel("TextLabel")
+            self.vbox.addWidget(object)
+
+        self.widget.setLayout(self.vbox)
+
+        #Scroll Area Properties
+        self.scroll.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOn)
+        self.scroll.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
+        self.scroll.setWidgetResizable(True)
+        self.scroll.setWidget(self.widget)
+
+        self.setCentralWidget(self.scroll)
+
+        self.setGeometry(600, 100, 1000, 900)
+        self.setWindowTitle('Scroll Area Demonstration')
+        self.show()
+
+        return
+
+def main():
+    app = QtWidgets.QApplication(sys.argv)
+    main = MainWindow()
+    sys.exit(app.exec_())
 
 if __name__ == '__main__':
-    app = QtWidgets.QApplication(sys.argv)
-    gui = App()
-    gui.show()
-    app.exec_()
+    main()

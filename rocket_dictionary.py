@@ -1086,30 +1086,19 @@ Also known as "Chang Zheng 1-D/CZ-1"
         "Image": "atlasv.png",
         "Additional Information":
             '''
-            Atlas V is the fifth major version in the Atlas rocket family. 
-            It is an expendable launch system originally designed by 
-            Lockheed Martin, now being operated by United Launch Alliance 
-            (ULA), a joint venture between Lockheed and Boeing.
+Atlas V is the fifth major version in the Atlas rocket family. It is an expendable launch system originally designed by 
+Lockheed Martin, now being operated by United Launch Alliance (ULA), a joint venture between Lockheed and Boeing.
 
-            Each Atlas V rocket consists of two main stages. The first 
-            stage is powered by a Russian RD-180 engine manufactured by 
-            RD Amross and burning kerosene and liquid oxygen. The Centaur 
-            upper stage is powered by one or two US RL10 engine(s) 
-            manufactured by Aerojet Rocketdyne and burning liquid 
-            hydrogen and liquid oxygen. AJ-60A strap-on solid rocket 
-            boosters (SRBs) are used in some configurations and will 
-            be replaced by GEM-63 SRBs in the near future. The standard 
-            payload fairings are 4 or 5 meters in diameter with various
-            lengths.
+Each Atlas V rocket consists of two main stages. The first stage is powered by a Russian RD-180 engine manufactured by 
+RD Amross and burning kerosene and liquid oxygen. The Centaur upper stage is powered by one or two US RL10 engine(s) 
+manufactured by Aerojet Rocketdyne and burning liquid hydrogen and liquid oxygen. AJ-60A strap-on solid rocket 
+boosters (SRBs) are used in some configurations and will be replaced by GEM-63 SRBs in the near future. The standard 
+payload fairings are 4 or 5 meters in diameter with various lengths.
 
-            The Atlas V was developed by Lockheed Martin Commercial Launch 
-            Services (LMCLS) as part of the US Air Force Evolved Expendable 
-            Launch Vehicle (EELV) program and made its inaugural flight on 
-            August 21, 2002. The vehicle operates from Space Launch Complex 
-            41 at Cape Canaveral Air Force Station and Space Launch Complex 
-            3-E at Vandenberg Air Force Base. LMCLS continued to market the 
-            Atlas V to commercial customers worldwide until January 2018, 
-            when ULA assumed control of commercial marketing and sales.
+The Atlas V was developed by Lockheed Martin Commercial Launch Services (LMCLS) as part of the US Air Force Evolved Expendable 
+Launch Vehicle (EELV) program and made its inaugural flight on August 21, 2002. The vehicle operates from Space Launch Complex 
+41 at Cape Canaveral Air Force Station and Space Launch Complex 3-E at Vandenberg Air Force Base. LMCLS continued to market the 
+Atlas V to commercial customers worldwide until January 2018, when ULA assumed control of commercial marketing and sales.
             '''
     },
 
@@ -1349,23 +1338,23 @@ Blue Origin submitted a proposal to replace the Exploration Upper Stage with an 
         "Image": "H-IIA.png",
         "Additional Information":
             '''
-            H-IIA (H-2A) is an active expendable launch system operated by Mitsubishi 
-            Heavy Industries (MHI) for the Japan Aerospace Exploration Agency. These liquid 
-            fuel rockets have been used to launch satellites into geostationary orbit; lunar 
-            orbiting spacecraft; Akatsuki, which studied the planet Venus; and the Emirates 
-            Mars Mission, which was launched to Mars in July 2020. Launches occur at the 
-            Tanegashima Space Center. The H-IIA first flew in 2001. As of July 2020, H-IIA 
-            rockets were launched 42 times, including 36 consecutive missions without a 
-            failure, dating back to 29 November 2003.
+H-IIA (H-2A) is an active expendable launch system operated by Mitsubishi 
+Heavy Industries (MHI) for the Japan Aerospace Exploration Agency. These liquid 
+fuel rockets have been used to launch satellites into geostationary orbit; lunar 
+orbiting spacecraft; Akatsuki, which studied the planet Venus; and the Emirates 
+Mars Mission, which was launched to Mars in July 2020. Launches occur at the 
+Tanegashima Space Center. The H-IIA first flew in 2001. As of July 2020, H-IIA 
+rockets were launched 42 times, including 36 consecutive missions without a 
+failure, dating back to 29 November 2003.
 
-            Production and management of the H-IIA shifted from JAXA to MHI on 1 April 2007. 
-            Flight 13, which launched the lunar orbiter SELENE, was the first H-IIA launched 
-            after this privatization.
+Production and management of the H-IIA shifted from JAXA to MHI on 1 April 2007. 
+Flight 13, which launched the lunar orbiter SELENE, was the first H-IIA launched 
+after this privatization.
 
-            The H-IIA is a derivative of the earlier H-II rocket, substantially redesigned to 
-            improve reliability and minimize costs. There have been four variants, with two 
-            in active service (as of 2020) for various purposes. A derivative design, the H-IIB, 
-            was developed in the 2000s and made its maiden flight in 2009.
+The H-IIA is a derivative of the earlier H-II rocket, substantially redesigned to 
+improve reliability and minimize costs. There have been four variants, with two 
+in active service (as of 2020) for various purposes. A derivative design, the H-IIB, 
+was developed in the 2000s and made its maiden flight in 2009.
             '''
     },
 
@@ -8555,7 +8544,7 @@ The Shavit has been launched 11 times, placing the payload into orbit 9 times. O
             Greek god of war.
 
             The Ares V was to launch the Earth Departure Stage and Altair lunar lander for NASA's return
-             to the Moon, which was planned for 2019.[4] It would also have served as the principal 
+             to the Moon, which was planned for 2019. It would also have served as the principal 
              launcher for missions beyond the Earth-Moon system, including the program's ultimate goal, 
              a crewed mission to Mars. The uncrewed Ares V would complement the smaller, and human-rated 
              Ares I rocket for the launching of the 4–6 person Orion spacecraft. Both rockets, deemed 

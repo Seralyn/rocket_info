@@ -528,31 +528,114 @@ class Ui_MainWindow(object):
         else:
              selectedItem = selectedItem.text()
         
-        printWindow.setWindowTitle(f"Print information for:  {selectedItem}")
+        printWindow.setWindowTitle(f"Printer-Friendly Layout for:  {selectedItem}")
         printWindow.setGeometry(200, 200, 500, 700)
 
-        # Create printer
-        printer = QtPrintSupport.QPrinter()
-        # Create painter
-        painter = QtGui.QPainter()
-        # Start painter
-        painter.begin(printer)
-        # Grab a widget you want to print
-        screen = self.textBrowser.grab()
-        # Draw grabbed pixmap
-        painter.drawPixmap(10, 10, screen)
-        # End painting
-        painter.end() 
+        def sendToPrinter():
+            #Create printer
+            printer = QtPrintSupport.QPrinter()
+            # Create painter
+            painter = QtGui.QPainter()
+            # Start painter
+            painter.begin(printer)
+            # Grab a widget you want to print
+            screen = self.textBrowser.grab()
+            # Draw grabbed pixmap
+            painter.drawPixmap(10, 10, screen)
+            # End painting
+            painter.end()
 
-        printLayout = QVBoxLayout()
-        printRocketNameLabel = QLabel()
-        printRocketNameLabel.setLayout(printLayout)
-        printCentralwidget = QtWidgets.QWidget(printWindow)
-        printCentralwidget.setObjectName("printCentralwidget")
-        printRocketNameLabel.show()
+
+        printerWindowRocketNameFont = QtGui.QFont()
+        printerWindowRocketNameFont.setFamily("Arial")
+        printerWindowRocketNameFont.setPointSize(30)
+        printerWindowRocketNameFont.setWeight(100)
+
+        verticalPrintLayout = QVBoxLayout()
+        nameAndFlagsPrintLayout = QHBoxLayout()
+        imageAndSpecsPrintLayout = QHBoxLayout()
+
+        printRocketName = self.listWidget.currentItem().text()
+
+        printRocketNameLabel = QLabel(printRocketName)
+        printRocketNameLabel.setAlignment(Qt.AlignHCenter)
+        printRocketNameLabel.setFont(printerWindowRocketNameFont)
+        printFlagLeftLabel = QLabel()
+        printFlagRightLabel = QLabel()
+        printFlagLeftLabel.setAlignment(Qt.AlignRight)
+        printFlagRightLabel.setAlignment(Qt.AlignLeft)
+        printFlagPixmap = QPixmap(rocketDictionary[printRocketName]['flag_icon'])
+        printFlagPixmapScaled = printFlagPixmap.scaledToHeight(40)
+        printFlagLeftLabel.setPixmap(printFlagPixmapScaled)
+        printFlagRightLabel.setPixmap(printFlagPixmapScaled)
+
+        printRocketImageLabel = QLabel()
+        printRocketPixmap = QPixmap("images/" + rocketDictionary[printRocketName]['Image'])
+        printRocketPixmapScaled = printRocketPixmap.scaledToHeight(300)
+        printRocketImageLabel.setPixmap(printRocketPixmapScaled)
+        printRocketImageLabel.setAlignment(Qt.AlignHCenter | Qt.AlignVCenter)
         
+        printRocketSpecsLabel = QLabel(
+            f'''
+Agency: {rocketDictionary[printRocketName]['Agency']}
+Manufacturer: {rocketDictionary[printRocketName]['Manufacturer']}
+Payload Capacity to LEO: {rocketDictionary[printRocketName]['Payload Capacity to LEO']}
+Height: {rocketDictionary[printRocketName]['Height']}
+Mass: {rocketDictionary[printRocketName]['Mass']}
+Years in Operation: {rocketDictionary[printRocketName]['Years in Operation']}
+Country: {rocketDictionary[printRocketName]['Country']}
+Operational Status: {rocketDictionary[printRocketName]['Operational Status']}
+Number of Stages: {rocketDictionary[printRocketName]['Number of Stages']}
+Burn Time: {rocketDictionary[printRocketName]['Burn Time']}
+Thrust: {rocketDictionary[printRocketName]['Thrust']}
+ISP: {rocketDictionary[printRocketName]['ISP']}
+Cost Per Launch: {rocketDictionary[printRocketName]['Cost Per Launch']}
+Fuel Type: {rocketDictionary[printRocketName]['Fuel Type']}
+Total Launches: {rocketDictionary[printRocketName]['Total Launches']}
+Launch Successes: {rocketDictionary[printRocketName]['Successful Launches']}
+Launch Failures: {rocketDictionary[printRocketName]['Launch Failures']}
+            ''')
+        printRocketSpecsLabel.setAlignment(Qt.AlignHCenter | Qt.AlignTop)
+        #printRocketSpecsLabel.setAlignment(QtCore.Qt.AlignRight)
+        
+        printRocketInfoLabel = QLabel(rocketDictionary[printRocketName]['Additional Information'])
+        printRocketInfoLabel.setAlignment(Qt.AlignHCenter | Qt.AlignTop)
+        
+        printInsidePrintButton = QPushButton("Send to Printer")
+        printInsidePrintButton.clicked.connect(sendToPrinter)
 
+
+        verticalPrintLayout.addWidget(printInsidePrintButton)
+        verticalPrintLayout.addLayout(nameAndFlagsPrintLayout)
+        nameAndFlagsPrintLayout.addWidget(printFlagLeftLabel)
+        nameAndFlagsPrintLayout.addWidget(printRocketNameLabel)
+        nameAndFlagsPrintLayout.addWidget(printFlagRightLabel)
+        verticalPrintLayout.addLayout(imageAndSpecsPrintLayout)
+        imageAndSpecsPrintLayout.addWidget(printRocketImageLabel)
+        imageAndSpecsPrintLayout.addWidget(printRocketSpecsLabel)
+        #verticalPrintLayout.addWidget(printRocketImageLabel)
+        #verticalPrintLayout.addWidget(printRocketSpecsLabel)
+        verticalPrintLayout.addWidget(printRocketInfoLabel)
+
+        printCentralwidget = QtWidgets.QWidget()
+        printCentralwidget.setObjectName("printCentralwidget")
+        printCentralwidget.setLayout(verticalPrintLayout)
+        
+        # scrollArea = QtWidgets.QScrollArea(printCentralwidget)
+        # verticalPrintLayout.addWidget(scrollArea)
+        # scrollAreaWidgetContents = QtWidgets.QWidget()
+        # scrollArea.setWidget(scrollAreaWidgetContents)
+        #vericalPrintLayout = QtWidgets.QVBoxLayout(scrollAreaWidgetContents)
+
+
+        printWindow.setCentralWidget(printCentralwidget)
+        
+        # printRocketNameLabel.show()
+        # printCentralwidget.show()
+        
         printWindow.show()
+
+         
 
 
     # ****** Sorting Menu - Rocket ListWidget Sorting Methods **********
