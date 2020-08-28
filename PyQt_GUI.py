@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5 import QtCore, QtGui, QtWidgets, QtPrintSupport
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtWidgets import (QSplashScreen, QLabel, QCompleter, QGraphicsScene, 
 QGraphicsView, QLineEdit, QLabel, QPushButton, QScrollArea, QVBoxLayout, QWidget,
@@ -502,6 +502,23 @@ class Ui_MainWindow(object):
         self.actionPrint.setShortcut(_translate("MainWindow", "Ctrl+P"))
         self.actionPrint.setIcon(QtGui.QIcon("printer.png"))
 
+
+#******* Printer Dialogue Window ************
+    # def print_widget(self):
+    #     # Create printer
+    #     printer = QtPrintSupport.QPrinter()
+    #     # Create painter
+    #     painter = QtGui.QPainter()
+    #     # Start painter
+    #     painter.begin(printer)
+    #     # Grab a widget you want to print
+    #     screen = self.textBrowser.grab()
+    #     # Draw grabbed pixmap
+    #     painter.drawPixmap(10, 10, screen)
+    #     # End painting
+    #     painter.end()   
+
+
     # ********** Toolbar Button Click Methods **********
 
     def printButtonClicked(self):
@@ -511,8 +528,21 @@ class Ui_MainWindow(object):
         else:
              selectedItem = selectedItem.text()
         
-        printWindow.setWindowTitle(f"Print information for:   {selectedItem}")
+        printWindow.setWindowTitle(f"Print information for:  {selectedItem}")
         printWindow.setGeometry(200, 200, 500, 700)
+
+        # Create printer
+        printer = QtPrintSupport.QPrinter()
+        # Create painter
+        painter = QtGui.QPainter()
+        # Start painter
+        painter.begin(printer)
+        # Grab a widget you want to print
+        screen = self.textBrowser.grab()
+        # Draw grabbed pixmap
+        painter.drawPixmap(10, 10, screen)
+        # End painting
+        painter.end() 
 
         printLayout = QVBoxLayout()
         printRocketNameLabel = QLabel()
