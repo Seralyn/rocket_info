@@ -752,8 +752,7 @@ The Kaituozhe-2A (KT-2A) features a possibly DF-31 based stage 1, augmented by t
     },
     "Long March 1": {
         "Name": "Long March 1",
-        "Agency": '''
-MAI - Moscow Aviation Institute, 
+        "Agency": '''MAI - Moscow Aviation Institute, 
 CASC - China Aerospace Science and Technology Corporation, 
 CAST - China Academy of Space Technology''',
         "Manufacturer": "",        
@@ -1969,7 +1968,7 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
         "Class": "Light",
         "Payload Capacity to LEO": "40 kg (88 lbs)",
         "payload_int": 40,
-        "Height": "	22 m (72 ft)",
+        "Height": "22 m (72 ft)",
         "height_int": 22,
         "Diameter": "1 m (3.3 ft)",
         "diameter_int": 1,        
@@ -10694,9 +10693,9 @@ The Thor-Delta launched a number of significant payloads, including the first co
 
     "Delta A": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
+        "Name": "Delta A(ble)",
+        "Agency": "US Military",
+        "Manufacturer": "Aerojet",        
         "Class": "",
         "Payload Capacity to LEO": "",
         "payload_int": "",
@@ -10719,9 +10718,9 @@ The Thor-Delta launched a number of significant payloads, including the first co
         "ISP": "",
         "asl_isp_int": "",
         "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
+        "Cost Per Launch": "Unknown",
+        "cost_int": None,
+        "Fuel Type": "Nitric Acid/UDMH",
         "Total Launches": "",
         "total_launches_int": "",
         "Successful Launches": "",
@@ -11530,44 +11529,56 @@ The Thor-Delta launched a number of significant payloads, including the first co
 
     "Delta IV Heavy": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Delta IV Heavy",
+        "Agency": "NASA/Private",
+        "Manufacturer": "ULA",        
+        "Class": "Very Heavy",
+        "Payload Capacity to LEO": "28,790 kilograms (63,470 lbs)",
+        "payload_int": 28790,
+        "Height": "72 m (236 ft)",
+        "height_int": 72,
+        "Diameter": "5 m (16 ft)",
+        "diameter_int": 5,
+        "Mass": "733,000 kg (1,616,000 lbs)",
+        "mass_int": 733000,
+        "Years in Operation": "2004-2020",
+        "firstyear_int": 2004,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Active",
+        "Number of Stages": "2+",
+        "Burn Time": "Boosters: 242 sec, S1: 328 sec, S2: 1125 sec",
+        "total_burntime_int": 1695,
+        "Thrust": "Boosters: 6,280 kN, S1: 3,140 kN, S2: 110 kN",
+        "initial_thrust_int": 9420,
+        "ISP": "Boosters: 360 sec, S1: 412 sec, S2: 462 sec",
+        "asl_isp_int": 386,
+        "vac_isp_int": 462,
+        "Cost Per Launch": "$350,000,000",
+        "cost_int": 350000000,
+        "Fuel Type": "Boosters: LH2/LOX, S1: LH2/LOX, S2: LH2/LOX",
+        "Total Launches": "11",
+        "total_launches_int": 11,
+        "Successful Launches": "10",
+        "successful_launches_int": 10,
+        "Launch Failures": "1 (partial)",
+        "failed_launches_int": 1,
+        "Image": "DeltaIVHeavy.png",
        "Additional Information":
             '''
-    
+The Delta IV Heavy (Delta 9250H) is an expendable heavy-lift launch vehicle, the largest type of the Delta IV family and the world's second highest-capacity rocket in operation, behind SpaceX's Falcon Heavy rocket. It is manufactured by United Launch Alliance and was first launched in 2004.
+
+The Delta IV Heavy consists of a central Common Booster Core (CBC), with two additional CBCs as liquid rocket boosters instead of the GEM-60 solid rocket motors used by the Delta IV Medium+ versions. At lift off, all three cores operate at full thrust, and 44 seconds later the center core throttles down to 55% to conserve fuel until booster separation. The boosters burn out at 242 seconds after launch and are separated as the core booster throttles back up to full thrust. The core burns out 86 seconds later, and the second stage completes the ascent to orbit.
+
+The rocket uses three RS-68 engines, one in the central core and one in each booster.
+
+The Delta IV line of rockets was developed by McDonnell Douglas, later United Launch Alliance. The Delta IV Heavy is the most powerful member of the line, which also includes the smaller Delta IV Medium. The Delta IV Heavy can lift 28,370 kg (62,540 lbs) to low Earth orbit and 13,810 kg (30,440 lbs) to geostationary transfer orbit.[8] It is an all liquid-fueled rocket, consisting of an upper stage, one main booster and two strap-on boosters.
+
+The first launch of the Delta IV Heavy in 2004 carried a boilerplate payload and failed to reach intended orbit. Cavitation in the liquid-oxygen propellant lines caused shutdown of both boosters eight seconds early, and the core engine nine seconds early; this resulted in a lower staging velocity for which the second stage was unable to compensate. The payload was left in a lower than intended orbit. Its first operational payload was the DSP-23 satellite, successfully launched in 2007; it was then used to launch a further five visual and electronic reconnaissance satellites for the National Reconnaissance Office through 2013.
+
+In December 2014, the Delta IV Heavy was used to launch an uncrewed test flight of the Orion spacecraft, designated EFT-1. After several delays on 4 December 2014, the mission was successfully launched at 12:05 UTC on 5 December 2014.
+
+
             '''
 
     },

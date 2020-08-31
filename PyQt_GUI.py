@@ -488,7 +488,8 @@ class Ui_MainWindow(object):
         self.actionAbout.triggered.connect(self.showAboutClicked)
         self.actionLicensing.triggered.connect(self.showLicensingClicked)
         self.actionAcronyms.triggered.connect(self.showAcroynmClicked)
-        
+        self.actionCopy.triggered.connect(self.textBrowser.copy)   #figure out how to make copy and paste work. The documentation lies about it.
+        #self.actionPaste.triggered.connect(self.paste)
 
 
         self.actionPrint.triggered.connect(self.printButtonClicked)
@@ -505,6 +506,7 @@ class Ui_MainWindow(object):
         self.actionPrint.setStatusTip(_translate("MainWindow", "Generates a layout for printing"))
         self.actionPrint.setShortcut(_translate("MainWindow", "Ctrl+P"))
         self.actionPrint.setIcon(QtGui.QIcon("printer.png"))
+        
 
 
 #******* Printer Dialogue Window ************
@@ -533,7 +535,7 @@ class Ui_MainWindow(object):
              selectedItem = selectedItem.text()
         
         printWindow.setWindowTitle(f"Printer-Friendly Layout for:  {selectedItem}")
-        printWindow.setGeometry(200, 200, 500, 700)
+        printWindow.setGeometry(400, 200, 600, 800)
 
         def sendToPrinter():
             #Create printer
@@ -543,7 +545,7 @@ class Ui_MainWindow(object):
             # Start painter
             painter.begin(printer)
             # Grab a widget you want to print
-            screen = self.textBrowser.grab()
+            screen = printWindow.grab()
             # Draw grabbed pixmap
             painter.drawPixmap(10, 10, screen)
             # End painting
@@ -602,8 +604,8 @@ Launch Failures: {rocketDictionary[printRocketName]['Launch Failures']}
         printRocketSpecsLabel.setAlignment(Qt.AlignHCenter | Qt.AlignTop)
         #printRocketSpecsLabel.setAlignment(QtCore.Qt.AlignRight)
         
-        printRocketInfoLabel = QLabel(rocketDictionary[printRocketName]['Additional Information'])
-        printRocketInfoLabel.setAlignment(Qt.AlignHCenter | Qt.AlignTop)
+        # printRocketInfoLabel = QLabel(rocketDictionary[printRocketName]['Additional Information'])
+        # printRocketInfoLabel.setAlignment(Qt.AlignHCenter | Qt.AlignTop)
         
         printInsidePrintButton = QPushButton("Send to Printer")
         printInsidePrintButton.clicked.connect(sendToPrinter)
@@ -617,9 +619,7 @@ Launch Failures: {rocketDictionary[printRocketName]['Launch Failures']}
         verticalPrintLayout.addLayout(imageAndSpecsPrintLayout)
         imageAndSpecsPrintLayout.addWidget(printRocketImageLabel)
         imageAndSpecsPrintLayout.addWidget(printRocketSpecsLabel)
-        #verticalPrintLayout.addWidget(printRocketImageLabel)
-        #verticalPrintLayout.addWidget(printRocketSpecsLabel)
-        verticalPrintLayout.addWidget(printRocketInfoLabel)
+        #verticalPrintLayout.addWidget(printRocketInfoLabel)
 
         printCentralwidget = QtWidgets.QWidget()
         printCentralwidget.setObjectName("printCentralwidget")
@@ -630,6 +630,27 @@ Launch Failures: {rocketDictionary[printRocketName]['Launch Failures']}
         # scrollAreaWidgetContents = QtWidgets.QWidget()
         # scrollArea.setWidget(scrollAreaWidgetContents)
         #vericalPrintLayout = QtWidgets.QVBoxLayout(scrollAreaWidgetContents)
+
+        printWindowTextBrowser = QtWidgets.QTextBrowser(printCentralwidget)
+        printWindowTextBrowser.setMaximumSize(QtCore.QSize(650, 400))
+        printWindowTextBrowser.setMouseTracking(True)
+#         printWindowTextBrowser.setStyleSheet("selection-background-color: rgb(33, 237, 255);\n"
+# "color: rgb(255, 255, 255);\n"
+# "border-color: rgb(255, 255, 255);\n"
+# "selection-color: rgb(0, 0, 0);\n"
+# "background-color: rgb(52, 52, 52);")
+        printWindowTextBrowser.setFrameShadow(QtWidgets.QFrame.Raised)
+        printWindowTextBrowser.setLineWrapColumnOrWidth(1)
+        printWindowTextBrowser.setLineWrapMode(True)
+        printWindowTextBrowser.setOpenExternalLinks(False)
+        printWindowTextBrowser.setObjectName("PrintWindowTextBrowser")
+        printWindowTextBrowser.setPlainText(rocketDictionary[printRocketName]['Additional Information'])
+#         printWindowTextBrowser.setHtml("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+# "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+# "p, li { white-space: pre-wrap; }\n"
+# f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Arial, sans-serif\'; font-size:12pt; color:#ffffff; background-color:transparent;\"><b>Additional Information:</b><br><br> {rocketDictionary[printRocketName]['Additional Information']}</span></p></body></html>")
+
+        verticalPrintLayout.addWidget(printWindowTextBrowser)
 
 
         printWindow.setCentralWidget(printCentralwidget)
