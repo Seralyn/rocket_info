@@ -17,6 +17,8 @@ ascending_alphabetical_rocket_choices = sorted(rocketDictionary.keys())
 descending_alphabetical_rocket_choices = sorted(rocketDictionary.keys(), reverse=True)
 ascending_country_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Country']))
 descending_country_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Country'], reverse=True)) #reverse
+ascending_agency_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Agency']))
+descending_agency_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Agency'], reverse=True)) #reverse
 # ascending_height_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['height_int']))
 # descending_height_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['height_int'], reverse=True)) #reverse
 # ascending_mass_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['mass_int']))
@@ -479,13 +481,15 @@ class Ui_MainWindow(object):
      # ******* Menu Bar Connections ******
         self.actionDescending.triggered.connect(self.actionDescendingClicked)
         self.actionAscending.triggered.connect(self.actionAscendingClicked)
+        self.actionCountry.triggered.connect(self.actionCountryAscendingClicked)
+        #self.actionAcronyms.triggered.connect(self.actionCountryDescendingClicked)
+        self.actionAgency.triggered.connect(self.actionAgencyClicked)
         self.actionVersion.triggered.connect(self.showVersionClicked)
         self.actionAbout.triggered.connect(self.showAboutClicked)
         self.actionLicensing.triggered.connect(self.showLicensingClicked)
         self.actionAcronyms.triggered.connect(self.showAcroynmClicked)
         
-        self.actionCountry.triggered.connect(self.actionCountryAscendingClicked)
-        #self.actionAcronyms.triggered.connect(self.actionCountryDescendingClicked)
+
 
         self.actionPrint.triggered.connect(self.printButtonClicked)
 
@@ -676,6 +680,11 @@ Launch Failures: {rocketDictionary[printRocketName]['Launch Failures']}
     #         for rocket in descending_country_rocket_choices:
     #             self.listWidget.addItem(rocket)
        
+    def actionAgencyClicked(self):
+        self.listWidget.clear()
+        for rocket in ascending_agency_rocket_choices:
+            self.listWidget.addItem(rocket)
+        self.addFlags()
 # **********  Menu-->[Help] Button Click Methods **************
 
     def showVersionClicked(self):
@@ -707,6 +716,7 @@ LOX: Liquid Oxygen
 LH2: Liquid Hydrogen
 (I)RFNA: Red Fuming Nitric Acid
 UDMH: Unsymmetrical Dimethylhydrazine
+APCP: Ammonium Perchlorate Composite Propellant
 
             ''')
         acronymDlg.exec_()

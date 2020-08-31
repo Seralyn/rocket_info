@@ -4005,41 +4005,73 @@ M-3C and M-3H have a lot in common in the structure, and both are considered tog
         "Name": "Electron",
         "Agency": "Rocket Labs",
         "Manufacturer": "Rocket Labs",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",        
-        "Mass": "",
-        "mass_int": "",        
-        "Years in Operation": "",
-        "firstyear_int": "",        
+        "Class": "Light",
+        "Payload Capacity to LEO": "300 kg (660 lbs)",
+        "payload_int": 300,
+        "Height": "17 m (56 ft)",
+        "height_int": 17,
+        "Diameter": "1.2 m (3 ft 11 in)",
+        "diameter_int": 1.2,        
+        "Mass": "12,500 kg (27,600 lbs)",
+        "mass_int": 12500,        
+        "Years in Operation": "2017~",
+        "firstyear_int": 2017,        
         "Country": "New Zealand",
         "flag_icon": "flags/newzealand.png",
         "Operational Status": "Active",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Number of Stages": "2-3",
+        "Burn Time": "S1: Unknown, S2: Unknown, S3: Unknown",
+        "total_burntime_int": None,
+        "Thrust": "S1: 225 kN, S2: 26 kN, S3: 0.12 kN",
+        "initial_thrust_int": 225,
+        "ISP": "S1: 311 sec, S2: 343 sec, S3: Unknown",
+        "asl_isp_int": 311,
+        "vac_isp_int": 343,
+        "Cost Per Launch": "$6,000,000",
+        "cost_int": 6000000,
+        "Fuel Type": "S1: RP-1/LOX, S2: RP-1/LOX, S3: Unknown",
+        "Total Launches": "13",
+        "total_launches_int": 13,
+        "Successful Launches": "11",
+        "successful_launches_int": 11,
+        "Launch Failures": "2",
+        "failed_launches_int": 2,
+        "Image": "Electron.png",
        "Additional Information":
             '''
-    
+Electron is a two-stage orbital expendable launch vehicle (with an optional third stage) developed by Rocket Lab, an American aerospace company founded in New Zealand. Electron was developed to service the commercial small satellite launch market. Its Rutherford engines are the first electric-pump-fed engine to power an orbital class rocket.
+
+In December 2016, Electron completed flight qualification. The first rocket was launched on 25 May 2017, reaching space but not achieving orbit due to a glitch in communication equipment on the ground. During its second flight on 21 January 2018, Electron reached orbit and deployed three CubeSats. The first commercial launch of Electron, and the third launch overall, occurred on 11 November 2018.
+
+Electron uses two stages with the same diameter (1.2 m, 3 ft 11 in) filled with RP-1/LOX propellant. The main body of the rocket is constructed using a lightweight carbon composite material.
+
+Both stages use the innovative Rutherford rocket engine, the first electric-pump-fed engine to power an orbital rocket. The electric pumps are powered by Li-Polymer batteries. The second stage uses three batteries which are "hot swapped", two of the batteries are jettisoned once depleted to shed mass. There are nine Rutherford engines on the first stage and one vacuum-optimized version on the second stage.[20][21][22] The first stage engines deliver 162 kN (36,000 lbf) of force and the second stage delivers 22 kN (4,900 lbf) of force. Almost all of the engines' parts are 3D printed to save time and money in the manufacturing process.
+
+Rocket Lab has also developed an optional third stage designed to circularize the orbits of its satellite payloads. The stage also puts satellites into a more accurate orbit in less time. This "kick" stage employs a new rocket engine, named Curie, that is capable of performing multiple burns, uses an unspecified "green" bipropellant, and is 3D printed. It was first used during Electron's second flight. The "kick" stage can transport up to 150 kg (330 lb) of payload.
+
+Another third stage design, called 'Photon', is being developed to inject small payloads up to 30 kg (66 lb) into lunar orbit.
+
+Production
+Manufacturing the carbon composite components of the main flight structure has traditionally required 400 hours, with extensive hand labor in the process. In late 2019, Rocket Lab brought online a new robotic manufacturing capability to produce all composite parts for an Electron in just 12 hours. The robot was nicknamed "'Rosie' the Robot", after The Jetsons character. The process can make all the carbon fiber structures, as well as handle cutting, drilling, and sanding such that the parts are ready for final assembly. The company objective as of November 2019 is to reduce the overall Electron manufacturing cycle to just seven days.
+
+Rutherford engine production makes extensive use of additive manufacturing and has since the earliest flights of Electron. This allows the capability to scale production in a relatively straightforward manner by increasing the number and capability of 3D printers.
+
+The Electron initially had a payload capacity of 150 to 225 kg (330 to 495 lb) to a 500 km (310 mi) 500 km (310 mi) Sun-synchronous orbit.[6][35]
+
+In pursuit of reusability Rocket Lab has made changes to Electron. Flight 6 and 7 ("That's a Funny Looking Cactus" and "Make it Rain") had instruments on the first stage needed to gather data to help with the reflight program. Flight 8 ("Look Ma No Hands") had Brutus, an instrument that collected data from the first stage to study reentry and was designed to be able to survive splashdown in the ocean.
+
+Flight 10 ("Running out Fingers") had a block update to the first stage of the Electron to allow the first guided reentry of the first stage booster. Updates included additional hardware for guidance and navigation; onboard flight computers; and S-Band telemetry to both gather and livestream data gathered during reentry. The first stage also had a reaction control system (RCS) to orient the booster. After, stage separation the first stage using the new hardware installed flipped 180° to prepare for reentry. Throughout the reentry the stage was guided though the atmosphere such that it has the right orientation and angle of 
+attack for the base heat shield to protect the booster from destruction using RCS and onboard computers. The booster successfully survived its guided re-entry despite having no deceleration hardware onboard and destructively splashed down into the ocean at 900 km/h (560 mph) as planned if reentry was successful. Rocket Lab had no plans to recover the stage and instead wanted to demonstrate the ability to successfully reenter. Flight 11 ("Birds of a Feather") again successfully demonstrated similar success. No further atmospheric reentry tests similar to flight 10 and 11 are expected.
+
+Following flight 11 in mid-February 2020 low altitude tests were done to test parachutes. In April 2020 Rocket Lab shared the successful demonstration of mid-air retrieval done in March 2020. An Electron test article was dropped by a helicopter and deployed its parachutes. A helicopter carrying a long-boom snagged a drogue line from the parachute at 1,500 m (5,000 ft) demonstrating a successful retrieval. Following the catch the test article was brought back to land.
+
+Flight 17 will demonstrate a parachute full recovery with a splashdown into the ocean.
+
+In August 2020 Rocket Lab announced increased payload of Electron to 225 to 300 kg (495 to 660 lb). The payload capacity increase was mainly due to battery advancements. The increased payload capacity allows offset of mass added by recovery technology. In addition, more payload mass could be flown on interplanetary missions and others when Electron is expended. Rocket Lab also announced expanded fairings with a 1.8 m (5.9 ft) diameter, larger than the standard 2.5 m (8.2 ft) long and 1.2 m (3.9 ft) in diameter fairings.
+
+Electron is designed to launch a 150 to 225 kg (330 to 495 lb) payload to a 500 km (310 mi) Sun-synchronous orbit, suitable for CubeSats and other small payloads. In October 2018 Rocket Lab opened a factory large enough to produce more than 50 rockets per year according to the company. Customers may choose to encapsulate their spacecraft in payload fairings provided by the company, which can be easily attached to the rocket shortly before launch. The price for delivering up to 150 kg to a 500 km Sun-synchronous orbit is about $6 million per launch, which offers the only dedicated service at this price point.
+
+Moon Express contracted Rocket lab to launch lunar landers (multiple launches contracted, some planned for Moon Express operations after GLXP) on an Electron to compete for the Google Lunar X Prize (GLXP). None of the contenders met the prize deadline, and the competition was closed without a winner. For sometime after the closure of GLXP, the Moon Express Electron launches remained scheduled, but before February 2020, all the launches of Moon Express using Electron were canceled.
             '''
 
     },
@@ -4047,7 +4079,7 @@ M-3C and M-3H have a lot in common in the structure, and both are considered tog
     "Paektusan-1": {
 
         "Name": "",
-        "Agency": "",
+        "Agency": "Korean Committee of Space Technology (KCST)",
         "Manufacturer": "",        
         "Class": "",
         "Payload Capacity to LEO": "",
@@ -8602,132 +8634,177 @@ The Shavit has been launched 11 times, placing the payload into orbit 9 times. O
 
     "Athena I": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Athena I",
+        "Agency": "NASA, Private",
+        "Manufacturer": "Lockheed Martin, Alliant Techsystmes",        
+        "Class": "Light",
+        "Payload Capacity to LEO": "820 kg (1,810 lbs)",
+        "payload_int": 820,
+        "Height": "18.9 m (62 ft)",
+        "height_int": 18.9,
+        "Diameter": "2.36 m (7 ft 9 in)",
+        "diameter_int": 2.36,
+        "Mass": "66,300 kg (146,200 lbs)",
+        "mass_int": 66300,
+        "Years in Operation": "1995-2001",
+        "firstyear_int": 1995,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "3",
+        "Burn Time": "S1: 83 sec, S2: 142 sec, S3: 1500 sec",
+        "total_burntime_int": 1725,
+        "Thrust": "S1: 1,900 kN, S2: 258.9 kN, S3: 0.88 kN",
+        "initial_thrust_int": 1900,
+        "ISP": "S1: 280 sec, S2: 294 sec, S3: 222 sec",
+        "asl_isp_int": 280,
+        "vac_isp_int": 222,
+        "Cost Per Launch": "$25,579,076",
+        "cost_int": 25579076,
+        "Fuel Type": "S1: HTPB, S2: HTPB, S3: Hydrazine",
+        "Total Launches": "4",
+        "total_launches_int": 4,
+        "Successful Launches": "3",
+        "successful_launches_int": 3,
+        "Launch Failures": "1",
+        "failed_launches_int": 1,
+        "Image": "AthenaI.png",
        "Additional Information":
             '''
-    
+The Athena I, known as the Lockheed Launch Vehicle (LLV) at the time of its first flight and Lockheed Martin Launch Vehicle (LMLV) at the time of its second flight, is an American small expendable launch system which was used for four launches between 1995 and 2001. It is a member of the Athena family of rockets, along with the larger Athena II.
+
+The Athena I is a three-stage rocket, consisting of solid first and second stages, and a monopropellant liquid-fuelled third stage. The first stage is a Castor 120, which is also used on some versions of the Taurus rocket. An Orbus 21D motor was used as the second stage on launches up to 2001. If the rocket returns to service as Athena Ic, the Castor 30 would be used instead, which was developed for the Antares rocket (originally called Taurus II). The third stage is an Orbital Adjustment Module, fuelled by hydrazine and propelled by four MR-107 engines, which is used for final insertion.
+
+Prior to its retirement in 2001, Athena I launches were made from Space Launch Complex 6 at Vandenberg Air Force Base, Launch Complex 46 at Spaceport Florida, and Pad 1 of the Kodiak Launch Complex. Future Athena Ic flights could use the pads at Kodiak or Canaveral, with Launch Pad 0B of the Mid-Atlantic Regional Spaceport also on offer. If a launch from Vandenberg is ordered, Space Launch Complex 8 would be used instead of SLC-6, which was rebuilt as a Delta IV launch complex following the Athena's initial retirement.
+
+Four Athena I launches have been conducted, with one failure. Its maiden flight was conducted from SLC-6 at Vandenberg, and lifted off at 22:30 UTC on 15 August 1995. It was intended to place GemStar-1 into orbit, however the rocket was destroyed by the range safety officer after the failure of its thrust vectoring system resulted in a loss of control. The launch was the first from SLC-6, which had originally been built for the Titan III rocket for launches of the Manned Orbital Laboratory, and was later rebuilt for polar orbit Space Shuttle launches. Both MOL and polar Shuttle flights were cancelled before any launches were made from SLC-6. The next Athena I launch was on 23 August 1997, and successfully placed the Lewis satellite into orbit for NASA. This launch also took place from SLC-6 at Vandenberg. The third Athena I launch was from LC-46 at Spaceport Florida, and took place on 27 January 1999. The payload, ROCSAT-1, was the first satellite to be operated by the Republic of China. The fourth launch, which was conducted on 30 September 2001, was the first orbital launch to be made from Kodiak Island. Known as the Kodiak Star mission, it successfully placed the Starshine 3, Picosat 9, PCSat and Sapphire satellites into orbit.
             '''
 
     },
 
     "Athena II": {
 
-        "Name": "",
+        "Name": "Athena II",
         "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Manufacturer": "Lockheed Martin, Alliant Techsystems",        
+        "Class": "Medium",
+        "Payload Capacity to LEO": "2,065 kg (4,553 lbs)",
+        "payload_int": 2065,
+        "Height": "28.2 m (93 ft)",
+        "height_int": 28.2,
+        "Diameter": "2.36 m (7 ft 9 in)",
+        "diameter_int": 2.36,
+        "Mass": "120,700 kg (266,100 lb)",
+        "mass_int": 120700,
+        "Years in Operation": "1998-1999",
+        "firstyear_int": 1998,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "4",
+        "Burn Time": "S1: 83 sec, S2: 83 sec, S3: 143 sec, S4: 1,500 sec",
+        "total_burntime_int": 1809,
+        "Thrust": "S1: 1,900 kN, S2: 1,900 kN, S3: 258.9 kN, S4: 0.88 kN",
+        "initial_thrust_int": 1900,
+        "ISP": "S1: 280 sec, S2: 280 sec, S3: 294 sec, S4:  222 sec",
+        "asl_isp_int": 280,
+        "vac_isp_int": 22,
+        "Cost Per Launch": "$73,353,68",
+        "cost_int": 7335368,
+        "Fuel Type": "S1: HTPB, S2: HTPB, S3: HTPB, S4: Hydrazine",
+        "Total Launches": "3",
+        "total_launches_int": 3,
+        "Successful Launches": "2",
+        "successful_launches_int": 2,
+        "Launch Failures": "1",
+        "failed_launches_int": 1,
+        "Image": "AthenaII.png",
        "Additional Information":
             '''
-    
+The Athena II is an American small expendable launch system which was used for three launches between 1998 and 1999, and which was scheduled to return to service in 2012 but has not been flown again as of January 2017. It is a member of the Athena family of rockets, along with the smaller Athena I. Future launches would use the Athena IIc configuration, which features a different third stage.
+
+The Athena II is a four-stage rocket, consisting of solid first, second and third stages, and a monopropellant liquid-fuelled fourth stage. The first and second stages are Castor 120s, which are also used on some versions of the Taurus rocket. An Orbus 21D motor was used as the third stage on launches during the 1990s, however when it returns to service in 2012 the Castor 30, which is under development for the Taurus II, will be used instead. The fourth stage is an Orbital Adjustment Module, fuelled by hydrazine and propelled by four MR-107 engines, which is used for final insertion.
+
+Prior to its retirement in 1999, Athena II launches were made from Launch Complex 46 at Spaceport Florida and Space Launch Complex 6 at Vandenberg Air Force Base. LC-46 will also be used for Athena IIc launches, with Launch Pad 0B of the Mid-Atlantic Regional Spaceport and Pad 1 of the Kodiak Launch Complex also offered. If a launch from Vandenberg is ordered, Space Launch Complex 8 will be used instead of SLC-6, which was rebuilt as a Delta IV launch complex following the Athena's initial retirement.
+
+During the 1990s, three Athena II launches were conducted, with one failure. Its maiden flight was conducted from LC-46 at Spaceport Florida, and lifted off at 02:28 GMT on 7 January 1997. The launch, which was the first to take place from Spaceport Florida, successfully placed the Lunar Prospector spacecraft into orbit for NASA. The next Athena II launch took place from SLC-6 at Vandenberg on 27 April 1999, with the Ikonos satellite for Space Imaging. The launch ended in failure after the payload fairing failed to separate, and as a result the rocket had too much mass to achieve orbital velocity. The third launch also took place from SLC-6 at Vandenberg, on 24 September 1999. The payload, Ikonos 1, was also for Space Imaging, and successfully reached orbit.
             '''
 
     },
 
     "Atlas B": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Atlas B/Convair SM-65B Atlas/X-12",
+        "Agency": "United States Government",
+        "Manufacturer": "Convair",        
+        "Class": "Medium",
+        "Payload Capacity to LEO": "3,928",
+        "payload_int": 3928,
+        "Height": "26 m (85 ft)",
+        "height_int": 26,
+        "Diameter": "3.05 m (10 ft)",
+        "diameter_int": 3.05,
+        "Mass": "110,740 kg (244,140 lbs)",
+        "mass_int": 110740,
+        "Years in Operation": "1958-1959",
+        "firstyear_int": 1958,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "1.5",
+        "Burn Time": "S1: 135 sec, S1.5: 240 sec",
+        "total_burntime_int": 375,
+        "Thrust": "1,517.2 kN S1.5: 363.2 kN",
+        "initial_thrust_int": 1517,
+        "ISP": "S1: 248 sec, S1.5: 215 sec",
+        "asl_isp_int": 248,
+        "vac_isp_int": 215,
+        "Cost Per Launch": "$34,217,706",
+        "cost_int": 34217706,
+        "Fuel Type": "S1: Kerosene/LOX, S1.5: Kerosene/LOX",
+        "Total Launches": "10",
+        "total_launches_int": 10,
+        "Successful Launches": "6",
+        "successful_launches_int": 6,
+        "Launch Failures": "4",
+        "failed_launches_int": 4,
+        "Image": "AtlasB.png",
        "Additional Information":
             '''
-    
+The Convair SM-65B Atlas, or Atlas B, also designated X-12 was a prototype of the Atlas missile. First flown on 19 July 1958, the Atlas B was the first version of the Atlas rocket to use the stage and a half design with an operational sustainer engine and jettisonable rocket booster section. Unlike later Atlas models, the Atlas B used explosive bolts to jettison the booster section.
+
+Ten flights were made. Nine of these were sub-orbital test flights of the Atlas as an Intercontinental Ballistic Missile, with five successful missions and four failures. The seventh flight, launched on 18 December 1958, was used to place the SCORE satellite into low Earth orbit, the first orbital launch conducted by an Atlas rocket.
+
+The B series test program took a considerable amount of delays and frustration, not in the least because the Atlas B was far more complicated than the prototype Atlas A, in fact the first launch would feature all hardware systems found on an operational Atlas, including the sustainer engine, separable booster section, guidance computer, Azusa tracking system, detachable nose cone, and more. The first flight article missile, 3B, was originally planned for launch in May 1958, but the date was set back by endless hardware difficulties, both with the missile itself and the newly opened LC-11. In addition, Atlas 3B could not be cleared for flight until a successful firing run of Missile 2B was performed at the Sycamore Canyon test stand, which was also experiencing nonstop technical issues. 
+The launch of a third Soviet satellite in April also put further pressure on program planners. Finally, on July 19, Missile 3B was launched. Engine start proceeded normally and the launcher release system functioned well. The Atlas performed well until T+21 seconds when the programmer attempted to initiate the pitch and roll maneuver. At this point, the missile began swerving from side to side uncontrollably and finally broke up at the forward end of the LOX tank at T+43 seconds, the lower portion from the fuel tank downward remaining intact until impact in the ocean. Even before the flight had terminated, real time telemetry readouts clearly indicated that the fault lay in the yaw gyro motor, which was not running. To prevent a recurrence of this, Convair developed the Spin Motor Rotation Detection system, 
+a collection of sensors designed to ensure proper gyroscope operation and which would prevent the launch if the motors were not running at the proper speed. It was not fully phased into Atlas vehicles until 1961 however. Atlas 3B was considered "partially successful" because all other systems had functioned properly. The only other abnormality was an unusually high usage of helium pressure gas, possibly due to a leak. If the flight had not terminated prematurely, the helium supply might have become depleted. Tank pressures however remained within normal levels until missile destruction. A minor thrust section fire was evident from T+9 seconds, caused by placement of the lube oil vent line near the booster turbine exhaust, however this was believed to have no connection to the subsequent loss of the missile. 
+One telemetry channel failed during the prelaunch countdown, as a consequence 13 telemetry measurements were inactive during the flight.
+
+On Missile 4B, the location of the lube oil vent lines was moved, and improved heat insulation added to the firewall and engine boots. It was successfully launched on August 2 from LC-13 on a 2500-mile flight. All systems functioned well and booster section separation, which was tested for the first time, occurred on schedule. Two problems occurred on 4B. The first involved high vibration levels following BECO; this was corrected by a few modifications to the autopilot, as well as moving the rate gyros forward slightly to increase their responsiveness to missile bending. The other was a repeat of the high helium usage on 3B, due to a suspected fault in the LOX tank pressure regulator. At T+155 seconds, the LOX tank pressure surged to the point where it went out of instrumentation range. 
+Total helium usage for booster phase was 14 pounds higher than normal, and 11 pounds higher than normal during sustainer phase.
+
+Missile 5B was launched from LC-11 on August 29 and reached an apogee of 550 miles. On 5B, pneumatic system problems occurred once again when LOX tank pressure increased abruptly, and the pneumatic system failed to cut off the flow of helium to the tank, which continued past SECO. Helium usage for the booster phase of flight was 17 pounds above normal and 2.7 pounds above normal for booster phase. During vernier solo phase, insufficient hydraulic pressure to the verniers was maintained, resulting in an unstable flight path, however the RV impacted close to the target point. In addition, the guidance system rate beacon experienced difficulties early in the flight, however discreet steering commands were issued properly. One telemetry channel failed at T+164 seconds.
+
+Missile 8B on September 14 continued the streak of pneumatic system difficulties when the LOX tank pressure regulator went full open for five seconds starting at T+210 seconds, resulting in a surge in tank pressure. The problem in this case was suspected to be caused by above-normal helium bottle temperatures. In addition, vernier hydraulic pressure failed again during vernier solo phase.
+
+Missile 6B broke the streak of successful flights on September 18 when it exploded 82 seconds after liftoff. The cause of the failure was traced to a seized turbopump, which resulted in abrupt termination of B-1 engine thrust at T+80 seconds. LOX regulator pressure fell off, resulting in gas generator flameout and complete shutdown of both booster engines, followed by missile pitch-up and structural breakup. It was suspected that flying debris from the turbopump had ruptured the LOX regulator sense line. At liftoff, one of the launcher hold-down arms had also not retracted properly, which resulted in holes being torn in the B-1 thrust structure, however this was quickly ruled out as a cause of the failure.
+
+The turbopump failure was a persistent problem that had plagued Thor, Jupiter, and Atlas launches, all of which used a variant of the same Rocketdyne engine and which had an extremely marginal turbopump design that resulted in the lubricant oil foaming at high altitude and causing the bearings in the pump to come loose, resulting in instant pump shutdown. The Army Ballistic Missile Division had replaced all of the turbopumps in their stock of Jupiter missiles and did not experience any turbopump failures after December 1957, but the Air Force resisted doing the same with Thor and Atlas missiles so as to not delay the test program. The result was that several pump-related failures occurred in the Thor and Atlas programs during 1958 and only after Atlas 6B did they finally give in and agree to replace the pumps.
+
+Missile 9B, the first Atlas with upgraded turbopumps, was launched on November 18. Roll control was extremely poor for the first 44 seconds of launch, resulting in excessive movements of the booster engines and verniers to maintain missile stability. Excessive fuel consumption led to premature sustainer shutdown and so the missile did not achieve its planned range of 3150 miles, instead managing only 2300 miles. BECO occurred at T+131 seconds and SECO at T+227 seconds, while nose cone separation was not accomplished. The malfunction was due to the turbopumps, which were also C-series models, not being properly matched to the engines in the Atlas. Due to the need to test them out, there had not been any time to perform this step. The roll control problem resulted in yet more autopilot modifications.
+
+On November 29, Missile 12B was successfully launched from LC-14 and made a 6325-mile lob, the first full-range flight of an Atlas missile. This step was achieved a full six months earlier than originally anticipated by program plans.
+
+On the evening of December 18, Missile 10B performed the first use of an Atlas for a space launch when it orbited SCORE, a prototype communications satellite. This Atlas included several modifications for the flight, including 5-second vernier start tanks. The missile was also stripped down to save weight—the Azusa tracking system, telemetry packages, and all other hardware not absolutely essential to the flight were removed. In addition, it was equipped with MA-1 engines that had been tested and found to have above-average performance. The launch was conducted with stringent secrecy, in part because the Air Force were concerned about another embarrassing public launch failure like Vanguard TV-3 the year before. In the event that SCORE failed, they could simply claim that it was an ICBM test, 
+and most of the launch crew also did not know 10B's true mission, as the missile was shipped to CCAS carrying a standard blunt Atlas RV and only the night before the launch was the satellite mounted on top of it. Orbital launches required a considerably different flight path than missiles, and during launch, the Range Safety Officer, who assumed it was a routine Atlas missile test, almost pressed the destruct button on noticing that the trajectory was "off", but he was quickly talked out of it. SCORE transmitted a tape-recorded Christmas greeting from President Eisenhower and operated for 13 days until the batteries ran down. The satellite, which remained attached to the spent Atlas, decayed from orbit on January 21, 1959. With a combined weight of 8660 pounds (3928 kg), 
+it held the record for largest artificial object in space for a number of years. The lack of a telemetry system meant that limited data on the missile's performance was available, however all systems appeared to operate correctly throughout powered flight other than the autopilot. The roll program was executed properly, however the missile pitched up approximately 11° from the planned flight trajectory. A backup command from the guidance system at T+138 seconds corrected it, and the malfunction was believed to be due to a slight misalignment of the gyro canister.
+
+On January 16, 1959, Missile 13B, which was the backup booster for SCORE and carried the same modified hardware, was launched from LC-14 but lost thrust slightly under a minute into launch and fell into the Atlantic Ocean. The exact cause of the failure could not be determined because just like 10B, the missile was not carrying a telemetry package due to the intended mission of flying an Atlas to its maximum range, which required stripping the missile down to as light a weight as possible. Starting at T+100 seconds, the engines began gimbaling in all three axes, resulting in complete loss of control and missile tumbling. Propulsion system performance started decaying at T+109 seconds and the engines completely shut down at T+121 seconds. 
+The missile remained structurally intact until impact with the ocean. The failure was believed to have been caused by exhaust gases being sucked into the thrust section and burning through wiring.
+
+The Atlas B test program concluded with the successful flight of Missile 11B on February 4, which reached an apogee of 610 miles. Missile performance exhibited two small abnormalities--high vibration in the booster engine hydraulic pump for the first 17 seconds of flight and slightly high booster engine thrust, the latter of which was attributed to a malfunction of the ground support equipment on LC-11.
+
+All Atlas B launches were conducted from Cape Canaveral Air Force Station, at Launch Complexes 11, 13 and 14.
             '''
 
     },
@@ -9966,44 +10043,80 @@ The Shavit has been launched 11 times, placing the payload into orbit 9 times. O
 
     "Space Shuttle": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Space Shuttle",
+        "Agency": "NASA",
+        "Manufacturer": "United Space Alliance, Thiokol, Alliant Techsystems, Lockheed Martin, Boeing/Rockwell",        
+        "Class": "Very Heavy",
+        "Payload Capacity to LEO": "27,500 kg (60,600 lbs)",
+        "payload_int": 27500,
+        "Height": "56.1 m (184 ft 1 in)",
+        "height_int": 56.1,
+        "Diameter": "8.7 m (28 ft 7 in",
+        "diameter_int": 8.7,
+        "Mass": "2,030,000 kg (4,470,000 lbs)",
+        "mass_int": 2030000,
+        "Years in Operation": "1981-2011",
+        "firstyear_int": 1981,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "1.5",
+        "Burn Time": "Boosters: 124 sec, S1: 480 sec",
+        "total_burntime_int": 604,
+        "Thrust": "Boosters: 12,500 kN (each), S1: 5,250 kN",
+        "initial_thrust_int": 30250,
+        "ISP": "Boosters: 242 sec, S1: 455 sec",
+        "asl_isp_int": 348.5,
+        "vac_isp_int": 455,
+        "Cost Per Launch": "$650,026,464-$1,850,769,793",
+        "cost_int": 1000000000,
+        "Fuel Type": "Boosters: APCP (solid), S1: LH2/LOX",
+        "Total Launches": "135",
+        "total_launches_int": 135,
+        "Successful Launches": "133",
+        "successful_launches_int": 133,
+        "Launch Failures": "2",
+        "failed_launches_int": 2,
+        "Image": "SpaceShuttle.png",
        "Additional Information":
             '''
-    
+The Space Shuttle was a partially reusable low Earth orbital spacecraft system that was operated from 1981 to 2011 by the National Aeronautics and Space Administration (NASA) as part of the Space Shuttle program. Its official program name was Space Transportation System (STS), taken from a 1969 plan for a system of reusable spacecraft of which it was the only item funded for development. The first of four orbital test flights occurred in 1981, leading to operational flights beginning in 1982. Five complete Space Shuttle orbiter vehicles were built and flown on a total of 135 missions from 1981 to 2011, launched from the Kennedy Space Center (KSC) in Florida. Operational missions launched numerous satellites, Interplanetary probes, and the Hubble Space Telescope (HST); conducted science experiments in orbit; and participated in construction and servicing of the International Space Station. The Space Shuttle fleet's total mission time was 1322 days, 19 hours, 21 minutes and 23 seconds.
+
+Space Shuttle components include the Orbiter Vehicle (OV) with three clustered Rocketdyne RS-25 main engines, a pair of recoverable solid rocket boosters (SRBs), and the expendable external tank (ET) containing liquid hydrogen and liquid oxygen. The Space Shuttle was launched vertically, like a conventional rocket, with the two SRBs operating in parallel with the orbiter's three main engines, which were fueled from the ET. The SRBs were jettisoned before the vehicle reached orbit, and the ET was jettisoned just before orbit insertion, which used the orbiter's two Orbital Maneuvering System (OMS) engines. At the conclusion of the mission, the orbiter fired its OMS to deorbit and reenter the atmosphere. The orbiter was protected during reentry by its thermal protection system tiles, and it glided as a spaceplane to a runway landing, usually to the Shuttle Landing Facility at KSC, Florida, or to Rogers Dry Lake in Edwards Air Force Base, California. If the landing occurred at Edwards, the orbiter was flown back to the KSC on the Shuttle Carrier Aircraft, a specially modified Boeing 747.
+
+The first orbiter, Enterprise, was built in 1976, used in Approach and Landing Tests and has no orbital capability. Four fully operational orbiters were initially built: Columbia, Challenger, Discovery, and Atlantis. Of these, two were lost in mission accidents: Challenger in 1986 and Columbia in 2003, with a total of fourteen astronauts killed. A fifth operational (and sixth in total) orbiter, Endeavour, was built in 1991 to replace Challenger. The Space Shuttle was retired from service upon the conclusion of Atlantis's final flight on July 21, 2011. The U.S. relied on the Russian Soyuz spacecraft to transport astronauts to the International Space Station from the last Shuttle flight until the first Commercial Crew Development launch on May 30, 2020.
+
+During the 1950s, the United States Air Force proposed using a reusable piloted glider to perform military operations such as reconnaissance, satellite attack, and air-to-ground weapons employment. In the late 1950s, the Air Force began developing the partially reusable X-20 Dyna-Soar. The Air Force collaborated with NASA on the Dyna-Soar, and began training six pilots in June 1961. The rising costs of development and the prioritization of Project Gemini led to the cancellation of the Dyna-Soar program in December 1963. In addition to the Dyna-Soar, the Air Force had conducted a study in 1957 to test the feasibility of reusable boosters. This became the basis for the aerospaceplane, a fully reusable spacecraft that was never developed beyond the initial design phase in 1962–1963.
+
+Beginning in the early 1950s, NASA and the Air Force collaborated on developing lifting bodies to test aircraft that primarily generated lift from their fuselages instead of wings, and tested the M2-F1, M2-F2, M2-F3, HL-10, X-24A, and the X-24B. The program tested aerodynamic characteristics that would later be incorporated in design of the Space Shuttle, including unpowered landing from a high altitude and speed.
+
+In September 1966, NASA and the Air Force released a joint study concluding that a new vehicle was required to satisfy their respective future demands, and that a partially reusable system would be the most cost-effective solution. The head of the NASA Office of Manned Space Flight, George Mueller, announced the plan for a reusable shuttle on August 10, 1968. NASA issued a request for proposal (RFP) for designs of the Integrated Launch and Re-entry Vehicle (ILRV), which would later become the Space Shuttle. Rather than award a contract based upon initial proposals, NASA announced a phased approach for the Space Shuttle contracting and development; Phase A was a request for studies completed by competing aerospace companies, Phase B was a competition between two contractors for a specific contract, Phase C involved designing the details of the spacecraft components, and Phase D was the production of the spacecraft.
+
+In December 1968, NASA created the Space Shuttle Task Group to determine the optimal design for a reusable spacecraft, and issued study contracts to General Dynamics, Lockheed, McDonnell Douglas, and North American Rockwell. In July 1969, the Space Shuttle Task Group issued a report that determined the Shuttle would support short-duration crewed missions and space station, as well as the capabilities to launch, service, and retrieve satellites. The report also created three classes of a future reusable shuttle: Class I would have a reusable orbiter mounted on expendable boosters, Class II would use multiple expendable rocket engines and a single propellant tank (stage-and-a-half), and Class III would have both a reusable orbiter and a reusable booster. In September 1969, the Space Task Group, under leadership of Vice President Spiro Agnew, issued a report calling for the development of a space shuttle to bring people and cargo to low Earth orbit (LEO), as well as a space tug for transfers between orbits and the Moon, and a reusable nuclear upper stage for deep space travel.
+
+After the release of the Space Shuttle Task Group report, many aerospace engineers favored the Class III, fully reusable design because of perceived savings in hardware costs. Max Faget, a NASA engineer who had worked to design the Mercury capsule, patented a design for a two-stage fully recoverable system with a straight-winged orbiter mounted on a larger straight-winged booster. The Air Force Flight Dynamics Laboratory argued that a straight-wing design would not be able to withstand the high thermal and aerodynamic stresses during reentry, and would not provide the required cross-range capability. Additionally, the Air Force required a larger payload capacity than Faget's design allowed. In January 1971, NASA and Air Force leadership decided that a reusable delta-wing orbiter mounted on an expendable propellant tank would be the optimal design for the Space Shuttle.
+
+After they established the need for a reusable, heavy-lift spacecraft, NASA and the Air Force determined the design requirements of their respective services. The Air Force expected to use the Space Shuttle to launch large satellites, and required it to be capable of lifting 29,000 kg (65,000 lb) to an eastward LEO or 18,000 kg (40,000 lb) into a polar orbit. The satellite designs also required that the Space Shuttle have a 4.6 by 18 m (15 by 60 ft) payload bay. NASA evaluated the F-1 and J-2 engines from the Saturn rockets, and determined that they were insufficient for the requirements of the Space Shuttle; in July 1971, it issued a contract to Rocketdyne to begin development on the RS-25 engine.
+
+NASA reviewed 29 potential designs for the Space Shuttle, and determined that a design with two side boosters should be used, and the boosters should be reusable to reduce costs. NASA and the Air Force elected to use solid-propellant boosters because of the lower costs and the ease of refurbishing them for reuse after they landed in the ocean. In January 1972, President Richard Nixon approved the Shuttle, and NASA decided on its final design in March. That August, NASA awarded the contract to build the orbiter to North American Rockwell, the solid-rocket booster contract to Morton Thiokol, and the external tank contract to Martin Marietta.
+
+On June 4, 1974, Rockwell began construction on the first orbiter, OV-101, which would later be named Enterprise. Enterprise was designed as a test vehicle, and did not include engines or heat shielding. Construction was completed on September 17, 1976, and Enterprise was moved to the Edwards Air Force Base to begin testing.[6]:173[12] Rockwell constructed the Main Propulsion Test Article (MPTA)-098, which was a structural truss mounted to the ET with three RS-25 engines attached. It was tested at the National Space Technology Laboratory (NSTL) to ensure that the engines could safely run through the launch profile. Rockwell conducted mechanical and thermal stress tests on Structural Test Article (STA)-099 to determine the effects of aerodynamic and thermal stresses during launch and reentry.
+
+The beginning of the development of the RS-25 Space Shuttle Main Engine was delayed for nine months while Pratt & Whitney challenged the contract that had been issued to Rocketdyne. The first engine was completed in March 1975, after issues with developing the first throttleable, reusable engine. During engine testing, the RS-25 experienced multiple nozzle failures, as well as broken turbine blades. Despite the problems during testing, NASA ordered the nine RS-25 engines needed for its three orbiters under construction in May 1978.
+
+NASA experienced significant delays in the development of the Space Shuttle's thermal protection system. Previous NASA spacecraft had used ablative heat shields, but those could not be reused. NASA chose to use ceramic tiles for thermal protection, as the shuttle could then be constructed of lightweight aluminum, and the tiles could be individually replaced as needed. Construction began on Columbia on March 27, 1975, and it was delivered to the KSC on March 25, 1979. At the time of its arrival at the KSC, Columbia still had 6,000 of its 30,000 tiles remaining to be installed. However, many of the tiles that had been originally installed had to be replaced, requiring two years of installation before Columbia could fly.
+
+On January 5, 1979, NASA commissioned a second orbiter. Later that month, Rockwell began converting STA-099 to OV-099, later named Challenger. On January 29, 1979, NASA ordered two additional orbiters, OV-103 and OV-104, which were named Discovery and Atlantis. Construction of OV-105, later named Endeavour, began in February 1982, but NASA decided to limit the Space Shuttle fleet to four orbiters in 1983. After the loss of Challenger, NASA resumed production of Endeavour in September 1987.
+
+The Space Shuttle was the first operational orbital spacecraft designed for reuse. Each Space Shuttle orbiter was designed for a projected lifespan of 100 launches or ten years of operational life, although this was later extended. At launch, it consisted of the orbiter, which contained the crew and payload, the external tank (ET), and the two solid rocket boosters (SRBs).
+
+Responsibility for the Shuttle components was spread among multiple NASA field centers. The KSC was responsible for launch, landing and turnaround operations for equatorial orbits (the only orbit profile actually used in the program), the U.S. Air Force at the Vandenberg Air Force Base was responsible for launch, landing and turnaround operations for polar orbits (though this was never used), the Johnson Space Center (JSC) served as the central point for all Shuttle operations, the MSFC was responsible for the main engines, external tank, and solid rocket boosters, the John C. Stennis Space Center handled main engine testing, and the Goddard Space Flight Center managed the global tracking network.
+
+The orbiter had design elements and capabilities of both a rocket and an aircraft to allow it to launch vertically and then land as a glider. Its three-part fuselage provided support for the crew compartment, cargo bay, flight surfaces, and engines. The rear of the orbiter contained the Space Shuttle Main Engines (SSME), which provided thrust during launch, as well as the Orbital Maneuvering System (OMS), which allowed the orbiter to achieve, alter, and exit its orbit once in space. Its double-delta wings were 18 m (60 ft) long, and were swept 81° at the inner leading edge and 45° at the outer leading edge. Each wing had an inboard and outboard elevon to provide flight control during reentry, along with a flap located between the wings, below the engines to control pitch. The orbiter's vertical stabilizer was swept backwards at 45°, and contained a rudder that could split to act as a speed brake. The vertical stabilizer also contained a two-part drag parachute system to slow the orbiter after landing. The orbiter used retractable landing gear with a nose landing gear and two main landing gear, each containing two tires. The main landing gear contained two brake assemblies each, and the nose landing gear contained an electro-hydraulic steering mechanism.
+
+See https://en.wikipedia.org/wiki/Space_Shuttle for more detailed information.
+
+
             '''
 
     },
@@ -10146,40 +10259,75 @@ The Shavit has been launched 11 times, placing the payload into orbit 9 times. O
         "Agency": "SpaceX",
         "Manufacturer": "SpaceX",        
         "Class": "Very Heavy",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Payload Capacity to LEO": "152,407 kg (335,999 lbs)",
+        "payload_int": 152407,
+        "Height": "122 m (400 ft)",
+        "height_int": 122,
+        "Diameter": "9 m (30 ft",
+        "diameter_int": 9,
+        "Mass": "5,000,000 kg (11,000,000 lbs) ",
+        "mass_int": 5000000,
+        "Years in Operation": "2022",
+        "firstyear_int": 2022,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
+        "Operational Status": "In Development",
+        "Number of Stages": "2",
+        "Burn Time": "S1: Unknown, S2: Unknown",
+        "total_burntime_int": None,
+        "Thrust": "S1: 72,000 kN, S2: 12,000 kN",
         "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "ISP": "S1: 330 sec, S2: 380 sec",
+        "asl_isp_int": 330,
+        "vac_isp_int": 380,
+        "Cost Per Launch": "$2,000,000 (aspired) [note from developer: good luck on that]",
+        "cost_int": 2000000,
+        "Fuel Type": "S1: CH4/LOX, S2: CH4/LOX",
+        "Total Launches": "0",
+        "total_launches_int": 0,
+        "Successful Launches": "0",
+        "successful_launches_int": 0,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
+        "Image": "Starship.png",
        "Additional Information":
             '''
-    
+The SpaceX Starship is a fully reusable super heavy-lift launch vehicle under development by SpaceX since 2012, as a self-funded private spaceflight project.
+
+The second stage of Starship—which is also commonly referred to as "Starship" is designed as a long-duration cargo and passenger-carrying spacecraft. It is expected to be initially used without any booster stage at all, as part of an extensive development program to prove out launch-and-landing and iterate on a variety of design details, particularly with respect to the vehicle's atmospheric reentry.
+
+While the spacecraft will be tested on its own at suborbital altitudes, it will be used on orbital launches with an additional booster stage, the Super Heavy, where the spacecraft will serve as the second stage on a two-stage-to-orbit launch vehicle.
+
+Integrated system testing of a proof of concept for Starship began in March 2019, with the addition of a single Raptor rocket engine to a reduced-height prototype, nicknamed Starhopper — similar to Grasshopper, an equivalent prototype of the Falcon 9 reusable booster. Starhopper was used from April through August 2019 for static testing and low-altitude, low-velocity flight testing of vertical launches 
+and landings in July and August 2019. More prototype Starships have been built and more are under construction as the iterative design goes through several iterations. All test articles have a 9 meters (30 ft)-diameter stainless steel hull.
+
+SpaceX is planning to launch commercial payloads using Starship no earlier than 2021. In April 2020, NASA selected a modified human rated Starship system as one of three lunar landing systems to receive funding for a 10-month long initial design phase for the Artemis program.
+
+While the name of the vehicle has changed many times over the years, the combination of Starship spacecraft and Super Heavy booster is called the "Starship system" by SpaceX in their payload users guide. Sometimes, as on the SpaceX website, the term "Starship" is used as a collective term for both the Starship spacecraft and the Super Heavy booster.
+
+At least as early as 2005, SpaceX used the codename, "BFR", for a conceptual heavy-lift vehicle, "far larger than the Falcon family of vehicles", with a goal of 100 t (220,000 lb) to orbit. Beginning in mid-2013, SpaceX referred to both the mission architecture and the vehicle as the Mars Colonial Transporter. By the time a large 12-meter diameter design concept was unveiled in September 2016, SpaceX had begun referring to the overall system as the Interplanetary Transport System.
+
+With the announcement of a new 9-meter design in September 2017, SpaceX resumed referring to the vehicle as "BFR". Musk said in the announcement, "we are searching for the right name, but the code name, at least, is BFR". SpaceX President Gwynne Shotwell subsequently stated that BFR stands for, "Big Falcon Rocket". However, Elon Musk had explained in the past that although BFR is the official name, he drew inspiration from the BFG weapon in the Doom video games. The BFR had also occasionally been referred to informally by the media and internally at SpaceX as "Big Fucking Rocket". At the time, the second stage/spacecraft was referred to as "BFS". The booster first stage was also at times referred to as the "BFB". In November 2018, the spaceship was renamed Starship, and the first stage booster was named Super Heavy.
+
+Notably, in the fashion of SpaceX, even that term "Super Heavy" had been previously used by SpaceX in a different context. In February 2018, at about the time of the first Falcon Heavy launch, Musk had "suggested the possibility of a Falcon Super Heavy — a Falcon Heavy with extra boosters. 'We could really dial it up to as much performance as anyone could ever want. If we wanted to we could actually add two more side boosters and make it Falcon Super Heavy'".
+
+A modified version known as the Starship Human Landing System (Starship HLS) was selected by NASA in April 2020 for potential use for long-duration crewed lunar landings as part of NASA's Artemis program. The Starship HLS variant is being designed to stay on and around the Moon and as such both the heat shield and air-brakes — integral parts of the main Starship design — are not included in the Starship HLS design. The variant will use high-thrust methox RCS thrusters 
+located mid-body on Starship HLS during the final "tens of meters" of the terminal lunar descent and landing, and will also include a smaller crew area and a much larger cargo bay, be powered by a solar array located on its nose below the docking port. SpaceX intends to use the same high-thrust RCS thrusters for liftoff from the lunar surface. If built, the HLS variant would be launched to Earth orbit via the Super Heavy booster and would use orbital refueling to reload propellants into Starship HLS for the lunar transit and lunar landing operations. In the 2020 mission concept, a NASA Orion spacecraft would carry a NASA crew to the lander where they would depart and descend to the surface in Starship HLS. After Lunar surface operations, it would ascend using the same Starship HLS vehicle and return the crew to the Orion. Although not confirmed yet, the vehicle in theory could be refueled in orbit to carry more crews and cargo to the surface.
+
+SpaceX is one of three organizations developing their lunar lander designs for the Artemis program over a 10-month period in 2020-2021. If SpaceX completes the milestone-based requirements of the design contract, then NASA will pay SpaceX US$135 million in design development funding. The other teams selected are the 'National Team' — led by Blue Origin but including Lockheed Martin, Northrop Grumman, and Draper — with US$579 million in design funding and Dynetics — with SNC and other unspecified companies — with US$253 million in NASA funding. At the end of the ten month program, NASA will evaluate which contractors will be offered contracts for initial demonstration missions and select firms for development and maturation of lunar lander systems.
+
+Starship is intended to become the primary SpaceX orbital vehicle, as SpaceX has announced it intends to eventually replace its existing Falcon 9 launch vehicle and SpaceX Dragon 2 fleet with Starship, which is expected to take cargo to orbit at far lower cost than any other existing launch vehicle, whether from SpaceX or other launch service provider. In November 2019, Elon Musk estimated that fuel will cost US$900,000 per launch and total launch costs could drop as low as US$2 million.
+
+Starship is an architecture designed to do many diverse spaceflight missions, principally due to the very low marginal cost per mission that the fully-reusable spaceflight vehicles bring to spaceflight technology that were absent in the first six decades after humans put technology into space. Specifically, Starship is designed to be used for
+
+Earth-orbit satellite delivery market. In addition to the standard external launch market that SpaceX has been servicing since 2013, the company intends to use Starship to launch the largest portion of its own internet satellite constellation, Starlink, with more than 12,000 satellites intended to be launched by 2026, more than six times the total number of active satellites on orbit in 2018.
+Long-duration spaceflights beyond the earth-moon system
+Mars transportation, both as cargo ships as well as passenger-carrying transport
+Long-duration flights to the outer planets, for cargo and astronauts
+Reusable lunar lander, for use transporting astronauts and cargo to and from the Moon's surface and Gateway in lunar orbit via Starship Human Landing System (Starship HLS); as well as more advanced heavy cargo lunar use cases that are envisioned by SpaceX but are not any part of the HLS variant that NASA has contracted with SpaceX for early design work.
+In 2017, SpaceX mentioned the theoretical ability of using a boosted Starship to carry passengers on suborbital flights between two points on Earth in under one hour, providing commercial long-haul transport on Earth, competing with long-range aircraft. SpaceX however announced no concrete plans to pursue the two stage "Earth-to-Earth" use case. Over two years later, in May 2019, Musk floated the idea of using single-stage Starship to travel up to 10,000 kilometres (6,200 mi) on Earth-to-Earth flights at speeds approaching Mach 20 (25,000 km/h; 15,000 mph) with an acceptable payload saying it "dramatically improves cost, complexity & ease of operations". In June 2020, Musk estimated that Earth-to-Earth test flights could begin in "2 or 3 years", i.e. 2022 or 2023, and that planning was underway for "floating superheavy-class spaceports for Mars, Moon and hypersonic travel around Earth".
+
+The Starship vehicle has been criticized for not adequately protecting astronauts from ionizing radiation on Mars missions; Musk has stated that he thinks the transit time to Mars will be too brief to lead to an increased risk of cancer, saying "it's not too big of a deal".
             '''
 
     },
