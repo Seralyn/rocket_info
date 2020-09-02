@@ -527,6 +527,8 @@ class Ui_MainWindow(object):
 
     # ********** Toolbar Button Click Methods **********
 
+    
+
     def printButtonClicked(self):
         selectedItem = self.listWidget.currentItem()
         if selectedItem == None:
