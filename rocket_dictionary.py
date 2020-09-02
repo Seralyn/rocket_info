@@ -9342,88 +9342,106 @@ All Atlas B launches were conducted from Cape Canaveral Air Force Station, at La
 
     "Minotaur I": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Minotaur I",
+        "Agency": "NASA, US Govt",
+        "Manufacturer": "Orbital Sciences Corporation | Northrop Grumman",        
+        "Class": "Light",
+        "Payload Capacity to LEO": "580 kilograms (1,280 lbs)",
+        "payload_int": 580,
+        "Height": "19.21 m (63.0 ft)",
+        "height_int": 19.21,
+        "Diameter": "1.67 m (5 ft 6 in)",
+        "diameter_int": 1.67,
+        "Mass": "36,200 kilograms (79,800 lb)",
+        "mass_int": 36200,
+        "Years in Operation": "2000-2013",
+        "firstyear_int": 2000,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Active",
+        "Number of Stages": "4",
+        "Burn Time": "S1: Unknown, S2: Unknown, S3: 74 sec, S4: 68 sec",
+        "total_burntime_int": None,
+        "Thrust": "S1: 935 kN, S2: 268 kN, S3: 118.2 kN, S4: 34.8 kN",
+        "initial_thrust_int": 935,
+        "ISP": "S1: Unknown, S2: Unknown, S3: Unknown, S4: Unknown",
+        "asl_isp_int": None,
+        "vac_isp_int": None,
+        "Cost Per Launch": "$19,440,351",
+        "cost_int": 19440351,
+        "Fuel Type": "S1: Solid, S2: Solid, S3: Solid, S4: Solid",
+        "Total Launches": "11",
+        "total_launches_int": 11,
+        "Successful Launches": "11",
+        "successful_launches_int": 11,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
+        "Image": "MinotaurI.png",
        "Additional Information":
             '''
-    
+The Minotaur I, or just Minotaur is an American expendable launch system derived from the Minuteman II missile. It is used to launch small satellites for the US Government, and is a member of the Minotaur family of rockets produced by Orbital Sciences Corporation.
+
+The Minotaur I is the follow-on to the Orbital Sciences' Taurus (later re-named the "Minotaur-C") launch vehicle, combining the original Taurus's booster stage with a second stage from a Minuteman missile.
+
+Minotaur I rockets consist of the M55A1 first stage and SR19 second stage of a decommissioned Minuteman missile. The Orion 50XL and Orion 38, from the Pegasus rocket, are used as third and fourth stages. A HAPS (Hydrazine Auxiliary Propulsion System) upper stage can also be flown if greater precision is needed, or the rocket needs to be able to manoeuvre to deploy multiple payloads. It can place up to 580 kilograms (1,280 lb) of payload into a 185-kilometer (115 mi) low Earth orbit at 28.5 degrees of inclination.
+
+Initially Minotaur I launches are conducted from Space Launch Complex 8 at the Vandenberg Air Force Base. Starting with the launch of TacSat-2 in December 2006, launches have also been conducted from Pad 0B at the Mid-Atlantic Regional Spaceport on Wallops Island.
+
+
             '''
 
     },
 
     "Minotaur IV": {
 
-        "Name": "",
+        "Name": "Minotaur IV",
         "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Manufacturer": "Northrop Grumman Innovation Systems",        
+        "Class": "Medium",
+        "Payload Capacity to LEO": "1,735 kilograms (3,825 lbs)",
+        "payload_int": 1735,
+        "Height": "	23.88 m (78.3 ft)",
+        "height_int": 23.88,
+        "Diameter": "2.34 m (7 ft 8 in)",
+        "diameter_int": 2.34,
+        "Mass": "86,300 kg (190,258 lbs)",
+        "mass_int": 86300,
+        "Years in Operation": "2010-2020",
+        "firstyear_int": 2010,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
+        "Operational Status": "Active",
+        "Number of Stages": "4",
+        "Burn Time": "S1: Unknown, S2: 54 sec, S3: 62 sec, S4: 67.7 sec",
         "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
+        "Thrust": "S1: 2,200 kN, S2: 1,365 kN, S3: 328 kN, S4: 32.2 kN",
+        "initial_thrust_int": 2200,
+        "ISP": "S1: Unknown, S2: Unknown, S3: Unknown, S4: Unknown",
+        "asl_isp_int": None,
+        "vac_isp_int": None,
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Fuel Type": "S1: Solid, S2: Solid, S3: Solid, S4: Solid",
+        "Total Launches": "7",
+        "total_launches_int": 7,
+        "Successful Launches": "7",
+        "successful_launches_int": 7,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
+        "Image": "MinotaurIV.png",
        "Additional Information":
             '''
-    
+Minotaur IV, also known as Peacekeeper SLV and OSP-2 PK is an active expendable launch system derived from the LGM-118 Peacekeeper ICBM. It is operated by Northrop Grumman Innovation Systems, and made its maiden flight on 22 April 2010, carrying the HTV-2a Hypersonic Test Vehicle. The first orbital launch occurred on 26 September 2010 with the SBSS satellite for the United States Air Force.
+
+The Minotaur IV vehicle consists of four stages and is capable of placing 1,735 kilograms (3,825 lb) of payload into a Low Earth orbit (LEO). It uses the first three stages of the Peacekeeper missile, combined with a new upper stage. On the baseline version, the fourth stage is an Orion 38. However a higher performance variant, designated Minotaur IV+, uses a Star-48V instead. A three-stage configuration (no Orion 38), designated the Minotaur IV Lite, is available for suborbital trajectories. The Minotaur IV has also been flown with multiple upper stages. A five-stage derivative, the Minotaur V, made its maiden flight on 7 September 2013.
+
+Minotaur IV launches are conducted from SLC-8 at Vandenberg Air Force Base, LP-0B at the Mid-Atlantic Regional Spaceport, SLC-46 at Cape Canaveral Air Force Station and Pacific Spaceport Complex – Alaska Pad 1 of the Pacific Spaceport Complex – Alaska (PSCA).
+
+The third Minotaur IV launch, which was also known as STP-S26, deployed eight payloads. It was the 26th small launch vehicle mission in STP's 40-year history of flying DoD space experiments,[13] STP-S26 was intended to extend previous standard interface development efforts, implementing a number of capabilities aimed at enabling responsive access to space for small experimental satellites and payloads. STP-S26 launched at 01:25 UTC on 20 November 2010 from the Kodiak Launch Complex. The launch facility contractor was Alaska Aerospace Corporation (AAC). The payloads were released in a 650 kilometres (400 mi) orbit, before the HAPS upper stage was demonstrated by deploying two ballast payloads into a 1,200 kilometres (750 mi) orbit.
+
+The primary objective of the STP-S26 launch was to deploy STPSAT-2 (USA-217), whilst demonstrating the ability of the Minotaur IV to carry additional payloads, by deploying FASTSAT, FASTRAC, RAX, O/OREOS and FalconSat-5. A Hydrazine Auxiliary Propulsion System upper stage was flown aboard the Minotaur to demonstrate its ability to deploy payloads to multiple orbits, however only mass simulators were deployed after the HAPS burn.
+
+The launch marked the first flight of a STP-SIV (Standard Interface Vehicle) satellite, the first use of the Multi Mission Satellite Operations Center Ground System Architecture (MMSOC GSA), the first flight of the Minotaur IV's Multi-payload Adapter (MPA), the first use of a HAPS to obtain multiple orbits on a Minotaur IV flight, the first Minotaur launch from Kodiak Launch Complex (KLC), and the first deployment of CubeSats from a Minotaur IV via Poly-PicoSatellite Orbital Deployers (P-Pods).
             '''
 
     },

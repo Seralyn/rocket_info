@@ -720,6 +720,7 @@ Launch Failures: {rocketDictionary[printRocketName]['Launch Failures']}
         acronymDlg.setWindowTitle("Acronyms")
         acronymDlg.label.setText(
             '''
+            -Agencies-
 NASA: National Aeronautics and Space Administration
 ESA: European Space Agency
 CNES: Centre national d'études spatiales
@@ -727,7 +728,15 @@ JAXA: Japan Aerospace and Exploration Agency
 ASI: Italian Space Agency
 USAF - United States Air Force
 ELDO: European Launcher Development Organisation
-
+             -Orbits-
+LEO: Low Earth Orbit
+MEO: Mid Earth Orbit
+HEO: High Earth Orbit
+GEO: Geostationary Orbit
+GTO: Geostationary Transfer Orbit
+SSO: Sun-Synchronous Orbit (Polar Orbit)
+TLI: Trans Lunar Injection
+             -Fuel Types-
 SRB: Solid Rocket Booster
 ISP: Specific Impulse
 HTPB: Hydroxyl-Terminated Polybutadiene
@@ -738,6 +747,7 @@ LH2: Liquid Hydrogen
 (I)RFNA: Red Fuming Nitric Acid
 UDMH: Unsymmetrical Dimethylhydrazine
 APCP: Ammonium Perchlorate Composite Propellant
+NEPE: Nitrate Ester Plasticized Polyether
 
             ''')
         acronymDlg.exec_()
