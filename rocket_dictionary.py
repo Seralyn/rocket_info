@@ -9210,93 +9210,116 @@ All Atlas B launches were conducted from Cape Canaveral Air Force Station, at La
 
     "Atlas II": {
 
-        "Name": "",
+        "Name": "Atlas II",
         "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Manufacturer": "Lockheed Martin",        
+        "Class": "Medium",
+        "Payload Capacity to LEO": "6,580 kg (14,510 lbs)",
+        "payload_int": 6580,
+        "Height": "47.54 m (156.0 ft)",
+        "height_int": 47.54,
+        "Diameter": "3.04 m (10.0 ft)",
+        "diameter_int": 3.04,
+        "Mass": "204,300 kg (450,400 lbs)",
+        "mass_int": 204300,
+        "Years in Operation": "1991-2004",
+        "firstyear_int": 1991,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "3.5",
+        "Burn Time": "Booster: 172 sec, S1: 283 sec, S2: 392 sec, S3: 60 sec",
+        "total_burntime_int": 907,
+        "Thrust": "Booster: 2,093.3 kN, S1: 386 kN, S2: 147 kN, S3: 0.980 kN",
+        "initial_thrust_int": 2093,
+        "ISP": "Boosters: 299 sec, S1: 316 sec, S2: 449 sec, S3: 312 sec",
+        "asl_isp_int": 299,
+        "vac_isp_int": 449,
+        "Cost Per Launch": "$157,797,138",
+        "cost_int": 157797138,
+        "Fuel Type": "Booster: RP-1/LOX, S1: RP-1/LOX, S2: LH2/LOX, S3: N2O4/MMH",
+        "Total Launches": "63 (II: 10, IIA: 23, IIAS: 30)",
+        "total_launches_int": 63,
+        "Successful Launches": "63",
+        "successful_launches_int": 63,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
+        "Image": "AtlasII.png",
        "Additional Information":
             '''
-    
+Atlas II was a member of the Atlas family of launch vehicles, which evolved from the successful Atlas missile program of the 1950s. It was designed to launch payloads into low earth orbit, geosynchronous transfer orbit or geosynchronous orbit. Sixty-three launches of the Atlas II, IIA and IIAS models were carried out between 1991 and 2004; all sixty-three launches were successes, making the Atlas II the most reliable launch system in history. The Atlas line was continued by the Atlas III, used between 2000 and 2005, and the Atlas V which is still in use.
+
+Atlas II provided higher performance than the earlier Atlas I by using engines with greater thrust and longer fuel tanks for both stages. LR-89 and LR-105 were replaced by the RS-56, derived from the RS-27. The total thrust capability of the Atlas II of 490,000 pounds force (2,200 kN) enabled the booster to lift payloads of 6,100 pounds (2,767 kg) into geosynchronous transfer orbit (GTO) of 22,000 miles (35,000 km) or more. Atlas II was the last Atlas to use a three engine, "stage-and-a-half" design: two of its three engines were jettisoned during ascent, but its fuel tanks and other structural elements were retained. The two booster engines, RS-56-OBAs, were integrated into a single unit called the MA-5A and shared a common gas generator. They burned for 164 seconds before being jettisoned. The central sustainer engine, an RS-56-OSA, would burn for an additional 125 seconds. The Vernier engines on the first stage of the Atlas I were replaced by a hydrazine fueled roll control system.
+
+This series used an improved Centaur upper stage, the world's first cryogenic propellant stage, to increase its payload capability. Atlas II also had lower-cost electronics, an improved flight computer and longer propellant tanks than its predecessor, Atlas I.
+
+-Versions-
+Atlas II
+The original Atlas II was based on the Atlas I and its predecessors. This version flew between 1991 and 1998.
+
+Atlas IIA
+Atlas IIA was a derivative designed to service the commercial launch market. The main improvement was the switch from the RL10A-3-3A to RL10A-4 engine on the Centaur upper stage. The IIA version flew between 1992 and 2002.
+
+Atlas IIAS
+Atlas IIAS was largely identical to IIA, but added four Castor 4A solid rocket boosters to increase performance. These boosters were ignited in pairs, with one pair igniting on the ground, and the second igniting in the air shortly after the first pair separated. The half-stage booster section would then drop off as usual. IIAS was used between 1993 and 2004, concurrently with IIA.
+
+In May 1988, the Air Force chose General Dynamics (now Lockheed-Martin) to develop the Atlas II vehicle, primarily to launch Defense Satellite Communications System payloads and for commercial users as a result of Atlas I launch failures in the late 1980s. Led by lead engineer Samuel Wagner, the Atlas II was crucial to the continued development of the United States' space program.
+
+Atlas IIs were launched from Cape Canaveral Air Force Station, Fla., by the 45th Space Wing. The final West Coast Atlas II launch was accomplished December 2003 by the 30th Space Wing, Vandenberg AFB, California.
+
             '''
 
     },
 
     "Atlas III": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Atlas III",
+        "Agency": "US Govt/Private",
+        "Manufacturer": "Lockheed Martin",        
+        "Class": "Medium",
+        "Payload Capacity to LEO": "IIIA: 8,640 kg (19,040 lb) | IIIB: 10,218 kg (23,630 lb)",
+        "payload_int": 10218,
+        "Height": "52.8 m (173 ft)",
+        "height_int": 52.8,
+        "Diameter": "3.05 m (10.0 ft)",
+        "diameter_int": 3.05,
+        "Mass": "214,338 kg (472,534 lb)",
+        "mass_int": 214338,
+        "Years in Operation": "2000-2005",
+        "firstyear_int": 2000,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "2",
+        "Burn Time": "S1: 132 sec, S2: IIIA: 738 sec/IIIB: 392 sec",
+        "total_burntime_int": 524,
+        "Thrust": "S1: 4,148.7 kN, S2: IIIA: 99.2 kN/IIIB: 147 kN",
+        "initial_thrust_int": 4148,
+        "ISP": "S1: 311 sec, S2: 450 sec",
+        "asl_isp_int": 311,
+        "vac_isp_int": 450,
+        "Cost Per Launch": "$168,277,339",
+        "cost_int": 168277339,
+        "Fuel Type": "S1: RP-1/LOX, S2: LH2/LOX",
+        "Total Launches": "	6 (IIIA: 2, IIIB: 4)",
+        "total_launches_int": 6,
+        "Successful Launches": "6 (IIIA: 2, IIIB: 4)",
+        "successful_launches_int": 6,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
+        "Image": "AtlasIII.png",
        "Additional Information":
             '''
-    
+The Atlas III (known as the Atlas II-AR (R for Russian) early in development) was an American orbital launch vehicle, used between 2000 and 2005.It was the first member of the Atlas family since the Atlas A to feature a "normal" staging method, compared to the previous Atlas family members, which were equipped with two jettisonable outboard engines on the first (booster) stage (with a single center engine serving as the sustainer).
+
+The Atlas III consisted of two stages. The first stage was new, but the upper stage was the Centaur, which is still in use today on the Atlas V EELV. The first stage engines were Russian RD-180s, which are also used by the Atlas V. The Atlas III was produced in two versions. The baseline was the Atlas IIIA, but the Atlas IIIB, featuring a twin-engine version of the Centaur upper stage, was also produced.
+
+The GX rocket, formerly under development by Galaxy Express Corporation, was originally intended to use the boost stage of the Atlas III, provided by Lockheed-Martin, and a newly designed upper stage. It would have launched from the Tanegashima Space Center, south of Kyūshū, Japan. In December 2009 the Japanese government decided to cancel the GX project.
             '''
 
     },
 
-    "Conegstoga": {
+    "Conestoga": {
 
         "Name": "",
         "Agency": "",
@@ -9419,8 +9442,8 @@ Initially Minotaur I launches are conducted from Space Launch Complex 8 at the V
         "ISP": "S1: Unknown, S2: Unknown, S3: Unknown, S4: Unknown",
         "asl_isp_int": None,
         "vac_isp_int": None,
-        "Cost Per Launch": "",
-        "cost_int": "",
+        "Cost Per Launch": "Unknown",
+        "cost_int": None,
         "Fuel Type": "S1: Solid, S2: Solid, S3: Solid, S4: Solid",
         "Total Launches": "7",
         "total_launches_int": 7,
@@ -9448,176 +9471,294 @@ The launch marked the first flight of a STP-SIV (Standard Interface Vehicle) sat
 
     "Minotaur V": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Minotaur V",
+        "Agency": "NASA",
+        "Manufacturer": "Orbital Sciences Corporation (Northrop Grumman Innovation Systems)",        
+        "Class": "Light",
+        "Payload Capacity to LEO": "800 kg (1763 lbs)",
+        "payload_int": 800,
+        "Height": "24.56 m ()",
+        "height_int": 24.56,
+        "Diameter": "2.34 m",
+        "diameter_int": 2.34,
+        "Mass": "89,373 kg",
+        "mass_int": 89373,
+        "Years in Operation": "2013~",
+        "firstyear_int": 2013,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Active",
+        "Number of Stages": "5",
+        "Burn Time": "S1: 56.5 sec, S2: 61 sec, S3: 72 sec, S4: 84 sec, S5: 63 sec",
+        "total_burntime_int": 346,
+        "Thrust": "S1: 2,224 kN, S2: 1,223 kN, S3: 289 kN, S4: 84.1 kN, S5: 47.26 kN",
+        "initial_thrust_int": 2224,
+        "ISP": "S1: 229 sec, S2: 308, S3: 300 sec, S4: 288 sec, S5: 292 sec",
+        "asl_isp_int": None,
+        "vac_isp_int": None,
+        "Cost Per Launch": "Unknown",
+        "cost_int": None,
+        "Fuel Type": "S1: HTPB, S2: HTPB, S3: NEPE, S4: HTPB, S5: HTPB",
+        "Total Launches": "1",
+        "total_launches_int": 1,
+        "Successful Launches": "1",
+        "successful_launches_int": 1,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
+        "Image": "MinotaurV.png",
        "Additional Information":
             '''
-    
+The Minotaur V is an American expendable launch system derived from the Minotaur IV, itself a derivative of the LGM-118 Peacekeeper ICBM. It was developed by Orbital Sciences Corporation, (now absorbed into Northrop Grumman Innovation Systems) and made its maiden flight on 7 September 2013 carrying the Lunar Atmosphere and Dust Environment Explorer spacecraft for NASA.
+
+The Minotaur V is a five-stage vehicle, and is designed to place up to 630 kilograms (1,390 lb) of payload into a geosynchronous transfer orbit, or 342 kilograms (754 lb) on a trans-lunar trajectory. It consists of a Minotaur IV+, with a Star-37 as a fifth stage. Two variants are available, one with a spin-stabilized Star-37FM upper stage, and the other with a Star-37FMV capable of three-axis stabilization. The Star-37FMV upper stage is heavier, reducing payload capacity, but is more maneuverable.
+
+
             '''
 
     },
 
     "Minotaur-C": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Minotaur C[ommercial]",
+        "Agency": "US Military/Private",
+        "Manufacturer": "Orbital Sciences Corporation, Orbital ATK, Northrop Grumman",        
+        "Class": "Light",
+        "Payload Capacity to LEO": "1,458 kg (3,214 lbs)",
+        "payload_int": 1458,
+        "Height": "27.9 m (92 ft)",
+        "height_int": 27.9,
+        "Diameter": "2.35 m (7 ft 9 in)",
+        "diameter_int": 2.35,
+        "Mass": "73,000 kg (161,000 lbs)",
+        "mass_int": 73000,
+        "Years in Operation": "1994~",
+        "firstyear_int": 1994,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Active",
+        "Number of Stages": "4",
+        "Burn Time": "S1: 83 sec, S2: 73 sec, S3: 73 sec, S4: 65 sec",
+        "total_burntime_int": 294,
+        "Thrust": "S1: 1,606.6 kN, S2: 484.9 kN, S3: 118.2 kN, S4: 	34.57 kN",
+        "initial_thrust_int": 1606.6,
+        "ISP": "S1: 286 sec, S2: 285 sec, S3: 292 sec, S4: 293 sec",
+        "asl_isp_int": 286,
+        "vac_isp_int": 293,
+        "Cost Per Launch": "$40-50,000,000",
+        "cost_int": 45000000,
+        "Fuel Type": "S1: Solid, S2: Solid, S3: Solid, S4: Solid",
+        "Total Launches": "10",
+        "total_launches_int": 10,
+        "Successful Launches": "7",
+        "successful_launches_int": 7,
+        "Launch Failures": "3",
+        "failed_launches_int": 3,
+        "Image": "MinotaurC.png",
        "Additional Information":
             '''
-    
+Minotaur-C (Minotaur Commercial), formerly known as Taurus or Taurus XL, is a four stage solid fueled launch vehicle built in the United States by Orbital Sciences (now Northrop Grumman) and launched from SLC-576E at California's Vandenberg Air Force Base. It is based on the air-launched Pegasus rocket from the same manufacturer, utilizing a "zeroth stage" in place of an airplane. The Minotaur-C is able to carry a maximum payload of around 1458 kg into a low Earth orbit (LEO).
+
+First launched in 1994, it has successfully completed seven out of a total of ten military and commercial missions. Three of four launches between 2001 and 2011 ended in failure, including the 24 February 2009 launch of the Orbiting Carbon Observatory mission and the 4 March 2011 launch of the Glory mission, which resulted in losses totalling US$700 million for NASA (excluding the cost of the rockets themselves). The Taurus launch vehicle was subsequently rebranded in 2014 as Minotaur-C, which incorporates new avionics based on those used by the Minotaur family of rockets. After a six years pause, the rocket successfully returned to flight in 2017 as Minotaur-C.    
+
+
             '''
 
     },
 
     "OmegA": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "OmegA",
+        "Agency": "USAF",
+        "Manufacturer": "Northrop Grumman",        
+        "Class": "Medium",
+        "Payload Capacity to LEO": "(GEO) 7,800 kg (17,196 lbs)",
+        "payload_int": None,
+        "Height": "59.84 m (196.3 ft)",
+        "height_int": 59.84,
+        "Diameter": "3.71 m (12.2 ft)",
+        "diameter_int": 3.71,
+        "Mass": "Unknown",
+        "mass_int": None,
+        "Years in Operation": "N/A",
+        "firstyear_int": None,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Canceled",
+        "Number of Stages": "3",
+        "Burn Time": "Boosters: Unknown, S1: Unknown, S2: Unknown, S3: Unknown",
+        "total_burntime_int": None,
+        "Thrust": "Boosters: Unknown, S1: Unknown, S2: Unknown, S3: 101.8 kN",
+        "initial_thrust_int": None,
+        "ISP": "Boosters: 279.3 sec, S1: Unknown, S2: Unknown, S3: Unknown",
+        "asl_isp_int": None,
+        "vac_isp_int": None,
+        "Cost Per Launch": "N/A",
+        "cost_int": None,
+        "Fuel Type": "Boosters: HTPB, S1: HTPB, S2: HTPB, S3: LH2/LOX",
+        "Total Launches": "0",
+        "total_launches_int": 0,
+        "Successful Launches": "0",
+        "successful_launches_int": 0,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
+        "Image": "OmegA.png",
        "Additional Information":
             '''
-    
+OmegA was a medium to heavy-lift launch vehicle concept that spent several years in development by Northrop Grumman during 2016–2020, with that development substantially funded by the US government. OmegA was intended for launching US national security satellites, as part of the US Department of the Air Force NSSL replacement program. In August 2020, the design was not selected by the Air Force in the competitive process, and NGIS has decided not to continue the development as a commercial competitive offering with further development funded by NGIS.
+
+The OmegA design consisted of new composite solid rocket stages with a cryogenic upper stage provided by Aerojet Rocketdyne, replacing earlier plans to use an upper stage engine provided by Blue Origin. The OmegA design was similar to the defunct Ares I and Liberty projects, both of which consisted of a five segment Space Shuttle Solid Rocket Booster (SRB) and a cryogenic second stage. It was intended to be launched from Kennedy Space Center LC-39B or Vandenberg Air Force Base SLC-6. OmegA was proposed as a vehicle to launch national security satellites for the United States Space Force and other government agencies, including to geostationary transfer orbit. The launch vehicle could theoretically launch commercial payloads as well, but was not designed at a price point to make private competitive launches likely. NGIS claimed in 2016 that crewed spacecraft could also be launched, just as the predecessor Ares I and Liberty rockets, which were designed to be able to also launch the Orion space capsule.
+
+As of 2016, actual development was to get underway only once the Air Force reached a funding decision. In October 2018, the Air Force announced that Northrop Grumman was awarded $792 million for initial development of the OmegA launch vehicle.
+
+In August 2020, the Department of the Air Force announced the results of the approximately US$3.5 billion National Security Space Launch Phase 2 Launch Service Procurement for launches in the 2022–2027 timeframe and OmegA was not selected. The USAF announced that it would wind down any remaining OmegA development contracts from phase 1, and may not pay out the entire maximum amount of the earlier 2019 contract to NGIS. NGIS decided not to bring the OmegA launch vehicle to market on their own later in August, and will wind down work on the rocket.
+
+The company that was to propose the OmegA launch vehicle in 2016 (Orbital ATK, which was subsequently acquired by Northrop Grumman in 2018), through its predecessor company Alliant Techsystems (ATK), had developed the solid rocket boosters for the Space Shuttle in the 1970s–80s, and military intercontinental missiles prior to that. With the 2004 announcement of the retirement of the Space Shuttle, the company was active in trying to find government purchasers of its, now, 30+ year old solid-propellant rocket technology to continue using the technology for orbital launch vehicles. Since then, they have approached both the US government's civil space branch, NASA, and also the miltary branch, US DoD, with proposals to develop continued government-funded opportunities to design, build and support the orbital space application of solid rocket technology. They were successful, as NASA selected ATK's technology for the Ares I crewed launch vehicle in 2005, with ATK supplying the a five-segment solid rocket booster as the first stage while also being the primary contractor for the Crew Launch Vehicle (CLV), which was to have a more standard liquid-propellant powered upper stage. Following the early cancellation of the Ares I rocket in 2010, ATK proposed the Liberty (rocket) to NASA in 2011, which was subsequently not selected for full development funding in 2012. ATK then pursued options with the US DoD.
+
+In January 2016, Orbital ATK was one of two companies awarded funds by the United States Air Force to develop technologies to eliminate dependency on the Russian-made RD-180 rocket engine for US national security payloads.[7] The award was worth an initial $46.9 million, with an option for up to $180.2 million total. This was to be matched by $31.1 million initially, and up to $124.8 million in company funds if all options of the contract are exercised. The contract would fund the development of three technologies in support of the OmegA rocket, then called Next Generation Launcher: the GEM-63XL strap-on booster, a Common Booster Core and an extendable nozzle for the BE-3U upper stage engine. A previous effort, funded by NASA, demonstrated the technology for a composite motor case to replace the metal motor cases used for Space Shuttle SRBs.
+
+In May 2016, Orbital ATK revealed their plans for the Next Generation Launcher, including the configuration and the intended business case. The Next Generation Launcher intends to make use of existing launch infrastructure at Kennedy Space Center (KSC), including the Vehicle Assembly Building used by the Space Shuttle, with the possibility of polar orbit launches occurring from Vandenberg Air Force Base. NASA began looking for commercial users to operate unused space within the Vehicle Assembly Building in June 2015, and by April 2016, it was announced that Orbital ATK was in negotiations to lease High Bay 2. Orbital ATK claimed that a minimum of 5–6 launches per year would be required to make the rocket profitable. Full development and introduction will be dependent on both demand and funding from the US Air Force. A final "go/no-go decision" to proceed with full development and introduction of the Next Generation Launcher took place in early 2018.
+
+In April 2017, Orbital ATK revealed that OmegA would be launched from pad 39B at KSC, sharing launch facilities and mobile transporter with the NASA Space Launch System (SLS). The rocket would compete for USAF national security launches and NASA missions. There would be multiple configurations of the launch system, with multiple stages.
+
+In April 2018, Orbital ATK announced that Next Generation Launcher would be named OmegA. Additionally, they revealed the selection of the RL-10C engine over Blue Origin's BE-3U competitor. The intermediate configuration, with a Castor 600 first stage, increased payload to GTO from 8,500 kilograms (18,700 lb) to 10,100 kilograms (22,300 lb). The Castor 1200-powered Heavy configuration increased GEO payload from 7,000 kilograms (15,000 lb) to 7,800 kilograms (17,200 lb) and has a TLI capability of up to 12,300 kg (27,000 lb).
+
+Orbital ATK was purchased by Northrop Grumman in 2018, and OmegA became a Northrop Grumman product.
+
+In October 2018, OmegA was awarded a Launch Services Agreement worth $791,601,015 to design, build and launch the first OmegA rockets.
+
+In late May 2019, while conducting a static fire test of the first stage SRB, an anomaly occurred resulting in the destruction of the SRB nozzle (but not the stage itself). A thorough investigation revealed that the differential pressure between the nozzle's internal pressure and surface pressure following the static fire test was greater than expected; when thrust levels dropped below a critical point upon completion of the static fire, the outside air crushed the nozzle "in an instant, just like a soda can."
+
+In 2019, Northrop Grumman bid the OmegA launch vehicle to the US Air Force for the multi-year block buy launch contract that would cover all US national security launches in 2022–2026.
+
+In August 2020, the US Department of the Air Force announced the results of the approximately US$3.5 billion National Security Space Launch Phase 2 Launch Service Procurement, selecting only SpaceX and ULA to supply launches to the US Department of Defense in the 2022–2027 timeframe. NGIS OmegA was not selected. The contract type for the phase 2 contracts is new for US government launches as it will be a "firm-fixed-price, indefinite-delivery" type of launch contract and these contract awards are a part of "the transition of the national security launch program to take advantage of commercial innovation and private investments in launch vehicles." NGIS indicated they were "disappointed by the decision."The fate of the OmegA launch vehicle is unclear, as NGIS depended on the funding from the US military to develop the vehicle design to this point.
+
+The USAF announced on 7 August that they would wind down any remaining OmegA development contracts from phase 1, and may not pay out the entire maximum amount of the earlier 2019 contract to NGIS. The Air Force stated that they would work with NGIS "to determine the right point to tie off their work under the LSA agreements. ... The goal is not to carry them indefinitely, the point of an LSA was to create a more competitive environment."
+
+As of 20 August 2020, NGIS had not publically commented on future plans for the OmegA design; but on 18 August they did inform employees involved with OmegA that they would not be continuing the project.
+
+The OmegA launch vehicle concept is a three-stage-to-orbit launch vehicle originally proposed by Orbital ATK (subsequently Northrop Grumman after the 2018 acquisition of Orbital ATK) that principally uses three different solid-propellant rockets to get to orbit, along with a hydrolox upper stage.
+
+The OmegA design was 59.84 m (196.3 ft) with a 3.71 m (12.2 ft)-diameter first and second stages and a 5.25 m (17.2 ft)-diameter upper stage.
+
+There were intended to be two version of the main rocket stack, plus variable 2 to 6 SRBs attached to the first stage to assist with the entire variety of NSSL reference orbits.
+
+The design payload for the primary DoD missions that it was being aimed at was 4,900 kg (10,800 lb) to 10,100 kg (22,300 lb) to GTO with the "Intermediate" version and 5,250 kg (11,570 lb) to 7,800 kg (17,200 lb) to GEO with the "Heavy" version.
+
+It was intended to be launched from either Kennedy LC-39B or [Vandenberg Air Force Base|Vandenberg]] SLC-6, the two locations used for all US DoD launches.
+
+The full vehicle was never built, nor launched, as NGIS was not selected by the Department of the Air Force to receive more funding to build and test the vehicle.
+
+The component details for the OmegA design are:[citation needed]
+
+SRBs: 2 to 6 GEM-63XLT of 1.6 m (63 in) diameter, attached to the first stage, using HTPB solid propellant, with a specific impulse of 279.3 s (2.739 km/s)
+First stage: Castor Solid Rocket Booster using HTPB propellant
+Castor600 (Intermediate version)
+Castor 1200 (Heavy version)
+Second stage: Castor 300 1-segment solid rocket booster, HTPB
+Third stage: 2 × RL-10C-5-1 LH2/LOX rocket engines with 101.8 kN (22,890 lbf) thrust and a vacuum-rated Isp of ≈450 seconds
+Multiple configurations
+The rocket was to have had two basic configurations, an intermediate and a heavy launch. Both configurations would have had a minimum of two thrust vectoring GEM-63XLTs for roll control. The intermediate version was to have had a two segment solid rocket booster (SRB) first stage, a single segment SRB second stage, and a liquid hydrogen fueled third stage, while the heavy configuration would have a 4-segment SRB first stage, and the same upper stages. Additional versions could conceiveably have added additional SRBs as side boosters with the SRBs sharing avionics suites with other Orbital ATK rockets to reduce costs.
             '''
 
     },
 
     "Pegasus": {
 
-        "Name": "",
+        "Name": "Pegasus",
         "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
+        "Manufacturer": "Northrup Grumman",        
+        "Class": "Light",
+        "Payload Capacity to LEO": "443 kg (976 lbs)",
         "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Height": "16.9 meters (55 ft) (Pegasus), 17.6 meters (58 ft) (Pegasus XL)",
+        "height_int": 17.6,
+        "Diameter": "1.27 meters (4.2 ft)",
+        "diameter_int": 1.27,
+        "Mass": "18,500 kg (40,800 lbs) (Pegasus), 23,130 kg (50,990 lbs) (Pegasus XL)",
+        "mass_int": 23130,
+        "Years in Operation": "1990~",
+        "firstyear_int": 1990,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
+        "Operational Status": "Active",
+        "Number of Stages": "3",
+        "Burn Time": "S1: , S2: , S3: ",
         "total_burntime_int": "",
-        "Thrust": "",
+        "Thrust": "S1: , S2: , S3: ",
         "initial_thrust_int": "",
-        "ISP": "",
+        "ISP": "S1: , S2: , S3: ",
         "asl_isp_int": "",
         "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Cost Per Launch": "$40,000,000",
+        "cost_int": 40000000,
+        "Fuel Type": "S1: solid, S2: solid, S3: solid",
+        "Total Launches": "44",
+        "total_launches_int": 44,
+        "Successful Launches": "39",
+        "successful_launches_int": 39,
+        "Launch Failures": "5 (3 total, 2 partial)",
+        "failed_launches_int": 5,
+        "Image": "PegasusXL.png",
        "Additional Information":
             '''
-    
+Pegasus is an air-launched rocket developed by Orbital Sciences Corporation and now built and launched by Northrop Grumman. Capable of carrying small payloads of up to 443 kilograms (977 lb) into low Earth orbit, Pegasus first flew in 1990 and remains active as of 2019. The vehicle consists of three solid propellant stages and an optional monopropellant fourth stage. Pegasus is released from its carrier aircraft at approximately 40,000 ft (12,000 m), and its first stage has a wing and a tail to provide lift and attitude control while in the atmosphere. Notably, the first stage does not have a Thrust Vector Control (TVC) system.  Pegasus is the world's first privately developed space launch vehicle.
+
+Pegasus was designed by a team led by Antonio Elias. The Pegasus's three Orion solid motors were developed by Hercules Aerospace (later Alliant Techsystems) specifically for the Pegasus launcher but using advanced carbon fiber, propellant formulation and case insulation technologies originally developed for the terminated USAF Small ICBM program. The wing and fins' structures were designed by Burt Rutan and his company, Scaled Composites, which manufactured them for Orbital.
+
+Mass: 18,500 kg (Pegasus), 23,130 kg (Pegasus XL)
+Length: 16.9 m (Pegasus), 17.6 m (Pegasus XL)
+Diameter: 1.27 m
+Wing span: 6.7 m
+Payload: 443 kg (1.18 m diameter, 2.13 m length)
+Started in the spring of 1987, the development project was funded by Orbital Sciences Corporation and Hercules Aerospace, and did not receive any government funding. NASA did provide the use of the B-52 carrier aircraft on a cost-reimbursable basis during the development (captive carry tests) and the first few flights. Two Orbital internal projects, the Orbcomm communications constellation and the OrbView observation satellites, served as anchor customers to help justify the private funding. 
+
+DARPA purchased the first flight and options for five more, but only exercised the first of the five options. The DARPA contract was subsequently transferred to the U.S. Air Force which exercised the remaining four options. In 1993 NASA issued a Request for Proposals for a Small Expendable Launch Vehicles Services (SELVS) requiring a performance slightly higher than the original Pegasus, resulting in Orbital and Hercules developing the XL version to satisfy the NASA SELVS requirement.
+
+There were no Pegasus test launches prior to the first operational launch on April 5, 1990 with NASA test pilot and former astronaut Gordon Fullerton in command of the carrier aircraft. Initially, a NASA-owned B-52 Stratofortress NB-008 served as the carrier aircraft. By 1994, Orbital had transitioned to their "Stargazer" L-1011, a converted airliner which was formerly owned by Air Canada. The name "Stargazer" is an homage to the television series Star Trek: The Next Generation: the character Jean-Luc Picard was captain of a ship named Stargazer prior to the events of the series, and his first officer William Riker once served aboard a ship named Pegasus.
+
+During its 44-launch history, the Pegasus program had three mission failures (STEP-1, STEP-2 and HETI/SAC-B), and two partial failures, (USAF Microsat and STEP-2) followed by 30 consecutive successful flights for a total program success rate of 89%.. The first partial failure on July 17, 1991 caused the 7 USAF microsatellites to be delivered to a lower than planned orbit, significantly reducing the mission lifetime. The last mission failure on November 4, 1996 resulted in the loss of gamma-burst identifying satellite HETE (High Energy Transient Explorer) in 1996.
+
+
+Preparations for launch of Pegasus XL carrying the NASA Interstellar Boundary Explorer (IBEX) spacecraft.
+
+The Pegasus XL with fairing removed exposing payload bay and the IBEX satellite
+The Pegasus XL, introduced in 1994[citation needed] has lengthened stages to increase payload performance. In the Pegasus XL, the first and second stages are lengthened into the Orion 50SXL and Orion 50XL, respectively. Higher stages are unchanged; flight operations are similar. The wing is strengthened slightly to handle the higher weight. The standard Pegasus has been discontinued; the Pegasus XL is still active as of 2019. Pegasus has flown 44 missions in both configurations, launching 91 satellites as of October 12, 2019.
+
+Dual payloads can be launched, with a canister that encloses the lower spacecraft and mounts the upper spacecraft. The upper spacecraft deploys, the canister opens, then the lower spacecraft separates from the third-stage adapter. Since the fairing is unchanged for cost and aerodynamic reasons, each of the two payloads must be relatively compact. Other multiple-satellite launches involve "self-stacking" configurations, such as the ORBCOMM spacecraft.
+
+For their work in developing the rocket, the Pegasus team led by Antonio Elias was awarded the 1991 National Medal of Technology by U.S. President George H. W. Bush.
+
+The initial launch price offered was US$6 million, without options or a HAPS (Hydrazine Auxiliary Propulsion System) maneuvering stage. With the enlargement to Pegasus XL and the associated improvements to the vehicle, baseline prices increased. In addition, customers usually purchase additional services, such as extra testing, design and analysis, and launch-site support.
+
+As of 2015, the most recent Pegasus XL to be purchased—a planned June 2017 launch of NASA's Ionospheric Connection Explorer (ICON) mission—had a total cost of $56.3 million, which NASA notes includes "firm-fixed launch service costs, spacecraft processing, payload integration, tracking, data and telemetry and other launch support requirements." A series of technical problems delayed this launch, which finally took place on 11 October 2019.
+
+In July 2019, it was announced that Northrop had lost the launch contract of the IXPE satellite to SpaceX. IXPE had been planned to be launched by a Pegasus XL rocket, and had been designed so as to fit within the Pegasus XL rocket constraints. With the IXPE launch removed from the Pegasus XL rocket, there are currently (as of 12 October 2019, after the launch of ICON) no space launch missions announced for the Pegasus XL rocket. The future (under construction as of 2019) NASA Explorer program mission PUNCH was planned to be launched by Pegasus XL; but then NASA decided to merge the launches of PUNCH and another Explorer mission, TRACERS (also under construction as of 2019). These two space missions, consisting of 6 satellites in total, are to be launched by one rocket. It is expected that a larger launcher will be chosen for this dual mission launch. 
+
+Northrop has 2 Pegasus XL's remaining in its inventory (as of 12 October 2019). It is looking for customers for those rockets. Northrop does not plan on retiring the Pegasus XL rocket as of October 2019.
+
+For many small satellites it is desirable to be the primary payload and be placed into the orbit desired, rather than be a secondary payload placed in a compromise orbit. For example, Pegasus launched from equatorial launch sites can put spacecraft in orbits avoiding the South Atlantic Anomaly (a high radiation region over the South Atlantic Ocean) which is desirable for many scientific spacecraft. For some payloads, this may justify the higher cost of Pegasus relative to satellites launched as secondary cargoes on larger launchers.
+
+In a Pegasus launch, the carrier aircraft takes off from a runway with support and checkout facilities. Such locations have included Kennedy Space Center / Cape Canaveral Air Force Station, Florida; Vandenberg Air Force Base and Dryden Flight Research Center, California; Wallops Flight Facility, Virginia; Kwajalein Range in the Pacific Ocean, and the Canary Islands in the Atlantic. Orbital offers launches from Alcantara, Brazil, but no known customers have performed any.
+
+Upon reaching a predetermined staging time, location, and velocity vector the aircraft releases the Pegasus. After five seconds of free-fall, the first stage ignites and the vehicle pitches up. The 45-degree delta wing (of carbon composite construction and double-wedge airfoil) aids pitch-up and provides some lift. The tail fins provide steering for first-stage flight, as the Orion 50S motor does not have a thrust-vectoring nozzle.
+
+Approximately 1 minute and 17 seconds later, the Orion 50S motor burns out. The vehicle is at over 200,000 feet (61 km) in altitude and hypersonic speed. The first stage falls away, taking the wing and tail surfaces, and the second stage ignites. The Orion 50 burns for approximately 1 minute and 18 seconds. Attitude control is by thrust vectoring the Orion 50 motor around two axes, pitch and yaw; roll control is provided by nitrogen thrusters on the third stage.
+
+Midway through second-stage flight, the launcher has reached a near-vacuum altitude. The fairing splits and falls away, uncovering the payload and third stage. Upon burnout of the second-stage motor, the stack coasts until reaching a suitable point in its trajectory, depending on mission. Then the Orion 50 is discarded, and the third stage's Orion 38 motor ignites. It too has a thrust-vectoring nozzle, assisted by the nitrogen thrusters for roll. After approximately 64 seconds, the third stage burns out.
+
+A fourth stage is sometimes added for a higher altitude, finer altitude accuracy, or more complex maneuvers. The HAPS (Hydrazine Auxiliary Propulsion System) is powered by three restartable, monopropellant hydrazine thrusters. As with dual launches, the HAPS cuts into the fixed volume available for payload. In at least one instance, the spacecraft was built around the HAPS.
+
+Guidance is via a 32-bit computer and an IMU. A GPS receiver gives additional information. Due to the air launch and wing lift, the first-stage flight algorithm is custom-designed. The second- and third-stage trajectories are ballistic, and their guidance is derived from a Space Shuttle algorithm.
+
+Pegasus components have also been the basis of other OSC launchers. The ground-launched Taurus rocket places the Pegasus stages and a larger fairing atop a Castor 120 first stage, derived from the first stage of the MX Peacekeeper missile. Initial launches used refurbished MX first stages.
+
+The Minotaur I, also ground-launched, is a combination of stages from Taurus launchers and Minuteman missiles, hence the name. The first two stages are from a Minuteman II; the upper stages are Orion 50XL and 38. Due to the use of surplus military rocket motors, it is only used for US Government and government-sponsored payloads.
+
+A third vehicle is dubbed Minotaur IV despite containing no Minuteman stages. It consists of a refurbished MX with an Orion 38 added as a fourth stage.
+
+The NASA X-43A hypersonic test vehicles were boosted by Pegasus first stages. The upper stages were replaced by exposed models of a scramjet-powered vehicle. The Orion stages boosted the X-43 to its ignition speed and altitude, and were discarded. After firing the scramjet and gathering flight data, the test vehicles also fell into the Pacific.
+
+The most numerous derivative of Pegasus is the booster for the Ground-based Midcourse Defense (GBMD) interceptor, basically a vertical (silo) launched Pegasus minus wing and fins, and with the first stage modified by addition of a Thrust Vector Control (TVC) system.
             '''
 
     },
