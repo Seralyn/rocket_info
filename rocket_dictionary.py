@@ -9765,16 +9765,16 @@ The most numerous derivative of Pegasus is the booster for the Ground-based Midc
 
     "Phantom Express": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
+        "Name": "Phantom Express/ XS-1",
+        "Agency": "US Military",
+        "Manufacturer": "Boeing",        
+        "Class": "Spaceplane",
         "Payload Capacity to LEO": "",
         "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
+        "Height": "30.5 m (100 ft)",
+        "height_int": 30.5,
+        "Diameter": "4.1 m (13.7 ft)",
+        "diameter_int": 4.1,
         "Mass": "",
         "mass_int": "",
         "Years in Operation": "",
@@ -9792,325 +9792,623 @@ The most numerous derivative of Pegasus is the booster for the Ground-based Midc
         "vac_isp_int": "",
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
+        "Fuel Type": "LH2/LOX",
         "Total Launches": "",
         "total_launches_int": "",
         "Successful Launches": "",
         "successful_launches_int": "",
         "Launch Failures": "",
         "failed_launches_int": "",
-        "Image": "",
+        "Image": "PhantomExpress.png",
        "Additional Information":
             '''
-    
+The DARPA XS-1 was an experimental spaceplane/booster with the planned capability to deliver small satellites into orbit for the U.S. Military. It was reported to be designed to be reusable as frequently as once a day, with a stated goal of doing so for 10 days straight. The XS-1 was intended to directly replace the first stage of a multistage rocket by taking off vertically and flying to hypersonic speed and high suborbital altitude, enabling one or more expendable upper stages to separate and deploy a payload into low Earth orbit. The XS-1 would then return to Earth, where it could ostensibly be serviced fast enough to repeat the process at least once every 24 hours.
+
+The DARPA XS-1 program operated 2013–2020. After several years of refinement and proposals, in May 2017, DARPA selected Boeing for Phase 2/3 to build and test an XS-1 spacecraft (now called the Experimental Spaceplane program). At the time, test flights were scheduled to start no earlier than 2020. On 22 January 2020, it was announced that Boeing was ceasing its role in the program, effectively ending it.
+
+The XS-1 program followed several previous failed attempts to develop a reusable space launch vehicle. The Rockwell X-30 in the 1980s and X-33 VentureStar in the 1990s never flew because of immature technologies. DARPA's last attempt was the Responsive Access, Small Cargo, Affordable Launch (RASCAL) program in the early 2000s with the goal of placing 300 lb (140 kg) payloads in orbit for less than $750,000.
+
+The XS-1 program was announced in November 2013 at a DARPA industry day. DARPA stated that the XS-1 was more feasible due to better technologies, including light and low-cost composite airframe and tank structures, durable thermal protection, reusable and affordable propulsion, and aircraft-like health management systems. Jess Sponable, the XS-1 program manager, spoke on February 5, 2014 at NASA's Future In-Space Operations group, stating, "The vision here is to break the cycle of escalating space system costs, enable routine space access and hypersonic vehicles."
+
+By July 2014, three companies were awarded contracts to design a demonstration vehicle. The selected companies were Boeing with Blue Origin, Masten Space Systems with XCOR Aerospace, and Northrop Grumman with Virgin Galactic. Unlike other DARPA programs that were handed off to parts of the United States military once proven successful, this initiative was designed from the start to be a direct partnership between the agency and industry. In August 2015, Boeing, Northrop Grumman, and Masten Space Systems all received additional funding from DARPA to continue their design concepts for Phase 1B of the program. As of 2015, the first XS-1 orbital mission was planned to occur as early as 2020.
+
+DARPA began Phase 2 of the XS-1 program in April 2016. In July 2016, DARPA stated that they believed "the time is right for a renewed effort, one that began in 2013/14, but [in 2016 was] ramped up through a solicitation process, allowing for several industry concepts to be created. Per the [solicitation] requirements, the winged craft [requirements would continue to need to] be capable of performing 10 flights in 10 days, with a payload capacity greater than 3,000 lbs for a cost of less than $5 million USD per flight."
+
+In May 2017, DARPA selected Boeing for Phase 2/3 to build and test the XS-1 (now called the Experimental Spaceplane program). The phase 2/3 contract included $146 million in DARPA funding and an unspecified contribution by the company.
+
+On 22 January 2020, DARPA announced that Boeing was pulling out of the XS-1 program "immediately" and effectively ending the program.
+
+The goals of the program as of September 2013 were: The space plane must carry a 3,000–5,000 lb (1,400–2,300 kg) payload to low Earth orbit for less than a cost of US$5 million per flight, at a rate of 10 or more flights per year; currently, launching that type of payload requires using an Orbital Sciences Corporation Minotaur IV expendable booster, priced at $55 million once per year.
+
+-hypersonic flight to Mach 10 (12,250 km/h) or higher
+-fast one-day turnaround time, including flying 10 times in 10 days
+-a 1,800 kg (4,000 lb) payload on a trajectory to orbit
+-launch cost less than 1/10 that of current launch systems, approximately US$5 million per flight
+-uncrewed vehicle
+-utilize a reusable first stage booster to fly at hypersonic speeds to a suborbital altitude, coupled with one or more expendable upper stages that would separate and deploy a satellite
+
+The Boeing design was a vertical takeoff, horizontal landing (VTHL) craft called Phantom Express. The planned specifications include a vehicle height of 100 feet (30 m), with a 62 foot (19 m) wingspan. The Phantom express was to use an Aerojet Rocketdyne AR-22 engine, which was originally built for the Space Shuttle program, but has been modified to be reused ten times within ten days, for less than $5 million per launch. This performance requirement was demonstrated on a test stand in July 2018. On 22 January 2020, it was announced that Boeing was ceasing its role in the program, effectively ending it.
             '''
 
     },
 
     "Pilot": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "NOTS-EV-1 Pilot/NOTSNIK",
+        "Agency": "US Military",
+        "Manufacturer": "US Navy",        
+        "Class": "N/A",
+        "Payload Capacity to LEO": "1.05 kg (2.3 lbs)",
+        "payload_int": 1.05,
+        "Height": "4.4 m (14 ft)",
+        "height_int": 4.4,
+        "Diameter": "0.76 m (2 ft 6 in)",
+        "diameter_int": 0.76,
+        "Mass": "950 kg (2,090 lbs)",
+        "mass_int": 950,
+        "Years in Operation": "1958",
+        "firstyear_int": 1958,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "5",
+        "Burn Time": "Boosters: Unknown, S1: 4.9 sec, S2: 4.9 sec, S3: 36 sec, S4: 5.7 sec, S5: 1 sec",
+        "total_burntime_int": None,
+        "Thrust": "Boosters: 71.14 kN, S1: 63.2 kN, S2: 63.2 kN, S3: 12.1 kN, S4: 5.1 kN, S5: 0.7 kN",
+        "initial_thrust_int": 71.14,
+        "ISP": "Boosters: Unknown, S1: Unknown, S2: Unknown, S3: Unknown, S4: Unknown, S5: Unknown",
+        "asl_isp_int": None,
+        "vac_isp_int": None,
+        "Cost Per Launch": "Unknown",
+        "cost_int": None,
+        "Fuel Type": "Boosters: JP-4/Air, S1: Solid, S2: Solid, S3: Solid, S4: Solid, S5: Solid",
+        "Total Launches": "10",
+        "total_launches_int": 10,
+        "Successful Launches": "0",
+        "successful_launches_int": 0,
+        "Launch Failures": "10",
+        "failed_launches_int": 10,
+        "Image": "Pilot.png",
        "Additional Information":
             '''
-    
+The NOTS-EV-1 Pilot, also known as NOTSNIK was an expendable launch system and anti-satellite weapon developed by the United States Navy's United States Naval Ordnance Test Station (NOTS). Ten were launched during July and August 1958, all of which failed. It was the first air-launched rocket to be used for an orbital launch attempt; however, none was recorded as having reached orbit. Following the first and third orbital launch attempts, a tracking station in New Zealand reported receiving weak signals from the spacecraft;[1] however, this was never confirmed,[3] and the launches were not catalogued as having reached orbit. The Pilot rocket was part of Project Pilot.
+
+Overview
+Two variants of the Pilot rocket were built; the Pilot-1, with battleship second to fifth stages, was used for ground-launched atmospheric tests from China Lake, and the Pilot-2, an air-launched version, was used for orbital launch attempts. Orbital launches were conducted from a stripped–down jet carrier aircraft, an F4D–1 Skyray, flying from Point Mugu Naval Air Station, and releasing the rocket over the Santa Barbara Channel Drop Zone. Of the ten launches, four were of Pilot-1s, and the rest Pilot-2s.[3]
+
+The first air–launch was performed on 25 July 1958 by NOTS research pilot William West, a career US Navy officer. The flight originated from China Lake's airstrip at Inyokern. The jet fighter was placed into a steep climb. The rocket released automatically at 41,000 feet, and three seconds later the first two HOTROCs ignited. The pilot was distracted during this time–the sudden release of weight had flipped his aircraft into a tumble. In mid–crisis, West looked up and saw what he thought was the vehicle exploding. He reported it that way, but John Nicolaides (director of the Navy's space program in Washington D.C.) later determined that the "explosion" was the plume from the rocket's motors as the exhaust expanded in the thin atmosphere. However, when ground control heard the report of the "explosion", it ordered the ground tracking stations (approximately six in number) around the world to stand down. Thus only one station (at Christchurch NZ) remained on the air; it heard a beeping in the right place at the right time. However, the signal was not repeated, so the shot was declared a failure.
+
+The second air–launch, in August, ended in a HOTROC explosion. The third air–launch, on 22 August, was again ambiguous: radio contact with the ground was lost during the second–stage burn, but the rocket appeared on film, departing over the horizon. The tracking station at Christchurch reported signals at the predicted times during the first and third orbital windows, but no further signal was received, so the mission was also declared a failure. (The Navy initially reported a successful launch to the White House, but following the loss of signal no public acknowledgement of the mission was issued).
+
+Project Pilot was cancelled in August 1958, and replaced by the NOTS-EV-2 Caleb; The project remained classified until 1994. Following this series of tests, and the follow-on Caleb program being riddled with multiple failures, US Secretary of Defense Robert McNamara decided to terminate the Navy's space program and assign all responsibility to the US Air Force. The Air Force mounted one further air–launch program in the mid-1980s, an anti–satellite missile launch system based on an F–15.
+
+
+            '''
+
+    },
+
+     "X-37B": {
+
+        "Name": "Boeing X-37B",
+        "Agency": "USSF/NASA/DARPA",
+        "Manufacturer": "Boeing",        
+        "Class": "Spaceplane",
+        "Payload Capacity to LEO": "Unknown",
+        "payload_int": "",
+        "Height": "8.92 m (29 ft 3 in)",
+        "height_int": 8.92,
+        "Diameter": "Unknown",
+        "diameter_int": "",
+        "Mass": "5,000 kg (11,000 lbs)",
+        "mass_int": 5000,
+        "Years in Operation": "2006~",
+        "firstyear_int": 2006,
+        "Country": "USA",
+        "flag_icon": "flags/usa.png",
+        "Operational Status": "Active",
+        "Number of Stages": "N/A",
+        "Burn Time": "Unknown",
+        "total_burntime_int": None,
+        "Thrust": "Unknown",
+        "initial_thrust_int": None,
+        "ISP": "Unknown",
+        "asl_isp_int": None,
+        "vac_isp_int": None,
+        "Cost Per Launch": "Unknown",
+        "cost_int": None,
+        "Fuel Type": " hypergolic nitrogen-tetroxide/hydrazine (unconfirmed)",
+        "Total Launches": "6",
+        "total_launches_int": 6,
+        "Successful Launches": "6",
+        "successful_launches_int": 6,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
+        "Image": "BoeingX-37B.png",
+       "Additional Information":
+            '''
+The Boeing X-37, also known as the Orbital Test Vehicle (OTV), is a reusable robotic spacecraft. It is boosted into space by a launch vehicle, then re-enters Earth's atmosphere and lands as a spaceplane. The X-37 is operated by the United States Space Force for orbital spaceflight missions intended to demonstrate reusable space technologies. It is a 120-percent-scaled derivative of the earlier Boeing X-40. The X-37 began as a NASA project in 1999, before being transferred to the United States Department of Defense in 2004.
+
+The X-37 first flew during a drop test in 2006; its first orbital mission was launched in April 2010 on an Atlas V rocket, and returned to Earth in December 2010. Subsequent flights gradually extended the mission duration, reaching 780 days in orbit for the fifth mission, the first to launch on a Falcon 9 rocket. The latest mission, the sixth, launched on an Atlas V on 17 May 2020.
+
+In 1999, NASA selected Boeing Integrated Defense Systems to design and develop an orbital vehicle, built by the California branch of Boeing's Phantom Works. Over a four-year period, a total of US$192 million was spent on the project, with NASA contributing $109 million, the U.S. Air Force $16 million, and Boeing $67 million. In late 2002, a new $301-million contract was awarded to Boeing as part of NASA's Space Launch Initiative framework.
+
+The aerodynamic design of the X-37 was derived from the larger Space Shuttle orbiter, hence the X-37 has a similar lift-to-drag ratio, and a lower cross range at higher altitudes and Mach numbers compared to DARPA's Hypersonic Technology Vehicle. An early requirement for the spacecraft called for a total mission delta-v of 7,000 miles per hour (3.1 km/s) for orbital maneuvers. An early goal for the program was for the X-37 to rendezvous with satellites and perform repairs. The X-37 was originally designed to be carried into orbit in the cargo bay of the Space Shuttle, but underwent redesign for launch on a Delta IV or comparable rocket after it was determined that a shuttle flight would be uneconomical.
+
+The X-37 was transferred from NASA to the Defense Advanced Research Projects Agency (DARPA) on 13 September 2004. Thereafter, the program became a classified project. DARPA promoted the X-37 as part of the independent space policy that the United States Department of Defense has pursued since the 1986 Challenger disaster.
+
+Glide testing
+
+The Scaled Composites White Knight was used to launch the X-37A on glide tests.
+The vehicle that was used as an atmospheric drop test glider had no propulsion system. Instead of an operational vehicle's payload bay doors, it had an enclosed and reinforced upper fuselage structure to allow it to be mated with a mothership. In September 2004, DARPA announced that for its initial atmospheric drop tests the X-37 would be launched from the Scaled Composites White Knight, a high-altitude research aircraft.
+
+On 21 June 2005, the X-37A completed a captive-carry flight underneath the White Knight from Mojave Spaceport in Mojave, California. Through the second half of 2005, the X-37A underwent structural upgrades, including the reinforcement of its nose wheel supports. The X-37's public debut was scheduled for its first free flight on 10 March 2006, but was canceled due to an Arctic storm. The next flight attempt, on 15 March 2006, was canceled due to high winds.
+On 24 March 2006, the X-37 flew again, but a datalink failure prevented a free flight, and the vehicle returned to the ground still attached to its White Knight carrier aircraft. On 7 April 2006, the X-37 made its first free glide flight. During landing, the vehicle overran the runway and sustained minor damage. Following the vehicle's extended downtime for repairs, the program moved from Mojave to Air Force Plant 42 (KPMD) in Palmdale, California, for the remainder of the flight test program. White Knight continued to be based at Mojave, though it was ferried to Plant 42 when test flights were scheduled. Five additional flights were performed,[N 1] two of which resulted in X-37 releases with successful landings. These two free flights occurred on 18 August 2006 and 26 September 2006.
+
+X-37B Orbital Test Vehicle
+On 17 November 2006, the U.S. Air Force announced that it would develop its own variant from NASA's X-37A. The Air Force version was designated the X-37B Orbital Test Vehicle (OTV). The OTV program was built on earlier industry and government efforts by DARPA, NASA, and the Air Force under the leadership of the Air Force Rapid Capabilities Office in partnership with NASA and the Air Force Research Laboratory. Boeing was the prime contractor for the OTV program. The X-37B was designed to remain in orbit for up to 270 days at a time. The Secretary of the Air Force stated that the OTV program would focus on "risk reduction, experimentation, and operational concept development for reusable space vehicle technologies, in support of long-term developmental space objectives".
+
+The X-37B was originally scheduled for launch in the payload bay of the Space Shuttle, but following the Space Shuttle Columbia disaster, it was transferred to a Delta II 7920. The X-37B was subsequently transferred to a shrouded configuration on the Atlas V rocket, following concerns over the unshrouded spacecraft's aerodynamic properties during launch. Following their missions, X-37B spacecraft primarily land on a runway at Vandenberg Air Force Base, California, with Edwards Air Force Base as a secondary site. In 2010, manufacturing work began on the second X-37B, OTV-2, which conducted its maiden launch in March 2011.
+
+On 8 October 2014, NASA confirmed that X-37B vehicles would be housed at Kennedy Space Center in Orbiter Processing Facilities (OPF) 1 and 2, hangars previously occupied by the Space Shuttle. Boeing had said the space planes would use OPF-1 in January 2014, and the Air Force had previously said it was considering consolidating X-37B operations, housed at Vandenberg Air Force Base in California, nearer to their launch site at Cape Canaveral. NASA also stated that the program had completed tests to determine whether the X-37B, one-fourth the size of the Space Shuttle, could land on the former Shuttle runways. NASA furthermore stated that renovations of the two hangars would be completed by the end of 2014; the main doors of OPF-1 were marked with the message "Home of the X-37B" by this point.
+
+Most of the activities of the X-37B project are secret. The official U.S. Air Force statement is that the project is "an experimental test program to demonstrate technologies for a reliable, reusable, uncrewed space test platform for the U.S. Air Force". The primary objectives of the X-37B are twofold: reusable spacecraft technology and operating experiments which can be returned to Earth. The Air Force states that this includes testing avionics, flight systems, guidance and navigation, thermal protection, insulation, propulsion, and re-entry systems.
+
+Speculation regarding purpose
+In May 2010, Tom Burghardt speculated on Space Daily that the X-37B could be used as a spy satellite or to deliver weapons from space. The Pentagon subsequently denied claims that the X-37B's test missions supported the development of space-based weapons.
+
+In January 2012, allegations were made that the X-37B was being used to spy on China's Tiangong-1 space station module. Former U.S. Air Force orbital analyst Brian Weeden later refuted this claim, emphasizing that the different orbits of the two spacecraft precluded any practical surveillance flybys.
+
+In October 2014, The Guardian reported the claims of security experts that the X-37B was being used "to test reconnaissance and spy sensors, particularly how they hold up against radiation and other hazards of orbit".
+
+In November 2016, the International Business Times speculated that the U.S. government was testing a version of the EmDrive electromagnetic microwave thruster on the fourth flight of the X-37B. In 2009, an EmDrive technology transfer contract with Boeing was undertaken via a State Department TAA and a UK export license, approved by the UK Ministry of Defence. Boeing has since stated that it is no longer pursuing this area of research. The U.S. Air Force has stated that the X-37B is testing a Hall-effect thruster system for Aerojet Rocketdyne.
+
+In July 2019 former United States Secretary of the Air Force Heather Wilson explained that when an X-37B was in an elliptic orbit it could at perigee use the thin atmosphere to make an orbit change preventing some observers from discovering the new orbit for a while, permitting secret activities.
+
+Astronomer Jonathan McDowell, editor of Jonathan's Space Report, has stated that satellites launched from the X-37B were not reported, as required by the Registration Convention, to the United Nations Office for Outer Space Affairs so other parties to the convention would not know about them.
+
+Processing
+Processing for the X-37 is done inside Bays 1 and 2 of the Orbiter Processing Facility (OPF) at Kennedy Space Center in Florida, where the vehicle is loaded with its top-secret payload. The X-37 is then placed inside a fairing along with its stage adapter and transported to the launch site. Previous launch sites have included SLC-41 and Kennedy Space Center LC-39A.
+
+Landing is done at one of three sites across the US: the Shuttle Landing Facility at Kennedy Space Center, Vandenberg Air Force Base, or Edwards Air Force Base. To return to Kennedy Space Center, the X-37 is placed into a payload canister and loaded into a Boeing C-17 cargo plane. Once at Kennedy, the X-37 is unloaded and towed to the OPF, where it is prepared for its next flight.
+
+Design
+
+The X-37 (far right) is the smallest and lightest orbital spaceplane yet flown. Both the North American X-15 and SpaceShipOne were suborbital. Of the spaceplanes shown, only the X-37 and Buran conducted uncrewed spaceflights.
+The X-37 Orbital Test Vehicle is a reusable robotic spaceplane. It is an approximately 120% - scale derivative of the Boeing X-40, measuring over 29 feet (8.8 m) in length, and features two angled tail fins. The X-37 launches atop an Atlas V 501 or a SpaceX Falcon 9 rocket. The spaceplane is designed to operate in a speed range of up to Mach 25 on its reentry.
+
+The technologies demonstrated in the X-37 include an improved thermal protection system, enhanced avionics, an autonomous guidance system and an advanced airframe. The spaceplane's thermal protection system is built upon previous generations of atmospheric reentry spacecraft, incorporating silica ceramic tiles.[41] The X-37's avionics suite was used by Boeing to develop its CST-100 crewed spacecraft. The development of the X-37 was to "aid in the design and development of NASA's Orbital Space Plane, designed to provide a crew rescue and crew transport capability to and from the International Space Station", according to a NASA fact sheet.
+
+The X-37 for NASA was to be powered by one Aerojet AR2-3 engine using storable propellants, providing thrust of 6,600 pounds-force (29.4 kN). The human-rated AR2-3 engine had been used on the dual-power NF-104A astronaut training vehicle and was given a new flight certification for use on the X-37 with hydrogen peroxide/JP-8 propellants. This was reportedly changed to a hypergolic nitrogen-tetroxide/hydrazine propulsion system.
+
+The X-37 lands automatically upon returning from orbit and is the second reusable spacecraft to have such a capability, after the Soviet Buran shuttle. The X-37 is the smallest and lightest orbital spaceplane flown to date; it has a launch mass of around 11,000 pounds (5,000 kg) and is approximately one quarter of the size of the Space Shuttle orbiter.
+
+On 13 April 2015, the Space Foundation awarded the X-37 team with the 2015 Space Achievement Award "for significantly advancing the state of the art for reusable spacecraft and on-orbit operations, with the design, development, test and orbital operation of the X-37B space flight vehicle over three missions totaling 1,367 days in space"
             '''
 
     },
 
     "Redstone": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Mercury Redstone",
+        "Agency": "NASA",
+        "Manufacturer": "Chrysler Corporation",        
+        "Class": "Medium",
+        "Payload Capacity to LEO": "Sub-Orbital: 1,800 kg (4,000 lbs)",
+        "payload_int": 1800,
+        "Height": "25.41 m (83.38 ft)",
+        "height_int": 25.41,
+        "Diameter": "1.78 m (5.83 ft)",
+        "diameter_int": 1.78,
+        "Mass": "30,000 kg (66,000 lbs)",
+        "mass_int": 30000,
+        "Years in Operation": "1960-1961",
+        "firstyear_int": 1960,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "1",
+        "Burn Time": "143.5 sec",
+        "total_burntime_int": 143.5,
+        "Thrust": "350 kN",
+        "initial_thrust_int": 350,
+        "ISP": "215 sec",
+        "asl_isp_int": 215,
+        "vac_isp_int": 215,
         "Cost Per Launch": "",
         "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Fuel Type": "Ethyl Alcohol/LOX",
+        "Total Launches": "6",
+        "total_launches_int": 6,
+        "Successful Launches": "5",
+        "successful_launches_int": 5,
+        "Launch Failures": "1",
+        "failed_launches_int": 1,
+        "Image": "MercuryRedstone.png",
        "Additional Information":
             '''
-    
+The Mercury-Redstone Launch Vehicle, designed for NASA's Project Mercury, was the first American crewed space booster. It was used for six sub-orbital Mercury flights from 1960–61; culminating with the launch of the first, and 11 weeks later, the second American (and the second and third humans) in space. The four subsequent Mercury human spaceflights used the more powerful Atlas booster to enter low Earth orbit.
+
+A member of the Redstone rocket family, it was derived from the U.S. Army's Redstone ballistic missile and the first stage of the related Jupiter-C launch vehicle; but to human-rate it, the structure and systems were modified to improve safety and reliability.
+
+NASA chose the U.S. Army's Redstone liquid-fueled ballistic missile for its sub-orbital flights as it was the oldest one in the US fleet, having been active since 1953 and had many successful test flights.
+
+The standard military Redstone lacked sufficient thrust to lift a Mercury capsule into the ballistic suborbital trajectory needed for the project; however, the first stage of the Jupiter-C, which was a modified Redstone with lengthened tanks, could carry enough propellant to reach the desired trajectory. Therefore, this Jupiter-C first stage was used as the starting point for the Mercury-Redstone design. The Jupiter-C's engine, however, was being phased out by the Army, so to avoid potential complications such as parts shortages or design revisions, the Mercury-Redstone designers chose the Rocketdyne A-7 engine used on the latest military Redstone. Hans Paul and William Davidson, propulsion engineers at the Army Ballistic Missile Agency (ABMA), were assigned the task of modifying the A-7 to be safe and reliable for crewed flights.
+
+During 1959, most of ABMA were preoccupied with the Saturn project, but those engineers who could find enough free time in their schedule were invited to work on man-rating the Jupiter-C. As a starting point, the most obvious step was getting rid of its staging capability as the Mercury-Redstone would not utilize upper stages. Many of the more advanced Jupiter-C components were also removed for reliability reasons or because they were not necessary for Project Mercury.
+
+The standard Redstone was fueled with a 75 % ethyl alcohol and 25 % water solution, essentially the same propellants as the V-2, but the Jupiter-C first stage had used hydyne fuel, a blend of 60 % unsymmetrical dimethylhydrazine (UDMH) and 40 % diethylenetriamine (DETA). This was a more powerful fuel than ethyl alcohol, but it was also more toxic, which could be hazardous for an astronaut in a launch pad emergency. Furthermore, hydyne had never been used with the new A-7 engine. The Mercury-Redstone designers rejected hydyne and returned to the standard ethyl alcohol fuel. The lengthened propellant tanks were thus also necessary in lieu of using more powerful fuel.
+
+Use of alcohol created a problem with the Mercury-Redstone in that the graphite thrust vector vanes could be eroded due to the significantly longer burn time, hence NASA put out a requirement that the launch vehicles needed high-quality vanes.
+
+Because Mercury-Redstone had larger propellant tanks than the Redstone missile, an additional nitrogen bottle was added for tank pressurization, and an extra hydrogen peroxide tank for powering the turbopump due to the longer burn time.
+
+The most important change in making the Mercury-Redstone a suitable vehicle for an astronaut was the addition of an automatic in-flight abort sensing system.[10] In an emergency where the rocket was about to suffer a catastrophic failure, an abort would activate the launch escape system attached to the Mercury capsule, which would rapidly eject it from the booster. Either the astronaut or the ground controllers could initiate an abort manually, but some potential failures during flight might lead to disaster before an abort could be manually triggered.
+
+
+Exploded view
+The Mercury-Redstone's automatic in-flight abort sensing system solved this problem by monitoring the rocket's performance during flight. If it detected an anomaly which might threaten the astronaut, such as loss of flight control, engine thrust, or electrical power, it would automatically abort, shutting down the engine and activating the capsule's escape system. The abort system could not shut off the engine until at least 30 seconds after liftoff in order to prevent a malfunctioning launch vehicle from coming down on or near the pad; during the initial 30 seconds, only the Range Safety Officer could terminate the flight. Review of flight data from the more than 60 Redstone and Jupiter C launches since 1953 was used to analyze the most likely failure modes of this launch vehicle family. In the interest of simplicity, the abort sensing system had to be kept as simple as possible and only monitor parameters that were vital to booster operation. An automatic abort could be triggered by any of the following conditions, all of which could be indicative of a catastrophic launch vehicle malfunction:
+
+Pitch, yaw, or roll angle deviating too far from the programmed flight profile,
+Pitch or yaw angle changing too rapidly,
+Pressure in the engine's combustion chamber falling below a critical level,
+Loss of electrical power for the flight control system, or
+Loss of general electrical power (including power for the abort sensing system itself), which could indicate a catastrophic failure.
+Instant abort capability was important because certain failure modes such as loss of thrust upon liftoff (for example the third Redstone test flight in May 1954) could result in an immediate catastrophic situation. Other failure modes such as deviation from the proper flight path or a drop in engine chamber pressure during ascent did not necessarily present an immediate risk to the astronaut's safety and he could either initiate a manual abort by pulling a lever in the capsule to activate the Launch Escape System or ground control could send a command to activate it.
+
+The range safety system was modified slightly in that a three-second delay would take place between engine cutoff and missile destruct so as to give the escape tower enough time to pull the capsule away.
+
+
+Schematic view
+The most visible difference between the Jupiter-C first stage and the Mercury-Redstone was in the section just below the Mercury capsule and above the propellant tanks. This section was known as the aft section, a term which was inherited from the military Redstone. (The actual rear end of the rocket was called the tail section.) The aft section held most of the Mercury-Redstone's electronics and instrumentation, including the guidance system, as well as the adapter for the Mercury capsule. In the military Redstone and the Jupiter-C first stage, when the rocket had burned out, its lower portion, containing the rocket engine and propellant tanks, would separate from the aft section and be discarded, and the aft section, with its guidance system, would direct the top half of the rocket during its unpowered ballistic flight. However, in the Mercury-Redstone, the aft section was permanently attached to the lower portion of the rocket. When the rocket had shut down, the Mercury capsule would separate from the aft section and would rely on its own guidance.
+
+Other changes were made to improve the Mercury-Redstone's reliability. The standard Redstone's ST-80 inertial guidance system was replaced in the Mercury-Redstone with the simpler LEV-3 autopilot. The LEV-3, whose design dated back to the German V-2 missile, was not as sophisticated or as precise as the ST-80, but it was accurate enough for the Mercury mission and its simplicity made it more reliable. A special instrument compartment was built in the "aft section" to hold the most important instrumentation and electronics, including the guidance system, the abort and destruct systems, the telemetry instrumentation, and the electrical power supplies. To reduce the chance of failure in this equipment, this compartment was cooled before launch and kept pressurized during flight.
+
+The fuel prevalves were deleted from the Mercury-Redstone in the interest of improved reliability, since if they closed during a launch, an abort condition could be triggered. On the three uncrewed flights, it was discovered that the Mercury-Redstone exhibited a roll transient of 8° per second versus 4° for the Redstone missile. Although this was below the 12° per second roll transient required to trigger an abort, the roll rate sensor was removed from the two crewed flights to reduce the chances of an accidental abort (the booster still retained the roll attitude angle sensor which would be triggered at 10°).
+
+Mercury-Redstone 1A and Mercury-Redstone 2 both experienced overacceleration in flight, the former due to a problem with an accelerometer, the latter due to a problem with the LOX regulator which oversupplied the engine with oxidizer and caused thrust termination to occur 1.2 seconds early. The ASIS system activated and the escape tower yanked the capsule away, subjecting its chimpanzee passenger to high G loads. The third flight, Mercury-Redstone BD, was designed as an engineering test to correct these problems before the booster could be considered man-rated.
+
+The space between the pressurized instrument compartment and the capsule was originally intended to hold a parachute recovery system for the rocket, but it had been left empty after this system was abandoned. The three uncrewed Mercury-Redstone flights exhibited high vibration levels and structural bending in the adapter area, so Alan Shepard's flight included 340 pounds of lead-infused plastic in the adapter section along with additional bracing and stiffeners. After Shepard still reported noticeable vibration during launch, Gus Grissom's booster included even more ballast. The Atlas booster used for orbital Mercury flights had also experienced this issue, but with more catastrophic results as Mercury-Atlas 1 was destroyed in-flight due to structural failure caused by excessive flexing at the point where the booster mated with the capsule adapter.
+
+In total, some 800 modifications were made to the Redstone design in the process of adapting it for the Mercury program. The process of man-rating Redstone was so extensive that NASA quickly found themselves not using an off-the-shelf rocket, but what was in effect a completely new one and thus negating all of the hardware and flight test data from previous Redstone and Jupiter-C launches. This created a series of disputes between Von Braun's team at ABMA and NASA, as the former preferred simply making the abort system as foolproof as possible so as to guarantee that the astronaut would be bailed out of a malfunctioning launch vehicle, while the latter favored maximum booster reliability to minimize the chance of aborts happening at all.
+
+Proposed parachute recovery system
+The Mercury-Redstone designers originally planned for the rocket to be recovered by parachute after its separation from the Mercury capsule. This was the first significant effort to develop a recoverable launch vehicle and the first to reach the testing phase.
+
+The recovery system, at the top of the rocket, would have used two stages of parachutes. In the first stage, a single parachute, 17 feet (5.2 m) in diameter, would stabilize the rocket's fall and slow its descent. This parachute would then draw out a set of three main parachutes, each 67 feet (20 m) across. The rocket would come down in the Atlantic Ocean, to be recovered by ship.
+
+To determine the feasibility of this system, several tests were performed on full-sized Redstone, including water impact and flotation tests, and an exercise at sea in which a floating Redstone was picked up by a Navy recovery ship. All these tests showed recovery of the rocket to be workable. Further development was halted, however, due to lack of funding, so the parachute system was not tested.
+
+Flights
+Mercury-Redstone flights were designated with the prefix "MR-". Confusingly, the Mercury-Redstone boosters used for these flights were designated in the same way, usually with different numbers. (In photographs, this designation can sometimes be seen on the rocket's tail end.) Two rockets, MR-4 and MR-6, were never flown. Although there had been rumors that NASA in the very beginning of Project Mercury had intended to launch each astronaut on a suborbital mission before beginning orbital Atlas flights, they only purchased eight Mercury-Redstone boosters, one of which was damaged in the unsuccessful MR-1 launch and not reused, and another used for the MR-BD flight (the original schedule was for one uncrewed Mercury-Redstone flight, one chimpanzee flight, and six crewed flights). Since Alan Shepard and Gus Grissom's flights were successful and since the Soviet Union had flown two orbital crewed space flights by the late summer of 1961, there was no need to continue with Redstone missions.
             '''
 
     },
 
     "Juno I": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Juno I",
+        "Agency": "ABMA",
+        "Manufacturer": "Chrysler",        
+        "Class": "Light",
+        "Payload Capacity to LEO": "11 kg (24 lbs)",
+        "payload_int": 11,
+        "Height": "21.2 m (70 ft)",
+        "height_int": 21.1,
+        "Diameter": "1.78 m (5 ft 10 in)",
+        "diameter_int": 1.78,
+        "Mass": "29,060 kg (64,070 lb)",
+        "mass_int": 29060,
+        "Years in Operation": "1958-1959",
+        "firstyear_int": 1958,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "4",
+        "Burn Time": "S1: 155 sec, S2: 6 sec, S3: 6 sec, S4: 6 sec",
+        "total_burntime_int": 173,
+        "Thrust": "S1: 416.18 kN, S2: 73.4 kN, S3: 20 kN, S4: 6.7 kN",
+        "initial_thrust_int": 416.18,
+        "ISP": "S1: 235 sec, S2: 214 sec, S3: 214 sec, S4: 214 sec",
+        "asl_isp_int": 235,
+        "vac_isp_int": 214,
+        "Cost Per Launch": "Unknown",
+        "cost_int": None,
+        "Fuel Type": "S1: Hydyne/LOX, S2: Polysulfide-aluminum/Ammonium Perchlorate, S3: Polysulfide-aluminum/Ammonium Perchlorate, S4: Polysulfide-aluminum/Ammonium Perchlorate",
+        "Total Launches": "6",
+        "total_launches_int": 6,
+        "Successful Launches": "3",
+        "successful_launches_int": 3,
+        "Launch Failures": "3",
+        "failed_launches_int": 3,
+        "Image": "Juno-1.png",
        "Additional Information":
             '''
-    
+The Juno I was a four-stage American booster rocket that launched America's first satellite, Explorer 1, in 1958. A member of the Redstone rocket family, it was derived from the Jupiter-C sounding rocket. It is commonly confused with the Juno II launch vehicle, which was derived from the PGM-19 Jupiter medium-range ballistic missile.
+
+The Explorer Project began as a U.S. Army proposal (Project Orbiter) to place a "civilian" artificial satellite into orbit during the International Geophysical Year. The proposal was based on the Redstone missile vehicle. Although that proposal was rejected in favor of the U.S. Navy's Project Vanguard, which made the first sub-orbital flight Vanguard TV0 in December 1956, the Soviet Union's launch of Sputnik 1 on October 4, 1957 (and the resulting "Sputnik crisis") and the failure of the Vanguard 1 launch attempt resulted in the Army program being funded to match the Soviet space achievements.
+
+The rocket family is named for the Roman goddess and queen of the gods Juno for its position as the satellite-launching version of the Jupiter-C. The name was proposed by JPL Director Dr. William Pickering in November 1957. The September 1956 test launch of a Jupiter-C for the Army Ballistic Missile Agency could have been the world's first satellite launch. Had a fourth stage been loaded and fueled, the nose cone would have overshot the target and entered orbit. Such a launch did not occur until early 1958 when a Juno 1 successfully launched the first United States satellite, Explorer 1 after the Soviet Union's Sputnik 1 in October 1957.
+
+Juno-I launched the Explorer 1 satellite on January 31, 1958, becoming the first U.S. satellite, as well as discovering the Van Allen radiation belt.
+
+The Juno I consisted of a Jupiter-C first stage, based on the Redstone missile; with three additional solid fuel stages based on the Sergeant missile to provide the added impulse to achieve orbit. The fourth stage was mounted on top of the "tub" of the third stage, and fired after third-stage burnout to boost the payload and fourth stage to an orbital velocity of 8 kilometres per second (29,000 km/h; 18,000 mph). The tub along with the fourth stage were set spinning while the rocket was on the launch pad to provide gyroscopic force in lieu of a guidance system that would have required vanes, gimbals, or vernier motors. This multi-stage system, designed by Wernher von Braun in 1956 for his proposed Project Orbiter, obviated the need for a guidance system in the upper stages. It was the simplest method for putting a payload into orbit but having no upper-stage guidance, the payload could not achieve a precise orbit. Both the four-stage Juno I and three-stage Jupiter-C launch vehicles were the same height (21.2 meters), with the added fourth-stage booster of the Juno I being enclosed inside the nose cone of the third stage.
+
+Following the successful launch of Explorer 1 on January 31, 1958, the first U.S. satellite, Juno I made five more launches before being retired in favor of Juno II. Although Juno I's launch of the Explorer 1 satellite was a huge success for the U.S. space program, only two of its remaining five flights were successful, Explorer 3 and Explorer 4, giving the Juno I vehicle a mission total success ratio of 50%. The Juno I vehicle was replaced by the Juno II in 1959.
+
+The American public was happy and relieved that America had finally managed to launch a satellite after the launch failures in the Vanguard and Viking series. With the relative success of the Juno I program, von Braun developed the Juno II, using a PGM-19 Jupiter first stage, rather than a Redstone.
             '''
 
     },
 
     "Sparta": {
 
-        "Name": "",
+        "Name": "Redstone Sparta",
         "Agency": "",
         "Manufacturer": "",        
         "Class": "",
         "Payload Capacity to LEO": "",
         "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Height": "21.8 m (72 ft)",
+        "height_int": 21.8,
+        "Diameter": "1.78 m (5 ft 10 in)",
+        "diameter_int": 1.78,
+        "Mass": "30,000 kg (66,138 lbs)",
+        "mass_int": 30000,
+        "Years in Operation": "1966-1967",
+        "firstyear_int": 1966,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "3",
+        "Burn Time": "S1: 155 sec, S2: 36 sec, S3: 9 sec",
+        "total_burntime_int": 200,
+        "Thrust": "S1: 416 kN, S2: 93 kN, S3: 34 kN",
+        "initial_thrust_int": 416,
+        "ISP": "S1: 265 sec, S2: 293 sec, S3: Unknown",
+        "asl_isp_int": 265,
+        "vac_isp_int": 293,
+        "Cost Per Launch": "Unknown",
+        "cost_int": None,
+        "Fuel Type": "S1: Hydyne/LOX, S2: Solid, S3: Solid",
+        "Total Launches": "10",
+        "total_launches_int": 10,
+        "Successful Launches": "9",
+        "successful_launches_int": 9,
+        "Launch Failures": "1",
+        "failed_launches_int": 1,
+        "Image": "RedstoneSparta.png",
        "Additional Information":
             '''
-    
+The Sparta was a three-stage rocket that launched Australia's first Earth satellite, WRESAT, on 29 November 1967.
+
+Sparta used a surplus American Redstone as its first stage, an Antares-2 as a second stage, and a BE-3 as a third stage. Several Spartas were launched from 1966–67 from Woomera Test Range in Woomera, South Australia as part of a joint United States–United Kingdom–Australian research program aimed at understanding re-entry phenomena, and the U.S. donated a spare for the scientific satellite launch into polar orbit.
+
+The first stage was recovered from the Simpson Desert in 1990 after being found in searches by explorer Dick Smith the previous year.
             '''
 
     },
 
     "Saturn I": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
+        "Name": "Saturn I",
+        "Agency": "NASA",
+        "Manufacturer": "Chrysler/Douglas/Convair",        
         "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Payload Capacity to LEO": "9,100 kg (20,000 lbs)",
+        "payload_int": 9100,
+        "Height": "55 m (180 ft)",
+        "height_int": 55,
+        "Diameter": "6.6 m (21 ft 8 in)",
+        "diameter_int": 6.6,
+        "Mass": "510,000 kg (1,124,000 lbs)",
+        "mass_int": 510000,
+        "Years in Operation": "1961-1965",
+        "firstyear_int": 1961,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "2-3 (3rd stage never flown)",
+        "Burn Time": "S1: 150 sec, S2: 482 sec, S3: 430 sec",
+        "total_burntime_int": 1062,
+        "Thrust": "S1: 6,700 kN, S2: 400 kN, S3: 133 kN",
+        "initial_thrust_int": 6700,
+        "ISP": "S1: 289 sec, S2: 410 sec, S3: 425 sec",
+        "asl_isp_int": 289,
+        "vac_isp_int": 425,
+        "Cost Per Launch": "$643,518,823",
+        "cost_int": 643518823,
+        "Fuel Type": "S1: RP-1/LOX, S2: LH2/LOX, S3: LH2/LOX",
+        "Total Launches": "10",
+        "total_launches_int": 10,
+        "Successful Launches": "10",
+        "successful_launches_int": 10,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
+        "Image": "SaturnI.png",
        "Additional Information":
             '''
-    
+The Saturn I (pronounced "Saturn one") was a rocket designed as the United States' first medium lift launch vehicle for up to 20,000-pound (9,100 kg) low Earth orbit payloads. The rocket's first stage was built as a cluster of propellant tanks engineered from older rocket tank designs, leading critics to jokingly refer to it as "Cluster's Last Stand". Originally intended as a near-universal military booster for use in the 1960s, its development was taken over from the Advanced Research Projects Agency in 1958 by the newly-formed civilian NASA. Its design proved sound and flexible. It was successful in initiating the development of liquid hydrogen-fueled rocket propulsion, launching the Pegasus satellites, and flight verification of the Apollo command and service module launch phase aerodynamics. Ten Saturn I rockets were flown before it was replaced by the heavy lift derivative Saturn IB, which used a larger, higher total impulse second stage and an improved guidance and control system. It also led the way to development of the super-heavy lift Saturn V which carried the first men to landings on the Moon in the Apollo program.
+
+President John F. Kennedy identified the Saturn I, and the SA-5 launch in particular, as being the point where US lift capability would surpass the Soviets, after being behind since Sputnik.    
+
+The Saturn project was started as one of a number of proposals to meet a new Department of Defense (DoD) requirement for a heavy-lift vehicle to orbit a new class of communications and "other" satellites. The requirements called for a vehicle capable of putting 20,000 to 40,000 pounds (9,100 to 18,100 kg) into orbit, or accelerating 13,200 to 26,200 pounds (6,000 to 11,900 kg) to trans-lunar injection. Existing U.S. launchers could place a maximum of about 3,900 pounds (1,800 kg) in orbit, but might be expanded to as much as 9,900 pounds (4,500 kg) with new high-energy upper stages. In any event, these upper stages would not be available until 1961 at the earliest, and would still not meet the DoD requirements for heavy loads.
+
+Wernher von Braun's team at the U.S. Army Ballistic Missile Agency (ABMA) started studying the problem in April 1957. They calculated that a rocket with the required performance would require a lower-stage booster with a thrust of about 1.5 million pound-force (6.7 MN) thrust at takeoff. As it happened, the Air Force had recently started work on just such an engine, eventually emerging as the F-1. But the F-1 would not be available in the time frame that the DoD was demanding and would be limited to about 1 million lbf in the short term anyway. Another possibility was a Rocketdyne engine, then known as the E-1, which provided about 360,000 to 380,000 lbf (1,600 to 1,700 kN), four of which would reach the required thrust levels. This approach became the favorite and was paired with a first stage built from a cluster of nine tanks placed atop a thrust plate where the engines and plumbing would be attached. The design envisaged eight rocket tanks similar to the Redstone stage strapped around a central larger tank derived from a Jupiter rocket. The design and diameter similarities would enable the use of the same tooling and facilities used to produce the older tanks, speeding up the design and production phases of the new stage.[5] Contrary to what was reported to the press at the time (and propagated commonly ever since), the tanks were not simply Redstone and Jupiter tanks, but much longer versions built anew at the same diameter.
+
+von Braun returned the design to DoD in December 1957 as A National Integrated Missile and Space Vehicle Development Program, outlining the new design, then known simply as "Super-Jupiter". Several variations were proposed, using a common clustered first stage, and upper stages based on either the Atlas or Titan I. ABMA favored the Titan as the Atlas production was extremely high-priority and there was little or no excess capacity to spare. They proposed using the existing Titan tooling at 120-inch (3.0 m) diameter, but lengthening it to produce a new 200-foot (61 m)-long stage. A Centaur would be used as a third stage, which was expected to be ready for operational use in 1963, right when the lower two stages would have completed their testing. The resulting three-stage design was much taller and skinnier than the Saturn design that was eventually built.
+
+Advanced Research Projects Agency (ARPA) was formed in February 1958 as part of DoD and was in charge of the requirements. ARPA asked for only one change to the design; concerned that the E-1 was still in early development, they suggested looking at alternatives in order to ensure the rocket would enter production as soon as possible. ABMA quickly responded with a slightly modified design replacing the four E-1's with eight H-1 engines, a minor upgrade to the S-3D engine used on Thor and Jupiter missiles. They estimated that changing the engines would save about $60 million and as much as two years of research and development time.
+
+von Braun had earlier referred to Redstone and Jupiter rockets being used as space launchers as the Juno I and Juno II, respectively, and had submitted proposals for multi-stage versions as the Juno III and IV. He changed the name of the new design to Juno V. The total development cost of $850 million ($5.6 billion in year-2007 dollars) between 1958-1963 also covered 30 research and development flights, some carrying crewed and uncrewed space payloads.
+
+Work begins
+Satisfied with the outcome, ARPA Order Number 14-59, dated 15 August 1958, ordered the program into existence:[citation needed]
+
+Initiate a development program to provide a large space vehicle booster of approximately 1,500,000-lb. thrust based on a cluster of available rocket engines. The immediate goal of this program is to demonstrate a full-scale captive dynamic firing by the end of CY 1959.
+This was followed on 11 September 1958 with another contract with Rocketdyne to start work on the H-1. On 23 September 1958, ARPA and the Army Ordnance Missile Command (AOMC) drew up an additional agreement enlarging the scope of the program, stating "In addition to the captive dynamic firing..., it is hereby agreed that this program should now be extended to provide for a propulsion flight test of this booster by approximately September 1960". Further, they wanted ABMA to produce three additional boosters, the last two of which would be "capable of placing limited payloads in orbit".
+
+von Braun had high hopes for the design, feeling it would make an excellent test-bed for other propulsion systems, notably the F-1 if it matured. He outlined uses for the Juno V as a general carrier vehicle for research and development of "offensive and defensive space weapons". Specific uses were forecast for each of the military services, including navigation satellites for the Navy; reconnaissance, communications, and meteorological satellites for the Army and Air Force; support for Air Force crewed missions; and surface-to-surface logistics supply for the Army at distances up to 6400 kilometers. von Braun also proposed using the Juno V as the basis of a crewed lunar mission as part of Project Horizon. Juno could lift up to 20,000 pounds (9,000 kg) into low Earth orbit, and he proposed launching 15 of them to build a 200,000 lb (91,000 kg) lunar spacecraft in Earth orbit.
+
+Even by this point the name "Saturn", as "the one after Jupiter" was being used. One early ARPA report noted: "The SATURN is considered to be the first real space vehicle as the Douglas DC-3 was the first real airliner and durable work-horse in aeronautics". The name change became official in February 1959.
+
+Transfer to NASA
+The formation of NASA on 29 July 1958 led to an effort to collect the existing heavy-launch rocket programs and select a single set of designs for future work. At the time, both the Air Force and US Army had teams developing such vehicles, the Army's Saturn and the Air Force's Space Launching System (SLS). The SLS used a set of common modular components with solid fuel boosters and hydrogen/oxygen upper stages to allow a wide variety of launch configurations and payload weights. Both groups had also developed plans for crewed lunar bases, ABMA's Horizon with its Earth Orbit Rendezvous method of building a large lunar rocket in Earth orbit, and the Air Force's Lunex Project which planned on launching a single huge lander using the largest of the SLS configurations. As if this were not enough, NASA's own engineers had started the design of their own Nova design series, planning to use it in the direct ascent profile similar to the Air Force's approach.
+
+von Braun was asked to chair a committee to study the existing efforts and write up recommendations. They presented their report on 18 July 1958, starting with a criticism of how the US program had been mishandled to date and pointing out that the Soviet program was definitely ahead. It went on to describe five "generations" of rockets, starting with the early Vanguard, through the Juno, ICBMs like Atlas and Titan, clustered designs like the Saturn, and finally, the ultimate development, a cluster using the F-1 with 6 million pounds-force (27 MN) of thrust. The report went on to outline a crewed exploration program using these rockets as they become available; using existing ICBMs a small four-man space station could be operational 1961, the clusters would support a crewed lunar landing in 1965-1966 and a larger 50-man space station by 1967, while the largest of the rockets would support large Moon expeditions in 1972, set up a permanent Moon base in 1973-1974, and launch crewed interplanetary trips in 1977.
+
+In December 1958, all of the teams gathered to present their designs. NASA selected von Braun's proposal on 6 January 1959, giving it a vital boost. At the end of January, NASA outlined their complete development program. This included the Vega and Centaur upper stages, as well as the Juno V and their own Nova boosters. Vega was later cancelled when information on the formerly secret Agena upper stage was released (then known as "Hustler"), and it had performance roughly comparable to NASA's design.
+
+Near-cancellation
+Progress on the Saturn design seemed to go smoothly. In April 1959, the first H-1 engines started arriving at ABMA, and test firings started in May. Construction of the Complex 34 launch sites started at Cape Canaveral in June.
+
+Then, quite unexpectedly, on 9 June 1959, Herbert York, Director of Department of Defense Research and Engineering, announced that he had decided to terminate the Saturn program. He later stated that he was concerned that the project was taking ARPA money from more pressing projects, and that as it seemed upgrades to existing ICBMs would provide the needed heavy-lift capability in the short term. As ABMA commander John B. Medaris put it:
+
+By this time, my nose was beginning to sniff a strange odor of "fish". I put my bird dogs to work to try to find out what was going on and with whom we had to compete. We discovered that the Air Force had proposed a wholly different and entirely new vehicle as the booster for Dynasoar, using a cluster of Titan engines and upgrading their performance to get the necessary first-stage thrust for take-off. This creature was variously christened the Super Titan, or the Titan C. No work had been done on this vehicle other than a hasty engineering outline. Yet the claim was made that the vehicle in a two-stage or three-stage configuration could be flown more quickly than the Saturn, on which we had already been working hard for many months. Dates and estimates were attached to that proposal which at best ignored many factors of costs, and at worst were strictly propaganda.
+Looking to head off the cancellation, Saturn supporters from the DoD and ARPA drafted their own memo arguing against the cancellation. Working against them was the fact that neither the Army nor NASA had any in-writing requirement for the booster at that time. A three-day meeting between 16 and 18 September 1959 followed, where York and Dryden reviewed Saturn's future and discussed the roles of the Titan C and Nova. The outcome was equally unexpected; York agreed to defer the cancellation and continue short-term funding, but only if NASA agreed to take over the ABMA team and continue development without the help of the DoD. NASA was equally concerned that by relying on third parties for their boosters they were putting their entire program in jeopardy, and were very open to the idea of taking over the team.
+
+As the parties continued discussions over the next week an agreement was hammered out; von Braun's team at ABMA would be kept together and continue working as the lead developers of Saturn, but the entire organization would be transferred to NASA's management. By a presidential executive order on 15 March 1960, ABMA became NASA's George C. Marshall Space Flight Center (MSFC).
+
+Selecting the upper stages
+In July 1959, a change request was received from ARPA to upgrade the upper stage to a much more powerful design using four new 20,000 lbf (89 kN) liquid hydrogen / liquid oxygen powered engines in a larger-diameter 160-inch (4.1 m) second stage, with an upgraded Centaur using two engines of the same design for the third stage. On this change Medaris noted:
+
+For reasons of economy we had recommended, and it had been approved, that in building the second stage, we would use the same diameter as the Titan first stage – 120 inches. The major costs of tooling for the fabrication of missile tanks and the main structure is related to the diameter. Changes in length cost little or nothing in tooling. How the tanks are divided internally, or the structure reinforced inside, or the kind of structural detail that is used at the end in order to attach the structure to a big booster below, or to a different size stage above, have very little effect on tooling problems. However, a change in diameter sets up a major question of tools, costs, and time.
+Suddenly, out of the blue came a directive to suspend work on the second stage, and a request for a whole new series of cost and time estimates, including consideration of increasing the second stage diameter to 160 inches. It appeared that Dr. York had entered the scene, and had pointed up the future requirements of Dynasoar as being incompatible with the 120-inch diameter. He had posed the question of whether it was possible for the Saturn to be so designed as to permit it to be the booster for that Air Force project.
+We were shocked and stunned. This was no new problem, and we could find no reason why it should not have been considered, if necessary, during the time that the Department of Defense and NASA were debating the whole question of what kind of upper stages we should use. Nevertheless, we very speedily went about the job of estimating the project on the basis of accepting the 160-inch diameter. At the same time, it was requested that we submit quotations for a complete operational program to boost the Dynasoar for a given number of flights. As usual, we were given two or three numbers, rather than one fixed quantity, and asked to estimate on each of them.
+In order to reach some sort of accommodation, a group pulled from NASA, Air Force, ARPA, ABMA, and the Office of the Department of Defense Research and Engineering formed under the Silverstein Committee in December. von Braun was skeptical of liquid hydrogen as an upper stage fuel, but the Committee convinced him that it was the way to go on future upper stage development. Once these changes had been made, NASA's booster project was now entirely free of any dependence on military developments. At that point any sort of upper stage was fair game, and "If these propellants are to be accepted for the difficult top-stage applications", the committee concluded, "there seem to be no valid engineering reasons for not accepting the use of high-energy propellants for the less difficult application to intermediate stages".
+
+The Committee outlined a number of different potential launch configurations, grouped into three broad categories. The "A" group were low-risk versions similar to the Saturn designs proposed prior to the meeting; the original design using Titan and Centaur upper stages became the A-1, while another model replacing the Titan with a cluster of IRBMs became A-2. The B-1 design proposed a new second stage replacing the A-2s cluster with a new four-engine design using the H-1 like the lower stage. Finally, there were three C-series models that replaced all of the upper stages with liquid hydrogen ones. The C-1 used the existing S-I clustered lower, adding the new S-IV stage with four new 15,000 to 20,000 lbf (67 to 89 kN) engines, and keeping the two-engine Centaur on top, now to be known as the S-V stage. The C-II model added a new S-III stage with two new 150,000 to 200,000 lbf (670 to 890 kN) engines, keeping the S-IV and S-V on top. Finally, the C-3 configuration added the S-II stage with four of these same engines, keeping only the S-III and S-IV on top. The C models easily outperformed the A's and B's, with the added advantage that they were interchangeable and could be built up in order to fit any needed payload requirement.
+
+Saturn emerges
+Of these new stage designs, only the S-IV would ever be delivered, and not in the form that was drawn up in the Committee report. In order to meet development schedules a cluster of six Centaur engines were placed in the new 220-inch (5.6 m) stage to produce the "new" S-IV of roughly the same performance as the original four upgraded engines. A large number of small engines are less efficient and more problematic than a smaller number of large engines, and this made it a target for an early upgrade to a single J-2. The resulting stage, the S-IVB, improved performance so much that the Saturn was able to launch the Apollo CSM, proving invaluable during the Apollo Project.
+
+In the end, the Titan C was never delivered, and the Air Force instead turned to "thrust augmented" Titan II's using clustered solid-fuel rockets. These new designs, the Titan III's, became the DoD's main heavy-lift launch vehicle for decades afterward as it cost significantly less to manufacture and fly, in part due to using hypergolic propellants that could be stored at room temperature. An important factor in this decision was that the DoD preferred to have a launch vehicle that they were in complete control of instead of having to share the Saturn with NASA (of all Titan III/IV vehicles launched during its 40-year run, only a handful carried NASA payloads). Likewise, the development of the Titan III eliminated the need for the "flexible" staging concepts of the Saturn, which was now only intended to be used for crewed launches in the Apollo program. With the need for flexibility in launch configuration removed, most of these designs were subsequently dropped. Only the S-V survived in its original form, while the S-IV would appear in modified form and the Saturn V would feature an entirely different S-II stage.
+
+The Saturn I made its maiden flight on 27 October 1961 with a dummy upper stage and partially fueled first stage. Tension in the blockhouse was high as no launch vehicle to date had been successful on the first attempt and there was the widespread fear of a pad explosion. As the Saturn was the largest booster yet flown, such an event was sure to be extremely destructive, possibly putting the launch complex out of use for six months.
+
+In the end, however, these worries subsided as the booster lifted and performed a flawless test flight. Three more flights with dummy upper stages followed over the next 17 months, which were all completely or mostly successful. Two of them had the S-IV filled with water and detonated at high altitude after stage separation to form an ice cloud that was then photographed.
+
+
+Von Braun, with JFK pointing at Saturn I at Cape Canaveral on 16 November 1963, weeks prior to its launch
+Flight #5 in January 1964 was the first to carry a live S-IV, which restarted its engine in orbit to boost to a high altitude where it would remain until decaying two years later. Another two flights followed during the year with boilerplate Apollo CSMs.
+
+By this point, however, the advent of the Titan III had robbed the Saturn of a role as a DoD launcher and with the newer, improved Saturn IB in development (as the Apollo CSM ended up being heavier than originally expected and so needed a more powerful launch vehicle), the booster quickly became orphaned and no practical use could be found for it.
+
+Uses in service
+The main payload of the Saturn I was the boilerplate version of the Apollo Command and Service Modules and Launch Escape System. The final three also carried Pegasus micrometeroid satellites in the second stage-spacecraft adapter.
+
+The Saturn I was considered at one time for launch of the X-20 Dyna-Soar spaceplane, and later, for launching a Gemini capsule on a proposed lunar mission.
+
+Much later, Saturn I was also considered as a short range ballistic missile system in the TABAS concept. TABAS armed the Saturn with 25 metric tons (55,000 lb) of conventional weapons in a mechanical carrier system that ensured that the missile would hit and destroy an enemy runway, knocking it out of action for three days. The system was considered too dangerous to deploy; when launched it would appear to be a nuclear strike and might invite a response-in-kind.
             '''
 
     },
 
     "Saturn IB": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Saturn IB",
+        "Agency": "NASA",
+        "Manufacturer": "Chrysler/Douglas",        
+        "Class": "Heavy",
+        "Payload Capacity to LEO": "21,000 kg (46,000 lbs)",
+        "payload_int": 21000,
+        "Height": "43.2 m (141.6 ft)",
+        "height_int": 43.2,
+        "Diameter": "6.61 m (21.67 ft)",
+        "diameter_int": 6.61,
+        "Mass": "589,770 kg (1,300,220 lbs)",
+        "mass_int": 589770,
+        "Years in Operation": "1966-1975",
+        "firstyear_int": 1966,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "2",
+        "Burn Time": "S1: 150 sec, S2: 480 sec",
+        "total_burntime_int": 630,
+        "Thrust": "S1: 7,100 kN, S2: 890 kN",
+        "initial_thrust_int": 7100,
+        "ISP": "S1: 272 sec, S2: 420 sec",
+        "asl_isp_int": 272,
+        "vac_isp_int": 420,
+        "Cost Per Launch": "$880,120,857",
+        "cost_int": 880120857,
+        "Fuel Type": "S1: RP-1/LOX, S2: LH2/LOX",
+        "Total Launches": "9",
+        "total_launches_int": 9,
+        "Successful Launches": "9",
+        "successful_launches_int": 9,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
+        "Image": "Saturn1B.png",
        "Additional Information":
             '''
-    
+The Saturn IB (pronounced "Saturn one bee", also known as the uprated Saturn I) was an American launch vehicle commissioned by the National Aeronautics and Space Administration (NASA) for the Apollo program. It replaced the S-IV second stage of the Saturn I with the much more powerful S-IVB, able to launch a partially fueled Apollo command and service module (CSM) or a fully fueled Apollo Lunar Module (LM) into low Earth orbit for early flight tests before the larger Saturn V needed for lunar flight was ready.
+
+By sharing the S-IVB upper stage, the Saturn IB and Saturn V provided a common interface to the Apollo spacecraft. The only major difference was that the S-IVB on the Saturn V burned only part of its propellant to achieve Earth orbit, so it could be restarted for trans-lunar injection. The S-IVB on the Saturn IB needed all of its propellant to achieve Earth orbit.
+
+The Saturn IB launched two uncrewed CSM suborbital flights to a height of 162km, one uncrewed LM orbital flight, and the first crewed CSM orbital mission (first planned as Apollo 1, later flown as Apollo 7). It also launched one orbital mission, AS-203, without a payload so the S-IVB would have residual liquid hydrogen fuel. This mission supported the design of the restartable version of the S-IVB used in the Saturn V, by observing the behavior of the liquid hydrogen in weightlessness.
+
+In 1973, the year after the Apollo lunar program ended, three Apollo CSM/Saturn IBs ferried crews to the Skylab space station. In 1975, one last Apollo/Saturn IB launched the Apollo portion of the joint US-USSR Apollo–Soyuz Test Project (ASTP). A backup Apollo CSM/Saturn IB was assembled and made ready for a Skylab rescue mission, but never flown.
+
+The remaining Saturn IBs in NASA's inventory were scrapped after the ASTP mission, as no use could be found for them and all heavy lift needs of the US space program could be serviced by the cheaper and more versatile Titan III family.
+
+In 1959, NASA's Silverstein Committee issued recommendations to develop the Saturn class launch vehicles, growing from the C-1. When the Apollo program was started in 1961 with the goal of landing men on the Moon, NASA chose the Saturn I for Earth orbital test missions. However, the Saturn I's payload limit of 20,000 pounds (9,100 kg) to 162km would allow testing of only the command module with a smaller propulsion module attached, as the command and service module would have a dry weight of at least 26,300 pounds (11,900 kg), in addition to service propulsion and reaction control fuel. In July 1962, NASA announced selection of the C-5 for the lunar landing mission, and decided to develop another launch vehicle by upgrading the Saturn I, replacing its S-IV second stage with the S-IVB, which would also be modified for use as the Saturn V third stage. The S-I first stage would also be upgraded to the S-IB by improving the thrust of its engines and removing some weight. The new Saturn IB, with a payload capability of at least 35,000 pounds (16,000 kg),[4] would replace the Saturn I for Earth orbit testing, allowing the command and service module to be flown with a partial fuel load. It would also allow launching the 32,000-pound (15,000 kg) lunar excursion module separately for uncrewed and crewed Earth orbital testing, before the Saturn V was ready to be flown. It would also give early development to the third stage.[2]
+
+On May 12, 1966, NASA announced the vehicle would be called the "uprated Saturn I", at the same time the "lunar excursion module" was renamed the lunar module. However, the "uprated Saturn I" terminology was reverted to Saturn IB on December 2, 1967.
+
+By the time it was developed, the Saturn IB payload capability had increased to 41,000 pounds (19,000 kg). By 1973, when it was used to launch three Skylab missions, the first-stage engine had been upgraded further, raising the payload capability to 46,000 pounds (21,000 kg).
+
+The first five Saturn IB launches for the Apollo program were made from LC-34 and LC-37, Cape Kennedy Air Force Station.
+
+The Saturn IB was used between 1973 and 1975 for three crewed Skylab flights, and one Apollo-Soyuz Test Project flight. This final production run did not have alternating black and white S-IB stage tanks, or vertical stripes on the S-IVB aft tank skirt, which were present on the earlier vehicles. Since LC-34 and 37 were inactive by then, these launches utilized Kennedy Space Center's LC-39B.Mobile Launcher Platform No. 1 was modified, adding an elevated platform known as the "milkstool" to accommodate the height differential between the Saturn IB and the much larger Saturn V.[8] This enabled alignment of the Launch Umbilical Tower's access arms to accommodate crew access, fueling, and ground electrical connections for the Apollo spacecraft and S-IVB upper stage. The tower's second stage access arms were modified to service the S-IB first stage.
+
+
             '''
 
     },
 
     "Saturn INT-21": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Saturn INT-21",
+        "Agency": "NASA",
+        "Manufacturer": "Boeing",        
+        "Class": "Very Heavy",
+        "Payload Capacity to LEO": "87,880 kg (193,740 lbs)",
+        "payload_int": 87880,
+        "Height": "80 m (262.47 ft)",
+        "height_int": 80,
+        "Diameter": "10.06 m (33.0 ft)",
+        "diameter_int": 10.06,
+        "Mass": "2,916,080 kg (6,428,860 lbs)",
+        "mass_int": 2916080,
+        "Years in Operation": "1973*",
+        "firstyear_int": 1973,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Canceled",
+        "Number of Stages": "2",
+        "Burn Time": "S1: 150 sec, S2: 360 sec",
+        "total_burntime_int": 510,
+        "Thrust": "S1: 34,020 kN, S2: 5,000 kN",
+        "initial_thrust_int": 34020,
+        "ISP": "S1: Unknown, S2: Unknown",
+        "asl_isp_int": None,
+        "vac_isp_int": None,
+        "Cost Per Launch": "N/A",
+        "cost_int": None,
+        "Fuel Type": "S1: RP-1/LOX, S2: LH2/LOX",
+        "Total Launches": "0",
+        "total_launches_int": 0,
+        "Successful Launches": "0",
+        "successful_launches_int": 0,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
+        "Image": "SaturnINT21.png",
        "Additional Information":
             '''
-    
+The Saturn INT-21 was a study for an American orbital launch vehicle of the 1970s. It was derived from the Saturn V rocket used for the Apollo program, using its first and second stages, but lacking the third stage. The guidance unit would be moved from the top of the third stage to the top of the second stage. The INT-21 was never flown.
+
+A related variant was launched once, from the Kennedy Space Center, Florida carrying the Skylab space station into orbit, at 17:30 UTC, on May 14, 1973.[2] As Skylab was built from an S-IVB stage, there was no need to move the guidance unit. This version was intended to be used for other flights in the Apollo Applications Program, and would have also been used to launch other American space stations, including Skylab B.
             '''
 
     },

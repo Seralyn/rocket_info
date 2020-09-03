@@ -491,8 +491,9 @@ class Ui_MainWindow(object):
         self.actionCopy.triggered.connect(self.textBrowser.copy)   #figure out how to make copy and paste work. The documentation lies about it.
         #self.actionPaste.triggered.connect(self.paste)
 
-
+# ********* Tool Bar Connections **********
         self.actionPrint.triggered.connect(self.printButtonClicked)
+        self.actionCompare.triggered.connect(self.compareButtonClicked)
 
 
      # ***** Placing, Naming, Setting Tool and Status tips for Toolbar Items ******   
@@ -527,7 +528,18 @@ class Ui_MainWindow(object):
 
     # ********** Toolbar Button Click Methods **********
 
-    
+    # def compareButtonClicked(self):
+    #     #repopulate current sorted list with checkable versions of those items
+    #     self.listWidget.clear()
+
+    #     for i in range(len(self.listWidget)):
+    #         item = QtWidgets.QListWidgetItem(i)
+    #         item.setFlags(item.flags() | QtCore.Qt.ItemIsUserCheckable)
+    #         item.setCheckState(QtCore.Qt.Unchecked)
+    #     # for rocket in ascending_alphabetical_rocket_choices:   
+    #         self.listWidget.addItem(i)
+    #         self.addFlags()
+
 
     def printButtonClicked(self):
         selectedItem = self.listWidget.currentItem()
@@ -728,8 +740,11 @@ ESA: European Space Agency
 CNES: Centre national d'études spatiales
 JAXA: Japan Aerospace and Exploration Agency
 ASI: Italian Space Agency
-USAF - United States Air Force
+USAF: United States Air Force
+USSF: United States Space Force
+DARPA: Defense Advanced Research Projects Agency
 ELDO: European Launcher Development Organisation
+ABMA: Army Ballistic Missile Agency
              -Orbits-
 LEO: Low Earth Orbit
 MEO: Mid Earth Orbit
@@ -751,6 +766,7 @@ UDMH: Unsymmetrical Dimethylhydrazine
 MMH: Monomethyl Hydrazine
 APCP: Ammonium Perchlorate Composite Propellant
 NEPE: Nitrate Ester Plasticized Polyether
+JP-4: Jet Propellant 4
 
             ''')
         acronymDlg.exec_()
