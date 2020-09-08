@@ -13,6 +13,14 @@ import ctypes  #this plus the two lines below (beginning with "myappid" and "cty
 myappid = 'mycompany.myproduct.subproduct.version' # arbitrary string
 ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
 
+#******* Sorting Functions (Helper) ***********
+
+def filter_entered(attr_val):
+    if isinstance(attr_val, int):
+        return attr_val
+    return 0
+
+
 ascending_alphabetical_rocket_choices = sorted(rocketDictionary.keys())
 descending_alphabetical_rocket_choices = sorted(rocketDictionary.keys(), reverse=True)
 ascending_country_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Country']))
@@ -21,7 +29,8 @@ ascending_agency_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), k
 descending_agency_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Agency'], reverse=True)) #reverse
 # ascending_height_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['height_int']))
 # descending_height_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['height_int'], reverse=True)) #reverse
-# ascending_mass_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['mass_int']))
+#ascending_mass_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['mass_int']))
+ascending_mass_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: filter_entered(i[1]['mass_int'])))
 # descending_mass_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['mass_int'], reverse=True)) #reverse
 # ascending_diameter_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['diameter_int']))
 # descending_diameter_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['diameter_int'], reverse=True)) #reverse
@@ -490,10 +499,11 @@ class Ui_MainWindow(object):
         self.actionAcronyms.triggered.connect(self.showAcroynmClicked)
         self.actionCopy.triggered.connect(self.textBrowser.copy)   #figure out how to make copy and paste work. The documentation lies about it.
         #self.actionPaste.triggered.connect(self.paste)
+        self.actionLow_to_High.triggered.connect(self.actionMassAscendingClicked)
 
 # ********* Tool Bar Connections **********
         self.actionPrint.triggered.connect(self.printButtonClicked)
-        self.actionCompare.triggered.connect(self.compareButtonClicked)
+        #self.actionCompare.triggered.connect(self.compareButtonClicked)
 
 
      # ***** Placing, Naming, Setting Tool and Status tips for Toolbar Items ******   
@@ -718,6 +728,12 @@ Launch Failures: {rocketDictionary[printRocketName]['Launch Failures']}
     def actionAgencyClicked(self):
         self.listWidget.clear()
         for rocket in ascending_agency_rocket_choices:
+            self.listWidget.addItem(rocket)
+        self.addFlags()
+
+    def actionMassAscendingClicked(self):
+        self.listWidget.clear()
+        for rocket in ascending_mass_rocket_choices:
             self.listWidget.addItem(rocket)
         self.addFlags()
 # **********  Menu-->[Help] Button Click Methods **************
