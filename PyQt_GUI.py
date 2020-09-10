@@ -16,7 +16,7 @@ ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
 #******* Sorting Functions (Helper) ***********
 
 def filter_entered(attr_val):
-    if isinstance(attr_val, int):
+    if isinstance(attr_val, int) or isinstance(attr_val, float):
         return attr_val
     return 0
 
@@ -27,10 +27,30 @@ ascending_country_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), 
 descending_country_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Country'], reverse=True)) #reverse
 ascending_agency_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Agency']))
 descending_agency_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['Agency'], reverse=True)) #reverse
+
+ascending_height_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: filter_entered(i[1]['height_int'])))
+descending_height_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: filter_entered(i[1]['height_int']), reverse=True)) #reverse
+ascending_mass_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: filter_entered(i[1]['mass_int'])))
+descending_mass_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: filter_entered(i[1]['mass_int']), reverse=True)) #reverse
+ascending_diameter_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: filter_entered(i[1]['diameter_int'])))
+descending_diameter_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: filter_entered(i[1]['diameter_int']), reverse=True)) #reverse
+ascending_payload_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: filter_entered(i[1]['payload_int'])))
+descending_payload_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: filter_entered(i[1]['payload_int']), reverse=True)) #reverse
+ascending_cost_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: filter_entered(i[1]['cost_int'])))
+descending_cost_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: filter_entered(i[1]['cost_int']), reverse=True)) #reverse
+ascending_thrust_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: filter_entered(i[1]['initial_thrust_int'])))
+descending_thrust_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: filter_entered(i[1]['initial_thrust_int']), reverse=True)) #reverse
+ascending_asl_isp_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: filter_entered(i[1]['asl_isp_int'])))
+descending_asl_isp_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: filter_entered(i[1]['asl_isp_int']), reverse=True)) #reverse
+ascending_vac_isp_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: filter_entered(i[1]['vac_isp_int'])))
+descending_vac_isp_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: filter_entered(i[1]['vac_isp_int']), reverse=True)) #reverse
+
+
+
+
 # ascending_height_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['height_int']))
 # descending_height_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['height_int'], reverse=True)) #reverse
 #ascending_mass_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['mass_int']))
-ascending_mass_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: filter_entered(i[1]['mass_int'])))
 # descending_mass_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['mass_int'], reverse=True)) #reverse
 # ascending_diameter_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['diameter_int']))
 # descending_diameter_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['diameter_int'], reverse=True)) #reverse
@@ -261,8 +281,51 @@ class Ui_MainWindow(object):
         self.toolBar.setFloatable(False)
         self.toolBar.setObjectName("toolBar")
         MainWindow.addToolBar(QtCore.Qt.TopToolBarArea, self.toolBar)
+
         self.actionIndividual_Rockets = QtWidgets.QAction(MainWindow)
         self.actionIndividual_Rockets.setObjectName("actionIndividual_Rockets")
+        self.actionRocket_Families = QtWidgets.QAction(MainWindow)
+        self.actionRocket_Families.setObjectName("actionRocket_Families")
+
+
+        self.actionAscending = QtWidgets.QAction(MainWindow)
+        self.actionAscending.setObjectName("actionAscending")
+        self.actionDescending = QtWidgets.QAction(MainWindow)
+        self.actionDescending.setObjectName("actionDescending")
+        self.actionHeightLtH = QtWidgets.QAction(MainWindow)
+        self.actionHeightLtH.setObjectName("actionHeightLtH")
+        self.actionHeightHtL = QtWidgets.QAction(MainWindow)
+        self.actionHeightHtL.setObjectName("actionHeightHtL")
+        self.actionDiameterHtL = QtWidgets.QAction(MainWindow)
+        self.actionDiameterHtL.setObjectName("actionDiameterHtL")
+        self.actionDiameterLtH = QtWidgets.QAction(MainWindow)
+        self.actionDiameterLtH.setObjectName("actionDiameterLtH")
+        self.actionMassLtH = QtWidgets.QAction(MainWindow)
+        self.actionMassLtH.setObjectName("actionMassLtH")
+        self.actionMassHtL = QtWidgets.QAction(MainWindow)
+        self.actionMassHtL.setObjectName("actionMassHtL")
+        self.actionCostLtH = QtWidgets.QAction(MainWindow)
+        self.actionCostLtH.setObjectName("actionCostLtH")
+        self.actionCostHtL = QtWidgets.QAction(MainWindow)
+        self.actionCostHtL.setObjectName("actionCostHtL")
+        self.actionThrustLtH = QtWidgets.QAction(MainWindow)
+        self.actionThrustLtH.setObjectName("actionThrustLtH")
+        self.actionThrustHtL = QtWidgets.QAction(MainWindow)
+        self.actionThrustHtL.setObjectName("actionThrustHtL")
+        self.actionPayloadLtH = QtWidgets.QAction(MainWindow)
+        self.actionPayloadLtH.setObjectName("actionPayloadLtH")
+        self.actionPayloadHtL = QtWidgets.QAction(MainWindow)
+        self.actionPayloadHtL.setObjectName("actionPayloadHtL")
+        self.actionISP_ASL_LtH = QtWidgets.QAction(MainWindow)
+        self.actionISP_ASL_LtH.setObjectName("actionISP_ASL_LtH")
+        self.actionISP_ASL_HtL = QtWidgets.QAction(MainWindow)
+        self.actionISP_ASL_HtL.setObjectName("actionISP_ASL_HtL")
+        self.actionISP_VAC_LtH = QtWidgets.QAction(MainWindow)
+        self.actionISP_VAC_LtH.setObjectName("actionISP_VAC_LtH")
+        self.actionISP_VAC_HtL = QtWidgets.QAction(MainWindow)
+        self.actionISP_VAC_HtL.setObjectName("actionISP_VAC_HtL")
+
+
         self.actionCopy = QtWidgets.QAction(MainWindow)
         self.actionCopy.setObjectName("actionCopy")
         self.actionPaste = QtWidgets.QAction(MainWindow)
@@ -275,40 +338,8 @@ class Ui_MainWindow(object):
         self.actionAcronyms.setObjectName("actionAcronyms")
         self.actionLicensing = QtWidgets.QAction(MainWindow)
         self.actionLicensing.setObjectName("actionLicensing")
-        self.actionLow_to_High = QtWidgets.QAction(MainWindow)
-        self.actionLow_to_High.setObjectName("actionLow_to_High")
-        self.actionLow_to_High_2 = QtWidgets.QAction(MainWindow)
-        self.actionLow_to_High_2.setObjectName("actionLow_to_High_2")
-        self.actionLow_to_High_3 = QtWidgets.QAction(MainWindow)
-        self.actionLow_to_High_3.setObjectName("actionLow_to_High_3")
-        self.actionHigh_to_Low = QtWidgets.QAction(MainWindow)
-        self.actionHigh_to_Low.setObjectName("actionHigh_to_Low")
-        self.actionLow_to_High_4 = QtWidgets.QAction(MainWindow)
-        self.actionLow_to_High_4.setObjectName("actionLow_to_High_4")
-        self.actionHigh_to_Low_2 = QtWidgets.QAction(MainWindow)
-        self.actionHigh_to_Low_2.setObjectName("actionHigh_to_Low_2")
-        self.actionLow_to_High_5 = QtWidgets.QAction(MainWindow)
-        self.actionLow_to_High_5.setObjectName("actionLow_to_High_5")
-        self.actionHigh_to_Low_3 = QtWidgets.QAction(MainWindow)
-        self.actionHigh_to_Low_3.setObjectName("actionHigh_to_Low_3")
-        self.actionLow_to_High_6 = QtWidgets.QAction(MainWindow)
-        self.actionLow_to_High_6.setObjectName("actionLow_to_High_6")
-        self.actionAscending = QtWidgets.QAction(MainWindow)
-        self.actionAscending.setObjectName("actionAscending")
-        self.actionDescending = QtWidgets.QAction(MainWindow)
-        self.actionDescending.setObjectName("actionDescending")
-        self.actionHigh_to_Low_4 = QtWidgets.QAction(MainWindow)
-        self.actionHigh_to_Low_4.setObjectName("actionHigh_to_Low_4")
-        self.actionHigh_to_Low_5 = QtWidgets.QAction(MainWindow)
-        self.actionHigh_to_Low_5.setObjectName("actionHigh_to_Low_5")
-        self.actionHigh_to_Low_6 = QtWidgets.QAction(MainWindow)
-        self.actionHigh_to_Low_6.setObjectName("actionHigh_to_Low_6")
-        self.actionLow_to_High_7 = QtWidgets.QAction(MainWindow)
-        self.actionLow_to_High_7.setObjectName("actionLow_to_High_7")
-        self.actionHigh_to_Low_7 = QtWidgets.QAction(MainWindow)
-        self.actionHigh_to_Low_7.setObjectName("actionHigh_to_Low_7")
-        self.actionRocket_Families = QtWidgets.QAction(MainWindow)
-        self.actionRocket_Families.setObjectName("actionRocket_Families")
+
+
         self.actionticke = QtWidgets.QAction(MainWindow)
         self.actionticke.setObjectName("actionticke")
         self.actiontouch = QtWidgets.QAction(MainWindow)
@@ -334,22 +365,27 @@ class Ui_MainWindow(object):
         self.actionAgency.setObjectName("actionAgency")
         self.menuShow.addAction(self.actionIndividual_Rockets)
         self.menuShow.addAction(self.actionRocket_Families)
-        self.menuMass.addAction(self.actionLow_to_High)
-        self.menuMass.addAction(self.actionHigh_to_Low_4)
-        self.menuDiameter.addAction(self.actionLow_to_High_2)
-        self.menuDiameter.addAction(self.actionHigh_to_Low_5)
-        self.menuHeight.addAction(self.actionLow_to_High_3)
-        self.menuHeight.addAction(self.actionHigh_to_Low)
-        self.menuCost_Per_Launch.addAction(self.actionLow_to_High_4)
-        self.menuCost_Per_Launch.addAction(self.actionHigh_to_Low_2)
-        self.menuThrust.addAction(self.actionLow_to_High_5)
-        self.menuThrust.addAction(self.actionHigh_to_Low_3)
-        self.menuPayload_to_LEO.addAction(self.actionLow_to_High_6)
-        self.menuPayload_to_LEO.addAction(self.actionHigh_to_Low_6)
-        self.menuAlphabetical.addAction(self.actionAscending)
+        self.menuMass.addAction(self.actionMassLtH)
+        self.menuMass.addAction(self.actionMassHtL)
+        self.menuDiameter.addAction(self.actionDiameterLtH) #actionDiameterLtH
+        self.menuDiameter.addAction(self.actionDiameterHtL) #actionDiameterHtL
+        self.menuHeight.addAction(self.actionHeightLtH) #actionHeightLtH
+        self.menuHeight.addAction(self.actionHeightHtL) #actionHeightHtL
+        self.menuCost_Per_Launch.addAction(self.actionCostLtH) #actionCostLtH
+        self.menuCost_Per_Launch.addAction(self.actionCostHtL) #actionCostHtL
+        self.menuThrust.addAction(self.actionThrustLtH) #actionThrustLtH
+        self.menuThrust.addAction(self.actionThrustHtL) #actionThrustHtL
+        self.menuPayload_to_LEO.addAction(self.actionPayloadLtH) #actionPayloadLtH
+        self.menuPayload_to_LEO.addAction(self.actionPayloadHtL) #actionPayloadHtL
+        self.menuAlphabetical.addAction(self.actionAscending) 
         self.menuAlphabetical.addAction(self.actionDescending)
-        self.menuISP.addAction(self.actionLow_to_High_7)
-        self.menuISP.addAction(self.actionHigh_to_Low_7)
+
+        self.menuISP.addAction(self.actionISP_ASL_LtH) 
+        self.menuISP.addAction(self.actionISP_ASL_HtL) 
+        self.menuISP.addAction(self.actionISP_VAC_LtH)
+        self.menuISP.addAction(self.actionISP_VAC_HtL)
+
+
         self.menuSort.addAction(self.menuAlphabetical.menuAction())
         self.menuSort.addAction(self.menuPayload_to_LEO.menuAction())
         self.menuSort.addAction(self.menuMass.menuAction())
@@ -444,38 +480,45 @@ class Ui_MainWindow(object):
         self.actionAcronyms.setStatusTip(_translate("MainWindow", "A list of acronyms used in this program and what they stand for"))
         self.actionLicensing.setText(_translate("MainWindow", "Licensing"))
         self.actionLicensing.setStatusTip(_translate("MainWindow", "Information about the license and attributing"))
-        self.actionLow_to_High.setText(_translate("MainWindow", "Low to High"))
-        self.actionLow_to_High.setStatusTip(_translate("MainWindow", "Sort rockets by their mass on the launchpad from lightest to heaviest"))
-        self.actionLow_to_High_2.setText(_translate("MainWindow", "Low to High"))
-        self.actionLow_to_High_2.setStatusTip(_translate("MainWindow", "Sort rockets by their diameter from narrowest to widest"))
-        self.actionLow_to_High_3.setText(_translate("MainWindow", "Low to High"))
-        self.actionLow_to_High_3.setStatusTip(_translate("MainWindow", "Sort rockets by their height from shortest to tallest"))
-        self.actionHigh_to_Low.setText(_translate("MainWindow", "High to Low"))
-        self.actionHigh_to_Low.setStatusTip(_translate("MainWindow", "Sort rockets by their height from tallest to shortest"))
-        self.actionLow_to_High_4.setText(_translate("MainWindow", "Low to High"))
-        self.actionLow_to_High_4.setStatusTip(_translate("MainWindow", "Sort rockets by their cost to launch from least expensive to most expensive"))
-        self.actionHigh_to_Low_2.setText(_translate("MainWindow", "High to Low"))
-        self.actionHigh_to_Low_2.setStatusTip(_translate("MainWindow", "Sort rockets by their cost to launch from most expensive to least expensive"))
-        self.actionLow_to_High_5.setText(_translate("MainWindow", "Low to High"))
-        self.actionLow_to_High_5.setStatusTip(_translate("MainWindow", "Sort rockets by their thrust in kilonewtons from least to most"))
-        self.actionHigh_to_Low_3.setText(_translate("MainWindow", "High to Low"))
-        self.actionHigh_to_Low_3.setStatusTip(_translate("MainWindow", "Sort rockets by their thrust in kilonewtons from highest to lowest"))
-        self.actionLow_to_High_6.setText(_translate("MainWindow", "Low to High"))
-        self.actionLow_to_High_6.setStatusTip(_translate("MainWindow", "Sort rockets by their lifting capacity to Low Earth Orbit from lowest to highest"))
+        self.actionMassLtH.setText(_translate("MainWindow", "Low to High"))
+        self.actionMassLtH.setStatusTip(_translate("MainWindow", "Sort rockets by their mass on the launchpad from lightest to heaviest"))
+        self.actionDiameterLtH.setText(_translate("MainWindow", "Low to High"))
+        self.actionDiameterLtH.setStatusTip(_translate("MainWindow", "Sort rockets by their diameter from narrowest to widest"))
+        self.actionHeightLtH.setText(_translate("MainWindow", "Low to High"))
+        self.actionHeightLtH.setStatusTip(_translate("MainWindow", "Sort rockets by their height from shortest to tallest"))
+        self.actionHeightHtL.setText(_translate("MainWindow", "High to Low"))
+        self.actionHeightHtL.setStatusTip(_translate("MainWindow", "Sort rockets by their height from tallest to shortest"))
+        self.actionCostLtH.setText(_translate("MainWindow", "Low to High"))
+        self.actionCostLtH.setStatusTip(_translate("MainWindow", "Sort rockets by their cost to launch from least expensive to most expensive"))
+        self.actionCostHtL.setText(_translate("MainWindow", "High to Low"))
+        self.actionCostHtL.setStatusTip(_translate("MainWindow", "Sort rockets by their cost to launch from most expensive to least expensive"))
+        self.actionThrustLtH.setText(_translate("MainWindow", "Low to High"))
+        self.actionThrustLtH.setStatusTip(_translate("MainWindow", "Sort rockets by their thrust in kilonewtons from least to most"))
+        self.actionThrustHtL.setText(_translate("MainWindow", "High to Low"))
+        self.actionThrustHtL.setStatusTip(_translate("MainWindow", "Sort rockets by their thrust in kilonewtons from highest to lowest"))
+        self.actionPayloadLtH.setText(_translate("MainWindow", "Low to High"))
+        self.actionPayloadLtH.setStatusTip(_translate("MainWindow", "Sort rockets by their lifting capacity to Low Earth Orbit from lowest to highest"))
         self.actionAscending.setText(_translate("MainWindow", "Ascending"))
         self.actionAscending.setStatusTip(_translate("MainWindow", "Sort rockets in ascending order (A to Z)"))
         self.actionDescending.setText(_translate("MainWindow", "Descending"))
         self.actionDescending.setStatusTip(_translate("MainWindow", "Sort rockets in descending order(Z to A)"))
-        self.actionHigh_to_Low_4.setText(_translate("MainWindow", "High to Low"))
-        self.actionHigh_to_Low_4.setStatusTip(_translate("MainWindow", "Sort rockets by their mass on the launchpad from heaviest to lightest"))
-        self.actionHigh_to_Low_5.setText(_translate("MainWindow", "High to Low"))
-        self.actionHigh_to_Low_5.setStatusTip(_translate("MainWindow", "Sort rockets by their diameter from widest to narrowest"))
-        self.actionHigh_to_Low_6.setText(_translate("MainWindow", "High to Low"))
-        self.actionHigh_to_Low_6.setStatusTip(_translate("MainWindow", "Sort rockets by their lifting capacity to Low Earth Orbit from highest to lowest"))
-        self.actionLow_to_High_7.setText(_translate("MainWindow", "Low to High"))
-        self.actionLow_to_High_7.setStatusTip(_translate("MainWindow", "Sort rockets by their specific impulse from least to most"))
-        self.actionHigh_to_Low_7.setText(_translate("MainWindow", "High to Low"))
-        self.actionHigh_to_Low_7.setStatusTip(_translate("MainWindow", "Sort rockets by their specific impulse from most to least"))
+        self.actionMassHtL.setText(_translate("MainWindow", "High to Low"))
+        self.actionMassHtL.setStatusTip(_translate("MainWindow", "Sort rockets by their mass on the launchpad from heaviest to lightest"))
+        self.actionDiameterHtL.setText(_translate("MainWindow", "High to Low"))
+        self.actionDiameterHtL.setStatusTip(_translate("MainWindow", "Sort rockets by their diameter from widest to narrowest"))
+        self.actionPayloadHtL.setText(_translate("MainWindow", "High to Low"))
+        self.actionPayloadHtL.setStatusTip(_translate("MainWindow", "Sort rockets by their lifting capacity to Low Earth Orbit from highest to lowest"))
+        
+        self.actionISP_ASL_LtH.setText(_translate("MainWindow", "ASL - Low to High"))
+        self.actionISP_ASL_LtH.setStatusTip(_translate("MainWindow", "Sort rockets by their specific impulse at sea level from least to most"))
+        self.actionISP_ASL_HtL.setText(_translate("MainWindow", "ASL - High to Low"))
+        self.actionISP_ASL_HtL.setStatusTip(_translate("MainWindow", "Sort rockets by their specific impulse at sea level from most to least"))
+        
+        self.actionISP_VAC_LtH.setText(_translate("MainWindow", "Vac - Low to High"))
+        self.actionISP_VAC_LtH.setStatusTip(_translate("MainWindow", "Sort rockets by their specific impulse in vacuum from least to most"))
+        self.actionISP_VAC_HtL.setText(_translate("MainWindow", "Vac - High to Low"))
+        self.actionISP_VAC_HtL.setStatusTip(_translate("MainWindow", "Sort rockets by their specific impulse in vacuum from most to least"))
+        
         self.actionRocket_Families.setText(_translate("MainWindow", "Rocket Families"))
         self.actionRocket_Families.setStatusTip(_translate("MainWindow", "Show rocket families"))
         self.actionCountry.setText(_translate("MainWindow", "Country"))
@@ -487,26 +530,59 @@ class Ui_MainWindow(object):
         self.actionstrongly.setText(_translate("MainWindow", "strongly"))
         self.actionmildly.setText(_translate("MainWindow", "mildly"))
 
-     # ******* Menu Bar Connections ******
+         
+         
+         # ****************** Menu Bar Connections ***************************
+
+# **** Show Menu ****
+        #self.actionShowIndividual.triggered.connect(self.showIndivid)  #placeholders for when these actions are written
+        #self.actionShowFamilies.triggered.connect(self.showFams)   #placeholders for when these actions are written
+
+# **** Sort Menu ****
+    # *** High to Low Functions ***
         self.actionDescending.triggered.connect(self.actionDescendingClicked)
         self.actionAscending.triggered.connect(self.actionAscendingClicked)
+        self.actionHeightLtH.triggered.connect(self.actionHeightAscendingClicked)
+        self.actionHeightHtL.triggered.connect(self.actionHeightDescendingClicked)
+        self.actionDiameterLtH.triggered.connect(self.actionDiameterAscendingClicked)
+        self.actionDiameterHtL.triggered.connect(self.actionDiameterDescendingClicked)
+        self.actionMassLtH.triggered.connect(self.actionMassAscendingClicked)
+        self.actionMassHtL.triggered.connect(self.actionMassDescendingClicked)
+        self.actionPayloadLtH.triggered.connect(self.actionPayloadAscendingClicked)
+        self.actionPayloadHtL.triggered.connect(self.actionPayloadDescendingClicked)
+        self.actionCostLtH.triggered.connect(self.actionCostAscendingClicked)
+        self.actionCostHtL.triggered.connect(self.actionCostDescendingClicked)
+        self.actionThrustLtH.triggered.connect(self.actionThrustAscendingClicked)
+        self.actionThrustHtL.triggered.connect(self.actionThrustDescendingClicked)
+        self.actionISP_ASL_LtH.triggered.connect(self.actionISP_ASL_AscendingClicked)
+        self.actionISP_ASL_HtL.triggered.connect(self.actionISP_ASL_DescendingClicked)
+        self.actionISP_VAC_LtH.triggered.connect(self.actionISP_Vac_AscendingClicked)
+        self.actionISP_VAC_HtL.triggered.connect(self.actionISP_Vac_DescendingClicked)
+
+    
+    # *** One Sort-Only Functions ***
         self.actionCountry.triggered.connect(self.actionCountryAscendingClicked)
-        #self.actionAcronyms.triggered.connect(self.actionCountryDescendingClicked)
         self.actionAgency.triggered.connect(self.actionAgencyClicked)
+
+# **** Edit Menu ****
+        self.actionCopy.triggered.connect(self.textBrowser.copy)   #figure out how to make copy and paste work. The documentation lies about it.
+        #self.actionPaste.triggered.connect(self.paste)
+
+
+# **** Help Menu ****
         self.actionVersion.triggered.connect(self.showVersionClicked)
         self.actionAbout.triggered.connect(self.showAboutClicked)
         self.actionLicensing.triggered.connect(self.showLicensingClicked)
         self.actionAcronyms.triggered.connect(self.showAcroynmClicked)
-        self.actionCopy.triggered.connect(self.textBrowser.copy)   #figure out how to make copy and paste work. The documentation lies about it.
-        #self.actionPaste.triggered.connect(self.paste)
-        self.actionLow_to_High.triggered.connect(self.actionMassAscendingClicked)
+        
 
-# ********* Tool Bar Connections **********
+
+        # *************** Tool Bar Connections ******************
         self.actionPrint.triggered.connect(self.printButtonClicked)
         #self.actionCompare.triggered.connect(self.compareButtonClicked)
 
 
-     # ***** Placing, Naming, Setting Tool and Status tips for Toolbar Items ******   
+        # ***** Placing, Naming, Setting Tool and Status tips for Toolbar Items ******   
         self.actionCompare.setText(_translate("MainWindow", "Compare"))
         self.actionCompare.setToolTip(_translate("MainWindow", "<html><head/><body><p style=\"color : black\">Compare two rockets</p></body></html>"))
         self.actionCompare.setStatusTip(_translate("MainWindow", "Compare two rockets"))
@@ -700,6 +776,13 @@ Launch Failures: {rocketDictionary[printRocketName]['Launch Failures']}
                 self.listWidget.item(i).setHidden(True)
             else: 
                 self.listWidget.item(i).setHidden(False)
+
+
+    def actionShowIndivid(self):
+        self.listWidget.clear()
+        for rocket in ascending_alphabetical_rocket_choices:   
+            self.listWidget.addItem(rocket)
+        self.addFlags()
             
 
     def actionAscendingClicked(self):
@@ -719,6 +802,7 @@ Launch Failures: {rocketDictionary[printRocketName]['Launch Failures']}
         for rocket in ascending_country_rocket_choices:
             self.listWidget.addItem(rocket)
         self.addFlags()
+    
     # def actionCountryDescendingClicked(self):
     #     for i in range(len(self.listWidget)):
     #         self.listWidget.clear()
@@ -731,9 +815,99 @@ Launch Failures: {rocketDictionary[printRocketName]['Launch Failures']}
             self.listWidget.addItem(rocket)
         self.addFlags()
 
+    def actionHeightAscendingClicked(self):
+        self.listWidget.clear()
+        for rocket in ascending_height_rocket_choices:
+            self.listWidget.addItem(rocket)
+        self.addFlags()
+
+    def actionHeightDescendingClicked(self):
+        self.listWidget.clear()
+        for rocket in descending_height_rocket_choices:
+            self.listWidget.addItem(rocket)
+        self.addFlags()
+
+    def actionDiameterAscendingClicked(self):
+        self.listWidget.clear()
+        for rocket in ascending_diameter_rocket_choices:
+            self.listWidget.addItem(rocket)
+        self.addFlags()
+
+    def actionDiameterDescendingClicked(self):
+        self.listWidget.clear()
+        for rocket in descending_diameter_rocket_choices:
+            self.listWidget.addItem(rocket)
+        self.addFlags()
+    
     def actionMassAscendingClicked(self):
         self.listWidget.clear()
         for rocket in ascending_mass_rocket_choices:
+            self.listWidget.addItem(rocket)
+        self.addFlags()
+
+    def actionMassDescendingClicked(self):
+        self.listWidget.clear()
+        for rocket in descending_mass_rocket_choices:
+            self.listWidget.addItem(rocket)
+        self.addFlags()
+
+    def actionPayloadAscendingClicked(self):
+        self.listWidget.clear()
+        for rocket in ascending_payload_rocket_choices:
+            self.listWidget.addItem(rocket)
+        self.addFlags()
+
+    def actionPayloadDescendingClicked(self):
+        self.listWidget.clear()
+        for rocket in descending_payload_rocket_choices:
+            self.listWidget.addItem(rocket)
+        self.addFlags()
+
+    def actionCostAscendingClicked(self):
+        self.listWidget.clear()
+        for rocket in ascending_cost_rocket_choices:
+            self.listWidget.addItem(rocket)
+        self.addFlags()
+
+    def actionCostDescendingClicked(self):
+        self.listWidget.clear()
+        for rocket in descending_cost_rocket_choices:
+            self.listWidget.addItem(rocket)
+        self.addFlags()
+
+    def actionThrustAscendingClicked(self):
+        self.listWidget.clear()
+        for rocket in ascending_thrust_rocket_choices:
+            self.listWidget.addItem(rocket)
+        self.addFlags()
+    
+    def actionThrustDescendingClicked(self):
+        self.listWidget.clear()
+        for rocket in descending_thrust_rocket_choices:
+            self.listWidget.addItem(rocket)
+        self.addFlags()
+
+    def actionISP_ASL_AscendingClicked(self):
+        self.listWidget.clear()
+        for rocket in ascending_asl_isp_rocket_choices:
+            self.listWidget.addItem(rocket)
+        self.addFlags()
+
+    def actionISP_ASL_DescendingClicked(self):
+        self.listWidget.clear()
+        for rocket in descending_asl_isp_rocket_choices:
+            self.listWidget.addItem(rocket)
+        self.addFlags()
+
+    def actionISP_Vac_AscendingClicked(self):
+        self.listWidget.clear()
+        for rocket in ascending_vac_isp_rocket_choices:
+            self.listWidget.addItem(rocket)
+        self.addFlags()
+
+    def actionISP_Vac_DescendingClicked(self):
+        self.listWidget.clear()
+        for rocket in descending_vac_isp_rocket_choices:
             self.listWidget.addItem(rocket)
         self.addFlags()
 # **********  Menu-->[Help] Button Click Methods **************
@@ -761,6 +935,10 @@ USSF: United States Space Force
 DARPA: Defense Advanced Research Projects Agency
 ELDO: European Launcher Development Organisation
 ABMA: Army Ballistic Missile Agency
+INTA: Instituto Nacional de Técnica Aeroespacial
+SSIA: Space Services Inc. of America
+EER: 
+
              -Orbits-
 LEO: Low Earth Orbit
 MEO: Mid Earth Orbit
@@ -769,6 +947,7 @@ GEO: Geostationary Orbit
 GTO: Geostationary Transfer Orbit
 SSO: Sun-Synchronous Orbit (Polar Orbit)
 TLI: Trans Lunar Injection
+
              -Fuel Types-
 SRB: Solid Rocket Booster
 ISP: Specific Impulse
@@ -783,6 +962,9 @@ MMH: Monomethyl Hydrazine
 APCP: Ammonium Perchlorate Composite Propellant
 NEPE: Nitrate Ester Plasticized Polyether
 JP-4: Jet Propellant 4
+
+ICBM: Intercontinental Ballistic Missile
+IRBM: Intermediate Range Ballistic Missile
 
             ''')
         acronymDlg.exec_()

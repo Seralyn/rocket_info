@@ -1295,7 +1295,7 @@ Blue Origin submitted a proposal to replace the Exploration Upper Stage with an 
             Blue Origin indicated that the new rocket would be many times larger than 
             New Shepard even though it would be the smallest of the family of Blue Origin 
             orbital vehicles. Blue Origin publicly released the high-level design of 
-            the vehicle—and announced the name New Glenn—in September 2016.
+            the vehicle, and announced the name New Glenn, in September 2016.
             '''
     },
 
@@ -1814,9 +1814,9 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
         "Class": "Light",
         "Payload Capacity to LEO": "1430-1960 kg (3152-4321 lbs)",
         "payload_int": 1960,
-        "Height": "30 metres (98 ft)",
+        "Height": "30 m (98 ft)",
         "height_int": 30,
-        "Diameter": "3 metres (9.8 ft)",
+        "Diameter": "3 m (9.8 ft)",
         "diameter_int": 3,        
         "Mass": "137,000 kilograms (302,000 lbs)",
         "mass_int": 137000,        
@@ -5864,129 +5864,145 @@ Moon Express contracted Rocket lab to launch lunar landers (multiple launches co
 
     "Energia": {
 
-        "Name": "",
-        "Agency": "",
+        "Name": "Energia",
+        "Agency": "Roscosmos",
         "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Class": "Very Heavy",
+        "Payload Capacity to LEO": "100,000 kg (220,000 lbs)",
+        "payload_int": 100000,
+        "Height": "58.76 m (192.80 ft)",
+        "height_int": 58.8,
+        "Diameter": "17.65 m (57.9 ft)",
+        "diameter_int": 17.7,
+        "Mass": "2,400,000 kg (5,300,000 lb)",
+        "mass_int": 2400000,
+        "Years in Operation": "1987-1988",
+        "firstyear_int": 1987,
         "Country": "Russia",
         "flag_icon": "flags/russia.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "2",
+        "Burn Time": "Boosters: 156 sec, Core: 500 sec",
+        "total_burntime_int": 656,
+        "Thrust": "Boosters: 29,000 kN, Core: 5,800 kN",
+        "initial_thrust_int": 34800,
+        "ISP": "Boosters: 309 sec, Core: 359 sec (ASL)/454 sec (Vac)",
+        "asl_isp_int": 309,
+        "vac_isp_int": 454,
+        "Cost Per Launch": "$1,839,713,420",
+        "cost_int": 1839713420,
+        "Fuel Type": "Boosters: RP-1/LOX, Core: LH2/LOX",
+        "Total Launches": "2",
+        "total_launches_int": 2,
+        "Successful Launches": "2",
+        "successful_launches_int": 2,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
+        "Image": "ENERGIA.png",
        "Additional Information":
             '''
-    
+Energia (Russian: Энергия, romanized: Energiya, lit. 'Energy'; GRAU 11K25) was a super-heavy lift launch vehicle. It was designed by NPO Energia of Soviet Union for a variety of payloads including the Buran spacecraft. Control system main developer enterprise was the Khartron NPO "Electropribor". The Energia used four strap-on boosters each powered by a four-chamber RD-170 engine burning kerosene/LOX, and a central core stage with 4 one-chamber RD-0120 (11D122) engines fueled by liquid hydrogen/LOX.
+
+The launch vehicle had two functionally different operational variants: Energia-Polyus, the initial test configuration, in which the Polyus system was used as a final stage to put the payload into orbit, and Energia-Buran, in which the Buran-class orbiters were the payload and the source of the orbit insertion impulse.
+
+The launch vehicle had the capacity to place about 100 tonnes in Low Earth orbit, up to 20 tonnes to geostationary orbit and up to 32 tonnes via translunar trajectory into lunar orbit.
+
+The launch vehicle made just two flights to orbit before being discontinued. Since 2016, there has been attempts to revive the launch vehicle.
+
+Work on the Energia/Buran system began in 1976 after the decision was made to cancel the unsuccessful N1 rocket. The facilities and infrastructure built for the N1 were reused for Energia (notably the huge horizontal assembly building), just as NASA reused infrastructure designed for the Saturn V in the Space Shuttle program. Energia also replaced the "Vulkan" concept, which was a design based on the Proton (rocket family) and using the same hypergolic propellants, but much larger and more powerful. The "Vulkan" designation was later given to a variation of the Energia which has eight boosters and multiple stages.
+
+The Energia was designed to launch the Soviet "Buran" reusable shuttle, and for that reason was designed to carry its payload mounted on the side of the stack, rather than on the top, as is done with other launch vehicles. Design of the Energia-Buran system assumed that the booster could be used without the Buran orbiter, as a heavy-lift cargo launch vehicle; this configuration was originally given the name "Buran-T". This configuration required the addition of an upper stage to perform the final orbital insertion. The first launch of the Energia was in the configuration of a heavy launch vehicle, with the large Polyus military satellite as a payload, however Polyus failed to correctly perform the orbital insertion.
+
+Due to the termination of the Buran programme the Energia program was concluded after only two launches, and further the payload on the first launch didn't perform the final boost properly. The legacy of Energia/Buran project manifests itself most visibly in form of the RD-170 family of rocket engines, and the Zenit launcher, with the first stage roughly the same as one of the Energia first-stage boosters.
+
+Production of Energia rockets ended with the fall of the Soviet Union and the end of the Buran shuttle project. Ever since, there have been persistent rumors of the renewal of production, but given the current political realities, that is highly unlikely. While the Energia is no longer in production, the Zenit boosters are still in production and in use. The four strap-on liquid-fuel boosters, which burned kerosene and liquid oxygen, were the basis of the Zenit rocket which used the same engines. The engine is the four combustion chamber RD-170. Its derivative, the RD-171, is still used on the Zenit rocket. A half-sized derivative of the engine, the two-chamber RD-180, powers Lockheed Martin's Atlas V rocket, while the single-chamber derivative, the RD-191, has been used to launch the Korean Naro-1 (as a reduced-thrust variant named the RD-151) and the Russian Angara rocket. The RD-181, based on the RD-191, is used on the Antares rocket.
+
+In August 2016, plans were announced to develop a super heavy-lift launch vehicle from existing Energia components instead of pushing the less-powerful Angara A5V project. This would allow Russia to launch missions towards establishing a permanent Moon base with simpler logistics, launching just one or two 80–160-ton super-heavy rockets instead of four 40-ton Angara A5Vs implying quick-sequence launches and multiple in-orbit rendezvous.
             '''
 
     },
 
     "RSA-3": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "RSA-3",
+        "Agency": "S. African Government",
+        "Manufacturer": "Israeli Space Agency/S. African Military",        
+        "Class": "Light",
+        "Payload Capacity to LEO": "330 kg (720 lbs)",
+        "payload_int": 330,
+        "Height": "17.65 m (57.90 ft)",
+        "height_int": 17.65,
+        "Diameter": "1.30 m (4.20 ft)",
+        "diameter_int": 1.3,
+        "Mass": "23,630 kg (52,090 lb)",
+        "mass_int": 23630,
+        "Years in Operation": "1989-1990",
+        "firstyear_int": 1989,
         "Country": "South Africa",
         "flag_icon": "flags/southafrica.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "3",
+        "Burn Time": "S1: 52 sec, S2: 52 sec, S3: 94 sec",
+        "total_burntime_int": 198,
+        "Thrust": "S1: 456 kN, S2: 476 kN, S3: 58,8 kN",
+        "initial_thrust_int": 456,
+        "ISP": "S1: 265 sec, S2: 277 sec, S3: 298 sec",
+        "asl_isp_int": 265,
+        "vac_isp_int": 298,
+        "Cost Per Launch": "Unknown",
+        "cost_int": None,
+        "Fuel Type": "S1: Solid, S2: Solid, S3: Solid",
+        "Total Launches": "Unknown",
+        "total_launches_int": None,
+        "Successful Launches": "Unknown",
+        "successful_launches_int": None,
+        "Launch Failures": "Unknown",
+        "failed_launches_int": None,
+        "Image": "RSA-3.png",
        "Additional Information":
             '''
-    
+Aided by the Israeli government, the RSA-3 seems to be very closely related to the Jericho-2 IRBM and the Shavit-2 LV.
             '''
 
     },
 
     "CHEETAH-1": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "CHEETAH-1 CSLV",
+        "Agency": "None",
+        "Manufacturer": "Marcom Aeronautics & Space",        
+        "Class": "Light",
+        "Payload Capacity to LEO": "1000 kg (2,200 lbs)",
+        "payload_int": 1000,
+        "Height": "Unknown",
+        "height_int": None,
+        "Diameter": "Unknown",
+        "diameter_int": None,
+        "Mass": "62,463 kg (137,707 lbs)",
+        "mass_int": 62463,
+        "Years in Operation": "N/A",
+        "firstyear_int": None,
         "Country": "South Africa",
         "flag_icon": "flags/southafrica.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Under Development",
+        "Number of Stages": "2",
+        "Burn Time": "S1: Unknown, S2: Unknown",
+        "total_burntime_int": None,
+        "Thrust": "S1: 1000 kN, S2: 58 kN",
+        "initial_thrust_int": 1000,
+        "ISP": "S1: Unknown, S2: Unknown",
+        "asl_isp_int": None,
+        "vac_isp_int": None,
+        "Cost Per Launch": "6-8M",
+        "cost_int": 7000000,
+        "Fuel Type": "S1: RP-1/LOX, S2: RP-1/LOX",
+        "Total Launches": "0",
+        "total_launches_int": 0,
+        "Successful Launches": "0",
+        "successful_launches_int": 0,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
+        "Image": "CHEETAH-1.png",
        "Additional Information":
             '''
     
@@ -5996,176 +6012,206 @@ Moon Express contracted Rocket lab to launch lunar landers (multiple launches co
 
     "KSLV-1(Naro)": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "KSLV-1 (Naro)",
+        "Agency": "Govt of S. Korea",
+        "Manufacturer": "KARI",        
+        "Class": "Light",
+        "Payload Capacity to LEO": "100 kg (220 lbs)",
+        "payload_int": 100,
+        "Height": "33 m (108 ft)",
+        "height_int": 33,
+        "Diameter": "3 m (9.9 ft)",
+        "diameter_int": 3,
+        "Mass": "140,000 kg (300,000 lb)",
+        "mass_int": 140000,
+        "Years in Operation": "2009-2013",
+        "firstyear_int": 2009,
         "Country": "South Korea",
         "flag_icon": "flags/southkorea.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "2",
+        "Burn Time": "S1: 300 sec, S2: 25 sec",
+        "total_burntime_int": 325,
+        "Thrust": "S1: 1,900 kN, S2: 86.2 kN",
+        "initial_thrust_int": 1900,
+        "ISP": "S1: 338 sec, S2: 250 sec",
+        "asl_isp_int": 338,
+        "vac_isp_int": 250,
+        "Cost Per Launch": "Unknown",
+        "cost_int": None,
+        "Fuel Type": "S1: RP-1/LOX, S2: RP-1/LOX, S3: Solid",
+        "Total Launches": "3",
+        "total_launches_int": 3,
+        "Successful Launches": "1",
+        "successful_launches_int": 1,
+        "Launch Failures": "2",
+        "failed_launches_int": 2,
+        "Image": "KSLV-I.png",
        "Additional Information":
             '''
-    
+Naro-1 (Korean: 나로호), previously designated the Korea Space Launch Vehicle or KSLV, is South Korea's first carrier rocket, and the first South Korean launch vehicle to achieve Earth orbit. On 30 January 2013, the third Naro-1 vehicle built successfully placed STSAT-2C into low Earth orbit.
+
+The first stage was a modified Russian Angara URM. The solid-fuel second stage was built by KARI, the national space agency of South Korea, and Korean Air.
+
+Neither the maiden flight on 25 August 2009 nor the second flight on 10 June 2010 reached orbit. The third flight on 30 January 2013 successfully reached orbit. The launches took place from the Naro Space Center. The official name of the first KSLV rocket, KSLV-I, is Naro, which is the name of the region in which Naro Space Center is located.
+
+In 1992, Republic of Korea developed and launched several satellite systems and rockets overseas, such as the solid-fueled KSR-1 and KSR-2 sounding rockets. In 2000, Republic of Korea began construction of the Naro Space Center, located on Naro Island in Goheung, 485 kilometres (301 mi) south of Seoul, with Russian assistance. The work was completed by the launch of the 6,000-kilogram (13,000 lb) KSR-3 liquid-propellant sounding rocket on 28 November 2002. South Korea announced in 2002 that it intended to develop a small satellite launch vehicle by 2005 that would be based on technology flown on the KSR-3 test vehicle. The launcher would be entirely indigenous, based on the 122.500-kilonewton (27,539 lbf) thrust LOX/kerosene motor used for the KSR-3 rocket stage. In 2005 a change was announced, indicating that they would use the Russian RD-191 as the vehicle's first stage. The program, like that of the Angara, was subject to continuous funding shortages and schedule delays.
+
+On 26 October 2004, during the visit of a GKNPTs Khrunichev delegation headed by A. A. Medvedev, Director General to Republic of Korea, a contract was signed to design and build a Space Rocket Complex for the small-lift launch vehicle KSLV-1. The design represented a joint effort between GKNPTs Khrunichev partner NPO Energomash "V. P. Glushko", who would build the first stage of KSLV-1, and Republic of Korea KARI, who would design and produce the second stage. As the prerequisite to signing the contract South Korea joined the Missile Technology Control Regime (MTCR). All documentation was reviewed by the Russian Space Agency (RSA), and the joint project to build the Korean rocket complex was approved. The vehicle was unveiled at the Naro Space Center in Goheung, South Jeolla Province in October 2008. South Korea has spent some KR₩ 500 billion (US$ 490 million) since 2002 on the project.
+
+The total cost of the first three launches was over 500 billion won (US$450 million), raising concerns among the Korean populace about the value of the Naro space program.
+
+Republic of Korea efforts to build an indigenous space launch vehicle is hindered due to persistent political pressure of the United States, who had for many decades hindered South Korea's indigenous rocket and missile development programs in fear of their possible connection to clandestine military ballistic missile programs. South Korea has sought the assistance of foreign countries such as Russia through MTCR commitments to supplement its restricted domestic rocket technology. South Korea is working on an engine for an indigenous launcher planned for 2021.
+
+The whole rocket was originally planned to be completely indigenous, but due to technological constraints largely spurred by political pressure from the United States that discouraged independent research and development of rocket technology by South Korea, KARI decided that the KSLV would be built on the basis of the universal rocket module (URM) designed for the Russian Angara family of rockets. The first stage of the vehicle uses the Russian RD-151 engine, which is essentially the RD-191 de-powered to 170 tonnes-force (1.7 MN; 370,000 lbf) from 190 tonnes. The second stage is a solid rocket motor developed and built by KARI. The launch vehicle weighs 140 tonnes (310,000 lb), stands 33 metres (108 ft) tall and has a diameter of almost 3 metres (9 ft 10 in).
             '''
 
     },
 
-    "KSLV-2(Nuri)": {
+     "KSLV-2(Nuri)": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "KSLV-II (Nuri)",
+        "Agency": "Govt of S. Korea",
+        "Manufacturer": "KARI - Korea Aerospace Institute",        
+        "Class": "Medium",
+        "Payload Capacity to LEO": "2,600 kg (5,700 lbs)",
+        "payload_int": 2600,
+        "Height": "47.2 m (155 ft)",
+        "height_int": 47.2,
+        "Diameter": "3.5 m (11 ft)",
+        "diameter_int": 3.5,
+        "Mass": "200,000 kg (440,000 lbs)",
+        "mass_int": 200000,
+        "Years in Operation": "Mid 2020s onward",
+        "firstyear_int": 2025,
         "Country": "South Korea",
         "flag_icon": "flags/southkorea.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Under Developtment",
+        "Number of Stages": "3",
+        "Burn Time": "S1: 127 sec, S2: 148 sec, S3: 498 sec",
+        "total_burntime_int": 773,
+        "Thrust": "S1: 2,612 kN, S2: 788 kN, S3: 69 kN",
+        "initial_thrust_int": 2612,
+        "ISP": "S1: 261.7 sec, S2: 315.4 sec, S3: 325.1 sec",
+        "asl_isp_int": 261.7,
+        "vac_isp_int": 320,
+        "Cost Per Launch": "Unknown",
+        "cost_int": None,
+        "Fuel Type": "S1: Jet A-1/LOX, S2: Jet A-1/LOX, S3: Jet A-1/LOX",
+        "Total Launches": "0",
+        "total_launches_int": 0,
+        "Successful Launches": "0",
+        "successful_launches_int": 0,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
+        "Image": "KSLV-II.png",
        "Additional Information":
             '''
-    
+Nuri (Korean: 누리, meaning "world" ), also known as KSLV-II, is South Korea's second carrier rocket and the successor to KSLV-1. Nuri is under development by KARI / Korea Aerospace Research Institute, and is planned to have its first flight in February 2021. All three stages are planned to use indigenously developed rocket engines. The South Korean government has set SpaceX (founded by Elon Musk, and formed by former McDonnell Douglas and TRW alumni) as a 'role model', striving to develop relatively cheap and reliable rockets competitive enough for the commercial launch market. Currently the goal is to launch a 1,500 kg payload into a 600–800 km low Earth orbit (LEO) and 2,600 kg into a 300 km LEO.
+
+Nuri is a three-stage rocket. The first stage booster uses four KRE-075 SL engines generating 266.4t of thrust with a specific impulse of 289.1s. The second stage booster uses a single KRE-075 Vac. engine, which has a wider nozzle for increased efficiency in vacuum with a specific impulse of 315.4s. The third stage booster uses one KRE-007 engine with a specific impulse of 325.1s. Both engine models use Jet A-1 as fuel and liquid oxygen (LOX) as oxidizer.
+
+Future Versions
+Further improvements will be added after the success of KSLV-II program, mainly increasing the thrust of the KRE-075 from 75.9 tf to 86.6 tf and specific impulse from 261.7s to 315.4s. There are also plans on making the engine lighter by methods such as removing the pyrotechnic ignitor or limiting its gimbal range. This will allow the payload capacity of the modified KSLV-II to increase from 1.5 tons to 2.8 tons.
+
+Nuri will be used in launching several Earth observing satellites, such as KOMPSAT, medium-class satellites and LEO reconnaissance satellites. It is planned to support South Korea's Moon exploration mission to send orbiters and landers. Nuri will be South Korea's first rocket to enter the commercial launch service market. The launch cost is estimated to be around $30 million, which is cheaper than its Asian counterparts. This will allow for South Korea to provide cheap launch services for South East Asian countries.
+
+An improved version of Nuri is expected to launch a Korean lunar lander by 2030.
             '''
 
     },
 
     "KSLV-3": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "KSLV-3",
+        "Agency": "Govt of S. Korea",
+        "Manufacturer": "KARI",        
+        "Class": "Medium",
+        "Payload Capacity to LEO": "1,500 kg (3,300 lbs)",
+        "payload_int": 1500,
+        "Height": "35 m (115 ft)",
+        "height_int": 35,
+        "Diameter": "3.9 m (12.7 ft)",
+        "diameter_int": 3.9,
+        "Mass": "145,000 kg (319,000 lbs)",
+        "mass_int": 145000,
+        "Years in Operation": "N/A",
+        "firstyear_int": None,
         "Country": "South Korea",
         "flag_icon": "flags/southkorea.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Under Development",
+        "Number of Stages": "3",
+        "Burn Time": "S1: 300 sec, S2: 95 sec, S3: 25 sec",
+        "total_burntime_int": 420,
+        "Thrust": "S1: 1,900 kN, S2: 122.5 kN, S3: 86.2 kN",
+        "initial_thrust_int": 1900,
+        "ISP": "S1: 338 sec, S2: 280 sec, S3: 250 sec",
+        "asl_isp_int": 338,
+        "vac_isp_int": 250,
+        "Cost Per Launch": "Unknown",
+        "cost_int": None,
+        "Fuel Type": "S1: RP-1/LOX, S2: RP-1/LOX, S3: Solid",
+        "Total Launches": "0",
+        "total_launches_int": 0,
+        "Successful Launches": "0",
+        "successful_launches_int": 0,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
+        "Image": "KSLV-III.png",
        "Additional Information":
             '''
-    
+A rocket under development by KARI, Korean Aerospace Institute, consisting of a Russian Angara lower stage, though a downgraded version of it. The rest of the parts are original South Korean creations, including the upper stages and kick motors attached to the lower stage. Intended as a Light to Medium class lifter serving South East Asia.
             '''
 
     },
 
+
     "Capricornio": {
 
-        "Name": "",
+        "Name": "Capricornio",
         "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Manufacturer": "INTA - Instituto Nacional de Técnica Aeroespacial",        
+        "Class": "Light",
+        "Payload Capacity to LEO": "140 kg (310 lbs)",
+        "payload_int": 140,
+        "Height": "18.25 m (59.9 ft)",
+        "height_int": 18.25,
+        "Diameter": "1.00 m (3.28 ft)",
+        "diameter_int": 1,
+        "Mass": "15,035 kg (33,147 lbs)",
+        "mass_int": 15035,
+        "Years in Operation": "N/A",
+        "firstyear_int": None,
         "Country": "Spain",
         "flag_icon": "flags/spain.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Canceled",
+        "Number of Stages": "3",
+        "Burn Time": "S1: 61 sec, S2: 35.6 sec, S3: 33.8 sec",
+        "total_burntime_int": 130.4,
+        "Thrust": "S1: 429 kN, S2: 167.9 kN, S3: 50.29 kN",
+        "initial_thrust_int": 429,
+        "ISP": "S1: Unknown, S2: Unknown, S3: Unknown",
+        "asl_isp_int": None,
+        "vac_isp_int": None,
+        "Cost Per Launch": "N/A",
+        "cost_int": None,
+        "Fuel Type": "S1: HTPB, S2: Solid, S3: Solid",
+        "Total Launches": "0",
+        "total_launches_int": 0,
+        "Successful Launches": "0",
+        "successful_launches_int": 0,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
+        "Image": "Capricornio.png",
        "Additional Information":
             '''
-    
+Capricornio was a Spanish satellite launch vehicle developed by the Instituto Nacional de Técnica Aeroespacial (INTA) in the 1990s. It was expected to be a low cost solution to place up to 70 kg payloads into 600 km polar orbits or 60 to 140 kg payloads into low Earth orbit.
+
+Three-stage solid propellant launcher. Overall length of 18.25 m, body diameter of 1.0 m and weighs 15,035 kg at launch.
+
+Stage 1 contains a Thiokol Castor 4B motor with HTPB solid propellant.
+Stage 2 contains a motor named Deneb-F.
+Stage 3 contains a motor named Mizar-B.
             '''
 
     },
@@ -6493,11 +6539,11 @@ Yuzhmash (manufacturing)
 Khartron (control system)
         ''',        
         "Class": "Medium",
-        "Payload Capacity to LEO": "4,500 kilograms (9,900 lbs)",
+        "Payload Capacity to LEO": "4,500 kg (9,900 lbs)",
         "payload_int": 4500,
-        "Height": "34.3 metres (113 ft)",
+        "Height": "34.3 m (113 ft)",
         "height_int": 34.3,
-        "Diameter": "3 metres (9.8 ft)",
+        "Diameter": "3 m (9.8 ft)",
         "diameter_int": 3,
         "Mass": "211,000 kilograms (465,000 lbs)",
         "mass_int": 211000,
@@ -9078,44 +9124,66 @@ All Atlas B launches were conducted from Cape Canaveral Air Force Station, at La
 
     "Atlas-Centaur": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Atlas-Centaur",
+        "Agency": "NASA",
+        "Manufacturer": "Convair",        
+        "Class": "Medium",
+        "Payload Capacity to LEO": "3,630 kg (8,000 lbs)",
+        "payload_int": 3630,
+        "Height": "33 m (108 ft)",
+        "height_int": 33,
+        "Diameter": "3.05 m (10 ft)",
+        "diameter_int": 3.05,
+        "Mass": "136,124 kg (300,102 lb)",
+        "mass_int": 136124,
+        "Years in Operation": "1962-1965",
+        "firstyear_int": 1962,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "3",
+        "Burn Time": "S1: 135 sec, S2: 303 sec, S3: 430 sec",
+        "total_burntime_int": 868,
+        "Thrust": "S1: 1,517 kN, S2: 363.2 kN, S3: 133.45 kN",
+        "initial_thrust_int": 1517,
+        "ISP": "S1: 282 sec, S2: 309 sec, S3: 425 sec",
+        "asl_isp_int": 282,
+        "vac_isp_int": 425,
+        "Cost Per Launch": "$122,906,884",
+        "cost_int": 122906884,
+        "Fuel Type": "S1: RP-1/LOX, S2: RP-1/LOX, S3: LH2/LOX",
+        "Total Launches": "Unknown",
+        "total_launches_int": None,
+        "Successful Launches": "Unknown",
+        "successful_launches_int": None,
+        "Launch Failures": "Unknown",
+        "failed_launches_int": None,
+        "Image": "Atlas-Centaur.png",
        "Additional Information":
             '''
-    
+The Atlas-Centaur was a US expendable launch vehicle derived from the SM-65 Atlas D missile. Launches were conducted from Launch Complex 36 at the Cape Canaveral Air Force Station in Florida.
+
+Convair, the manufacturer of the Atlas, developed the Centaur upper stage specifically for that booster, sharing its pressure stabilized tank structure.
+
+Technical
+Centaur was the first rocket stage to utilize liquid hydrogen (LH2) and liquid oxygen (LOX) as propellants. Despite high performance, LH2 had to be chilled at extremely low temperatures (lower than LOX) and its low density meant that large fuel tanks were needed.
+
+The first attempt at using an LH2/LOX-fueled engine was the Air Force's top-secret Lockheed CL-400 Suntan reconnaissance aircraft program in the mid-1950s. The progress made during the aborted venture was picked up by Convair and others for rocket stage use. Originally, Centaur was conceived of as a purely experimental project to develop an experience for larger, more powerful rocket stages so as not to distract Convair's focus on the all-important SM-65 Atlas missile program.
+
+Convair developed a specially-enhanced version of the Atlas D vehicle for mating with Centaur stages; the Atlas was equipped with an uprated propulsion system, the MA-5, which had twin turbopumps on each booster engine, and the structure reinforced for the large upper stage, along with elongated fuel tanks. Centaur development was made somewhat difficult by the insistence on modifying Atlas components rather than developing totally new ones. This was done for time and budget reasons and because it allowed the Centaur to be manufactured on the existing Atlas assembly line at Convair. The engines were manufactured by Pratt and Whitney. There were considerable difficulties integrating the two vehicles, especially because Atlas-Centaur would be almost 30% longer than an Atlas ICBM and there were doubts as to its aerodynamic stability in flight.
+
+Program
+Although originally under ARPA supervision, Centaur was transferred to NASA in July 1959, eleven months after the program's inception. However, the Air Force retained overall supervision in part because they intended to use Centaur to launch a network of military communications satellites known as ADVENT. A constellation of ten satellites would provide round-the-clock instant communications for the three main branches of the US military. The first three would be launched on an Atlas-Agena, then the remainder on Centaur. ADVENT never got off the drawing board, but Centaur quickly found a use for several NASA planetary probe projects, namely Mariner and Surveyor.
+
+An initial lack of funds caused the project to drag on far longer than intended. Under original timetables, Centaur was to make its first flight in January 1961. In April, NASA Lunar and Planetary Programs director Oran Nicks suggested that it might be necessary to use Atlas-Agena for Mariner instead. In April 1962, a month before Centaur's first test launch, it came out that the rocket stage's lift capacity was about 400 pounds less than anticipated, which meant that Surveyor could not carry as many experiments as originally intended.
+
+Initially, a modified Atlas D designated LV-3C was used as the first stage This was quickly replaced by SLV-3C, and later the SLV-3D, both derived from the standard Atlas SLV-3 rocket. Two spaceflights, with the Pioneer 10 and Pioneer 11 space probes to Jupiter, Saturn and exiting the Solar System, used a spin-stabilized "Star-37E" solid propellant final stage weighing 2473 pounds and contributing 8000 mph to the velocities of the spacecraft.
+
+With the retirement of the Agena stage in 1978, all Atlases flown from that point onward were paired with Centaurs except for a few military flights involving decommissioned Atlas E/F missiles.
+
+Originally designed and built by the Convair Division of General Dynamics in San Diego, California, production of Atlas-Centaur at Convair ended in 1995 but was resumed at Lockheed-Martin in Colorado. The list of Atlas-Centaur ID numbers began with AC-1 launched on 8 May 1962 and ended with the last Atlas III (Centaur), AC-206, launched on 3 February 2005.
+
+The Rocketdyne-powered Atlas-Centaur was sometimes referred to as a 2½ stage launch vehicle because the Atlas first stage (in most cases) jettisoned the twin-thrust-chamber booster engine prior to the completion of the first stage burn. Atlas-Centaur with a Rocketdyne-powered first stage was used for 167 launches between 1962 and 2004 by which time they had been superseded by Atlas V with a new first stage powered by a much more powerful Russian-designed and built RD-180 twin-chamber engine. (Atlas V is not generally referred to as "Atlas-Centaur" and does not share the AC- serial numbers of the original Atlas-Centaur that had the pressure stabilized first stages.)
             '''
 
     },
@@ -9321,44 +9389,69 @@ The GX rocket, formerly under development by Galaxy Express Corporation, was ori
 
     "Conestoga": {
 
-        "Name": "",
-        "Agency": "",
+        "Name": "Conestoga",
+        "Agency": "SSIA/EER",
         "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Class": "Light",
+        "Payload Capacity to LEO": "900 kg (1,980 lbs)",
+        "payload_int": 900,
+        "Height": "15.2 m (49.8 ft)",
+        "height_int": 15.2,
+        "Diameter": "1.02 m (3.34 ft)",
+        "diameter_int": 1.02,
+        "Mass": "87,400 kg (192,600 lbs)",
+        "mass_int": 87400,
+        "Years in Operation": "1981-1995",
+        "firstyear_int": 1981,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "Unknown",
+        "Burn Time": "Unknown",
+        "total_burntime_int": None,
+        "Thrust": "Unknown",
+        "initial_thrust_int": None,
+        "ISP": "Unknown",
+        "asl_isp_int": None,
+        "vac_isp_int": None,
+        "Cost Per Launch": "Unknown",
+        "cost_int": None,
+        "Fuel Type": "Unknown",
+        "Total Launches": "3",
+        "total_launches_int": 3,
+        "Successful Launches": "1",
+        "successful_launches_int": 1,
+        "Launch Failures": "2",
+        "failed_launches_int": 2,
+        "Image": "Conestoga.png",
        "Additional Information":
             '''
-    
+The Conestoga was a launch vehicle design funded by Space Services Inc. of America (SSIA) of Houston, Texas. Conestoga originally consisted of surplus LGM-30 Minuteman stages with additional strap-on boosters, as required for larger payloads. It was the world's first privately funded commercial rocket, but was launched only three times (once as a modified design) before the program was shut down.
+
+SSIA had originally intended to use a design by Gary Hudson, Percheron, which was intended to dramatically lower the price of space launches. Key to the design was a simple pressure-fed kerosene-oxidizer engine that was intended to reduce the cost of the expendable booster. Various loads could be accommodated by clustering the basic modules together. SSIA conducted an engine test firing of the Percheron on Matagorda Island on August 5, 1981, but the rocket exploded due to a malfunction. SSIA then asked Hudson to become head of R&D at SSIA, but because they wished to focus on solid fuel rockets, he declined.
+
+SSIA founder David Hannah then hired Deke Slayton, one of the original Mercury Seven astronauts. Slayton had just left NASA after running the Space Shuttle Landing and Approach validation testing (among earlier roles). SSIA purchased an Aries research rocket from Space Vector, Inc. which was developed for the U.S. Navy and NASA using the second stage of the Minuteman missile. The first launch of the new Conestoga I design took place on 9 Sep 1982, consisting of the core missile stage and a 500 kg dummy payload which included 40 gallons of water. The payload was successfully ejected at 313 km, and the Conestoga I became the first privately funded rocket to reach space.
+
+SSIA launched a second rocket in 1989, providing commercial support for microgravity experiments, using the Black Brant sounding rocket which they referred to as Starfire.
+
+SSIA was purchased by EER Systems in December 1990. The design was modified again, this time using Castor engines like those used on the Scout, a workhorse of the 1960s. The new design was known as the Conestoga with a four-digit number following it indicating the arrangement of the boosters.
+
+In May 1990 the Center for Space Transportation and Applied Research (CSTAR) pitched to NASA their Commercial Experiment Transporter (COMET) payload concept, a low-cost standardized bus with both sub-orbital and orbital components. Mission duration for the COMET would be longer than for existing sounding rockets, and the orbital portion would be free-flight and not disturbed by crew movement as it was on the Space Shuttle. Westinghouse agreed to provide the bus and "service module," Space Industries Inc. built the re-entry module, and EER was contracted to provide several Conestoga launchers.
+
+The entire COMET program quickly ran into delays and budget overruns, and it was not until the end of the program that a COMET (now known as METEOR) and Conestoga 1620 were finally ready for launch. The satellite payload included a number of experiments, including material (evaluation of exposure to the harsh space environment) and biological (assessment of seed reaction to micro-gravity; growth fluids were to be injected into the seed containers after launch), as well as GPS/radar correlation tracking. The satellite included a recoverable section that was to separate on command after several weeks in orbit, fire a small internal retro-motor, and descend for recovery off the Virginia coast.
+
+The launch took place from a clamshell gantry, which included power and environmental control, at the south end of Wallops Flight Facility on 23 October 1995; the rocket launched normally, but broke up 46 seconds into the flight. EER determined that an unknown source of low frequency noise had caused the guidance system to order course corrections when none were needed, causing the steering mechanism to eventually run out of hydraulic fluid. NASA had already decided to deny further funding, due to the original delays, and EER subsequently got out of the rocket business.
+
+The remaining assets were purchased by L-3 Communications in 2001 for $110 million.
+
+Conestoga Versions
+Due to the modular design of the Conestoga, a large number of configurations were possible. The version number encoded the configuration:
+
+the first digit encoded the type of booster motor
+the second digit was the number of booster motors clustered around the core
+the third digit encoded the type of the first upper stage
+the fourth digit encoded the type of the second upper stage
+
             '''
 
     },
@@ -9418,7 +9511,7 @@ Initially Minotaur I launches are conducted from Space Launch Complex 8 at the V
     "Minotaur IV": {
 
         "Name": "Minotaur IV",
-        "Agency": "",
+        "Agency": "US Military",
         "Manufacturer": "Northrop Grumman Innovation Systems",        
         "Class": "Medium",
         "Payload Capacity to LEO": "1,735 kilograms (3,825 lbs)",
@@ -9572,7 +9665,7 @@ First launched in 1994, it has successfully completed seven out of a total of te
         "Manufacturer": "Northrop Grumman",        
         "Class": "Medium",
         "Payload Capacity to LEO": "(GEO) 7,800 kg (17,196 lbs)",
-        "payload_int": None,
+        "payload_int": 7800,
         "Height": "59.84 m (196.3 ft)",
         "height_int": 59.84,
         "Diameter": "3.71 m (12.2 ft)",
@@ -9669,7 +9762,7 @@ The rocket was to have had two basic configurations, an intermediate and a heavy
         "Manufacturer": "Northrup Grumman",        
         "Class": "Light",
         "Payload Capacity to LEO": "443 kg (976 lbs)",
-        "payload_int": "",
+        "payload_int": 443,
         "Height": "16.9 meters (55 ft) (Pegasus), 17.6 meters (58 ft) (Pegasus XL)",
         "height_int": 17.6,
         "Diameter": "1.27 meters (4.2 ft)",
@@ -11064,10 +11157,10 @@ The Starship vehicle has been criticized for not adequately protecting astronaut
         "Class": "",
         "Payload Capacity to LEO": "",
         "payload_int": "",
-        "Height": " 2.44 m (8.00 ft)",
-        "height_int": 2.44,
-        "Diameter": "32.00 m (104.00 ft)",
-        "diameter_int": 32,        
+        "Height": "32 m (104 ft)",
+        "height_int": 32,
+        "Diameter": "2.44 m (8.00 ft)",
+        "diameter_int": 2.44,        
         "Mass": "63,966 kg (141,020 lbs)",
         "mass_int": 63966,        
         "Years in Operation": "1960-1962",
