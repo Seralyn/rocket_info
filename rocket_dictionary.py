@@ -38,59 +38,21 @@ rocketDictionary = {
         "Image": "SaturnV.png",
         "Additional Information":
 '''
-Saturn V was an American super heavy-lift launch vehicle 
-certified for human-rating used by NASA between 1967 and 
-1973. It consisted of three stages, each fueled by liquid 
-propellants. It was developed to support the Apollo program 
-for human exploration of the Moon and was later used to 
-launch Skylab, the first American space station.
+Saturn V was an American super heavy-lift launch vehicle certified for human-rating used by NASA between 1967 and 1973. It consisted of three stages, each fueled by liquid propellants. It was developed to support the Apollo program for human exploration of the Moon and was later used to launch Skylab, the first American space station.
 
-The Saturn V was launched 13 times from Kennedy Space Center 
-with no loss of crew or payload. As of 2020, the Saturn V 
-remains the tallest, heaviest, and most powerful (highest 
-total impulse) rocket ever brought to operational status, 
-and holds records for the heaviest payload launched and 
-largest payload capacity to low Earth orbit (LEO) of 
-310,000 lbs (140,000 kg), which included the third stage 
-and unburned propellant needed to send the Apollo command 
-and service module and Lunar Module to the Moon.
+The Saturn V was launched 13 times from Kennedy Space Center with no loss of crew or payload. As of 2020, the Saturn V remains the tallest, heaviest, and most powerful (highest total impulse) rocket ever brought to operational status, and holds records for the heaviest payload launched and largest payload capacity to low Earth orbit (LEO) of 310,000 lbs (140,000 kg), which included the third stage and unburned propellant needed to send the Apollo command and service module and Lunar Module to the Moon.
 
-As the largest production model of the Saturn family of 
-rockets, the Saturn V was designed under the direction of 
-Wernher von Braun at the Marshall Space Flight Center in 
-Huntsville, Alabama, with Boeing, North American Aviation, 
-Douglas Aircraft Company, and IBM as the lead contractors.
+As the largest production model of the Saturn family of rockets, the Saturn V was designed under the direction of Wernher von Braun at the Marshall Space Flight Center in Huntsville, Alabama, with Boeing, North American Aviation, Douglas Aircraft Company, and IBM as the lead contractors.
 
-To date, the Saturn V remains the only launch vehicle to carry 
-humans beyond low Earth orbit. A total of 15 flight-capable 
-vehicles were built, but only 13 were flown. An additional 
-three vehicles were built for ground testing purposes. A total 
-of 24 astronauts were launched to the Moon in the four years 
-spanning December 1968 through December 1972.
+To date, the Saturn V remains the only launch vehicle to carry humans beyond low Earth orbit. A total of 15 flight-capable vehicles were built, but only 13 were flown. An additional three vehicles were built for ground testing purposes. A total of 24 astronauts were launched to the Moon in the four years spanning December 1968 through December 1972.
 
-In September 1945, the US government brought the German rocket technologist 
-Wernher von Braun and about seven hundred German rocket engineers and 
-technicians to the United States for Operation Paperclip, a program authorized 
-by President Truman.
+In September 1945, the US government brought the German rocket technologist Wernher von Braun and about seven hundred German rocket engineers and technicians to the United States for Operation Paperclip, a program authorized by President Truman.
 
-Von Braun was assigned to the Army's rocket design division due to his 
-prior direct involvement in the creation of the V-2 rocket. Between 1945 
-and 1958, his work was restricted to conveying the ideas and methods behind 
-the V-2 to American engineers. Despite von Braun's many articles on the 
-future of space rocketry, the US government continued funding Air Force 
-and Navy rocket programs to test their Vanguard missiles despite numerous 
-costly failures.
+Von Braun was assigned to the Army's rocket design division due to his prior direct involvement in the creation of the V-2 rocket. Between 1945 and 1958, his work was restricted to conveying the ideas and methods behind the V-2 to American engineers. Despite von Braun's many articles on the future of space rocketry, the US government continued funding Air Force and Navy rocket programs to test their Vanguard missiles despite numerous costly failures.
 
-The US Army and government began taking serious steps towards sending 
-Americans into space in 1957, when the Soviets launched Sputnik 1 atop 
-an R-7 ICBM, which is capable of carrying a thermonuclear warhead to the 
-US. They turned to von Braun's team, who had created and experimented 
-with the Jupiter series of rockets. 
+The US Army and government began taking serious steps towards sending Americans into space in 1957, when the Soviets launched Sputnik 1 atop an R-7 ICBM, which is capable of carrying a thermonuclear warhead to the US. They turned to von Braun's team, who had created and experimented with the Jupiter series of rockets. 
 
-The Juno I rocket launched the first American satellite in January 1958, 
-and was part of the last-ditch plan for NACA (the predecessor of NASA) to 
-participate in the Space Race. Von Braun considered the Jupiter series to 
-be a prototype and referred to it as "an infant Saturn".
+The Juno I rocket launched the first American satellite in January 1958, and was part of the last-ditch plan for NACA (the predecessor of NASA) to participate in the Space Race. Von Braun considered the Jupiter series to be a prototype and referred to it as "an infant Saturn".
 '''
 },
     'Soyuz-2': {
@@ -148,7 +110,7 @@ Soyuz-2 rockets were first launched from Site 31 at the Baikonur Cosmodrome, and
 at the Plesetsk Cosmodrome, launch facilities shared with earlier R-7 derived rockets 
 including the Soyuz-U and Molniya. Commercial Soyuz-2 flights are contracted by Starsem 
 and have launched from Site 31 at Baikonur Cosmodrome and ELS (Ensemble de Lancement Soyouz), 
-which has been built at the Centre Spatial Guyanais on the northern coast of South America. 
+which has been built at the center Spatial Guyanais on the northern coast of South America. 
 The Soyuz-2 version ST-B can deliver 3,250 kilograms (7,170 lbs) to geostationary transfer 
 orbit (GTO) from this equatorial site. In 2016, the new Vostochny Cosmodrome started operating 
 Soyuz-2 flights as well, from its first launch pad called Site 1S.
@@ -193,7 +155,7 @@ Main article: Soyuz-2.1v
 The first flight vehicle of the 2.1v version was finished in 2009. It is a "light" version of 
 the Soyuz-2 without the side boosters (blocks B, V, G and D[clarification needed]). The Block A 
 engine was replaced by the more powerful NK-33-1, which as of 2009, was to eventually be replaced 
-with the RD-193.[needs update] The new launcher version was able to deliver up to 2.8 tonnes in 
+with the RD-193.[needs update] The new launcher version was able to deliver up to 2.8 tons in 
 low Earth orbit.
 '''
     },
@@ -236,34 +198,9 @@ low Earth orbit.
         "Image": "delta iii.png",
         "Additional Information":
             '''
-            The Delta III rocket was an expendable launch vehicle made by 
-            Boeing. The first Delta III launch was on August 26, 1998. Of 
-            its three flights, the first two were failures, and the third, 
-            though declared successful, reached the low end of its targeted 
-            orbit range and carried only a dummy (inert) payload. The Delta 
-            III could deliver up to 8,400 pounds (3,800 kilograms) to 
-            geostationary transfer orbit, twice the payload of its 
-            predecessor, the Delta II. Under the 4-digit designation system 
-            from earlier Delta rockets, the Delta III is classified as the 
-            Delta 8930.
+The Delta III rocket was an expendable launch vehicle made by Boeing. The first Delta III launch was on August 26, 1998. Of its three flights, the first two were failures, and the third, though declared successful, reached the low end of its targeted orbit range and carried only a dummy (inert) payload. The Delta III could deliver up to 8,400 pounds (3,800 kilograms) to geostationary transfer orbit, twice the payload of its predecessor, the Delta II. Under the 4-digit designation system from earlier Delta rockets, the Delta III is classified as the Delta 8930.
 
-            Like the Delta II, the first stage of the Delta III burned kerosene 
-            and liquid oxygen and was powered by one Rocketdyne RS-27A main 
-            engine with two vernier engines for roll control. While the 
-            propellant load and gross mass of the stage were nearly identical 
-            to the Delta II, the diameter of the kerosene tank was increased 
-            from 2.4 meters to 4 meters. This reduced the overall length of 
-            the vehicle and allowed the Delta III to use the same launch 
-            facilities as the Delta II with only minor modifications. First 
-            stage thrust was augmented by nine GEM-46 solid rocket boosters, 
-            sometimes referred to as GEM LDXL (Large Diameter Extended Length). 
-            These were 14.7 meters in length, 1.2 m (46 inches) in diameter, 
-            and had a mass of 19 metric tons each, about 6 metric tons more than 
-            the Delta II's standard GEM-40 motors. Six were ignited on the launch 
-            pad, while the remaining three were ignited just before burnout and 
-            separation of the ground-lit boosters. To maintain steering authority, 
-            three of the boosters had vectoring nozzles. GEM-46 boosters would 
-            later find use on the Delta II, leading to the Delta II Heavy.
+Like the Delta II, the first stage of the Delta III burned kerosene and liquid oxygen and was powered by one Rocketdyne RS-27A main engine with two vernier engines for roll control. While the propellant load and gross mass of the stage were nearly identical to the Delta II, the diameter of the kerosene tank was increased from 2.4 meters to 4 meters. This reduced the overall length of the vehicle and allowed the Delta III to use the same launch facilities as the Delta II with only minor modifications. First stage thrust was augmented by nine GEM-46 solid rocket boosters, sometimes referred to as GEM LDXL (Large Diameter Extended Length). These were 14.7 meters in length, 1.2 m (46 inches) in diameter, and had a mass of 19 metric tons each, about 6 metric tons more than the Delta II's standard GEM-40 motors. Six were ignited on the launch pad, while the remaining three were ignited just before burnout and separation of the ground-lit boosters. To maintain steering authority, three of the boosters had vectoring nozzles. GEM-46 boosters would later find use on the Delta II, leading to the Delta II Heavy.
 
 --Launches--
 Delta Flight 259: The inaugural launch on August 26, 1998 from Cape Canaveral Air Force Station ended in failure, when software adapted from the Delta II caused a guidance failure during first-stage flight. The failure and subsequent vehicle motion depleted the hydraulic fluid used for steering. Upon loss of control, the vehicle was destroyed. The Galaxy 10 satellite (Hughes HS601 HP type) was destroyed.
@@ -315,31 +252,15 @@ Delta Flight 280: The third and final flight on August 23, 2000 launched a 4,348
         "Image": "ariane 62.png",
         "Additional Information":
             '''
-            Ariane 6 is a launch vehicle developed and manufactured by 
-            ArianeGroup under the authority of the European Space Agency 
-            (ESA), with a first test flight scheduled for 2020 or, now 
-            more likely, 2021. When development is completed, it will 
-            become the newest member in the Ariane launch vehicle family. 
-            The final design was selected in December 2014, favoring a 
-            liquid-fuelled core with large solid rocket boosters over the 
-            initial solid-fuel rocket design. The motivation for 
-            Ariane 6 development was to replace Ariane 5 at half the cost, 
-            and allow double the number of launches each year.
+Ariane 6 is a launch vehicle developed and manufactured by ArianeGroup under the authority of the European Space Agency (ESA), with a first test flight scheduled for 2020 or, now more likely, 2021. When development is completed, it will become the newest member in the Ariane launch vehicle family. The final design was selected in December 2014, favoring a liquid-fuelled core with large solid rocket boosters over the initial solid-fuel rocket design. The motivation for Ariane 6 development was to replace Ariane 5 at half the cost, and allow double the number of launches each year.
 
-            Ariane 6 was initially conceived in the early 2010s as a 
-            replacement launch vehicle for Ariane 5, and a number of 
-            concepts and high-level designs were suggested and proposed 
-            during 2012–2015. Funding from several European governments 
-            was secured by early 2016, and contracts were signed to begin 
-            detailed design and the build of test articles. While in 2019, 
-            the maiden orbital flight had been planned for 2020, by May 
-            2020, the planned initial launch date had been delayed until 2021.
+Ariane 6 was initially conceived in the early 2010s as a replacement launch vehicle for Ariane 5, and a number of concepts and high-level designs were suggested and proposed during 2012–2015. Funding from several European governments was secured by early 2016, and contracts were signed to begin detailed design and the build of test articles. While in 2019, the maiden orbital flight had been planned for 2020, by May 2020, the planned initial launch date had been delayed until 2021.
 
 Two variants of Ariane 6 are being developed:
 
-Ariane 62, with two P120 solid boosters, will weigh around 530 tonnes (1,170,000 lbs) at liftoff and is intended mainly for government and scientific missions. It can launch up to 5,000 kg (11,000 lbs) into GTO and 10,350 kg (22,820 lbs) into LEO.
+Ariane 62, with two P120 solid boosters, will weigh around 530 tons (1,170,000 lbs) at liftoff and is intended mainly for government and scientific missions. It can launch up to 5,000 kg (11,000 lbs) into GTO and 10,350 kg (22,820 lbs) into LEO.
 
-Ariane 64, with four P120 boosters, has a liftoff weight of around 860 tonnes (1,900,000 lbs) and is intended for commercial dual-satellite launches of up to 11,500 kilograms (25,400 lbs) into GTO and 21,500 kg (47,400 lbs) into LEO. Like Ariane 5, it will be able to launch two geosynchronous satellites together.
+Ariane 64, with four P120 boosters, has a liftoff weight of around 860 tons (1,900,000 lbs) and is intended for commercial dual-satellite launches of up to 11,500 kilograms (25,400 lbs) into GTO and 21,500 kg (47,400 lbs) into LEO. Like Ariane 5, it will be able to launch two geosynchronous satellites together.
 
 Ariane 6 comprises three major structural and propellant-carrying components.
             '''
@@ -382,19 +303,9 @@ Ariane 6 comprises three major structural and propellant-carrying components.
         "Image": "tronador ii.png",
         "Additional Information":
             '''
-            Tronador (Spanish for Thunderer) is a series of Argentine 
-            rockets, including the Tronador I and Tronador II vehicles, 
-            to develop a liquid-propellant rocket expendable launch 
-            system called ISCUL (Inyector Satelital de Cargas Utiles 
-            Ligeras, Light Useful Payloads Satellite Launcher).
+Tronador (Spanish for Thunderer) is a series of Argentine rockets, including the Tronador I and Tronador II vehicles, to develop a liquid-propellant rocket expendable launch system called ISCUL (Inyector Satelital de Cargas Utiles Ligeras, Light Useful Payloads Satellite Launcher).
 
-            The Tronador I is an unguided liquid-fueled rocket used 
-            for sub-orbital spaceflight test flights. Its development 
-            led to the larger VEx test rocket, testing technologies 
-            needed for the Tronador II, which has a guidance system 
-            and would be capable of reaching low Earth orbit. 
-            Development of the satellite launch vehicle has cost more 
-            than 600 million dollars over several years.
+The Tronador I is an unguided liquid-fueled rocket used for sub-orbital spaceflight test flights. Its development led to the larger VEx test rocket, testing technologies needed for the Tronador II, which has a guidance system and would be capable of reaching low Earth orbit. Development of the satellite launch vehicle has cost more than 600 million dollars over several years.
             
 Tronador III
 The proposed Tronador III would have the same diameter as Tronador II, but would have a length of 34 metres (112 ft). The fueled rocket would weight 89 metric tons, and capable of delivering a ton of payload into polar orbit.
@@ -438,33 +349,13 @@ The proposed Tronador III would have the same diameter as Tronador II, but would
         "Image": "vls1.png",
         "Additional Information":
             '''
-            The VLS-1 (Portuguese: Veículo Lançador de Satélites)
-            was the Brazilian Space Agency's main satellite launch 
-            vehicle. The launch vehicle was to be capable of 
-            launching satellites into orbit. The launch site was 
-            located at the Alcântara Launch Center due to its 
-            proximity to the equator.
+The VLS-1 (Portuguese: Veículo Lançador de Satélites)was the Brazilian Space Agency's main satellite launch vehicle. The launch vehicle was to be capable of launching satellites into orbit. The launch site was located at the Alcântara Launch Center due to its proximity to the equator.
 
-            Associated vehicles include the Sonda I, Sonda II, 
-            Sonda III and Sonda IV, the VS-30, VS-40 and VSB-30.
+Associated vehicles include the Sonda I, Sonda II, Sonda III and Sonda IV, the VS-30, VS-40 and VSB-30.
 
-            The VLS was cancelled after decades of development 
-            and high expenditures with poor results and a failed 
-            association with Ukraine that slowed the program 
-            for years.
+The VLS was cancelled after decades of development and high expenditures with poor results and a failed association with Ukraine that slowed the program for years.
 
-            VLS-1 development started in 1984, after the first 
-            launch of the Sonda IV rocket. To date, three 
-            prototypes have been built and two launches attempted, 
-            departing from the Alcântara Launch Center. During 
-            the V1 and V2 prototype launches (VLS-1 V1 and VLS-1 V2) 
-            technical problems prevented mission success, but 
-            allowed the testing of several vehicle components. 
-            The V3 prototype exploded on the launch pad on 22 
-            August 2003, two days before its intended launch date. 
-            The 2003 Alcântara VLS accident caused a considerable 
-            setback to the Brazilian space program. The V4 
-            prototype was expected to be launched in 2016.
+VLS-1 development started in 1984, after the first launch of the Sonda IV rocket. To date, three prototypes have been built and two launches attempted, departing from the Alcântara Launch Center. During the V1 and V2 prototype launches (VLS-1 V1 and VLS-1 V2) technical problems prevented mission success, but allowed the testing of several vehicle components. The V3 prototype exploded on the launch pad on 22 August 2003, two days before its intended launch date. The 2003 Alcântara VLS accident caused a considerable setback to the Brazilian space program. The V4 prototype was expected to be launched in 2016.
             '''
     },
     "VLM": {
@@ -505,39 +396,20 @@ The proposed Tronador III would have the same diameter as Tronador II, but would
         "Image": "vlm.png",
         "Additional Information":
             '''
-            The VLM (Veículo Lançador de Microssatélites) is a 
-            proposed three-stage satellite launcher being developed 
-            by the Brazilian General Command for Aerospace Technology 
-            in collaboration with Germany. The project originated 
-            in 2008 as a simplified version of the VLS-1 rocket, 
-            using only the core stages.
+The VLM (Veículo Lançador de Microssatélites) is a proposed three-stage satellite launcher being developed by the Brazilian General Command for Aerospace Technology in collaboration with Germany. The project originated in 2008 as a simplified version of the VLS-1 rocket, using only the core stages.
 
-            A version based on the S-50 rocket engine is being 
-            developed, with the objective of launching satellites 
-            of up to 150 kg into equatorial circular orbits at 
-            300 km altitude.
+A version based on the S-50 rocket engine is being developed, with the objective of launching satellites of up to 150 kg into equatorial circular orbits at 300 km altitude.
 
-            Development on VLM started in 2008 for the purpose of 
-            low-cost and reliable launch of microsatellites. 
-            Initially, a four-stage rocket using solid fuel was 
-            proposed, arranged in the following order:
+Development on VLM started in 2008 for the purpose of low-cost and reliable launch of microsatellites. Initially, a four-stage rocket using solid fuel was proposed, arranged in the following order:
 
-            Stage 1: S-43 rocket engine
-            Stage 2: S-40TM rocket engine
-            Stage 3: S-44 rocket engine
-            Stage 4: S-33 rocket engine
+Stage 1: S-43 rocket engine
+Stage 2: S-40TM rocket engine
+Stage 3: S-44 rocket engine
+Stage 4: S-33 rocket engine
 
-            It was later decided in 2011 to build a precursor 
-            single-stage rocket bearing a new engine called S-50. 
-            The vehicle is being developed and its engine tested 
-            in collaboration with the German Space Agency (DLR).
-            This precursor test is called VS-50 and is planned for 
-            launch in 2019. The VS-50 vehicle measures 12 m (39 ft) 
-            long, 1.46 m (4 ft 9 in) in diameter, and has a mass of 
-            about 15 tons.
+It was later decided in 2011 to build a precursor single-stage rocket bearing a new engine called S-50. The vehicle is being developed and its engine tested in collaboration with the German Space Agency (DLR).This precursor test is called VS-50 and is planned for launch in 2019. The VS-50 vehicle measures 12 m (39 ft) long, 1.46 m (4 ft 9 in) in diameter, and has a mass of about 15 tons.
 
-            All launches are planned to take place from the Alcântara 
-            Launch Center, located on Brazil's northern Atlantic coast.
+All launches are planned to take place from the Alcântara Launch Center, located on Brazil's northern Atlantic coast.
             '''
     },
     "Feng Bao 1": {
@@ -578,15 +450,9 @@ The proposed Tronador III would have the same diameter as Tronador II, but would
         "Image": "fengbao1.png",
         "Additional Information":
             '''
-            The Feng Bao 1 (Chinese: 风暴; lit.: 'Storm'), also known 
-            as FB-1, was a Chinese carrier rocket launched between 1972 
-            and 1981. It was replaced by the nearly identical Long 
-            March 2, which had been developed at the same time for 
-            political reasons related to China's Cultural Revolution.
+The Feng Bao 1 (Chinese: 风暴; lit.: 'Storm'), also known as FB-1, was a Chinese carrier rocket launched between 1972 and 1981. It was replaced by the nearly identical Long March 2, which had been developed at the same time for political reasons related to China's Cultural Revolution.
 
-            The Feng Bao was derived from the DF-5 missile. Eleven 
-            were launched, of which four failed. Launches occurred 
-            from LA-2B at the Jiuquan Satellite Launch Centre.
+The Feng Bao was derived from the DF-5 missile. Eleven were launched, of which four failed. Launches occurred from LA-2B at the Jiuquan Satellite Launch center.
             '''
     },
     "Kaituozhe-1": {
@@ -627,38 +493,13 @@ The proposed Tronador III would have the same diameter as Tronador II, but would
         "Image": "kaituozhe1.png",
         "Additional Information":
             '''
-            Kaituozhe-1 (KT-1) was small, solid fueled launch vehicle 
-            based on the road mobile DF-21 IRBM with an additional 
-            upper stage (in total 4 stages[1]). It was 13.6 meters 
-            in length and 1.4 meters in diameter, with launch mass 
-            of 20t. It was possible to launch KT-1 both from a 
-            truck-based platform or from airborne platform. It had 
-            a 100 kg to LEO payload capacity. It was possibly the 
-            launch vehicle for a Chinese ASAT system that was tested 
-            against an old Chinese weather satellite in 2007.
+Kaituozhe-1 (KT-1) was small, solid fueled launch vehicle based on the road mobile DF-21 IRBM with an additional upper stage (in total 4 stages[1]). It was 13.6 meters in length and 1.4 meters in diameter, with launch mass of 20t. It was possible to launch KT-1 both from a truck-based platform or from airborn platform. It had a 100 kg to LEO payload capacity. It was possibly the launch vehicle for a Chinese ASAT system that was tested against an old Chinese weather satellite in 2007.
 
-            The vehicle has performed two flights, the first in 15 
-            September 2002 and the second 16 September 2003. The 
-            first flight failed to place a 50 kg satellite into 
-            polar orbit due to a second stage malfunction. The 
-            second flight was also a failure, however Chinese 
-            officials declared some success citing the guidance 
-            systems, fairing separation and satellite-launcher 
-            separation as successful. The second launch sent the 
-            payload, PS-2 microsatellite (40 kg) into wrong orbit. 
-            The satellite completed barely one orbit before 
-            re-entering the atmosphere.
+The vehicle has performed two flights, the first in 15 September 2002 and the second 16 September 2003. The first flight failed to place a 50 kg satellite into polar orbit due to a second stage malfunction. The second flight was also a failure, however Chinese officials declared some success citing the guidance systems, fairing separation and satellite-launcher separation as successful. The second launch sent the payload, PS-2 microsatellite (40 kg) into wrong orbit. The satellite completed barely one orbit before re-entering the atmosphere.
 
-            The Kaituozhe-1 launcher appears to have been cancelled 
-            after two unsuccessful launches. A third (in 2004) and 
-            fourth launch have been rumored, but are not confirmed.
+The Kaituozhe-1 launcher appears to have been cancelled after two unsuccessful launches. A third (in 2004) and fourth launch have been rumored, but are not confirmed.
 
-            The rocket had three variants: the Kaituozhe-1 (KT-1), 
-            the Kaituozhe-1A (KT-1A, originally designated KT-2, not 
-            to be confused with KT-2 below) and the Kaituozhe-1B 
-            (KT-1B, originally designated KT-2A, not to be confused 
-            with KT-2A below). The rockets that flew were of the KT-1 
-            variant. The KT-1A and KT-1B variant rockets were not built.
+The rocket had three variants: the Kaituozhe-1 (KT-1), the Kaituozhe-1A (KT-1A, originally designated KT-2, not to be confused with KT-2 below) and the Kaituozhe-1B (KT-1B, originally designated KT-2A, not to be confused with KT-2A below). The rockets that flew were of the KT-1 variant. The KT-1A and KT-1B variant rockets were not built.
 
 Kaituozhe-2
 Like its predecessor the Kaituozhe-2 (KT-2) is a solid-fueled launch vehicle which could be based on the DF-31 missile. Two versions have been proposed:
@@ -713,41 +554,15 @@ The Kaituozhe-2A (KT-2A) features a possibly DF-31 based stage 1, augmented by t
         "Image": "kuaizhou.png",
         "Additional Information":
             '''
-            Kuaizhou (KZ, Chinese: 快舟; pinyin: kuàizhōu, meaning 
-            "speedy vessel" or "swift boat") (also called Feitian Emergency Satellite 
-            Launch System, Feitian-1, FT-1) is a family of Chinese 
-            "quick-reaction" orbital launch vehicles. Flying since 
-            2013, Kuaizhou 1 and 1A consist of three solid-fueled rocket 
-            stages, with a liquid-fueled fourth stage as part of the 
-            satellite system. Kuaizhou 11, which flew an unsuccessful 
-            maiden flight in July 2020, is a larger model able to launch 
-            a 1,500 kilograms (3,300 lbs) payload into low Earth orbit. 
-            Heavy-lift models KZ-21 and KZ-31 are in development. The 
-            Kuaizhou series of rockets is manufactured by ExPace, a 
-            subsidiary of China Aerospace Science and Industry Corporation 
-            (CASIC), as their commercial launch vehicles.
+Kuaizhou (KZ, Chinese: 快舟; pinyin: kuàizhōu, meaning "speedy vessel" or "swift boat") (also called Feitian Emergency Satellite Launch System, Feitian-1, FT-1) is a family of Chinese "quick-reaction" orbital launch vehicles. Flying since 2013, Kuaizhou 1 and 1A consist of three solid-fueled rocket stages, with a liquid-fueled fourth stage as part of the satellite system. Kuaizhou 11, which flew an unsuccessful maiden flight in July 2020, is a larger model able to launch a 1,500 kilograms (3,300 lbs) payload into low Earth orbit. Heavy-lift models KZ-21 and KZ-31 are in development. The Kuaizhou series of rockets is manufactured by ExPace, a subsidiary of China Aerospace Science and Industry Corporation (CASIC), as their commercial launch vehicles.
 
-            The rocket series is based on CASIC's ASAT and BMD mid-course 
-            interceptor rockets, in particular the DF-21 IRBM (another 
-            Chinese rocket that was based on DF-21 was the Kaituozhe-1). 
-            Development on the KZ rockets started in 2009. The KZ rockets
-            were to provide an integrated launch vehicle system with the 
-            rapid ability to replace Chinese satellites that might be 
-            damaged or destroyed in an act of aggression in orbit. The 
-            vehicle uses mobile launch platform. The rocket is operated 
-            by the Chinese 2nd Artillery.
+The rocket series is based on CASIC's ASAT and BMD mid-course interceptor rockets, in particular the DF-21 IRBM (another Chinese rocket that was based on DF-21 was the Kaituozhe-1). Development on the KZ rockets started in 2009. The KZ rocketswere to provide an integrated launch vehicle system with the rapid ability to replace Chinese satellites that might be damaged or destroyed in an act of aggression in orbit. The vehicle uses mobile launch platform. The rocket is operated by the Chinese 2nd Artillery.
 
-            The maiden flight of Kuaizhou 1 rocket, orbiting the Kuaizhou 1 
-            natural disaster monitoring satellite, occurred on 25 September 
-            2013, launched from Jiuquan Satellite Launch Center.
+The maiden flight of Kuaizhou 1 rocket, orbiting the Kuaizhou 1 natural disaster monitoring satellite, occurred on 25 September 2013, launched from Jiuquan Satellite Launch Center.
 
-            Second flight of Kuaizhou 1 rocket, orbiting the Kuaizhou 2 natural 
-            disaster monitoring satellite, was launched at 06:37 UTC on 21 
-            November 2014, again from Jiuquan Satellite Launch Center.
+Second flight of Kuaizhou 1 rocket, orbiting the Kuaizhou 2 natural disaster monitoring satellite, was launched at 06:37 UTC on 21 November 2014, again from Jiuquan Satellite Launch Center.
 
-            The first commercial launch inaugurated the Kuaizhou 1A version 
-            on 9 January 2017, from Jiuquan. It placed three small satellites 
-            into a polar orbit.
+The first commercial launch inaugurated the Kuaizhou 1A version on 9 January 2017, from Jiuquan. It placed three small satellites into a polar orbit.
             '''
     },
     "Long March 1": {
@@ -790,16 +605,9 @@ CAST - China Academy of Space Technology''',
         "Image": "longmarch1.png",
         "Additional Information":
             '''
-            The Long March 1 (长征一号), also known as the Changzheng-1 
-            (CZ-1), was the first member of China's Long March rocket family.
+The Long March 1 (长征一号), also known as the Changzheng-1 (CZ-1), was the first member of China's Long March rocket family.
 
-            Development started in January 1965 after the Seventh Ministry 
-            of Machinery Industry issued a design task. The two stage 
-            liquid fueled DF-4 was modified by adding a third stage in 
-            order to make it to the desired orbit. Long March 1's second 
-            flight launched China's first satellite, Dong Fang Hong 1, to 
-            space on April 24, 1970. The rocket was operational between 
-            1970-1971. Wang Xiji was the chief designer of the rocket.
+Development started in January 1965 after the Seventh Ministry of Machinery Industry issued a design task. The two stage liquid fueled DF-4 was modified by adding a third stage in order to make it to the desired orbit. Long March 1's second flight launched China's first satellite, Dong Fang Hong 1, to space on April 24, 1970. The rocket was operational between 1970-1971. Wang Xiji was the chief designer of the rocket.
             '''
     },
     "Long March 1D": {
@@ -846,31 +654,11 @@ CAST - China Academy of Space Technology
             '''
 Also known as "Chang Zheng 1-D/CZ-1"
 
-            Long March 1D was a member of China's Long March rocket 
-            family. During the 1990s CALT developed an improved 
-            version of the DF-4 to test the reentry vehicle warheads 
-            of the DF-31. They took advantage of this 
-            development and offered it as the Long March 1D for 
-            commercial application. The modifications included:
+Long March 1D was a member of China's Long March rocket family. During the 1990s CALT developed an improved version of the DF-4 to test the reentry vehicle warheads of the DF-31. They took advantage of this development and offered it as the Long March 1D for commercial application. The modifications included:
 
-            An DF-4 improved first stage, which used the new version 
-            of the YF-2B, and switched propellants to UDMH/N2O4 for 
-            improved performance. The replacement of the DF-4 second 
-            stage motor YF-3A. The proposed replacement was the Long 
-            March 4 third stage engine, the YF-40. A new inline 
-            inter-stage would replace the existing tapered connector 
-            between the second and third stages, which allowed for an 
-            additional 70cm diameter to be added to the third stage 
-            skirt. This would allow for the addition of RCS to the 
-            third stage. A new third stage with a new motor, the FG-36 
-            and an optional RCS. A new computer inertial guidance system 
-            which enabled the third stage to be 3-axis stabilised for 
-            added precision. The new design did not have a good reception 
-            and was only used for reentry vehicle tests. It flew three 
-            suborbital missions from Taiyuan LC-1 with two successes and 
-            a failure on the final mission. The first launch was on 
-            June 1, 1995 and the second one was in November 1997. The 
-            final and failed launch was on January 3, 2002.
+An DF-4 improved first stage, which used the new version of the YF-2B, and switched propellants to UDMH/N2O4 for improved performance. The replacement of the DF-4 second stage motor YF-3A. The proposed replacement was the Long March 4 third stage engine, the YF-40. A new inline inter-stage would replace the existing tapered connector between the second and third stages, which allowed for an additional 70cm diameter to be added to the third stage skirt. This would allow for the addition of RCS to the third stage. A new third stage with a new motor, the FG-36 and an optional RCS. A new computer inertial guidance system which enabled the third stage to be 3-axis stabilised for added precision. The new design did not have a good reception and was only used for reentry vehicle tests. 
+
+It flew three suborbital missions from Taiyuan LC-1 with two successes and a failure on the final mission. The first launch was on June 1, 1995 and the second one was in November 1997. The final and failed launch was on January 3, 2002.
             '''
     },
     "Falcon 9": {
@@ -924,58 +712,13 @@ Also known as "Chang Zheng 1-D/CZ-1"
         "Image": "falcon9.png",
         "Additional Information":
             '''
-            Falcon 9 is a partially reusable two-stage-to-orbit 
-            medium-lift launch vehicle designed and manufactured by 
-            SpaceX in the United States. It is powered by Merlin 
-            engines, also developed by SpaceX, burning cryogenic 
-            liquid oxygen and rocket-grade kerosene (RP-1) as 
-            propellants. Its name is derived from the fictional 
-            Star Wars spacecraft, the Millennium Falcon, and the 
-            nine Merlin engines of the rocket's first stage. The rocket 
-            evolved with versions v1.0 (2010–2013), v1.1 (2013–2016), 
-            v1.2 "Full Thrust" (2015–present), including the Block 5 
-            Full Thrust variant, flying since May 2018. Unlike most 
-            rockets, which are expendable launch systems, since the 
-            introduction of the Full Thrust version, Falcon 9 is 
-            partially reusable, with the first stage capable of 
-            re-entering the atmosphere and landing vertically after 
-            separating from the second stage. This feat was achieved 
-            for the first time on flight 20 with the v1.2 version in 
-            December 2015.
+Falcon 9 is a partially reusable two-stage-to-orbit medium-lift launch vehicle designed and manufactured by SpaceX in the United States. It is powered by Merlin engines, also developed by SpaceX, burning cryogenic liquid oxygen and rocket-grade kerosene (RP-1) as propellants. Its name is derived from the fictional Star Wars spacecraft, the Millennium Falcon, and the nine Merlin engines of the rocket's first stage. The rocket evolved with versions v1.0 (2010–2013), v1.1 (2013–2016), v1.2 "Full Thrust" (2015–present), including the Block 5 Full Thrust variant, flying since May 2018. Unlike most rockets, which are expendable launch systems, since the introduction of the Full Thrust version, Falcon 9 is partially reusable, with the first stage capable of re-entering the atmosphere and landing vertically after separating from the second stage. This feat was achieved for the first time on flight 20 with the v1.2 version in December 2015.
 
-            Falcon 9 can lift payloads of up to 22,800 kilograms 
-            (50,300 lbs) to low Earth orbit, 8,300 kg (18,300 lbs) to 
-            geostationary transfer orbit (GTO) when expended, and 
-            5,500 kg (12,100 lbs) to GTO when the first stage is 
-            recovered. The heaviest GTO payloads flown have been 
-            Intelsat 35e with 6,761 kg (14,905 lbs), and Telstar 19V 
-            with 7,075 kg (15,598 lbs). The latter was launched into a 
-            lower-energy GTO orbit achieving an apogee well below the 
-            geostationary altitude, while the former was launched into 
-            an advantageous super-synchronous transfer orbit.
+Falcon 9 can lift payloads of up to 22,800 kilograms (50,300 lbs) to low Earth orbit, 8,300 kg (18,300 lbs) to geostationary transfer orbit (GTO) when expended, and 5,500 kg (12,100 lbs) to GTO when the first stage is recovered. The heaviest GTO payloads flown have been Intelsat 35e with 6,761 kg (14,905 lbs), and Telstar 19V with 7,075 kg (15,598 lbs). The latter was launched into a lower-energy GTO orbit achieving an apogee well below the geostationary altitude, while the former was launched into an advantageous super-synchronous transfer orbit.
 
-            In 2008, SpaceX won a Commercial Resupply Services (CRS) 
-            contract in NASA's Commercial Orbital Transportation Services 
-            (COTS) program to deliver cargo to the International Space 
-            Station (ISS) using the Falcon 9 and Dragon capsule. The first 
-            mission under this contract launched on October 8, 2012. Falcon 
-            9 has been human-rated for transporting NASA astronauts to the 
-            ISS as part of the NASA Commercial Crew Development program. 
-            Currently, Falcon 9 has been certified for the National Security 
-            Space Launch[22] program and NASA Launch Services Program as 
-            "Category 3", which can launch the priciest, most important, and 
-            most complex NASA missions.
+In 2008, SpaceX won a Commercial Resupply Services (CRS) contract in NASA's Commercial Orbital Transportation Services (COTS) program to deliver cargo to the International Space Station (ISS) using the Falcon 9 and Dragon capsule. The first mission under this contract launched on October 8, 2012. Falcon 9 has been human-rated for transporting NASA astronauts to the ISS as part of the NASA Commercial Crew Development program. Currently, Falcon 9 has been certified for the National Security Space Launch[22] program and NASA Launch Services Program as "Category 3", which can launch the priciest, most important, and most complex NASA missions.
 
-            Five rockets of the version 1.0 design were launched from June 2010 
-            to March 2013. Version 1.1 conducted fifteen launches from September 
-            2013 to January 2016. The "Full Thrust" version was in service from 
-            December 2015 into 2018, with several additional upgrades within 
-            this version. The latest variant, Block 5, was introduced in May 
-            2018. It features increased engine thrust, improved landing legs, and 
-            other minor improvements to help recovery and reuse. The Falcon 
-            Heavy derivative, introduced in February 2018, consists of a 
-            strengthened Falcon 9 first stage as its center core, attached to 
-            two standard Falcon 9 first stages used as boosters.
+Five rockets of the version 1.0 design were launched from June 2010 to March 2013. Version 1.1 conducted fifteen launches from September 2013 to January 2016. The "Full Thrust" version was in service from December 2015 into 2018, with several additional upgrades within this version. The latest variant, Block 5, was introduced in May 2018. It features increased engine thrust, improved landing legs, and other minor improvements to help recovery and reuse. The Falcon Heavy derivative, introduced in February 2018, consists of a strengthened Falcon 9 first stage as its center core, attached to two standard Falcon 9 first stages used as boosters.
             '''
     },
     "Falcon Heavy": {
@@ -1016,34 +759,34 @@ Also known as "Chang Zheng 1-D/CZ-1"
         "Image": "falconheavy.png",
         "Additional Information":
             '''
-            The Falcon Heavy is a partially reusable heavy-lift launch 
-            vehicle designed and manufactured by SpaceX. It is derived 
-            from the Falcon 9 vehicle and consists of a strengthened 
-            Falcon 9 first stage as the center core with two additional 
-            Falcon 9-like first stages as strap-on boosters. The Falcon 
-            Heavy has the highest payload capacity of any currently 
-            operational launch vehicle, the third-highest capacity of 
-            any rocket ever to reach orbit, trailing the Saturn V and 
-            Energia, and the third-highest capacity of any orbital-class 
-            rocket ever launched successfully (behind the Saturn V and 
-            Energia).
+The Falcon Heavy is a partially reusable heavy-lift launch 
+vehicle designed and manufactured by SpaceX. It is derived 
+from the Falcon 9 vehicle and consists of a strengthened 
+Falcon 9 first stage as the center core with two additional 
+Falcon 9-like first stages as strap-on boosters. The Falcon 
+Heavy has the highest payload capacity of any currently 
+operational launch vehicle, the third-highest capacity of 
+any rocket ever to reach orbit, trailing the Saturn V and 
+Energia, and the third-highest capacity of any orbital-class 
+rocket ever launched successfully (behind the Saturn V and 
+Energia).
 
-            SpaceX conducted the Falcon Heavy's maiden launch on February 6, 
-            2018, at 3:45 p.m. EST (20:45 UTC). The rocket carried a Tesla
-            Roadster belonging to SpaceX founder Elon Musk, carrying a dummy 
-            dubbed "Starman", as a dummy payload. The second Falcon Heavy 
-            launch occurred on April 11, 2019 and all three booster rockets 
-            successfully returned to earth.[10] The third Falcon Heavy launch 
-            successfully occurred on June 25, 2019. Since then, the Falcon 
-            Heavy has been certified for the National Security Space Launch 
-            program.
+SpaceX conducted the Falcon Heavy's maiden launch on February 6, 
+2018, at 3:45 p.m. EST (20:45 UTC). The rocket carried a Tesla
+Roadster belonging to SpaceX founder Elon Musk, carrying a dummy 
+dubbed "Starman", as a dummy payload. The second Falcon Heavy 
+launch occurred on April 11, 2019 and all three booster rockets 
+successfully returned to earth. The third Falcon Heavy launch 
+successfully occurred on June 25, 2019. Since then, the Falcon 
+Heavy has been certified for the National Security Space Launch 
+program.
 
-            The Falcon Heavy was designed to be able to carry humans into space 
-            beyond low Earth orbit, although as of February 2018, SpaceX has 
-            confirmed that they will not transport people on the Falcon Heavy, 
-            nor pursue the human-rating certification process to transport NASA 
-            astronauts. The Falcon Heavy and Falcon 9 will be replaced by the 
-            Starship launch system.
+The Falcon Heavy was designed to be able to carry humans into space 
+beyond low Earth orbit, although as of February 2018, SpaceX has 
+confirmed that they will not transport people on the Falcon Heavy, 
+nor pursue the human-rating certification process to transport NASA 
+astronauts. The Falcon Heavy and Falcon 9 will be replaced by the 
+Starship launch system.
             '''
     },
 
@@ -1162,15 +905,15 @@ Atlas V to commercial customers worldwide until January 2018, when ULA assumed c
             the most capable super-heavy lift vehicle ever built.
 
             The initial variant of SLS, Block 1, was required by the US Congress 
-            to lift a payload of 70 tonnes (69 long tons; 77 short tons) to low 
+            to lift a payload of 70 tons (69 long tons; 77 short tons) to low 
             Earth orbit (LEO), but it was later planned to exceed that requirement 
-            with a rated payload capacity of 95 tonnes (93 long tons; 105 short 
+            with a rated payload capacity of 95 tons (93 long tons; 105 short 
             tons). As of 22 December 2019, this variant is planned to launch 
             Artemis 1, Artemis 2, Artemis 3, and Europa Clipper. The later Block 
             1B is intended to debut the Exploration Upper Stage and launch the 
             notional Artemis 4 through Artemis 7. Block 2 is planned to replace 
             the initial Shuttle-derived boosters with advanced boosters and would 
-            have a LEO capability of more than 130 tonnes (130 long tons; 140 short 
+            have a LEO capability of more than 130 tons (130 long tons; 140 short 
             tons), again as required by Congress.[ Block 2 is intended to enable 
             crewed launches to Mars. SLS is to have the world's highest-ever 
             total thrust at launch, but not the world's highest ever payload 
@@ -1192,11 +935,11 @@ Block 1 and 1B boosters
 Blocks 1 and 1B of the SLS are planned to use two five-segment Solid Rocket Boosters (SRBs). These new SRBs are derived from the four-segment Space Shuttle Solid Rocket Boosters, with the addition of a center booster segment, new avionics, and lighter insulation. The five-segment SRBs provide approximately 25% more total impulse than the Shuttle SRB, but will no longer be recovered after use.
 
 -Booster Obsolescence and Life Extension program-
-The stock of SLS boosters is limited by the number of casings left over from the Shuttle program, since they modify flown boosters to add an additional segment. There are enough to last through eight flights of the SLS, but a replacement will be required for further flights. On 2 March 2019, the Booster Obsolescence and Life Extension (BOLE) program was announced. This program will use new solid rocket boosters built by Northrop Grumman Innovation Systems for further SLS flights. These boosters would be derived from the composite-casing SRBs in development for the OmegA launch vehicle, and are projected to increase Block 1B's payload to TLI by 3–4 tonnes, which is still 1 ton below the payload capacity of Block 2.
+The stock of SLS boosters is limited by the number of casings left over from the Shuttle program, since they modify flown boosters to add an additional segment. There are enough to last through eight flights of the SLS, but a replacement will be required for further flights. On 2 March 2019, the Booster Obsolescence and Life Extension (BOLE) program was announced. This program will use new solid rocket boosters built by Northrop Grumman Innovation Systems for further SLS flights. These boosters would be derived from the composite-casing SRBs in development for the OmegA launch vehicle, and are projected to increase Block 1B's payload to TLI by 3–4 tons, which is still 1 ton below the payload capacity of Block 2.
 
 -Upper Stage-
 ICPS - Block 1
-The Interim Cryogenic Propulsion Stage (ICPS) is planned to fly on Artemis 1. It is a stretched and human rated Delta IV 5 metres (16 ft) Delta Cryogenic Second Stage (DCSS) powered by a single RL10B-2. Block 1 is intended to be capable of lifting 95 tonnes to LEO in this configuration if the ICPS is considered part of the payload. Artemis 1 is to be launched into an initial 1,800 by −93 kilometres (1,118 by −58 mi) suborbital trajectory to ensure safe disposal of the core stage. ICPS will then perform an orbital insertion burn at apogee and a subsequent translunar injection burn to send Orion towards the moon. The ICPS for Artemis 1 was delivered by ULA to NASA about July 2017, and was housed at Kennedy Space Centre as of November 2018. As of February 2020, ICPS (not EUS) is planned for Artemis 1, 2, and 3. ICPS will now be human-rated for the crewed Artemis-2 flight.
+The Interim Cryogenic Propulsion Stage (ICPS) is planned to fly on Artemis 1. It is a stretched and human rated Delta IV 5 metres (16 ft) Delta Cryogenic Second Stage (DCSS) powered by a single RL10B-2. Block 1 is intended to be capable of lifting 95 tons to LEO in this configuration if the ICPS is considered part of the payload. Artemis 1 is to be launched into an initial 1,800 by −93 kilometres (1,118 by −58 mi) suborbital trajectory to ensure safe disposal of the core stage. ICPS will then perform an orbital insertion burn at apogee and a subsequent translunar injection burn to send Orion towards the moon. The ICPS for Artemis 1 was delivered by ULA to NASA about July 2017, and was housed at Kennedy Space center as of November 2018. As of February 2020, ICPS (not EUS) is planned for Artemis 1, 2, and 3. ICPS will now be human-rated for the crewed Artemis-2 flight.
 
 EUS - Block 1B and 2
 The Exploration Upper Stage (EUS) is planned to fly on Artemis 4. Similar to the S-IVB, the EUS will complete the SLS ascent phase and then re-ignite to send its payload to destinations beyond low-Earth orbit. It is expected to be used by Block 1B and Block 2, share the core stage diameter of 8.4 meters, and be powered by four RL10 engines.
@@ -1359,7 +1102,7 @@ was developed in the 2000s and made its maiden flight in 2009.
 
     "Diamant": {
         "Name": "Diamant",
-        "Agency": "CNES -  Centre National d'Études Spatiales",
+        "Agency": "CNES -  center National d'Études Spatiales",
         "Manufacturer": "SEREB - Société d'Étude et de Réalisation d'Engins Balistiques",        
         "Class": "Light",
         "Payload Capacity to LEO": "160 kg (350 lbs)",
@@ -1413,7 +1156,7 @@ was developed in the 2000s and made its maiden flight in 2009.
             projects.
 
             During 1962, development of the Diamant commenced as the 
-            inaugural spacecraft project of France's space agency, the Centre 
+            inaugural spacecraft project of France's space agency, the center 
             National d'Études Spatiales (CNES). As a project, it was derived 
             from the military program Pierres précieuses (fr.: gemstones) that 
             included the five prototypes Agate, Topaze, Emeraude, Rubis and 
@@ -1430,7 +1173,7 @@ was developed in the 2000s and made its maiden flight in 2009.
             payload of approximately 150 kg for a 200 km orbit. Despite the 
             success of the Diamant as a launcher, France ultimately chose to 
             terminate further work on its national launcher program in favor 
-            of participation in the multi-European programme to produce what 
+            of participation in the multi-European program to produce what 
             would become the Ariane launcher in 1975.
             '''
     },
@@ -1723,22 +1466,22 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
             deployment of European-wide telecommunication and meteorological satellites 
             into orbit.
 
-            The Blue Streak missile predated the Europa programme, having originally 
+            The Blue Streak missile predated the Europa program, having originally 
             been developed by Britain primarily for military purposes, however it was 
             cancelled in 1960. Efforts to repurpose the Blue Streak, such as the studied 
             Black Prince expendable launch system, eventually cumulated in the 
-            multinational Europa programme.
+            multinational Europa program.
 
-            Workshare on the programme was shared between the various members of the ELDO 
+            Workshare on the program was shared between the various members of the ELDO 
             based upon their financial contributions. The Europa launcher itself 
             primarily consisted of the Blue Streak, Coralie, and Astris rocket stages.
 
-            The programme proceeded to perform multiple test launches, however these 
+            The program proceeded to perform multiple test launches, however these 
             frequently resulted in partial failures. In addition, Britain decided to 
             pull out of the ELDO organisation, and thus Europa, to instead focus on 
             the rival British Black Arrow launcher instead. This led to the replacement 
             of the Blue Streak by the French-built Diamant section. However, confidence 
-            in the programme had diminished due to the poor reliability figures, and this 
+            in the program had diminished due to the poor reliability figures, and this 
             led to its termination. While Europa was ultimately cancelled, the ambition 
             for such a launcher was still present and supported by the majority of ELDO 
             members and, following its reformation into the ESA in 1974, the agency 
@@ -1750,7 +1493,7 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
     "Hermes": {
         "Name": "Hermes",
         "Agency": "ESA",
-        "Manufacturer": "CNES - Centre National d'Études Spatiales",        
+        "Manufacturer": "CNES - center National d'Études Spatiales",        
         "Class": "Medium",
         "Payload Capacity to LEO": "3,000 kg (6,600 lbs)",
         "payload_int": 3000,
@@ -1785,7 +1528,7 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
         "Image": "hermes.png",
         "Additional Information":
             '''
-            Hermes was a proposed spaceplane designed by the French Centre National d'Études 
+            Hermes was a proposed spaceplane designed by the French center National d'Études 
             Spatiales (CNES) in 1975, and later by the European Space Agency (ESA). It was 
             superficially similar to the American Boeing X-20 Dyna-Soar and the larger Space 
             Shuttle.
@@ -1848,7 +1591,7 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
             Vega (Italian: Vettore Europeo di Generazione Avanzata, meaning "Advanced generation 
             European carrier rocket"), is an expendable launch system in use by Arianespace 
             jointly developed by the Italian Space Agency (ASI) and the European Space Agency 
-            (ESA). Development began in 1998 and the first launch took place from the Centre 
+            (ESA). Development began in 1998 and the first launch took place from the center 
             Spatial Guyanais on 13 February 2012.
 
             It is designed to launch small payloads — 300 to 2500 kg satellites for scientific 
@@ -1876,22 +1619,22 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
             However, it was recognised to be a costly project and thus difficult for Italy alone 
             to finance; accordingly, international partners were sought early on in order to 
             proceed with development. In April 1998, it was publicly stated that the Vega 
-            programme was dependent upon the securing of roughly ECU70 million of industrial 
+            program was dependent upon the securing of roughly ECU70 million of industrial 
             investment, as well as the availability of around ECU350 million of funding that 
             had been requested from interested member states of the European Space Agency (ESA), 
             led by France and Italy. During June 1998, it was announced that ministers from 
             European Space Agency (ESA) member states had agreed to proceed with the first phase 
-            of the development programme for Vega; the participating members were France, Belgium, 
+            of the development program for Vega; the participating members were France, Belgium, 
             the Netherlands, Spain and Italy - the latter had assumed 55% of the burden for 
-            financing the programme.
+            financing the program.
             
             By September 1998, it was projected that, if fully funded, Vega would perform its first 
             launch during 2002. However, by early 1998, France was publicly showing displeasure in 
-            the programme, leading to disputes in its funding. A new, higher-performance version of 
+            the program, leading to disputes in its funding. A new, higher-performance version of 
             the Vega was proposed, but this failed to sufficiently satisfy France. In September 1999, 
-            France decided to withdraw from the Vega programme entirely, leading to fears for the 
+            France decided to withdraw from the Vega program entirely, leading to fears for the 
             future of the launcher. In November 1999, European Space Agency (ESA) formally dropped 
-            Vega as an endorsed programme, a decision which was largely attributed to France's 
+            Vega as an endorsed program, a decision which was largely attributed to France's 
             withdrawal; Italy declared that it would proceed regardless, and threatened to re-direct 
             its allocated contributions for the further development of the Ariane 5 to meet the 
             shortfall.
@@ -1899,11 +1642,11 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
             Around 2000, an alternative use for the Vega was explored as a medium-class booster rocket 
             to be used in conjunction with an improved, up-rated model of the Ariane 5 heavy launcher. 
             In October 2000, it was announced that France and Italy had settled their year-long 
-            dispute over the Vega programme; France and Italy agreed to provide 35% and 52%, respectively, 
+            dispute over the Vega program; France and Italy agreed to provide 35% and 52%, respectively, 
             of the financing towards the all-composite P80 booster for the Ariane 5 — work which would be 
-            included in the Vega programme. In March 2001, FiatAvio and the Italian Space Agency formed 
+            included in the Vega program. In March 2001, FiatAvio and the Italian Space Agency formed 
             a new company, European Launch Vehicle (ELV), to assume responsibility for the majority of 
-            development work on the Vega programme. By 2003, there was concerns that European Space 
+            development work on the Vega program. By 2003, there was concerns that European Space 
             Agency (ESA)'s recent adoption of the Russian Soyuz launcher would directly compete with the 
             in-development Vega; demands for such launchers had declined with a downturn in the mobile 
             telecommunications satellite market and doubts over the European Galileo satellite 
@@ -2066,8 +1809,8 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
             satellites into LEO. This project was started by India during the early 1980s to 
             develop technologies needed for a payload to be placed into a geostationary orbit. 
             Its design was based on Satellite Launch Vehicle. ISRO did not have sufficient 
-            funds for both the Polar Satellite Launch Vehicle programme and the ASLV programme 
-            at the same time and the ASLV programme was terminated after the initial 
+            funds for both the Polar Satellite Launch Vehicle program and the ASLV program 
+            at the same time and the ASLV program was terminated after the initial 
             developmental flights. The payloads of ASLV were Stretched Rohini Satellites.
             
             The ASLV was a five-stage vehicle. Two strap-on boosters acted as a first stage, 
@@ -2146,7 +1889,7 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
             ISRO has envisaged a number of variants of PSLV to cater to different mission 
             requirements. There are currently two operational versions of the PSLV — the 
             core-alone (PSLV-CA) without strap-on motors, and the (PSLV-XL) version, with 
-            six extended length (XL) strap-on motors carrying 12 tonnes of HTPB based 
+            six extended length (XL) strap-on motors carrying 12 tons of HTPB based 
             propellant each. These configurations provide wide variations in payload 
             capabilities up to 3,800 kg (8,400 lbs) in LEO and 1,800 kg (4,000 lbs) in 
             sun-synchronous orbit.
@@ -2184,14 +1927,14 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
             Polar Satellite Launch Vehicle.
             
             PSLV-QL
-            PSLV-QL variant has four ground-lit strap-on boosters, each with 12 tonnes of 
+            PSLV-QL variant has four ground-lit strap-on boosters, each with 12 tons of 
             propellant. PSLV-C45 on 1 April 2019 was the first flight of PSLV-QL.
             
             
             PSLV C45 lift off (Concept)
             PSLV-3S was conceived as a three-staged version of PSLV with its six strap-on 
             boosters and second liquid stage removed. The total lift-off mass of PSLV-3S was 
-            expected to be 175 tonnes with capacity to place 500 kg in 550 km low Earth orbit.
+            expected to be 175 tons with capacity to place 500 kg in 550 km low Earth orbit.
             '''
     },
 
@@ -2375,7 +2118,7 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
 
             Many configurations of Jupiter were seen as possible, but the DIRECT version 
             3.0 proposal, released in May 2009, recommended two: the Jupiter-130 and 
-            Jupiter-246, with claimed lift capacities exceeding 70 and 110 tonnes, 
+            Jupiter-246, with claimed lift capacities exceeding 70 and 110 tons, 
             respectively, to low Earth orbit.
 
             ------------------------------------------------------------------------------
@@ -2510,19 +2253,19 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
             vehicle developed by the Indian Space Research Organisation (ISRO). Primarily 
             designed to launch communication satellites into geostationary orbit,[16] it is 
             also identified as launch vehicle for crewed missions under the Indian Human 
-            Spaceflight Programme and dedicated science missions like Chandrayaan-2. The GSLV 
+            Spaceflight program and dedicated science missions like Chandrayaan-2. The GSLV 
             Mk III has a higher payload capacity than the similarly named GSLV Mk II.
 
             After several delays and a sub-orbital test flight on 18 December 2014, ISRO 
             successfully conducted the first orbital test launch of GSLV Mk III on 5 June 2017 
-            from the Satish Dhawan Space Centre, Andhra Pradesh.
+            from the Satish Dhawan Space center, Andhra Pradesh.
 
             In June 2018, the Union Cabinet approved ₹43.38 billion (US$610 million) to build 
             10 GSLV Mk III rockets over a five-year period.
 
             GSLV Mk III launched CARE, India's space capsule recovery experiment module, 
             Chandrayaan-2, India's second lunar mission and will be used to carry Gaganyaan, 
-            the first crewed mission under Indian Human Spaceflight Programme.
+            the first crewed mission under Indian Human Spaceflight program.
 
             ISRO initially planned two launcher families, the Polar Satellite Launch Vehicle 
             for low Earth orbit and polar launches and the larger Geosynchronous Satellite 
@@ -2576,7 +2319,7 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
         "Image": "SSLV.png",
         "Additional Information":
             '''
-The Small Satellite Launch Vehicle (or SSLV) is a small-lift launch vehicle being developed by the Indian Space Research Organisation (ISRO) with payload capacity to deliver 500 kg to Low Earth orbit (500 km) or 300 kg to Sun synchronous orbit (500 km) for launching small satellites, with the capability to support multiple orbital drop-offs. On 21 December 2018, the Vikram Sarabhai Space Centre (VSSC) at Thumba completed the design for the vehicle.
+The Small Satellite Launch Vehicle (or SSLV) is a small-lift launch vehicle being developed by the Indian Space Research Organisation (ISRO) with payload capacity to deliver 500 kg to Low Earth orbit (500 km) or 300 kg to Sun synchronous orbit (500 km) for launching small satellites, with the capability to support multiple orbital drop-offs. On 21 December 2018, the Vikram Sarabhai Space center (VSSC) at Thumba completed the design for the vehicle.
 
 The maiden flight is expected in 2020, and all flights will launch from a dedicated launch pad in Sriharikota called Small Satellite Launch Complex (SSLC). A new spaceport, under development, near Kulasekarapattinam in Tamil Nadu (as of December 2019) will handle SSLV launches when complete.
 
@@ -2628,30 +2371,30 @@ The first three stages of the vehicle use solid propellant, with a fourth stage 
         "Image": "RLV-TD.png",
         "Additional Information":
             '''
-RLV-TD is India's first uncrewed flying testbed developed for the Indian Space Research Organisation (ISRO)'s Reusable Launch Vehicle Technology Demonstration Programme. It is a scaled down prototype of an eventual two-stage-to-orbit (TSTO) reusable launch vehicle.
+RLV-TD is India's first uncrewed flying testbed developed for the Indian Space Research Organisation (ISRO)'s Reusable Launch Vehicle Technology Demonstration program. It is a scaled down prototype of an eventual two-stage-to-orbit (TSTO) reusable launch vehicle.
 
 The RLV-TD successfully completed its first atmospheric test flight on 23 May 2016, which lasted for 770 seconds and reached a maximum altitude of 65 kilometres (40 mi). It was designed to evaluate various technologies, and development of the final version is expected to take 10 to 15 years. The fully developed RLV is expected to take off vertically like a rocket, deploy a satellite in orbit, return to Earth, and land on a runway.
 
-RLV-TD was developed by ISRO under the RLV Technology Demonstration Programme. The Technology Demonstration Programme consists of development of hypersonic rocket with air-breathing engines and the reusable launch vehicle.
+RLV-TD was developed by ISRO under the RLV Technology Demonstration program. The Technology Demonstration program consists of development of hypersonic rocket with air-breathing engines and the reusable launch vehicle.
 
 In January 2012, the design of ISRO's reusable launch vehicle was approved by the "National Review Committee" and clearance was granted to build the vehicle. The vehicle was named "Reusable Launch Vehicle-Technology Demonstrator" (RLV-TD). ISRO aims to bring down the cost of payload delivery to low Earth orbit by 80% from existing $20,000/kg to $4,000/kg.
 
 The RLV-TD was developed with an objective to test various aspects such as hypersonic flight, autoland, powered cruise flight, hypersonic flight using the air-breathing engine propulsion and "Hypersonic Experiment". A series of four RLV-TD test flights are planned by ISRO: HEX (Hypersonic Flight Experiment), LEX (Landing Experiment), REX (Return Flight Experiment), and SPEX (Scramjet Propulsion Experiment).
 
-A team of 750 engineers at Vikram Sarabhai Space Centre, National Aeronautical Laboratory, and Indian Institute of Science worked on the design and development of RLV-TD and the associated rocket. RLV-TD underwent 120 hours of wind tunnel, 5,000 hours of computational fluid dynamics and 1,100 runs of flight simulation tests. RLV-TD has mass of 1.75 tonnes, wingspan of 3.6 meters and overall length of 6.5 meters (excluding the rocket). The vehicle had 600 heat-resistant tiles on its undercarriage and it features delta wings and angled tail fins. Total cost of the project was ₹95 crore (equivalent to ₹110 crore or US$15.4 million in 2019). Future planned developments include testing an air-breathing propulsion system, which aims to capitalise on the oxygen in the atmosphere instead of liquefied oxygen while in flight.
+A team of 750 engineers at Vikram Sarabhai Space center, National Aeronautical Laboratory, and Indian Institute of Science worked on the design and development of RLV-TD and the associated rocket. RLV-TD underwent 120 hours of wind tunnel, 5,000 hours of computational fluid dynamics and 1,100 runs of flight simulation tests. RLV-TD has mass of 1.75 tons, wingspan of 3.6 meters and overall length of 6.5 meters (excluding the rocket). The vehicle had 600 heat-resistant tiles on its undercarriage and it features delta wings and angled tail fins. Total cost of the project was ₹95 crore (equivalent to ₹110 crore or US$15.4 million in 2019). Future planned developments include testing an air-breathing propulsion system, which aims to capitalise on the oxygen in the atmosphere instead of liquefied oxygen while in flight.
 
 
 Hypersonic Flight Experiment
 RLV-TD HEX-01
-The Hypersonic Flight Experiment (HEX), first of the five test flights was conducted on 23 May 2016. The Sub-orbital test flight was launched at 07:00 IST (01:30 GMT) from Satish Dhawan Space Centre in Sriharikota (80 kilometres (50 mi) north of Chennai). The test flight lasted for 770 seconds, reached maximum altitude of 65 kilometres (40 mi) and covered a distance of 450 kilometres (280 mi) Sriharikota, steered itself to an on-target splashdown to land (ditch) at a designated spot in the Bay of Bengal. Not designed to float, the vehicle disintegrated on impact with water and was not recovered.
+The Hypersonic Flight Experiment (HEX), first of the five test flights was conducted on 23 May 2016. The Sub-orbital test flight was launched at 07:00 IST (01:30 GMT) from Satish Dhawan Space center in Sriharikota (80 kilometres (50 mi) north of Chennai). The test flight lasted for 770 seconds, reached maximum altitude of 65 kilometres (40 mi) and covered a distance of 450 kilometres (280 mi) Sriharikota, steered itself to an on-target splashdown to land (ditch) at a designated spot in the Bay of Bengal. Not designed to float, the vehicle disintegrated on impact with water and was not recovered.
 
-RLV-TD was mounted on top of and launched aboard a single stage solid fuel booster (HS9 booster) that was derived from strap-on boosters flown on India's Polar Satellite Launch Vehicle. By the time, the booster consumed its solid propellant in 91 seconds, the RLV-TD separated from its boost stage and peaked to a sub-orbital altitude of about 65 kilometres (40 mi). The heat shield, guidance, navigation and control algorithms were tested at hypersonic speed by accurately steering the vehicle during the descent stage. For the descent back, the test vehicle was programmed to pitch its nose up, exposing silica tiles on its underside and reinforced carbon–carbon nose cap to the airflow into the thick lower layers of the atmosphere. The RLV-TD endured high temperatures of descent through the atmosphere due to its thermal protection system.
+RLV-TD was mounted on top of and launched aboard a single stage solid fuel booster (HS9 booster) that was derived from strap-on boosters flown on India's Polar Satellite Launch Vehicle. By the time, the booster consumed its solid propellant in 91 seconds, the RLV-TD separated from its boost stage and peaked to a sub-orbital altitude of about 65 kilometres (40 mi). The heat shield, guidance, navigation and control algorithms were tested at hypersonic speed by accurately steering the vehicle during the descent stage. For the descent back, the test vehicle was programd to pitch its nose up, exposing silica tiles on its underside and reinforced carbon–carbon nose cap to the airflow into the thick lower layers of the atmosphere. The RLV-TD endured high temperatures of descent through the atmosphere due to its thermal protection system.
 
 All stages of the test flight were tracked by ground station at the launch site and a shipborne terminal. All the mission objectives were met and technologies like autonomous navigation, guidance and control, reusable thermal protection system and descent mission management were successfully validated.
 
 
 Future developments
-The second experiment in RLV-TD series (LEX) would be an air-drop test where the prototype will be equipped with landing gear to perform an autonomous landing on a runway. The RLV-TD is being designed and built at the Vikram Sarabhai Space Centre. Its navigational equipment was supplied by the ISRO Inertial Systems Unit in Thiruvananthapuram and ISRO's Satellite Applications Centre in Ahmedabad. The RLV-TD's landing gear was supplied by Hindustan Aeronautics Limited. ISRO plans to carry out the landing experiment (LEX) on a military runway at Challakere in Chitradurga district. The flight article will be carried to an altitude of 3 km by a helicopter and released to land autonomously at the airstrip. LEX is scheduled for mid 2020.
+The second experiment in RLV-TD series (LEX) would be an air-drop test where the prototype will be equipped with landing gear to perform an autonomous landing on a runway. The RLV-TD is being designed and built at the Vikram Sarabhai Space center. Its navigational equipment was supplied by the ISRO Inertial Systems Unit in Thiruvananthapuram and ISRO's Satellite Applications center in Ahmedabad. The RLV-TD's landing gear was supplied by Hindustan Aeronautics Limited. ISRO plans to carry out the landing experiment (LEX) on a military runway at Challakere in Chitradurga district. The flight article will be carried to an altitude of 3 km by a helicopter and released to land autonomously at the airstrip. LEX is scheduled for mid 2020.
 
 In other experiments, ISRO intends to carry out an orbital re-entry experiment (REX) and a Scramjet Propulsion Experiment (SPEX) using a reusable carrier vehicle. ISRO Chief K. Sivan stated that the agency had many experiments planned for the RLV-TD, but would only focus on them from 2019, as it was occupied with other missions.
             '''
@@ -2703,7 +2446,7 @@ SHLV(Variant):41,300 kg (91,100 lbs)
             '''
 The Unified Launch Vehicle (ULV) is a development project by the Indian Space Research Organisation (ISRO) whose core objective is to design a modular architecture that could eventually replace the PSLV, GSLV Mk I/II and GSLV Mk III with a single family of launchers. The design may include a heavy-lift variant dubbed HLV, consisting of the SC-160 stage and two solid rocket boosters, as well as a super heavy-lift variant called SHLV with a cluster stage of five SCE-200 engines . As SCE-200 will only fly after the successful completion of the Gaganyaan program, the launcher will not fly before 2022.
 
-As of May 2013, based on ISRO data, the design comprised a common core and upper stage, with four different booster sizes. All four versions of the boosters are solid motors, with at least three versions reusing current motors from the PSLV, GSLV Mk I/II and LVM3. The core, known as the SC160 (Semi-Cryogenic stage with 160 tonnes of propellant, in the ISRO nomenclature), would have 160,000 kg (350,000 lbs) of Kerosene / LOX propellant and be powered by a single SCE-200 rocket engine. The upper stage, known as the C30 (Cryogenic stage with 30 tonnes of propellant) would have 30,000 kg (66,000 lbs) of LH2 / LOX propellant and be powered by a single CE-20 engine.
+As of May 2013, based on ISRO data, the design comprised a common core and upper stage, with four different booster sizes. All four versions of the boosters are solid motors, with at least three versions reusing current motors from the PSLV, GSLV Mk I/II and LVM3. The core, known as the SC160 (Semi-Cryogenic stage with 160 tons of propellant, in the ISRO nomenclature), would have 160,000 kg (350,000 lbs) of Kerosene / LOX propellant and be powered by a single SCE-200 rocket engine. The upper stage, known as the C30 (Cryogenic stage with 30 tons of propellant) would have 30,000 kg (66,000 lbs) of LH2 / LOX propellant and be powered by a single CE-20 engine.
 
 The four booster options are:
 
@@ -2717,8 +2460,8 @@ Heavy Lift Launch Vehicle(HLV-Variant):
 A potential heavy-lift variant (HLV) of the unified launcher capable of placing up to 10 ton class of spacecrafts into Geosynchronous Transfer Orbit would include:[1][12][10]
 
 A larger dual S-250 solid strap-on boosters as compared to the S-200 boosters used in LVM3;
-A L-400 semi-cryogenic core stage, with 400 tonnes of propellant, using a cluster of five SCE-200 engine's;
-A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
+A L-400 semi-cryogenic core stage, with 400 tons of propellant, using a cluster of five SCE-200 engine's;
+A L-27 cryogenic third stage, with 27 tons of propellant, using CE-20 engine.
             '''
     },
 
@@ -2805,7 +2548,7 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
             author Brian Harvey, L3S was "one of the major European engineering 
             projects in the last quarter of the century".
             
-            France was the largest stakeholder in the L3S programme; French 
+            France was the largest stakeholder in the L3S program; French 
             aerospace manufacturer Aérospatiale served as the prime contractor 
             and held responsibility for performing the integration of all 
             sections of the vehicle, while French engine manufacturer Société 
@@ -2867,7 +2610,7 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
             European Space Agency (ESA) between 1986 and 1989 as part of 
             Ariane family of rockets. The principal manufacturer for the 
             Ariane 2 was Aérospatiale, while the lead agency for its 
-            development was the Centre National d'Etudes Spatiales (CNES), 
+            development was the center National d'Etudes Spatiales (CNES), 
             the French government's space agency.
 
             Development of the Ariane 2 was authorised in July 1979, months 
@@ -2890,7 +2633,7 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
             organisation to undertake this mission, the European Space Agency. 
             Six years later, in December 1979, the arrival of a capable 
             European expendable launch system was marked when the first Ariane 
-            1 launcher was successfully launched from the Guiana Space Centre 
+            1 launcher was successfully launched from the Guiana Space center 
             at Kourou, French Guiana. The Ariane 1 soon became considered 
             to be a capable and competitive launcher in comparison to rival 
             platforms offered by the Soviet Union and the United States of 
@@ -2911,7 +2654,7 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
             adopted, the Ariane 3 was the direct successor to the Ariane 1, 
             rather than the Ariane 2, as could be logically assumed. The 
             principal agency behind the development of the Ariane 2 was 
-            the Centre National d'Etudes Spatiales (CNES), while the lead 
+            the center National d'Etudes Spatiales (CNES), while the lead 
             company for its production was the French aerospace 
             manufacturer Aérospatiale.
             
@@ -2986,7 +2729,7 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
             used for eleven launches between 1984 and 1989. It was a 
             member of the Ariane family of rockets. The principal 
             manufacturer for the Ariane 3 was Aérospatiale, while the lead 
-            agency for its development was the Centre National d'Etudes 
+            agency for its development was the center National d'Etudes 
             Spatiales (CNES).
 
             Development of the Ariane 3 was authorised in July 1979, months 
@@ -3010,7 +2753,7 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
             organisation to undertake this mission, the European Space Agency 
             (ESA). Six years later, in December 1979, the arrival of a capable 
             European expendable launch system was marked when the first Ariane 
-            1 launcher was successfully launched from the Guiana Space Centre 
+            1 launcher was successfully launched from the Guiana Space center 
             at Kourou, French Guiana. The Ariane 1 soon became considered to
             be a capable and competitive launcher in comparison to rival platforms 
             offered by the Soviet Union and the United States of America. However, 
@@ -3028,7 +2771,7 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
             Brian Harvey, in spite of the numbering sequence adopted, the Ariane 3 was 
             the direct successor to the Ariane 1, rather than the Ariane 2,as could be 
             logically assumed. The principal agency behind the development of the Ariane 
-            3 was the Centre National d'Etudes Spatiales (CNES), while the lead company 
+            3 was the center National d'Etudes Spatiales (CNES), while the lead company 
             for its production was the French aerospace manufacturer Aérospatiale.
             
             In order to keep costs down, CNES directed that only tested technologies 
@@ -3066,8 +2809,8 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
             launcher, one of the studied concepts had involved the addition of a fifth 
             engine to an enlarged first stage of the Ariane 3. However, this was determined 
             to have involved a very high level of redesign work; an alternative approach was 
-            instead adopted, in which the first stage was elongated to hold 210 tonnes of 
-            propellant instead of the 145 tonnes present on the Ariane 3. While the second 
+            instead adopted, in which the first stage was elongated to hold 210 tons of 
+            propellant instead of the 145 tons present on the Ariane 3. While the second 
             and third stages of the Ariane 4 remained identical to the Ariane 3, a range of 
             strap-on boosters were developed to be applied to the type, designed to gradually 
             increase the rocket's payload capacity. Overall, the Ariane 4 was 15 per cent 
@@ -3080,7 +2823,7 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
 
     "Ariane 4": {
         "Name": "Ariane 4",
-        "Agency": "ESA, CNES - Centre national d'études spatiales",
+        "Agency": "ESA, CNES - center national d'études spatiales",
         "Manufacturer": "ArianeGroup",        
         "Class": "Medium",
         "Payload Capacity to LEO": "5000–7600 kg",
@@ -3116,7 +2859,7 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
         "Image": "Ariane 4.png",
         "Additional Information":
             '''
-            The Ariane 4 was an expendable space launch system, developed by the Centre 
+            The Ariane 4 was an expendable space launch system, developed by the center 
             national d'études spatiales (CNES), the French space agency, for the European 
             Space Agency (ESA). It was manufactured by ArianeGroup and marketed by 
             Arianespace. Since its first flight on 15 June 1988 until the final flight 
@@ -3144,7 +2887,7 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
             exploration and formed a new pan-national organisation to undertake this mission, 
             the European Space Agency (ESA). Six years later, in December 1979, the arrival 
             of a capable European expendable launch system was marked when the first Ariane 1 
-            launcher was successfully launched from the Centre Spatial Guyanais at Kourou, 
+            launcher was successfully launched from the center Spatial Guyanais at Kourou, 
             French Guiana. The Ariane 1 soon became considered to be a capable and competitive 
             launcher in comparison to rival platforms offered by the Soviet Union and the United 
             States of America, and it was quickly followed by improved derivatives in the form of 
@@ -3152,13 +2895,13 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
             Ariane 3, had become the dominant launcher on the world market.
 
             In January 1982, the ESA issued its authorisation for the development and construction 
-            of the Ariane 4; the development programme had the stated objective of increasing the 
+            of the Ariane 4; the development program had the stated objective of increasing the 
             usable payload by 90%. The Ariane 4 would be a considerably larger and more 
             flexible launcher that the earlier members of its family, being intended to compete 
             with the upper end of launchers worldwide. In comparison, while the Ariane 1 had a 
-            typical weight of 207 tonnes and could launch payloads of up to 1.7 tonnes into orbit; 
-            the larger Ariane 4 had a typical weight of 470 tonnes and could orbit payloads of up 
-            to 4.2 tonnes. Work on the Ariane 4 was substantially eased via drawing heavily on both 
+            typical weight of 207 tons and could launch payloads of up to 1.7 tons into orbit; 
+            the larger Ariane 4 had a typical weight of 470 tons and could orbit payloads of up 
+            to 4.2 tons. Work on the Ariane 4 was substantially eased via drawing heavily on both 
             the technology and experiences gained from producing and operating the earlier members 
             of the Ariane rocket. The total development cost for the Ariane 4 was valued at 476 
             million European Currency Units (ECU) in 1986.
@@ -3167,8 +2910,8 @@ A L-27 cryogenic third stage, with 27 tonnes of propellant, using CE-20 engine.
             design team considered various approaches to achieve this. One concept studied had 
             involved the addition of a fifth engine to an enlarged first stage of the Ariane 3, 
             but was found to involve a very high level of redesign work to achieve this; instead, 
-            the first stage was elongated to hold 210 tonnes of propellant instead of the 145 
-            tonnes present on the Ariane 3. While the second and third stages remained identical to 
+            the first stage was elongated to hold 210 tons of propellant instead of the 145 
+            tons present on the Ariane 3. While the second and third stages remained identical to 
             the Ariane 3, a range of strap-on boosters were developed to be applied to the type, 
             designed to gradually increase the rocket's payload capacity. Overall, the Ariane 4 was 
             15% smaller than the Ariane 3.
@@ -3242,13 +2985,13 @@ ES: Retired
             '''
 Ariane 5 is a heavy-lift space launch vehicle developed and operated 
 by Arianespace for the European Space Agency (ESA). It is launched 
-from the Guiana Space Centre in French Guiana. It has been used to 
+from the Guiana Space center in French Guiana. It has been used to 
 deliver payloads into geostationary transfer orbit (GTO) or low Earth 
 orbit (LEO). A direct successor system, Ariane 6, is in development 
 as of July 2020.
 
 The system was originally designed as an expendable launch system by 
-the Centre national d'études spatiales (CNES), the French government's 
+the center national d'études spatiales (CNES), the French government's 
 space agency, in close cooperation with Germany and other European 
 partners. Despite not being a direct derivative of its predecessor 
 rocket program, it is classified as part of the Ariane rocket family. 
@@ -3274,7 +3017,7 @@ of Ariane 6 in early 2021.
 
 -Variants-
 G: The original version is dubbed Ariane 5 G (Generic) and had a launch mass 
-of 737 tonnes. Its payload capability to geostationary transfer orbit (GTO) 
+of 737 tons. Its payload capability to geostationary transfer orbit (GTO) 
 was 6,900 kilograms (15,200 lbs) for a single satellite or 6,100 kilograms 
 (13,400 lbs) for dual launches. It flew 17 times with one failure and two 
 partial failures.
@@ -4432,8 +4175,8 @@ Moon Express contracted Rocket lab to launch lunar landers (multiple launches co
             
             Angara A5 - The second Angara developed was the Angara A5 heavy lift launch vehicle, 
             which consists of one URM-1 core and four URM-1 boosters, a 3.6m URM-2 second stage, 
-            and an upper stage, either the Briz-M or the KVTK. Weighing 773 tonnes at lift-off, 
-            Angara A5 has a payload capacity of 24.5 tonnes to a 200 km x 60° orbit. Angara A5 
+            and an upper stage, either the Briz-M or the KVTK. Weighing 773 tons at lift-off, 
+            Angara A5 has a payload capacity of 24.5 tons to a 200 km x 60° orbit. Angara A5 
             is able to deliver 5.4 tons to GTO with Briz-M, or 7.5 tons to the same orbit with 
             KVTK.
 
@@ -5905,7 +5648,7 @@ Energia (Russian: Энергия, romanized: Energiya, lit. 'Energy'; GRAU 11K25
 
 The launch vehicle had two functionally different operational variants: Energia-Polyus, the initial test configuration, in which the Polyus system was used as a final stage to put the payload into orbit, and Energia-Buran, in which the Buran-class orbiters were the payload and the source of the orbit insertion impulse.
 
-The launch vehicle had the capacity to place about 100 tonnes in Low Earth orbit, up to 20 tonnes to geostationary orbit and up to 32 tonnes via translunar trajectory into lunar orbit.
+The launch vehicle had the capacity to place about 100 tons in Low Earth orbit, up to 20 tons to geostationary orbit and up to 32 tons via translunar trajectory into lunar orbit.
 
 The launch vehicle made just two flights to orbit before being discontinued. Since 2016, there has been attempts to revive the launch vehicle.
 
@@ -5913,7 +5656,7 @@ Work on the Energia/Buran system began in 1976 after the decision was made to ca
 
 The Energia was designed to launch the Soviet "Buran" reusable shuttle, and for that reason was designed to carry its payload mounted on the side of the stack, rather than on the top, as is done with other launch vehicles. Design of the Energia-Buran system assumed that the booster could be used without the Buran orbiter, as a heavy-lift cargo launch vehicle; this configuration was originally given the name "Buran-T". This configuration required the addition of an upper stage to perform the final orbital insertion. The first launch of the Energia was in the configuration of a heavy launch vehicle, with the large Polyus military satellite as a payload, however Polyus failed to correctly perform the orbital insertion.
 
-Due to the termination of the Buran programme the Energia program was concluded after only two launches, and further the payload on the first launch didn't perform the final boost properly. The legacy of Energia/Buran project manifests itself most visibly in form of the RD-170 family of rocket engines, and the Zenit launcher, with the first stage roughly the same as one of the Energia first-stage boosters.
+Due to the termination of the Buran program the Energia program was concluded after only two launches, and further the payload on the first launch didn't perform the final boost properly. The legacy of Energia/Buran project manifests itself most visibly in form of the RD-170 family of rocket engines, and the Zenit launcher, with the first stage roughly the same as one of the Energia first-stage boosters.
 
 Production of Energia rockets ended with the fall of the Soviet Union and the end of the Buran shuttle project. Ever since, there have been persistent rumors of the renewal of production, but given the current political realities, that is highly unlikely. While the Energia is no longer in production, the Zenit boosters are still in production and in use. The four strap-on liquid-fuel boosters, which burned kerosene and liquid oxygen, were the basis of the Zenit rocket which used the same engines. The engine is the four combustion chamber RD-170. Its derivative, the RD-171, is still used on the Zenit rocket. A half-sized derivative of the engine, the two-chamber RD-180, powers Lockheed Martin's Atlas V rocket, while the single-chamber derivative, the RD-191, has been used to launch the Korean Naro-1 (as a reduced-thrust variant named the RD-151) and the Russian Angara rocket. The RD-181, based on the RD-191, is used on the Antares rocket.
 
@@ -6063,7 +5806,7 @@ The total cost of the first three launches was over 500 billion won (US$450 mill
 
 Republic of Korea efforts to build an indigenous space launch vehicle is hindered due to persistent political pressure of the United States, who had for many decades hindered South Korea's indigenous rocket and missile development programs in fear of their possible connection to clandestine military ballistic missile programs. South Korea has sought the assistance of foreign countries such as Russia through MTCR commitments to supplement its restricted domestic rocket technology. South Korea is working on an engine for an indigenous launcher planned for 2021.
 
-The whole rocket was originally planned to be completely indigenous, but due to technological constraints largely spurred by political pressure from the United States that discouraged independent research and development of rocket technology by South Korea, KARI decided that the KSLV would be built on the basis of the universal rocket module (URM) designed for the Russian Angara family of rockets. The first stage of the vehicle uses the Russian RD-151 engine, which is essentially the RD-191 de-powered to 170 tonnes-force (1.7 MN; 370,000 lbf) from 190 tonnes. The second stage is a solid rocket motor developed and built by KARI. The launch vehicle weighs 140 tonnes (310,000 lb), stands 33 metres (108 ft) tall and has a diameter of almost 3 metres (9 ft 10 in).
+The whole rocket was originally planned to be completely indigenous, but due to technological constraints largely spurred by political pressure from the United States that discouraged independent research and development of rocket technology by South Korea, KARI decided that the KSLV would be built on the basis of the universal rocket module (URM) designed for the Russian Angara family of rockets. The first stage of the vehicle uses the Russian RD-151 engine, which is essentially the RD-191 de-powered to 170 tons-force (1.7 MN; 370,000 lbf) from 190 tons. The second stage is a solid rocket motor developed and built by KARI. The launch vehicle weighs 140 tons (310,000 lb), stands 33 metres (108 ft) tall and has a diameter of almost 3 metres (9 ft 10 in).
             '''
 
     },
@@ -6889,10 +6632,45 @@ The Dnepr launch vehicle had only a small number of modifications compared to th
         "successful_launches_int": "",
         "Launch Failures": "",
         "failed_launches_int": "",
-        "Image": "",
+        "Image": "Black Prince.png",
        "Additional Information":
             '''
-    
+Black Prince was a proposed British-led satellite expendable launch system. It would have made heavy use of the preceding Blue Streak missile and the Black Knight test rocket development programs, as well as some new elements, to produce a British-built launcher capable of deploying medium-sized payloads into orbit. Popularly known as the Black Prince due to its assigned rainbow code, in official documentation, the platform was referred to as the Blue Streak Satellite Launch Vehicle (BSSLV).
+
+The Black Prince originated from various ballistic missile programs that were being conducted by the United Kingdom during the 1950s. As envisioned, it was to have been a multistage rocket, the first stage being the Blue Streak and the second stage being the Black Knight. This would have been mated to a variety of different interchangeable third stages, differing based upon the individual intended mission profile. According to performance projections, the Black Prince would have been capable of delivering a 960 kg (2,117 lb) payload to a 740 km (400 nmi) orbit.
+
+The Black Prince gained several supporters, including official government backing following the termination of military involvement in the Blue Stream program during early 1960. It was seen as a viable means of reusing existing development work, but one that would still involve significant costs. The British government promoted the concept to other potential partners across Europe and the Commonwealth of Nations, however it became clear that the necessary backing would not be forthcoming. Work on the Black Prince launcher came to an effective halt shortly after the formation of the European Launcher Development Organisation (ELDO) working group and a government decision to proceed with British participation in the multinational Europa launcher program instead. During the late 1960s, it was proposed that elements of the Black Knight could be combined with the later Black Arrow launcher.
+
+During the early 1950s, the British government had identified the need to develop its own series of ballistic missiles due to advances being made in this field, particularly by the Soviet Union and the United States. A British program to develop such a missile, named Blue Streak, was promptly initiated; however, there were key questions over the then-relatively unknown scenario of what such a vehicle would encounter when attempting re-entry to the atmosphere, there were fears that such a vehicle might simply burn up like a meteor and therefore be unachievable.
+
+At the same time, Britain had also never previously developed a ballistic missile before, the field being relatively new and with few participants, thus there was significant value in developing and constructing a research ballistic missile in order to gain experience and data on how to design and build such vehicles, develop launch techniques, and general handling. Accordingly, during 1955, the Black Knight research rocket program was commenced for this purpose. Following several launches, the Black Knight became to be regarded as a successful program, having produced a relatively low cost and reliable rocket, and thus there was impetus present to proceed with further development of the platform.
+
+The Black Prince itself has its origins in a proposed design was put forward by Desmond King-Hele and Doreen Gilmour of the Royal Aircraft Establishment (RAE) during 1957. As envisioned by this proposal, an expendable launch system could be developed using a mix of preexisting and in-development assets; the multi-stage launcher was to be formed of a Blue Streak first stage, a Black Knight (or Black Arrow) second stage, and a military solid rocket as a third stage. The proposal, which subsequently became widely known as the Black Prince, quickly attracted the attention of a key supporter in Dr Geoffrey Pardoe, the project manager for the Blue Streak missile program.
+
+Space launcher
+On 13 April 1960, the Defence Minister Harold Watkinson announced the cancellation of Blue Streak as a military program, and went on to state that: "the Government will now consider with the firms and other interests concerned, as a matter of urgency, whether the Blue Streak program could be adapted for the development of a launcher for space satellites." While development of the Blue Streak missile continued with the view of using it as a capable satellite launcher, the rate of work was substantially slowed. Aerospace author C.N Hill wrote that this declaration had been made: "Mainly, I suspect, to minimise the political damage that ensued from the [Blue Streak] decision".
+
+The 1957 concept design for a combined Blue Streak-Black Knight launcher was put forward once again, and this time received a favourable appraisal; the project was assigned the rainbow code of Black Prince. In official documentation, the platform was referred to as the Blue Streak Satellite Launch Vehicle (BSSLV). The development of Black Prince was driven by the conjunction of the RAE and two private firms, aerospace manufacturer Saunders Roe and engine firm Bristol Siddeley.
+
+It was quickly recognised that the program's cost would be a major issue, one estimate of the total development costs would have been equal of half of the Britain's university budget. At the same point, it was becoming clear that, due to British military satellites already being delivered by American launchers and the domestic science community being perceived as lacking the funding to conduct multiple major research satellite programs at once, that domestic demand for such a launcher was not guaranteed. Accordingly, it was decided that it would be preferable for other nations to be involved in the program in order to share the burden of the costs and to be predisposed to making use of the launcher.
+
+The Black Prince program underwent several major changes during development. In March 1961, the RAE informed Saunders Roe that it had decided to adopt a French-built second stage for the launcher in place of the Black Knight. During the mid-1960s, the deployment of some form of combination of the Black Knight with the later Black Arrow launcher was also under consideration.
+
+Cancellation
+By late 1960, it was clear that no British Government department was prepared to provide full financing for the program, and that neither would any of Britain's allies across the Commonwealth of Nations be prepared to make major contributions in order to meet the shortfall. Most Commonwealth members either lacked the resources to spare in order to participate, or lacked interest in doing so. Canada was already overcommitted to its existing space-related scientific commitments, while Australia reportedly lacked interest in the program beyond supporting operations at Woomera; accordingly, the prospects for a joint program to develop and operate the Black Knight were very dim.
+
+Britain had also made diplomatic approaches to various European nations, the most significant of these being to France. An overture to the French Government by the Aviation Minister Peter Thorneycroft led to the formation of the European European Launcher Development Organisation (ELDO) group. In response to this initiative, work on the Black Prince launcher by the RAE and Saunders Roe soon came to a halt as attention from the British government waned and European negotiations continued. Instead, British participation in the multinational Europa launcher program had gradually taken precedence.
+
+In several respects, the Europa launcher was relatively similar to the Black Prince; notably, both launchers used the Blue Streak as their first stage, albeit with some improvements being made by the time of the later Europa launches taking place. Europa combined the British-built Blue Streak with sections built by other nations, such as the French-built second stage and Italian-built payload fairing. However, being roughly the same size and payload capacity as the Black Prince, Europa suffered the same key problem of customer demand: it remained too expensive for scientific missions, but incapable of carrying the larger payloads sought by the commercial sector.
+
+Ultimately, none of the ELDO members showed particular enthusiasm for the Europa launcher, which, according to Hill, was often regarded as being unnecessary and having been based on 'old technology', leading to the program being both a political and technical failure. While the performance of Europa proved disappointing and below expectations, following further restructuring, it was succeeded by the commercially viable and successful Ariane family of launchers.
+
+Design
+The Black Prince was an expendable launch system that comprised a combination of preexisting and in-development assets; the multi-stage launcher was to be formed of a Blue Streak first stage, a Black Knight (or Black Arrow) second stage, and a military solid rocket as a third stage. Several different third stages would be available, depending on the required payload and orbit. Examples of orbits suggested by Saunders Roe and the RAE were a 556 km (300 nmi) orbit for 'experiments in stellar UV spectroscopy', a 556–1,296 km (300-700 nmi (1,300 km)i) orbit for 'enabling investigations of the Earth's radiation belts,' and a 556–185,200 km (300-100,000 nmi (190,000 km)i) orbit for a 'Space probe.' According to Hill, the failure to tailor the Black Prince to perform a specific mission or to clearly identify and promote the launcher as a platform for a given mission type had been a major failing of the overall program.
+
+There were some problems with the design, however. The relative power of the rocket reduced with altitude. The solution requested by the government and provided by Saunders Roe was to use a high-energy cryogenic upper stage which would increase the payload to 408 kg (900 lb) to a 9,260 km (5,0 nmi (0 km)i) orbit, and 272 kg (600 lb) to a 16,670 km (9,0 nmi (0 km)i) orbit. The cost of developing the upper stage was estimated to be £5–7 million.
+
+Payloads were estimated to be around 1,034 kg (2,280 lb) to a 370 km (200 nmi) orbit and 960 kg (2,117 lb) to a 740 km (400 nmi) orbit. However, the design was considered to be inefficient and difficult because of the large differences in the diameters of the 3 metre (10 ft) wide Blue Streak and the metre-wide (3 ft) Black Knight. Fitting satellites into a three-foot payload fairing could also have been a challenge. Nevertheless, these difficulties were also encountered with successful American rockets including the Thor and Atlas.
             '''
 
     },
@@ -8224,7 +8002,7 @@ The Dnepr launch vehicle had only a small number of modifications compared to th
             
             In 1988 Iraq declared a program to design as well as manufacture a LV capable of putting 
             a satellite into orbit. The project was entirely civilian and was to be carried 
-            under the supervision of MIMI and had scientists from the Space Research Centre(SRC) and 
+            under the supervision of MIMI and had scientists from the Space Research center(SRC) and 
             Project 144. A special team consisting of foreign scientists was also made which 
             UNMOVIC could not identify. In general the Al-Abid project drew a large amount of 
             foreign expertise particularly from a Brazilian scientist Major General Hugo de Oliveira 
@@ -8240,7 +8018,7 @@ The Dnepr launch vehicle had only a small number of modifications compared to th
             1989 the other team of two foreign specialist proposed a different design with a 
             single Scud missile as core stage of first stage with 4-8 strap-on rockets which could 
             be Scuds or S-75 Dvinas, the second stage would be either liquid propelled or solid 
-            propelled and would include an AKM, the space research centre would reject this design. 
+            propelled and would include an AKM, the space research center would reject this design. 
             Initially focus was concentrated on the first-stage however work on second and third 
             stages had already commenced, initially the second stage was a 880 mm Scud missile of 
             extended burn-time however by beginning on 1989 diameter increased to 1250 mm. Initially 
@@ -8781,7 +8559,7 @@ The Convair SM-65B Atlas, or Atlas B, also designated X-12 was a prototype of th
 Ten flights were made. Nine of these were sub-orbital test flights of the Atlas as an Intercontinental Ballistic Missile, with five successful missions and four failures. The seventh flight, launched on 18 December 1958, was used to place the SCORE satellite into low Earth orbit, the first orbital launch conducted by an Atlas rocket.
 
 The B series test program took a considerable amount of delays and frustration, not in the least because the Atlas B was far more complicated than the prototype Atlas A, in fact the first launch would feature all hardware systems found on an operational Atlas, including the sustainer engine, separable booster section, guidance computer, Azusa tracking system, detachable nose cone, and more. The first flight article missile, 3B, was originally planned for launch in May 1958, but the date was set back by endless hardware difficulties, both with the missile itself and the newly opened LC-11. In addition, Atlas 3B could not be cleared for flight until a successful firing run of Missile 2B was performed at the Sycamore Canyon test stand, which was also experiencing nonstop technical issues. 
-The launch of a third Soviet satellite in April also put further pressure on program planners. Finally, on July 19, Missile 3B was launched. Engine start proceeded normally and the launcher release system functioned well. The Atlas performed well until T+21 seconds when the programmer attempted to initiate the pitch and roll maneuver. At this point, the missile began swerving from side to side uncontrollably and finally broke up at the forward end of the LOX tank at T+43 seconds, the lower portion from the fuel tank downward remaining intact until impact in the ocean. Even before the flight had terminated, real time telemetry readouts clearly indicated that the fault lay in the yaw gyro motor, which was not running. To prevent a recurrence of this, Convair developed the Spin Motor Rotation Detection system, 
+The launch of a third Soviet satellite in April also put further pressure on program planners. Finally, on July 19, Missile 3B was launched. Engine start proceeded normally and the launcher release system functioned well. The Atlas performed well until T+21 seconds when the programr attempted to initiate the pitch and roll maneuver. At this point, the missile began swerving from side to side uncontrollably and finally broke up at the forward end of the LOX tank at T+43 seconds, the lower portion from the fuel tank downward remaining intact until impact in the ocean. Even before the flight had terminated, real time telemetry readouts clearly indicated that the fault lay in the yaw gyro motor, which was not running. To prevent a recurrence of this, Convair developed the Spin Motor Rotation Detection system, 
 a collection of sensors designed to ensure proper gyroscope operation and which would prevent the launch if the motors were not running at the proper speed. It was not fully phased into Atlas vehicles until 1961 however. Atlas 3B was considered "partially successful" because all other systems had functioned properly. The only other abnormality was an unusually high usage of helium pressure gas, possibly due to a leak. If the flight had not terminated prematurely, the helium supply might have become depleted. Tank pressures however remained within normal levels until missile destruction. A minor thrust section fire was evident from T+9 seconds, caused by placement of the lube oil vent line near the booster turbine exhaust, however this was believed to have no connection to the subsequent loss of the missile. 
 One telemetry channel failed during the prelaunch countdown, as a consequence 13 telemetry measurements were inactive during the flight.
 
@@ -9190,88 +8968,108 @@ The Rocketdyne-powered Atlas-Centaur was sometimes referred to as a 2½ stage la
 
     "Atlas G": {
 
-        "Name": "",
+        "Name": "Atlas G",
         "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Manufacturer": "Convair",        
+        "Class": "Medium",
+        "Payload Capacity to LEO": "3,630 kg (8,000 lb)",
+        "payload_int": 3630,
+        "Height": "38 m (124.00 ft)",
+        "height_int": 38,
+        "Diameter": "3.05 m (10.00 ft)",
+        "diameter_int": 3.05,
+        "Mass": "166,140 kg (366,270 lb)",
+        "mass_int": 166140,
+        "Years in Operation": "1984-1989",
+        "firstyear_int": 1984,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "3",
+        "Burn Time": "S1: 174 sec, S2: 266 sec, S3: 402 sec",
+        "total_burntime_int": 842,
+        "Thrust": "S1: 1,939.30 kN, S2: 386.3 kN, S3: 146.8 kN",
+        "initial_thrust_int": 1939.30,
+        "ISP": "S1: 259 sec, S2: 316 sec, S3: 444 sec",
+        "asl_isp_int": 259,
+        "vac_isp_int": 444,
+        "Cost Per Launch": "$122,906,884",
+        "cost_int": 122906884,
+        "Fuel Type": "S1: RP-1/LOX, S2: RP-1/LOX, S3: LH2/LOX",
+        "Total Launches": "7",
+        "total_launches_int": 7,
+        "Successful Launches": "5",
+        "successful_launches_int": 5,
+        "Launch Failures": "2",
+        "failed_launches_int": 2,
+        "Image": "Atlas-G.png",
        "Additional Information":
             '''
-    
+The Atlas G, also known as Atlas G Centaur-D1AR was an American expendable launch system derived from the Atlas-Centaur. It was a member of the Atlas family of rockets, and was used to launch seven communication satellites during the mid to late 1980s. Atlas G consisted of an improved Atlas core with modernized avionics and stretched propellant tanks. The Centaur stage also had several updated components and other technical improvements. It was replaced by the Atlas I, which had an improved guidance system.
+
+The maiden voyage of Atlas G was the launch of Intelsat 5 on June 9, 1984. Atlas performance was normal as was Centaur orbital injection, but during the coasting phase prior to the second Centaur burn, the stage's LOX tank split open. The Centaur and Intelsat tumbled end-over-end and were left in a useless orbit where they remained until reentering the atmosphere four months later.
+
+Investigation into the failure found that a minor fatigue crack developed in the Centaur LOX tank during staging and orbital injection, which eventually led to complete tank failure and loss of the mission. The uprated Centaur flown on Atlas G, among other changes, deleted the propellant boost pumps in the interest of greater simplicity and weight-saving. To compensate for this, LOX tank pressure was increased 25%. Although the tank had been designed to accommodate higher pressure, technicians at Convair inexplicably failed to test Centaur 5402 for leaks before shipping it to Cape Canaveral. In addition, engineers had not tested the Centaur G stages to verify if they could handle the shock from the explosive bolts on the booster firing during staging, but this test was performed later and the stage passed it.
+
+Finally, the leak testing program and tools used at Convair were outdated and less reliable than newer methods and the tech personnel in charge of fabricating the Centaur's balloon tanks were badly inexperienced. Ultimately, this was a symptom of the entire US space program in the 1980s as plans to entirely replace expendable launch vehicles with the Space Shuttle had resulted in large-scale budget cutbacks and layoffs of experienced technicians.
+
+Six more Atlas G/Centaur launches took place through 1989. These were:
+
+Intelsat 5A F-10, March 22, 1985
+Intelsat 5A F-11, June 30, 1985
+Intelsat 5A F-12, September 28, 1985
+FLTSATCOM 7, December 5, 1986
+FLTSATCOM 6, March 26, 1987 (launch failed after the booster was struck by lightning)
+FLTSATCOM 8, September 25, 1989
+The first stage was derived from the SM-65 Atlas missile, and a Centaur was used as the second stage. The first stage was also flown without the Centaur, as the Atlas H.
             '''
 
     },
 
     "Atlas I": {
 
-        "Name": "",
+        "Name": "Atlas I",
         "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Manufacturer": "General Dynamics",        
+        "Class": "Medium",
+        "Payload Capacity to LEO": "3,630 kg (8,000 lbs)",
+        "payload_int": 3630,
+        "Height": "43.90m (144.00 ft)",
+        "height_int": 43.9,
+        "Diameter": "3.05m (10 ft)",
+        "diameter_int": 3.05,
+        "Mass": "164,300kg (362,200 lb)",
+        "mass_int": 164300,
+        "Years in Operation": "1990-1997",
+        "firstyear_int": 1990,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "3",
+        "Burn Time": "S1: 174 sec, S2: 266 sec, S3: 402 sec",
+        "total_burntime_int": 842,
+        "Thrust": "S1: 1,896 kN, S2: 386.3 kN, S3: 146.8 kN",
+        "initial_thrust_int": 1896,
+        "ISP": "S1: 259 sec, S2: 266 sec, S3: 444 sec",
+        "asl_isp_int": 259,
+        "vac_isp_int": 444,
+        "Cost Per Launch": "$122,906,884",
+        "cost_int": 122906884,
+        "Fuel Type": "S1: RP-1/LOX, S2: RP-1/LOX, S3: LH2/LOX",
+        "Total Launches": "11",
+        "total_launches_int": 11,
+        "Successful Launches": "8",
+        "successful_launches_int": 8,
+        "Launch Failures": "3",
+        "failed_launches_int": 3,
+        "Image": "Atlas-I.png",
        "Additional Information":
             '''
-    
+The Atlas I was a US expendable launch system manufactured by General Dynamics in the 1990s to launch a variety of satellites. The "I" in "Atlas I" can cause confusion, as all previous Atlas rockets were designated using letters, ending with the Atlas H, however subsequent rockets were designated using Roman numerals, starting with the Atlas II. Officially, the "I" is the Roman numeral "1". Eleven launches took place, with three failures.
+
+Though the Atlas I was marketed as a new rocket, it was mostly a re-brand of the Atlas G/H for commercial payloads. The Atlas G and H launched mostly governmental satellites.
+
+Atlas I was the last use of the classic Atlas design with three engines, jettisonable booster section, and two vernier engines. Atlas II, while retaining most of those features, replaced the verniers with a hydrazine roll control system.
             '''
 
     },
@@ -10141,7 +9939,7 @@ The most important change in making the Mercury-Redstone a suitable vehicle for 
 Exploded view
 The Mercury-Redstone's automatic in-flight abort sensing system solved this problem by monitoring the rocket's performance during flight. If it detected an anomaly which might threaten the astronaut, such as loss of flight control, engine thrust, or electrical power, it would automatically abort, shutting down the engine and activating the capsule's escape system. The abort system could not shut off the engine until at least 30 seconds after liftoff in order to prevent a malfunctioning launch vehicle from coming down on or near the pad; during the initial 30 seconds, only the Range Safety Officer could terminate the flight. Review of flight data from the more than 60 Redstone and Jupiter C launches since 1953 was used to analyze the most likely failure modes of this launch vehicle family. In the interest of simplicity, the abort sensing system had to be kept as simple as possible and only monitor parameters that were vital to booster operation. An automatic abort could be triggered by any of the following conditions, all of which could be indicative of a catastrophic launch vehicle malfunction:
 
-Pitch, yaw, or roll angle deviating too far from the programmed flight profile,
+Pitch, yaw, or roll angle deviating too far from the programd flight profile,
 Pitch or yaw angle changing too rapidly,
 Pressure in the engine's combustion chamber falling below a critical level,
 Loss of electrical power for the flight control system, or
