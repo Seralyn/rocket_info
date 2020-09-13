@@ -80,16 +80,11 @@ class MainTabs(QWidget):
         self.tabs.addTab(self.explore_tab,"Explore")
         self.tabs.addTab(self.compare_tab,"Compare")
         
-        # Create first tab
-        self.explore_tab.layout = QVBoxLayout(self)
-        self.pushButton1 = QPushButton("PyQt5 button")
-        self.explore_tab.layout.addWidget(self.pushButton1)
-        self.explore_tab.setLayout(self.explore_tab.layout)
         
         # Add tabs to widget
         self.layout.addWidget(self.tabs)
         self.setLayout(self.layout)
-        #self.explore_tab.setCentralWidget(self.centralwidget)
+        #
 
 class CustomDialog(QDialog):
     def __init__(self, *args, **kwargs):
@@ -119,16 +114,38 @@ class Ui_MainWindow(object):
         MainWindow.setStyleSheet("background-color: rgb(52, 52, 52); color:rgb(255, 255, 255); background-color: qlineargradient(spread:pad, x1:0.522, y1:1, x2:0.528, y2:0, stop:0 rgba(34, 34, 34, 255), stop:1 rgba(54, 54, 54, 255));")
         
         self.tabs_widget = MainTabs(MainWindow)
-        #self.explore = self.tabs_widget.explore_tab
-        #MainWindow.setCentralWidget(self.tabs_widget)
+
+        self.explore = self.tabs_widget.explore_tab
+        self.compare = self.tabs_widget.compare_tab
+
+        self.explore.layout = QVBoxLayout(self.tabs_widget)
+        self.compare.layout = QVBoxLayout(self.tabs_widget)
+
+        self.ExploreTabMovingBox = QtWidgets.QWidget(MainWindow)
+        self.ExploreTabMovingBox.setObjectName("ExploreTabMovingBox")
+
+        self.CompareTabMovingBox = QtWidgets.QWidget(MainWindow)
+        self.CompareTabMovingBox.setObjectName("CompareTabMovingBox")
+
+        self.explore.layout.addWidget(self.ExploreTabMovingBox)
+        self.explore.setLayout(self.explore.layout)
+        
+        self.compare.layout.addWidget(self.CompareTabMovingBox)
+        self.compare.setLayout(self.compare.layout)
+
         MainWindow.setCentralWidget(self.tabs_widget)
 
-        self.centralwidget = QtWidgets.QWidget(MainWindow)
-        self.centralwidget.setObjectName("centralwidget")
-        self.gridLayout = QtWidgets.QGridLayout(self.centralwidget)
+        
+        self.gridLayout = QtWidgets.QGridLayout(self.ExploreTabMovingBox)
         self.gridLayout.setObjectName("gridLayout")
-        self.columnViewFrame = QtWidgets.QFrame(self.centralwidget)
+        # self.gridLayoutCompare = QtWidgets.QGridLayout(self.CompareTabMovingBox)
+        # self.gridLayoutCompare.setObjectName("gridLayoutCompare")
+
+        self.columnViewFrame = QtWidgets.QFrame(self.ExploreTabMovingBox)
         self.columnViewFrame.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        # self.columnViewFrameCompare = QtWidgets.QFrame(self.CompareTabMovingBox)
+        # self.columnViewFrameCompare.setFrameShape(QtWidgets.QFrame.StyledPanel)
+
         self.columnViewFrame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.columnViewFrame.setObjectName("columnViewFrame")
         self.horizontalLayout = QtWidgets.QHBoxLayout(self.columnViewFrame)
@@ -252,19 +269,11 @@ class Ui_MainWindow(object):
         
         self.imageLayout.addWidget(self.imageLabel)
         self.imageLabel.setStyleSheet("background-color: rgb(52, 52, 52)")
-        self.imageLabel.setObjectName("imageLabel") 
-        
-        
-        #self.graphicsView = QtWidgets.QGraphicsView(self.frame)
-        #self.graphicsView.setMaximumSize(QtCore.QSize(580, 16777215))
-        #self.graphicsView.setStyleSheet("background-color: rgb(52, 52, 52), background-image: url("")")
-        #self.graphicsView.setObjectName("graphicsView")
-        #self.imageLayout.addWidget(self.graphicsView)
-        
+        self.imageLabel.setObjectName("imageLabel")        
         
         self.horizontalLayout.addWidget(self.frame)
         self.gridLayout.addWidget(self.columnViewFrame, 2, 0, 4, 2)
-        #MainWindow.setCentralWidget(self.centralwidget)
+        
         
         
   # ***** Menu Bar Item Creation and Naming ******      
@@ -983,6 +992,7 @@ CTPB: Carboxy-Terminated Polybutadiene
 PBAN: Polybutadiene Acrylonitrile
 LOX: Liquid Oxygen
 LH2: Liquid Hydrogen
+CH4: Liquid Methane
 (I)RFNA: Red Fuming Nitric Acid
 UDMH: Unsymmetrical Dimethylhydrazine
 MMH: Monomethyl Hydrazine
