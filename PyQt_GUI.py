@@ -10,8 +10,8 @@ from collections import OrderedDict
 import sys
 import ctypes  #this plus the two lines below (beginning with "myappid" and "ctypes.windll" respectively allows windwows to recognize the app's icon, as opposed to just giving the window it self the proper icon
 
-myappid = 'mycompany.myproduct.subproduct.version' # arbitrary string
-ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
+# myappid = 'mycompany.myproduct.subproduct.version' # arbitrary string
+# ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
 
 #******* Sorting Functions (Helper) ***********
 
@@ -579,7 +579,7 @@ class Ui_MainWindow(object):
 
         # *************** Tool Bar Connections ******************
         self.actionPrint.triggered.connect(self.printButtonClicked)
-        #self.actionCompare.triggered.connect(self.compareButtonClicked)
+        self.actionCompare.triggered.connect(self.compareButtonClicked)
 
 
         # ***** Placing, Naming, Setting Tool and Status tips for Toolbar Items ******   
@@ -616,15 +616,16 @@ class Ui_MainWindow(object):
 
     # def compareButtonClicked(self):
     #     #repopulate current sorted list with checkable versions of those items
-    #     self.listWidget.clear()
-
-    #     for i in range(len(self.listWidget)):
-    #         item = QtWidgets.QListWidgetItem(i)
+    #     _translate = QtCore.QCoreApplication.translate
+    #     item_count = len(self.listWidget)
+    #     for i in range(item_count):
+    #         item = self.listWidget.item(i)
     #         item.setFlags(item.flags() | QtCore.Qt.ItemIsUserCheckable)
     #         item.setCheckState(QtCore.Qt.Unchecked)
-    #     # for rocket in ascending_alphabetical_rocket_choices:   
-    #         self.listWidget.addItem(i)
-    #         self.addFlags()
+    #     self.imageLabel.hide()
+    #     self.imageHeaderLabel.hide()
+    #     #self.informationHeaderLabel.setText("Compare Rockets")
+    #     self.informationHeaderLabel.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:24pt; font-weight:600; color:#ffffff;\">Compare Rockets</span></p></body></html>"))
 
 
     def printButtonClicked(self):
