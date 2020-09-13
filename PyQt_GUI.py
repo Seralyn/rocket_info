@@ -614,18 +614,18 @@ class Ui_MainWindow(object):
 
     # ********** Toolbar Button Click Methods **********
 
-    # def compareButtonClicked(self):
-    #     #repopulate current sorted list with checkable versions of those items
-    #     _translate = QtCore.QCoreApplication.translate
-    #     item_count = len(self.listWidget)
-    #     for i in range(item_count):
-    #         item = self.listWidget.item(i)
-    #         item.setFlags(item.flags() | QtCore.Qt.ItemIsUserCheckable)
-    #         item.setCheckState(QtCore.Qt.Unchecked)
-    #     self.imageLabel.hide()
-    #     self.imageHeaderLabel.hide()
-    #     #self.informationHeaderLabel.setText("Compare Rockets")
-    #     self.informationHeaderLabel.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:24pt; font-weight:600; color:#ffffff;\">Compare Rockets</span></p></body></html>"))
+    def compareButtonClicked(self):
+        #repopulate current sorted list with checkable versions of those items
+        _translate = QtCore.QCoreApplication.translate
+        item_count = len(self.listWidget)
+        for i in range(item_count):
+            item = self.listWidget.item(i)
+            item.setFlags(item.flags() | QtCore.Qt.ItemIsUserCheckable)
+            item.setCheckState(QtCore.Qt.Unchecked)
+        self.imageLabel.hide()
+        self.imageHeaderLabel.hide()
+        #self.informationHeaderLabel.setText("Compare Rockets")
+        self.informationHeaderLabel.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:24pt; font-weight:600; color:#ffffff;\">Compare Rockets</span></p></body></html>"))
 
 
     def printButtonClicked(self):
