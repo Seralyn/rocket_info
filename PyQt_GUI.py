@@ -3,7 +3,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets, QtPrintSupport
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtWidgets import (QSplashScreen, QLabel, QCompleter, QGraphicsScene, 
 QGraphicsView, QLineEdit, QLabel, QPushButton, QScrollArea, QVBoxLayout, QWidget,
-QSpacerItem, QMainWindow, QSizePolicy, QHBoxLayout, QVBoxLayout, QDialog, QDialogButtonBox)
+QSpacerItem, QMainWindow, QTabWidget, QSizePolicy, QHBoxLayout, QVBoxLayout, QDialog, QDialogButtonBox)
 from PyQt5.QtCore import QTimer, Qt
 from rocket_dictionary import rocketDictionary
 from collections import OrderedDict
@@ -64,7 +64,32 @@ descending_vac_isp_rocket_choices = OrderedDict(sorted(rocketDictionary.items(),
 # descending_asl_isp_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['asl_isp_int'], reverse=True)) #reverse
 # ascending_vac_isp_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['vac_isp_int']))
 # descending_vac_isp_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['vac_isp_int'], reverse=True)) #reverse
-
+class MainTabs(QWidget):
+    
+    def __init__(self, parent):
+        super(QWidget, self).__init__(parent)
+        self.layout = QVBoxLayout(self)
+        
+        # Initialize tab screen
+        self.tabs = QTabWidget()
+        self.explore_tab = QWidget(MainWindow)
+        self.compare_tab = QWidget()
+        
+        
+        # Add tabs
+        self.tabs.addTab(self.explore_tab,"Explore")
+        self.tabs.addTab(self.compare_tab,"Compare")
+        
+        # Create first tab
+        self.explore_tab.layout = QVBoxLayout(self)
+        self.pushButton1 = QPushButton("PyQt5 button")
+        self.explore_tab.layout.addWidget(self.pushButton1)
+        self.explore_tab.setLayout(self.explore_tab.layout)
+        
+        # Add tabs to widget
+        self.layout.addWidget(self.tabs)
+        self.setLayout(self.layout)
+        #self.explore_tab.setCentralWidget(self.centralwidget)
 
 class CustomDialog(QDialog):
     def __init__(self, *args, **kwargs):
@@ -91,12 +116,13 @@ class Ui_MainWindow(object):
         MainWindow.setObjectName("MainWindow")
         MainWindow.setWindowIcon(QtGui.QIcon('rocket_icon_512.ico')) 
         MainWindow.resize(1600, 900)
-        MainWindow.setStyleSheet("background-color: rgb(52, 52, 52);\n"
-"color: rgb(255, 255, 255);\n"
-"background-color: qlineargradient(spread:pad, x1:0.522, y1:1, x2:0.528, y2:0, stop:0 rgba(34, 34, 34, 255), stop:1 rgba(54, 54, 54, 255));\n"
-"\n"
-"")
-        #MainWindow.setStyleSheet("QToolTip{background-color : blue ; color: k ; font: 12pt}")
+        MainWindow.setStyleSheet("background-color: rgb(52, 52, 52); color:rgb(255, 255, 255); background-color: qlineargradient(spread:pad, x1:0.522, y1:1, x2:0.528, y2:0, stop:0 rgba(34, 34, 34, 255), stop:1 rgba(54, 54, 54, 255));")
+        
+        self.tabs_widget = MainTabs(MainWindow)
+        self.explore = self.tabs_widget.explore_tab
+        #MainWindow.setCentralWidget(self.tabs_widget)
+        MainWindow.setCentralWidget(self.explore)
+
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.gridLayout = QtWidgets.QGridLayout(self.centralwidget)
@@ -238,7 +264,7 @@ class Ui_MainWindow(object):
         
         self.horizontalLayout.addWidget(self.frame)
         self.gridLayout.addWidget(self.columnViewFrame, 2, 0, 4, 2)
-        MainWindow.setCentralWidget(self.centralwidget)
+        #MainWindow.setCentralWidget(self.centralwidget)
         
         
   # ***** Menu Bar Item Creation and Naming ******      
