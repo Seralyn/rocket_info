@@ -119,9 +119,9 @@ class Ui_MainWindow(object):
         MainWindow.setStyleSheet("background-color: rgb(52, 52, 52); color:rgb(255, 255, 255); background-color: qlineargradient(spread:pad, x1:0.522, y1:1, x2:0.528, y2:0, stop:0 rgba(34, 34, 34, 255), stop:1 rgba(54, 54, 54, 255));")
         
         self.tabs_widget = MainTabs(MainWindow)
-        self.explore = self.tabs_widget.explore_tab
+        #self.explore = self.tabs_widget.explore_tab
         #MainWindow.setCentralWidget(self.tabs_widget)
-        MainWindow.setCentralWidget(self.explore)
+        MainWindow.setCentralWidget(self.tabs_widget)
 
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
