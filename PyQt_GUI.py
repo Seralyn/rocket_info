@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from PyQt5 import QtCore, QtGui, QtWidgets, QtPrintSupport
 from PyQt5.QtGui import QPixmap
-from PyQt5.QtWidgets import (QSplashScreen, QLabel, QCompleter, QGraphicsScene, 
+from PyQt5.QtWidgets import (QSplashScreen, QLabel, QCheckBox, QComboBox, QCompleter, QGraphicsScene, 
 QGraphicsView, QLineEdit, QLabel, QPushButton, QScrollArea, QVBoxLayout, QWidget,
 QSpacerItem, QMainWindow, QTabWidget, QSizePolicy, QHBoxLayout, QVBoxLayout, QDialog, QDialogButtonBox)
 from PyQt5.QtCore import QTimer, Qt
@@ -138,59 +138,117 @@ class Ui_MainWindow(object):
         
         self.gridLayout = QtWidgets.QGridLayout(self.ExploreTabMovingBox)
         self.gridLayout.setObjectName("gridLayout")
-        # self.gridLayoutCompare = QtWidgets.QGridLayout(self.CompareTabMovingBox)
-        # self.gridLayoutCompare.setObjectName("gridLayoutCompare")
+        self.gridLayoutCompare = QtWidgets.QGridLayout(self.CompareTabMovingBox)
+        self.gridLayoutCompare.setObjectName("gridLayoutCompare")
 
         self.columnViewFrame = QtWidgets.QFrame(self.ExploreTabMovingBox)
         self.columnViewFrame.setFrameShape(QtWidgets.QFrame.StyledPanel)
-        # self.columnViewFrameCompare = QtWidgets.QFrame(self.CompareTabMovingBox)
-        # self.columnViewFrameCompare.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.columnViewFrameCompare = QtWidgets.QFrame(self.CompareTabMovingBox)
+        self.columnViewFrameCompare.setFrameShape(QtWidgets.QFrame.StyledPanel)
 
         self.columnViewFrame.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.columnViewFrameCompare.setFrameShadow(QtWidgets.QFrame.Raised)
+        
         self.columnViewFrame.setObjectName("columnViewFrame")
+        self.columnViewFrameCompare.setObjectName("columnViewFrameCompare")
+
         self.horizontalLayout = QtWidgets.QHBoxLayout(self.columnViewFrame)
         self.horizontalLayout.setObjectName("horizontalLayout")
+        self.horizontalLayoutCompare = QtWidgets.QHBoxLayout(self.columnViewFrameCompare)
+        self.horizontalLayoutCompare.setObjectName("horizontalLayoutCompare")
+
+
         self.rocketClusterFrame = QtWidgets.QFrame(self.columnViewFrame)
         self.rocketClusterFrame.setMaximumSize(QtCore.QSize(280, 16777215))
         self.rocketClusterFrame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.rocketClusterFrame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.rocketClusterFrame.setObjectName("rocketClusterFrame")
+        self.rocketClusterFrameCompare = QtWidgets.QFrame(self.columnViewFrameCompare)
+        self.rocketClusterFrameCompare.setMaximumSize(QtCore.QSize(280, 16777215))
+        self.rocketClusterFrameCompare.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.rocketClusterFrameCompare.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.rocketClusterFrameCompare.setObjectName("rocketClusterFrameCompare")
+
         self.verticalLayout = QtWidgets.QVBoxLayout(self.rocketClusterFrame)
         self.verticalLayout.setContentsMargins(20, -1, -1, -1)
         self.verticalLayout.setObjectName("verticalLayout")
+        self.verticalLayoutCompare = QtWidgets.QVBoxLayout(self.rocketClusterFrameCompare)
+        self.verticalLayoutCompare.setContentsMargins(20, -1, -1, -1)
+        self.verticalLayoutCompare.setObjectName("verticalLayoutCompare")
+
+
         self.rocketHeaderLabel = QtWidgets.QLabel(self.rocketClusterFrame)
         self.rocketHeaderLabel.setMaximumSize(QtCore.QSize(260, 50))
         self.rocketHeaderLabel.setStyleSheet("background-color: rgb(54, 54, 54);")
         self.rocketHeaderLabel.setObjectName("rocketHeaderLabel")
+        self.rocketHeaderLabelCompare = QtWidgets.QLabel(self.rocketClusterFrameCompare)
+        self.rocketHeaderLabelCompare.setMaximumSize(QtCore.QSize(260, 50))
+        self.rocketHeaderLabelCompare.setStyleSheet("background-color: rgb(54, 54, 54);")
+        self.rocketHeaderLabelCompare.setObjectName("rocketHeaderLabelCompare")
+
+
         self.verticalLayout.addWidget(self.rocketHeaderLabel)
+        self.verticalLayoutCompare.addWidget(self.rocketHeaderLabelCompare)
+
+        
         self.searchBarFrame = QtWidgets.QFrame(self.rocketClusterFrame)
         self.searchBarFrame.setMaximumSize(QtCore.QSize(260, 16777215))
         self.searchBarFrame.setStyleSheet("background-color: rgb(52, 52, 52);")
         self.searchBarFrame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.searchBarFrame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.searchBarFrame.setObjectName("searchBarFrame")
+        self.searchBarFrameCompare = QtWidgets.QFrame(self.rocketClusterFrameCompare)
+        self.searchBarFrameCompare.setMaximumSize(QtCore.QSize(260, 16777215))
+        self.searchBarFrameCompare.setStyleSheet("background-color: rgb(52, 52, 52);")
+        self.searchBarFrameCompare.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.searchBarFrameCompare.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.searchBarFrameCompare.setObjectName("searchBarFrameCompare")
+
+
         self.horizontalLayout_2 = QtWidgets.QHBoxLayout(self.searchBarFrame)
         self.horizontalLayout_2.setObjectName("horizontalLayout_2")
+        self.horizontalLayout_2Compare = QtWidgets.QHBoxLayout(self.searchBarFrameCompare)
+        self.horizontalLayout_2Compare.setObjectName("horizontalLayout_2Compare")
+        
         self.searchHeaderLabel = QtWidgets.QLabel(self.searchBarFrame)
         self.searchHeaderLabel.setMaximumSize(QtCore.QSize(80, 60))
         self.searchHeaderLabel.setStyleSheet("background-color: rgb(52, 52, 52);")
         self.searchHeaderLabel.setObjectName("searchHeaderLabel")
+        self.searchHeaderLabelCompare = QtWidgets.QLabel(self.searchBarFrameCompare)
+        self.searchHeaderLabelCompare.setMaximumSize(QtCore.QSize(80, 60))
+        self.searchHeaderLabelCompare.setStyleSheet("background-color: rgb(52, 52, 52);")
+        self.searchHeaderLabelCompare.setObjectName("searchHeaderLabelCompare")
+        
         self.horizontalLayout_2.addWidget(self.searchHeaderLabel)
+        self.horizontalLayout_2Compare.addWidget(self.searchHeaderLabelCompare)
+        
         self.searchBox = QtWidgets.QLineEdit(self.searchBarFrame)
         self.searchBox.setPlaceholderText(" Enter Name of Rocket...")
         self.searchBox.textChanged.connect(self.filter_rocket_list)
         self.searchBox.setMinimumSize(QtCore.QSize(0, 10))
         self.searchBox.setMaximumSize(QtCore.QSize(200, 16777215))
-        self.searchBox.setStyleSheet("background-color: rgb(70, 70, 70);\n"
-"color: rgb(255, 255, 255);\n"
-"selection-color: rgb(0, 0, 0);\n"
-"selection-background-color: rgb(66, 229, 243);")
+        self.searchBox.setStyleSheet("background-color: rgb(70, 70, 70); color: rgb(255, 255, 255);selection-color: rgb(0, 0, 0);selection-background-color: rgb(66, 229, 243);")
         self.searchBox.setObjectName("searchBox")
+        self.searchBoxCompare = QtWidgets.QLineEdit(self.searchBarFrameCompare)
+        self.searchBoxCompare.setPlaceholderText(" Enter Name of Rocket...")
+        self.searchBoxCompare.textChanged.connect(self.filter_rocket_list_compare)
+        self.searchBoxCompare.setMinimumSize(QtCore.QSize(0, 10))
+        self.searchBoxCompare.setMaximumSize(QtCore.QSize(200, 16777215))
+        self.searchBoxCompare.setStyleSheet("background-color: rgb(70, 70, 70); color: rgb(255, 255, 255); selection-color: rgb(0, 0, 0); selection-background-color: rgb(66, 229, 243);")
+        self.searchBoxCompare.setObjectName("searchBoxCompare")
+
         self.completer = QCompleter(rocketDictionary.keys())
         self.completer.setCaseSensitivity(Qt.CaseInsensitive)
         self.searchBox.setCompleter(self.completer)
+        self.completerCompare = QCompleter(rocketDictionary.keys())
+        self.completerCompare.setCaseSensitivity(Qt.CaseInsensitive)
+        self.searchBoxCompare.setCompleter(self.completerCompare)
+        
         self.horizontalLayout_2.addWidget(self.searchBox)
         self.verticalLayout.addWidget(self.searchBarFrame)
+        self.horizontalLayout_2Compare.addWidget(self.searchBoxCompare)
+        self.verticalLayoutCompare.addWidget(self.searchBarFrameCompare)
+        
         self.listWidget = QtWidgets.QListWidget(self.rocketClusterFrame)
         self.listWidget.setMaximumSize(QtCore.QSize(260, 16777215))
         self.listWidget.setMouseTracking(True)
@@ -200,7 +258,23 @@ class Ui_MainWindow(object):
 "selection-background-color: rgb(6, 236, 248);\n"
 "background-color: rgb(52, 52, 52);")
         self.listWidget.setObjectName("listWidget")
-        
+
+        self.listWidgetCompare = QtWidgets.QListWidget(self.rocketClusterFrameCompare)
+        self.listWidgetCompare.setMaximumSize(QtCore.QSize(295, 16777215))
+        self.listWidgetCompare.setMinimumSize(QtCore.QSize(280, 16777215))  #setting this above 260 or the creation of a minimum size (unsure) caused vert scrollbar to disappear. Functionality remains intact.
+        self.listWidgetCompare.setMouseTracking(True)
+        self.listWidgetCompare.setUpdatesEnabled(True)
+        self.listWidgetCompare.setStyleSheet("color: rgb(255, 255, 255);\n"
+"selection-color: rgb(0, 0, 0);\n"
+"selection-background-color: rgb(6, 236, 248);\n"
+"background-color: rgb(52, 52, 52);")
+        self.listWidgetCompare.setObjectName("listWidgetCompare")
+
+
+
+
+
+# **** Initially Populate Listwidget For Explore tab ********        
         for rocket in ascending_alphabetical_rocket_choices:
             #item = QtWidgets.QListWidgetItem()
             self.listWidget.addItem(rocket)
@@ -209,13 +283,25 @@ class Ui_MainWindow(object):
             flagIcon = QtGui.QIcon(rocketDictionary[self.listWidget.item(i).text()]["flag_icon"])
             self.listWidget.item(i).setIcon(flagIcon)
              
-        self.listWidget.itemSelectionChanged.connect(self.selectionChanged)
-        
-        # item = QtWidgets.QListWidgetItem()
-        # self.listWidget.addItem(item)
-        # item = QtWidgets.QListWidgetItem()
-        # self.listWidget.addItem(item)
-        
+        self.listWidget.itemSelectionChanged.connect(self.selectionchanged)
+
+# **** Initially Populate Listwidget For compare tab ********
+        for rocket in ascending_alphabetical_rocket_choices:
+            self.listWidgetCompare.addItem(rocket)
+            
+        for i in range(len(self.listWidget)):    
+            flagIcon = QtGui.QIcon(rocketDictionary[self.listWidgetCompare.item(i).text()]["flag_icon"])
+            item = self.listWidgetCompare.item(i)
+            item.setFlags(item.flags() | QtCore.Qt.ItemIsUserCheckable)
+            item.setCheckState(QtCore.Qt.Unchecked)
+            self.listWidgetCompare.item(i).setIcon(flagIcon)
+    
+    # leaving off self.listwidget.itemselectionchanged.connect is not a mistake
+    #self.listWidgetCompare.itemSelectionChanged.connect(self.selectionChanged)    
+
+
+
+
         self.verticalLayout.addWidget(self.listWidget)
         self.horizontalLayout.addWidget(self.rocketClusterFrame)
         self.infoPaneFrame = QtWidgets.QFrame(self.columnViewFrame)
@@ -249,6 +335,92 @@ class Ui_MainWindow(object):
         self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame.setObjectName("frame")
+###############
+        self.verticalLayoutCompare.addWidget(self.listWidgetCompare)
+        self.horizontalLayoutCompare.addWidget(self.rocketClusterFrameCompare)
+        self.infoPaneFrameCompare = QtWidgets.QFrame(self.columnViewFrameCompare)
+        self.infoPaneFrameCompare.setMaximumSize(QtCore.QSize(16777215, 16777215))
+        self.infoPaneFrameCompare.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.infoPaneFrameCompare.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.infoPaneFrameCompare.setObjectName("infoPaneFrameCompare")
+        self.infoLayoutCompare = QtWidgets.QVBoxLayout(self.infoPaneFrameCompare)
+        self.infoLayoutCompare.setContentsMargins(30, -1, 30, 350)
+        #layout.setContentsMargins(left, top, right, bottom)
+        self.infoLayoutCompare.setObjectName("infoLayoutCompare")
+        self.compareHeaderLabel = QtWidgets.QLabel(self.infoPaneFrameCompare)
+        self.compareHeaderLabel.setMaximumSize(QtCore.QSize(16777215, 50))
+        self.compareHeaderLabel.setStyleSheet("background-color: rgb(54, 54, 54);")
+        self.compareHeaderLabel.setObjectName("compareHeaderLabel")
+        self.infoLayoutCompare.addWidget(self.compareHeaderLabel)
+        self.compareExplanation = QLabel("Compare up to 5 rockets by a chosen metric:")
+        self.compareExplanation.setStyleSheet("selection-background-color: rgb(33, 237, 255, 0%);\n"
+"color: rgb(255, 255, 255);\n"
+"border-color: rgb(255, 255, 255);\n"
+"selection-color: rgb(0, 0, 0);\n"
+"background-color: rgb(52, 52, 52, 0);")
+        self.emptyRocketsFrame = QVBoxLayout()
+        
+        self.emptyRocketLabel01 = QLabel("No Rocket Selected")
+        self.emptyRocketLabel02 = QLabel("No Rocket Selected")
+        self.emptyRocketLabel03 = QLabel("No Rocket Selected")
+        self.emptyRocketLabel04 = QLabel("No Rocket Selected")
+        self.emptyRocketLabel05 = QLabel("No Rocket Selected")
+        
+        self.emptyRocketLabel01.adjustSize()
+        self.emptyRocketLabel02.adjustSize()
+        self.emptyRocketLabel03.adjustSize()
+        self.emptyRocketLabel04.adjustSize()
+        self.emptyRocketLabel05.adjustSize()
+        
+        self.confirmRocketSelection = QPushButton("Confirm Rocket Selection")
+        self.confirmRocketSelection.setDisabled(False)
+        self.confirmRocketSelection.clicked.connect(self.rockets_selected_for_comparison)
+        
+        self.compareExplanation02 = QLabel("Select the metric by which to compare them:")
+        self.compareExplanation02.setStyleSheet("selection-background-color: rgb(33, 237, 255);\n"
+"color: rgb(255, 255, 255);\n"
+"border-color: rgb(255, 255, 255);\n"
+"selection-color: rgb(0, 0, 0);\n"
+"background-color: rgb(52, 52, 52, 0);")
+        
+        self.metricsComboBox = QComboBox()
+        self.metricsComboBox.addItem("")
+        self.metricsComboBox.addItem("Payload Capacity")
+        self.metricsComboBox.addItem("Height")
+        self.metricsComboBox.addItem("Diameter")
+        self.metricsComboBox.addItem("Mass")
+        self.metricsComboBox.addItem("Initial Thrust")
+        self.metricsComboBox.addItem("ISP at Sea Level")
+        self.metricsComboBox.addItem("ISP in Vacuum")
+        
+        self.actualCompareButton = QPushButton("Compare Selected Rockets")
+        self.actualCompareButton.setStyleSheet("background-color: rgb(244, 183, 0, 80);")
+        self.actualCompareButton.setDisabled(True)
+        
+        self.showGraphButton = QPushButton("Show Data Visualization")
+        self.showGraphButton.setStyleSheet("background-color: rgb(244, 183, 0, 80);")
+        self.showGraphButton.setDisabled(True)
+
+        self.infoLayoutCompare.addWidget(self.compareExplanation)
+        self.infoLayoutCompare.addLayout(self.emptyRocketsFrame)
+        self.emptyRocketsFrame.addWidget(self.emptyRocketLabel01)
+        self.emptyRocketsFrame.addWidget(self.emptyRocketLabel02)
+        self.emptyRocketsFrame.addWidget(self.emptyRocketLabel03)
+        self.emptyRocketsFrame.addWidget(self.emptyRocketLabel04)
+        self.emptyRocketsFrame.addWidget(self.emptyRocketLabel05)
+        self.emptyRocketsFrame.addWidget(self.confirmRocketSelection)
+        self.infoLayoutCompare.addWidget(self.compareExplanation02)
+        self.infoLayoutCompare.addWidget(self.metricsComboBox)
+        self.infoLayoutCompare.addWidget(self.actualCompareButton)
+        self.infoLayoutCompare.addWidget(self.showGraphButton)
+
+        self.horizontalLayoutCompare.addWidget(self.infoPaneFrameCompare)
+        self.frameCompare = QtWidgets.QFrame(self.columnViewFrameCompare)
+        self.frameCompare.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.frameCompare.setFrameShadow(QtWidgets.QFrame.Raised)
+        self.frameCompare.setObjectName("frameCompare")
+
+    
 
 # ********** set up image frame/create containers for image and place them ************
         self.imageLayout = QtWidgets.QVBoxLayout(self.frame)
@@ -258,7 +430,19 @@ class Ui_MainWindow(object):
         self.imageHeaderLabel.setStyleSheet("background-color: rgb(54, 54, 54);")
         self.imageHeaderLabel.setObjectName("imageHeaderLabel")
         self.imageLayout.addWidget(self.imageHeaderLabel)
-    
+
+        self.statsComparedLayout = QtWidgets.QVBoxLayout(self.frameCompare)
+        self.statsComparedLayout.setObjectName("statsComparedLayout")
+        self.statsComparedHeader = QtWidgets.QLabel(self.frameCompare)
+        self.statsComparedHeader.setMaximumSize(QtCore.QSize(580, 50))
+        self.statsComparedHeader.setStyleSheet("background-color: rgb(54, 54, 54);")
+        self.statsComparedHeader.setObjectName("statsComparedHeader")
+        self.statsComparedLayout.addWidget(self.statsComparedHeader)
+       
+       # ******Stopped 1 to 1 Compare Duplication above this line ********* (see line 455)
+
+
+# ********  Explore Tab image label and pixmap  ***********
         self.imageLabel = QtWidgets.QLabel(self.frame)
         self.imageLabel.setAlignment(Qt.AlignCenter)
         pixmap = QPixmap()
@@ -266,13 +450,48 @@ class Ui_MainWindow(object):
         self.imageLabel.setMaximumSize(QtCore.QSize(580, 16777215))
         self.imageLabel.setMinimumWidth(480)
         self.imageLabel.show()
-        
+
+        self.imageLabel.setAlignment(Qt.AlignCenter)
+        pixmap = QPixmap()
+        self.imageLabel.setPixmap(pixmap)
+        self.imageLabel.setMaximumSize(QtCore.QSize(580, 16777215))
+        self.imageLabel.setMinimumWidth(480)
+        self.imageLabel.show()
+
         self.imageLayout.addWidget(self.imageLabel)
         self.imageLabel.setStyleSheet("background-color: rgb(52, 52, 52)")
         self.imageLabel.setObjectName("imageLabel")        
         
         self.horizontalLayout.addWidget(self.frame)
         self.gridLayout.addWidget(self.columnViewFrame, 2, 0, 4, 2)
+        
+        # Except here where I did also do a compare duplication
+        self.horizontalLayoutCompare.addWidget(self.frameCompare)
+        self.gridLayoutCompare.addWidget(self.columnViewFrameCompare, 2, 0, 4, 2)
+
+
+# ************ Compare Tab compared rocket labels created  **************
+        self.comparedRocket01Label = QtWidgets.QLabel(self.frame)
+        self.comparedRocket02Label = QtWidgets.QLabel(self.frame)
+        self.comparedRocket03Label = QtWidgets.QLabel(self.frame)
+        self.comparedRocket04Label = QtWidgets.QLabel(self.frame)
+        self.comparedRocket05Label = QtWidgets.QLabel(self.frame)
+
+        self.comparedRocket01Label.setText("No Rocket Selected")
+        self.comparedRocket02Label.setText("No Rocket Selected")
+        self.comparedRocket03Label.setText("No Rocket Selected")
+        self.comparedRocket04Label.setText("No Rocket Selected")
+        self.comparedRocket05Label.setText("No Rocket Selected")
+
+        self.statsComparedLayout.addWidget(self.comparedRocket01Label)
+        self.statsComparedLayout.addWidget(self.comparedRocket02Label)
+        self.statsComparedLayout.addWidget(self.comparedRocket03Label)
+        self.statsComparedLayout.addWidget(self.comparedRocket04Label)
+        self.statsComparedLayout.addWidget(self.comparedRocket05Label)        
+
+
+
+        
         
         
         
@@ -453,9 +672,20 @@ class Ui_MainWindow(object):
         MainWindow.setToolTip(_translate("MainWindow", "<html><head/><body><p style=\"color : black\">SRP 0.3</p></body></html>"))
         self.rocketHeaderLabel.setToolTip(_translate("MainWindow", "<html><head/><body><p style=\"color : black\">Rockets!!!!</p></body></html>"))
         self.rocketHeaderLabel.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:24pt; font-weight:600; color:#ffffff;\">Rockets</span></p></body></html>"))
+        
+        self.rocketHeaderLabelCompare.setToolTip(_translate("MainWindow", "<html><head/><body><p style=\"color : black\">Rockets!!!!</p></body></html>"))
+        self.rocketHeaderLabelCompare.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:24pt; font-weight:600; color:#ffffff;\">Rockets</span></p></body></html>"))
+        
         self.searchHeaderLabel.setToolTip(_translate("MainWindow", "<html><head/><body><p style=\"color : black\">Enter text in the bar to the right to search for a specific rocket</p></body></html>"))
         self.searchHeaderLabel.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:14pt; color:#ffffff;\">Search</span></p></body></html>"))
+        
+        self.searchHeaderLabelCompare.setToolTip(_translate("MainWindow", "<html><head/><body><p style=\"color : black\">Enter text in the bar to the right to search for a specific rocket</p></body></html>"))
+        self.searchHeaderLabelCompare.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:14pt; color:#ffffff;\">Search</span></p></body></html>"))
+        
         self.searchBox.setStatusTip(_translate("MainWindow", "Enter text to search for rocket by name"))
+
+        self.searchBoxCompare.setStatusTip(_translate("MainWindow", "Enter text to search for rocket by name"))
+
         self.listWidget.setToolTip(_translate("MainWindow", "<html><head/><body><p style=\"color : black\">List of rockets</p></body></html>"))
         self.listWidget.setStatusTip(_translate("MainWindow", "Rocket List"))
         __sortingEnabled = self.listWidget.isSortingEnabled()
@@ -464,6 +694,18 @@ class Ui_MainWindow(object):
         self.searchBox.setToolTip(_translate("searchBarFrame", "<html><head/><body><p style=\"color : black\">Enter search term here</p></body></html>"))
         self.informationHeaderLabel.setToolTip(_translate("MainWindow", "<html><head/><body><p style=\"color : black\">Information</p></body></html>"))
         self.informationHeaderLabel.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:24pt; font-weight:600; color:#ffffff;\">Information</span></p></body></html>"))
+        
+        self.listWidgetCompare.setToolTip(_translate("MainWindow", "<html><head/><body><p style=\"color : black\">List of rockets</p></body></html>"))
+        self.listWidgetCompare.setStatusTip(_translate("MainWindow", "Rocket List"))
+        __sortingEnabled = self.listWidgetCompare.isSortingEnabled()
+        self.listWidgetCompare.setSortingEnabled(False)        
+        self.listWidgetCompare.setSortingEnabled(__sortingEnabled)
+        self.searchBoxCompare.setToolTip(_translate("searchBarFrame", "<html><head/><body><p style=\"color : black\">Enter search term here</p></body></html>"))
+        self.compareHeaderLabel.setToolTip(_translate("MainWindow", "<html><head/><body><p style=\"color : black\">Information</p></body></html>"))
+        self.compareHeaderLabel.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:24pt; font-weight:600; color:#ffffff;\">Compare Rockets</span></p></body></html>"))
+        
+# ******** Where things crash on Compare tab if rocket is selected from listwidgetCompare is related to code below this line ********
+
         self.textBrowser.setToolTip(_translate("MainWindow", "<html><head/><body><p style=\"color : black\">Various information about selected rocket</p></body></html>"))
         self.textBrowser.setStatusTip(_translate("MainWindow", "Information on selected rocket"))
         self.textBrowser.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
@@ -594,6 +836,8 @@ class Ui_MainWindow(object):
         self.actionISP_VAC_LtH.triggered.connect(self.actionISP_Vac_AscendingClicked)
         self.actionISP_VAC_HtL.triggered.connect(self.actionISP_Vac_DescendingClicked)
 
+        
+
     
     # *** One Sort-Only Functions ***
         self.actionCountry.triggered.connect(self.actionCountryAscendingClicked)
@@ -614,7 +858,7 @@ class Ui_MainWindow(object):
 
         # *************** Tool Bar Connections ******************
         self.actionPrint.triggered.connect(self.printButtonClicked)
-        self.actionCompare.triggered.connect(self.compareButtonClicked)
+        #self.actionCompare.triggered.connect(self.compareButtonClicked)
 
 
         # ***** Placing, Naming, Setting Tool and Status tips for Toolbar Items ******   
@@ -631,36 +875,31 @@ class Ui_MainWindow(object):
         
 
 
-#******* Printer Dialogue Window ************
-    # def print_widget(self):
-    #     # Create printer
-    #     printer = QtPrintSupport.QPrinter()
-    #     # Create painter
-    #     painter = QtGui.QPainter()
-    #     # Start painter
-    #     painter.begin(printer)
-    #     # Grab a widget you want to print
-    #     screen = self.textBrowser.grab()
-    #     # Draw grabbed pixmap
-    #     painter.drawPixmap(10, 10, screen)
-    #     # End painting
-    #     painter.end()   
 
 
-    # ********** Toolbar Button Click Methods **********
 
-    def compareButtonClicked(self):
-        #repopulate current sorted list with checkable versions of those items
-        _translate = QtCore.QCoreApplication.translate
-        item_count = len(self.listWidget)
-        for i in range(item_count):
-            item = self.listWidget.item(i)
-            item.setFlags(item.flags() | QtCore.Qt.ItemIsUserCheckable)
-            item.setCheckState(QtCore.Qt.Unchecked)
-        self.imageLabel.hide()
-        self.imageHeaderLabel.hide()
-        #self.informationHeaderLabel.setText("Compare Rockets")
-        self.informationHeaderLabel.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:24pt; font-weight:600; color:#ffffff;\">Compare Rockets</span></p></body></html>"))
+# **************************************************
+# ***************  FUNCTIONS  **********************
+# **************************************************
+    #@staticmethod
+    def rockets_selected_for_comparison(self, checked_items):
+        checked_items = []
+        for index in range(len(self.listWidgetCompare)):
+            print(self.listWidgetCompare.item(index))
+            if self.listWidgetCompare.item(index).checkState() == Qt.Checked:
+                checked_items.append(self.listWidgetCompare.item(index).text())
+        self.emptyRocketLabel01.setText(checked_items[0])
+        self.emptyRocketLabel02.setText(checked_items[1])
+        self.emptyRocketLabel03.setText(checked_items[2])
+        self.emptyRocketLabel04.setText(checked_items[3])
+        self.emptyRocketLabel05.setText(checked_items[4])
+
+    # def metric_selected(self):
+    #     if checked_items:   #(has something in it...apparently)
+    #         self.actualCompareButton.setDisabled(False)
+    #         self.showGraphButton.setDisabled(False)
+    #         self.comparedRocket01Label.setText(rocketDictionary[self.emptyRocketLabel01.text()])
+        
 
 
     def printButtonClicked(self):
@@ -805,6 +1044,11 @@ Launch Failures: {rocketDictionary[printRocketName]['Launch Failures']}
             flagIcon = QtGui.QIcon(rocketDictionary[self.listWidget.item(i).text()]["flag_icon"])
             self.listWidget.item(i).setIcon(flagIcon)
 
+    # def addFlagsCompare(self):    
+    #     for i in range(len(self.listWidgetCompare)):
+    #         flagIcon = QtGui.QIcon(rocketDictionary[self.listWidgetCompare.item(i).text()]["flag_icon"])
+    #         self.listWidgetCompare.item(i).setIcon(flagIcon)
+
   # ********** filter list by user input  **********
     def filter_rocket_list(self, text):
         for i in range(len(self.listWidget)):
@@ -812,6 +1056,13 @@ Launch Failures: {rocketDictionary[printRocketName]['Launch Failures']}
                 self.listWidget.item(i).setHidden(True)
             else: 
                 self.listWidget.item(i).setHidden(False)
+
+    def filter_rocket_list_compare(self, text):
+        for i in range(len(self.listWidgetCompare)):
+            if text.lower() not in self.listWidgetCompare.item(i).text().lower():
+                self.listWidgetCompare.item(i).setHidden(True)
+            else: 
+                self.listWidgetCompare.item(i).setHidden(False)
 
 
     def actionShowIndivid(self):
@@ -973,7 +1224,7 @@ ELDO: European Launcher Development Organisation
 ABMA: Army Ballistic Missile Agency
 INTA: Instituto Nacional de Técnica Aeroespacial
 SSIA: Space Services Inc. of America
-EER: 
+CALT: China Academy of Launch Vehicle Technology
 
              -Orbits-
 LEO: Low Earth Orbit
@@ -1040,7 +1291,7 @@ https://github.com/Seralyn/rocket_info''')
 
         
 # ***** Define what happens when a rocket is selected from listWidget ******
-    def selectionChanged(self):
+    def selectionchanged(self):
         _translate = QtCore.QCoreApplication.translate
         rocketName = self.listWidget.currentItem().text()
         rocketImage = "images/" + rocketDictionary[rocketName]['Image']
