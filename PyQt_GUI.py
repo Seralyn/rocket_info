@@ -469,12 +469,25 @@ class Ui_MainWindow(object):
 
         self.statsComparedLayout = QtWidgets.QVBoxLayout(self.frameCompare)
         self.statsComparedLayout.setObjectName("statsComparedLayout")
+# **************************************************************************************
 
-        # self.statsComparedHorizLayout01 = QHBoxLayout()
-        # self.statsComparedHorizLayout02 = QHBoxLayout()
-        # self.statsComparedHorizLayout03 = QHBoxLayout()
-        # self.statsComparedHorizLayout04 = QHBoxLayout()
-        # self.statsComparedHorizLayout05 = QHBoxLayout()
+
+# **************** Frames and Layouts for Right-most side of Compare Tab ********************
+        # self.statsComparedHorizFrame01 = QtWidgets.QFrame(self.statsComparedLayout)
+        # self.statsComparedHorizFrame02 = QtWidgets.QFrame(self.statsComparedLayout)
+        # self.statsComparedHorizFrame03 = QtWidgets.QFrame(self.statsComparedLayout)
+        # self.statsComparedHorizFrame04 = QtWidgets.QFrame(self.statsComparedLayout)
+        # self.statsComparedHorizFrame05 = QtWidgets.QFrame(self.statsComparedLayout)
+        
+        # self.statsComparedHorizLayout01 = QtWidgets.QHBoxLayout(statsComparedHorizFrame01)
+        # self.statsComparedHorizLayout02 = QtWidgets.QHBoxLayout(statsComparedHorizFrame02)
+        # self.statsComparedHorizLayout03 = QtWidgets.QHBoxLayout(statsComparedHorizFrame03)
+        # self.statsComparedHorizLayout04 = QtWidgets.QHBoxLayout(statsComparedHorizFrame04)
+        # self.statsComparedHorizLayout05 = QtWidgets.QHBoxLayout(statsComparedHorizFrame05)
+
+
+# ********************************************************************************************
+
 
         self.statsComparedHeader = QtWidgets.QLabel(self.frameCompare)
         self.statsComparedHeader.setMaximumSize(QtCore.QSize(580, 50))
@@ -1396,6 +1409,7 @@ https://github.com/Seralyn/rocket_info''')
 f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:18pt; font-weight:600; color:#ffffff;\">{rocketName}</span></p>\n"
 f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Arial, sans-serif\'; font-size:12pt; color:#ffffff; background-color:transparent;\"><b>Agency:</b> {rocketDictionary[rocketName]['Agency']}</span></p>\n"
 f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Arial, sans-serif\'; font-size:12pt; color:#ffffff; background-color:transparent;\"><b>Manufacturer:</b> {manufacturer}</span></p>\n"
+f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Arial, sans-serif\'; font-size:12pt; color:#ffffff; background-color:transparent;\"><b>Lifting Class:</b> {rocketDictionary[rocketName]['Class']}</span></p>\n"
 f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Arial, sans-serif\'; font-size:12pt; color:#ffffff; background-color:transparent;\"><b>Payload Capacity to LEO:</b> {rocketDictionary[rocketName]['Payload Capacity to LEO']}</span></p>\n"
 f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Arial, sans-serif\'; font-size:12pt; color:#ffffff; background-color:transparent;\"><b>Height:</b> {height}</span></p>\n"
 f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Arial, sans-serif\'; font-size:12pt; color:#ffffff; background-color:transparent;\"><b>Diameter:</b> {diameter}</span></p>\n"
@@ -1409,6 +1423,9 @@ f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:
 f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Arial, sans-serif\'; font-size:12pt; color:#ffffff; background-color:transparent;\"><b>ISP:</b> {isp}</span></p>\n"
 f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Arial, sans-serif\'; font-size:12pt; color:#ffffff; background-color:transparent;\"><b>Cost Per Launch:</b> {costPerLaunch}</span></p>\n"
 f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Arial, sans-serif\'; font-size:12pt; color:#ffffff; background-color:transparent;\"><b>Fuel Type:</b> {fuelType}</span></p>\n"
+f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Arial, sans-serif\'; font-size:12pt; color:#ffffff; background-color:transparent;\"><b>Total Launches:</b> {rocketDictionary[rocketName]['Total Launches']}</span></p>\n"
+f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Arial, sans-serif\'; font-size:12pt; color:#ffffff; background-color:transparent;\"><b>Successful Launches:</b> {rocketDictionary[rocketName]['Successful Launches']}</span></p>\n"
+f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Arial, sans-serif\'; font-size:12pt; color:#ffffff; background-color:transparent;\"><b>Launch Failures:</b> {rocketDictionary[rocketName]['Launch Failures']}</span></p>\n"
 f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Arial, sans-serif\'; font-size:12pt; color:#ffffff; background-color:transparent;\"><b>-------------------------------------------------------------------------------------------------</b></span></p>\n"
 f"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Arial, sans-serif\'; font-size:12pt; color:#ffffff; background-color:transparent;\"><b>Additional Information:</b><br><br> {additionalInformation}</span></p></body></html>"))
 
