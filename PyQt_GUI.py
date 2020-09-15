@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from PyQt5 import QtCore, QtGui, QtWidgets, QtPrintSupport
-from PyQt5.QtGui import QPixmap
+from PyQt5.QtGui import QPixmap, QFont
 from PyQt5.QtWidgets import (QSplashScreen, QLabel, QCheckBox, QComboBox, QCompleter, QGraphicsScene, 
 QGraphicsView, QLineEdit, QLabel, QPushButton, QScrollArea, QVBoxLayout, QWidget,
 QSpacerItem, QMainWindow, QTabWidget, QSizePolicy, QHBoxLayout, QVBoxLayout, QDialog, QDialogButtonBox)
@@ -10,8 +10,8 @@ from collections import OrderedDict
 import sys
 import ctypes  #this plus the two lines below (beginning with "myappid" and "ctypes.windll" respectively allows windwows to recognize the app's icon, as opposed to just giving the window it self the proper icon
 
-# myappid = 'mycompany.myproduct.subproduct.version' # arbitrary string
-# ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
+myappid = 'mycompany.myproduct.subproduct.version' # arbitrary string
+ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
 
 #******* Sorting Functions (Helper) ***********
 
@@ -64,6 +64,8 @@ descending_vac_isp_rocket_choices = OrderedDict(sorted(rocketDictionary.items(),
 # descending_asl_isp_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['asl_isp_int'], reverse=True)) #reverse
 # ascending_vac_isp_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['vac_isp_int']))
 # descending_vac_isp_rocket_choices = OrderedDict(sorted(rocketDictionary.items(), key=lambda i: i[1]['vac_isp_int'], reverse=True)) #reverse
+
+
 class MainTabs(QWidget):
     
     def __init__(self, parent):
@@ -84,7 +86,17 @@ class MainTabs(QWidget):
         # Add tabs to widget
         self.layout.addWidget(self.tabs)
         self.setLayout(self.layout)
-        #
+        
+        # Attempt to set style of tabs
+        self.tabs.setStyleSheet("QTabWidget::pane { border-top: 1px solid #737573;border-left: 1px solid #737573;border-right: 1px solid #737573;border-bottom: 1px solid #737573;} QTabBar::tab:unselected { color: #FFFFFF; background-color: rgb(70,70,70)} QTabBar::tab:selected { color: #FFFFFF; background-color: rgb(110,110,110)}")
+        #self.tabs.setStyleSheet("QTabBar::tab { color: #FFFFFF; background-color: rgb(2,217,17)}")
+        #self.tabs.setStyleSheet("QTabBar::tab:unselected { color: #FFFFFF; background-color: rgb(77,77,77)}")
+        #self.tabs.setStyleSheet("QTabBar::tab:selected { color: #FFFFFF; background-color: rgb(77,77,77)}")
+        #self.tabs.setStyelSheet("QTabBar::tab:!selected { margin-top: 2px}")
+        #self.tabs.setStyleSheet("QTabBar::tab:selected { border-color: #FFFFFF; border-bottom-color: #C2C7CB;}")
+        #self.explore_tab.setToolTip("Explore Rockets")
+        #self.compare_tab.setToolTip("Compare Rockets")
+
 
 class CustomDialog(QDialog):
     def __init__(self, *args, **kwargs):
@@ -353,18 +365,34 @@ class Ui_MainWindow(object):
         self.compareHeaderLabel.setObjectName("compareHeaderLabel")
         self.infoLayoutCompare.addWidget(self.compareHeaderLabel)
         self.compareExplanation = QLabel("Compare up to 5 rockets by a chosen metric:")
-        self.compareExplanation.setStyleSheet("selection-background-color: rgb(33, 237, 255, 0%);\n"
+        self.compareExplanation.setFont(QFont('Arial', 12))
+        self.compareExplanation.setStyleSheet("selection-background-color: rgb(33, 237, 255);\n"
 "color: rgb(255, 255, 255);\n"
 "border-color: rgb(255, 255, 255);\n"
 "selection-color: rgb(0, 0, 0);\n"
-"background-color: rgb(52, 52, 52, 0);")
+"background-color: rgb(52, 52, 52);")
         self.emptyRocketsFrame = QVBoxLayout()
         
-        self.emptyRocketLabel01 = QLabel("No Rocket Selected")
-        self.emptyRocketLabel02 = QLabel("No Rocket Selected")
-        self.emptyRocketLabel03 = QLabel("No Rocket Selected")
-        self.emptyRocketLabel04 = QLabel("No Rocket Selected")
-        self.emptyRocketLabel05 = QLabel("No Rocket Selected")
+        self.emptyRocketLabel01 = QLabel("<font color='red'>No Rocket Selected</font>")
+        self.emptyRocketLabel02 = QLabel("<font color='red'>No Rocket Selected</font>")
+        self.emptyRocketLabel03 = QLabel("<font color='red'>No Rocket Selected</font>")
+        self.emptyRocketLabel04 = QLabel("<font color='red'>No Rocket Selected</font>")
+        self.emptyRocketLabel05 = QLabel("<font color='red'>No Rocket Selected</font>")
+
+        self.emptyRocketLabel01.setFont(QFont('Arial', 10))
+        self.emptyRocketLabel02.setFont(QFont('Arial', 10))
+        self.emptyRocketLabel03.setFont(QFont('Arial', 10))
+        self.emptyRocketLabel04.setFont(QFont('Arial', 10))
+        self.emptyRocketLabel05.setFont(QFont('Arial', 10))
+
+        
+        
+        
+        # self.emptyRocketLabel01.setStyleSheet()
+        # self.emptyRocketLabel02
+        # self.emptyRocketLabel03
+        # self.emptyRocketLabel04
+        # self.emptyRocketLabel05
         
         self.emptyRocketLabel01.adjustSize()
         self.emptyRocketLabel02.adjustSize()
@@ -377,6 +405,7 @@ class Ui_MainWindow(object):
         self.confirmRocketSelection.clicked.connect(self.rockets_selected_for_comparison)
         
         self.compareExplanation02 = QLabel("Select the metric by which to compare them:")
+        self.compareExplanation02.setFont(QFont('Arial', 12))
         self.compareExplanation02.setStyleSheet("selection-background-color: rgb(33, 237, 255);\n"
 "color: rgb(255, 255, 255);\n"
 "border-color: rgb(255, 255, 255);\n"
@@ -392,6 +421,7 @@ class Ui_MainWindow(object):
         self.metricsComboBox.addItem("Initial Thrust")
         self.metricsComboBox.addItem("ISP at Sea Level")
         self.metricsComboBox.addItem("ISP in Vacuum")
+        self.metricsComboBox.setDisabled(True)
         
         self.actualCompareButton = QPushButton("Compare Selected Rockets")
         self.actualCompareButton.setStyleSheet("background-color: rgb(244, 183, 0, 80);")
@@ -403,11 +433,13 @@ class Ui_MainWindow(object):
 
         self.infoLayoutCompare.addWidget(self.compareExplanation)
         self.infoLayoutCompare.addLayout(self.emptyRocketsFrame)
+
         self.emptyRocketsFrame.addWidget(self.emptyRocketLabel01)
         self.emptyRocketsFrame.addWidget(self.emptyRocketLabel02)
         self.emptyRocketsFrame.addWidget(self.emptyRocketLabel03)
         self.emptyRocketsFrame.addWidget(self.emptyRocketLabel04)
         self.emptyRocketsFrame.addWidget(self.emptyRocketLabel05)
+
         self.emptyRocketsFrame.addWidget(self.confirmRocketSelection)
         self.infoLayoutCompare.addWidget(self.compareExplanation02)
         self.infoLayoutCompare.addWidget(self.metricsComboBox)
@@ -422,6 +454,10 @@ class Ui_MainWindow(object):
 
     
 
+            
+
+
+
 # ********** set up image frame/create containers for image and place them ************
         self.imageLayout = QtWidgets.QVBoxLayout(self.frame)
         self.imageLayout.setObjectName("imageLayout")
@@ -433,6 +469,13 @@ class Ui_MainWindow(object):
 
         self.statsComparedLayout = QtWidgets.QVBoxLayout(self.frameCompare)
         self.statsComparedLayout.setObjectName("statsComparedLayout")
+
+        # self.statsComparedHorizLayout01 = QHBoxLayout()
+        # self.statsComparedHorizLayout02 = QHBoxLayout()
+        # self.statsComparedHorizLayout03 = QHBoxLayout()
+        # self.statsComparedHorizLayout04 = QHBoxLayout()
+        # self.statsComparedHorizLayout05 = QHBoxLayout()
+
         self.statsComparedHeader = QtWidgets.QLabel(self.frameCompare)
         self.statsComparedHeader.setMaximumSize(QtCore.QSize(580, 50))
         self.statsComparedHeader.setStyleSheet("background-color: rgb(54, 54, 54);")
@@ -487,11 +530,25 @@ class Ui_MainWindow(object):
         self.statsComparedLayout.addWidget(self.comparedRocket02Label)
         self.statsComparedLayout.addWidget(self.comparedRocket03Label)
         self.statsComparedLayout.addWidget(self.comparedRocket04Label)
-        self.statsComparedLayout.addWidget(self.comparedRocket05Label)        
+        self.statsComparedLayout.addWidget(self.comparedRocket05Label)
+
+        self.comparedRocket01Label.setFont(QFont('Arial', 16))
+        self.comparedRocket02Label.setFont(QFont('Arial', 16))
+        self.comparedRocket03Label.setFont(QFont('Arial', 16))
+        self.comparedRocket04Label.setFont(QFont('Arial', 16))
+        self.comparedRocket05Label.setFont(QFont('Arial', 16))
+
+        self.comparedRocket01Label.setStyleSheet("border: 1px solid #737573; background-color: rgba(52, 52, 52, 100)")
+        self.comparedRocket02Label.setStyleSheet("border: 1px solid #737573; background-color: rgba(52, 52, 52, 100)")
+        self.comparedRocket03Label.setStyleSheet("border: 1px solid #737573; background-color: rgba(52, 52, 52, 100)")
+        self.comparedRocket04Label.setStyleSheet("border: 1px solid #737573; background-color: rgba(52, 52, 52, 100)")
+        self.comparedRocket05Label.setStyleSheet("border: 1px solid #737573; background-color: rgba(52, 52, 52, 100)")   
 
 
 
-        
+            # ******* Attempt at making two orange buttons at borrom of compare screen become usable *********
+        # if :
+        #     self.actualCompareButton.setStyleSheet("background-color: rgb(98, 255, 151);")
         
         
         
@@ -668,7 +725,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "Working Title: SRP 0.3"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Working Title: R.A.R. (Rockets Are Rad)"))
         MainWindow.setToolTip(_translate("MainWindow", "<html><head/><body><p style=\"color : black\">SRP 0.3</p></body></html>"))
         self.rocketHeaderLabel.setToolTip(_translate("MainWindow", "<html><head/><body><p style=\"color : black\">Rockets!!!!</p></body></html>"))
         self.rocketHeaderLabel.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:24pt; font-weight:600; color:#ffffff;\">Rockets</span></p></body></html>"))
@@ -835,9 +892,6 @@ class Ui_MainWindow(object):
         self.actionISP_ASL_HtL.triggered.connect(self.actionISP_ASL_DescendingClicked)
         self.actionISP_VAC_LtH.triggered.connect(self.actionISP_Vac_AscendingClicked)
         self.actionISP_VAC_HtL.triggered.connect(self.actionISP_Vac_DescendingClicked)
-
-        
-
     
     # *** One Sort-Only Functions ***
         self.actionCountry.triggered.connect(self.actionCountryAscendingClicked)
@@ -856,9 +910,13 @@ class Ui_MainWindow(object):
         
 
 
-        # *************** Tool Bar Connections ******************
+# *************** Tool Bar Connections ******************
         self.actionPrint.triggered.connect(self.printButtonClicked)
         #self.actionCompare.triggered.connect(self.compareButtonClicked)
+
+# *************** Comparison Combo Box Connections ***************
+        #self.metricsComboBox.payload.selected.connect(payload_was_selected)
+        self.metricsComboBox.currentIndexChanged.connect(self.combobox_item_selected)
 
 
         # ***** Placing, Naming, Setting Tool and Status tips for Toolbar Items ******   
@@ -874,7 +932,7 @@ class Ui_MainWindow(object):
         self.actionPrint.setIcon(QtGui.QIcon("printer.png"))
         
 
-
+        
 
 
 
@@ -888,11 +946,27 @@ class Ui_MainWindow(object):
             print(self.listWidgetCompare.item(index))
             if self.listWidgetCompare.item(index).checkState() == Qt.Checked:
                 checked_items.append(self.listWidgetCompare.item(index).text())
-        self.emptyRocketLabel01.setText(checked_items[0])
-        self.emptyRocketLabel02.setText(checked_items[1])
-        self.emptyRocketLabel03.setText(checked_items[2])
-        self.emptyRocketLabel04.setText(checked_items[3])
-        self.emptyRocketLabel05.setText(checked_items[4])
+        self.emptyRocketLabel01.setText(f"<font color='light green'>{checked_items[0]}</font>")
+        self.emptyRocketLabel02.setText(f"<font color='light green'>{checked_items[1]}</font>")
+        self.emptyRocketLabel03.setText(f"<font color='light green'>{checked_items[2]}</font>")
+        self.emptyRocketLabel04.setText(f"<font color='light green'>{checked_items[3]}</font>")
+        self.emptyRocketLabel05.setText(f"<font color='light green'>{checked_items[4]}</font>")
+        
+        self.comparedRocket01Label.setText(checked_items[0])
+        self.comparedRocket02Label.setText(checked_items[1])
+        self.comparedRocket03Label.setText(checked_items[2])
+        self.comparedRocket04Label.setText(checked_items[3])
+        self.comparedRocket05Label.setText(checked_items[4])
+
+        self.metricsComboBox.setDisabled(False)
+                
+
+    def combobox_item_selected(self):
+        self.actualCompareButton.setDisabled(False)
+        self.actualCompareButton.setStyleSheet("background-color: rgb(255,209,98); color: #000000")
+        self.showGraphButton.setDisabled(False)
+        self.showGraphButton.setStyleSheet("background-color: rgb(255,209,98); color: #000000")
+
 
     # def metric_selected(self):
     #     if checked_items:   #(has something in it...apparently)
@@ -1225,6 +1299,7 @@ ABMA: Army Ballistic Missile Agency
 INTA: Instituto Nacional de Técnica Aeroespacial
 SSIA: Space Services Inc. of America
 CALT: China Academy of Launch Vehicle Technology
+VMF: Voenno-Morskoy Flot (Russian Navy)
 
              -Orbits-
 LEO: Low Earth Orbit

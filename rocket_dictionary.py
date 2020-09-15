@@ -111,7 +111,7 @@ at the Plesetsk Cosmodrome, launch facilities shared with earlier R-7 derived ro
 including the Soyuz-U and Molniya. Commercial Soyuz-2 flights are contracted by Starsem 
 and have launched from Site 31 at Baikonur Cosmodrome and ELS (Ensemble de Lancement Soyouz), 
 which has been built at the center Spatial Guyanais on the northern coast of South America. 
-The Soyuz-2 version ST-B can deliver 3,250 kilograms (7,170 lbs) to geostationary transfer 
+The Soyuz-2 version ST-B can deliver 3,250 kg (7,170 lbs) to geostationary transfer 
 orbit (GTO) from this equatorial site. In 2016, the new Vostochny Cosmodrome started operating 
 Soyuz-2 flights as well, from its first launch pad called Site 1S.
 
@@ -198,7 +198,7 @@ low Earth orbit.
         "Image": "delta iii.png",
         "Additional Information":
             '''
-The Delta III rocket was an expendable launch vehicle made by Boeing. The first Delta III launch was on August 26, 1998. Of its three flights, the first two were failures, and the third, though declared successful, reached the low end of its targeted orbit range and carried only a dummy (inert) payload. The Delta III could deliver up to 8,400 pounds (3,800 kilograms) to geostationary transfer orbit, twice the payload of its predecessor, the Delta II. Under the 4-digit designation system from earlier Delta rockets, the Delta III is classified as the Delta 8930.
+The Delta III rocket was an expendable launch vehicle made by Boeing. The first Delta III launch was on August 26, 1998. Of its three flights, the first two were failures, and the third, though declared successful, reached the low end of its targeted orbit range and carried only a dummy (inert) payload. The Delta III could deliver up to 8,400 pounds (3,800 kg) to geostationary transfer orbit, twice the payload of its predecessor, the Delta II. Under the 4-digit designation system from earlier Delta rockets, the Delta III is classified as the Delta 8930.
 
 Like the Delta II, the first stage of the Delta III burned kerosene and liquid oxygen and was powered by one Rocketdyne RS-27A main engine with two vernier engines for roll control. While the propellant load and gross mass of the stage were nearly identical to the Delta II, the diameter of the kerosene tank was increased from 2.4 meters to 4 meters. This reduced the overall length of the vehicle and allowed the Delta III to use the same launch facilities as the Delta II with only minor modifications. First stage thrust was augmented by nine GEM-46 solid rocket boosters, sometimes referred to as GEM LDXL (Large Diameter Extended Length). These were 14.7 meters in length, 1.2 m (46 inches) in diameter, and had a mass of 19 metric tons each, about 6 metric tons more than the Delta II's standard GEM-40 motors. Six were ignited on the launch pad, while the remaining three were ignited just before burnout and separation of the ground-lit boosters. To maintain steering authority, three of the boosters had vectoring nozzles. GEM-46 boosters would later find use on the Delta II, leading to the Delta II Heavy.
 
@@ -260,7 +260,7 @@ Two variants of Ariane 6 are being developed:
 
 Ariane 62, with two P120 solid boosters, will weigh around 530 tons (1,170,000 lbs) at liftoff and is intended mainly for government and scientific missions. It can launch up to 5,000 kg (11,000 lbs) into GTO and 10,350 kg (22,820 lbs) into LEO.
 
-Ariane 64, with four P120 boosters, has a liftoff weight of around 860 tons (1,900,000 lbs) and is intended for commercial dual-satellite launches of up to 11,500 kilograms (25,400 lbs) into GTO and 21,500 kg (47,400 lbs) into LEO. Like Ariane 5, it will be able to launch two geosynchronous satellites together.
+Ariane 64, with four P120 boosters, has a liftoff weight of around 860 tons (1,900,000 lbs) and is intended for commercial dual-satellite launches of up to 11,500 kg (25,400 lbs) into GTO and 21,500 kg (47,400 lbs) into LEO. Like Ariane 5, it will be able to launch two geosynchronous satellites together.
 
 Ariane 6 comprises three major structural and propellant-carrying components.
             '''
@@ -417,13 +417,13 @@ All launches are planned to take place from the Alcântara Launch Center, locate
         "Agency": "SAST - Shanghai Academy of Spaceflight Technology",
         "Manufacturer": "",        
         "Class": "Light",
-        "Payload Capacity to LEO": "2,500 kilograms (5,500 lbs)",
+        "Payload Capacity to LEO": "2,500 kg (5,500 lbs)",
         "payload_int": 2500,
         "Height": "33 metres (108 ft)",
         "height_int": 33,
         "Diameter": "3.35 metres (11.0 ft)",
         "diameter_int": 3.35,        
-        "Mass": "191,700 kilograms (422,600 lbs)",
+        "Mass": "191,700 kg (422,600 lbs)",
         "mass_int": 191700,
         "Years in Operation": "1972-1981",
         "firstyear_int": 1972,        
@@ -554,7 +554,7 @@ The Kaituozhe-2A (KT-2A) features a possibly DF-31 based stage 1, augmented by t
         "Image": "kuaizhou.png",
         "Additional Information":
             '''
-Kuaizhou (KZ, Chinese: 快舟; pinyin: kuàizhōu, meaning "speedy vessel" or "swift boat") (also called Feitian Emergency Satellite Launch System, Feitian-1, FT-1) is a family of Chinese "quick-reaction" orbital launch vehicles. Flying since 2013, Kuaizhou 1 and 1A consist of three solid-fueled rocket stages, with a liquid-fueled fourth stage as part of the satellite system. Kuaizhou 11, which flew an unsuccessful maiden flight in July 2020, is a larger model able to launch a 1,500 kilograms (3,300 lbs) payload into low Earth orbit. Heavy-lift models KZ-21 and KZ-31 are in development. The Kuaizhou series of rockets is manufactured by ExPace, a subsidiary of China Aerospace Science and Industry Corporation (CASIC), as their commercial launch vehicles.
+Kuaizhou (KZ, Chinese: 快舟; pinyin: kuàizhōu, meaning "speedy vessel" or "swift boat") (also called Feitian Emergency Satellite Launch System, Feitian-1, FT-1) is a family of Chinese "quick-reaction" orbital launch vehicles. Flying since 2013, Kuaizhou 1 and 1A consist of three solid-fueled rocket stages, with a liquid-fueled fourth stage as part of the satellite system. Kuaizhou 11, which flew an unsuccessful maiden flight in July 2020, is a larger model able to launch a 1,500 kg (3,300 lbs) payload into low Earth orbit. Heavy-lift models KZ-21 and KZ-31 are in development. The Kuaizhou series of rockets is manufactured by ExPace, a subsidiary of China Aerospace Science and Industry Corporation (CASIC), as their commercial launch vehicles.
 
 The rocket series is based on CASIC's ASAT and BMD mid-course interceptor rockets, in particular the DF-21 IRBM (another Chinese rocket that was based on DF-21 was the Kaituozhe-1). Development on the KZ rockets started in 2009. The KZ rocketswere to provide an integrated launch vehicle system with the rapid ability to replace Chinese satellites that might be damaged or destroyed in an act of aggression in orbit. The vehicle uses mobile launch platform. The rocket is operated by the Chinese 2nd Artillery.
 
@@ -572,13 +572,13 @@ CASC - China Aerospace Science and Technology Corporation,
 CAST - China Academy of Space Technology''',
         "Manufacturer": "",        
         "Class": "Light",
-        "Payload Capacity to LEO": "300 kilograms (660 lbs)",
+        "Payload Capacity to LEO": "300 kg (660 lbs)",
         "payload_int": 300,
         "Height": "	29.86 metres (98.0 ft)",
         "height_int": 29.86,
         "Diameter": "2.25 metres (7.4 ft)",
         "diameter_int": 2.25,        
-        "Mass": "81,570 kilograms (179,830 lbs)",
+        "Mass": "81,570 kg (179,830 lbs)",
         "mass_int": 81570,        
         "Years in Operation": "1970-1971",
         "firstyear_int": 1970,        
@@ -714,7 +714,7 @@ It flew three suborbital missions from Taiyuan LC-1 with two successes and a fai
             '''
 Falcon 9 is a partially reusable two-stage-to-orbit medium-lift launch vehicle designed and manufactured by SpaceX in the United States. It is powered by Merlin engines, also developed by SpaceX, burning cryogenic liquid oxygen and rocket-grade kerosene (RP-1) as propellants. Its name is derived from the fictional Star Wars spacecraft, the Millennium Falcon, and the nine Merlin engines of the rocket's first stage. The rocket evolved with versions v1.0 (2010–2013), v1.1 (2013–2016), v1.2 "Full Thrust" (2015–present), including the Block 5 Full Thrust variant, flying since May 2018. Unlike most rockets, which are expendable launch systems, since the introduction of the Full Thrust version, Falcon 9 is partially reusable, with the first stage capable of re-entering the atmosphere and landing vertically after separating from the second stage. This feat was achieved for the first time on flight 20 with the v1.2 version in December 2015.
 
-Falcon 9 can lift payloads of up to 22,800 kilograms (50,300 lbs) to low Earth orbit, 8,300 kg (18,300 lbs) to geostationary transfer orbit (GTO) when expended, and 5,500 kg (12,100 lbs) to GTO when the first stage is recovered. The heaviest GTO payloads flown have been Intelsat 35e with 6,761 kg (14,905 lbs), and Telstar 19V with 7,075 kg (15,598 lbs). The latter was launched into a lower-energy GTO orbit achieving an apogee well below the geostationary altitude, while the former was launched into an advantageous super-synchronous transfer orbit.
+Falcon 9 can lift payloads of up to 22,800 kg (50,300 lbs) to low Earth orbit, 8,300 kg (18,300 lbs) to geostationary transfer orbit (GTO) when expended, and 5,500 kg (12,100 lbs) to GTO when the first stage is recovered. The heaviest GTO payloads flown have been Intelsat 35e with 6,761 kg (14,905 lbs), and Telstar 19V with 7,075 kg (15,598 lbs). The latter was launched into a lower-energy GTO orbit achieving an apogee well below the geostationary altitude, while the former was launched into an advantageous super-synchronous transfer orbit.
 
 In 2008, SpaceX won a Commercial Resupply Services (CRS) contract in NASA's Commercial Orbital Transportation Services (COTS) program to deliver cargo to the International Space Station (ISS) using the Falcon 9 and Dragon capsule. The first mission under this contract launched on October 8, 2012. Falcon 9 has been human-rated for transporting NASA astronauts to the ISS as part of the NASA Commercial Crew Development program. Currently, Falcon 9 has been certified for the National Security Space Launch[22] program and NASA Launch Services Program as "Category 3", which can launch the priciest, most important, and most complex NASA missions.
 
@@ -1345,7 +1345,7 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
         "Agency": "Nissan Aerospace Research Institute, The University of Tokyo",
         "Manufacturer": "",        
         "Class": "Light",
-        "Payload Capacity to LEO": "180 kilograms (400 lbs)",
+        "Payload Capacity to LEO": "180 kg (400 lbs)",
         "payload_int": 180,
         "Height": "23.6 meters (77 ft)",
         "height_int": 23.6,
@@ -1561,7 +1561,7 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
         "height_int": 30,
         "Diameter": "3 m (9.8 ft)",
         "diameter_int": 3,        
-        "Mass": "137,000 kilograms (302,000 lbs)",
+        "Mass": "137,000 kg (302,000 lbs)",
         "mass_int": 137000,        
         "Years in Operation": "2012~",
         "firstyear_int": 2012,        
@@ -2251,7 +2251,7 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
             The Geosynchronous Satellite Launch Vehicle Mark III (GSLV Mk III), also referred 
             to as the Launch Vehicle Mark 3 (LVM3), is a three-stage medium-lift launch 
             vehicle developed by the Indian Space Research Organisation (ISRO). Primarily 
-            designed to launch communication satellites into geostationary orbit,[16] it is 
+            designed to launch communication satellites into geostationary orbit, it is 
             also identified as launch vehicle for crewed missions under the Indian Human 
             Spaceflight program and dedicated science missions like Chandrayaan-2. The GSLV 
             Mk III has a higher payload capacity than the similarly named GSLV Mk II.
@@ -2470,7 +2470,7 @@ A L-27 cryogenic third stage, with 27 tons of propellant, using CE-20 engine.
         "Agency": "ESA",
         "Manufacturer": "Aérospatiale",        
         "Class": "Light",
-        "Payload Capacity to LEO": "1,400 kilograms (3,100 lbs)",
+        "Payload Capacity to LEO": "1,400 kg (3,100 lbs)",
         "payload_int": 1400,
         "Height": "50 m (160 ft)",
         "height_int": 50,
@@ -2681,7 +2681,7 @@ A L-27 cryogenic third stage, with 27 tons of propellant, using CE-20 engine.
             the Ariane 3, the only major difference being the lack of 
             additional solid rocket boosters, which gave the Ariane 3 a 
             higher payload capacity at a greater unit cost. The payload 
-            capacity of the Ariane 2 was 2,175 kilograms (4,795 lbs) to a 
+            capacity of the Ariane 2 was 2,175 kg (4,795 lbs) to a 
             geosynchronous transfer orbit (GTO), exceeding that of the
             preceding Ariane 1.
             '''
@@ -3018,12 +3018,12 @@ of Ariane 6 in early 2021.
 -Variants-
 G: The original version is dubbed Ariane 5 G (Generic) and had a launch mass 
 of 737 tons. Its payload capability to geostationary transfer orbit (GTO) 
-was 6,900 kilograms (15,200 lbs) for a single satellite or 6,100 kilograms 
+was 6,900 kg (15,200 lbs) for a single satellite or 6,100 kg 
 (13,400 lbs) for dual launches. It flew 17 times with one failure and two 
 partial failures.
 
 G+: The Ariane 5 G+ had an improved EPS second stage, with a GTO capacity 
-of 7,100 kilograms (15,700 lbs) for a single payload or 6,300 kilograms 
+of 7,100 kg (15,700 lbs) for a single payload or 6,300 kg 
 (13,900 lbs) for two. It flew three times in 2004, with no failures.
 
 GS: At the time of the failure of the first Ariane 5 ECA flight in 2002, 
@@ -3034,7 +3034,7 @@ Ariane 5 GS. The GS used the improved EAP boosters of the ECA variant
 and the improved EPS of the G+ variant, but the increased mass of the 
 modified ECA core compared to the G and G+ core resulted in slightly 
 reduced payload capacity. Ariane 5 GS could carry a single payload of 
-6,600 kilograms (14,600 lbs) or a dual payload of 5,800 kilograms 
+6,600 kg (14,600 lbs) or a dual payload of 5,800 kg 
 (12,800 lbs) to GTO. The Ariane 5 GS flew 6 times from 2005 to 2009
     with no failures.
 
@@ -3044,17 +3044,17 @@ engine with a longer, more efficient nozzle with a more efficient
 flow cycle and denser propellant ratio. The new ratio required length 
 modifications to the first-stage tanks. The EPS second stage was 
 replaced by the ESC-A (Etage Supérieur Cryogénique-A), which has a 
-dry weight of 2,100 kilograms (4,600 lbs) and is powered by an HM-7B
-engine burning 14,000 kilograms (31,000 lbs) of cryogenic propellant. 
+dry weight of 2,100 kg (4,600 lbs) and is powered by an HM-7B
+engine burning 14,000 kg (31,000 lbs) of cryogenic propellant. 
 The ESC-A uses the liquid oxygen tank and lower structure from the 
 Ariane 4's H10 third stage, mated to a new liquid hydrogen tank. 
 Additionally, the EAP booster casings were lightened with new welds 
 and carry more propellant. The Ariane 5 ECA has a GTO launch capacity 
-of 9,100 kilograms (20,100 lbs) for dual payloads or 9,600 kilograms 
+of 9,100 kg (20,100 lbs) for dual payloads or 9,600 kg 
 (21,200 lbs) for a single payload.
 
 ES: The Ariane 5 ES (Evolution Storable) has an estimated LEO launch 
-capacity of 21,000 kilograms (46,000 lbs). It includes all the 
+capacity of 21,000 kg (46,000 lbs). It includes all the 
 performance improvements of Ariane 5 ECA core and boosters but 
 replaces the ESC-A second stage with the restartable EPS used on Ariane 5 
 GS variants. It was used to launch the Automated Transfer Vehicle (ATV) 
@@ -4132,7 +4132,7 @@ Moon Express contracted Rocket lab to launch lunar landers (multiple launches co
         "Agency": "N/A",
         "Manufacturer": "Khrunichev, KBKhA/CADB",        
         "Class": "",
-        "Payload Capacity to LEO": "3,800 kilograms (8,400 lbs)-24,500 kilograms (54,000 lbs)",
+        "Payload Capacity to LEO": "3,800 kg (8,400 lbs)-24,500 kg (54,000 lbs)",
         "payload_int": "",
         "Height": "42.7 m (140 ft) - 64 m (210 ft)",
         "height_int": "",
@@ -4141,7 +4141,7 @@ Moon Express contracted Rocket lab to launch lunar landers (multiple launches co
         Angara 1.2: 2.9 m (9 ft 6 in)
         Angara A5: 8.86 m (29.1 ft)''',
         "diameter_int": "",        
-        "Mass": "171,500 kilograms (378,100 lbs)-790,000 kilograms (1,740,000 lbs)",
+        "Mass": "171,500 kg (378,100 lbs)-790,000 kg (1,740,000 lbs)",
         "mass_int": "",        
         "Years in Operation": "2014~",
         "firstyear_int": "",        
@@ -5211,132 +5211,167 @@ Moon Express contracted Rocket lab to launch lunar landers (multiple launches co
 
     "Volna": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Volna",
+        "Agency": "VMF/Roscosmos",
+        "Manufacturer": "State Rocket Center Makayev",        
+        "Class": "Light",
+        "Payload Capacity to LEO": "120 kg",
+        "payload_int": 120,
+        "Height": "14.1 m (46.2 ft)",
+        "height_int": 14.1,
+        "Diameter": "1.9 m (6.2 ft)",
+        "diameter_int": 1.9,
+        "Mass": "35,300 kg (77,800 lb)",
+        "mass_int": 35300,
+        "Years in Operation": "1975~",
+        "firstyear_int": 1975,
         "Country": "Russia",
         "flag_icon": "flags/russia.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Active",
+        "Number of Stages": "3",
+        "Burn Time": "Unknown",
+        "total_burntime_int": None,
+        "Thrust": "682.00 kN",
+        "initial_thrust_int": 682,
+        "ISP": "Unknown",
+        "asl_isp_int": None,
+        "vac_isp_int": None,
+        "Cost Per Launch": "Unknown",
+        "cost_int": None,
+        "Fuel Type": "Unknown, likely solid",
+        "Total Launches": "50 (unconfirmed)",
+        "total_launches_int": 50,
+        "Successful Launches": "Unknown",
+        "successful_launches_int": None,
+        "Launch Failures": "Unknown",
+        "failed_launches_int": None,
+        "Image": "Volna.png",
        "Additional Information":
             '''
-    
+Space launch vehicle Volna (Russian: Волна "wave"), is a converted Submarine-launched ballistic missile used for launching satellites into orbit. It is based on the R-29R designed by State Rocket Center Makayev and related to the Shtil' Launch Vehicle . The Volna is a 3-stage launch vehicle that uses liquid propellant. The warhead section is used for the payloads that can be either put into orbit with the help of an additional boost engine or travel along a sub-orbital trajectory to be recovered at the landing site. Volna can be launched from Delta III-class submarine or from land based facilities.
+
+Because of its mobile launch platform the Volna launch vehicle can reach a large number of different inclinations and could increase its performance to low Earth orbit by launching from equatorial sites. All flights to date have taken place from the Barents Sea. From this site the Volna can lift 100 kg into a 400 km high orbit with an inclination of 79 degrees.[citation needed] The warhead section can accommodate a payload of up to 1.3 m3. For sub-orbital missions the payload can be either a recoverable vehicle of up to 720 kg or research equipment placed in a descent vehicle of up to 400 kg.
+
+-The first launch of the Volna took place at June 6, 1995 on a suborbital trajectory. The payload of this flight was a thermal-convectional Earth model developed by Bremen University (Germany).
+-On 20 July 2001 the second flight took place with a simplified (two-bladed) test vehicle of the Cosmos 1 solar sail of the Planetary Society and an inflatable re-entry heat shield. The Volna was launched from Delta III Submarine Borisoglebsk in the Barents Sea. Although the launch vehicle reached the intended suborbital trajectory the spacecraft failed to separate. The separation command was not issued by the flight software because of the presence of non-nominal variations. Failure of the Cosmos-1 to separate also resulted in the loss of the secondary payload, a new inflatable re-entry vehicle.
+-On 12 July 2002 the Volna was used for a sub-orbital flight for a second attempt to test a new re-entry vehicle, IRDT-2. The launch took place from Delta III class submarine K-44 Ryazan. Due to a failure in the launcher/payload interface the vehicle was lost and did not land on the expected area on the Kamchatka peninsula. It is unclear whether the spacecraft separated from the third stage of the Volna and did not inflate correctly or that it remained attached to the payload module. Remains of the vehicle have not been found.
+-The fourth flight took place at 21 June 2005 with on board the Cosmos 1 Solar sail. The launch took place from Delta III Submarine Borisoglebsk in the Barents Sea. The spacecraft failed to reach orbit after stage one shut down prematurely at 82.86 seconds instead of the expected 100 seconds. The failure was attributed to “critical degradation in operational capability of the engine turbo-pump”. The second and third stage did not separate and the payload did not reach orbit.
+-On 6 October 2005 the Volna carried IRDT-2R on a sub-orbital trajectory, launched from Delta III Class Submarine Borisoglebsk in the Barents Sea. The launch vehicle performed nominally and placed the payload on a trajectory towards the Kamchatka peninsula. Trajectory data shows that the vehicle most likely overshot the landing site and could not be recovered.
             '''
 
     },
 
     "Rus-M": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Rus-M",
+        "Agency": "Roscosmos",
+        "Manufacturer": "TsSKB-Progress",        
+        "Class": "Heavy",
+        "Payload Capacity to LEO": "6,500–50,000 kg (14,300–110,200 lb)",
+        "payload_int": 50000,
+        "Height": "61.1 m (200 ft)",
+        "height_int": 61.1,
+        "Diameter": "3.5 m (11 ft) ",
+        "diameter_int": 3.5,
+        "Mass": "233,000–1,440,000 kg (514,000–3,175,000 lb)",
+        "mass_int": 1440000,
+        "Years in Operation": "N/A",
+        "firstyear_int": None,
         "Country": "Russia",
         "flag_icon": "flags/russia.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Canceled",
+        "Number of Stages": "2-3",
+        "Burn Time": "S1: Unknown, S2: Unknown",
+        "total_burntime_int": None,
+        "Thrust": "S1: 4,150 kN, S2: 392.4 kN",
+        "initial_thrust_int": 4150,
+        "ISP": "S1: 338 sec, S2: 463 sec",
+        "asl_isp_int": 338,
+        "vac_isp_int": 463,
+        "Cost Per Launch": "N/A",
+        "cost_int": None,
+        "Fuel Type": "S1: RP-1/LOX, S2: LH2/LOX",
+        "Total Launches": "0",
+        "total_launches_int": 0,
+        "Successful Launches": "0",
+        "successful_launches_int": 0,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
+        "Image": "Rus-M.png",
        "Additional Information":
             '''
-    
+Rus-M (Russian: Русь-М) was a proposed launcher design which was intended to become Russia's main launch vehicle for crewed spaceflight after 2018, and an integral part of the Orel spacecraft being developed to replace the Soyuz.
+
+Rus-M was being developed by TsSKB-Progress, beginning in 2009. The program was halted in October 2011,, restarted in 2012 and finally cancelled in August 2015.
+
+In spring of 2009, TsSKB-Progress won a government contract to develop a new launcher for Russia's human space program. The project was featured in MAKS 2009 Airshow, and preliminary design of the vehicle was expected to be submitted to the Russian space agency Roscosmos by August 2010.
+
+Safety requirements put forward by Roscosmos emphasized that the launcher design is to be extremely reliable; safe abort options for crewed vehicles must be available at any stage of flight, and vehicle departure from the launch pad must be guaranteed for the case of an emergency during an early stage of the launch sequence. The launcher was planned to provide a basis for a future heavy launcher capable to carry a payload of 50—60 tons, as well as for a super-heavy design lifting 130—150 tons.
+
+Four variants of Rus-M were planned for development. Each version would use a variable number of common cores as the first stage and boosters, each powered by a single Energomash RD-180 rocket engine burning kerosene and liquid oxygen. Two upper stages were planned. The first would have used four RD-0146 hydrolox engines developed by Chemical Automatics Design Bureau. The second option would have been a kerosene fueled stage common with Soyuz-2.
+
+The first version of the rocket was to use three first stage cores, inseparably bolted together, with an RD-0146 powered second stage. It would have been able to lift a cargo or satellite payload of 23.8 tons to a 200-km, 51.7-degree circular orbit, a crew vehicle of 18.8 tons to a 135 by 400-km orbit, 7.0 tons to geostationary transfer orbit and 4.0 tons to geostationary orbit. The second variant would add two additional cores, and allow the strapon boosters to detach earlier in flight, boosting payload capacity to 35 tons. Version 3 would use stretched tanks on the booster cores, increasing payload again to 50 tons. Version 4 would fly with only a single core, and a Soyuz 2-derived upper stage.
             '''
 
     },
 
     "Start-1": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Start-1",
+        "Agency": "Roscosmos",
+        "Manufacturer": "Moscow Institute of Thermal Technology",        
+        "Class": "Light",
+        "Payload Capacity to LEO": "550 kg (1,210 lbs)",
+        "payload_int": 550,
+        "Height": "22.7 m *74 ft)",
+        "height_int": 22.7,
+        "Diameter": "1.8 m (5.9 ft)",
+        "diameter_int": 1.8,
+        "Mass": "47,200 kg (104,100 lb)",
+        "mass_int": 47200,
+        "Years in Operation": "1993-2006",
+        "firstyear_int": 1993,
         "Country": "Russia",
         "flag_icon": "flags/russia.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Active (Resuming development in 2022)",
+        "Number of Stages": "4",
+        "Burn Time": "S1: 60 sec, S2: 64 sec, S3: 56 sec, S4: 207 sec",
+        "total_burntime_int": 387,
+        "Thrust": "S1: 980 kN, S2: 490 kN, S3: 245 kN, S4: 9.8 kN",
+        "initial_thrust_int": 980,
+        "ISP": "S1: 263 sec, S2: 280 sec, S3: 280 sec, S4: 295 sec",
+        "asl_isp_int": 263,
+        "vac_isp_int": 295,
+        "Cost Per Launch": "Unknown",
+        "cost_int": None,
+        "Fuel Type": "S1: solid, S2: solid, S3: solid, S4: solid",
+        "Total Launches": "7",
+        "total_launches_int": 7,
+        "Successful Launches": "6",
+        "successful_launches_int": 6,
+        "Launch Failures": "1",
+        "failed_launches_int": 1,
+        "Image": "Start-1.png",
        "Additional Information":
             '''
-    
+Start-1 is a Russian satellite launch vehicle based on the RT-2PM Topol, a Soviet intercontinental ballistic missile developed by Moscow Institute of Thermal Technology.
+
+The Start-1 launch vehicle derives its name from the Strategic Arms Reduction Treaty (START I) between the United States and the Soviet Union. The START I treaty called for both sides to limit their nuclear arsenals to 6,000 nuclear warheads atop a total of 1,600 ICBMs, SLBMs, and bombers. This led to a lot of surplus ICBMs on both sides, including the Soviet Topol. After the collapse of the Soviet Union, Russia took over responsibility for executing the treaty. The Russian government decided to dispose of some of their ICBMs by using them as launch vehicles, which was an allowed method of disposal under the treaty.
+
+Modification of the ICBMs into launch vehicles was carried out by the Moscow Institute of Thermal Technology (MITT), which also designed the Topol missile.[2] On March 25, 1993 (13:15 UTC), the first Start-1 rocket was launched from Plesetsk Cosmodrome with a non-commercial payload. The first commercial launch was conducted almost four years later on March 4, 1997 from Svobodny Cosmodrome with a Russian payload. Since that time all flights of the Start-1 have been conducted from Svobodny. Currently, the Russian company United Start Launch manages the Start-1 program.
+
+The most notable flight of the Start-1 was conducted on April 25, 2006 with the launch of the Israeli EROS B Earth observation satellite. The launch received more coverage than usual because of the tensions between Israel and Iran at the time. While the Eros B satellite is commercial, its primary customer is the Israeli government, which could use it to spy on Iranian military and nuclear facilities.
+
+After EROS B launch the project ended due to small size of small satellite market and loss of business to other small launchers. Around 2016 thanks to the increase of the small satellite market and approaching end of life of Topol missiles MITT and RVSN management started to float the idea of resuming launches. In late 2018 MITT secured funding for the resumption. MITT plans to start launching again in early 2022.
+
+The Start-1 launch vehicle is derived from the RT-2PM Topol ICBM. The first three stages of the Topol missile are used as the first three stages of the Start-1 rocket and are essentially unmodified for their new purpose. A fourth stage, specially developed by the Moscow Institute of Thermal Technology, and the payload shroud take the place of the nuclear warhead and are the main differences between the Topol ICBM and the Start-1 rocket. Additionally, a Post-Boost Propulsion System (PBPS) may be added between the fourth stage and the payload to circularize the orbit of the payload if necessary. The PBPS provides propulsion using a solid-propellant nitrogen gas generator. The gas goes through three pairs of nozzles that can swivel to maneuver the payload.
+
+The Start-1 rocket is unique amongst launch vehicles in that its launch platform is mobile, allowing for the Start-1 to potentially launch from anywhere. The Start-1 launches from an unmodified Topol Transporter-Erector-Launcher (TEL). The TEL is a massive fourteen-wheeled vehicle, six of which pivot for steering. The launch vehicle is transported and launched inside a mobile Transport and Launch Carrier (TLC) carried by the TEL. The TLC consists of an air-tight composite cylinder that protects the launch vehicle and payload from variations in temperature and humidity. The TLC lies in the middle of the TEL lengthwise and bisects the driver's cab in two.
+
+Before launch, the TEL is moved to the launch pad where it deploys four stabilizing jacks which lift the whole vehicle off the ground. Approximately 90 seconds before the launch, the TLC ejects the protective front nose cone, exposing the rocket so that it can launch. The TLC then is raised to a vertical position. During the launch sequence, the TEL uses compressed gas to force the rocket out of the TLC. Once the rocket reaches a height of approximately 30 meters (the height of the top of the TLC in the vertical position), the first stage ignites. The time from first-stage ignition to spacecraft separation is approximately 15 minutes.
+
+Variants
+A version of the Start-1 rocket, simply called Start, was developed in parallel with the Start-1 program. Start differed from Start-1 by using the second stage of the Start-1 twice, giving it a total of five stages. With the extra stage, payload to LEO was increased to 850 kg. The first (and, so far, only) launch of the Start rocket occurred on 28 March 1995 from LC158 at the Plesetsk Cosmodrome. The Start rocket carried Gurwin, an Israeli technology satellite; EKA, a Russian dummy test satellite; and Oscar 29, an amateur radio satellite built by the Autonomous University of Mexico. The rocket, however, failed not too long after liftoff, dumping debris and its payload into the Sea of Okhotsk. Little information has come forth from the Russian government as to what caused the rocket to fail, or even whether or not the Start program has been canceled.
             '''
 
     },
@@ -5387,44 +5422,56 @@ Moon Express contracted Rocket lab to launch lunar landers (multiple launches co
 
     "Rokot": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
+        "Name": "Rokot",
+        "Agency": "Roscosmos",
+        "Manufacturer": "Khrunichev State Research and Production Space Center",        
+        "Class": "Medium",
+        "Payload Capacity to LEO": "1,950 kg (4,300 lbs)",
+        "payload_int": 1950,
+        "Height": "29 m (95 ft)",
         "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Diameter": "2.5 m (8 ft 2 in)",
+        "diameter_int": 2.5,
+        "Mass": "107,000 kg (236,000 lbs)",
+        "mass_int": 107000,
+        "Years in Operation": "1990-2019",
+        "firstyear_int": 1990,
         "Country": "Russia",
         "flag_icon": "flags/russia.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "3",
+        "Burn Time": "S1: 120 sec, S2: 180 sec, S3: 3000 sec",
+        "total_burntime_int": 3300,
+        "Thrust": "S1: 2,080 kN, S2: 255.76 kN, S3: 19.6 kN",
+        "initial_thrust_int": 2080,
+        "ISP": "S1: 310 sec, S2: 310 sec, S3: 325 sec",
+        "asl_isp_int": 310,
+        "vac_isp_int": 325,
+        "Cost Per Launch": "$41,800,000",
+        "cost_int": 41800000,
+        "Fuel Type": "S1: N2O4/UDMH, S2: N2O4/UDMH, S3: N2O4/UDMH",
+        "Total Launches": "34",
+        "total_launches_int": 34,
+        "Successful Launches": "31",
+        "successful_launches_int": 31,
+        "Launch Failures": "3 (1 partial, 2 complete)",
+        "failed_launches_int": 3,
+        "Image": "Rokot.png",
        "Additional Information":
             '''
-    
+Rokot (Russian: Рокот meaning Rumble or Boom), also transliterated Rockot, was a Russian space launch vehicle that was capable of launching a payload of 1,950 kg into a 200 kilometre Earth orbit with 63° inclination. It was based on the UR-100N (SS-19 Stiletto) intercontinental ballistic missile (ICBM), supplied and operated by Khrunichev State Research and Production Space Center. The first launches started in the 1990s from Baikonur Cosmodrome out of a silo. Later commercial launches commenced from Plesetsk Cosmodrome using a launch ramp specially rebuilt from one for the Kosmos-3M rocket. The cost of the launcher itself was about $15 million in 1999; The contract with ESA for launching Swarm in September 2013 was worth €27.1 million ($36 million)
+
+Rokot's total mass was 107 tonnes, its length 29 metres and its maximum diameter 2.5 metres. The liquid-fueled rocket comprised three stages. The lower two were based on the Soviet UR-100N ICBM; the first stage used an RD-0244 engine, while the second stage used an RD-0235. The third stage was a Briz-KM (Russian: Бриз-КМ meaning Breeze-KM), which has a mass of about 6 tonnes when fuelled, and is capable of flying for 7 hours and reigniting its engine six times during flight, allowing different satellites to be placed into different orbits. All stages used UDMH (unsymmetrical Dimethylhydrazine) as fuel and dinitrogen tetroxide as oxidiser. The Strela is a similar rocket, also based on the SS-19.
+
+The first suborbital test launch succeeded on 20 November 1990 in Baikonur Cosmodrome. On 26 December 1994 Rokot brought its first satellite into Earth orbit. In 1995, Khrunichev State Research and Production Space Center formed a company with German DaimlerBenz Aerospace to market Rokot launches for commercial use. Later, the company was renamed to Eurockot Launch Services. Eurockot bought 45 Rokots from the Russian strategic missile forces to build its inventory. In 2000, Eurokot was partly bought by the German company Astrium GmbH, a shareholder of Arianespace. Astrium then held 51% of Eurockot's shares, while Khrunichev held 49%.
+
+Although there are several silos in Baikonour capable of launching Rokots, it was decided to build an open, non-siloed launch pad at Plesetsk Cosmodrome instead. This is because of concerns that the amount of noise generated during a silo-based launch would damage satellites. In the new pad, Rokot was wheeled up to the structure in a vertical position, and then embraced by its launch tower. The payload was lifted by a crane and placed on top of the bottom two stages. The procedure was in contrast to other Russian launchers, which had traditionally been assembled horizontally and then transferred to the launch site via railways. The first launch from Plesetsk took place on 16 May 2000.
+
+After six entirely successful launches, a launch failure occurred on 8 October 2005, leading to the loss of the European Space Agency's CryoSat spacecraft. The launch vehicle 2nd stage main engine was not shut down properly, resulting in a catastrophic failure and automatic termination of the launch mission by the on-board computer. The payload was lost. After the failed CryoSat launch, all Rokot launches were suspended until the failure was identified. The root cause was unambiguously identified; it was a failure in programming of the Briz-KM (which was contracted to the company JSC "Khartron"). The failure of this high-profile mission led to major reforms in Khrunichev: the director of the company Alexander Medvedev was dismissed, new launch procedures were introduced, the lines of management were straightened out to catch errors and the new Khrunichev chief, Viktor Nesterov, was required to report directly to the head of the Russian Space Agency, Anatoli Perminov. Corrective measures for Rokot's return-to-flight were implemented for the South Korean Kompsat-2 earth observation satellite launch which took place successfully on 28 July 2006. The Korean side reportedly praised the level of service they received, encouraging the Rokot team to rebuild its order book.
+
+Another launch failure occurred in February 2011, when a Briz-KM malfunction resulted in the Geo-IK-2 No.11 satellite being placed into a lower orbit than planned.
+
+The Rokot version with a Ukrainian control system stopped flying after 2019, due to Ukraine's ban on technology exports to Russia. Rokot had its final flight on December 26, 2019. A fully Russian-made Rokot light carrier rocket, named Rokot-M, may begin operations as soon as 2022 if it receives funding.
             '''
 
     },
@@ -6185,13 +6232,13 @@ Stage 3 contains a motor named Mizar-B.
         "Agency": "Land Launch",
         "Manufacturer": "Yuzhnoye",        
         "Class": "Medium",
-        "Payload Capacity to LEO": "[GTO] 3,750 kilograms (8,270 lb)",
+        "Payload Capacity to LEO": "[GTO] 3,750 kg (8,270 lb)",
         "payload_int": 3750,
         "Height": "59.6 m (196 ft)",
         "height_int": 59.6,
         "Diameter": "3.9 m (13 ft)",
         "diameter_int": 3.9,
-        "Mass": "471,000 kilograms (1,038,000 lbs)",
+        "Mass": "471,000 kg (1,038,000 lbs)",
         "mass_int": 471000,
         "Years in Operation": "2008~",
         "firstyear_int": 2008,
@@ -6288,7 +6335,7 @@ Khartron (control system)
         "height_int": 34.3,
         "Diameter": "3 m (9.8 ft)",
         "diameter_int": 3,
-        "Mass": "211,000 kilograms (465,000 lbs)",
+        "Mass": "211,000 kg (465,000 lbs)",
         "mass_int": 211000,
         "Years in Operation": "1999-2015",
         "firstyear_int": 1999,
@@ -6598,40 +6645,40 @@ The Dnepr launch vehicle had only a small number of modifications compared to th
 
     "Black Prince": {
 
-        "Name": "",
-        "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Name": "Black Prince",
+        "Agency": "Commonwealth of Nations/ELDO",
+        "Manufacturer": "De Havilland",        
+        "Class": "Light",
+        "Payload Capacity to LEO": "Unknown",
+        "payload_int": None,
+        "Height": "Unknown",
+        "height_int": None,
+        "Diameter": "Unknown",
+        "diameter_int": None,
+        "Mass": "Unknown",
+        "mass_int": None,
+        "Years in Operation": "1964-1971 (unconfirmed)",
+        "firstyear_int": 1964,
         "Country": "United Kingdom",
         "flag_icon": "flags/uk.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
+        "Operational Status": "Canceled",
+        "Number of Stages": "2-3",
+        "Burn Time": "Unknown",
+        "total_burntime_int": None,
+        "Thrust": "670 kN",
+        "initial_thrust_int": 670,
+        "ISP": "Unknown",
+        "asl_isp_int": None,
+        "vac_isp_int": None,
+        "Cost Per Launch": "Unknown",
+        "cost_int": None,
+        "Fuel Type": "RP-1/LOX",
+        "Total Launches": "Unknown",
+        "total_launches_int": None,
+        "Successful Launches": "Unknown",
+        "successful_launches_int": None,
+        "Launch Failures": "Unknown",
+        "failed_launches_int": None,
         "Image": "Black Prince.png",
        "Additional Information":
             '''
@@ -7601,48 +7648,44 @@ Payloads were estimated to be around 1,034 kg (2,280 lb) to a 370 km (200 nmi) o
 
     "Long March 11": {
 
-        "Name": "Long March 11/Chang Zheng 11",
+        "Name": "",
         "Agency": "",
-        "Manufacturer": "CALT - China Academy of Launch Vehicle Technology",        
-        "Class": "Light",
-        "Payload Capacity to LEO": "700 kg (1,500 lbs)",
-        "payload_int": 700,
-        "Height": "20.8 m (68 ft)",
-        "height_int": 20.8,
-        "Diameter": "2.0 m (6 ft 7 in)",
-        "diameter_int": 2,
-        "Mass": "58,000 kg (128,000 lbs)",
-        "mass_int": 58000,
-        "Years in Operation": "2015~",
-        "firstyear_int": 2015,
+        "Manufacturer": "",        
+        "Class": "",
+        "Payload Capacity to LEO": "",
+        "payload_int": "",
+        "Height": "",
+        "height_int": "",
+        "Diameter": "",
+        "diameter_int": "",
+        "Mass": "",
+        "mass_int": "",
+        "Years in Operation": "",
+        "firstyear_int": "",
         "Country": "China",
         "flag_icon": "flags/china.png",
-        "Operational Status": "Active",
-        "Number of Stages": "4",
-        "Burn Time": "S1: , S2: , S3: , S4: ",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Burn Time": "",
         "total_burntime_int": "",
-        "Thrust": "S1: 1177 kN, S2: , S3: , S4: ",
-        "initial_thrust_int": 1177,
-        "ISP": "S1: , S2: , S3: , S4: ",
+        "Thrust": "",
+        "initial_thrust_int": "",
+        "ISP": "",
         "asl_isp_int": "",
         "vac_isp_int": "",
-        "Cost Per Launch": "$7,259,14",
-        "cost_int": 725914,
-        "Fuel Type": "S1: , S2: , S3: , S4: ",
+        "Cost Per Launch": "",
+        "cost_int": "",
+        "Fuel Type": "",
         "Total Launches": "",
         "total_launches_int": "",
         "Successful Launches": "",
         "successful_launches_int": "",
         "Launch Failures": "",
         "failed_launches_int": "",
-        "Image": "LongMarch11.png",
+        "Image": "",
        "Additional Information":
             '''
-The Long March 11 (Chinese: 長征十一號運載火箭), or Chang Zheng 11 as in pinyin, abbreviated LM-11 for export, is a Chinese four stage solid-propellant launch vehicle of the Long March family, which is developed by the China Academy of Launch Vehicle Technology (CALT). It was designed with the ability to launch on short notice and it can launch from road vehicles and ships. It is likely based on the DF-31 missile. The vehicle can be cold launched from a launch tube mounted on a road mobile vehicle.
-
-The maiden flight of the Long March 11 occurred on 25 September 2015.
-
-The first sea launch occurred on 5 June 2019, from a converted mobile launch platform stationed in the Yellow Sea.[4] Nine launches have been made as of May 2020.
+    
             '''
 
     },
@@ -9264,13 +9307,13 @@ the fourth digit encoded the type of the second upper stage
         "Agency": "NASA, US Govt",
         "Manufacturer": "Orbital Sciences Corporation | Northrop Grumman",        
         "Class": "Light",
-        "Payload Capacity to LEO": "580 kilograms (1,280 lbs)",
+        "Payload Capacity to LEO": "580 kg (1,280 lbs)",
         "payload_int": 580,
         "Height": "19.21 m (63.0 ft)",
         "height_int": 19.21,
         "Diameter": "1.67 m (5 ft 6 in)",
         "diameter_int": 1.67,
-        "Mass": "36,200 kilograms (79,800 lb)",
+        "Mass": "36,200 kg (79,800 lb)",
         "mass_int": 36200,
         "Years in Operation": "2000-2013",
         "firstyear_int": 2000,
@@ -9301,7 +9344,7 @@ The Minotaur I, or just Minotaur is an American expendable launch system derived
 
 The Minotaur I is the follow-on to the Orbital Sciences' Taurus (later re-named the "Minotaur-C") launch vehicle, combining the original Taurus's booster stage with a second stage from a Minuteman missile.
 
-Minotaur I rockets consist of the M55A1 first stage and SR19 second stage of a decommissioned Minuteman missile. The Orion 50XL and Orion 38, from the Pegasus rocket, are used as third and fourth stages. A HAPS (Hydrazine Auxiliary Propulsion System) upper stage can also be flown if greater precision is needed, or the rocket needs to be able to manoeuvre to deploy multiple payloads. It can place up to 580 kilograms (1,280 lb) of payload into a 185-kilometer (115 mi) low Earth orbit at 28.5 degrees of inclination.
+Minotaur I rockets consist of the M55A1 first stage and SR19 second stage of a decommissioned Minuteman missile. The Orion 50XL and Orion 38, from the Pegasus rocket, are used as third and fourth stages. A HAPS (Hydrazine Auxiliary Propulsion System) upper stage can also be flown if greater precision is needed, or the rocket needs to be able to manoeuvre to deploy multiple payloads. It can place up to 580 kg (1,280 lb) of payload into a 185-kilometer (115 mi) low Earth orbit at 28.5 degrees of inclination.
 
 Initially Minotaur I launches are conducted from Space Launch Complex 8 at the Vandenberg Air Force Base. Starting with the launch of TacSat-2 in December 2006, launches have also been conducted from Pad 0B at the Mid-Atlantic Regional Spaceport on Wallops Island.
 
@@ -9316,7 +9359,7 @@ Initially Minotaur I launches are conducted from Space Launch Complex 8 at the V
         "Agency": "US Military",
         "Manufacturer": "Northrop Grumman Innovation Systems",        
         "Class": "Medium",
-        "Payload Capacity to LEO": "1,735 kilograms (3,825 lbs)",
+        "Payload Capacity to LEO": "1,735 kg (3,825 lbs)",
         "payload_int": 1735,
         "Height": "	23.88 m (78.3 ft)",
         "height_int": 23.88,
@@ -9351,7 +9394,7 @@ Initially Minotaur I launches are conducted from Space Launch Complex 8 at the V
             '''
 Minotaur IV, also known as Peacekeeper SLV and OSP-2 PK is an active expendable launch system derived from the LGM-118 Peacekeeper ICBM. It is operated by Northrop Grumman Innovation Systems, and made its maiden flight on 22 April 2010, carrying the HTV-2a Hypersonic Test Vehicle. The first orbital launch occurred on 26 September 2010 with the SBSS satellite for the United States Air Force.
 
-The Minotaur IV vehicle consists of four stages and is capable of placing 1,735 kilograms (3,825 lb) of payload into a Low Earth orbit (LEO). It uses the first three stages of the Peacekeeper missile, combined with a new upper stage. On the baseline version, the fourth stage is an Orion 38. However a higher performance variant, designated Minotaur IV+, uses a Star-48V instead. A three-stage configuration (no Orion 38), designated the Minotaur IV Lite, is available for suborbital trajectories. The Minotaur IV has also been flown with multiple upper stages. A five-stage derivative, the Minotaur V, made its maiden flight on 7 September 2013.
+The Minotaur IV vehicle consists of four stages and is capable of placing 1,735 kg (3,825 lb) of payload into a Low Earth orbit (LEO). It uses the first three stages of the Peacekeeper missile, combined with a new upper stage. On the baseline version, the fourth stage is an Orion 38. However a higher performance variant, designated Minotaur IV+, uses a Star-48V instead. A three-stage configuration (no Orion 38), designated the Minotaur IV Lite, is available for suborbital trajectories. The Minotaur IV has also been flown with multiple upper stages. A five-stage derivative, the Minotaur V, made its maiden flight on 7 September 2013.
 
 Minotaur IV launches are conducted from SLC-8 at Vandenberg Air Force Base, LP-0B at the Mid-Atlantic Regional Spaceport, SLC-46 at Cape Canaveral Air Force Station and Pacific Spaceport Complex – Alaska Pad 1 of the Pacific Spaceport Complex – Alaska (PSCA).
 
@@ -9405,7 +9448,7 @@ The launch marked the first flight of a STP-SIV (Standard Interface Vehicle) sat
             '''
 The Minotaur V is an American expendable launch system derived from the Minotaur IV, itself a derivative of the LGM-118 Peacekeeper ICBM. It was developed by Orbital Sciences Corporation, (now absorbed into Northrop Grumman Innovation Systems) and made its maiden flight on 7 September 2013 carrying the Lunar Atmosphere and Dust Environment Explorer spacecraft for NASA.
 
-The Minotaur V is a five-stage vehicle, and is designed to place up to 630 kilograms (1,390 lb) of payload into a geosynchronous transfer orbit, or 342 kilograms (754 lb) on a trans-lunar trajectory. It consists of a Minotaur IV+, with a Star-37 as a fifth stage. Two variants are available, one with a spin-stabilized Star-37FM upper stage, and the other with a Star-37FMV capable of three-axis stabilization. The Star-37FMV upper stage is heavier, reducing payload capacity, but is more maneuverable.
+The Minotaur V is a five-stage vehicle, and is designed to place up to 630 kg (1,390 lb) of payload into a geosynchronous transfer orbit, or 342 kg (754 lb) on a trans-lunar trajectory. It consists of a Minotaur IV+, with a Star-37 as a fifth stage. Two variants are available, one with a spin-stabilized Star-37FM upper stage, and the other with a Star-37FMV capable of three-axis stabilization. The Star-37FMV upper stage is heavier, reducing payload capacity, but is more maneuverable.
 
 
             '''
@@ -9515,7 +9558,7 @@ In May 2016, Orbital ATK revealed their plans for the Next Generation Launcher, 
 
 In April 2017, Orbital ATK revealed that OmegA would be launched from pad 39B at KSC, sharing launch facilities and mobile transporter with the NASA Space Launch System (SLS). The rocket would compete for USAF national security launches and NASA missions. There would be multiple configurations of the launch system, with multiple stages.
 
-In April 2018, Orbital ATK announced that Next Generation Launcher would be named OmegA. Additionally, they revealed the selection of the RL-10C engine over Blue Origin's BE-3U competitor. The intermediate configuration, with a Castor 600 first stage, increased payload to GTO from 8,500 kilograms (18,700 lb) to 10,100 kilograms (22,300 lb). The Castor 1200-powered Heavy configuration increased GEO payload from 7,000 kilograms (15,000 lb) to 7,800 kilograms (17,200 lb) and has a TLI capability of up to 12,300 kg (27,000 lb).
+In April 2018, Orbital ATK announced that Next Generation Launcher would be named OmegA. Additionally, they revealed the selection of the RL-10C engine over Blue Origin's BE-3U competitor. The intermediate configuration, with a Castor 600 first stage, increased payload to GTO from 8,500 kg (18,700 lb) to 10,100 kg (22,300 lb). The Castor 1200-powered Heavy configuration increased GEO payload from 7,000 kg (15,000 lb) to 7,800 kg (17,200 lb) and has a TLI capability of up to 12,300 kg (27,000 lb).
 
 Orbital ATK was purchased by Northrop Grumman in 2018, and OmegA became a Northrop Grumman product.
 
@@ -9596,7 +9639,7 @@ The rocket was to have had two basic configurations, an intermediate and a heavy
         "Image": "PegasusXL.png",
        "Additional Information":
             '''
-Pegasus is an air-launched rocket developed by Orbital Sciences Corporation and now built and launched by Northrop Grumman. Capable of carrying small payloads of up to 443 kilograms (977 lb) into low Earth orbit, Pegasus first flew in 1990 and remains active as of 2019. The vehicle consists of three solid propellant stages and an optional monopropellant fourth stage. Pegasus is released from its carrier aircraft at approximately 40,000 ft (12,000 m), and its first stage has a wing and a tail to provide lift and attitude control while in the atmosphere. Notably, the first stage does not have a Thrust Vector Control (TVC) system.  Pegasus is the world's first privately developed space launch vehicle.
+Pegasus is an air-launched rocket developed by Orbital Sciences Corporation and now built and launched by Northrop Grumman. Capable of carrying small payloads of up to 443 kg (977 lb) into low Earth orbit, Pegasus first flew in 1990 and remains active as of 2019. The vehicle consists of three solid propellant stages and an optional monopropellant fourth stage. Pegasus is released from its carrier aircraft at approximately 40,000 ft (12,000 m), and its first stage has a wing and a tail to provide lift and attitude control while in the atmosphere. Notably, the first stage does not have a Thrust Vector Control (TVC) system.  Pegasus is the world's first privately developed space launch vehicle.
 
 Pegasus was designed by a team led by Antonio Elias. The Pegasus's three Orion solid motors were developed by Hercules Aerospace (later Alliant Techsystems) specifically for the Pegasus launcher but using advanced carbon fiber, propellant formulation and case insulation technologies originally developed for the terminated USAF Small ICBM program. The wing and fins' structures were designed by Burt Rutan and his company, Scaled Composites, which manufactured them for Orbital.
 
@@ -10437,53 +10480,41 @@ See https://en.wikipedia.org/wiki/Space_Shuttle for more detailed information.
         "Name": "Falcon 1",
         "Agency": "SpaceX",
         "Manufacturer": "SpaceX",        
-        "Class": "Light",
-        "Payload Capacity to LEO": "670 kg (1,480 lbs)",
-        "payload_int": 670,
-        "Height": "21 m (68 ft)",
-        "height_int": 21,
-        "Diameter": "1.7 m (5.5 ft)",
-        "diameter_int": 1.7,
-        "Mass": "28,000 kg (61,000 lb)",
-        "mass_int": 28000,
-        "Years in Operation": "2006-2009",
-        "firstyear_int": 2006,
+        "Class": "",
+        "Payload Capacity to LEO": "",
+        "payload_int": "",
+        "Height": "",
+        "height_int": "",
+        "Diameter": "",
+        "diameter_int": "",
+        "Mass": "",
+        "mass_int": "",
+        "Years in Operation": "",
+        "firstyear_int": "",
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "Retired",
-        "Number of Stages": "2",
-        "Burn Time": "S1: 169 sec, S2: 378 sec",
-        "total_burntime_int": 547,
-        "Thrust": "S1: 450 kN, S2: 31 kN",
-        "initial_thrust_int": 450,
-        "ISP": "S1: 255 sec, S2: 327 sec",
-        "asl_isp_int": 255,
-        "vac_isp_int": 327,
-        "Cost Per Launch": "$8,005,338",
-        "cost_int": 8005338,
-        "Fuel Type": "S1: RP-1/LOX, S2: RP-1/LOX",
-        "Total Launches": "5",
-        "total_launches_int": 5,
-        "Successful Launches": "2",
-        "successful_launches_int": 2,
-        "Launch Failures": "3",
-        "failed_launches_int": 3,
-        "Image": "Falcon-1.png",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Burn Time": "",
+        "total_burntime_int": "",
+        "Thrust": "",
+        "initial_thrust_int": "",
+        "ISP": "",
+        "asl_isp_int": "",
+        "vac_isp_int": "",
+        "Cost Per Launch": "",
+        "cost_int": "",
+        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
+        "Image": "",
        "Additional Information":
             '''
-The Falcon 1 was an expendable launch system privately developed and manufactured by SpaceX during 2006–2009. On 28 September 2008, Falcon 1 became the first privately-developed liquid-fuel launch vehicle to go into orbit around the Earth.
-
-The two-stage-to-orbit rocket used LOX/RP-1 for both stages, the first powered by a single Merlin engine and the second powered by a single Kestrel engine. It was designed by SpaceX from the ground up.
-
-The vehicle was launched a total of five times. Falcon 1 achieved orbit on its fourth attempt, in September 2008 with a mass simulator as a payload. On 14 July 2009, Falcon 1 made its final flight and successfully delivered the Malaysian RazakSAT satellite to orbit on SpaceX's first commercial launch (fifth launch overall). Following its fifth launch, the Falcon 1 was retired and succeeded by Falcon 9.
-
-SpaceX had announced an enhanced variant, the Falcon 1e, but development was stopped in favor of Falcon 9.
-
-The Falcon 1 rocket was developed with private funding. The only other orbital launch vehicles to be privately funded and developed were the Conestoga in 1982 and Pegasus, first launched in 1990; which uses a large aircraft as its first stage.
-
-The total development cost of Falcon 1 was approximately US$90 million.
-
-While the development of Falcon 1 was privately funded, the first two Falcon 1 launches were purchased by the United States Department of Defense under a program that evaluates new US launch vehicles suitable for use by DARPA.
+    
             '''
 
     },
@@ -10493,47 +10524,41 @@ While the development of Falcon 1 was privately funded, the first two Falcon 1 l
         "Name": "Falcon 1e",
         "Agency": "SpaceX",
         "Manufacturer": "SpaceX",        
-        "Class": "N/A",
-        "Payload Capacity to LEO": "N/A",
-        "payload_int": None,
-        "Height": "N/A",
-        "height_int": None,
-        "Diameter": "1.7 m",
-        "diameter_int": 1.7,
-        "Mass": "N/A",
-        "mass_int": None,
-        "Years in Operation": "N/A",
-        "firstyear_int": None,
+        "Class": "",
+        "Payload Capacity to LEO": "",
+        "payload_int": "",
+        "Height": "",
+        "height_int": "",
+        "Diameter": "",
+        "diameter_int": "",
+        "Mass": "",
+        "mass_int": "",
+        "Years in Operation": "",
+        "firstyear_int": "",
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "Canceled",
-        "Number of Stages": "2",
-        "Burn Time": "N/A",
-        "total_burntime_int": None,
-        "Thrust": "N/A",
-        "initial_thrust_int": None,
-        "ISP": "N/A",
-        "asl_isp_int": None,
-        "vac_isp_int": None,
-        "Cost Per Launch": "N/A",
-        "cost_int": None,
-        "Fuel Type": "RP-1/LOX",
-        "Total Launches": "0",
-        "total_launches_int": 0,
-        "Successful Launches": "0",
-        "successful_launches_int": 0,
-        "Launch Failures": "0",
-        "failed_launches_int": 0,
-        "Image": "Falcon1e.png",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Burn Time": "",
+        "total_burntime_int": "",
+        "Thrust": "",
+        "initial_thrust_int": "",
+        "ISP": "",
+        "asl_isp_int": "",
+        "vac_isp_int": "",
+        "Cost Per Launch": "",
+        "cost_int": "",
+        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
+        "Image": "",
        "Additional Information":
             '''
-The Falcon 1e was a proposed upgrade of the SpaceX Falcon 1. The Falcon 1e would have featured a larger first stage with a higher thrust engine, an upgraded second stage engine, a larger payload fairing, and was intended to be partially reusable. Its first launch was planned for mid-2011, but the Falcon 1 and Falcon 1e were withdrawn from the market, with SpaceX citing "limited demand," before its debut. Payloads that would have flown on the Falcon 1 were instead to be flown on the Falcon 9 using excess capacity.
-
-The Falcon 1e was to be 6.1 m (20 ft) longer than the Falcon 1, with an overall length of 27.4 m (90 ft), but with the same 1.68 m (5 ft 6 in) diameter. Its first stage had a dry mass of 2,580 kg (5,680 lb), and was powered by an upgraded pump-fed Merlin 1C engine burning 39,000 kg (87,000 lb) of RP-1 and liquid oxygen. The first stage burn time was around 169 seconds. The second stage had a dry mass of 540 kg (1,200 lb) and its pressure-fed Kestrel 2 engine burned 4,000 kg (8,900 lb) of propellant. The restartable Kestrel 2 could burn for up to a total of 418 seconds.
-
-The Falcon 1e planned to use Aluminum Lithium alloy 2195 in the second stage, a change from the 2014 Aluminum used in the Falcon 1 second stages.
-
-Falcon 1e launches were intended to occur from Omelek Island, part of Kwajalein Atoll in the Marshall Islands, and from Cape Canaveral, however SpaceX had announced that they would consider other locations as long as there is a "business case for establishing the requested launch site". Following a demonstration flight, the Falcon 1e was intended to make a series of launches carrying Orbcomm O2G spacecraft, with a total of eighteen satellites being launched, several per rocket. EADS Astrium had been responsible for marketing the Falcon 1e in Europe.
+    
             '''
 
     },
@@ -10543,47 +10568,41 @@ Falcon 1e launches were intended to occur from Omelek Island, part of Kwajalein 
         "Name": "Falcon 5",
         "Agency": "SpaceX",
         "Manufacturer": "SpaceX",        
-        "Class": "N/A",
-        "Payload Capacity to LEO": "N/A",
-        "payload_int": None,
-        "Height": "N/A",
-        "height_int": None,
-        "Diameter": "N/A",
-        "diameter_int": None,
-        "Mass": "N/A",
-        "mass_int": None,
-        "Years in Operation": "N/A",
-        "firstyear_int": None,
+        "Class": "",
+        "Payload Capacity to LEO": "",
+        "payload_int": "",
+        "Height": "",
+        "height_int": "",
+        "Diameter": "",
+        "diameter_int": "",
+        "Mass": "",
+        "mass_int": "",
+        "Years in Operation": "",
+        "firstyear_int": "",
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "Canceled",
-        "Number of Stages": "2",
-        "Burn Time": "N/A",
-        "total_burntime_int": None,
-        "Thrust": "N/A",
-        "initial_thrust_int": None,
-        "ISP": "N/A",
-        "asl_isp_int": None,
-        "vac_isp_int": None,
-        "Cost Per Launch": "N/A",
-        "cost_int": None,
-        "Fuel Type": "RP-1/LOX",
-        "Total Launches": "0",
-        "total_launches_int": 0,
-        "Successful Launches": "0",
-        "successful_launches_int": 0,
-        "Launch Failures": "0",
-        "failed_launches_int": 0,
-        "Image": "Falcon5.png",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Burn Time": "",
+        "total_burntime_int": "",
+        "Thrust": "",
+        "initial_thrust_int": "",
+        "ISP": "",
+        "asl_isp_int": "",
+        "vac_isp_int": "",
+        "Cost Per Launch": "",
+        "cost_int": "",
+        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
+        "Image": "",
        "Additional Information":
             '''
-The Falcon 5 was a proposed two-stage-to-orbit partially reusable launch vehicle designed by SpaceX, since canceled in preference of the larger, more powerful Falcon 9.
-
-The first stage of Falcon 5 was to be powered by five Merlin engines and the upper stage by one Merlin engine, both burning RP-1 with a liquid oxygen oxidizer. Along with the Falcon 9, it would have been the world's only launch vehicle with its first stage designed for reuse.
-
-The Falcon 5 would have been the first American rocket since the Saturn V to have full engine out capability, meaning that with the loss of one engine, it can still meet mission requirements by burning the other four engines longer to achieve the correct orbit. In comparison, the Space Shuttle only had partial engine out capability, meaning it was not able to achieve proper orbit by burning the remaining engines longer.
-
-In 2006, SpaceX stated that the Falcon 5 was a Falcon 9 with four engines removed. Since the launchers were being co-developed, work on the Falcon 9 was also applicable to the Falcon 5.
+    
             '''
 
     },
@@ -11293,96 +11312,88 @@ The Thor-Delta launched a number of significant payloads, including the first co
 
     "Delta J": {
 
-        "Name": "Thor Delta J",
+        "Name": "",
         "Agency": "",
         "Manufacturer": "",        
-        "Class": "Light",
-        "Payload Capacity to LEO": "260 kg (570 lbs)",
-        "payload_int": 260,
-        "Height": "31 m (101 ft)",
-        "height_int": 31,
-        "Diameter": "2.44 m (8 ft)",
-        "diameter_int": 2.44,
-        "Mass": "69,497 kg (153,214 lbs)",
-        "mass_int": 69497,
-        "Years in Operation": "1968",
-        "firstyear_int": 1968,
+        "Class": "",
+        "Payload Capacity to LEO": "",
+        "payload_int": "",
+        "Height": "",
+        "height_int": "",
+        "Diameter": "",
+        "diameter_int": "",
+        "Mass": "",
+        "mass_int": "",
+        "Years in Operation": "",
+        "firstyear_int": "",
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "Retired",
-        "Number of Stages": "3",
-        "Burn Time": "Boosters: 37 sec, S1: 150 sec, S2: 400 sec, S3: 42 sec",
-        "total_burntime_int": 592,
-        "Thrust": "Boosters + S1: 1,452.90 kN, S2: 35 kN, S3: 43.5 kN",
-        "initial_thrust_int": 1452,
-        "ISP": "Boosters: 232 sec, S1: 290 sec, S2: 278 sec, S3: 285 sec",
-        "asl_isp_int": 262,
-        "vac_isp_int": 281.5,
-        "Cost Per Launch": "$40,098,873",
-        "cost_int": 40098873,
-        "Fuel Type": "Boosters: Solid, S1: RP-1/LOX, S2: Nitric acid/UDMH, S3: Solid",
-        "Total Launches": "1",
-        "total_launches_int": 1,
-        "Successful Launches": "1",
-        "successful_launches_int": 1,
-        "Launch Failures": "0",
-        "failed_launches_int": 0,
-        "Image": "Delta-J.png",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Burn Time": "",
+        "total_burntime_int": "",
+        "Thrust": "",
+        "initial_thrust_int": "",
+        "ISP": "",
+        "asl_isp_int": "",
+        "vac_isp_int": "",
+        "Cost Per Launch": "",
+        "cost_int": "",
+        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
+        "Image": "",
        "Additional Information":
             '''
-The Delta J, or Thor-Delta J was an American expendable launch system of the late 1960s. Only one was launched, with the Explorer 38 spacecraft. It was a member of the Delta family of rockets.
-
-The Delta J was derived from the Delta E. The first stage was a Thor missile in the DSV-2C configuration, with three Castor-1 solid rocket boosters clustered around it. A Delta E was used as the second stage. The Altair third stage of the Delta E was replaced with the more powerful Star 37D SRM.
-
-The only Delta-J to fly was launched from Vandenberg Air Force Base Space Launch Complex 2E on 4 July 1968. It successfully placed the Explorer 38 satellite into medium Earth orbit.
+    
             '''
 
     },
 
     "Delta L": {
 
-        "Name": "Thor Delta L",
+        "Name": "",
         "Agency": "",
         "Manufacturer": "",        
-        "Class": "Light",
-        "Payload Capacity to LEO": "300 kg (660 lbs)",
-        "payload_int": 300,
-        "Height": "35 m (114 ft)",
-        "height_int": 35,
-        "Diameter": "2.44 m (8 ft)",
-        "diameter_int": 2.44,
-        "Mass": "89,935 kg (198,272 lbs)",
-        "mass_int": 89935,
-        "Years in Operation": "1969-1972",
-        "firstyear_int": 1969,
+        "Class": "",
+        "Payload Capacity to LEO": "",
+        "payload_int": "",
+        "Height": "",
+        "height_int": "",
+        "Diameter": "",
+        "diameter_int": "",
+        "Mass": "",
+        "mass_int": "",
+        "Years in Operation": "",
+        "firstyear_int": "",
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "Retired",
-        "Number of Stages": "3",
-        "Burn Time": "S1: 37 sec, S2: 215 sec, S3: 400 sec, S4: 31 sec",
-        "total_burntime_int": 646,
-        "Thrust": "S1:  1,452 kN (Boostersx3@258.9 kN each + 866 kN core), S2: 35 kN, S3: 24.9 kN",
-        "initial_thrust_int": 1452,
-        "ISP": "Boosters: 232 sec, S1: 290 sec, S2: 278 sec, S3: 250 sec",
-        "asl_isp_int": 261,
-        "vac_isp_int": 264,
-        "Cost Per Launch": "$39,953,937",
-        "cost_int": 39953937,
-        "Fuel Type": "S1: Solid, S2: RP-1/LOX, S3: Nitric acid/UDMH, S4: Solid",
-        "Total Launches": "2",
-        "total_launches_int": 2,
-        "Successful Launches": "1",
-        "successful_launches_int": 1,
-        "Launch Failures": "1",
-        "failed_launches_int": 1,
-        "Image": "Delta-L.png",
+        "Operational Status": "",
+        "Number of Stages": "",
+        "Burn Time": "",
+        "total_burntime_int": "",
+        "Thrust": "",
+        "initial_thrust_int": "",
+        "ISP": "",
+        "asl_isp_int": "",
+        "vac_isp_int": "",
+        "Cost Per Launch": "",
+        "cost_int": "",
+        "Fuel Type": "",
+        "Total Launches": "",
+        "total_launches_int": "",
+        "Successful Launches": "",
+        "successful_launches_int": "",
+        "Launch Failures": "",
+        "failed_launches_int": "",
+        "Image": "",
        "Additional Information":
             '''
-The Delta L, Thor-Delta L, or Thrust-Augmented Long Tank Thor-Delta was a US expendable launch system used to launch the Pioneer E and TETR satellites in 1969 (failed) and HEOS satellite in 1972. It was a member of the Delta family of rockets.
-
-The Delta L was a three-stage rocket. The first stage was a Long Tank Thor, a stretched version of the Thor missile, augmented by three Castor-2 solid rocket boosters. The second stage was the Delta E. An FW-1D solid rocket motor was used as the third stage.
-
-The first launch of the Delta L took place on 27 August 1969, from Launch Complex 17A at the Cape Canaveral Air Force Station. A defective valve caused plumbing in the hydraulics system to rupture and leak fluid, causing first stage engine gimbaling to fail around 2-1/2 minutes into launch. The stage completed its burn successfully, but threw the second stage far off course. Orbital velocity could not be achieved and Range Safety sent the destruct command at T+383 seconds. Neither the Pioneer E nor the TETR payloads achieved orbit. The second, and final, Delta L launch was from Space Launch Complex 2E at the Vandenberg Air Force Base, on 31 January 1972. It successfully placed the HEOS-2 satellite into a highly elliptical orbit.
+    
             '''
 
     },
@@ -11877,7 +11888,7 @@ The first launch of the Delta L took place on 27 August 1969, from Launch Comple
         "Agency": "NASA/Private",
         "Manufacturer": "ULA",        
         "Class": "Very Heavy",
-        "Payload Capacity to LEO": "28,790 kilograms (63,470 lbs)",
+        "Payload Capacity to LEO": "28,790 kg (63,470 lbs)",
         "payload_int": 28790,
         "Height": "72 m (236 ft)",
         "height_int": 72,
@@ -11966,13 +11977,13 @@ In December 2014, the Delta IV Heavy was used to launch an uncrewed test flight 
         "Image": "LauncherOne.png",
        "Additional Information":
             '''
-LauncherOne is a two stage orbital launch vehicle under development by Virgin Orbit since 2007. It is an air launch to orbit rocket, designed to launch "smallsat" payloads of 300 kilograms (660 lb) into Sun-synchronous orbit, following air launch from a carrier aircraft at high altitude. The first attempted orbital test flight was completed on 25 May 2020, but failed to reach space due to an anomaly that occurred shortly after the vehicle's release from a Boeing 747-400, named Cosmic Girl, over the Pacific Ocean.
+LauncherOne is a two stage orbital launch vehicle under development by Virgin Orbit since 2007. It is an air launch to orbit rocket, designed to launch "smallsat" payloads of 300 kg (660 lb) into Sun-synchronous orbit, following air launch from a carrier aircraft at high altitude. The first attempted orbital test flight was completed on 25 May 2020, but failed to reach space due to an anomaly that occurred shortly after the vehicle's release from a Boeing 747-400, named Cosmic Girl, over the Pacific Ocean.
 
-The original LauncherOne concept, 2007-2015, for a smaller launch vehicle (200 kilograms (440 lb) to low-Earth orbit) was shelved in 2015 and replaced by a larger rocket design capable of putting a 300 kilograms (660 lb) minisat payload in a 500 kilometres (310 mi) Sun-synchronous orbit, suitable for CubeSats and small payloads, with an expected cost less than US$12 million.
+The original LauncherOne concept, 2007-2015, for a smaller launch vehicle (200 kg (440 lb) to low-Earth orbit) was shelved in 2015 and replaced by a larger rocket design capable of putting a 300 kg (660 lb) minisat payload in a 500 kilometres (310 mi) Sun-synchronous orbit, suitable for CubeSats and small payloads, with an expected cost less than US$12 million.
 
 Virgin Galactic began working on the LauncherOne concept in 2007, and the technical specifications were first described in some detail in late 2009. The LauncherOne configuration was proposed to be an expendable, two-stage, liquid-fueled rocket air-launched from a White Knight Two carrier aircraft. This would make it a similar configuration to that used by Orbital Sciences' Pegasus, or a smaller version of the StratoLaunch air-launched rocket system.
 
-In October 2012, Virgin announced that LauncherOne would be designed so that it could place 200 kilograms (440 lb) in Sun-synchronous orbit. Virgin planned at the time to market the 200 kilograms (440 lb) payload delivery to Sun-synchronous orbit for under US$10,000,000 per mission, while the maximum payload for LEO missions would be somewhat larger at 500 kilograms (1,100 lb).
+In October 2012, Virgin announced that LauncherOne would be designed so that it could place 200 kg (440 lb) in Sun-synchronous orbit. Virgin planned at the time to market the 200 kg (440 lb) payload delivery to Sun-synchronous orbit for under US$10,000,000 per mission, while the maximum payload for LEO missions would be somewhat larger at 500 kg (1,100 lb).
 
 By 2012, several commercial customers had signed early contracts for launches signaling demand-side support for new small commercial-oriented launch vehicles. These included GeoOptics, Skybox Imaging, Spaceflight Services, and Planetary Resources. Both Surrey Satellite Technology and Sierra Nevada Space Systems were at the time reported to be developing satellite buses "optimized to the design of LauncherOne".
 
@@ -12008,7 +12019,7 @@ By December 2015, Virgin had settled on a design where the first stage would uti
 A 25 May 2020 launch failure was attributed to a failure of a high-pressure LOx fuel line in the NewtonThree engine. The broken fuel line caused LOx to stop flowing into the engine leading to the flight being terminated. Issue with the fuel line was addressed though strengthening broken components.
 
 Intended usage
-LauncherOne is designed to launch a 300 kilograms (660 lb) payload to a 500 kilometres (310 mi) SSO, suitable for CubeSats and small payloads. Virgin Orbit has also announced the ability of LauncherOne to send payloads into heliocentric orbit for flybys of Mars, Venus or asteroids.
+LauncherOne is designed to launch a 300 kg (660 lb) payload to a 500 kilometres (310 mi) SSO, suitable for CubeSats and small payloads. Virgin Orbit has also announced the ability of LauncherOne to send payloads into heliocentric orbit for flybys of Mars, Venus or asteroids.
 
 Virgin Orbit integrate payloads at their headquarters in Long Beach, California.
             '''
@@ -12654,12 +12665,12 @@ In August or September 1955, the DOD Committee on Special Capabilities chose the
 
 The Vanguard's second stage served for decades as the Able and Delta second stage for satellite launch vehicles. The AJ10 engine which made up those stages was adapted into the AJ10-137, which was used as the Apollo Service Module engine. The AJ10-190, adapted from the Apollo spacecraft was used on the Space Shuttle for orbital maneuvers. The AJ10-160 is to be repurposed for use on NASA's upcoming Orion spacecraft.
 
-The first two flights of the Vanguard program, designated Vanguard TV-0 and Vanguard TV-1, were actually the last two remaining RTV-N-12a Viking rockets modified. Vanguard TV-0, launched on 8 December 1956, primarily tested new telemetry systems, while Vanguard TV-1 on 1 May 1957, was a two-stage vehicle testing separation and ignition of the solid-fueled upper stage of Vanguard. Vanguard TV-2, launched on 23 October 1957, after several abortive attempts, was the first real Vanguard rocket. The second and third stages were inert, but the flight successfully tested first/second-stage separation and spin-up of the third stage. However, by that time, the Soviet Union had already placed the Sputnik 1 satellite into orbit, and so project Vanguard was more or less forced to launch its own satellite as soon as possible. Therefore, a very small experimental satellite (derisively called the "grapefruit" by Nikita Khrushchev, and weighing only 1.5 kilograms (3.3 lb)) was added to Vanguard TV-3, which was to be the first test of an all-up Vanguard rocket. Although the NRL and Glenn L. Martin Company tried to emphasize that the Vanguard TV-3 mission was a pure test flight (and one with several "firsts"), everyone else saw it as the first satellite launch of the Western world, billed as "America's answer to Sputnik". Wernher von Braun angrily said about the Sputnik launch: "We knew they were going to do it. Vanguard will never make it. We have the hardware on the shelf. We can put up a satellite in 60 days".
+The first two flights of the Vanguard program, designated Vanguard TV-0 and Vanguard TV-1, were actually the last two remaining RTV-N-12a Viking rockets modified. Vanguard TV-0, launched on 8 December 1956, primarily tested new telemetry systems, while Vanguard TV-1 on 1 May 1957, was a two-stage vehicle testing separation and ignition of the solid-fueled upper stage of Vanguard. Vanguard TV-2, launched on 23 October 1957, after several abortive attempts, was the first real Vanguard rocket. The second and third stages were inert, but the flight successfully tested first/second-stage separation and spin-up of the third stage. However, by that time, the Soviet Union had already placed the Sputnik 1 satellite into orbit, and so project Vanguard was more or less forced to launch its own satellite as soon as possible. Therefore, a very small experimental satellite (derisively called the "grapefruit" by Nikita Khrushchev, and weighing only 1.5 kg (3.3 lb)) was added to Vanguard TV-3, which was to be the first test of an all-up Vanguard rocket. Although the NRL and Glenn L. Martin Company tried to emphasize that the Vanguard TV-3 mission was a pure test flight (and one with several "firsts"), everyone else saw it as the first satellite launch of the Western world, billed as "America's answer to Sputnik". Wernher von Braun angrily said about the Sputnik launch: "We knew they were going to do it. Vanguard will never make it. We have the hardware on the shelf. We can put up a satellite in 60 days".
 
-On 6 December 1957, the US Navy launched Vanguard TV-3 rocket, carrying a 1.5 kilograms (3.3 lb) satellite, from Cape Canaveral. It only reached an altitude of 1.2 metres (3 ft 11 in) before it fell and exploded. The satellite was exploded from the top of the rocket, landed in bushes near the pad, and began transmitting signals, leading New York Journal-American columnist Dorothy Kilgallen to remark "Why doesn't somebody go out there, find it, and shoot it?" The American press called it Kaputnik.
+On 6 December 1957, the US Navy launched Vanguard TV-3 rocket, carrying a 1.5 kg (3.3 lb) satellite, from Cape Canaveral. It only reached an altitude of 1.2 metres (3 ft 11 in) before it fell and exploded. The satellite was exploded from the top of the rocket, landed in bushes near the pad, and began transmitting signals, leading New York Journal-American columnist Dorothy Kilgallen to remark "Why doesn't somebody go out there, find it, and shoot it?" The American press called it Kaputnik.
 
 
-Investigation into the accident concluded that inadequate fuel tank pressure had allowed hot exhaust gases to back up into the injector head and destroy it, causing complete loss of engine thrust. After the failure of Vanguard TV-3, the backup vehicle, Vanguard TV-3BU (BU=BackUp), was prepared for another attempt. Pad crews hastened to repair the damage done to LC-18A by Vanguard TV-3's explosion, and in the third week of January 1958, the job was completed. Vanguard TV-3BU was erected on the pad, but continuous delays frustrated the launch attempt. Heavy rains shorted some electrical cables on the ground and necessitated their replacement. The second stage had also been sitting on the pad with a full load of nitric acid for several weeks, which eventually corroded the fuel tank and valves. It had to be removed and replaced by a different stage. Finally, the launch got under way on the night of 5 February 1958. The Vanguard lifted smoothly into the sky and performed well until 57 seconds into launch, when the booster pitched over almost 40°. The skinny second stage broke in half from aerodynamic stress four seconds later, causing the Vanguard to tumble end-over-end before range safety officer sent the destruct command. Cause of the failure was attributed to a spurious guidance signal that caused the first stage to perform unintended pitch maneuvers. The guidance system was modified to have greater redundancy, and efforts were made to improve quality control. On 17 March 1958, Vanguard TV-4 finally succeeded in orbiting the Vanguard 1 satellite. By that time, however, the Army's Juno (Jupiter-C) had already launched the United States' first satellite, Explorer 1. The Vanguard TV-4 rocket had put the satellite Vanguard 1, to a relatively high orbit of (3,966 by 653 kilometres (2,464 mi × 406 mi)). Vanguard 1 and its third stage remain in orbit as the oldest man-made artifacts in space. The following four flights, TV-5 and SLV (Satellite Launch Vehicle) Vanguard SLV-1, Vanguard SLV-2 and Vanguard SLV-3 all failed, but on 17 February 1959, Vanguard SLV-4 launched Vanguard 2, weighing 10.8 kilograms (24 lb), into orbit. The SLVs were the "production" Vanguard rockets. Vanguard SLV-5 and Vanguard SLV-6 also failed, but the final flight on 18 September 1959, successfully orbited the 24 kilograms (53 lb) Vanguard 3 satellite. That last mission was designated Vanguard TV-4BU, because it used a remaining test vehicle, which had been upgraded with a new third stage, the Allegany Ballistics Laboratory X-248A2 Altair. This more powerful motor enabled the launch of the heavier payload. The combination of the AJ10 liquid engine and X-248 solid motor was also used, under the name Able, as an upper stage combination for Thor and Atlas space launch vehicles.
+Investigation into the accident concluded that inadequate fuel tank pressure had allowed hot exhaust gases to back up into the injector head and destroy it, causing complete loss of engine thrust. After the failure of Vanguard TV-3, the backup vehicle, Vanguard TV-3BU (BU=BackUp), was prepared for another attempt. Pad crews hastened to repair the damage done to LC-18A by Vanguard TV-3's explosion, and in the third week of January 1958, the job was completed. Vanguard TV-3BU was erected on the pad, but continuous delays frustrated the launch attempt. Heavy rains shorted some electrical cables on the ground and necessitated their replacement. The second stage had also been sitting on the pad with a full load of nitric acid for several weeks, which eventually corroded the fuel tank and valves. It had to be removed and replaced by a different stage. Finally, the launch got under way on the night of 5 February 1958. The Vanguard lifted smoothly into the sky and performed well until 57 seconds into launch, when the booster pitched over almost 40°. The skinny second stage broke in half from aerodynamic stress four seconds later, causing the Vanguard to tumble end-over-end before range safety officer sent the destruct command. Cause of the failure was attributed to a spurious guidance signal that caused the first stage to perform unintended pitch maneuvers. The guidance system was modified to have greater redundancy, and efforts were made to improve quality control. On 17 March 1958, Vanguard TV-4 finally succeeded in orbiting the Vanguard 1 satellite. By that time, however, the Army's Juno (Jupiter-C) had already launched the United States' first satellite, Explorer 1. The Vanguard TV-4 rocket had put the satellite Vanguard 1, to a relatively high orbit of (3,966 by 653 kilometres (2,464 mi × 406 mi)). Vanguard 1 and its third stage remain in orbit as the oldest man-made artifacts in space. The following four flights, TV-5 and SLV (Satellite Launch Vehicle) Vanguard SLV-1, Vanguard SLV-2 and Vanguard SLV-3 all failed, but on 17 February 1959, Vanguard SLV-4 launched Vanguard 2, weighing 10.8 kg (24 lb), into orbit. The SLVs were the "production" Vanguard rockets. Vanguard SLV-5 and Vanguard SLV-6 also failed, but the final flight on 18 September 1959, successfully orbited the 24 kg (53 lb) Vanguard 3 satellite. That last mission was designated Vanguard TV-4BU, because it used a remaining test vehicle, which had been upgraded with a new third stage, the Allegany Ballistics Laboratory X-248A2 Altair. This more powerful motor enabled the launch of the heavier payload. The combination of the AJ10 liquid engine and X-248 solid motor was also used, under the name Able, as an upper stage combination for Thor and Atlas space launch vehicles.
             '''
 
     },
