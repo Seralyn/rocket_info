@@ -62,7 +62,7 @@ The Juno I rocket launched the first American satellite in January 1958, and was
         "Class": "Medium",        
         "Payload Capacity to LEO": "8,200 kg (18,100 lbs)",
         "payload_int": 8200,
-        "Height": "46.3 metres (152 ft)",
+        "Height": "46.3 m (152 ft)",
         "height_int": 46.3,
         "Diameter": "2.95 m (9 ft 8 in)",
         "diameter_int": 2.95,
@@ -308,7 +308,7 @@ Tronador (Spanish for Thunderer) is a series of Argentine rockets, including the
 The Tronador I is an unguided liquid-fueled rocket used for sub-orbital spaceflight test flights. Its development led to the larger VEx test rocket, testing technologies needed for the Tronador II, which has a guidance system and would be capable of reaching low Earth orbit. Development of the satellite launch vehicle has cost more than 600 million dollars over several years.
             
 Tronador III
-The proposed Tronador III would have the same diameter as Tronador II, but would have a length of 34 metres (112 ft). The fueled rocket would weight 89 metric tons, and capable of delivering a ton of payload into polar orbit.
+The proposed Tronador III would have the same diameter as Tronador II, but would have a length of 34 meters (112 ft). The fueled rocket would weight 89 metric tons, and capable of delivering a ton of payload into polar orbit.
             '''
     },
     "VLS-1": {
@@ -419,9 +419,9 @@ All launches are planned to take place from the Alcântara Launch Center, locate
         "Class": "Light",
         "Payload Capacity to LEO": "2,500 kg (5,500 lbs)",
         "payload_int": 2500,
-        "Height": "33 metres (108 ft)",
+        "Height": "33 m (108 ft)",
         "height_int": 33,
-        "Diameter": "3.35 metres (11.0 ft)",
+        "Diameter": "3.35 m (11.0 ft)",
         "diameter_int": 3.35,        
         "Mass": "191,700 kg (422,600 lbs)",
         "mass_int": 191700,
@@ -574,9 +574,9 @@ CAST - China Academy of Space Technology''',
         "Class": "Light",
         "Payload Capacity to LEO": "300 kg (660 lbs)",
         "payload_int": 300,
-        "Height": "	29.86 metres (98.0 ft)",
+        "Height": "	29.86 m (98.0 ft)",
         "height_int": 29.86,
-        "Diameter": "2.25 metres (7.4 ft)",
+        "Diameter": "2.25 m (7.4 ft)",
         "diameter_int": 2.25,        
         "Mass": "81,570 kg (179,830 lbs)",
         "mass_int": 81570,        
@@ -925,7 +925,7 @@ Atlas V to commercial customers worldwide until January 2018, when ULA assumed c
 The SLS is a Space Shuttle-derived launch vehicle, with the first stage of the rocket being powered by one central core stage and two outboard boosters. The upper stage is being developed from the Block 1 variant to a Block 2 variant, the Exploration Upper Stage.
 
 -Core stage-
-The Space Launch System's core stage contains the Main Propulsion System (MPS) of the rocket. It is 65 metres (212 ft) long by 8.4 metres (27.6 ft) in diameter and fuels the four RS-25 rocket engines at its base. The core stage is structurally and visually similar to the Space Shuttle external tank, containing the liquid hydrogen fuel and liquid oxygen oxidizer. Initial flights are planned to use modified RS-25D engines left over from the Space Shuttle program. However, Space Shuttle main engines are reusable, so later flights are planned to switch to a different version of the engine not designed for reuse, as it will be cheaper.
+The Space Launch System's core stage contains the Main Propulsion System (MPS) of the rocket. It is 65 meters (212 ft) long by 8.4 meters (27.6 ft) in diameter and fuels the four RS-25 rocket engines at its base. The core stage is structurally and visually similar to the Space Shuttle external tank, containing the liquid hydrogen fuel and liquid oxygen oxidizer. Initial flights are planned to use modified RS-25D engines left over from the Space Shuttle program. However, Space Shuttle main engines are reusable, so later flights are planned to switch to a different version of the engine not designed for reuse, as it will be cheaper.
 
 The core stage is fabricated at NASA's Michoud Assembly Facility and is common across all currently planned evolutions of the SLS to avoid the need for redesigns to meet varying requirements.
 
@@ -939,7 +939,7 @@ The stock of SLS boosters is limited by the number of casings left over from the
 
 -Upper Stage-
 ICPS - Block 1
-The Interim Cryogenic Propulsion Stage (ICPS) is planned to fly on Artemis 1. It is a stretched and human rated Delta IV 5 metres (16 ft) Delta Cryogenic Second Stage (DCSS) powered by a single RL10B-2. Block 1 is intended to be capable of lifting 95 tons to LEO in this configuration if the ICPS is considered part of the payload. Artemis 1 is to be launched into an initial 1,800 by −93 kilometres (1,118 by −58 mi) suborbital trajectory to ensure safe disposal of the core stage. ICPS will then perform an orbital insertion burn at apogee and a subsequent translunar injection burn to send Orion towards the moon. The ICPS for Artemis 1 was delivered by ULA to NASA about July 2017, and was housed at Kennedy Space center as of November 2018. As of February 2020, ICPS (not EUS) is planned for Artemis 1, 2, and 3. ICPS will now be human-rated for the crewed Artemis-2 flight.
+The Interim Cryogenic Propulsion Stage (ICPS) is planned to fly on Artemis 1. It is a stretched and human rated Delta IV 5 meters (16 ft) Delta Cryogenic Second Stage (DCSS) powered by a single RL10B-2. Block 1 is intended to be capable of lifting 95 tons to LEO in this configuration if the ICPS is considered part of the payload. Artemis 1 is to be launched into an initial 1,800 by −93 kilometers (1,118 by −58 mi) suborbital trajectory to ensure safe disposal of the core stage. ICPS will then perform an orbital insertion burn at apogee and a subsequent translunar injection burn to send Orion towards the moon. The ICPS for Artemis 1 was delivered by ULA to NASA about July 2017, and was housed at Kennedy Space center as of November 2018. As of February 2020, ICPS (not EUS) is planned for Artemis 1, 2, and 3. ICPS will now be human-rated for the crewed Artemis-2 flight.
 
 EUS - Block 1B and 2
 The Exploration Upper Stage (EUS) is planned to fly on Artemis 4. Similar to the S-IVB, the EUS will complete the SLS ascent phase and then re-ignite to send its payload to destinations beyond low-Earth orbit. It is expected to be used by Block 1B and Block 2, share the core stage diameter of 8.4 meters, and be powered by four RL10 engines.
@@ -1280,7 +1280,7 @@ Flight History:
 
 The engines were tested extensively on ground rigs, on both German and African test sites. Experiments were run with varying fuel and oxidiser formulations, as the general design was quite robust.
 
-Small, 4-unit vehicles were built and tested in Shaba North, Zaire and Seba Oasis, Libya, where heights of 20 to 50 kilometres were reached. The rockets used there were 6 and 12 meters long. The basic CRPU concept was shown to be workable, though some rockets experienced guidance or component failures. The last launch of an OTRAG rocket took place on September 19, 1983 in Esrange. Following this launch, the OTRAG rocket was to be used in high altitude research.
+Small, 4-unit vehicles were built and tested in Shaba North, Zaire and Seba Oasis, Libya, where heights of 20 to 50 kilometers were reached. The rockets used there were 6 and 12 meters long. The basic CRPU concept was shown to be workable, though some rockets experienced guidance or component failures. The last launch of an OTRAG rocket took place on September 19, 1983 in Esrange. Following this launch, the OTRAG rocket was to be used in high altitude research.
 
 Political pressure then shut down the project, as discussed in the OTRAG article.
 
@@ -1347,9 +1347,9 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
         "Class": "Light",
         "Payload Capacity to LEO": "180 kg (400 lbs)",
         "payload_int": 180,
-        "Height": "23.6 meters (77 ft)",
+        "Height": "23.6 m (77 ft)",
         "height_int": 23.6,
-        "Diameter": "1.41 meters (4 ft 8 in)",
+        "Diameter": "1.41 m (4 ft 8 in)",
         "diameter_int": 1.41,        
         "Mass": "43,600 kg (96,000 lbs)",
         "mass_int": 43600,        
@@ -1745,7 +1745,7 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
             The Satellite Launch Vehicle or SLV is a Small-lift launch vehicle, was a project 
             started in the early 1970s by the Indian Space Research Organisation to develop 
             the technology needed to launch satellites. SLV was intended to reach a height 
-            of 400 kilometres (250 mi) and carry a payload of 40 kg (88 lbs). The first 
+            of 400 kilometers (250 mi) and carry a payload of 40 kg (88 lbs). The first 
             experimental flight of SLV-3, in August 1979, was a failure. The first successful 
             launch took place on 18 July, 1980.
 
@@ -1819,8 +1819,8 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
             47-degree inclination.
 
             At liftoff, the ASLV generated 909.9 kN (204,500 lbsf) of thrust. It was a 
-            41,000-kilogram (90,000 lbs) rocket, measuring 23.5 metres (77 ft) in length with 
-            a core diameter of one metre (3 ft 3 in).[4] The height to diameter ratio of ASLV 
+            41,000-kilogram (90,000 lbs) rocket, measuring 23.5 meters (77 ft) in length with 
+            a core diameter of one metre (3 ft 3 in). The height to diameter ratio of ASLV 
             was very large which resulted in the vehicle being unstable in flight. This was 
             compounded by the fact that many of the critical events during a launch like the 
             core ignition and the booster separation happened at the Tropopause where the 
@@ -2373,7 +2373,7 @@ The first three stages of the vehicle use solid propellant, with a fourth stage 
             '''
 RLV-TD is India's first uncrewed flying testbed developed for the Indian Space Research Organisation (ISRO)'s Reusable Launch Vehicle Technology Demonstration program. It is a scaled down prototype of an eventual two-stage-to-orbit (TSTO) reusable launch vehicle.
 
-The RLV-TD successfully completed its first atmospheric test flight on 23 May 2016, which lasted for 770 seconds and reached a maximum altitude of 65 kilometres (40 mi). It was designed to evaluate various technologies, and development of the final version is expected to take 10 to 15 years. The fully developed RLV is expected to take off vertically like a rocket, deploy a satellite in orbit, return to Earth, and land on a runway.
+The RLV-TD successfully completed its first atmospheric test flight on 23 May 2016, which lasted for 770 seconds and reached a maximum altitude of 65 kilometers (40 mi). It was designed to evaluate various technologies, and development of the final version is expected to take 10 to 15 years. The fully developed RLV is expected to take off vertically like a rocket, deploy a satellite in orbit, return to Earth, and land on a runway.
 
 RLV-TD was developed by ISRO under the RLV Technology Demonstration program. The Technology Demonstration program consists of development of hypersonic rocket with air-breathing engines and the reusable launch vehicle.
 
@@ -2386,9 +2386,9 @@ A team of 750 engineers at Vikram Sarabhai Space center, National Aeronautical L
 
 Hypersonic Flight Experiment
 RLV-TD HEX-01
-The Hypersonic Flight Experiment (HEX), first of the five test flights was conducted on 23 May 2016. The Sub-orbital test flight was launched at 07:00 IST (01:30 GMT) from Satish Dhawan Space center in Sriharikota (80 kilometres (50 mi) north of Chennai). The test flight lasted for 770 seconds, reached maximum altitude of 65 kilometres (40 mi) and covered a distance of 450 kilometres (280 mi) Sriharikota, steered itself to an on-target splashdown to land (ditch) at a designated spot in the Bay of Bengal. Not designed to float, the vehicle disintegrated on impact with water and was not recovered.
+The Hypersonic Flight Experiment (HEX), first of the five test flights was conducted on 23 May 2016. The Sub-orbital test flight was launched at 07:00 IST (01:30 GMT) from Satish Dhawan Space center in Sriharikota (80 kilometers (50 mi) north of Chennai). The test flight lasted for 770 seconds, reached maximum altitude of 65 kilometers (40 mi) and covered a distance of 450 kilometers (280 mi) Sriharikota, steered itself to an on-target splashdown to land (ditch) at a designated spot in the Bay of Bengal. Not designed to float, the vehicle disintegrated on impact with water and was not recovered.
 
-RLV-TD was mounted on top of and launched aboard a single stage solid fuel booster (HS9 booster) that was derived from strap-on boosters flown on India's Polar Satellite Launch Vehicle. By the time, the booster consumed its solid propellant in 91 seconds, the RLV-TD separated from its boost stage and peaked to a sub-orbital altitude of about 65 kilometres (40 mi). The heat shield, guidance, navigation and control algorithms were tested at hypersonic speed by accurately steering the vehicle during the descent stage. For the descent back, the test vehicle was programd to pitch its nose up, exposing silica tiles on its underside and reinforced carbon–carbon nose cap to the airflow into the thick lower layers of the atmosphere. The RLV-TD endured high temperatures of descent through the atmosphere due to its thermal protection system.
+RLV-TD was mounted on top of and launched aboard a single stage solid fuel booster (HS9 booster) that was derived from strap-on boosters flown on India's Polar Satellite Launch Vehicle. By the time, the booster consumed its solid propellant in 91 seconds, the RLV-TD separated from its boost stage and peaked to a sub-orbital altitude of about 65 kilometers (40 mi). The heat shield, guidance, navigation and control algorithms were tested at hypersonic speed by accurately steering the vehicle during the descent stage. For the descent back, the test vehicle was programd to pitch its nose up, exposing silica tiles on its underside and reinforced carbon–carbon nose cap to the airflow into the thick lower layers of the atmosphere. The RLV-TD endured high temperatures of descent through the atmosphere due to its thermal protection system.
 
 All stages of the test flight were tracked by ground station at the launch site and a shipborne terminal. All the mission objectives were met and technologies like autonomous navigation, guidance and control, reusable thermal protection system and descent mission management were successfully validated.
 
@@ -5461,7 +5461,7 @@ A version of the Start-1 rocket, simply called Start, was developed in parallel 
             '''
 Rokot (Russian: Рокот meaning Rumble or Boom), also transliterated Rockot, was a Russian space launch vehicle that was capable of launching a payload of 1,950 kg into a 200 kilometre Earth orbit with 63° inclination. It was based on the UR-100N (SS-19 Stiletto) intercontinental ballistic missile (ICBM), supplied and operated by Khrunichev State Research and Production Space Center. The first launches started in the 1990s from Baikonur Cosmodrome out of a silo. Later commercial launches commenced from Plesetsk Cosmodrome using a launch ramp specially rebuilt from one for the Kosmos-3M rocket. The cost of the launcher itself was about $15 million in 1999; The contract with ESA for launching Swarm in September 2013 was worth €27.1 million ($36 million)
 
-Rokot's total mass was 107 tonnes, its length 29 metres and its maximum diameter 2.5 metres. The liquid-fueled rocket comprised three stages. The lower two were based on the Soviet UR-100N ICBM; the first stage used an RD-0244 engine, while the second stage used an RD-0235. The third stage was a Briz-KM (Russian: Бриз-КМ meaning Breeze-KM), which has a mass of about 6 tonnes when fuelled, and is capable of flying for 7 hours and reigniting its engine six times during flight, allowing different satellites to be placed into different orbits. All stages used UDMH (unsymmetrical Dimethylhydrazine) as fuel and dinitrogen tetroxide as oxidiser. The Strela is a similar rocket, also based on the SS-19.
+Rokot's total mass was 107 tonnes, its length 29 meters and its maximum diameter 2.5 meters. The liquid-fueled rocket comprised three stages. The lower two were based on the Soviet UR-100N ICBM; the first stage used an RD-0244 engine, while the second stage used an RD-0235. The third stage was a Briz-KM (Russian: Бриз-КМ meaning Breeze-KM), which has a mass of about 6 tonnes when fuelled, and is capable of flying for 7 hours and reigniting its engine six times during flight, allowing different satellites to be placed into different orbits. All stages used UDMH (unsymmetrical Dimethylhydrazine) as fuel and dinitrogen tetroxide as oxidiser. The Strela is a similar rocket, also based on the SS-19.
 
 The first suborbital test launch succeeded on 20 November 1990 in Baikonur Cosmodrome. On 26 December 1994 Rokot brought its first satellite into Earth orbit. In 1995, Khrunichev State Research and Production Space Center formed a company with German DaimlerBenz Aerospace to market Rokot launches for commercial use. Later, the company was renamed to Eurockot Launch Services. Eurockot bought 45 Rokots from the Russian strategic missile forces to build its inventory. In 2000, Eurokot was partly bought by the German company Astrium GmbH, a shareholder of Arianespace. Astrium then held 51% of Eurockot's shares, while Khrunichev held 49%.
 
@@ -5845,7 +5845,7 @@ The first stage was a modified Russian Angara URM. The solid-fuel second stage w
 
 Neither the maiden flight on 25 August 2009 nor the second flight on 10 June 2010 reached orbit. The third flight on 30 January 2013 successfully reached orbit. The launches took place from the Naro Space Center. The official name of the first KSLV rocket, KSLV-I, is Naro, which is the name of the region in which Naro Space Center is located.
 
-In 1992, Republic of Korea developed and launched several satellite systems and rockets overseas, such as the solid-fueled KSR-1 and KSR-2 sounding rockets. In 2000, Republic of Korea began construction of the Naro Space Center, located on Naro Island in Goheung, 485 kilometres (301 mi) south of Seoul, with Russian assistance. The work was completed by the launch of the 6,000-kilogram (13,000 lb) KSR-3 liquid-propellant sounding rocket on 28 November 2002. South Korea announced in 2002 that it intended to develop a small satellite launch vehicle by 2005 that would be based on technology flown on the KSR-3 test vehicle. The launcher would be entirely indigenous, based on the 122.500-kilonewton (27,539 lbf) thrust LOX/kerosene motor used for the KSR-3 rocket stage. In 2005 a change was announced, indicating that they would use the Russian RD-191 as the vehicle's first stage. The program, like that of the Angara, was subject to continuous funding shortages and schedule delays.
+In 1992, Republic of Korea developed and launched several satellite systems and rockets overseas, such as the solid-fueled KSR-1 and KSR-2 sounding rockets. In 2000, Republic of Korea began construction of the Naro Space Center, located on Naro Island in Goheung, 485 kilometers (301 mi) south of Seoul, with Russian assistance. The work was completed by the launch of the 6,000-kilogram (13,000 lb) KSR-3 liquid-propellant sounding rocket on 28 November 2002. South Korea announced in 2002 that it intended to develop a small satellite launch vehicle by 2005 that would be based on technology flown on the KSR-3 test vehicle. The launcher would be entirely indigenous, based on the 122.500-kilonewton (27,539 lbf) thrust LOX/kerosene motor used for the KSR-3 rocket stage. In 2005 a change was announced, indicating that they would use the Russian RD-191 as the vehicle's first stage. The program, like that of the Angara, was subject to continuous funding shortages and schedule delays.
 
 On 26 October 2004, during the visit of a GKNPTs Khrunichev delegation headed by A. A. Medvedev, Director General to Republic of Korea, a contract was signed to design and build a Space Rocket Complex for the small-lift launch vehicle KSLV-1. The design represented a joint effort between GKNPTs Khrunichev partner NPO Energomash "V. P. Glushko", who would build the first stage of KSLV-1, and Republic of Korea KARI, who would design and produce the second stage. As the prerequisite to signing the contract South Korea joined the Missile Technology Control Regime (MTCR). All documentation was reviewed by the Russian Space Agency (RSA), and the joint project to build the Korean rocket complex was approved. The vehicle was unveiled at the Naro Space Center in Goheung, South Jeolla Province in October 2008. South Korea has spent some KR₩ 500 billion (US$ 490 million) since 2002 on the project.
 
@@ -5853,7 +5853,7 @@ The total cost of the first three launches was over 500 billion won (US$450 mill
 
 Republic of Korea efforts to build an indigenous space launch vehicle is hindered due to persistent political pressure of the United States, who had for many decades hindered South Korea's indigenous rocket and missile development programs in fear of their possible connection to clandestine military ballistic missile programs. South Korea has sought the assistance of foreign countries such as Russia through MTCR commitments to supplement its restricted domestic rocket technology. South Korea is working on an engine for an indigenous launcher planned for 2021.
 
-The whole rocket was originally planned to be completely indigenous, but due to technological constraints largely spurred by political pressure from the United States that discouraged independent research and development of rocket technology by South Korea, KARI decided that the KSLV would be built on the basis of the universal rocket module (URM) designed for the Russian Angara family of rockets. The first stage of the vehicle uses the Russian RD-151 engine, which is essentially the RD-191 de-powered to 170 tons-force (1.7 MN; 370,000 lbf) from 190 tons. The second stage is a solid rocket motor developed and built by KARI. The launch vehicle weighs 140 tons (310,000 lb), stands 33 metres (108 ft) tall and has a diameter of almost 3 metres (9 ft 10 in).
+The whole rocket was originally planned to be completely indigenous, but due to technological constraints largely spurred by political pressure from the United States that discouraged independent research and development of rocket technology by South Korea, KARI decided that the KSLV would be built on the basis of the universal rocket module (URM) designed for the Russian Angara family of rockets. The first stage of the vehicle uses the Russian RD-151 engine, which is essentially the RD-191 de-powered to 170 tons-force (1.7 MN; 370,000 lbf) from 190 tons. The second stage is a solid rocket motor developed and built by KARI. The launch vehicle weighs 140 tons (310,000 lb), stands 33 meters (108 ft) tall and has a diameter of almost 3 meters (9 ft 10 in).
             '''
 
     },
@@ -8352,9 +8352,9 @@ The Shavit has been launched 11 times, placing the payload into orbit 9 times. O
         "Class": "Very Heavy",
         "Payload Capacity to LEO": "25,400 kg (56,000 lbs)",
         "payload_int": 25400,
-        "Height": "94 meters (308 ft)",
+        "Height": "94 m (308 ft)",
         "height_int": 94,
-        "Diameter": "5.5 meters (18 ft)",
+        "Diameter": "5.5 m (18 ft)",
         "diameter_int": 5.5,        
         "Mass": "Unknown",
         "mass_int": None,        
@@ -9398,7 +9398,7 @@ The Minotaur IV vehicle consists of four stages and is capable of placing 1,735 
 
 Minotaur IV launches are conducted from SLC-8 at Vandenberg Air Force Base, LP-0B at the Mid-Atlantic Regional Spaceport, SLC-46 at Cape Canaveral Air Force Station and Pacific Spaceport Complex – Alaska Pad 1 of the Pacific Spaceport Complex – Alaska (PSCA).
 
-The third Minotaur IV launch, which was also known as STP-S26, deployed eight payloads. It was the 26th small launch vehicle mission in STP's 40-year history of flying DoD space experiments,[13] STP-S26 was intended to extend previous standard interface development efforts, implementing a number of capabilities aimed at enabling responsive access to space for small experimental satellites and payloads. STP-S26 launched at 01:25 UTC on 20 November 2010 from the Kodiak Launch Complex. The launch facility contractor was Alaska Aerospace Corporation (AAC). The payloads were released in a 650 kilometres (400 mi) orbit, before the HAPS upper stage was demonstrated by deploying two ballast payloads into a 1,200 kilometres (750 mi) orbit.
+The third Minotaur IV launch, which was also known as STP-S26, deployed eight payloads. It was the 26th small launch vehicle mission in STP's 40-year history of flying DoD space experiments,[13] STP-S26 was intended to extend previous standard interface development efforts, implementing a number of capabilities aimed at enabling responsive access to space for small experimental satellites and payloads. STP-S26 launched at 01:25 UTC on 20 November 2010 from the Kodiak Launch Complex. The launch facility contractor was Alaska Aerospace Corporation (AAC). The payloads were released in a 650 kilometers (400 mi) orbit, before the HAPS upper stage was demonstrated by deploying two ballast payloads into a 1,200 kilometers (750 mi) orbit.
 
 The primary objective of the STP-S26 launch was to deploy STPSAT-2 (USA-217), whilst demonstrating the ability of the Minotaur IV to carry additional payloads, by deploying FASTSAT, FASTRAC, RAX, O/OREOS and FalconSat-5. A Hydrazine Auxiliary Propulsion System upper stage was flown aboard the Minotaur to demonstrate its ability to deploy payloads to multiple orbits, however only mass simulators were deployed after the HAPS burn.
 
@@ -9608,9 +9608,9 @@ The rocket was to have had two basic configurations, an intermediate and a heavy
         "Class": "Light",
         "Payload Capacity to LEO": "443 kg (976 lbs)",
         "payload_int": 443,
-        "Height": "16.9 meters (55 ft) (Pegasus), 17.6 meters (58 ft) (Pegasus XL)",
+        "Height": "16.9 m (55 ft) (Pegasus), 17.6 m (58 ft) (Pegasus XL)",
         "height_int": 17.6,
-        "Diameter": "1.27 meters (4.2 ft)",
+        "Diameter": "1.27 m (4.2 ft)",
         "diameter_int": 1.27,
         "Mass": "18,500 kg (40,800 lbs) (Pegasus), 23,130 kg (50,990 lbs) (Pegasus XL)",
         "mass_int": 23130,
@@ -10069,7 +10069,7 @@ The rocket family is named for the Roman goddess and queen of the gods Juno for 
 
 Juno-I launched the Explorer 1 satellite on January 31, 1958, becoming the first U.S. satellite, as well as discovering the Van Allen radiation belt.
 
-The Juno I consisted of a Jupiter-C first stage, based on the Redstone missile; with three additional solid fuel stages based on the Sergeant missile to provide the added impulse to achieve orbit. The fourth stage was mounted on top of the "tub" of the third stage, and fired after third-stage burnout to boost the payload and fourth stage to an orbital velocity of 8 kilometres per second (29,000 km/h; 18,000 mph). The tub along with the fourth stage were set spinning while the rocket was on the launch pad to provide gyroscopic force in lieu of a guidance system that would have required vanes, gimbals, or vernier motors. This multi-stage system, designed by Wernher von Braun in 1956 for his proposed Project Orbiter, obviated the need for a guidance system in the upper stages. It was the simplest method for putting a payload into orbit but having no upper-stage guidance, the payload could not achieve a precise orbit. Both the four-stage Juno I and three-stage Jupiter-C launch vehicles were the same height (21.2 meters), with the added fourth-stage booster of the Juno I being enclosed inside the nose cone of the third stage.
+The Juno I consisted of a Jupiter-C first stage, based on the Redstone missile; with three additional solid fuel stages based on the Sergeant missile to provide the added impulse to achieve orbit. The fourth stage was mounted on top of the "tub" of the third stage, and fired after third-stage burnout to boost the payload and fourth stage to an orbital velocity of 8 kilometers per second (29,000 km/h; 18,000 mph). The tub along with the fourth stage were set spinning while the rocket was on the launch pad to provide gyroscopic force in lieu of a guidance system that would have required vanes, gimbals, or vernier motors. This multi-stage system, designed by Wernher von Braun in 1956 for his proposed Project Orbiter, obviated the need for a guidance system in the upper stages. It was the simplest method for putting a payload into orbit but having no upper-stage guidance, the payload could not achieve a precise orbit. Both the four-stage Juno I and three-stage Jupiter-C launch vehicles were the same height (21.2 meters), with the added fourth-stage booster of the Juno I being enclosed inside the nose cone of the third stage.
 
 Following the successful launch of Explorer 1 on January 31, 1958, the first U.S. satellite, Juno I made five more launches before being retired in favor of Juno II. Although Juno I's launch of the Explorer 1 satellite was a huge success for the U.S. space program, only two of its remaining five flights were successful, Explorer 3 and Explorer 4, giving the Juno I vehicle a mission total success ratio of 50%. The Juno I vehicle was replaced by the Juno II in 1959.
 
@@ -10679,7 +10679,7 @@ Long-duration spaceflights beyond the earth-moon system
 Mars transportation, both as cargo ships as well as passenger-carrying transport
 Long-duration flights to the outer planets, for cargo and astronauts
 Reusable lunar lander, for use transporting astronauts and cargo to and from the Moon's surface and Gateway in lunar orbit via Starship Human Landing System (Starship HLS); as well as more advanced heavy cargo lunar use cases that are envisioned by SpaceX but are not any part of the HLS variant that NASA has contracted with SpaceX for early design work.
-In 2017, SpaceX mentioned the theoretical ability of using a boosted Starship to carry passengers on suborbital flights between two points on Earth in under one hour, providing commercial long-haul transport on Earth, competing with long-range aircraft. SpaceX however announced no concrete plans to pursue the two stage "Earth-to-Earth" use case. Over two years later, in May 2019, Musk floated the idea of using single-stage Starship to travel up to 10,000 kilometres (6,200 mi) on Earth-to-Earth flights at speeds approaching Mach 20 (25,000 km/h; 15,000 mph) with an acceptable payload saying it "dramatically improves cost, complexity & ease of operations". In June 2020, Musk estimated that Earth-to-Earth test flights could begin in "2 or 3 years", i.e. 2022 or 2023, and that planning was underway for "floating superheavy-class spaceports for Mars, Moon and hypersonic travel around Earth".
+In 2017, SpaceX mentioned the theoretical ability of using a boosted Starship to carry passengers on suborbital flights between two points on Earth in under one hour, providing commercial long-haul transport on Earth, competing with long-range aircraft. SpaceX however announced no concrete plans to pursue the two stage "Earth-to-Earth" use case. Over two years later, in May 2019, Musk floated the idea of using single-stage Starship to travel up to 10,000 kilometers (6,200 mi) on Earth-to-Earth flights at speeds approaching Mach 20 (25,000 km/h; 15,000 mph) with an acceptable payload saying it "dramatically improves cost, complexity & ease of operations". In June 2020, Musk estimated that Earth-to-Earth test flights could begin in "2 or 3 years", i.e. 2022 or 2023, and that planning was underway for "floating superheavy-class spaceports for Mars, Moon and hypersonic travel around Earth".
 
 The Starship vehicle has been criticized for not adequately protecting astronauts from ionizing radiation on Mars missions; Musk has stated that he thinks the transit time to Mars will be too brief to lead to an increased risk of cancer, saying "it's not too big of a deal".
             '''
@@ -11979,7 +11979,7 @@ In December 2014, the Delta IV Heavy was used to launch an uncrewed test flight 
             '''
 LauncherOne is a two stage orbital launch vehicle under development by Virgin Orbit since 2007. It is an air launch to orbit rocket, designed to launch "smallsat" payloads of 300 kg (660 lb) into Sun-synchronous orbit, following air launch from a carrier aircraft at high altitude. The first attempted orbital test flight was completed on 25 May 2020, but failed to reach space due to an anomaly that occurred shortly after the vehicle's release from a Boeing 747-400, named Cosmic Girl, over the Pacific Ocean.
 
-The original LauncherOne concept, 2007-2015, for a smaller launch vehicle (200 kg (440 lb) to low-Earth orbit) was shelved in 2015 and replaced by a larger rocket design capable of putting a 300 kg (660 lb) minisat payload in a 500 kilometres (310 mi) Sun-synchronous orbit, suitable for CubeSats and small payloads, with an expected cost less than US$12 million.
+The original LauncherOne concept, 2007-2015, for a smaller launch vehicle (200 kg (440 lb) to low-Earth orbit) was shelved in 2015 and replaced by a larger rocket design capable of putting a 300 kg (660 lb) minisat payload in a 500 kilometers (310 mi) Sun-synchronous orbit, suitable for CubeSats and small payloads, with an expected cost less than US$12 million.
 
 Virgin Galactic began working on the LauncherOne concept in 2007, and the technical specifications were first described in some detail in late 2009. The LauncherOne configuration was proposed to be an expendable, two-stage, liquid-fueled rocket air-launched from a White Knight Two carrier aircraft. This would make it a similar configuration to that used by Orbital Sciences' Pegasus, or a smaller version of the StratoLaunch air-launched rocket system.
 
@@ -12005,7 +12005,7 @@ In the event, no LauncherOne test flights occurred in 2018 and were delayed furt
 The maiden flight of LauncherOne took place on 25 May 2020. The flight failed a few seconds after the ignition of the rocket, and the rocket did not reach space.
 
 Design
-LauncherOne is a two-stage air-launched vehicle using two Virgin-designed and built Newton RP-1 / LOX liquid rocket engines. The rocket has a diameter of 1.6 metres (5 ft 3 in) for the first stage and 1.3 metres (4 ft 3 in) for the second stage and payload fairing. The first stage uses one NewtonThree engine, while the upper stage uses one NewtonFour engine.
+LauncherOne is a two-stage air-launched vehicle using two Virgin-designed and built Newton RP-1 / LOX liquid rocket engines. The rocket has a diameter of 1.6 meters (5 ft 3 in) for the first stage and 1.3 meters (4 ft 3 in) for the second stage and payload fairing. The first stage uses one NewtonThree engine, while the upper stage uses one NewtonFour engine.
 
 In October 2019, the company announced plans to develop a three-stage variant that would be capable of launching 100 kg to the Moon, 70 kg to Venus, or 50 kg to Mars.
 
@@ -12019,7 +12019,7 @@ By December 2015, Virgin had settled on a design where the first stage would uti
 A 25 May 2020 launch failure was attributed to a failure of a high-pressure LOx fuel line in the NewtonThree engine. The broken fuel line caused LOx to stop flowing into the engine leading to the flight being terminated. Issue with the fuel line was addressed though strengthening broken components.
 
 Intended usage
-LauncherOne is designed to launch a 300 kg (660 lb) payload to a 500 kilometres (310 mi) SSO, suitable for CubeSats and small payloads. Virgin Orbit has also announced the ability of LauncherOne to send payloads into heliocentric orbit for flybys of Mars, Venus or asteroids.
+LauncherOne is designed to launch a 300 kg (660 lb) payload to a 500 kilometers (310 mi) SSO, suitable for CubeSats and small payloads. Virgin Orbit has also announced the ability of LauncherOne to send payloads into heliocentric orbit for flybys of Mars, Venus or asteroids.
 
 Virgin Orbit integrate payloads at their headquarters in Long Beach, California.
             '''
@@ -12667,10 +12667,10 @@ The Vanguard's second stage served for decades as the Able and Delta second stag
 
 The first two flights of the Vanguard program, designated Vanguard TV-0 and Vanguard TV-1, were actually the last two remaining RTV-N-12a Viking rockets modified. Vanguard TV-0, launched on 8 December 1956, primarily tested new telemetry systems, while Vanguard TV-1 on 1 May 1957, was a two-stage vehicle testing separation and ignition of the solid-fueled upper stage of Vanguard. Vanguard TV-2, launched on 23 October 1957, after several abortive attempts, was the first real Vanguard rocket. The second and third stages were inert, but the flight successfully tested first/second-stage separation and spin-up of the third stage. However, by that time, the Soviet Union had already placed the Sputnik 1 satellite into orbit, and so project Vanguard was more or less forced to launch its own satellite as soon as possible. Therefore, a very small experimental satellite (derisively called the "grapefruit" by Nikita Khrushchev, and weighing only 1.5 kg (3.3 lb)) was added to Vanguard TV-3, which was to be the first test of an all-up Vanguard rocket. Although the NRL and Glenn L. Martin Company tried to emphasize that the Vanguard TV-3 mission was a pure test flight (and one with several "firsts"), everyone else saw it as the first satellite launch of the Western world, billed as "America's answer to Sputnik". Wernher von Braun angrily said about the Sputnik launch: "We knew they were going to do it. Vanguard will never make it. We have the hardware on the shelf. We can put up a satellite in 60 days".
 
-On 6 December 1957, the US Navy launched Vanguard TV-3 rocket, carrying a 1.5 kg (3.3 lb) satellite, from Cape Canaveral. It only reached an altitude of 1.2 metres (3 ft 11 in) before it fell and exploded. The satellite was exploded from the top of the rocket, landed in bushes near the pad, and began transmitting signals, leading New York Journal-American columnist Dorothy Kilgallen to remark "Why doesn't somebody go out there, find it, and shoot it?" The American press called it Kaputnik.
+On 6 December 1957, the US Navy launched Vanguard TV-3 rocket, carrying a 1.5 kg (3.3 lb) satellite, from Cape Canaveral. It only reached an altitude of 1.2 meters (3 ft 11 in) before it fell and exploded. The satellite was exploded from the top of the rocket, landed in bushes near the pad, and began transmitting signals, leading New York Journal-American columnist Dorothy Kilgallen to remark "Why doesn't somebody go out there, find it, and shoot it?" The American press called it Kaputnik.
 
 
-Investigation into the accident concluded that inadequate fuel tank pressure had allowed hot exhaust gases to back up into the injector head and destroy it, causing complete loss of engine thrust. After the failure of Vanguard TV-3, the backup vehicle, Vanguard TV-3BU (BU=BackUp), was prepared for another attempt. Pad crews hastened to repair the damage done to LC-18A by Vanguard TV-3's explosion, and in the third week of January 1958, the job was completed. Vanguard TV-3BU was erected on the pad, but continuous delays frustrated the launch attempt. Heavy rains shorted some electrical cables on the ground and necessitated their replacement. The second stage had also been sitting on the pad with a full load of nitric acid for several weeks, which eventually corroded the fuel tank and valves. It had to be removed and replaced by a different stage. Finally, the launch got under way on the night of 5 February 1958. The Vanguard lifted smoothly into the sky and performed well until 57 seconds into launch, when the booster pitched over almost 40°. The skinny second stage broke in half from aerodynamic stress four seconds later, causing the Vanguard to tumble end-over-end before range safety officer sent the destruct command. Cause of the failure was attributed to a spurious guidance signal that caused the first stage to perform unintended pitch maneuvers. The guidance system was modified to have greater redundancy, and efforts were made to improve quality control. On 17 March 1958, Vanguard TV-4 finally succeeded in orbiting the Vanguard 1 satellite. By that time, however, the Army's Juno (Jupiter-C) had already launched the United States' first satellite, Explorer 1. The Vanguard TV-4 rocket had put the satellite Vanguard 1, to a relatively high orbit of (3,966 by 653 kilometres (2,464 mi × 406 mi)). Vanguard 1 and its third stage remain in orbit as the oldest man-made artifacts in space. The following four flights, TV-5 and SLV (Satellite Launch Vehicle) Vanguard SLV-1, Vanguard SLV-2 and Vanguard SLV-3 all failed, but on 17 February 1959, Vanguard SLV-4 launched Vanguard 2, weighing 10.8 kg (24 lb), into orbit. The SLVs were the "production" Vanguard rockets. Vanguard SLV-5 and Vanguard SLV-6 also failed, but the final flight on 18 September 1959, successfully orbited the 24 kg (53 lb) Vanguard 3 satellite. That last mission was designated Vanguard TV-4BU, because it used a remaining test vehicle, which had been upgraded with a new third stage, the Allegany Ballistics Laboratory X-248A2 Altair. This more powerful motor enabled the launch of the heavier payload. The combination of the AJ10 liquid engine and X-248 solid motor was also used, under the name Able, as an upper stage combination for Thor and Atlas space launch vehicles.
+Investigation into the accident concluded that inadequate fuel tank pressure had allowed hot exhaust gases to back up into the injector head and destroy it, causing complete loss of engine thrust. After the failure of Vanguard TV-3, the backup vehicle, Vanguard TV-3BU (BU=BackUp), was prepared for another attempt. Pad crews hastened to repair the damage done to LC-18A by Vanguard TV-3's explosion, and in the third week of January 1958, the job was completed. Vanguard TV-3BU was erected on the pad, but continuous delays frustrated the launch attempt. Heavy rains shorted some electrical cables on the ground and necessitated their replacement. The second stage had also been sitting on the pad with a full load of nitric acid for several weeks, which eventually corroded the fuel tank and valves. It had to be removed and replaced by a different stage. Finally, the launch got under way on the night of 5 February 1958. The Vanguard lifted smoothly into the sky and performed well until 57 seconds into launch, when the booster pitched over almost 40°. The skinny second stage broke in half from aerodynamic stress four seconds later, causing the Vanguard to tumble end-over-end before range safety officer sent the destruct command. Cause of the failure was attributed to a spurious guidance signal that caused the first stage to perform unintended pitch maneuvers. The guidance system was modified to have greater redundancy, and efforts were made to improve quality control. On 17 March 1958, Vanguard TV-4 finally succeeded in orbiting the Vanguard 1 satellite. By that time, however, the Army's Juno (Jupiter-C) had already launched the United States' first satellite, Explorer 1. The Vanguard TV-4 rocket had put the satellite Vanguard 1, to a relatively high orbit of (3,966 by 653 kilometers (2,464 mi × 406 mi)). Vanguard 1 and its third stage remain in orbit as the oldest man-made artifacts in space. The following four flights, TV-5 and SLV (Satellite Launch Vehicle) Vanguard SLV-1, Vanguard SLV-2 and Vanguard SLV-3 all failed, but on 17 February 1959, Vanguard SLV-4 launched Vanguard 2, weighing 10.8 kg (24 lb), into orbit. The SLVs were the "production" Vanguard rockets. Vanguard SLV-5 and Vanguard SLV-6 also failed, but the final flight on 18 September 1959, successfully orbited the 24 kg (53 lb) Vanguard 3 satellite. That last mission was designated Vanguard TV-4BU, because it used a remaining test vehicle, which had been upgraded with a new third stage, the Allegany Ballistics Laboratory X-248A2 Altair. This more powerful motor enabled the launch of the heavier payload. The combination of the AJ10 liquid engine and X-248 solid motor was also used, under the name Able, as an upper stage combination for Thor and Atlas space launch vehicles.
             '''
 
     },

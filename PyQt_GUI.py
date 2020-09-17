@@ -7,6 +7,8 @@ QSpacerItem, QMainWindow, QTabWidget, QSizePolicy, QHBoxLayout, QVBoxLayout, QDi
 from PyQt5.QtCore import QTimer, Qt
 from rocket_dictionary import rocketDictionary
 from collections import OrderedDict
+from matplotlib import pyplot
+import numpy
 import sys
 import ctypes  #this plus the two lines below (beginning with "myappid" and "ctypes.windll" respectively allows windwows to recognize the app's icon, as opposed to just giving the window it self the proper icon
 
@@ -410,7 +412,7 @@ class Ui_MainWindow(object):
 "color: rgb(255, 255, 255);\n"
 "border-color: rgb(255, 255, 255);\n"
 "selection-color: rgb(0, 0, 0);\n"
-"background-color: rgb(52, 52, 52, 0);")
+"background-color: rgb(52, 52, 52);")
         
         self.metricsComboBox = QComboBox()
         self.metricsComboBox.addItem("")
@@ -424,11 +426,11 @@ class Ui_MainWindow(object):
         self.metricsComboBox.setDisabled(True)
         
         self.actualCompareButton = QPushButton("Compare Selected Rockets")
-        self.actualCompareButton.setStyleSheet("background-color: rgb(244, 183, 0, 80);")
+        self.actualCompareButton.setStyleSheet("background-color: rgb(244, 183, 0);")
         self.actualCompareButton.setDisabled(True)
         
         self.showGraphButton = QPushButton("Show Data Visualization")
-        self.showGraphButton.setStyleSheet("background-color: rgb(244, 183, 0, 80);")
+        self.showGraphButton.setStyleSheet("background-color: rgb(244, 183, 0);")
         self.showGraphButton.setDisabled(True)
 
         self.infoLayoutCompare.addWidget(self.compareExplanation)
@@ -487,7 +489,11 @@ class Ui_MainWindow(object):
         self.statsComparedHorizFrame05 = QtWidgets.QFrame()
 
         #self.statsComparedHorizFrame01.setLayout(self.statsComparedHorizLayout01) # this-----------------
-        self.statsComparedHorizFrame01.setStyleSheet("border: 1px solid")  # this----------------- 
+        self.statsComparedHorizFrame01.setStyleSheet("border: 2px solid")  # this----------------- 
+        self.statsComparedHorizFrame02.setStyleSheet("border: 2px solid")
+        self.statsComparedHorizFrame03.setStyleSheet("border: 2px solid")
+        self.statsComparedHorizFrame04.setStyleSheet("border: 2px solid")
+        self.statsComparedHorizFrame05.setStyleSheet("border: 2px solid")
 
         self.statsComparedSubVerticalLayout01 = QtWidgets.QVBoxLayout()
         self.statsComparedSubVerticalLayout02 = QtWidgets.QVBoxLayout()
@@ -504,6 +510,13 @@ class Ui_MainWindow(object):
         self.statsComparedHeader.setStyleSheet("background-color: rgb(54, 54, 54);")
         self.statsComparedHeader.setObjectName("statsComparedHeader")
         self.statsComparedLayout.addWidget(self.statsComparedHeader)
+
+
+        self.statsComparedLayout.addWidget(self.statsComparedHorizFrame01)   #************ this is where to add the other 4 frames ******************
+        self.statsComparedLayout.addWidget(self.statsComparedHorizFrame02)
+        self.statsComparedLayout.addWidget(self.statsComparedHorizFrame03)
+        self.statsComparedLayout.addWidget(self.statsComparedHorizFrame04)
+        self.statsComparedLayout.addWidget(self.statsComparedHorizFrame05)
        
      
 
@@ -573,11 +586,16 @@ class Ui_MainWindow(object):
         self.comparedRocket04NameLabel.setStyleSheet("border: 1px solid #737573; background-color: rgba(52, 52, 52, 100)")
         self.comparedRocket05NameLabel.setStyleSheet("border: 1px solid #737573; background-color: rgba(52, 52, 52, 100)")   
 
-        self.statsComparedLayout.addLayout(self.statsComparedHorizLayout01)
-        self.statsComparedLayout.addLayout(self.statsComparedHorizLayout02)
-        self.statsComparedLayout.addLayout(self.statsComparedHorizLayout03)
-        self.statsComparedLayout.addLayout(self.statsComparedHorizLayout04)
-        self.statsComparedLayout.addLayout(self.statsComparedHorizLayout05)
+
+
+        self.statsComparedHorizFrame01.setLayout(self.statsComparedHorizLayout01)   # **************** HERE **************** Match below 4 to this 
+
+        self.statsComparedHorizFrame02.setLayout(self.statsComparedHorizLayout02)
+        self.statsComparedHorizFrame03.setLayout(self.statsComparedHorizLayout03)
+        self.statsComparedHorizFrame04.setLayout(self.statsComparedHorizLayout04)
+        self.statsComparedHorizFrame05.setLayout(self.statsComparedHorizLayout05)
+
+
 
         self.statsComparedHorizLayout01.addLayout(self.statsComparedSubVerticalLayout01)
         self.statsComparedHorizLayout02.addLayout(self.statsComparedSubVerticalLayout02)
@@ -586,53 +604,56 @@ class Ui_MainWindow(object):
         self.statsComparedHorizLayout05.addLayout(self.statsComparedSubVerticalLayout05)
 
 
-        self.comparedRocket01StatToCompare = QLabel("Stat to Compare[placeholder- pull from combobox]:")
-        self.comparedRocket01ActualStat = QLabel("Actual Stat Placeholder")
-        # self.comparedRocket01StatToCompare.adjustSize()
-        # self.comparedRocket01ActualStat.adjustSize()
+        self.comparedRocket01StatToCompare = QLabel("Stat to Compare:")
+        self.comparedRocket01StatToCompare.setFont(QFont('Arial', 13))
+        #self.comparedRocket01ActualStat = QLabel("Actual Stat Placeholder")
+        
+        self.comparedRocket02StatToCompare = QLabel("Stat to Compare:")
+        self.comparedRocket02StatToCompare.setFont(QFont('Arial', 13))
+        #self.comparedRocket02ActualStat = QLabel("Actual Stat Placeholder")
 
-        self.comparedRocket02StatToCompare = QLabel("Stat to Compare[placeholder- pull from combobox]:")
-        self.comparedRocket02ActualStat = QLabel("Actual Stat Placeholder")
+        self.comparedRocket03StatToCompare = QLabel("Stat to Compare:")
+        self.comparedRocket03StatToCompare.setFont(QFont('Arial', 13))
+        #self.comparedRocket03ActualStat = QLabel("Actual Stat Placeholder")
 
-        self.comparedRocket03StatToCompare = QLabel("Stat to Compare[placeholder- pull from combobox]:")
-        self.comparedRocket03ActualStat = QLabel("Actual Stat Placeholder")
+        self.comparedRocket04StatToCompare = QLabel("Stat to Compare:")
+        self.comparedRocket04StatToCompare.setFont(QFont('Arial', 13))
+        #self.comparedRocket04ActualStat = QLabel("Actual Stat Placeholder")
 
-        self.comparedRocket04StatToCompare = QLabel("Stat to Compare[placeholder- pull from combobox]:")
-        self.comparedRocket04ActualStat = QLabel("Actual Stat Placeholder")
-
-        self.comparedRocket05StatToCompare = QLabel("Stat to Compare[placeholder- pull from combobox]:")
-        self.comparedRocket05ActualStat = QLabel("Actual Stat Placeholder")
+        self.comparedRocket05StatToCompare = QLabel("Stat to Compare:")
+        self.comparedRocket05StatToCompare.setFont(QFont('Arial', 13))
+        #self.comparedRocket05ActualStat = QLabel("Actual Stat Placeholder")
 
 
         self.statsComparedSubVerticalLayout01.addWidget(self.comparedRocket01NameLabel)
         self.statsComparedSubVerticalLayout01.addWidget(self.comparedRocket01YearLabel)
         self.statsComparedSubVerticalLayout01.addWidget(self.comparedRocket01FlagLabel)
         self.statsComparedHorizLayout01.addWidget(self.comparedRocket01StatToCompare)
-        self.statsComparedHorizLayout01.addWidget(self.comparedRocket01ActualStat)
+        #self.statsComparedHorizLayout01.addWidget(self.comparedRocket01ActualStat)
 
         self.statsComparedSubVerticalLayout02.addWidget(self.comparedRocket02NameLabel)
         self.statsComparedSubVerticalLayout02.addWidget(self.comparedRocket02YearLabel)
         self.statsComparedSubVerticalLayout02.addWidget(self.comparedRocket02FlagLabel)
         self.statsComparedHorizLayout02.addWidget(self.comparedRocket02StatToCompare)
-        self.statsComparedHorizLayout02.addWidget(self.comparedRocket02ActualStat)
+        #self.statsComparedHorizLayout02.addWidget(self.comparedRocket02ActualStat)
 
         self.statsComparedSubVerticalLayout03.addWidget(self.comparedRocket03NameLabel)
         self.statsComparedSubVerticalLayout03.addWidget(self.comparedRocket03YearLabel)
         self.statsComparedSubVerticalLayout03.addWidget(self.comparedRocket03FlagLabel)
         self.statsComparedHorizLayout03.addWidget(self.comparedRocket03StatToCompare)
-        self.statsComparedHorizLayout03.addWidget(self.comparedRocket03ActualStat)
+        #self.statsComparedHorizLayout03.addWidget(self.comparedRocket03ActualStat)
 
         self.statsComparedSubVerticalLayout04.addWidget(self.comparedRocket04NameLabel)
         self.statsComparedSubVerticalLayout04.addWidget(self.comparedRocket04YearLabel)
         self.statsComparedSubVerticalLayout04.addWidget(self.comparedRocket04FlagLabel)
         self.statsComparedHorizLayout04.addWidget(self.comparedRocket04StatToCompare)
-        self.statsComparedHorizLayout04.addWidget(self.comparedRocket04ActualStat)
+        #self.statsComparedHorizLayout04.addWidget(self.comparedRocket04ActualStat)
 
         self.statsComparedSubVerticalLayout05.addWidget(self.comparedRocket05NameLabel)
         self.statsComparedSubVerticalLayout05.addWidget(self.comparedRocket05YearLabel)
         self.statsComparedSubVerticalLayout05.addWidget(self.comparedRocket05FlagLabel)
         self.statsComparedHorizLayout05.addWidget(self.comparedRocket05StatToCompare)
-        self.statsComparedHorizLayout05.addWidget(self.comparedRocket05ActualStat)
+        #self.statsComparedHorizLayout05.addWidget(self.comparedRocket05ActualStat)
         
         
   # ***** Menu Bar Item Creation and Naming ******      
@@ -1001,6 +1022,7 @@ class Ui_MainWindow(object):
         #self.metricsComboBox.payload.selected.connect(payload_was_selected)
         self.metricsComboBox.currentIndexChanged.connect(self.combobox_item_selected)
         self.actualCompareButton.clicked.connect(self.compare_selected_rockets)
+        self.showGraphButton.clicked.connect(self.showGraphClicked)
 
 
         # ***** Placing, Naming, Setting Tool and Status tips for Toolbar Items ******   
@@ -1093,18 +1115,71 @@ class Ui_MainWindow(object):
         self.comparedRocket04FlagLabel.setPixmap(self.compared_rocket_pixmap_scaled04)
         self.comparedRocket05FlagLabel.setPixmap(self.compared_rocket_pixmap_scaled05)
 
-        self.comparedRocket01StatToCompare.setText(self.selected_metric + ": ")
-        self.comparedRocket02StatToCompare.setText(self.selected_metric + ": ")
-        self.comparedRocket03StatToCompare.setText(self.selected_metric + ": ")
-        self.comparedRocket04StatToCompare.setText(self.selected_metric + ": ")
-        self.comparedRocket05StatToCompare.setText(self.selected_metric + ": ")
+        self.comparedRocket01StatToCompare.setText(self.selected_metric + ": " + rocketDictionary[self.selected_rocket_name01][self.selected_metric])
+        self.comparedRocket02StatToCompare.setText(self.selected_metric + ": " + rocketDictionary[self.selected_rocket_name02][self.selected_metric])
+        self.comparedRocket03StatToCompare.setText(self.selected_metric + ": " + rocketDictionary[self.selected_rocket_name03][self.selected_metric])
+        self.comparedRocket04StatToCompare.setText(self.selected_metric + ": " + rocketDictionary[self.selected_rocket_name04][self.selected_metric])
+        self.comparedRocket05StatToCompare.setText(self.selected_metric + ": " + rocketDictionary[self.selected_rocket_name05][self.selected_metric])
         
-        self.comparedRocket01ActualStat.setText(rocketDictionary[self.selected_rocket_name01][self.selected_metric])
-        self.comparedRocket02ActualStat.setText(rocketDictionary[self.selected_rocket_name02][self.selected_metric])
-        self.comparedRocket03ActualStat.setText(rocketDictionary[self.selected_rocket_name03][self.selected_metric])
-        self.comparedRocket04ActualStat.setText(rocketDictionary[self.selected_rocket_name04][self.selected_metric])
-        self.comparedRocket05ActualStat.setText(rocketDictionary[self.selected_rocket_name05][self.selected_metric])
+        # self.comparedRocket01ActualStat.setText(rocketDictionary[self.selected_rocket_name01][self.selected_metric])
+        # self.comparedRocket02ActualStat.setText(rocketDictionary[self.selected_rocket_name02][self.selected_metric])
+        # self.comparedRocket03ActualStat.setText(rocketDictionary[self.selected_rocket_name03][self.selected_metric])
+        # self.comparedRocket04ActualStat.setText(rocketDictionary[self.selected_rocket_name04][self.selected_metric])
+        # self.comparedRocket05ActualStat.setText(rocketDictionary[self.selected_rocket_name05][self.selected_metric])
         
+
+
+    def showGraphClicked(self):
+        
+        # if self.metricsComboBox.currentText() == "Payload to LEO":
+        #     self.selected_metric_graph = "payload_int"
+        # elif self.metricsComboBox.currentText() == "Height":
+        #     self.selected_metric_graph = "height_int"
+        # elif self.metricsComboBox.currentText() == "Diameter":
+        #     self.selected_metric_graph = "diameter_int"
+        # elif self.metricsComboBox.currentText() == "Mass":
+        #     self.selected_metric_graph = "mass_int"
+        # elif self.metricsComboBox.currentText() == "Initial Thrust":
+        #     self.selected_metric_graph = "initial_thrust_int"
+        # elif self.metricsComboBox.currentText() == "ISP at Sea Level":
+        #     self.selected_metric_graph = "vac_isp_int"
+        # elif self.metricsComboBox.currentText() == "ISP in Vacuum":
+        #     self.selected_metric_graph = "asl_isp_int"
+
+        self.selected_metric_graph = self.metricsComboBox.currentText()
+
+        self.selected_rocket_name01_for_graph = self.comparedRocket01NameLabel.text()
+        self.selected_rocket_name02_for_graph = self.comparedRocket02NameLabel.text()
+        self.selected_rocket_name03_for_graph = self.comparedRocket03NameLabel.text()
+        self.selected_rocket_name04_for_graph = self.comparedRocket04NameLabel.text()
+        self.selected_rocket_name05_for_graph = self.comparedRocket05NameLabel.text()
+
+        self.comparedRocket01ActualStat_for_graph = rocketDictionary[self.selected_rocket_name01_for_graph][self.selected_metric_graph]
+        self.comparedRocket02ActualStat_for_graph = rocketDictionary[self.selected_rocket_name02_for_graph][self.selected_metric_graph]
+        self.comparedRocket03ActualStat_for_graph = rocketDictionary[self.selected_rocket_name03_for_graph][self.selected_metric_graph]
+        self.comparedRocket04ActualStat_for_graph = rocketDictionary[self.selected_rocket_name04_for_graph][self.selected_metric_graph]
+        self.comparedRocket05ActualStat_for_graph = rocketDictionary[self.selected_rocket_name05_for_graph][self.selected_metric_graph]
+
+
+        pyplot.style.use("fivethirtyeight")
+        #if using a style, consider removing custom color, grid, and linewidth as they come built in or not according to aesthetics
+
+        craft_x = [self.selected_rocket_name01_for_graph, self.selected_rocket_name02_for_graph, self.selected_rocket_name03_for_graph, self.selected_rocket_name04_for_graph, self.selected_rocket_name05_for_graph]
+        
+        metric_y = [self.comparedRocket01ActualStat_for_graph, self.comparedRocket02ActualStat_for_graph, self.comparedRocket03ActualStat_for_graph, self.comparedRocket04ActualStat_for_graph, self.comparedRocket05ActualStat_for_graph]
+
+        width = 0.5
+
+        pyplot.title("Comparison of " + self.selected_metric_graph + " for Selected Craft")
+
+        #pyplot.xlabel("Planets")
+        pyplot.ylabel(self.selected_metric_graph)
+
+        pyplot.bar(craft_x, metric_y, width=width) 
+        #pyplot.legend()
+        #pyplot.grid(True)
+        pyplot.tight_layout()
+        pyplot.show()
 
 
     def printButtonClicked(self):
@@ -1416,7 +1491,7 @@ Launch Failures: {rocketDictionary[printRocketName]['Launch Failures']}
         acronymDlg.setWindowTitle("Acronyms")
         acronymDlg.label.setText(
             '''
-            -Agencies-
+                -Agencies-
 NASA: National Aeronautics and Space Administration
 ESA: European Space Agency
 CNES: Centre national d'études spatiales
@@ -1432,7 +1507,7 @@ SSIA: Space Services Inc. of America
 CALT: China Academy of Launch Vehicle Technology
 VMF: Voenno-Morskoy Flot (Russian Navy)
 
-             -Orbits-
+                 -Orbits-
 LEO: Low Earth Orbit
 MEO: Mid Earth Orbit
 HEO: High Earth Orbit
@@ -1441,7 +1516,7 @@ GTO: Geostationary Transfer Orbit
 SSO: Sun-Synchronous Orbit (Polar Orbit)
 TLI: Trans Lunar Injection
 
-             -Fuel Types-
+                 -Fuel Types-
 SRB: Solid Rocket Booster
 ISP: Specific Impulse
 HTPB: Hydroxyl-Terminated Polybutadiene
@@ -1472,7 +1547,7 @@ License: MIT (https://opensource.org/licenses/MIT)
 
 Printer Icon: (https://p.yusukekamiyamane.com/)
 Compare Icon: (Freepik from "https://www.flaticon.com/")
-Flag Icons: (Freepik from www.flaticon.com)
+Flag Icons: (Freepik from "https://www.flaticon.com/")
 ''')
         licensingDlg.exec_()
 
