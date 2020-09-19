@@ -254,7 +254,7 @@ Delta Flight 280: The third and final flight on August 23, 2000 launched a 4,348
             '''
 Ariane 6 is a launch vehicle developed and manufactured by ArianeGroup under the authority of the European Space Agency (ESA), with a first test flight scheduled for 2020 or, now more likely, 2021. When development is completed, it will become the newest member in the Ariane launch vehicle family. The final design was selected in December 2014, favoring a liquid-fuelled core with large solid rocket boosters over the initial solid-fuel rocket design. The motivation for Ariane 6 development was to replace Ariane 5 at half the cost, and allow double the number of launches each year.
 
-Ariane 6 was initially conceived in the early 2010s as a replacement launch vehicle for Ariane 5, and a number of concepts and high-level designs were suggested and proposed during 2012–2015. Funding from several European governments was secured by early 2016, and contracts were signed to begin detailed design and the build of test articles. While in 2019, the maiden orbital flight had been planned for 2020, by May 2020, the planned initial launch date had been delayed until 2021.
+Ariane 6 was initially conceived in the early 2010s as a replacement launch vehicle for Ariane 5, and a number of concepts and high-level designs were suggested and proposed during 2012-2015. Funding from several European governments was secured by early 2016, and contracts were signed to begin detailed design and the build of test articles. While in 2019, the maiden orbital flight had been planned for 2020, by May 2020, the planned initial launch date had been delayed until 2021.
 
 Two variants of Ariane 6 are being developed:
 
@@ -712,7 +712,7 @@ It flew three suborbital missions from Taiyuan LC-1 with two successes and a fai
         "Image": "falcon9.png",
         "Additional Information":
             '''
-Falcon 9 is a partially reusable two-stage-to-orbit medium-lift launch vehicle designed and manufactured by SpaceX in the United States. It is powered by Merlin engines, also developed by SpaceX, burning cryogenic liquid oxygen and rocket-grade kerosene (RP-1) as propellants. Its name is derived from the fictional Star Wars spacecraft, the Millennium Falcon, and the nine Merlin engines of the rocket's first stage. The rocket evolved with versions v1.0 (2010–2013), v1.1 (2013–2016), v1.2 "Full Thrust" (2015–present), including the Block 5 Full Thrust variant, flying since May 2018. Unlike most rockets, which are expendable launch systems, since the introduction of the Full Thrust version, Falcon 9 is partially reusable, with the first stage capable of re-entering the atmosphere and landing vertically after separating from the second stage. This feat was achieved for the first time on flight 20 with the v1.2 version in December 2015.
+Falcon 9 is a partially reusable two-stage-to-orbit medium-lift launch vehicle designed and manufactured by SpaceX in the United States. It is powered by Merlin engines, also developed by SpaceX, burning cryogenic liquid oxygen and rocket-grade kerosene (RP-1) as propellants. Its name is derived from the fictional Star Wars spacecraft, the Millennium Falcon, and the nine Merlin engines of the rocket's first stage. The rocket evolved with versions v1.0 (2010-2013), v1.1 (2013-2016), v1.2 "Full Thrust" (2015-present), including the Block 5 Full Thrust variant, flying since May 2018. Unlike most rockets, which are expendable launch systems, since the introduction of the Full Thrust version, Falcon 9 is partially reusable, with the first stage capable of re-entering the atmosphere and landing vertically after separating from the second stage. This feat was achieved for the first time on flight 20 with the v1.2 version in December 2015.
 
 Falcon 9 can lift payloads of up to 22,800 kg (50,300 lbs) to low Earth orbit, 8,300 kg (18,300 lbs) to geostationary transfer orbit (GTO) when expended, and 5,500 kg (12,100 lbs) to GTO when the first stage is recovered. The heaviest GTO payloads flown have been Intelsat 35e with 6,761 kg (14,905 lbs), and Telstar 19V with 7,075 kg (15,598 lbs). The latter was launched into a lower-energy GTO orbit achieving an apogee well below the geostationary altitude, while the former was launched into an advantageous super-synchronous transfer orbit.
 
@@ -795,7 +795,7 @@ Starship launch system.
         "Agency": "NASA & Private Companies",
         "Manufacturer": "ULA - United Launch Alliance",        
         "Class": "Heavy",
-        "Payload Capacity to LEO": "8,250–20,520 kg (18,190–45,240 lbs)",
+        "Payload Capacity to LEO": "8,250-20,520 kg (18,190-45,240 lbs)",
         "payload_int": 20520,
         "Height": "58.3 m (191 ft)",
         "height_int": 58.3,
@@ -823,7 +823,7 @@ Starship launch system.
         "total_launches_int": 83,
         "Successful Launches": "82 (401: 37, 411: 6, 421: 7, 431: 3) (501: 6, 521: 2, 531: 3, 541: 6, 551: 11) (N22: 1)",
         "successful_launches_int": 82,
-        "Launch Failures": "Partial- 1 (401 – low orbit, customer declared success)",
+        "Launch Failures": "Partial- 1 (401 - low orbit, customer declared success)",
         "failed_launches_int": 1,
         "Image": "atlasv.png",
         "Additional Information":
@@ -935,7 +935,7 @@ Block 1 and 1B boosters
 Blocks 1 and 1B of the SLS are planned to use two five-segment Solid Rocket Boosters (SRBs). These new SRBs are derived from the four-segment Space Shuttle Solid Rocket Boosters, with the addition of a center booster segment, new avionics, and lighter insulation. The five-segment SRBs provide approximately 25% more total impulse than the Shuttle SRB, but will no longer be recovered after use.
 
 -Booster Obsolescence and Life Extension program-
-The stock of SLS boosters is limited by the number of casings left over from the Shuttle program, since they modify flown boosters to add an additional segment. There are enough to last through eight flights of the SLS, but a replacement will be required for further flights. On 2 March 2019, the Booster Obsolescence and Life Extension (BOLE) program was announced. This program will use new solid rocket boosters built by Northrop Grumman Innovation Systems for further SLS flights. These boosters would be derived from the composite-casing SRBs in development for the OmegA launch vehicle, and are projected to increase Block 1B's payload to TLI by 3–4 tons, which is still 1 ton below the payload capacity of Block 2.
+The stock of SLS boosters is limited by the number of casings left over from the Shuttle program, since they modify flown boosters to add an additional segment. There are enough to last through eight flights of the SLS, but a replacement will be required for further flights. On 2 March 2019, the Booster Obsolescence and Life Extension (BOLE) program was announced. This program will use new solid rocket boosters built by Northrop Grumman Innovation Systems for further SLS flights. These boosters would be derived from the composite-casing SRBs in development for the OmegA launch vehicle, and are projected to increase Block 1B's payload to TLI by 3-4 tons, which is still 1 ton below the payload capacity of Block 2.
 
 -Upper Stage-
 ICPS - Block 1
@@ -1047,13 +1047,13 @@ Blue Origin submitted a proposal to replace the Exploration Upper Stage with an 
         "Agency": "JAXA",
         "Manufacturer": "Mitsubishi Heavy Industries",     
         "Class": "Heavy",
-        "Payload Capacity to LEO": "10,000–15,000 kg (22,000–33,000 lbs)",
+        "Payload Capacity to LEO": "10,000-15,000 kg (22,000-33,000 lbs)",
         "payload_int": 15000,
         "Height": "53 m (174 ft)",
         "height_int": 53,
         "Diameter": "4 m (13 ft)",
         "diameter_int": 4,        
-        "Mass": "285,000–445,000 kg (628,000–981,000 lbs)",
+        "Mass": "285,000-445,000 kg (628,000-981,000 lbs)",
         "mass_int": 445000,        
         "Years in Operation": "2001~",
         "firstyear_int": 2001,        
@@ -1659,7 +1659,7 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
         "Agency": "N/A",
         "Manufacturer": "PLD Space",        
         "Class": "Light",
-        "Payload Capacity to LEO": "(SSO) 300–500 kg (660–1,100 lbs)",
+        "Payload Capacity to LEO": "(SSO) 300-500 kg (660-1,100 lbs)",
         "payload_int": 500,
         "Height": "25 m (82 ft)",
         "height_int": 25,
@@ -2274,7 +2274,7 @@ After the company had left Libya in 1987, some remaining equipment was confiscat
             This increase in size allowed the launch of heavier communication and multipurpose 
             satellites, future interplanetary exploration and will be human rated to launch 
             crewed missions. Development of the GSLV Mk III began in the early 2000s, with the 
-            first launch planned for 2009–2010. The unsuccessful launch of GSLV D3, due to a 
+            first launch planned for 2009-2010. The unsuccessful launch of GSLV D3, due to a 
             failure in the cryogenic upper stage, delayed the GSLV Mk III development program. 
             The GSLV Mk III, while sharing a name with the GSLV, it features different systems 
             and components.
@@ -2388,7 +2388,7 @@ Hypersonic Flight Experiment
 RLV-TD HEX-01
 The Hypersonic Flight Experiment (HEX), first of the five test flights was conducted on 23 May 2016. The Sub-orbital test flight was launched at 07:00 IST (01:30 GMT) from Satish Dhawan Space center in Sriharikota (80 kilometers (50 mi) north of Chennai). The test flight lasted for 770 seconds, reached maximum altitude of 65 kilometers (40 mi) and covered a distance of 450 kilometers (280 mi) Sriharikota, steered itself to an on-target splashdown to land (ditch) at a designated spot in the Bay of Bengal. Not designed to float, the vehicle disintegrated on impact with water and was not recovered.
 
-RLV-TD was mounted on top of and launched aboard a single stage solid fuel booster (HS9 booster) that was derived from strap-on boosters flown on India's Polar Satellite Launch Vehicle. By the time, the booster consumed its solid propellant in 91 seconds, the RLV-TD separated from its boost stage and peaked to a sub-orbital altitude of about 65 kilometers (40 mi). The heat shield, guidance, navigation and control algorithms were tested at hypersonic speed by accurately steering the vehicle during the descent stage. For the descent back, the test vehicle was programd to pitch its nose up, exposing silica tiles on its underside and reinforced carbon–carbon nose cap to the airflow into the thick lower layers of the atmosphere. The RLV-TD endured high temperatures of descent through the atmosphere due to its thermal protection system.
+RLV-TD was mounted on top of and launched aboard a single stage solid fuel booster (HS9 booster) that was derived from strap-on boosters flown on India's Polar Satellite Launch Vehicle. By the time, the booster consumed its solid propellant in 91 seconds, the RLV-TD separated from its boost stage and peaked to a sub-orbital altitude of about 65 kilometers (40 mi). The heat shield, guidance, navigation and control algorithms were tested at hypersonic speed by accurately steering the vehicle during the descent stage. For the descent back, the test vehicle was programd to pitch its nose up, exposing silica tiles on its underside and reinforced carbon-carbon nose cap to the airflow into the thick lower layers of the atmosphere. The RLV-TD endured high temperatures of descent through the atmosphere due to its thermal protection system.
 
 All stages of the test flight were tracked by ground station at the launch site and a shipborne terminal. All the mission objectives were met and technologies like autonomous navigation, guidance and control, reusable thermal protection system and descent mission management were successfully validated.
 
@@ -2826,13 +2826,13 @@ A L-27 cryogenic third stage, with 27 tons of propellant, using CE-20 engine.
         "Agency": "ESA, CNES - center national d'études spatiales",
         "Manufacturer": "ArianeGroup",        
         "Class": "Medium",
-        "Payload Capacity to LEO": "5000–7600 kg",
+        "Payload Capacity to LEO": "5000-7600 kg",
         "payload_int": 7600,
         "Height": "58.72 m",
         "height_int": 58.72,
         "Diameter": "3.8 m",
         "diameter_int": 3.8,        
-        "Mass": "240,000–470,000 kg",
+        "Mass": "240,000-470,000 kg",
         "mass_int": 470000,        
         "Years in Operation": "1988-2003",
         "firstyear_int": 1988,        
@@ -2938,7 +2938,7 @@ A L-27 cryogenic third stage, with 27 tons of propellant, using CE-20 engine.
         "Class": "Heavy",
         "Payload Capacity to LEO": "21,000 kg (46,297 lbs)",
         "payload_int": 21000,
-        "Height": "46–52 m (151–171 ft)",
+        "Height": "46-52 m (151-171 ft)",
         "height_int": 52,
         "Diameter": "5.4 m (18 ft)",
         "diameter_int": 5.4,        
@@ -5267,13 +5267,13 @@ Because of its mobile launch platform the Volna launch vehicle can reach a large
         "Agency": "Roscosmos",
         "Manufacturer": "TsSKB-Progress",        
         "Class": "Heavy",
-        "Payload Capacity to LEO": "6,500–50,000 kg (14,300–110,200 lb)",
+        "Payload Capacity to LEO": "6,500-50,000 kg (14,300-110,200 lb)",
         "payload_int": 50000,
         "Height": "61.1 m (200 ft)",
         "height_int": 61.1,
         "Diameter": "3.5 m (11 ft) ",
         "diameter_int": 3.5,
-        "Mass": "233,000–1,440,000 kg (514,000–3,175,000 lb)",
+        "Mass": "233,000-1,440,000 kg (514,000-3,175,000 lb)",
         "mass_int": 1440000,
         "Years in Operation": "N/A",
         "firstyear_int": None,
@@ -5707,7 +5707,7 @@ Due to the termination of the Buran program the Energia program was concluded af
 
 Production of Energia rockets ended with the fall of the Soviet Union and the end of the Buran shuttle project. Ever since, there have been persistent rumors of the renewal of production, but given the current political realities, that is highly unlikely. While the Energia is no longer in production, the Zenit boosters are still in production and in use. The four strap-on liquid-fuel boosters, which burned kerosene and liquid oxygen, were the basis of the Zenit rocket which used the same engines. The engine is the four combustion chamber RD-170. Its derivative, the RD-171, is still used on the Zenit rocket. A half-sized derivative of the engine, the two-chamber RD-180, powers Lockheed Martin's Atlas V rocket, while the single-chamber derivative, the RD-191, has been used to launch the Korean Naro-1 (as a reduced-thrust variant named the RD-151) and the Russian Angara rocket. The RD-181, based on the RD-191, is used on the Antares rocket.
 
-In August 2016, plans were announced to develop a super heavy-lift launch vehicle from existing Energia components instead of pushing the less-powerful Angara A5V project. This would allow Russia to launch missions towards establishing a permanent Moon base with simpler logistics, launching just one or two 80–160-ton super-heavy rockets instead of four 40-ton Angara A5Vs implying quick-sequence launches and multiple in-orbit rendezvous.
+In August 2016, plans were announced to develop a super heavy-lift launch vehicle from existing Energia components instead of pushing the less-powerful Angara A5V project. This would allow Russia to launch missions towards establishing a permanent Moon base with simpler logistics, launching just one or two 80-160-ton super-heavy rockets instead of four 40-ton Angara A5Vs implying quick-sequence launches and multiple in-orbit rendezvous.
             '''
 
     },
@@ -5897,7 +5897,7 @@ The whole rocket was originally planned to be completely indigenous, but due to 
         "Image": "KSLV-II.png",
        "Additional Information":
             '''
-Nuri (Korean: 누리, meaning "world" ), also known as KSLV-II, is South Korea's second carrier rocket and the successor to KSLV-1. Nuri is under development by KARI / Korea Aerospace Research Institute, and is planned to have its first flight in February 2021. All three stages are planned to use indigenously developed rocket engines. The South Korean government has set SpaceX (founded by Elon Musk, and formed by former McDonnell Douglas and TRW alumni) as a 'role model', striving to develop relatively cheap and reliable rockets competitive enough for the commercial launch market. Currently the goal is to launch a 1,500 kg payload into a 600–800 km low Earth orbit (LEO) and 2,600 kg into a 300 km LEO.
+Nuri (Korean: 누리, meaning "world" ), also known as KSLV-II, is South Korea's second carrier rocket and the successor to KSLV-1. Nuri is under development by KARI / Korea Aerospace Research Institute, and is planned to have its first flight in February 2021. All three stages are planned to use indigenously developed rocket engines. The South Korean government has set SpaceX (founded by Elon Musk, and formed by former McDonnell Douglas and TRW alumni) as a 'role model', striving to develop relatively cheap and reliable rockets competitive enough for the commercial launch market. Currently the goal is to launch a 1,500 kg payload into a 600-800 km low Earth orbit (LEO) and 2,600 kg into a 300 km LEO.
 
 Nuri is a three-stage rocket. The first stage booster uses four KRE-075 SL engines generating 266.4t of thrust with a specific impulse of 289.1s. The second stage booster uses a single KRE-075 Vac. engine, which has a wider nozzle for increased efficiency in vacuum with a specific impulse of 315.4s. The third stage booster uses one KRE-007 engine with a specific impulse of 325.1s. Both engine models use Jet A-1 as fuel and liquid oxygen (LOX) as oxidizer.
 
@@ -6365,7 +6365,7 @@ Khartron (control system)
 The Dnepr rocket (Ukrainian: Дніпро, romanized: Dnipró; Russian: Днепр, romanized: Dnepr) was a space launch vehicle named after the Dnieper River. It was a converted ICBM used for launching artificial satellites into orbit, operated by launch service provider ISC Kosmotras. The first launch, on April 21, 1999, successfully placed UoSAT-12, a 350 kg demonstration mini-satellite, into a 650 km circular Low Earth orbit.
 
 --History--
-The Dnepr was based on the R-36MUTTH Intercontinental ballistic missile (ICBM) – called the SS-18 Satan by NATO – designed in the 1970s by the Yuzhnoe Design Bureau in Dnipro, Ukraine, which was then a part of the USSR.
+The Dnepr was based on the R-36MUTTH Intercontinental ballistic missile (ICBM) - called the SS-18 Satan by NATO - designed in the 1970s by the Yuzhnoe Design Bureau in Dnipro, Ukraine, which was then a part of the USSR.
 
 The Dnepr control system was developed and produced by the JSC "Khartron", Kharkiv. The Dnepr was a three-stage rocket using storable hypergolic liquid propellants. The launch vehicles used for satellite launches have been withdrawn from ballistic missile service with the Russian Strategic Rocket Forces and stored for commercial use. A group of a total of 150 ICBMs were allowed under certain geopolitical disarmament protocols to be converted for use, and can be launched through 2020. The Dnepr was launched from the Russian-controlled Baikonur cosmodrome in Kazakhstan and the Dombarovsky launch base, near Yasny, in the Orenburg region of Russia.
 
@@ -6713,9 +6713,9 @@ In several respects, the Europa launcher was relatively similar to the Black Pri
 Ultimately, none of the ELDO members showed particular enthusiasm for the Europa launcher, which, according to Hill, was often regarded as being unnecessary and having been based on 'old technology', leading to the program being both a political and technical failure. While the performance of Europa proved disappointing and below expectations, following further restructuring, it was succeeded by the commercially viable and successful Ariane family of launchers.
 
 Design
-The Black Prince was an expendable launch system that comprised a combination of preexisting and in-development assets; the multi-stage launcher was to be formed of a Blue Streak first stage, a Black Knight (or Black Arrow) second stage, and a military solid rocket as a third stage. Several different third stages would be available, depending on the required payload and orbit. Examples of orbits suggested by Saunders Roe and the RAE were a 556 km (300 nmi) orbit for 'experiments in stellar UV spectroscopy', a 556–1,296 km (300-700 nmi (1,300 km)i) orbit for 'enabling investigations of the Earth's radiation belts,' and a 556–185,200 km (300-100,000 nmi (190,000 km)i) orbit for a 'Space probe.' According to Hill, the failure to tailor the Black Prince to perform a specific mission or to clearly identify and promote the launcher as a platform for a given mission type had been a major failing of the overall program.
+The Black Prince was an expendable launch system that comprised a combination of preexisting and in-development assets; the multi-stage launcher was to be formed of a Blue Streak first stage, a Black Knight (or Black Arrow) second stage, and a military solid rocket as a third stage. Several different third stages would be available, depending on the required payload and orbit. Examples of orbits suggested by Saunders Roe and the RAE were a 556 km (300 nmi) orbit for 'experiments in stellar UV spectroscopy', a 556-1,296 km (300-700 nmi (1,300 km)i) orbit for 'enabling investigations of the Earth's radiation belts,' and a 556-185,200 km (300-100,000 nmi (190,000 km)i) orbit for a 'Space probe.' According to Hill, the failure to tailor the Black Prince to perform a specific mission or to clearly identify and promote the launcher as a platform for a given mission type had been a major failing of the overall program.
 
-There were some problems with the design, however. The relative power of the rocket reduced with altitude. The solution requested by the government and provided by Saunders Roe was to use a high-energy cryogenic upper stage which would increase the payload to 408 kg (900 lb) to a 9,260 km (5,0 nmi (0 km)i) orbit, and 272 kg (600 lb) to a 16,670 km (9,0 nmi (0 km)i) orbit. The cost of developing the upper stage was estimated to be £5–7 million.
+There were some problems with the design, however. The relative power of the rocket reduced with altitude. The solution requested by the government and provided by Saunders Roe was to use a high-energy cryogenic upper stage which would increase the payload to 408 kg (900 lb) to a 9,260 km (5,0 nmi (0 km)i) orbit, and 272 kg (600 lb) to a 16,670 km (9,0 nmi (0 km)i) orbit. The cost of developing the upper stage was estimated to be £5-7 million.
 
 Payloads were estimated to be around 1,034 kg (2,280 lb) to a 370 km (200 nmi) orbit and 960 kg (2,117 lb) to a 740 km (400 nmi) orbit. However, the design was considered to be inefficient and difficult because of the large differences in the diameters of the 3 metre (10 ft) wide Blue Streak and the metre-wide (3 ft) Black Knight. Fitting satellites into a three-foot payload fairing could also have been a challenge. Nevertheless, these difficulties were also encountered with successful American rockets including the Thor and Atlas.
             '''
@@ -7648,44 +7648,48 @@ Payloads were estimated to be around 1,034 kg (2,280 lb) to a 370 km (200 nmi) o
 
     "Long March 11": {
 
-        "Name": "",
+        "Name": "Long March 11/Chang Zheng 11",
         "Agency": "",
-        "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Manufacturer": "CALT - China Academy of Launch Vehicle Technology",        
+        "Class": "Light",
+        "Payload Capacity to LEO": "700 kg (1,500 lbs)",
+        "payload_int": 700,
+        "Height": "20.8 m (68 ft)",
+        "height_int": 20.8,
+        "Diameter": "2.0 m (6 ft 7 in)",
+        "diameter_int": 2,
+        "Mass": "58,000 kg (128,000 lbs)",
+        "mass_int": 58000,
+        "Years in Operation": "2015~",
+        "firstyear_int": 2015,
         "Country": "China",
         "flag_icon": "flags/china.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
+        "Operational Status": "Active",
+        "Number of Stages": "4",
+        "Burn Time": "S1: , S2: , S3: , S4: ",
         "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
+        "Thrust": "S1: 1177 kN, S2: , S3: , S4: ",
+        "initial_thrust_int": 1177,
+        "ISP": "S1: , S2: , S3: , S4: ",
         "asl_isp_int": "",
         "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
+        "Cost Per Launch": "$7,259,14",
+        "cost_int": 725914,
+        "Fuel Type": "S1: , S2: , S3: , S4: ",
         "Total Launches": "",
         "total_launches_int": "",
         "Successful Launches": "",
         "successful_launches_int": "",
         "Launch Failures": "",
         "failed_launches_int": "",
-        "Image": "",
+        "Image": "LongMarch11.png",
        "Additional Information":
             '''
-    
+The Long March 11 (Chinese: 長征十一號運載火箭), or Chang Zheng 11 as in pinyin, abbreviated LM-11 for export, is a Chinese four stage solid-propellant launch vehicle of the Long March family, which is developed by the China Academy of Launch Vehicle Technology (CALT). It was designed with the ability to launch on short notice and it can launch from road vehicles and ships. It is likely based on the DF-31 missile. The vehicle can be cold launched from a launch tube mounted on a road mobile vehicle.
+
+The maiden flight of the Long March 11 occurred on 25 September 2015.
+
+The first sea launch occurred on 5 June 2019, from a converted mobile launch platform stationed in the Yellow Sea.[4] Nine launches have been made as of May 2020.
             '''
 
     },
@@ -8090,7 +8094,7 @@ Payloads were estimated to be around 1,034 kg (2,280 lb) to a 370 km (200 nmi) o
         "height_int": 26.4,
         "Diameter": "1.35 m (4.34 ft)",
         "diameter_int": 1.35,
-        "Mass": "30,500–70,000 kg (67,241-154,323.5 lbs)",
+        "Mass": "30,500-70,000 kg (67,241-154,323.5 lbs)",
         "mass_int": 70000,
         "Years in Operation": "1988~",
         "firstyear_int": 1988,
@@ -8117,7 +8121,7 @@ Payloads were estimated to be around 1,034 kg (2,280 lb) to a 370 km (200 nmi) o
         "Image": "shavit-2.png",
         "Additional Information":
             '''
-Shavit 2 (Hebrew: "comet" – שביט) is a small lift launch vehicle produced by Israel from 1982 onwards, to launch satellites into low Earth orbit. It was first launched on 19 September 1988 (carrying an Ofek-1 satellite payload), making Israel the eighth nation to have an orbital launch capability after the USSR, United States, France, Japan, People's Republic of China, United Kingdom, and India.
+Shavit 2 (Hebrew: "comet" - שביט) is a small lift launch vehicle produced by Israel from 1982 onwards, to launch satellites into low Earth orbit. It was first launched on 19 September 1988 (carrying an Ofek-1 satellite payload), making Israel the eighth nation to have an orbital launch capability after the USSR, United States, France, Japan, People's Republic of China, United Kingdom, and India.
 
 The Shavit 2 project is believed to have been an offshoot development, resulting from Israel's Jericho nuclear armed intercontinental ballistic missile (ICBM) program.
 
@@ -8255,7 +8259,7 @@ The Shavit has been launched 11 times, placing the payload into orbit 9 times. O
         "diameter_int": 3.9,        
         "Mass":
         '''
-        110/120/130: 282,000–296,000 kg (622,000–653,000 lbs)
+        110/120/130: 282,000-296,000 kg (622,000-653,000 lbs)
         230/230+: 298,000 kg (657,000 lbs)
         ''',
         "mass_int": 298000,        
@@ -8441,7 +8445,7 @@ The Shavit has been launched 11 times, placing the payload into orbit 9 times. O
             '''
 The Ares V (formerly known as the Cargo Launch Vehicle or CaLV) was the planned cargo launch component of the cancelled NASA Constellation program, which was to have replaced the Space Shuttle after its retirement in 2011. Ares V was also planned to carry supplies for a human presence on Mars. Ares V and the smaller Ares I were named after Ares, the Greek god of war.
 
-The Ares V was to launch the Earth Departure Stage and Altair lunar lander for NASA's return to the Moon, which was planned for 2019. It would also have served as the principal launcher for missions beyond the Earth-Moon system, including the program's ultimate goal, a crewed mission to Mars. The uncrewed Ares V would complement the smaller, and human-rated Ares I rocket for the launching of the 4–6 person Orion spacecraft. Both rockets, deemed safer than the then-current Space Shuttle, would have employed technologies developed for the Apollo program, the Shuttle program, and the Delta IV EELV program. However, the Constellation program, including Ares V and Ares I was canceled in October 2010 by the NASA 
+The Ares V was to launch the Earth Departure Stage and Altair lunar lander for NASA's return to the Moon, which was planned for 2019. It would also have served as the principal launcher for missions beyond the Earth-Moon system, including the program's ultimate goal, a crewed mission to Mars. The uncrewed Ares V would complement the smaller, and human-rated Ares I rocket for the launching of the 4-6 person Orion spacecraft. Both rockets, deemed safer than the then-current Space Shuttle, would have employed technologies developed for the Apollo program, the Shuttle program, and the Delta IV EELV program. However, the Constellation program, including Ares V and Ares I was canceled in October 2010 by the NASA 
 Authorization Act of 2010. In September 2011, NASA detailed the Space Launch System as its new vehicle for human exploration beyond Earth's orbit, while commercial space companies would provide low earth orbit access for both cargo and astronauts.
 
 In the 1996 book The Case for Mars, author Robert Zubrin discussed a possible future heavy launch vehicle named Ares. In the book, the rocket would have consisted of the Space Shuttle external tank powered by four Space Shuttle Main Engines (SSMEs) and a second stage powered by an RL-10 engine. One notable difference in the Zubrin et al. design is that the SSMEs were on a small side-mounted flyback craft. This design was meant to allow the Ares to fly using existing Space Shuttle infrastructure.
@@ -9396,7 +9400,7 @@ Minotaur IV, also known as Peacekeeper SLV and OSP-2 PK is an active expendable 
 
 The Minotaur IV vehicle consists of four stages and is capable of placing 1,735 kg (3,825 lb) of payload into a Low Earth orbit (LEO). It uses the first three stages of the Peacekeeper missile, combined with a new upper stage. On the baseline version, the fourth stage is an Orion 38. However a higher performance variant, designated Minotaur IV+, uses a Star-48V instead. A three-stage configuration (no Orion 38), designated the Minotaur IV Lite, is available for suborbital trajectories. The Minotaur IV has also been flown with multiple upper stages. A five-stage derivative, the Minotaur V, made its maiden flight on 7 September 2013.
 
-Minotaur IV launches are conducted from SLC-8 at Vandenberg Air Force Base, LP-0B at the Mid-Atlantic Regional Spaceport, SLC-46 at Cape Canaveral Air Force Station and Pacific Spaceport Complex – Alaska Pad 1 of the Pacific Spaceport Complex – Alaska (PSCA).
+Minotaur IV launches are conducted from SLC-8 at Vandenberg Air Force Base, LP-0B at the Mid-Atlantic Regional Spaceport, SLC-46 at Cape Canaveral Air Force Station and Pacific Spaceport Complex - Alaska Pad 1 of the Pacific Spaceport Complex - Alaska (PSCA).
 
 The third Minotaur IV launch, which was also known as STP-S26, deployed eight payloads. It was the 26th small launch vehicle mission in STP's 40-year history of flying DoD space experiments,[13] STP-S26 was intended to extend previous standard interface development efforts, implementing a number of capabilities aimed at enabling responsive access to space for small experimental satellites and payloads. STP-S26 launched at 01:25 UTC on 20 November 2010 from the Kodiak Launch Complex. The launch facility contractor was Alaska Aerospace Corporation (AAC). The payloads were released in a 650 kilometers (400 mi) orbit, before the HAPS upper stage was demonstrated by deploying two ballast payloads into a 1,200 kilometers (750 mi) orbit.
 
@@ -9542,19 +9546,19 @@ First launched in 1994, it has successfully completed seven out of a total of te
         "Image": "OmegA.png",
        "Additional Information":
             '''
-OmegA was a medium to heavy-lift launch vehicle concept that spent several years in development by Northrop Grumman during 2016–2020, with that development substantially funded by the US government. OmegA was intended for launching US national security satellites, as part of the US Department of the Air Force NSSL replacement program. In August 2020, the design was not selected by the Air Force in the competitive process, and NGIS has decided not to continue the development as a commercial competitive offering with further development funded by NGIS.
+OmegA was a medium to heavy-lift launch vehicle concept that spent several years in development by Northrop Grumman during 2016-2020, with that development substantially funded by the US government. OmegA was intended for launching US national security satellites, as part of the US Department of the Air Force NSSL replacement program. In August 2020, the design was not selected by the Air Force in the competitive process, and NGIS has decided not to continue the development as a commercial competitive offering with further development funded by NGIS.
 
 The OmegA design consisted of new composite solid rocket stages with a cryogenic upper stage provided by Aerojet Rocketdyne, replacing earlier plans to use an upper stage engine provided by Blue Origin. The OmegA design was similar to the defunct Ares I and Liberty projects, both of which consisted of a five segment Space Shuttle Solid Rocket Booster (SRB) and a cryogenic second stage. It was intended to be launched from Kennedy Space Center LC-39B or Vandenberg Air Force Base SLC-6. OmegA was proposed as a vehicle to launch national security satellites for the United States Space Force and other government agencies, including to geostationary transfer orbit. The launch vehicle could theoretically launch commercial payloads as well, but was not designed at a price point to make private competitive launches likely. NGIS claimed in 2016 that crewed spacecraft could also be launched, just as the predecessor Ares I and Liberty rockets, which were designed to be able to also launch the Orion space capsule.
 
 As of 2016, actual development was to get underway only once the Air Force reached a funding decision. In October 2018, the Air Force announced that Northrop Grumman was awarded $792 million for initial development of the OmegA launch vehicle.
 
-In August 2020, the Department of the Air Force announced the results of the approximately US$3.5 billion National Security Space Launch Phase 2 Launch Service Procurement for launches in the 2022–2027 timeframe and OmegA was not selected. The USAF announced that it would wind down any remaining OmegA development contracts from phase 1, and may not pay out the entire maximum amount of the earlier 2019 contract to NGIS. NGIS decided not to bring the OmegA launch vehicle to market on their own later in August, and will wind down work on the rocket.
+In August 2020, the Department of the Air Force announced the results of the approximately US$3.5 billion National Security Space Launch Phase 2 Launch Service Procurement for launches in the 2022-2027 timeframe and OmegA was not selected. The USAF announced that it would wind down any remaining OmegA development contracts from phase 1, and may not pay out the entire maximum amount of the earlier 2019 contract to NGIS. NGIS decided not to bring the OmegA launch vehicle to market on their own later in August, and will wind down work on the rocket.
 
-The company that was to propose the OmegA launch vehicle in 2016 (Orbital ATK, which was subsequently acquired by Northrop Grumman in 2018), through its predecessor company Alliant Techsystems (ATK), had developed the solid rocket boosters for the Space Shuttle in the 1970s–80s, and military intercontinental missiles prior to that. With the 2004 announcement of the retirement of the Space Shuttle, the company was active in trying to find government purchasers of its, now, 30+ year old solid-propellant rocket technology to continue using the technology for orbital launch vehicles. Since then, they have approached both the US government's civil space branch, NASA, and also the miltary branch, US DoD, with proposals to develop continued government-funded opportunities to design, build and support the orbital space application of solid rocket technology. They were successful, as NASA selected ATK's technology for the Ares I crewed launch vehicle in 2005, with ATK supplying the a five-segment solid rocket booster as the first stage while also being the primary contractor for the Crew Launch Vehicle (CLV), which was to have a more standard liquid-propellant powered upper stage. Following the early cancellation of the Ares I rocket in 2010, ATK proposed the Liberty (rocket) to NASA in 2011, which was subsequently not selected for full development funding in 2012. ATK then pursued options with the US DoD.
+The company that was to propose the OmegA launch vehicle in 2016 (Orbital ATK, which was subsequently acquired by Northrop Grumman in 2018), through its predecessor company Alliant Techsystems (ATK), had developed the solid rocket boosters for the Space Shuttle in the 1970s-80s, and military intercontinental missiles prior to that. With the 2004 announcement of the retirement of the Space Shuttle, the company was active in trying to find government purchasers of its, now, 30+ year old solid-propellant rocket technology to continue using the technology for orbital launch vehicles. Since then, they have approached both the US government's civil space branch, NASA, and also the miltary branch, US DoD, with proposals to develop continued government-funded opportunities to design, build and support the orbital space application of solid rocket technology. They were successful, as NASA selected ATK's technology for the Ares I crewed launch vehicle in 2005, with ATK supplying the a five-segment solid rocket booster as the first stage while also being the primary contractor for the Crew Launch Vehicle (CLV), which was to have a more standard liquid-propellant powered upper stage. Following the early cancellation of the Ares I rocket in 2010, ATK proposed the Liberty (rocket) to NASA in 2011, which was subsequently not selected for full development funding in 2012. ATK then pursued options with the US DoD.
 
 In January 2016, Orbital ATK was one of two companies awarded funds by the United States Air Force to develop technologies to eliminate dependency on the Russian-made RD-180 rocket engine for US national security payloads.[7] The award was worth an initial $46.9 million, with an option for up to $180.2 million total. This was to be matched by $31.1 million initially, and up to $124.8 million in company funds if all options of the contract are exercised. The contract would fund the development of three technologies in support of the OmegA rocket, then called Next Generation Launcher: the GEM-63XL strap-on booster, a Common Booster Core and an extendable nozzle for the BE-3U upper stage engine. A previous effort, funded by NASA, demonstrated the technology for a composite motor case to replace the metal motor cases used for Space Shuttle SRBs.
 
-In May 2016, Orbital ATK revealed their plans for the Next Generation Launcher, including the configuration and the intended business case. The Next Generation Launcher intends to make use of existing launch infrastructure at Kennedy Space Center (KSC), including the Vehicle Assembly Building used by the Space Shuttle, with the possibility of polar orbit launches occurring from Vandenberg Air Force Base. NASA began looking for commercial users to operate unused space within the Vehicle Assembly Building in June 2015, and by April 2016, it was announced that Orbital ATK was in negotiations to lease High Bay 2. Orbital ATK claimed that a minimum of 5–6 launches per year would be required to make the rocket profitable. Full development and introduction will be dependent on both demand and funding from the US Air Force. A final "go/no-go decision" to proceed with full development and introduction of the Next Generation Launcher took place in early 2018.
+In May 2016, Orbital ATK revealed their plans for the Next Generation Launcher, including the configuration and the intended business case. The Next Generation Launcher intends to make use of existing launch infrastructure at Kennedy Space Center (KSC), including the Vehicle Assembly Building used by the Space Shuttle, with the possibility of polar orbit launches occurring from Vandenberg Air Force Base. NASA began looking for commercial users to operate unused space within the Vehicle Assembly Building in June 2015, and by April 2016, it was announced that Orbital ATK was in negotiations to lease High Bay 2. Orbital ATK claimed that a minimum of 5-6 launches per year would be required to make the rocket profitable. Full development and introduction will be dependent on both demand and funding from the US Air Force. A final "go/no-go decision" to proceed with full development and introduction of the Next Generation Launcher took place in early 2018.
 
 In April 2017, Orbital ATK revealed that OmegA would be launched from pad 39B at KSC, sharing launch facilities and mobile transporter with the NASA Space Launch System (SLS). The rocket would compete for USAF national security launches and NASA missions. There would be multiple configurations of the launch system, with multiple stages.
 
@@ -9566,9 +9570,9 @@ In October 2018, OmegA was awarded a Launch Services Agreement worth $791,601,01
 
 In late May 2019, while conducting a static fire test of the first stage SRB, an anomaly occurred resulting in the destruction of the SRB nozzle (but not the stage itself). A thorough investigation revealed that the differential pressure between the nozzle's internal pressure and surface pressure following the static fire test was greater than expected; when thrust levels dropped below a critical point upon completion of the static fire, the outside air crushed the nozzle "in an instant, just like a soda can."
 
-In 2019, Northrop Grumman bid the OmegA launch vehicle to the US Air Force for the multi-year block buy launch contract that would cover all US national security launches in 2022–2026.
+In 2019, Northrop Grumman bid the OmegA launch vehicle to the US Air Force for the multi-year block buy launch contract that would cover all US national security launches in 2022-2026.
 
-In August 2020, the US Department of the Air Force announced the results of the approximately US$3.5 billion National Security Space Launch Phase 2 Launch Service Procurement, selecting only SpaceX and ULA to supply launches to the US Department of Defense in the 2022–2027 timeframe. NGIS OmegA was not selected. The contract type for the phase 2 contracts is new for US government launches as it will be a "firm-fixed-price, indefinite-delivery" type of launch contract and these contract awards are a part of "the transition of the national security launch program to take advantage of commercial innovation and private investments in launch vehicles." NGIS indicated they were "disappointed by the decision."The fate of the OmegA launch vehicle is unclear, as NGIS depended on the funding from the US military to develop the vehicle design to this point.
+In August 2020, the US Department of the Air Force announced the results of the approximately US$3.5 billion National Security Space Launch Phase 2 Launch Service Procurement, selecting only SpaceX and ULA to supply launches to the US Department of Defense in the 2022-2027 timeframe. NGIS OmegA was not selected. The contract type for the phase 2 contracts is new for US government launches as it will be a "firm-fixed-price, indefinite-delivery" type of launch contract and these contract awards are a part of "the transition of the national security launch program to take advantage of commercial innovation and private investments in launch vehicles." NGIS indicated they were "disappointed by the decision."The fate of the OmegA launch vehicle is unclear, as NGIS depended on the funding from the US military to develop the vehicle design to this point.
 
 The USAF announced on 7 August that they would wind down any remaining OmegA development contracts from phase 1, and may not pay out the entire maximum amount of the earlier 2019 contract to NGIS. The Air Force stated that they would work with NGIS "to determine the right point to tie off their work under the LSA agreements. ... The goal is not to carry them indefinitely, the point of an LSA was to create a more competitive environment."
 
@@ -9742,7 +9746,7 @@ The most numerous derivative of Pegasus is the booster for the Ground-based Midc
             '''
 The DARPA XS-1 was an experimental spaceplane/booster with the planned capability to deliver small satellites into orbit for the U.S. Military. It was reported to be designed to be reusable as frequently as once a day, with a stated goal of doing so for 10 days straight. The XS-1 was intended to directly replace the first stage of a multistage rocket by taking off vertically and flying to hypersonic speed and high suborbital altitude, enabling one or more expendable upper stages to separate and deploy a payload into low Earth orbit. The XS-1 would then return to Earth, where it could ostensibly be serviced fast enough to repeat the process at least once every 24 hours.
 
-The DARPA XS-1 program operated 2013–2020. After several years of refinement and proposals, in May 2017, DARPA selected Boeing for Phase 2/3 to build and test an XS-1 spacecraft (now called the Experimental Spaceplane program). At the time, test flights were scheduled to start no earlier than 2020. On 22 January 2020, it was announced that Boeing was ceasing its role in the program, effectively ending it.
+The DARPA XS-1 program operated 2013-2020. After several years of refinement and proposals, in May 2017, DARPA selected Boeing for Phase 2/3 to build and test an XS-1 spacecraft (now called the Experimental Spaceplane program). At the time, test flights were scheduled to start no earlier than 2020. On 22 January 2020, it was announced that Boeing was ceasing its role in the program, effectively ending it.
 
 The XS-1 program followed several previous failed attempts to develop a reusable space launch vehicle. The Rockwell X-30 in the 1980s and X-33 VentureStar in the 1990s never flew because of immature technologies. DARPA's last attempt was the Responsive Access, Small Cargo, Affordable Launch (RASCAL) program in the early 2000s with the goal of placing 300 lb (140 kg) payloads in orbit for less than $750,000.
 
@@ -9756,7 +9760,7 @@ In May 2017, DARPA selected Boeing for Phase 2/3 to build and test the XS-1 (now
 
 On 22 January 2020, DARPA announced that Boeing was pulling out of the XS-1 program "immediately" and effectively ending the program.
 
-The goals of the program as of September 2013 were: The space plane must carry a 3,000–5,000 lb (1,400–2,300 kg) payload to low Earth orbit for less than a cost of US$5 million per flight, at a rate of 10 or more flights per year; currently, launching that type of payload requires using an Orbital Sciences Corporation Minotaur IV expendable booster, priced at $55 million once per year.
+The goals of the program as of September 2013 were: The space plane must carry a 3,000-5,000 lb (1,400-2,300 kg) payload to low Earth orbit for less than a cost of US$5 million per flight, at a rate of 10 or more flights per year; currently, launching that type of payload requires using an Orbital Sciences Corporation Minotaur IV expendable booster, priced at $55 million once per year.
 
 -hypersonic flight to Mach 10 (12,250 km/h) or higher
 -fast one-day turnaround time, including flying 10 times in 10 days
@@ -9812,13 +9816,13 @@ The Boeing design was a vertical takeoff, horizontal landing (VTHL) craft called
 The NOTS-EV-1 Pilot, also known as NOTSNIK was an expendable launch system and anti-satellite weapon developed by the United States Navy's United States Naval Ordnance Test Station (NOTS). Ten were launched during July and August 1958, all of which failed. It was the first air-launched rocket to be used for an orbital launch attempt; however, none was recorded as having reached orbit. Following the first and third orbital launch attempts, a tracking station in New Zealand reported receiving weak signals from the spacecraft;[1] however, this was never confirmed,[3] and the launches were not catalogued as having reached orbit. The Pilot rocket was part of Project Pilot.
 
 Overview
-Two variants of the Pilot rocket were built; the Pilot-1, with battleship second to fifth stages, was used for ground-launched atmospheric tests from China Lake, and the Pilot-2, an air-launched version, was used for orbital launch attempts. Orbital launches were conducted from a stripped–down jet carrier aircraft, an F4D–1 Skyray, flying from Point Mugu Naval Air Station, and releasing the rocket over the Santa Barbara Channel Drop Zone. Of the ten launches, four were of Pilot-1s, and the rest Pilot-2s.[3]
+Two variants of the Pilot rocket were built; the Pilot-1, with battleship second to fifth stages, was used for ground-launched atmospheric tests from China Lake, and the Pilot-2, an air-launched version, was used for orbital launch attempts. Orbital launches were conducted from a stripped-down jet carrier aircraft, an F4D-1 Skyray, flying from Point Mugu Naval Air Station, and releasing the rocket over the Santa Barbara Channel Drop Zone. Of the ten launches, four were of Pilot-1s, and the rest Pilot-2s.[3]
 
-The first air–launch was performed on 25 July 1958 by NOTS research pilot William West, a career US Navy officer. The flight originated from China Lake's airstrip at Inyokern. The jet fighter was placed into a steep climb. The rocket released automatically at 41,000 feet, and three seconds later the first two HOTROCs ignited. The pilot was distracted during this time–the sudden release of weight had flipped his aircraft into a tumble. In mid–crisis, West looked up and saw what he thought was the vehicle exploding. He reported it that way, but John Nicolaides (director of the Navy's space program in Washington D.C.) later determined that the "explosion" was the plume from the rocket's motors as the exhaust expanded in the thin atmosphere. However, when ground control heard the report of the "explosion", it ordered the ground tracking stations (approximately six in number) around the world to stand down. Thus only one station (at Christchurch NZ) remained on the air; it heard a beeping in the right place at the right time. However, the signal was not repeated, so the shot was declared a failure.
+The first air-launch was performed on 25 July 1958 by NOTS research pilot William West, a career US Navy officer. The flight originated from China Lake's airstrip at Inyokern. The jet fighter was placed into a steep climb. The rocket released automatically at 41,000 feet, and three seconds later the first two HOTROCs ignited. The pilot was distracted during this time-the sudden release of weight had flipped his aircraft into a tumble. In mid-crisis, West looked up and saw what he thought was the vehicle exploding. He reported it that way, but John Nicolaides (director of the Navy's space program in Washington D.C.) later determined that the "explosion" was the plume from the rocket's motors as the exhaust expanded in the thin atmosphere. However, when ground control heard the report of the "explosion", it ordered the ground tracking stations (approximately six in number) around the world to stand down. Thus only one station (at Christchurch NZ) remained on the air; it heard a beeping in the right place at the right time. However, the signal was not repeated, so the shot was declared a failure.
 
-The second air–launch, in August, ended in a HOTROC explosion. The third air–launch, on 22 August, was again ambiguous: radio contact with the ground was lost during the second–stage burn, but the rocket appeared on film, departing over the horizon. The tracking station at Christchurch reported signals at the predicted times during the first and third orbital windows, but no further signal was received, so the mission was also declared a failure. (The Navy initially reported a successful launch to the White House, but following the loss of signal no public acknowledgement of the mission was issued).
+The second air-launch, in August, ended in a HOTROC explosion. The third air-launch, on 22 August, was again ambiguous: radio contact with the ground was lost during the second-stage burn, but the rocket appeared on film, departing over the horizon. The tracking station at Christchurch reported signals at the predicted times during the first and third orbital windows, but no further signal was received, so the mission was also declared a failure. (The Navy initially reported a successful launch to the White House, but following the loss of signal no public acknowledgement of the mission was issued).
 
-Project Pilot was cancelled in August 1958, and replaced by the NOTS-EV-2 Caleb; The project remained classified until 1994. Following this series of tests, and the follow-on Caleb program being riddled with multiple failures, US Secretary of Defense Robert McNamara decided to terminate the Navy's space program and assign all responsibility to the US Air Force. The Air Force mounted one further air–launch program in the mid-1980s, an anti–satellite missile launch system based on an F–15.
+Project Pilot was cancelled in August 1958, and replaced by the NOTS-EV-2 Caleb; The project remained classified until 1994. Following this series of tests, and the follow-on Caleb program being riddled with multiple failures, US Secretary of Defense Robert McNamara decided to terminate the Navy's space program and assign all responsibility to the US Air Force. The Air Force mounted one further air-launch program in the mid-1980s, an anti-satellite missile launch system based on an F-15.
 
 
             '''
@@ -9964,7 +9968,7 @@ On 13 April 2015, the Space Foundation awarded the X-37 team with the 2015 Space
         "Image": "MercuryRedstone.png",
        "Additional Information":
             '''
-The Mercury-Redstone Launch Vehicle, designed for NASA's Project Mercury, was the first American crewed space booster. It was used for six sub-orbital Mercury flights from 1960–61; culminating with the launch of the first, and 11 weeks later, the second American (and the second and third humans) in space. The four subsequent Mercury human spaceflights used the more powerful Atlas booster to enter low Earth orbit.
+The Mercury-Redstone Launch Vehicle, designed for NASA's Project Mercury, was the first American crewed space booster. It was used for six sub-orbital Mercury flights from 1960-61; culminating with the launch of the first, and 11 weeks later, the second American (and the second and third humans) in space. The four subsequent Mercury human spaceflights used the more powerful Atlas booster to enter low Earth orbit.
 
 A member of the Redstone rocket family, it was derived from the U.S. Army's Redstone ballistic missile and the first stage of the related Jupiter-C launch vehicle; but to human-rate it, the structure and systems were modified to improve safety and reliability.
 
@@ -10119,7 +10123,7 @@ The American public was happy and relieved that America had finally managed to l
             '''
 The Sparta was a three-stage rocket that launched Australia's first Earth satellite, WRESAT, on 29 November 1967.
 
-Sparta used a surplus American Redstone as its first stage, an Antares-2 as a second stage, and a BE-3 as a third stage. Several Spartas were launched from 1966–67 from Woomera Test Range in Woomera, South Australia as part of a joint United States–United Kingdom–Australian research program aimed at understanding re-entry phenomena, and the U.S. donated a spare for the scientific satellite launch into polar orbit.
+Sparta used a surplus American Redstone as its first stage, an Antares-2 as a second stage, and a BE-3 as a third stage. Several Spartas were launched from 1966-67 from Woomera Test Range in Woomera, South Australia as part of a joint United States-United Kingdom-Australian research program aimed at understanding re-entry phenomena, and the U.S. donated a spare for the scientific satellite launch into polar orbit.
 
 The first stage was recovered from the Simpson Desert in 1990 after being found in searches by explorer Dick Smith the previous year.
             '''
@@ -10209,7 +10213,7 @@ As the parties continued discussions over the next week an agreement was hammere
 Selecting the upper stages
 In July 1959, a change request was received from ARPA to upgrade the upper stage to a much more powerful design using four new 20,000 lbf (89 kN) liquid hydrogen / liquid oxygen powered engines in a larger-diameter 160-inch (4.1 m) second stage, with an upgraded Centaur using two engines of the same design for the third stage. On this change Medaris noted:
 
-For reasons of economy we had recommended, and it had been approved, that in building the second stage, we would use the same diameter as the Titan first stage – 120 inches. The major costs of tooling for the fabrication of missile tanks and the main structure is related to the diameter. Changes in length cost little or nothing in tooling. How the tanks are divided internally, or the structure reinforced inside, or the kind of structural detail that is used at the end in order to attach the structure to a big booster below, or to a different size stage above, have very little effect on tooling problems. However, a change in diameter sets up a major question of tools, costs, and time.
+For reasons of economy we had recommended, and it had been approved, that in building the second stage, we would use the same diameter as the Titan first stage - 120 inches. The major costs of tooling for the fabrication of missile tanks and the main structure is related to the diameter. Changes in length cost little or nothing in tooling. How the tanks are divided internally, or the structure reinforced inside, or the kind of structural detail that is used at the end in order to attach the structure to a big booster below, or to a different size stage above, have very little effect on tooling problems. However, a change in diameter sets up a major question of tools, costs, and time.
 Suddenly, out of the blue came a directive to suspend work on the second stage, and a request for a whole new series of cost and time estimates, including consideration of increasing the second stage diameter to 160 inches. It appeared that Dr. York had entered the scene, and had pointed up the future requirements of Dynasoar as being incompatible with the 120-inch diameter. He had posed the question of whether it was possible for the Saturn to be so designed as to permit it to be the booster for that Air Force project.
 We were shocked and stunned. This was no new problem, and we could find no reason why it should not have been considered, if necessary, during the time that the Department of Defense and NASA were debating the whole question of what kind of upper stages we should use. Nevertheless, we very speedily went about the job of estimating the project on the basis of accepting the 160-inch diameter. At the same time, it was requested that we submit quotations for a complete operational program to boost the Dynasoar for a given number of flights. As usual, we were given two or three numbers, rather than one fixed quantity, and asked to estimate on each of them.
 In order to reach some sort of accommodation, a group pulled from NASA, Air Force, ARPA, ABMA, and the Office of the Department of Defense Research and Engineering formed under the Silverstein Committee in December. von Braun was skeptical of liquid hydrogen as an upper stage fuel, but the Committee convinced him that it was the way to go on future upper stage development. Once these changes had been made, NASA's booster project was now entirely free of any dependence on military developments. At that point any sort of upper stage was fair game, and "If these propellants are to be accepted for the difficult top-stage applications", the committee concluded, "there seem to be no valid engineering reasons for not accepting the use of high-energy propellants for the less difficult application to intermediate stages".
@@ -10286,7 +10290,7 @@ By sharing the S-IVB upper stage, the Saturn IB and Saturn V provided a common i
 
 The Saturn IB launched two uncrewed CSM suborbital flights to a height of 162km, one uncrewed LM orbital flight, and the first crewed CSM orbital mission (first planned as Apollo 1, later flown as Apollo 7). It also launched one orbital mission, AS-203, without a payload so the S-IVB would have residual liquid hydrogen fuel. This mission supported the design of the restartable version of the S-IVB used in the Saturn V, by observing the behavior of the liquid hydrogen in weightlessness.
 
-In 1973, the year after the Apollo lunar program ended, three Apollo CSM/Saturn IBs ferried crews to the Skylab space station. In 1975, one last Apollo/Saturn IB launched the Apollo portion of the joint US-USSR Apollo–Soyuz Test Project (ASTP). A backup Apollo CSM/Saturn IB was assembled and made ready for a Skylab rescue mission, but never flown.
+In 1973, the year after the Apollo lunar program ended, three Apollo CSM/Saturn IBs ferried crews to the Skylab space station. In 1975, one last Apollo/Saturn IB launched the Apollo portion of the joint US-USSR Apollo-Soyuz Test Project (ASTP). A backup Apollo CSM/Saturn IB was assembled and made ready for a Skylab rescue mission, but never flown.
 
 The remaining Saturn IBs in NASA's inventory were scrapped after the ASTP mission, as no use could be found for them and all heavy lift needs of the US space program could be serviced by the cheaper and more versatile Titan III family.
 
@@ -10440,7 +10444,7 @@ Space Shuttle components include the Orbiter Vehicle (OV) with three clustered R
 
 The first orbiter, Enterprise, was built in 1976, used in Approach and Landing Tests and has no orbital capability. Four fully operational orbiters were initially built: Columbia, Challenger, Discovery, and Atlantis. Of these, two were lost in mission accidents: Challenger in 1986 and Columbia in 2003, with a total of fourteen astronauts killed. A fifth operational (and sixth in total) orbiter, Endeavour, was built in 1991 to replace Challenger. The Space Shuttle was retired from service upon the conclusion of Atlantis's final flight on July 21, 2011. The U.S. relied on the Russian Soyuz spacecraft to transport astronauts to the International Space Station from the last Shuttle flight until the first Commercial Crew Development launch on May 30, 2020.
 
-During the 1950s, the United States Air Force proposed using a reusable piloted glider to perform military operations such as reconnaissance, satellite attack, and air-to-ground weapons employment. In the late 1950s, the Air Force began developing the partially reusable X-20 Dyna-Soar. The Air Force collaborated with NASA on the Dyna-Soar, and began training six pilots in June 1961. The rising costs of development and the prioritization of Project Gemini led to the cancellation of the Dyna-Soar program in December 1963. In addition to the Dyna-Soar, the Air Force had conducted a study in 1957 to test the feasibility of reusable boosters. This became the basis for the aerospaceplane, a fully reusable spacecraft that was never developed beyond the initial design phase in 1962–1963.
+During the 1950s, the United States Air Force proposed using a reusable piloted glider to perform military operations such as reconnaissance, satellite attack, and air-to-ground weapons employment. In the late 1950s, the Air Force began developing the partially reusable X-20 Dyna-Soar. The Air Force collaborated with NASA on the Dyna-Soar, and began training six pilots in June 1961. The rising costs of development and the prioritization of Project Gemini led to the cancellation of the Dyna-Soar program in December 1963. In addition to the Dyna-Soar, the Air Force had conducted a study in 1957 to test the feasibility of reusable boosters. This became the basis for the aerospaceplane, a fully reusable spacecraft that was never developed beyond the initial design phase in 1962-1963.
 
 Beginning in the early 1950s, NASA and the Air Force collaborated on developing lifting bodies to test aircraft that primarily generated lift from their fuselages instead of wings, and tested the M2-F1, M2-F2, M2-F3, HL-10, X-24A, and the X-24B. The program tested aerodynamic characteristics that would later be incorporated in design of the Space Shuttle, including unpowered landing from a high altitude and speed.
 
@@ -10480,41 +10484,53 @@ See https://en.wikipedia.org/wiki/Space_Shuttle for more detailed information.
         "Name": "Falcon 1",
         "Agency": "SpaceX",
         "Manufacturer": "SpaceX",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Class": "Light",
+        "Payload Capacity to LEO": "670 kg (1,480 lbs)",
+        "payload_int": 670,
+        "Height": "21 m (68 ft)",
+        "height_int": 21,
+        "Diameter": "1.7 m (5.5 ft)",
+        "diameter_int": 1.7,
+        "Mass": "28,000 kg (61,000 lb)",
+        "mass_int": 28000,
+        "Years in Operation": "2006-2009",
+        "firstyear_int": 2006,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "2",
+        "Burn Time": "S1: 169 sec, S2: 378 sec",
+        "total_burntime_int": 547,
+        "Thrust": "S1: 450 kN, S2: 31 kN",
+        "initial_thrust_int": 450,
+        "ISP": "S1: 255 sec, S2: 327 sec",
+        "asl_isp_int": 255,
+        "vac_isp_int": 327,
+        "Cost Per Launch": "$8,005,338",
+        "cost_int": 8005338,
+        "Fuel Type": "S1: RP-1/LOX, S2: RP-1/LOX",
+        "Total Launches": "5",
+        "total_launches_int": 5,
+        "Successful Launches": "2",
+        "successful_launches_int": 2,
+        "Launch Failures": "3",
+        "failed_launches_int": 3,
+        "Image": "Falcon-1.png",
        "Additional Information":
             '''
-    
+The Falcon 1 was an expendable launch system privately developed and manufactured by SpaceX during 2006–2009. On 28 September 2008, Falcon 1 became the first privately-developed liquid-fuel launch vehicle to go into orbit around the Earth.
+
+The two-stage-to-orbit rocket used LOX/RP-1 for both stages, the first powered by a single Merlin engine and the second powered by a single Kestrel engine. It was designed by SpaceX from the ground up.
+
+The vehicle was launched a total of five times. Falcon 1 achieved orbit on its fourth attempt, in September 2008 with a mass simulator as a payload. On 14 July 2009, Falcon 1 made its final flight and successfully delivered the Malaysian RazakSAT satellite to orbit on SpaceX's first commercial launch (fifth launch overall). Following its fifth launch, the Falcon 1 was retired and succeeded by Falcon 9.
+
+SpaceX had announced an enhanced variant, the Falcon 1e, but development was stopped in favor of Falcon 9.
+
+The Falcon 1 rocket was developed with private funding. The only other orbital launch vehicles to be privately funded and developed were the Conestoga in 1982 and Pegasus, first launched in 1990; which uses a large aircraft as its first stage.
+
+The total development cost of Falcon 1 was approximately US$90 million.
+
+While the development of Falcon 1 was privately funded, the first two Falcon 1 launches were purchased by the United States Department of Defense under a program that evaluates new US launch vehicles suitable for use by DARPA.
             '''
 
     },
@@ -10524,41 +10540,47 @@ See https://en.wikipedia.org/wiki/Space_Shuttle for more detailed information.
         "Name": "Falcon 1e",
         "Agency": "SpaceX",
         "Manufacturer": "SpaceX",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Class": "N/A",
+        "Payload Capacity to LEO": "N/A",
+        "payload_int": None,
+        "Height": "N/A",
+        "height_int": None,
+        "Diameter": "1.7 m",
+        "diameter_int": 1.7,
+        "Mass": "N/A",
+        "mass_int": None,
+        "Years in Operation": "N/A",
+        "firstyear_int": None,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Canceled",
+        "Number of Stages": "2",
+        "Burn Time": "N/A",
+        "total_burntime_int": None,
+        "Thrust": "N/A",
+        "initial_thrust_int": None,
+        "ISP": "N/A",
+        "asl_isp_int": None,
+        "vac_isp_int": None,
+        "Cost Per Launch": "N/A",
+        "cost_int": None,
+        "Fuel Type": "RP-1/LOX",
+        "Total Launches": "0",
+        "total_launches_int": 0,
+        "Successful Launches": "0",
+        "successful_launches_int": 0,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
+        "Image": "Falcon1e.png",
        "Additional Information":
             '''
-    
+The Falcon 1e was a proposed upgrade of the SpaceX Falcon 1. The Falcon 1e would have featured a larger first stage with a higher thrust engine, an upgraded second stage engine, a larger payload fairing, and was intended to be partially reusable. Its first launch was planned for mid-2011, but the Falcon 1 and Falcon 1e were withdrawn from the market, with SpaceX citing "limited demand," before its debut. Payloads that would have flown on the Falcon 1 were instead to be flown on the Falcon 9 using excess capacity.
+
+The Falcon 1e was to be 6.1 m (20 ft) longer than the Falcon 1, with an overall length of 27.4 m (90 ft), but with the same 1.68 m (5 ft 6 in) diameter. Its first stage had a dry mass of 2,580 kg (5,680 lb), and was powered by an upgraded pump-fed Merlin 1C engine burning 39,000 kg (87,000 lb) of RP-1 and liquid oxygen. The first stage burn time was around 169 seconds. The second stage had a dry mass of 540 kg (1,200 lb) and its pressure-fed Kestrel 2 engine burned 4,000 kg (8,900 lb) of propellant. The restartable Kestrel 2 could burn for up to a total of 418 seconds.
+
+The Falcon 1e planned to use Aluminum Lithium alloy 2195 in the second stage, a change from the 2014 Aluminum used in the Falcon 1 second stages.
+
+Falcon 1e launches were intended to occur from Omelek Island, part of Kwajalein Atoll in the Marshall Islands, and from Cape Canaveral, however SpaceX had announced that they would consider other locations as long as there is a "business case for establishing the requested launch site". Following a demonstration flight, the Falcon 1e was intended to make a series of launches carrying Orbcomm O2G spacecraft, with a total of eighteen satellites being launched, several per rocket. EADS Astrium had been responsible for marketing the Falcon 1e in Europe.
             '''
 
     },
@@ -10568,41 +10590,47 @@ See https://en.wikipedia.org/wiki/Space_Shuttle for more detailed information.
         "Name": "Falcon 5",
         "Agency": "SpaceX",
         "Manufacturer": "SpaceX",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Class": "N/A",
+        "Payload Capacity to LEO": "N/A",
+        "payload_int": None,
+        "Height": "N/A",
+        "height_int": None,
+        "Diameter": "N/A",
+        "diameter_int": None,
+        "Mass": "N/A",
+        "mass_int": None,
+        "Years in Operation": "N/A",
+        "firstyear_int": None,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Canceled",
+        "Number of Stages": "2",
+        "Burn Time": "N/A",
+        "total_burntime_int": None,
+        "Thrust": "N/A",
+        "initial_thrust_int": None,
+        "ISP": "N/A",
+        "asl_isp_int": None,
+        "vac_isp_int": None,
+        "Cost Per Launch": "N/A",
+        "cost_int": None,
+        "Fuel Type": "RP-1/LOX",
+        "Total Launches": "0",
+        "total_launches_int": 0,
+        "Successful Launches": "0",
+        "successful_launches_int": 0,
+        "Launch Failures": "0",
+        "failed_launches_int": 0,
+        "Image": "Falcon5.png",
        "Additional Information":
             '''
-    
+The Falcon 5 was a proposed two-stage-to-orbit partially reusable launch vehicle designed by SpaceX, since canceled in preference of the larger, more powerful Falcon 9.
+
+The first stage of Falcon 5 was to be powered by five Merlin engines and the upper stage by one Merlin engine, both burning RP-1 with a liquid oxygen oxidizer. Along with the Falcon 9, it would have been the world's only launch vehicle with its first stage designed for reuse.
+
+The Falcon 5 would have been the first American rocket since the Saturn V to have full engine out capability, meaning that with the loss of one engine, it can still meet mission requirements by burning the other four engines longer to achieve the correct orbit. In comparison, the Space Shuttle only had partial engine out capability, meaning it was not able to achieve proper orbit by burning the remaining engines longer.
+
+In 2006, SpaceX stated that the Falcon 5 was a Falcon 9 with four engines removed. Since the launchers were being co-developed, work on the Falcon 9 was also applicable to the Falcon 5.
             '''
 
     },
@@ -11356,44 +11384,48 @@ The Thor-Delta launched a number of significant payloads, including the first co
 
     "Delta L": {
 
-        "Name": "",
+        "Name": "Thor Delta L",
         "Agency": "",
         "Manufacturer": "",        
-        "Class": "",
-        "Payload Capacity to LEO": "",
-        "payload_int": "",
-        "Height": "",
-        "height_int": "",
-        "Diameter": "",
-        "diameter_int": "",
-        "Mass": "",
-        "mass_int": "",
-        "Years in Operation": "",
-        "firstyear_int": "",
+        "Class": "Light",
+        "Payload Capacity to LEO": "300 kg (660 lbs)",
+        "payload_int": 300,
+        "Height": "35 m (114 ft)",
+        "height_int": 35,
+        "Diameter": "2.44 m (8 ft)",
+        "diameter_int": 2.44,
+        "Mass": "89,935 kg (198,272 lbs)",
+        "mass_int": 89935,
+        "Years in Operation": "1969-1972",
+        "firstyear_int": 1969,
         "Country": "USA",
         "flag_icon": "flags/usa.png",
-        "Operational Status": "",
-        "Number of Stages": "",
-        "Burn Time": "",
-        "total_burntime_int": "",
-        "Thrust": "",
-        "initial_thrust_int": "",
-        "ISP": "",
-        "asl_isp_int": "",
-        "vac_isp_int": "",
-        "Cost Per Launch": "",
-        "cost_int": "",
-        "Fuel Type": "",
-        "Total Launches": "",
-        "total_launches_int": "",
-        "Successful Launches": "",
-        "successful_launches_int": "",
-        "Launch Failures": "",
-        "failed_launches_int": "",
-        "Image": "",
+        "Operational Status": "Retired",
+        "Number of Stages": "3",
+        "Burn Time": "S1: 37 sec, S2: 215 sec, S3: 400 sec, S4: 31 sec",
+        "total_burntime_int": 646,
+        "Thrust": "S1:  1,452 kN (Boostersx3@258.9 kN each + 866 kN core), S2: 35 kN, S3: 24.9 kN",
+        "initial_thrust_int": 1452,
+        "ISP": "Boosters: 232 sec, S1: 290 sec, S2: 278 sec, S3: 250 sec",
+        "asl_isp_int": 261,
+        "vac_isp_int": 264,
+        "Cost Per Launch": "$39,953,937",
+        "cost_int": 39953937,
+        "Fuel Type": "S1: Solid, S2: RP-1/LOX, S3: Nitric acid/UDMH, S4: Solid",
+        "Total Launches": "2",
+        "total_launches_int": 2,
+        "Successful Launches": "1",
+        "successful_launches_int": 1,
+        "Launch Failures": "1",
+        "failed_launches_int": 1,
+        "Image": "Delta-L.png",
        "Additional Information":
             '''
-    
+The Delta L, Thor-Delta L, or Thrust-Augmented Long Tank Thor-Delta was a US expendable launch system used to launch the Pioneer E and TETR satellites in 1969 (failed) and HEOS satellite in 1972. It was a member of the Delta family of rockets.
+
+The Delta L was a three-stage rocket. The first stage was a Long Tank Thor, a stretched version of the Thor missile, augmented by three Castor-2 solid rocket boosters. The second stage was the Delta E. An FW-1D solid rocket motor was used as the third stage.
+
+The first launch of the Delta L took place on 27 August 1969, from Launch Complex 17A at the Cape Canaveral Air Force Station. A defective valve caused plumbing in the hydraulics system to rupture and leak fluid, causing first stage engine gimbaling to fail around 2-1/2 minutes into launch. The stage completed its burn successfully, but threw the second stage far off course. Orbital velocity could not be achieved and Range Safety sent the destruct command at T+383 seconds. Neither the Pioneer E nor the TETR payloads achieved orbit. The second, and final, Delta L launch was from Space Launch Complex 2E at the Vandenberg Air Force Base, on 31 January 1972. It successfully placed the HEOS-2 satellite into a highly elliptical orbit.
             '''
 
     },
@@ -12012,7 +12044,7 @@ In October 2019, the company announced plans to develop a three-stage variant th
 Engines
 Originally, in 2012, the second stage was to be powered by NewtonOne, a 16 kilonewtons (3,500 lbf) thrust engine. It was originally intended that the first stage will be powered by a scaled-up design of the same basic technology as NewtonOne, called NewtonTwo, with 211 kilonewtons (47,500 lbf) of thrust. Both engines had been designed by early 2014, and first articles had been built. NewtonOne was tested up to a full-duration burn of five minutes. NewtonTwo made several short-duration firings by early 2014. Ultimately, however, neither NewtonOne nor NewtonTwo would be used on LauncherOne.
 
-As of 2015, NewtonThree was to be a 260–335 kilonewtons (58,000–75,000 lbf)-thrust engine, and began hot-fire testing by March 2015. In June 2015, reports suggested that a NewtonThree would power the first stage of LauncherOne.
+As of 2015, NewtonThree was to be a 260-335 kilonewtons (58,000-75,000 lbf)-thrust engine, and began hot-fire testing by March 2015. In June 2015, reports suggested that a NewtonThree would power the first stage of LauncherOne.
 
 By December 2015, Virgin had settled on a design where the first stage would utilize the larger NewtonThree engine on the booster stage, while the NewtonFour engine would power the second stage, and this was confirmed in June 2018 as Virgin Orbit readied for the start of the flight test campaign in the second half of 2018. NewtonThree generate 326.8 kilonewtons (73,500 lbf) of thrust while NewtonFour deliver 26.5 kN (6,000 lbf) to the second stage.
 
@@ -12341,10 +12373,10 @@ Titan 23B
 Titan 23B used the basic Titan 3A core with an Agena D upper stage. The Titan 23B was launched from SLC-4W at Vandenberg AFB, Calif. Its main payload was the GAMBIT (KH-8 reconnaissance) satellites, although the final two 23B vehicles carried Jumpseat SIGNIT satellites and had some minor upper stage modifications for them. 33 flights were made from 1966 to 1971, with one failure.
 
 Titan 24B
-The Titan 24B differed from the Titan 23B in that the Titan IIIM core with extended propellant tanks was used in place of the original Titan II core. The payload remained attached to the Agena stage. 23 flights took place from 1971–84, with two failures.
+The Titan 24B differed from the Titan 23B in that the Titan IIIM core with extended propellant tanks was used in place of the original Titan II core. The payload remained attached to the Agena stage. 23 flights took place from 1971-84, with two failures.
 
 Titan 33B
-The Titan 33B was a Titan 23B with the entire Agena and payload completely enclosed in a shroud. It flew only three times (1971–73) with one failure and was used to launch Jumpseat satellites.
+The Titan 33B was a Titan 23B with the entire Agena and payload completely enclosed in a shroud. It flew only three times (1971-73) with one failure and was used to launch Jumpseat satellites.
 
 Titan 34B
 The Titan 34B was a Titan 24B, modified by the addition of the larger fairing used on the Titan 33B. 23 were launched in 1971-87 with two failures. All launches consisted of KH-8 satellites.
@@ -12574,7 +12606,7 @@ The Titan IV was the last of the Titan family of rockets, originally developed b
 
 Two Titan IV vehicles are currently on display at the National Museum of the United States Air Force in Dayton, Ohio and the Evergreen Aviation and Space Museum in McMinnville, Oregon.
 
-The Titan IV was developed to provide assured capability to launch Space Shuttle–class payloads for the Air Force. The Titan IV could be launched with no upper stage, the Inertial Upper Stage (IUS), or the Centaur upper stage.
+The Titan IV was developed to provide assured capability to launch Space Shuttle-class payloads for the Air Force. The Titan IV could be launched with no upper stage, the Inertial Upper Stage (IUS), or the Centaur upper stage.
 
 The Titan IV was made up of two large solid-fuel rocket boosters and a two-stage liquid-fueled core. The two storable liquid fuel core stages used Aerozine 50 fuel and nitrogen tetroxide oxidizer. These propellants are hypergolic (ignite on contact) and are liquids at room temperature, so no tank insulation is needed. This allowed the launcher to be stored in a ready state for extended periods, but both propellants are extremely toxic.
 
@@ -12602,8 +12634,8 @@ The post-Challenger program added Titan IV versions with the Inertial Upper Stag
 Program cost
 In 1990, the Titan IV Selected Acquisition Report estimated the total cost for the acquisition of 65 Titan IV vehicles over a period of 16 years to US$18.3 billion (inflation-adjusted US$ 35.8 billion in 2020).
 
-Cassini–Huygens launch
-In October 1997, a Titan IV-B rocket launched Cassini–Huygens, a pair of probes sent to Saturn. It was the only use of a Titan IV for a non-Department of Defense launch. Huygens landed on Titan on January 14, 2005. Cassini remained in orbit around Saturn. The Cassini Mission ended on September 15, 2017 when the spacecraft was manoeuvered into Saturn's atmosphere to burn up.
+Cassini-Huygens launch
+In October 1997, a Titan IV-B rocket launched Cassini-Huygens, a pair of probes sent to Saturn. It was the only use of a Titan IV for a non-Department of Defense launch. Huygens landed on Titan on January 14, 2005. Cassini remained in orbit around Saturn. The Cassini Mission ended on September 15, 2017 when the spacecraft was manoeuvered into Saturn's atmosphere to burn up.
 
 Retirement
 While an improvement over the shuttle, the Titan IV was expensive and unreliable. By the 1990s, there were also growing safety concerns over its toxic propellants. The Evolved Expendable Launch Vehicle (EELV) program resulted in the development of the Atlas V, Delta IV, and Delta IV Heavy launch vehicles, which replaced Titan IV and a number of other legacy launch systems. The new EELVs eliminated the use of hypergolic propellants, reduced costs, and are much more versatile than the legacy vehicles.
@@ -12657,7 +12689,7 @@ The Vanguard rocket was intended to be the first launch vehicle the United State
 
 Vanguard rockets were used by Project Vanguard from 1957 to 1959. Of the eleven Vanguard rockets which the project attempted to launch, three successfully placed satellites into orbit. Vanguard rockets were an important part of the Space Race between the United States and the Soviet Union.
 
-In 1955, the United States announced plans to put a scientific satellite in orbit for the International Geophysical Year (IGY) in 1957–1958. The goal was to track the satellite as it performed experiments. At that time, there were three candidates for the launch vehicle: The Air Force's SM-65 Atlas, a derivative of the Army Ballistic Missile Agency's SSM-A-14 Redstone, and a Navy proposal for a three-stage rocket based on the RTV-N-12a Viking sounding rocket.
+In 1955, the United States announced plans to put a scientific satellite in orbit for the International Geophysical Year (IGY) in 1957-1958. The goal was to track the satellite as it performed experiments. At that time, there were three candidates for the launch vehicle: The Air Force's SM-65 Atlas, a derivative of the Army Ballistic Missile Agency's SSM-A-14 Redstone, and a Navy proposal for a three-stage rocket based on the RTV-N-12a Viking sounding rocket.
 
 The RAND Corporation, Air Force and CIA had long pursued the idea of a reconnaissance satellite. Such a program was under way, Weapon System 117L, which was top secret compartmented. One problem with reconnaissance was the question of legality: Was there "freedom of space" or did a nation's airspace end when space is entered? The National Security Council backed the IGY satellite because it would make good cover for WS117L and set a precedent of freedom of space peaceful civilian satellite. At the same time the NSC stressed that the IGY satellite must not interfere with military programs. The Army's Redstone-based proposal would likely be the first one ready for a satellite launch. Its connection with German-born scientist Wernher von Braun, however, was a public-relations risk. In any case, the Atlas and Redstone ballistic missiles were top-priority military projects, which were not to be hindered by pursuing a secondary space launch mission. Milton Rosen's Vanguard was a project at the Naval Research Laboratory (NRL), which was regarded more as a scientific than a military organization. Rosen and Richard Porter (IGY satellite chief and head of the American Rocket Society) both lobbied for the Vanguard and against using the Atlas or von Braun's rockets. They emphasized the non-military goals of the satellite program. Besides the public-relations aspect, a non-military satellite was considered important, because a discussion of whether overflights of foreign countries by satellites were legal or illegal was to be avoided.
 
@@ -12781,7 +12813,7 @@ Vector used on-site payload integration for the early launches. However it was e
         "Image": "vulcancentaur.png",
        "Additional Information":
             '''
-Vulcan Centaur is a two-stage-to-orbit heavy-lift launch vehicle under development 2014–2020 by United Launch Alliance (ULA), principally funded through National Security Space Launch (NSSL) competition and launch program, to meet the demands of the United States Air Force and US national security satellite launches.
+Vulcan Centaur is a two-stage-to-orbit heavy-lift launch vehicle under development 2014-2020 by United Launch Alliance (ULA), principally funded through National Security Space Launch (NSSL) competition and launch program, to meet the demands of the United States Air Force and US national security satellite launches.
 
 The maiden flight is planned to take place in July 2021, launching Astrobotic's Peregrine lunar lander.
 
